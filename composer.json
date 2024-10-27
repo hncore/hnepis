@@ -1,0 +1,24 @@
+{
+    "name": "hncore/hnmgepis",
+    "type": "wordpress-plugin",
+    "description": "Manager Episode",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HauN",
+            "email": "haunytb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HNMG\\": "src/"
+        }
+    },
+    "extra": {
+        "acorn": {
+            "providers": [
+                "HNMG\\Providers\\EpisServiceProvider"
+            ]
+        }
+    }
+}

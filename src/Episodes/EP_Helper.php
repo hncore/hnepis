@@ -372,6 +372,13 @@ class EP_Helper {
 			echo '<button class="py-1 px-4 text-xs cursor-default font-bold text-center text-white rounded-full mb-2 md:mb-0 bg-green-600">' .ucwords(get_post_status($postid)). '</button>';
 		endif;
 	}
+	
+	public static function compress_htmlcode($codedata) {
+		$searchdata = array('/\>[^\S ]+/s','/[^\S ]+\</s','/(\s)+/s');
+		$replacedata = array('>','<','\\1');
+		$codedata = preg_replace($searchdata, $replacedata, $codedata);
+		return $codedata;
+	}
 }
 
 ?>

@@ -87,7 +87,7 @@ class EP_Episode {
 		$input = array();
 		
 		if($svname) {
-			$epslug = hnmanager_value(HNMG_OPTION, 'haun_episode_url', 'ep');
+			$epslug = hnmg_value('haun_episode_url', 'ep');
 			foreach ($svname as $key => $value) {
 				$serverdata = [];
 				$serverdata['haunmovies_server_name'] = esc_attr($value ? $value : 'Server #' . $key);

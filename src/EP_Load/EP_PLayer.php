@@ -6,7 +6,7 @@ use HNMG\EP_Load\EP_Cache;
 use HNMG\EP_Load\EP_Getlink;
 use HNMG\EP_Load\EP_Helper;
 
-class EP_Player { 
+class EP_PLayer { 
 	public $cache;
 	public $getlink;
 	

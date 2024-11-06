@@ -1,58 +1,8 @@
 <?php
-namespace HNMG\EP_Load;
-
-use HNMG\EP_Load\EP_GetHost;
-
-class EP_Getlink {
-	
-	public function init($url = null){
-        $this->set_url($url);
-        $this->load_host();
-    }
-	
-    public function set_url($url){
-        $this->_url = $url;
-    }
-	
-    public function get_url(){
-        return $this->_url;
-    }
-
-    public function load_host(){
-		if(isset($this->_url)){
-            $info = parse_url($this->_url);
-            $host = isset($info['host']) ? $info['host'] : 'default';
-            $host = str_replace('www.', '', $host);
-            if(file_exists(get_template_directory() . 'app/Player/haun-' . $host . '.php')){
-                include_once get_template_directory() . 'app/Player/haun-' . $host . '.php';
-                $class_name =  'haun_' . str_replace(array('-', '.'), '_', $host);
-                $this->host = new $class_name;
-            } else {
-                $this->host = new EP_GetHost();
-            }
-        }
-    }
-
-    public function get_content($url) {
-		$args = array(
-			'headers' => array(
-				'Connection' => 'keep-alive',
-				'Keep-Alive' => '300',
-				'Accept-Charset' => 'ISO-8859-1,utf-8;q=0.7,*;q=0.7',
-				'Accept-Language' => 'en-us,en;q=0.5',
-				'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36',
-				'Referer' => 'https://google.com',
-			),
-			'timeout' => 60,
-			'sslverify' => false,
-			'redirection' => 5,
-		);
-		$response = wp_safe_remote_get($url, $args);
-		if (is_wp_error($response)) {
-			return ''; 
-		}
-		return wp_remote_retrieve_body($response);
-	}
-}
-
-?>
+/*   __________________________________________________
+    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
+    |          Telegram: https://t.me/haunytb         |
+    |    	   Url : https://haunytb.com    		  |
+    |_________________________________________________|
+*/
+ namespace HNMG\EP_Load; use HNMG\EP_Load\EP_GetHost; class EP_Getlink { public function init($url = null) { $this->set_url($url); $this->load_host(); } public function set_url($url) { $this->_url = $url; } public function get_url() { return $this->_url; } public function load_host() { goto dpS68; Mx15i: $info = parse_url($this->_url); goto s7Oq3; qXfpU: T0QFP: goto M8n7b; gOKaM: if (file_exists(get_template_directory() . "\141\x70\160\x2f\120\x6c\x61\171\x65\162\57\x68\141\x75\x6e\x2d" . $host . "\56\x70\150\x70")) { goto hCAhE; } goto o27ww; O5ujK: $class_name = "\150\x61\x75\x6e\x5f" . str_replace(array("\55", "\x2e"), "\x5f", $host); goto L8fB2; bpCfu: $host = str_replace("\167\x77\x77\56", '', $host); goto gOKaM; dpS68: if (!isset($this->_url)) { goto T0QFP; } goto Mx15i; Qccfk: hCAhE: goto Lqx0P; L8fB2: $this->host = new $class_name(); goto CcDGq; s7Oq3: $host = isset($info["\150\x6f\x73\x74"]) ? $info["\x68\157\163\x74"] : "\x64\x65\146\x61\x75\154\x74"; goto bpCfu; CcDGq: AA3OX: goto qXfpU; Lqx0P: include_once get_template_directory() . "\x61\160\x70\57\120\x6c\141\171\x65\x72\x2f\x68\141\165\x6e\x2d" . $host . "\x2e\160\150\x70"; goto O5ujK; o27ww: $this->host = new EP_GetHost(); goto Ki3XP; Ki3XP: goto AA3OX; goto Qccfk; M8n7b: } public function get_content($url) { goto d9zEH; M4SXs: $response = wp_safe_remote_get($url, $args); goto R11LO; TrSBx: return wp_remote_retrieve_body($response); goto JHy2w; d9zEH: $args = array("\x68\145\x61\x64\145\162\163" => array("\103\157\156\x6e\145\x63\164\151\157\156" => "\153\145\145\160\x2d\x61\x6c\x69\x76\145", "\113\145\x65\x70\55\x41\x6c\x69\x76\145" => "\x33\60\x30", "\101\x63\143\x65\160\164\55\x43\150\141\162\163\145\x74" => "\111\x53\117\55\x38\x38\65\x39\55\61\54\165\164\x66\55\70\x3b\161\75\x30\x2e\67\54\x2a\x3b\x71\x3d\60\x2e\67", "\101\x63\143\x65\160\x74\x2d\114\141\156\x67\x75\141\x67\x65" => "\x65\x6e\x2d\165\x73\x2c\145\156\73\161\x3d\x30\56\65", "\125\163\145\162\x2d\x41\x67\145\156\x74" => "\115\157\x7a\151\x6c\x6c\x61\x2f\65\56\x30\x20\50\127\151\156\x64\x6f\167\163\x20\116\x54\40\66\x2e\61\73\x20\127\x4f\x57\x36\x34\x29\x20\101\160\x70\154\x65\x57\x65\142\113\x69\164\x2f\x35\63\x37\x2e\63\66\40\50\113\x48\124\x4d\x4c\x2c\40\x6c\x69\x6b\145\x20\107\145\x63\x6b\157\51\40\x43\x68\x72\x6f\155\x65\x2f\x33\67\x2e\x30\56\x32\60\x36\x32\x2e\x31\x32\64\x20\x53\x61\146\x61\162\x69\x2f\65\63\67\x2e\63\66", "\122\x65\146\145\x72\x65\x72" => "\x68\x74\164\x70\163\x3a\x2f\57\147\x6f\157\147\x6c\x65\56\x63\x6f\x6d"), "\x74\x69\x6d\145\x6f\x75\164" => 60, "\163\x73\x6c\x76\145\x72\151\x66\171" => false, "\x72\x65\144\151\162\x65\143\164\151\x6f\x6e" => 5); goto M4SXs; R11LO: if (!is_wp_error($response)) { goto Wpv7a; } goto Y4KcQ; Y4KcQ: return ''; goto zdOeb; zdOeb: Wpv7a: goto TrSBx; JHy2w: } }

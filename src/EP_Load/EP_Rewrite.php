@@ -1,27 +1,8 @@
-<?php 
-namespace HNMG\EP_Load;
-
-class EP_Rewrite {
-
-    public function __construct() {
-        add_action('init', [$this, 'add_custom_rewrite_rules']);
-    }
-
-   public function add_custom_rewrite_rules() {
-		$base_path 		= strpos(get_template_directory(), 'app/themes') !== false ? 'app/themes' : 'wp-content/themes';
-		$urlpath		= $base_path . '/' . get_template() . '/vendor/hncore/hnmgepis/resources/assets';
-		$urlfont		= $base_path . '/' . get_template() . '/vendor/hncore/hnmgepis/vendor/fortawesome/font-awesome';
-		add_rewrite_rule('^hnmgplayer\.css$', "$urlpath/css/hnmgplayer.css", 'top');
-		add_rewrite_rule('^hnmgplayer\.js$', "$urlpath/js/hnmgplayer.js", 'top');
-		add_rewrite_rule('^jwplayer/vast\.js$', "$urlpath/jwplayer/vast.js", 'top');
-		add_rewrite_rule('^jwplayer/jwpsrv\.js$', "$urlpath/jwplayer/jwpsrv.js", 'top');
-		add_rewrite_rule('^font-awesome\.min\.css$', "$urlfont/css/font-awesome.min.css", 'top');
-		add_rewrite_rule('^jwplayer/provider\.hlsjs\.js$', "$urlpath/jwplayer/provider.hlsjs.js", 'top');
-		add_rewrite_rule('^jwplayer/translations/vi\.json$', "$urlpath/jwplayer/translations/vi.json", 'top');
-		add_rewrite_rule('^jwplayer/jwplayer\.core\.controls\.js$', "$urlpath/jwplayer/jwplayer.core.controls.js", 'top');
-		add_rewrite_rule('^jwplayer/jwplayer\.core\.controls\.html5\.js$', "$urlpath/jwplayer/jwplayer.core.controls.html5.js", 'top');
-		add_rewrite_rule('^fonts/fontawesome-webfont\.(woff2?|ttf|svg|eot)(\?.*)?$', "$urlfont/fonts/fontawesome-webfont.$1$2",'top');
-		flush_rewrite_rules();
-	}
-
-}
+<?php
+/*   __________________________________________________
+    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
+    |          Telegram: https://t.me/haunytb         |
+    |    	   Url : https://haunytb.com    		  |
+    |_________________________________________________|
+*/
+ namespace HNMG\EP_Load; class EP_Rewrite { public function __construct() { add_action("\x69\x6e\151\x74", [$this, "\x61\144\x64\137\x63\165\x73\164\157\155\137\162\145\x77\x72\151\164\145\x5f\x72\x75\154\x65\x73"]); } public function add_custom_rewrite_rules() { goto IYlYL; eYlZc: add_rewrite_rule("\x5e\x6a\x77\x70\x6c\x61\x79\145\x72\x2f\160\162\x6f\x76\x69\x64\145\x72\x5c\56\x68\x6c\163\x6a\x73\x5c\56\152\x73\x24", "{$urlpath}\x2f\152\x77\x70\x6c\x61\171\145\x72\57\x70\162\x6f\166\x69\144\145\162\x2e\150\x6c\163\152\x73\x2e\152\x73", "\x74\x6f\x70"); goto kL0DI; IYlYL: $base_path = strpos(get_template_directory(), "\141\x70\160\57\x74\x68\145\x6d\x65\x73") !== false ? "\141\x70\x70\57\x74\150\x65\x6d\x65\x73" : "\x77\160\55\x63\x6f\156\164\145\156\164\x2f\164\150\145\x6d\x65\163"; goto NB0A_; lcsP7: add_rewrite_rule("\x5e\x66\157\156\164\163\57\146\157\x6e\164\141\167\x65\163\157\155\x65\x2d\x77\x65\142\x66\157\156\x74\134\x2e\50\167\x6f\146\x66\x32\77\x7c\x74\x74\x66\x7c\163\x76\x67\174\x65\x6f\164\x29\50\x5c\77\x2e\52\51\x3f\44", "{$urlfont}\57\x66\157\x6e\164\163\57\x66\157\156\164\x61\167\x65\163\x6f\155\145\x2d\x77\145\142\146\x6f\x6e\164\56\44\x31\44\x32", "\x74\x6f\160"); goto H_JtS; Kb4vS: add_rewrite_rule("\136\152\167\160\x6c\x61\x79\x65\162\x2f\152\x77\x70\x6c\141\x79\x65\x72\134\56\143\x6f\162\145\134\x2e\143\x6f\156\x74\x72\x6f\x6c\163\134\x2e\150\x74\x6d\x6c\x35\x5c\x2e\152\163\44", "{$urlpath}\57\152\167\x70\154\141\171\x65\162\57\x6a\x77\160\x6c\x61\x79\145\162\x2e\x63\157\162\145\x2e\x63\x6f\x6e\164\x72\157\154\x73\x2e\150\x74\x6d\x6c\65\x2e\x6a\163", "\164\157\160"); goto lcsP7; NB0A_: $urlpath = $base_path . "\57" . get_template() . "\57\166\145\156\144\x6f\x72\57\x68\x6e\x63\x6f\x72\145\x2f\150\x6e\x6d\147\x65\160\151\163\x2f\x72\x65\163\157\165\x72\143\145\x73\57\x61\x73\163\x65\x74\163"; goto lrIYG; jpRx5: add_rewrite_rule("\x5e\x6a\x77\x70\x6c\x61\x79\x65\x72\x2f\x6a\167\160\163\x72\x76\x5c\56\x6a\x73\44", "{$urlpath}\x2f\152\x77\x70\x6c\x61\171\x65\162\57\152\167\160\x73\162\x76\56\152\x73", "\164\157\160"); goto HLK2Y; QAxvL: add_rewrite_rule("\136\152\167\x70\154\x61\x79\x65\x72\x2f\152\x77\x70\x6c\141\x79\145\x72\x5c\x2e\x63\157\x72\145\x5c\56\x63\x6f\156\x74\x72\x6f\x6c\163\134\56\152\x73\44", "{$urlpath}\x2f\152\167\x70\x6c\141\171\145\162\x2f\x6a\167\x70\x6c\x61\x79\145\162\x2e\x63\157\162\x65\56\143\157\156\164\x72\x6f\x6c\x73\56\x6a\x73", "\164\x6f\160"); goto Kb4vS; WqjMF: add_rewrite_rule("\x5e\152\x77\x70\x6c\141\x79\145\162\57\166\x61\x73\164\134\x2e\x6a\x73\44", "{$urlpath}\57\x6a\x77\160\x6c\141\x79\145\162\57\166\141\163\164\56\x6a\163", "\164\x6f\160"); goto jpRx5; HLK2Y: add_rewrite_rule("\x5e\x66\157\x6e\x74\x2d\141\x77\145\x73\x6f\x6d\x65\134\56\x6d\151\x6e\x5c\x2e\143\x73\163\x24", "{$urlfont}\x2f\143\163\x73\57\146\x6f\156\x74\x2d\x61\167\x65\163\157\155\145\x2e\155\151\156\x2e\143\x73\163", "\164\157\x70"); goto eYlZc; lrIYG: $urlfont = $base_path . "\x2f" . get_template() . "\x2f\x76\x65\x6e\144\157\162\x2f\150\156\x63\157\162\145\57\x68\x6e\x6d\147\145\x70\x69\163\x2f\166\x65\156\x64\x6f\x72\57\146\157\162\x74\x61\x77\x65\x73\x6f\x6d\x65\57\x66\x6f\x6e\x74\x2d\141\167\x65\163\157\155\145"; goto ZJhk8; kL0DI: add_rewrite_rule("\x5e\x6a\167\160\154\141\171\x65\x72\x2f\x74\x72\141\x6e\163\x6c\141\164\x69\157\x6e\163\57\166\x69\x5c\x2e\152\163\157\x6e\x24", "{$urlpath}\57\152\x77\160\154\x61\171\145\x72\x2f\x74\162\141\156\163\154\141\164\x69\157\x6e\163\x2f\166\x69\56\152\x73\x6f\x6e", "\164\x6f\x70"); goto QAxvL; ZJhk8: add_rewrite_rule("\136\150\156\x6d\x67\160\154\141\x79\145\162\x5c\x2e\143\163\163\x24", "{$urlpath}\57\143\x73\x73\x2f\x68\x6e\155\147\x70\x6c\141\x79\x65\x72\56\143\x73\x73", "\x74\157\160"); goto iEqBc; H_JtS: flush_rewrite_rules(); goto Io73B; iEqBc: add_rewrite_rule("\136\150\x6e\155\x67\x70\x6c\141\171\x65\x72\134\56\x6a\x73\44", "{$urlpath}\57\152\163\x2f\150\x6e\155\147\x70\x6c\x61\x79\145\162\56\152\163", "\164\157\x70"); goto WqjMF; Io73B: } }

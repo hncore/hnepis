@@ -1,27 +1,27 @@
 <div class="my-5 border border-gray-300 rounded-lg shadow-full w-[98%]">
     <div class="p-4 text-xs font-semibold text-gray-700 rounded-t-lg uppercase bg-gray-100">
-            @hnlang('Import Episode To'):
+            @hnepis('Import Episode To'):
             <a href="{{ get_permalink($postID) }}" target="_blank" class="text-blue-600 hover:underline"> {!! get_the_title($postID) !!}</a>
     </div>
 	<div class="p-4 bg-white rounded-b-lg">
 		<div class="import-multi-episode">
-			<p style="font-weight: 700;color: #ff6a00;font-size: 17px;">@hnlang('Latest Episode'): {!! $load->hnmg_last_episode($postID, $meta) !!}</p>
+			<p style="font-weight: 700;color: #ff6a00;font-size: 17px;">@hnepis('Latest Episode'): {!! $load->hnmg_last_episode($postID, $meta) !!}</p>
 			<div class="bg-slate-100 my-4 p-3">
-				<div class="mb-1">@hnlang('Only main episode link')</div>
-				<div class="bg-white text-red-600 p-2 mb-2">@hnlang('Episode') 13x|https://drive.google.com/file/d/1ATilCtX62rLXwpo7Gm7h2ba6wiGjbL3I/view?usp=sharing|link</div>
+				<div class="mb-1">@hnepis('Only main episode link')</div>
+				<div class="bg-white text-red-600 p-2 mb-2">@hnepis('Episode') 13x|https://drive.google.com/file/d/1ATilCtX62rLXwpo7Gm7h2ba6wiGjbL3I/view?usp=sharing|link</div>
 				
-				<div class="mb-1">@hnlang('Only main episode link and subtitle, not alternate link fallback')</div>
-				<div class="bg-white text-red-600 p-2 mb-2">@hnlang('Episode') 13|https://drive.google.com/file/d/1ATilCtX62rLXwpo7Gm7h2ba6wiGjbL3I/view?usp=sharing|link|subtitle=file1.srt*VN,file2.srt*EN,file3.vtt*ES</div>
+				<div class="mb-1">@hnepis('Only main episode link and subtitle, not alternate link fallback')</div>
+				<div class="bg-white text-red-600 p-2 mb-2">@hnepis('Episode') 13|https://drive.google.com/file/d/1ATilCtX62rLXwpo7Gm7h2ba6wiGjbL3I/view?usp=sharing|link|subtitle=file1.srt*VN,file2.srt*EN,file3.vtt*ES</div>
 
-				<div class="mb-1">@hnlang('Only main episode link and alternate link fallback, not subtitles')</div>
-				<div class="bg-white text-red-600 p-2 mb-2">@hnlang('Episode') 13x|https://drive.google.com/file/d/1ATilCtX62rLXwpo7Gm7h2ba6wiGjbL3I/view?usp=sharing|link|subtitle=|server=sv1.mp4*#1*embed,sv2.mp4*SV2*link</div>
+				<div class="mb-1">@hnepis('Only main episode link and alternate link fallback, not subtitles')</div>
+				<div class="bg-white text-red-600 p-2 mb-2">@hnepis('Episode') 13x|https://drive.google.com/file/d/1ATilCtX62rLXwpo7Gm7h2ba6wiGjbL3I/view?usp=sharing|link|subtitle=|server=sv1.mp4*#1*embed,sv2.mp4*SV2*link</div>
 				
-				<div class="mb-1">@hnlang('Full of parameters')</div>
-				<div class="bg-white text-red-600 p-2 mb-2">@hnlang('Episode') 12x|https://drive.google.com/file/d/1ATilCtX62rLXwpo7Gm7h2ba6wiGjbL3I/view?usp=sharing|embed|subtitle=file1.srt*VN,file2.srt*EN,file3.vtt*ES|server=sv1.mp4*#1*embed,sv2.mp4*SV2*link</div>
+				<div class="mb-1">@hnepis('Full of parameters')</div>
+				<div class="bg-white text-red-600 p-2 mb-2">@hnepis('Episode') 12x|https://drive.google.com/file/d/1ATilCtX62rLXwpo7Gm7h2ba6wiGjbL3I/view?usp=sharing|embed|subtitle=file1.srt*VN,file2.srt*EN,file3.vtt*ES|server=sv1.mp4*#1*embed,sv2.mp4*SV2*link</div>
 			</div>
 			
 			<div class="my-2">
-				<div class="mr-2 font-semibold my-2 text-sm">@hnlang('Choose Server'):</div>
+				<div class="mr-2 font-semibold my-2 text-sm">@hnepis('Choose Server'):</div>
 				<select name="serverListsTwo" id="serverListsTwo" class="rounded-full pl-4 pr-8  border border-slate-200 font-semibold text-xs" data-postid="{{ $postID }}">
 					@foreach ($data as $key => $val)
 						<option value="{{ $key }}">{{ $val['haunmovies_server_name'] }}</option>
@@ -30,16 +30,16 @@
 			</div>
 			<div class="my-5">
 				<div class="border border-solid border-slate-200 p-2 mb-5">
-					@hnlang('Episode name') <span class="text-red-700 font-bold">|</span>
-					@hnlang('Episode URL') <span class="text-red-700 font-bold">|</span>
-					@hnlang('Type') (@hnlang('Episode Type Support List'): 
+					@hnepis('Episode name') <span class="text-red-700 font-bold">|</span>
+					@hnepis('Episode URL') <span class="text-red-700 font-bold">|</span>
+					@hnepis('Type') (@hnepis('Episode Type Support List'): 
 					<span style="color: #4d5bff; font-weight: bold; font-family: inherit;">{{ $load->getPlayerTypesAsText() }} link, mp4, embed</span>)
 				</div>
 				<textarea id="import-multi-epitwo" rows="15" class="rounded-none border-solid p-2 mb-5 w-full border-slate-200"></textarea>
 			</div>
 
 			<div onClick="HNImporterTwo()" id="importtwo" data-postid="{{ $postID }}" class="relative inline-flex items-center px-4 hover:bg-sky-700 py-2 text-sm leading-5 rounded-full font-semibold text-white mb-5 cursor-pointer from-cyan-500 via-sky-500 to-blue-500 bg-gradient-to-r inline-block">
-				@hnlang('Import Episode')
+				@hnepis('Import Episode')
 				<div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900">2</div>
 			</div>
 		</div>

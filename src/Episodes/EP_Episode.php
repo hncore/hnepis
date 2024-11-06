@@ -23,7 +23,7 @@ class EP_Episode {
         $nav['110'] = array(
             'slug'     => 'hnmg-episode',
             'callback' => array($this, 'hnmg_episode_manager'),
-            'title'    => __('HNMG Manager', 'haunthemes'),
+            'title'    => __('HNMG Manager', 'hnmgepis'),
             'icon'     => 'fa-play-circle',
         );
         return $nav;
@@ -44,20 +44,22 @@ class EP_Episode {
 		$orderby = isset($_GET['orderby']) ? wp_strip_all_tags($_GET['orderby']) : '';
 		$get_formality = $this->load->get_post_format($formality);
 		$post_formats = array(
-			'single_movies' => __('Single movie', 'haunthemes'), 
-			'tv_series' => __('TV series', 'haunthemes'), 
-			'tv_shows' => __('TV show', 'haunthemes'), 
-			'theater_movie' => __('Theater movie', 'haunthemes'), 
-			'completed' => __('Completed', 'haunthemes'), 
-			'ongoing' => __('Ongoing', 'haunthemes'), 
-			'is_trailer' => __('Trailer', 'haunthemes')
+			'single_movies' => __('Single movie', 'hnmgepis'), 
+			'tv_series' => __('TV series', 'hnmgepis'), 
+			'tv_shows' => __('TV show', 'hnmgepis'), 
+			'theater_movie' => __('Theater movie', 'hnmgepis'), 
+			'completed' => __('Completed', 'hnmgepis'), 
+			'ongoing' => __('Ongoing', 'hnmgepis'), 
+			'is_trailer' => __('Trailer', 'hnmgepis')
 		);
 
 		echo view('HNMG::episode.listepisode', compact('post_query', 'postID', 'server', 'episode', 'paged', 'cat_id', 'p', 'countries', 'released', 'formality', 'status', 'orderby', 'get_formality', 'post_formats'));
 	}
 
 	public function hnmovies_meta_box(){
-		add_meta_box('hnmovies', __('Episode List', 'haunthemes'), [$this, 'hnmovies_metabox_output'], 'post', 'normal', 'low');
+		if(hnmg_value('enable_old_episode_manager')){
+			add_meta_box('hnmovies', __('Episode List', 'hnmgepis'), [$this, 'hnmovies_metabox_output'], 'post', 'normal', 'low');
+		}
 	}
 	
 	public function hnmovies_metabox_output() {
@@ -72,67 +74,69 @@ class EP_Episode {
 	}
 	
 	public function hnmovies_save_metapost($post_id) {
-		if(!isset($_POST['hnmovies_link_nonce']) || !wp_verify_nonce($_POST['hnmovies_link_nonce'], 'haunmovies_save_metaposts')) return NULL;
-		$svname     = isset($_POST['haunmovies_server_name']) ? $_POST['haunmovies_server_name'] : '';
-		$name       = isset($_POST['haunmovies_ep_name']) ? $_POST['haunmovies_ep_name'] : '';
-		$slug       = isset($_POST['haunmovies_ep_slug']) ? $_POST['haunmovies_ep_slug'] : '';
-		$link       = isset($_POST['haunmovies_ep_link']) ? $_POST['haunmovies_ep_link'] : '';
-		$type       = isset($_POST['haunmovies_ep_type']) ? $_POST['haunmovies_ep_type'] : '';
-		$sublabel   = isset($_POST['haunmovies_ep_sub_label']) ? $_POST['haunmovies_ep_sub_label'] : '';
-		$subfile    = isset($_POST['haunmovies_ep_sub_file']) ? $_POST['haunmovies_ep_sub_file'] : '';
-		$subdefault = isset($_POST['haunmovies_ep_sub_default']) ? $_POST['haunmovies_ep_sub_default'] : '';
-		$listsvname = isset($_POST['haunmovies_ep_listsv_name']) ? $_POST['haunmovies_ep_listsv_name'] : '';
-		$listsvlink = isset($_POST['haunmovies_ep_listsv_link']) ? $_POST['haunmovies_ep_listsv_link'] : '';
-		$listsvtype = isset($_POST['haunmovies_ep_listsv_type']) ? $_POST['haunmovies_ep_listsv_type'] : '';
-		$input = array();
-		
-		if($svname) {
-			$epslug = hnmg_value('haun_episode_url', 'ep');
-			foreach ($svname as $key => $value) {
-				$serverdata = [];
-				$serverdata['haunmovies_server_name'] = esc_attr($value ? $value : 'Server #' . $key);
-				$serverdata['haunmovies_server_data'] = [];
+		if(hnmg_value('enable_old_episode_manager')){
+			if(!isset($_POST['hnmovies_link_nonce']) || !wp_verify_nonce($_POST['hnmovies_link_nonce'], 'haunmovies_save_metaposts')) return NULL;
+			$svname     = isset($_POST['haunmovies_server_name']) ? $_POST['haunmovies_server_name'] : '';
+			$name       = isset($_POST['haunmovies_ep_name']) ? $_POST['haunmovies_ep_name'] : '';
+			$slug       = isset($_POST['haunmovies_ep_slug']) ? $_POST['haunmovies_ep_slug'] : '';
+			$link       = isset($_POST['haunmovies_ep_link']) ? $_POST['haunmovies_ep_link'] : '';
+			$type       = isset($_POST['haunmovies_ep_type']) ? $_POST['haunmovies_ep_type'] : '';
+			$sublabel   = isset($_POST['haunmovies_ep_sub_label']) ? $_POST['haunmovies_ep_sub_label'] : '';
+			$subfile    = isset($_POST['haunmovies_ep_sub_file']) ? $_POST['haunmovies_ep_sub_file'] : '';
+			$subdefault = isset($_POST['haunmovies_ep_sub_default']) ? $_POST['haunmovies_ep_sub_default'] : '';
+			$listsvname = isset($_POST['haunmovies_ep_listsv_name']) ? $_POST['haunmovies_ep_listsv_name'] : '';
+			$listsvlink = isset($_POST['haunmovies_ep_listsv_link']) ? $_POST['haunmovies_ep_listsv_link'] : '';
+			$listsvtype = isset($_POST['haunmovies_ep_listsv_type']) ? $_POST['haunmovies_ep_listsv_type'] : '';
+			$input = array();
+			
+			if($svname) {
+				$epslug = hnmg_value('haun_episode_url', 'ep');
+				foreach ($svname as $key => $value) {
+					$serverdata = [];
+					$serverdata['haunmovies_server_name'] = esc_attr($value ? $value : 'Server #' . $key);
+					$serverdata['haunmovies_server_data'] = [];
 
-				if (isset($link[$key]) && $link[$key]) {
-					foreach ($link[$key] as $k => $v) {
-						$episode_slug = preg_match('/([^0-9]+)/is', $slug[$key][$k]) ? sanitize_title($slug[$key][$k]) : sanitize_title($epslug . '-' . $slug[$key][$k]);
-						$_slug = str_replace('-', '_', $episode_slug);
-						$serverdata['haunmovies_server_data'][$_slug] = [
-							'haunmovies_ep_name' => isset($name[$key][$k]) ? $name[$key][$k] : '',
-							'haunmovies_ep_slug' => isset($slug[$key][$k]) ? $slug[$key][$k] : '',
-							'haunmovies_ep_type' => isset($type[$key][$k]) ? $type[$key][$k] : '',
-							'haunmovies_ep_link' => $v,
-							'haunmovies_ep_subs' => [],
-							'haunmovies_ep_listsv' => []
-						];
+					if (isset($link[$key]) && $link[$key]) {
+						foreach ($link[$key] as $k => $v) {
+							$episode_slug = preg_match('/([^0-9]+)/is', $slug[$key][$k]) ? sanitize_title($slug[$key][$k]) : sanitize_title($epslug . '-' . $slug[$key][$k]);
+							$_slug = str_replace('-', '_', $episode_slug);
+							$serverdata['haunmovies_server_data'][$_slug] = [
+								'haunmovies_ep_name' => isset($name[$key][$k]) ? $name[$key][$k] : '',
+								'haunmovies_ep_slug' => isset($slug[$key][$k]) ? $slug[$key][$k] : '',
+								'haunmovies_ep_type' => isset($type[$key][$k]) ? $type[$key][$k] : '',
+								'haunmovies_ep_link' => $v,
+								'haunmovies_ep_subs' => [],
+								'haunmovies_ep_listsv' => []
+							];
 
-						if (isset($subfile[$key][$k]) && $subfile[$key][$k]) {
-							$countSub = 0;
-							foreach ($subfile[$key][$k] as $s => $sub) {
-								$countSub++;
-								$serverdata['haunmovies_server_data'][$_slug]['haunmovies_ep_subs'][] = [
-									'haunmovies_ep_sub_file' => trim($sub),
-									'haunmovies_ep_sub_label' => isset($sublabel[$key][$k][$s]) ? trim($sublabel[$key][$k][$s]) : '',
-									'haunmovies_ep_sub_kind' => 'captions',
-									'haunmovies_ep_sub_default' => $countSub == 1 ? 'true' : 'false'
-								];
+							if (isset($subfile[$key][$k]) && $subfile[$key][$k]) {
+								$countSub = 0;
+								foreach ($subfile[$key][$k] as $s => $sub) {
+									$countSub++;
+									$serverdata['haunmovies_server_data'][$_slug]['haunmovies_ep_subs'][] = [
+										'haunmovies_ep_sub_file' => trim($sub),
+										'haunmovies_ep_sub_label' => isset($sublabel[$key][$k][$s]) ? trim($sublabel[$key][$k][$s]) : '',
+										'haunmovies_ep_sub_kind' => 'captions',
+										'haunmovies_ep_sub_default' => $countSub == 1 ? 'true' : 'false'
+									];
+								}
 							}
-						}
 
-						if (isset($listsvlink[$key][$k]) && $listsvlink[$key][$k]) {
-							foreach ($listsvlink[$key][$k] as $s => $link_parts) {
-								$serverdata['haunmovies_server_data'][$_slug]['haunmovies_ep_listsv'][] = [
-									'haunmovies_ep_listsv_link' => trim($link_parts),
-									'haunmovies_ep_listsv_name' => isset($listsvname[$key][$k][$s]) ? trim($listsvname[$key][$k][$s]) : '',
-									'haunmovies_ep_listsv_type' => isset($listsvtype[$key][$k][$s]) ? trim($listsvtype[$key][$k][$s]) : ''
-								];
+							if (isset($listsvlink[$key][$k]) && $listsvlink[$key][$k]) {
+								foreach ($listsvlink[$key][$k] as $s => $link_parts) {
+									$serverdata['haunmovies_server_data'][$_slug]['haunmovies_ep_listsv'][] = [
+										'haunmovies_ep_listsv_link' => trim($link_parts),
+										'haunmovies_ep_listsv_name' => isset($listsvname[$key][$k][$s]) ? trim($listsvname[$key][$k][$s]) : '',
+										'haunmovies_ep_listsv_type' => isset($listsvtype[$key][$k][$s]) ? trim($listsvtype[$key][$k][$s]) : ''
+									];
+								}
 							}
 						}
 					}
+					array_push($input, $serverdata);
 				}
-				array_push($input, $serverdata);
+				update_post_meta($post_id, HNMG_EPS, json_encode($input, JSON_UNESCAPED_UNICODE));
 			}
-			update_post_meta($post_id, HNMG_EPS, json_encode($input, JSON_UNESCAPED_UNICODE));
 		}
 	}
 

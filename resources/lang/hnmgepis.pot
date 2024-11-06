@@ -1,0 +1,766 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+
+msgid "Publish"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Choose Type"
+msgstr ""
+
+msgid "Subtitle has been updated!"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Upload File"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "Please enter server name"
+msgstr ""
+
+msgid "Please enter the episode list in the form!"
+msgstr ""
+
+msgid "Please wait..."
+msgstr ""
+
+msgid "Import successfully!"
+msgstr ""
+
+msgid "Error!"
+msgstr ""
+
+msgid "Saving..."
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Updating..."
+msgstr ""
+
+msgid "Done!"
+msgstr ""
+
+msgid "Server Name"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Alternative Link"
+msgstr ""
+
+msgid "Successfully"
+msgstr ""
+
+msgid "Update Episodes"
+msgstr ""
+
+msgid "Import Episode"
+msgstr ""
+
+msgid "Update Post Info"
+msgstr ""
+
+msgid "Backup link server update successful"
+msgstr ""
+
+msgid "Please enter link list!"
+msgstr ""
+
+msgid "Please select the episode to import!"
+msgstr ""
+
+msgid "Are you sure you want to delete this server & all episodes?"
+msgstr ""
+
+msgid "Add subtitles"
+msgstr ""
+
+msgid "Delete The Current Episode"
+msgstr ""
+
+msgid "Add Backup Server"
+msgstr ""
+
+msgid "Add Field"
+msgstr ""
+
+msgid "Update Server"
+msgstr ""
+
+msgid "Update Subtitle"
+msgstr ""
+
+msgid "Click Here To Add A New Episode"
+msgstr ""
+
+msgid "Need to <b>Update Episodes</b> Before <b>Adding Subtitles</b>"
+msgstr ""
+
+msgid "Need to <b>Update Episodes</b> Before <b>Backup Links</b>"
+msgstr ""
+
+msgid "Choose Episode"
+msgstr ""
+
+msgid "HNMG Manager"
+msgstr ""
+
+msgid "Single movie"
+msgstr ""
+
+msgid "TV series"
+msgstr ""
+
+msgid "TV show"
+msgstr ""
+
+msgid "Theater movie"
+msgstr ""
+
+msgid "Completed"
+msgstr ""
+
+msgid "Ongoing"
+msgstr ""
+
+msgid "Trailer"
+msgstr ""
+
+msgid "Episode List"
+msgstr ""
+
+msgid "Choose A Server"
+msgstr ""
+
+msgid "Movies"
+msgstr ""
+
+msgid "TV Series"
+msgstr ""
+
+msgid "TV Shows"
+msgstr ""
+
+msgid "Theater Movie"
+msgstr ""
+
+msgid "Movies Coming"
+msgstr ""
+
+msgid "Choose Server Hide"
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+msgid "Player Options"
+msgstr ""
+
+msgid "SEO Optimization"
+msgstr ""
+
+msgid "Auto config Yoast SEO"
+msgstr ""
+
+msgid "Display custom title on the info page (including episode, release, quality...)"
+msgstr ""
+
+msgid "Remove the categories prefix"
+msgstr ""
+
+msgid "Category URLs in WordPress contain a prefix, usually <strong>/category/</strong>, this feature removes that prefix, for categories only."
+msgstr ""
+
+msgid "SEO title (Page movie info)"
+msgstr ""
+
+msgid "Modify your SEO title by editing it right here"
+msgstr ""
+
+msgid "SEO title (Page watch movie)"
+msgstr ""
+
+msgid "URL Type"
+msgstr ""
+
+msgid "Player tabs"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "JW Player Basic Settings"
+msgstr ""
+
+msgid "ADS Vast Settings"
+msgstr ""
+
+msgid "Resume Playback"
+msgstr ""
+
+msgid "Use localStorage to remember where the user left off and resume playback at the same time offset when revisiting the page."
+msgstr ""
+
+msgid "Auto reset cache"
+msgstr ""
+
+msgid "Automatically clear the cache if the player error"
+msgstr ""
+
+msgid "JWPlayer Error Detect"
+msgstr ""
+
+msgid "Show Modal Popup"
+msgstr ""
+
+msgid "Auto Play Alternative Server"
+msgstr ""
+
+msgid "Autostart"
+msgstr ""
+
+msgid "Auto Pause Player"
+msgstr ""
+
+msgid "Automatically pauses the player based on certain rules"
+msgstr ""
+
+msgid "Share Button"
+msgstr ""
+
+msgid "Cache Player"
+msgstr ""
+
+msgid "Enable cache link"
+msgstr ""
+
+msgid "Cache time"
+msgstr ""
+
+msgid "Cache expired time. (seconds)"
+msgstr ""
+
+msgid "License Version"
+msgstr ""
+
+msgid "Jwplayer License key"
+msgstr ""
+
+msgid "A license key is required for the Pro, Premium and Ads edition."
+msgstr ""
+
+msgid "Logo File"
+msgstr ""
+
+msgid "The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /assets/logo.png). We recommend using 24 bit PNG images with transparency"
+msgstr ""
+
+msgid "Logo link"
+msgstr ""
+
+msgid "The URL to visit when the watermark image is clicked. Clicking a logo will have no affect unless this is configured"
+msgstr ""
+
+msgid "Auto hide logo"
+msgstr ""
+
+msgid "Logo Position"
+msgstr ""
+
+msgid "Top left"
+msgstr ""
+
+msgid "Top right"
+msgstr ""
+
+msgid "Bottom left"
+msgstr ""
+
+msgid "Bottom right"
+msgstr ""
+
+msgid "Control bar"
+msgstr ""
+
+msgid "This sets the corner in which to display the watermark. \"control-bar\" adds the logo as the leftmost icon in the right grouping of buttons in the control bar."
+msgstr ""
+
+msgid "Default poster image"
+msgstr ""
+
+msgid "Upload Subtitle"
+msgstr ""
+
+msgid "Add the url of the file subtitle.srt, .vtt or using the Upload button."
+msgstr ""
+
+msgid "Select a method to read subtitles"
+msgstr ""
+
+msgid "Direct link"
+msgstr ""
+
+msgid "Use readsub.php"
+msgstr ""
+
+msgid "Subtitle color"
+msgstr ""
+
+msgid "Subtitle font size"
+msgstr ""
+
+msgid "About text"
+msgstr ""
+
+msgid "Custom text to display in the right-click menu. Can only be set for the Premium and Ads Editions"
+msgstr ""
+
+msgid "About link"
+msgstr ""
+
+msgid "Custom URL to link to when clicking the right-click menu. Can only be set for the Premium and Ads Editions"
+msgstr ""
+
+msgid "Show Ads Vast"
+msgstr ""
+
+msgid "Enable Ads For Embed"
+msgstr ""
+
+msgid "If This Option is Enabled, Ads Will Display in Embed Links"
+msgstr ""
+
+msgid "Ads code"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Thumbs"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "Actors"
+msgstr ""
+
+msgid "Directors"
+msgstr ""
+
+msgid "Release"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid "Last Update"
+msgstr ""
+
+msgid "Episodes"
+msgstr ""
+
+msgid "view"
+msgstr ""
+
+msgid "Movie"
+msgstr ""
+
+msgid "List Movies"
+msgstr ""
+
+msgid "Add new"
+msgstr ""
+
+msgid "Add new movie"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "View Post"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "No result"
+msgstr ""
+
+msgid "All Movies"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Add Movie"
+msgstr ""
+
+msgid "Formality"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Poster image URL"
+msgstr ""
+
+msgid "Input image url or use Upload button."
+msgstr ""
+
+msgid "Upload Poster image"
+msgstr ""
+
+msgid "Remote upload the poster image to server"
+msgstr ""
+
+msgid "Featured image URL"
+msgstr ""
+
+msgid "Post thumbnail URL"
+msgstr ""
+
+msgid "Set as featured image"
+msgstr ""
+
+msgid "Set as featured image and save image to server"
+msgstr ""
+
+msgid "Auto save images"
+msgstr ""
+
+msgid "Auto save images to server"
+msgstr ""
+
+msgid "Copyright"
+msgstr ""
+
+msgid "Adult content (18+)"
+msgstr ""
+
+msgid "Original Title"
+msgstr ""
+
+msgid "Runtime"
+msgstr ""
+
+msgid "Runtime (90 min)"
+msgstr ""
+
+msgid "Episode"
+msgstr ""
+
+msgid "Episode 20, Tập 20"
+msgstr ""
+
+msgid "Total Episode"
+msgstr ""
+
+msgid "Quality"
+msgstr ""
+
+msgid "Notification / Note"
+msgstr ""
+
+msgid "Showtime movies"
+msgstr ""
+
+msgid "Video URL"
+msgstr ""
+
+msgid "Embed"
+msgstr ""
+
+msgid "Embed / iframe"
+msgstr ""
+
+msgid "Thumbnail URL"
+msgstr ""
+
+msgctxt "Episode type"
+msgid "Episode Types"
+msgstr ""
+
+msgctxt "Episode type"
+msgid "Episode Type"
+msgstr ""
+
+msgid "Episode Types"
+msgstr ""
+
+msgid "All Items"
+msgstr ""
+
+msgid "Parent Item"
+msgstr ""
+
+msgid "Parent Item:"
+msgstr ""
+
+msgid "New Item Name"
+msgstr ""
+
+msgid "Add New Item"
+msgstr ""
+
+msgid "Edit Item"
+msgstr ""
+
+msgid "Update Item"
+msgstr ""
+
+msgid "View Item"
+msgstr ""
+
+msgid "Separate items with commas"
+msgstr ""
+
+msgid "Add or remove items"
+msgstr ""
+
+msgid "Choose from the most used"
+msgstr ""
+
+msgid "Popular Items"
+msgstr ""
+
+msgid "Search Items"
+msgstr ""
+
+msgid "Not Found"
+msgstr ""
+
+msgid "No items"
+msgstr ""
+
+msgid "Items list"
+msgstr ""
+
+msgid "Items list navigation"
+msgstr ""
+
+msgid "News categories"
+msgstr ""
+
+msgid "News category"
+msgstr ""
+
+msgid "All categories"
+msgstr ""
+
+msgid "News"
+msgstr ""
+
+msgid "Add news"
+msgstr ""
+
+msgid "News tags"
+msgstr ""
+
+msgid "News tag"
+msgstr ""
+
+msgid "Videos"
+msgstr ""
+
+msgid "Video"
+msgstr ""
+
+msgid "Add new video"
+msgstr ""
+
+msgid "Video Categories"
+msgstr ""
+
+msgid "Video Category"
+msgstr ""
+
+msgid "Video tags"
+msgstr ""
+
+msgid "Video tag"
+msgstr ""
+
+msgctxt "taxonomy general name"
+msgid "Status"
+msgstr ""
+
+msgctxt "taxonomy singular name"
+msgid "Status"
+msgstr ""
+
+msgid "Search Status"
+msgstr ""
+
+msgid "All Status"
+msgstr ""
+
+msgid "Parent Status"
+msgstr ""
+
+msgid "Parent Status:"
+msgstr ""
+
+msgid "Edit Status"
+msgstr ""
+
+msgid "Update Status"
+msgstr ""
+
+msgid "Add New Status"
+msgstr ""
+
+msgid "New Status Name"
+msgstr ""
+
+msgctxt "taxonomy general name"
+msgid "Post options"
+msgstr ""
+
+msgctxt "taxonomy singular name"
+msgid "Post options"
+msgstr ""
+
+msgid "Search option"
+msgstr ""
+
+msgid "All options"
+msgstr ""
+
+msgid "Parent"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Add New"
+msgstr ""
+
+msgid "New option name"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Loading player, please wait..."
+msgstr ""
+
+msgid "We are unable to find the video you are looking for. There could be several reasons for this, for example it got removed by the owner!"
+msgstr ""
+
+msgid "This video file cannot be played."
+msgstr ""
+
+msgid "To continue watching, please click on the \"Reload Player\" button"
+msgstr ""
+
+msgid "or click on the buttons below"
+msgstr ""
+
+msgid "Reload Player"
+msgstr ""
+
+msgid "Redirect to Server"
+msgstr ""
+
+msgid "Redirect to Edit"
+msgstr ""
+
+msgid "Episode Name"
+msgstr ""
+
+msgid "Episode Slug"
+msgstr ""
+
+msgid "Episode Link"
+msgstr ""
+
+msgid "Add Server"
+msgstr ""
+
+msgid "IMBD Rating"
+msgstr ""
+
+msgid "IMBD Vote"
+msgstr ""
+
+msgid "Trailer URL"
+msgstr ""
+
+msgid "Export Episodes"
+msgstr ""
+
+msgid "Post Name"
+msgstr ""
+
+msgid "Show/Hide Server"
+msgstr ""
+
+msgid "Post Status"
+msgstr ""
+
+msgid "Latest Episode"
+msgstr ""
+
+msgid "Post Type"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Mass Import Episode"
+msgstr ""
+
+msgid "Add Episode Server"
+msgstr ""
+
+msgid "Edit Movie Details"
+msgstr ""
+
+msgid "Import Episode To"
+msgstr ""
+
+msgid "Edit Post Info"
+msgstr ""
+

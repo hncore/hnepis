@@ -11,14 +11,14 @@
 							</div>
 						</label>
 					</th>
-					<th scope="col" class="py-3 px-6">@hnlang('Post Name')</th>
-					<th scope="col" class="py-3 px-6 text-center">@hnlang('Show/Hide Server')</th>
-					<th scope="col" class="py-3 px-6 text-center">@hnlang('Post Status')</th>
-					<th scope="col" class="py-3 px-6 text-center">@hnlang('Latest Episode')</th>
-					<th scope="col" class="py-3 px-6 text-center">@hnlang('Status')</th>
-					<th scope="col" class="py-3 px-6 text-center">@hnlang('Post Type')</th>
-					<th scope="col" class="py-3 px-6 text-center">@hnlang('Export Episodes')</th>
-					<th scope="col" class="py-3 px-6 text-center">@hnlang('Actions')</th>
+					<th scope="col" class="py-3 px-6">@hnepis('Post Name')</th>
+					<th scope="col" class="py-3 px-6 text-center">@hnepis('Show/Hide Server')</th>
+					<th scope="col" class="py-3 px-6 text-center">@hnepis('Post Status')</th>
+					<th scope="col" class="py-3 px-6 text-center">@hnepis('Latest Episode')</th>
+					<th scope="col" class="py-3 px-6 text-center">@hnepis('Status')</th>
+					<th scope="col" class="py-3 px-6 text-center">@hnepis('Post Type')</th>
+					<th scope="col" class="py-3 px-6 text-center">@hnepis('Export Episodes')</th>
+					<th scope="col" class="py-3 px-6 text-center">@hnepis('Actions')</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -62,7 +62,7 @@
 							<td class="py-2 px-6 text-center">{!! $load->list_episode_servers($post->ID, $data) !!}</td>
 							<td class="py-2 px-6 text-center">
 								<a class='{{ $link != '' ? 'bg-red-500 hover:bg-red-600' : 'bg-orange-500 hover:bg-orange-600' }} font-bold text-xs text-white py-1 px-4 rounded-full no-underline' href='?page=hnmg-episode&act=edit_ep&post_id={{ $post->ID }}'>
-									{{ $link != '' ? __('Edit', 'hnmanager') : __('Add Server', 'hnmanager') }}
+									{{ $link != '' ? __('Edit', 'hnmgepis') : __('Add Server', 'hnmgepis') }}
 								</a>
 							</td>
 						</tr>

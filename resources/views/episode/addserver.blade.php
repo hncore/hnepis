@@ -1,6 +1,6 @@
 <div class="my-5 border border-gray-300 rounded-lg shadow-full w-[98%]">
     <div class="px-4 py-2 text-xs font-semibold text-gray-700 rounded-t-lg uppercase bg-gray-100">
-        @hnlang('New Server Name'):
+        @hnepis('New Server Name'):
         <input type="text" name="hnserver_name" id="hnserver-name" value="Server #{{ $data ? array_key_last($data) + 2 : '0' }}" 
             data-server="{{ $data ? array_key_last($data) + 1 : 0 }}" 
             data-post-id="{{ $postID }}" class="rounded-none border border-solid border-slate-200">
@@ -8,7 +8,7 @@
     <div class="p-4 bg-white rounded-b-lg">
         @if($data)
             <div class="my-4">
-                <div class="font-bold mb-4">@hnlang('Current Servers:')</div>
+                <div class="font-bold mb-4">@hnepis('Current Servers:')</div>
                 @foreach ($data as $key => $value)
                     @php
                         $active = $server == $key ? " active" : "";
@@ -29,13 +29,13 @@
         @endif
        
         <div class="border border-solid border-slate-200 p-2 mb-5">
-            @hnlang('Episode name')<span class="text-red-700 font-bold">|</span>
-            @hnlang('Episode URL')<span class="text-red-700 font-bold">|</span>
-            @hnlang('Type') (@hnlang('Episode Type support list:')
+            @hnepis('Episode name')<span class="text-red-700 font-bold">|</span>
+            @hnepis('Episode URL')<span class="text-red-700 font-bold">|</span>
+            @hnepis('Type') (@hnepis('Episode Type support list:')
             <span style="color: #4d5bff; font-weight: bold; font-family: inherit;">{{ $load->getPlayerTypesAsText() }} link, mp4, embed</span>)
         </div>
         <div class="bg-white border border-slate-200 mb-4 p-2">
-            <div class="mb-2 font-bold text-red-700">@hnlang('Example'):</div>
+            <div class="mb-2 font-bold text-red-700">@hnepis('Example'):</div>
             <div class="px-2 font-semibold">EP 10|https://drive.google.com/file/d/1ATilCtX62rLXwpo7Gm7h2ba6wiGjbL3I/view?usp=sharing|link</div>
             <div class="px-2 font-semibold">EP 11|https://drive.google.com/file/d/1ATilCtX62rLXwpo7Gm7h2ba6wiGjbL3I/view?usp=sharing|embed</div>
             <div class="px-2 font-semibold">EP 12|https://drive.google.com/file/d/1ATilCtX62rLXwpo7Gm7h2ba6wiGjbL3I/view?usp=sharing|link</div>
@@ -45,16 +45,16 @@
         </div>
 		<div id="hnstatus" style="display: none;"></div>
         <div class="w-40 bg-sky-500 hover:bg-sky-700 px-5 py-2 text-sm leading-5 rounded-full font-semibold text-white mb-5 cursor-pointer" onClick="javascript:HNAddServer();" data-postid="{{ $postID }}" id="hnbtn-addnewsv">
-           @hnlang('Add new server')
+           @hnepis('Add new server')
         </div>
         <p>
             <input type="radio" name="hnredirect_options" value="redirect" id="redirect" checked>
             <label for="redirect" style="margin-right: 10px;">
-                {{ $data ? __('Redirect to Server', 'hnmanager') . ' #' . (array_key_last($data) + 2) : __('Redirect to Edit', 'hnmanager') }}
+                {{ $data ? __('Redirect to Server', 'hnmgepis') . ' #' . (array_key_last($data) + 2) : __('Redirect to Edit', 'hnmgepis') }}
             </label>
 
             <input type="radio" name="hnredirect_options" value="reload" id="reload">
-            <label for="reload">@hnlang('Reload this page')</label>
+            <label for="reload">@hnepis('Reload this page')</label>
         </p>
     </div>
 </div>

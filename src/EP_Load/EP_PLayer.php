@@ -69,12 +69,14 @@ class EP_PLayer {
 	
 	public function load_embed($linkembed){
 		if (hnmg_value('jw_player_show_ad') && hnmg_value('jw_show_embed_ads')){
-			$haun_embed_player = '<div id="haun-embed" class="embed-responsive embed-responsive-16by9" style="display: none;">
-				<iframe class="embed-responsive-item" src="'. $linkembed .'" allowfullscreen></iframe>
+			$haun_embed_player = '<div id="haun-embed" class="relative w-full h-0 pb-[56.25%]" style="display: none;">
+				<iframe class="absolute top-0" scrolling="no" frameborder="0" width="100%" height="100%" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" src="'. $linkembed .'" allowfullscreen></iframe>
 			</div>
 			<div id="haun-player"></div><script>Load_Embed()</script>';
 		} else {
-			$haun_embed_player = '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="' . $linkembed . '" frameborder="0" scrolling="no"allowfullscreen="" allow="autoplay"></iframe></div></div>';
+			$haun_embed_player = '<div class="relative w-full h-0 pb-[56.25%]">
+				<iframe class="absolute top-0" src="' . $linkembed . '" scrolling="no" frameborder="0" width="100%" height="100%" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay"></iframe>
+			</div>';
 		}
 		return $haun_embed_player;
 	}

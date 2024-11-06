@@ -22,6 +22,7 @@ class EP_Actions {
 		add_action('wp_ajax_hnajax_update_postmeta', [$this, 'hnajax_update_postmeta']);
 		add_action('wp_ajax_hnsave_server_hidden', [$this, 'hnsave_server_hidden']);
 		add_action('wp_ajax_hnajax_export_episodes', [$this, 'hnajax_export_episodes']);
+		add_action('wp_ajax_hnajax_force_delete_post', [$this, 'hnajax_force_delete_post'] );
 	}
 	
 	public function hnajax_update_episode() {
@@ -211,7 +212,7 @@ class EP_Actions {
         $server 		= isset($_POST['server']) ? absint($_POST['server']) : '';
         $episode_meta 	= get_post_meta($post_id, HNMG_EPS, true);
         $data 			= json_decode(stripcslashes($episode_meta));
-        echo '<option value="" id="choose-ep">' . __('Choose Episode', 'haunthemes') . '</option>';
+        echo '<option value="" id="choose-ep">' . __('Choose Episode', 'hnmgepis') . '</option>';
         foreach ($data[$server]->haunmovies_server_data as $key => $val) {
             echo '<option value="' . $key . '">' . $val->haunmovies_ep_name . '</option>';
         }
@@ -366,6 +367,9 @@ class EP_Actions {
 		wp_die();
 	}
 	
-	
+	public function hnajax_force_delete_post() {
+		wp_delete_post( $_POST['post_id'], true );
+		die();
+	}
 	
 }

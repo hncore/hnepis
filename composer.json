@@ -9,6 +9,9 @@
             "email": "haunytb@gmail.com"
         }
     ],
+	"require": {
+        "fortawesome/font-awesome": "4.7.0"
+    },
     "autoload": {
         "psr-4": {
             "HNMG\\": "src/"

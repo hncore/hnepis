@@ -1,0 +1,762 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
+"PO-Revision-Date: 2024-10-30 01:01+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+msgid "Label"
+msgstr "Nhãn"
+
+msgid "Loading..."
+msgstr "Đang tải..."
+
+msgid "Choose Type"
+msgstr "Chọn loại"
+
+msgid "Subtitle has been updated!"
+msgstr "Phụ đề đã được cập nhật!"
+
+msgid "URL"
+msgstr "Đường dẫn"
+
+msgid "Upload File"
+msgstr "Tải lên tệp"
+
+msgid "Default"
+msgstr "Mặc định"
+
+msgid "Upload"
+msgstr "Tải lên"
+
+msgid "Please enter server name"
+msgstr "Vui lòng nhập tên máy chủ"
+
+msgid "Please enter the episode list in the form!"
+msgstr "Vui lòng nhập danh sách tập vào biểu mẫu!"
+
+msgid "Please wait..."
+msgstr "Vui lòng đợi..."
+
+msgid "Import successfully!"
+msgstr "Nhập thành công!"
+
+msgid "Error!"
+msgstr "Lỗi!"
+
+msgid "Saving..."
+msgstr "Đang lưu..."
+
+msgid "Save"
+msgstr "Lưu"
+
+msgid "Updating..."
+msgstr "Đang cập nhật..."
+
+msgid "Done!"
+msgstr "Hoàn tất!"
+
+msgid "Server Name"
+msgstr "Tên máy chủ"
+
+msgid "Name"
+msgstr "Tên"
+
+msgid "Type"
+msgstr "Loại"
+
+msgid "Action"
+msgstr "Hành động"
+
+msgid "Link"
+msgstr "Liên kết"
+
+msgid "Alternative Link"
+msgstr "Liên kết thay thế"
+
+msgid "Successfully"
+msgstr "Thành công"
+
+msgid "Update Episodes"
+msgstr "Cập Nhật Tập Phim"
+
+msgid "Import Episode"
+msgstr "Nhập Tập Phim"
+
+msgid "Update Post Info"
+msgstr "Cập nhật thông tin bài viết"
+
+msgid "Backup link server update successful"
+msgstr "Cập nhật liên kết sao lưu máy chủ thành công"
+
+msgid "Please enter link list!"
+msgstr "Vui lòng nhập danh sách liên kết!"
+
+msgid "Please select the episode to import!"
+msgstr "Vui lòng chọn tập để nhập!"
+
+msgid "Are you sure you want to delete this server & all episodes?"
+msgstr "Bạn có chắc muốn xóa máy chủ này và tất cả các tập phim?"
+
+msgid "Add subtitles"
+msgstr "Thêm phụ đề"
+
+msgid "Delete The Current Episode"
+msgstr "Xóa tập hiện tại"
+
+msgid "Add Backup Server"
+msgstr "Thêm máy chủ dự phòng"
+
+msgid "Add Field"
+msgstr "Thêm trường"
+
+msgid "Update Server"
+msgstr "Cập nhật máy chủ"
+
+msgid "Update Subtitle"
+msgstr "Cập nhật phụ đề"
+
+msgid "Click Here To Add A New Episode"
+msgstr "Nhấn vào đây để thêm tập mới"
+
+msgid "Need to <b>Update Episodes</b> Before <b>Adding Subtitles</b>"
+msgstr "Cần <b>Cập nhật Tập phim</b> trước khi <b>Thêm Phụ đề</b>"
+
+msgid "Need to <b>Update Episodes</b> Before <b>Backup Links</b>"
+msgstr "Cần <b>Cập nhật Tập phim</b> trước khi <b>Liên kết Sao lưu</b>"
+
+msgid "Choose Episode"
+msgstr "Chọn tập phim"
+
+msgid "HNMG Manager"
+msgstr "Quản lý HNMG"
+
+msgid "Single movie"
+msgstr "Phim lẻ"
+
+msgid "TV series"
+msgstr "Phim Bộ"
+
+msgid "TV show"
+msgstr "TV Shows"
+
+msgid "Theater movie"
+msgstr "Phim chiếu rạp"
+
+msgid "Ongoing"
+msgstr "Đang Phát"
+
+msgid "Trailer"
+msgstr "Trailer"
+
+msgid "Episode List"
+msgstr "Danh Sách Tập"
+
+msgid "Movies"
+msgstr "Phim Lẻ"
+
+msgid "TV Series"
+msgstr "Phim Bộ"
+
+msgid "TV Shows"
+msgstr "TV Shows"
+
+msgid "Theater Movie"
+msgstr "Phim chiếu rạp"
+
+msgid "Movies Coming"
+msgstr "Phim sắp chiếu"
+
+msgid "Hide"
+msgstr "Ẩn"
+
+msgid "Player Options"
+msgstr "Tùy Chọn Player"
+
+msgid "SEO Optimization"
+msgstr "Tối ưu hóa SEO"
+
+msgid "Auto config Yoast SEO"
+msgstr "Tự động cấu hình Yoast SEO"
+
+msgid "Display custom title on the info page (including episode, release, quality...)"
+msgstr "Hiển thị tiêu đề tùy chỉnh trên trang thông tin (bao gồm tập, phát hành, chất lượng...)"
+
+msgid "Remove the categories prefix"
+msgstr "Xóa tiền tố chuyên mục"
+
+msgid "Category URLs in WordPress contain a prefix, usually <strong>/category/</strong>, this feature removes that prefix, for categories only."
+msgstr "Các URL chuyên mục trong WordPress chứa tiền tố, thường là <strong>/category/</strong>, tính năng này sẽ xóa tiền tố đó, chỉ áp dụng cho chuyên mục."
+
+msgid "SEO title (Page movie info)"
+msgstr "Tiêu đề SEO (Trang thông tin phim)"
+
+msgid "Modify your SEO title by editing it right here"
+msgstr "Chỉnh sửa tiêu đề SEO của bạn ngay tại đây"
+
+msgid "SEO title (Page watch movie)"
+msgstr "Tiêu đề SEO (Trang xem phim)"
+
+msgid "URL Type"
+msgstr "Loại URL"
+
+msgid "Player tabs"
+msgstr "Thẻ trình phát"
+
+msgid "General"
+msgstr "Chung"
+
+msgid "JW Player Basic Settings"
+msgstr "Cài đặt cơ bản JW Player"
+
+msgid "ADS Vast Settings"
+msgstr "Cài đặt ADS Vast"
+
+msgid "Resume Playback"
+msgstr "Tiếp tục phát"
+
+msgid "Use localStorage to remember where the user left off and resume playback at the same time offset when revisiting the page."
+msgstr "Sử dụng localStorage để ghi nhớ vị trí người dùng dừng lại và tiếp tục phát lại khi quay lại trang."
+
+msgid "Auto reset cache"
+msgstr "Tự động đặt lại bộ nhớ cache"
+
+msgid "Automatically clear the cache if the player error"
+msgstr "Tự động xóa bộ nhớ cache nếu trình phát gặp lỗi"
+
+msgid "JWPlayer Error Detect"
+msgstr "Phát hiện lỗi JWPlayer"
+
+msgid "Show Modal Popup"
+msgstr "Hiển thị cửa sổ bật lên"
+
+msgid "Auto Play Alternative Server"
+msgstr "Tự động phát máy chủ thay thế"
+
+msgid "Autostart"
+msgstr "Tự động phát"
+
+msgid "Auto Pause Player"
+msgstr "Tự động tạm dừng trình phát"
+
+msgid "Automatically pauses the player based on certain rules"
+msgstr "Tự động tạm dừng trình phát dựa trên các quy tắc nhất định"
+
+msgid "Share Button"
+msgstr "Nút chia sẻ"
+
+msgid "Cache Player"
+msgstr "Bộ nhớ cache trình phát"
+
+msgid "Enable cache link"
+msgstr "Kích hoạt liên kết bộ nhớ cache"
+
+msgid "Cache time"
+msgstr "Thời gian bộ nhớ cache"
+
+msgid "Cache expired time. (seconds)"
+msgstr "Thời gian hết hạn bộ nhớ cache. (giây)"
+
+msgid "License Version"
+msgstr "Phiên bản giấy phép"
+
+msgid "Jwplayer License key"
+msgstr "Khóa giấy phép Jwplayer"
+
+msgid "A license key is required for the Pro, Premium and Ads edition."
+msgstr "Yêu cầu khóa giấy phép cho phiên bản Pro, Premium và Ads."
+
+msgid "Logo File"
+msgstr "Tệp logo"
+
+msgid "The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /assets/logo.png). We recommend using 24 bit PNG images with transparency"
+msgstr "URL của ảnh JPG, PNG hoặc GIF bên ngoài để làm hình mờ (ví dụ: /assets/logo.png). Chúng tôi khuyến khích sử dụng hình ảnh PNG 24 bit với độ trong suốt"
+
+msgid "Logo link"
+msgstr "Liên kết logo"
+
+msgid "The URL to visit when the watermark image is clicked. Clicking a logo will have no affect unless this is configured"
+msgstr "URL để truy cập khi nhấp vào hình ảnh hình mờ. Nhấp vào logo sẽ không có tác dụng trừ khi được cấu hình"
+
+msgid "Auto hide logo"
+msgstr "Tự động ẩn logo"
+
+msgid "Logo Position"
+msgstr "Vị trí logo"
+
+msgid "Top left"
+msgstr "Trên trái"
+
+msgid "Top right"
+msgstr "Trên phải"
+
+msgid "Bottom left"
+msgstr "Dưới trái"
+
+msgid "Bottom right"
+msgstr "Dưới phải"
+
+msgid "Control bar"
+msgstr "Thanh điều khiển"
+
+msgid ""
+"This sets the corner in which to display the watermark. \"control-bar\" adds the logo as the leftmost icon in the right grouping of buttons in the control "
+"bar."
+msgstr "Điều này đặt góc hiển thị hình mờ. \"control-bar\" thêm logo là biểu tượng bên trái nhất trong nhóm nút bên phải trên thanh điều khiển."
+
+msgid "Default poster image"
+msgstr "Ảnh poster mặc định"
+
+msgid "Upload Subtitle"
+msgstr "Tải lên phụ đề"
+
+msgid "Add the url of the file subtitle.srt, .vtt or using the Upload button."
+msgstr "Thêm URL của tệp phụ đề .srt, .vtt hoặc sử dụng nút Tải lên."
+
+msgid "Select a method to read subtitles"
+msgstr "Chọn phương pháp để đọc phụ đề"
+
+msgid "Direct link"
+msgstr "Liên kết trực tiếp"
+
+msgid "Use readsub.php"
+msgstr "Sử dụng readsub.php"
+
+msgid "Subtitle color"
+msgstr "Màu phụ đề"
+
+msgid "Subtitle font size"
+msgstr "Kích thước font phụ đề"
+
+msgid "About text"
+msgstr "Về văn bản"
+
+msgid "Custom text to display in the right-click menu. Can only be set for the Premium and Ads Editions"
+msgstr "Văn bản tùy chỉnh để hiển thị trong menu nhấp chuột phải. Chỉ có thể đặt cho các phiên bản Premium và Ads"
+
+msgid "About link"
+msgstr "Liên kết về"
+
+msgid "Custom URL to link to when clicking the right-click menu. Can only be set for the Premium and Ads Editions"
+msgstr "URL tùy chỉnh để liên kết khi nhấp vào menu chuột phải. Chỉ có thể đặt cho các phiên bản Premium và Ads"
+
+msgid "Show Ads Vast"
+msgstr "Hiển thị quảng cáo Vast"
+
+msgid "Enable Ads For Embed"
+msgstr "Kích hoạt quảng cáo cho Embed"
+
+msgid "If This Option is Enabled, Ads Will Display in Embed Links"
+msgstr "Nếu tùy chọn này được bật, quảng cáo sẽ hiển thị trong các liên kết nhúng"
+
+msgid "Ads code"
+msgstr "Mã quảng cáo"
+
+msgid "Title"
+msgstr "Tiêu đề"
+
+msgid "Thumbs"
+msgstr "Hình thu nhỏ"
+
+msgid "Details"
+msgstr "Chi tiết"
+
+msgid "Categories"
+msgstr "Danh mục"
+
+msgid "Actors"
+msgstr "Diễn viên"
+
+msgid "Directors"
+msgstr "Đạo diễn"
+
+msgid "Release"
+msgstr "Năm Sản Xuất"
+
+msgid "Country"
+msgstr "Quốc gia"
+
+msgid "Tags"
+msgstr "Thẻ"
+
+msgid "Last Update"
+msgstr "Cập nhật lần cuối"
+
+msgid "Episodes"
+msgstr "Tập phim"
+
+msgid "view"
+msgstr "lượt xem"
+
+msgid "Movie"
+msgstr "Phim"
+
+msgid "List Movies"
+msgstr "Danh sách phim"
+
+msgid "Add new"
+msgstr "Thêm mới"
+
+msgid "Add new movie"
+msgstr "Thêm phim mới"
+
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+msgid "View Post"
+msgstr "Xem bài viết"
+
+msgid "Search"
+msgstr "Tìm kiếm"
+
+msgid "No result"
+msgstr "Không có kết quả"
+
+msgid "All Movies"
+msgstr "Tất cả phim"
+
+msgid "Category"
+msgstr "Danh mục"
+
+msgid "Add Movie"
+msgstr "Thêm phim"
+
+msgid "Formality"
+msgstr "Định Dạng"
+
+msgid "Status"
+msgstr "Trạng Thái"
+
+msgid "Poster image URL"
+msgstr "URL ảnh poster"
+
+msgid "Input image url or use Upload button."
+msgstr "Nhập URL ảnh hoặc sử dụng nút Tải lên."
+
+msgid "Upload Poster image"
+msgstr "Tải lên ảnh poster"
+
+msgid "Remote upload the poster image to server"
+msgstr "Tải lên từ xa ảnh poster lên máy chủ"
+
+msgid "Featured image URL"
+msgstr "URL ảnh nổi bật"
+
+msgid "Post thumbnail URL"
+msgstr "URL ảnh thu nhỏ bài viết"
+
+msgid "Set as featured image"
+msgstr "Đặt làm ảnh nổi bật"
+
+msgid "Set as featured image and save image to server"
+msgstr "Đặt làm ảnh nổi bật và lưu ảnh lên máy chủ"
+
+msgid "Auto save images"
+msgstr "Tự động lưu hình ảnh"
+
+msgid "Auto save images to server"
+msgstr "Tự động lưu hình ảnh lên máy chủ"
+
+msgid "Copyright"
+msgstr "Bản quyền"
+
+msgid "Adult content (18+)"
+msgstr "Nội dung người lớn (18+)"
+
+msgid "Original Title"
+msgstr "Tiêu đề gốc"
+
+msgid "Runtime"
+msgstr "Thời lượng"
+
+msgid "Runtime (90 min)"
+msgstr "Thời lượng (90 phút)"
+
+msgid "Episode"
+msgstr "Tập"
+
+msgid "Episode 20, Tập 20"
+msgstr "Tập 20, Episode 20"
+
+msgid "Total Episode"
+msgstr "Tổng số tập"
+
+msgid "Quality"
+msgstr "Chất lượng"
+
+msgid "Notification / Note"
+msgstr "Thông báo / Ghi chú"
+
+msgid "Showtime movies"
+msgstr "Phim chiếu rạp"
+
+msgid "Video URL"
+msgstr "URL Video"
+
+msgid "Embed"
+msgstr "Nhúng"
+
+msgid "Embed / iframe"
+msgstr "Nhúng / iframe"
+
+msgid "Thumbnail URL"
+msgstr "URL ảnh thu nhỏ"
+
+msgctxt "Episode type"
+msgid "Episode Types"
+msgstr "Episode Types"
+
+msgctxt "Episode type"
+msgid "Episode Type"
+msgstr "Loại tập phim"
+
+msgid "Episode Types"
+msgstr "Episode Types"
+
+msgid "All Items"
+msgstr "Tất cả mục"
+
+msgid "Parent Item"
+msgstr "Mục cha"
+
+msgid "Parent Item:"
+msgstr "Mục cha:"
+
+msgid "New Item Name"
+msgstr "Tên mục mới"
+
+msgid "Add New Item"
+msgstr "Thêm mục mới"
+
+msgid "Edit Item"
+msgstr "Chỉnh sửa mục"
+
+msgid "Update Item"
+msgstr "Cập nhật mục"
+
+msgid "View Item"
+msgstr "Xem mục"
+
+msgid "Separate items with commas"
+msgstr "Phân tách các mục bằng dấu phẩy"
+
+msgid "Add or remove items"
+msgstr "Thêm hoặc xóa mục"
+
+msgid "Choose from the most used"
+msgstr "Chọn từ những mục sử dụng nhiều nhất"
+
+msgid "Popular Items"
+msgstr "Mục phổ biến"
+
+msgid "Search Items"
+msgstr "Tìm kiếm mục"
+
+msgid "Not Found"
+msgstr "Không tìm thấy"
+
+msgid "No items"
+msgstr "Không có mục nào"
+
+msgid "Items list"
+msgstr "Danh sách mục"
+
+msgid "Items list navigation"
+msgstr "Điều hướng danh sách mục"
+
+msgid "News categories"
+msgstr "Danh mục tin tức"
+
+msgid "News category"
+msgstr "Danh mục tin tức"
+
+msgid "All categories"
+msgstr "Tất cả danh mục"
+
+msgid "News"
+msgstr "Tin tức"
+
+msgid "Add news"
+msgstr "Thêm tin tức"
+
+msgid "News tags"
+msgstr "Thẻ tin tức"
+
+msgid "News tag"
+msgstr "Thẻ tin tức"
+
+msgid "Videos"
+msgstr "Video"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Add new video"
+msgstr "Thêm video mới"
+
+msgid "Video Categories"
+msgstr "Danh mục video"
+
+msgid "Video Category"
+msgstr "Danh mục video"
+
+msgid "Video tags"
+msgstr "Thẻ video"
+
+msgid "Video tag"
+msgstr "Thẻ video"
+
+msgctxt "taxonomy general name"
+msgid "Status"
+msgstr "Trạng thái"
+
+msgctxt "taxonomy singular name"
+msgid "Status"
+msgstr "Trạng thái"
+
+msgid "Search Status"
+msgstr "Tìm kiếm trạng thái"
+
+msgid "All Status"
+msgstr "Tất cả trạng thái"
+
+msgid "Parent Status"
+msgstr "Trạng thái cha"
+
+msgid "Parent Status:"
+msgstr "Trạng thái cha:"
+
+msgid "Edit Status"
+msgstr "Chỉnh sửa trạng thái"
+
+msgid "Update Status"
+msgstr "Cập nhật trạng thái"
+
+msgid "Add New Status"
+msgstr "Thêm trạng thái mới"
+
+msgid "New Status Name"
+msgstr "Tên trạng thái mới"
+
+msgctxt "taxonomy general name"
+msgid "Post options"
+msgstr "Tùy chọn bài viết"
+
+msgctxt "taxonomy singular name"
+msgid "Post options"
+msgstr "Tùy chọn bài viết"
+
+msgid "Search option"
+msgstr "Tìm kiếm tùy chọn"
+
+msgid "All options"
+msgstr "Tất cả tùy chọn"
+
+msgid "Parent"
+msgstr "Cha"
+
+msgid "Update"
+msgstr "Cập nhật"
+
+msgid "Add New"
+msgstr "Thêm mới"
+
+msgid "New option name"
+msgstr "Tên tùy chọn mới"
+
+msgid "Options"
+msgstr "Tùy chọn"
+
+msgid "Loading player, please wait..."
+msgstr "Đang tải trình phát, vui lòng đợi..."
+
+msgid "We are unable to find the video you are looking for. There could be several reasons for this, for example it got removed by the owner!"
+msgstr "Chúng tôi không thể tìm thấy video bạn đang tìm kiếm. Có thể do nhiều lý do, chẳng hạn như video đã bị gỡ bởi người sở hữu!"
+
+msgid "This video file cannot be played."
+msgstr "Tệp video này không thể phát."
+
+msgid "To continue watching, please click on the \"Reload Player\" button"
+msgstr "Để tiếp tục xem, vui lòng nhấp vào nút \"Tải lại trình phát\""
+
+msgid "or click on the buttons below"
+msgstr "hoặc nhấp vào các nút bên dưới"
+
+msgid "Reload Player"
+msgstr "Tải lại trình phát"
+
+msgid "Redirect to Server"
+msgstr "Chuyển hướng đến máy chủ"
+
+msgid "Redirect to Edit"
+msgstr "Chuyển hướng để chỉnh sửa"
+
+msgid "Episode Name"
+msgstr "Tên tập phim"
+
+msgid "Episode Slug"
+msgstr "Slug tập phim"
+
+msgid "Episode Link"
+msgstr "Liên kết tập phim"
+
+msgid "Add Server"
+msgstr "Thêm máy chủ"
+
+msgid "IMBD Rating"
+msgstr "Xếp hạng IMBD"
+
+msgid "IMBD Vote"
+msgstr "Bình chọn IMBD"
+
+msgid "Trailer URL"
+msgstr "URL Trailer"
+
+msgid "Export Episodes"
+msgstr "Xuất Tập Phim"
+
+msgid "Post Name"
+msgstr "Tên Bài Viết"
+
+msgid "Show/Hide Server"
+msgstr "Hiện/Ẩn Máy Chủ"
+
+msgid "Post Status"
+msgstr "Trạng Thái"
+
+msgid "Latest Episode"
+msgstr "Tập Mới Nhất"
+
+msgid "Post Type"
+msgstr "Loại"
+
+msgid "Actions"
+msgstr "Hành Động"
+
+msgid "Mass Import Episode"
+msgstr "Nhập Hàng Loạt"
+
+msgid "Add Episode Server"
+msgstr "Thêm Máy Chủ Tập"
+
+msgid "Edit Movie Details"
+msgstr "Chỉnh Sửa Chi Tiết Phim"
+
+msgid "Choose Server Hide"
+msgstr "Chọn Máy Chủ Ẩn"
+
+msgid "Choose A Server"
+msgstr "Chọn Một Máy Chủ"
+
+msgid "Publish"
+msgstr "Xuất Bản"
+
+msgid "Completed"
+msgstr "Hoàn Thành"

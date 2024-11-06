@@ -100,7 +100,7 @@ class EP_Helper {
 	public function list_episode_servers($post_id, $data) {
 		if ($data !== NULL) {
 			echo '<select class="rounded-full text-xs font-bold px-6 hnserver-to-export" data-post-id="' . $post_id . '">
-				<option value="">' . __('Choose A Server', 'haunthemes') . ' </option>';
+				<option value="">' . __('Choose A Server', 'hnmgepis') . ' </option>';
 				foreach ($data as $key => $value) {
 					echo ' <option value=" ' .$key . ' ">' . $value['haunmovies_server_name'] . '</option>';
 				}
@@ -110,10 +110,10 @@ class EP_Helper {
 	
 	public function hnshow_formality($data = '') {
 		$types = [
-			'single_movies' => ['label' => __('Movies', 'haunthemes'), 'color' => 'bg-red-500'],
-			'tv_series' => ['label' => __('TV Series', 'haunthemes'), 'color' => 'bg-blue-600'],
-			'tv_shows' => ['label' => __('TV Shows', 'haunthemes'), 'color' => 'bg-teal-600'],
-			'theater_movie' => ['label' => __('Theater Movie', 'haunthemes'), 'color' => 'bg-fuchsia-800']
+			'single_movies' => ['label' => __('Movies', 'hnmgepis'), 'color' => 'bg-red-500'],
+			'tv_series' => ['label' => __('TV Series', 'hnmgepis'), 'color' => 'bg-blue-600'],
+			'tv_shows' => ['label' => __('TV Shows', 'hnmgepis'), 'color' => 'bg-teal-600'],
+			'theater_movie' => ['label' => __('Theater Movie', 'hnmgepis'), 'color' => 'bg-fuchsia-800']
 		];
 		if ($data != '' && isset($types[$data])) {
 			return '<button type="button" class="py-1 px-3 my-0.5 ' . $types[$data]['color'] . ' text-white text-xs font-semibold rounded-full shadow-blue-500/50 focus:outline-none">'  . $types[$data]['label'] . '</button>';
@@ -123,10 +123,10 @@ class EP_Helper {
 
 	public function hnshow_status($data = '') {
 		$statuses = [
-			'is_trailer' => ['label' => __('Trailer', 'haunthemes'), 'color' => 'bg-red-500'],
-			'ongoing' => ['label' => __('Ongoing', 'haunthemes'), 'color' => 'bg-blue-600'],
-			'completed' => ['label' => __('Completed', 'haunthemes'), 'color' => 'bg-teal-600'],
-			'moviecoming' => ['label' => __('Movies Coming', 'haunthemes'), 'color' => 'bg-fuchsia-800']
+			'is_trailer' => ['label' => __('Trailer', 'hnmgepis'), 'color' => 'bg-red-500'],
+			'ongoing' => ['label' => __('Ongoing', 'hnmgepis'), 'color' => 'bg-blue-600'],
+			'completed' => ['label' => __('Completed', 'hnmgepis'), 'color' => 'bg-teal-600'],
+			'moviecoming' => ['label' => __('Movies Coming', 'hnmgepis'), 'color' => 'bg-fuchsia-800']
 		];
 		if (isset($statuses[$data])) {
 			return '<button type="button" class="py-1 px-3 my-0.5 ' . $statuses[$data]['color'] . ' text-white text-xs font-semibold rounded-full shadow-blue-500/50 focus:outline-none">' . $statuses[$data]['label'] .  '</button>';
@@ -334,7 +334,7 @@ class EP_Helper {
 		$hidden_servers = get_post_meta($postid, "episode_server_hidden", true);
 		echo '<div x-data="{ open: false, saveMessage: \'Save\', postId: ' . $postid . ' }" class="relative">
 			<button @click="open = !open" class="text-gray-600 text-xs font-semibold border border-slate-400/10 bg-slate-400/10 rounded-full py-1 px-3">
-				' . __('Choose Server Hide', 'haunthemes') . '
+				' . __('Choose Server Hide', 'hnmgepis') . '
 				<svg width="6" height="3" class="ml-2 overflow-visible inline" aria-hidden="true"><path d="M0 0L3 3L6 0" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg>
 			</button>
 			<ul x-show="open" @click.away="open = false" class="absolute left-0 mt-2 bg-white border border-slate-100 w-44 shadow-lg z-10 rounded-lg">
@@ -349,7 +349,7 @@ class EP_Helper {
 					echo in_array($key, $hidden_servers) ? ' checked' : '';
 				}
 				echo ' />
-					' . __('Hide', 'haunthemes') . ' <strong>' . $value['haunmovies_server_name'] . '</strong>
+					' . __('Hide', 'hnmgepis') . ' <strong>' . $value['haunmovies_server_name'] . '</strong>
 				</li>';
 			}
 		}

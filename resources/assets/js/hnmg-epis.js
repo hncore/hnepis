@@ -2,6 +2,7 @@ import Alpine from 'alpinejs';
 import $ from "jquery";
 const ajax_url = hnmgepis.ajax_url;
 window.Alpine = Alpine
+window.hnepisode_type = hnmgepis.hnepisode_type;
 window.playerData = function(postID) {
     return {
         activeTab: 1,
@@ -27,7 +28,7 @@ window.playerData = function(postID) {
                                 ? server.haunmovies_server_data.map((episode, epIndex) => ({
                                     name: episode.haunmovies_ep_name || '',
                                     slug: episode.haunmovies_ep_slug || '',
-                                    type: episode.haunmovies_ep_type || 'type1',
+                                    type: episode.haunmovies_ep_type || 'link',
                                     link: episode.haunmovies_ep_link || '',
                                     servers: (episode.haunmovies_ep_listsv || []).map(sv => ({
                                         name: sv.haunmovies_ep_listsv_name || '',
@@ -43,7 +44,7 @@ window.playerData = function(postID) {
                             : Object.values(server.haunmovies_server_data).map((episode, epIndex) => ({
                                 name: episode.haunmovies_ep_name || '',
                                 slug: episode.haunmovies_ep_slug || '',
-                                type: episode.haunmovies_ep_type || 'type1',
+                                type: episode.haunmovies_ep_type || 'link',
                                 link: episode.haunmovies_ep_link || '',
                                 servers: (episode.haunmovies_ep_listsv || []).map(sv => ({
                                     name: sv.haunmovies_ep_listsv_name || '',
@@ -170,7 +171,6 @@ window.playerData = function(postID) {
 
     };
 };
-window.hnepisode_type = hnmgepis.hnepisode_type;
 window.HNLang = function(key) {
     if (hnmgepis.i18n && hnmgepis.i18n[key]) {
         return hnmgepis.i18n[key];

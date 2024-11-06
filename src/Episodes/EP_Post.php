@@ -18,27 +18,27 @@ class EP_Post {
 	public function hnset_post_columns($columns) {
         return array(
 			'cb' => '<input type="checkbox" />', 
-				'hnmovies-title' 	=> __('Title', 'haunthemes'), 
-				'hnmovies_images' 	=> __('Thumbs', 'haunthemes'), 
-				'hnmovies_details' 	=> __('Details', 'haunthemes'), 
-				'categories' 		=> __('Categories', 'haunthemes'), 
-				'taxonomy-actor' 	=> __('Actors', 'haunthemes'),
-				'taxonomy-director' => __('Directors', 'haunthemes'),
-				'taxonomy-' . get_taxonomy('release')->name => __('Release', 'haunthemes'),
-				'taxonomy-' . get_taxonomy('country')->name => __('Country', 'haunthemes'),
-				'tags' => __('Tags', 'haunthemes'), 
-				'hnmovies_updated' => __('Last Update', 'haunthemes'),
-				'hnmovies_action' 	=> __('Episodes', 'haunthemes'));
+				'hnmovies-title' 	=> __('Title', 'hnmgepis'), 
+				'hnmovies_images' 	=> __('Thumbs', 'hnmgepis'), 
+				'hnmovies_details' 	=> __('Details', 'hnmgepis'), 
+				'categories' 		=> __('Categories', 'hnmgepis'), 
+				'taxonomy-actor' 	=> __('Actors', 'hnmgepis'),
+				'taxonomy-director' => __('Directors', 'hnmgepis'),
+				'taxonomy-' . get_taxonomy('release')->name => __('Release', 'hnmgepis'),
+				'taxonomy-' . get_taxonomy('country')->name => __('Country', 'hnmgepis'),
+				'tags' => __('Tags', 'hnmgepis'), 
+				'hnmovies_updated' => __('Last Update', 'hnmgepis'),
+				'hnmovies_action' 	=> __('Episodes', 'hnmgepis'));
     }
 	
 	public function hncolumns_content($column_name, $post_id) {
         $meta = get_post_meta($post_id, HNMG_META, true);
 		
         if ($column_name == 'hnmovies_images') {
-            echo '<div class="relative w-[80px] text-center h-28 rounded-lg shadow-lg">
+            echo '<div class="relative max-w-[150px] text-center  max-h-28 rounded-lg shadow-lg">
 					<img src="'. $this->load->hnimage_display('movie-thumb') . '" class="w-full h-full rounded-lg"/>
 					<div class="absolute text-[11px] font-bold text-white bg-red-500 px-2 rounded-bl-lg rounded-tr-lg top-0 end-0">
-						' . $this->load->hnshow_views($post_id) . ' ' . __('view', 'haunthemes') . '
+						' . $this->load->hnshow_views($post_id) . ' ' . __('view', 'hnmgepis') . '
 					</div>
 				</div>
 			';

@@ -1,13 +1,9 @@
 import $ from "jquery";
 import './jwplayer.js';
 
-window.___ = function(key) {
-    if (player_epis.i18n && player_epis.i18n[key]) {
-        return player_epis.i18n[key];
-    } else {
-        return key;
-    }
-}
+function ___(text) {
+    return player_epis?.i18n[text] || text;
+};
 
 function haunPlayer(e, a, l, i, t, o) {
     return $("#ajax-player").length && $.ajax({
@@ -22,15 +18,15 @@ function haunPlayer(e, a, l, i, t, o) {
             custom_var: o
         },
         beforeSend: function() {
-            $("#haun-player-loader").show().html('<p class="loading-player">' + ___('player_loading') + "</p>")
+            $("#hn-player-loader").show().html('<p class="loading-player">' + ___('player_loading') + '</p>')
         },
         success: function(e) {
             e = JSON.parse(e).data;
             1 == e.status && (localStorage.removeItem("reSizePlayerObject"),
+            $("#hn-player-loader").css("display", "none"),
             $("#ajax-player").html(e.sources),
-            $("#haun-player-wrapper").css("padding-top", "0"),
-            $("#icon-rebuild-player").removeClass("animate-spin"),
-            $("#haun-player-loader").hide())
+            $("#hn-player-wrapper").css("padding-top", "0"),
+            $("#icon-rebuild-player").removeClass("animate-spin"))
         },
         error: function(e, a, l) {
             console.log(e.status + " " + l)
@@ -46,30 +42,30 @@ $(document).ready(function() {
         svid = getURLParameterValues("svid");
         if (svid == null) {
             haunPlayer(
-                haun_cfg.episode_slug,
-                haun_cfg.server,
-                haun_cfg.post_id,
+                player_epis.episode_slug,
+                player_epis.server,
+                player_epis.post_id,
                 $("body").data("nonce"),
                 "",
-                haun_cfg.custom_var
+                player_epis.custom_var
             );
         } else {
-            episodeSlug = $(".haun-btn.active").data("episode-slug");
-            server = $(".haun-btn.active").data("server");
-            postId = $(".haun-btn.active").data("post-id");
+            episodeSlug = $(".haun-btn.bg-red-600").data("episode-slug");
+            server = $(".haun-btn.bg-red-600").data("server");
+            postId = $(".haun-btn.bg-red-600").data("post-id");
 
             if (typeof playerInstance !== 'undefined') {
                 playerInstance.pause();
             }
 
-            $("#server-item-" + svid).addClass("active").siblings().removeClass("active");
-            $("#haun-player-wrapper").css("z-index", "99999");
-            $("button.close").click();
-            haunPlayer(episodeSlug, server, postId, "", svid, haun_cfg.custom_var);
+            $("#server-item-" + svid).addClass("bg-red-600").siblings().removeClass("bg-red-600");
+            $("#hn-player-wrapper").css("z-index", "99999");
+            $("button.close").trigger("click");
+            haunPlayer(episodeSlug, server, postId, "", svid, player_epis.custom_var);
         }
 
         setTimeout(function() {
-            if ($(document).find(".haun-btn.active").data("embed") == 1) {
+            if ($(document).find(".haun-btn.bg-red-600").data("embed") == 1) {
                 $("#autonext").hide();
             } else {
                 $("#autonext").show();
@@ -83,27 +79,27 @@ $(document).ready(function() {
         server = $this.data("server");
         postId = $this.data("post-id");
 
-        if (!$this.hasClass("active")) {
-            $(".play-listsv.active").removeClass("active");
-            $this.addClass("active");
-            $("#haun-player-wrapper").css("z-index", "99999");
-            $("#haun-player-loader").show().css("position", "absolute");
-            $("button.close").click();
-            haunPlayer(episodeSlug, server, postId, "", "", haun_cfg.custom_var);
+        if (!$this.hasClass("bg-red-600")) {
+            $(".play-listsv.bg-red-600").removeClass("bg-red-600");
+            $this.addClass("bg-red-600");
+            $("#hn-player-wrapper").css("z-index", "99999");
+            $("#hn-player-loader").show().css("position", "absolute");
+            $("button.close").trigger("click");
+            haunPlayer(episodeSlug, server, postId, "", "", player_epis.custom_var);
         }
     });
 
     $("body").on("click", "#reBuildPlayer", function() {
-        episodeSlug = $(".haun-btn.active").data("episode-slug");
-        server = $(".haun-btn.active").data("server");
-        postId = $(".haun-btn.active").data("post-id");
+        episodeSlug = $(".haun-btn.bg-red-600").data("episode-slug");
+        server = $(".haun-btn.bg-red-600").data("server");
+        postId = $(".haun-btn.bg-red-600").data("post-id");
 
-        $("#haun-player-wrapper").css("z-index", "99999");
+        $("#hn-player-wrapper").css("z-index", "99999");
         $("#icon-rebuild-player").addClass("animate-spin");
-        $("button.close").click();
-        $("#haun-player-loader").show().css("position", "absolute");
+        $("button.close").trigger("click");
+        $("#hn-player-loader").show().css("position", "absolute");
         haunPlayerResetCache(episodeSlug, server, postId);
-        haunPlayer(episodeSlug, server, postId, "", "", haun_cfg.custom_var);
+        haunPlayer(episodeSlug, server, postId, "", "", player_epis.custom_var);
         console.log("Player has been reloaded!");
     });
 });
@@ -154,65 +150,61 @@ window.getURLParameterValues = function(e, a) {
 window.haunJwConfig = function(playerInstance) {
     playerInstance.on("ready", function() {
         is_Mobile();
-        $("#haun-player-loader").hide();
+        $("#hn-player-loader").hide();
     });
 
-    playerInstance.on("error", function(error) {
-        console.log("An error occurred: ", error);
-
-        if (haun_cfg.player_error_detect === "display_modal") {
+    playerInstance.on("error", function(error) {  
+        if (player_epis.player_error_detect === "display_modal") {
             haunPlayerErrorDetect();
-        } else if (haun_cfg.player_error_detect === "autoload_server") {
-            const randomServer = svlists[Math.floor(Math.random() * svlists.length)];
-            $("#server-item-" + randomServer).click();
-            console.log("Autoload server triggered with server ID: ", randomServer);
+        } else if (player_epis.player_error_detect === "autoload_server") {
+            let currentIndex = 0;
+    
+            function tryNextServer() {
+                if (currentIndex >= svlists.length) {
+                    return;
+                }
+                const serverId = svlists[currentIndex];
+                $("#server-item-" + serverId).trigger("click");
+                setTimeout(function() {
+                    if (playerInstance.getState() === "error") {
+                        currentIndex++;
+                        tryNextServer(); 
+                    }
+                }, 3000); 
+            }
+    
+            tryNextServer(); 
         } else if ($.fn.customErrorHandler) {
             customErrorHandler();
-        } else {
-            console.log("No error handling method available.");
         }
-
-        if (haun_cfg.auto_reset_cache === 1) {
-            const episodeSlug = $(".haun-btn.active").data("episode-slug");
-            const server = $(".haun-btn.active").data("server");
-            const postId = $(".haun-btn.active").data("post-id");
+    
+        if (player_epis.auto_reset_cache === 1) {
+            const episodeSlug = $(".haun-btn.bg-red-600").data("episode-slug");
+            const server = $(".haun-btn.bg-red-600").data("server");
+            const postId = $(".haun-btn.bg-red-600").data("post-id");
             haunPlayerResetCache(episodeSlug, server, postId);
-            console.log("Cache has been automatically reset for episode:", episodeSlug);
         }
     });
+    
 
     playerInstance.on("play", function() {
-        // Đóng modal reload nếu đang mở
-        $("#reLoadPlayerModal").modal("hide");
-        console.log("Playback started; reload modal closed.");
+        if (typeof window.reLoadPlayerModal !== 'undefined') {
+            $("#reLoadPlayerModal").remove();
+        }
     });
+
 
     playerInstance.on("complete", function() {
-        // Tự động chuyển sang video tiếp theo nếu có
         haunPlayerAutoNext();
-        console.log("Video playback complete; proceeding to the next video.");
-    });
-
-    playerInstance.on("pause", function() {
-        console.log("Playback paused.");
-        // Logic bổ sung cho trạng thái tạm dừng, nếu cần
-    });
-
-    playerInstance.on("seek", function(event) {
-        console.log("User seeked to position: ", event.position);
-        // Logic bổ sung nếu cần khi tua
     });
 
     playerInstance.on("buffer", function() {
-        console.log("Buffering...");
-        $("#haun-player-loader").show(); // Hiển thị loader khi buffering
+        $("#hn-player-loader").show(); 
     });
     playerInstance.on("bufferFull", function() {
-        console.log("Buffering complete.");
-        $("#haun-player-loader").hide(); // Ẩn loader khi hoàn tất buffering
+        $("#hn-player-loader").hide(); 
     });
 };
-
 
 window.haunPlayerResetCache = function(e, a, t) {
     return $.ajax({
@@ -237,11 +229,11 @@ window.haunPlayerErrorDetect = function() {
 window.reLoadPlayerModal = function() {
     $("#reLoadPlayerModal").remove();
     const modalHTML = `
-        <div x-data="{ open: true }" x-show="open" class="fixed inset-0 z-50 flex items-center justify-center bg-gray-900 bg-opacity-50" x-cloak>
-            <div class="bg-white rounded-lg shadow-lg max-w-md w-full p-6" @click.away="open = false">
+        <div id="reLoadPlayerModal" class="absolute inset-0 z-[999999] flex items-center justify-center bg-gray-900 bg-opacity-50">
+            <div class="bg-white rounded-lg shadow-lg max-w-md w-full p-6">
                 <div class="flex justify-between items-center border-b pb-3">
                     <h4 class="text-lg font-semibold text-gray-800">Error (Code: 224003)</h4>
-                    <button @click="open = false" class="text-gray-500 hover:text-gray-700">
+                    <button class="text-gray-500 hover:text-gray-700 close-modal">
                         <span class="text-xl font-bold">&times;</span>
                     </button>
                 </div>
@@ -260,34 +252,70 @@ window.reLoadPlayerModal = function() {
             </div>
         </div>`;
 
-    $("body").append(modalHTML);
+    $("#hn-player-wrapper").append(modalHTML);
+    $(document).on("click", function(event) {
+        if (!$(event.target).closest("#reLoadPlayerModal > div").length) {
+            $("#reLoadPlayerModal").remove();
+        }
+    });
+    $(".close-modal").on("click", function() {
+        $("#reLoadPlayerModal").remove();
+    });
     if ($("#haun-ajax-list-server").length) {
         $("#haun-ajax-list-server").prependTo("#serverList");
     }
-    $("#reBuildPlayer").on("click", function() {
-        console.log("Player reloaded!");
-        $("#icon-rebuild-player").addClass("animate-spin");
-        haunPlayerResetCache(); 
-    });
-    $("body").removeClass("modal-open").css("padding-right", "");
+    $("#hn-player-wrapper").removeClass("modal-open").css("padding-right", "");
 };
 
-window.haunResumeVideo = function(e, a) {
-    1 == haun_cfg.resume_playback && a.on("ready", function() {
-        var t, o;
-        "undefined" != typeof Storage ? (t = "HauNPlayerPosition-" + e, "" == localStorage[t] || "undefined" == localStorage[t] ? (console.log("No cookie for position found"), o = 0) : "null" == localStorage[t] ? localStorage[t] = 0 : o = localStorage[t], a.once("play", function() {
-            0 < o && 5 < Math.abs(a.getDuration() - o) && (a.seek(o), $("body").append('<div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="mobileModalLabel" aria-hidden="true" style="z-index: 99999;"><div id="resumeModal" class="modal-dialog modal-sm" style="position:relative;background: #fff;border: 1px solid #eee;padding: 20px 13px;text-align: center;border-radius: 5px;"><p>' + haun_cfg.resume_text + ': <b style="color:#f52121;">' + formatSeconds(o) + '</b></p><div style="text-align:center;"><strong class="yes"><i class="hn-ccw"></i> ' + haun_cfg.playback + '</strong><strong class="no"><i class="hn-play-circled-o"></i> ' + haun_cfg.continue_watching + "</strong></div></div></div>"), setTimeout(function() {
-                $("#resume").modal("show")
-            }, 800), $("body").on("click", ".no", function() {
-                $("#resume").modal("hide"), a.play()
-            }), $("body").on("click", ".yes", function() {
-                $("#resume").modal("hide"), localStorage[t] = 0, a.seek(0), a.play()
-            }))
-        }), window.onunload = function() {
-            localStorage[t] = a.getPosition()
-        }) : console.log("Your browser is too old!")
-    })
-}
+window.haunResumeVideo = function (videoId, playerInstance) {
+    if (player_epis.resume_playback) {
+        playerInstance.on("ready", function () {
+            if (typeof Storage !== "undefined") {
+                const storageKey = `HauNPlayerPosition-${videoId}`;
+                let position = localStorage.getItem(storageKey);
+                position = position === null || position === "undefined" ? 0 : parseFloat(position);
+                if (position > 0 && Math.abs(playerInstance.getDuration() - position) > 5) {
+                    playerInstance.seek(position);
+                    const modalHtml = `
+                        <div id="resume" class="absolute inset-0 flex items-center justify-center z-50 bg-black/[.86]">
+                            <div class="bg-slate-900 border border-gray-900 mx-2 md:mx-0 px-5 py-4 md:py-10 rounded-2xl text-center w-full md:w-6/12">
+                                <p>${___('resume_text')} </p>
+                                <div class="text-red-500 font-bold mt-2 md:mt-4">${formatSeconds(position)}</div>
+                                <div class="flex justify-center space-x-2 mt-2 md:mt-4">
+                                    <button class="yes-resume bg-red-500 hover:bg-red-700 px-5 py-2 text-sm leading-5 rounded-full font-semibold text-white">
+                                         ${___('playback')}
+                                    </button>
+                                    <button class="no-resume bg-sky-500 hover:bg-sky-700 px-5 py-2 text-sm leading-5 rounded-full font-semibold text-white">
+                                         ${___('continue_watching')}
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    $('#hn-player-wrapper').append(modalHtml);
+                    setTimeout(() => {
+                        $('#resume').css('display', 'flex');
+                    }, 800);
+                    $('#hn-player-wrapper').on('click', '.no-resume', function () {
+                        $('#resume').remove();
+                        playerInstance.play();
+                    });
+                    $('#hn-player-wrapper').on('click', '.yes-resume', function () {
+                        $('#resume').remove();
+                        localStorage.setItem(storageKey, 0);
+                        playerInstance.seek(0);
+                        playerInstance.play();
+                    });
+                }
+                $(window).on('unload', function () {
+                    localStorage.setItem(storageKey, playerInstance.getPosition());
+                });
+            } else {
+                console.log("Your browser is too old!");
+            }
+        });
+    }
+};
 
 window.formatSeconds = function(e) {
     var a = new Date(1970, 0, 1);

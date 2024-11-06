@@ -3,6 +3,7 @@
 namespace HNMG\Episodes;
 
 use HNMG\Episodes\EP_Helper;
+use HNMG\LoadCore\HN_Helper;
 use Illuminate\Support\Str;
 use function Roots\view;
 
@@ -10,11 +11,14 @@ class EP_Episode {
 	
 	public function __construct() {
 		$this->load = new EP_Helper(); 
+		$this->helper = new HN_Helper(); 
 	}
 	
 	public function register() {
-		add_filter('HNMG-tabs', [$this, 'hnapisode_manage_menu']);
-        add_filter('HNMG-pages', [$this, 'hnapisode_manage_menu']);
+		if ($this->helper->get_product_status(SKU_THEMES) === 'connected') {
+			add_filter('HNMG-tabs', [$this, 'hnapisode_manage_menu']);
+			add_filter('HNMG-pages', [$this, 'hnapisode_manage_menu']);
+		}
 		add_action('add_meta_boxes', [$this, 'hnmovies_meta_box']);
 		add_action('save_post', [$this, 'hnmovies_save_metapost']);
 	}

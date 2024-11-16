@@ -1,6 +1,6 @@
 {
     "name": "hncore/hnmgepis",
-    "type": "wordpress-plugin",
+    "type": "package",
     "description": "Manager Episode",
     "license": "MIT",
     "authors": [

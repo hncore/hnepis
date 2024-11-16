@@ -1,8 +1,292 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\EP_Core; class EP_Core { public function register() { goto N0guf; YIrbi: add_filter("\x70\162\x65\x5f\147\x65\x74\137\x70\157\x73\164\163", [$this, "\145\170\x63\154\165\x64\145\x5f\160\x61\147\145\163\137\146\x72\157\x6d\x5f\x73\x65\141\162\143\x68"]); goto y_V32; Mr91B: add_action("\x77\x70\137\165\160\144\141\x74\145\137\156\x61\x76\137\155\145\x6e\165\137\x69\x74\145\x6d", [$this, "\163\x61\166\x65\x5f\x63\165\x73\x74\x6f\155\137\x6d\145\x6e\165\x5f\146\x69\x65\154\144\163"], 10, 2); goto S5DAu; xyI51: add_action("\x77\x70\137\x6e\141\166\137\x6d\145\x6e\x75\137\151\x74\145\155\x5f\143\165\163\164\x6f\x6d\137\x66\x69\x65\154\x64\x73", [$this, "\141\x64\144\x5f\x63\165\x73\164\157\x6d\x5f\155\145\156\x75\137\x66\151\x65\x6c\x64\163"], 10, 4); goto Mr91B; DPUxd: add_action("\163\141\x76\145\137\x70\157\163\164", [$this, "\141\165\x74\157\137\x72\x65\x6d\x6f\x76\145\137\155\x65\x74\x61"]); goto ksv2L; JFTql: add_action("\x62\x65\146\157\x72\145\137\x64\145\154\x65\164\x65\137\160\157\163\164", [$this, "\x72\x65\155\157\166\145\137\141\164\164\x61\143\150\x6d\x65\x6e\x74\137\x77\x69\x74\x68\x5f\160\157\x73\x74"], 10); goto orCgy; orCgy: add_action("\163\x61\x76\145\137\x70\157\163\x74", [$this, "\150\x61\165\156\x5f\x73\141\166\145\137\160\157\x73\x74\x5f\x61\x63\x74\x69\x6f\156\163"], 100, 2); goto DPUxd; BZ89W: add_action("\141\x64\x6d\151\x6e\x5f\146\157\x6f\x74\x65\162\137\164\x65\x78\164", [$this, "\143\165\163\164\x6f\155\137\x61\144\155\151\x6e\x5f\x66\157\x6f\164\145\x72"]); goto U3axO; U3axO: add_action("\x77\160\137\141\x66\164\x65\162\137\x61\144\155\151\156\x5f\x62\x61\x72\x5f\162\x65\156\144\145\x72", [$this, "\143\x68\x61\156\x67\145\x5f\x61\x64\x6d\151\156\137\142\141\x72\137\154\x61\142\145\x6c"]); goto aKLsJ; y_V32: add_action("\x69\156\x69\x74", [$this, "\162\x65\155\x6f\x76\145\x5f\145\x78\x74\162\141\137\151\155\141\x67\145\x5f\x73\151\172\x65\163"]); goto bWyzh; bWyzh: add_filter("\151\x6e\x74\x65\x72\155\x65\144\x69\141\164\x65\x5f\151\155\141\147\x65\x5f\163\x69\x7a\x65\x73\137\141\x64\166\x61\x6e\x63\145\144", [$this, "\162\x65\155\x6f\x76\x65\x5f\x75\x6e\x77\x61\x6e\x74\145\x64\x5f\x69\155\141\147\x65\137\x73\x69\172\x65\x73"], 10, 2); goto xyI51; N0guf: add_action("\141\x64\x6d\x69\x6e\137\155\145\x6e\165", [$this, "\143\x68\x61\156\147\x65\137\x61\x64\155\151\156\x5f\x6c\x61\x62\145\x6c"]); goto pKRl1; vC0Oo: add_action("\x63\165\x72\162\x65\156\x74\137\x73\x63\x72\145\145\156", [$this, "\150\141\165\x6e\137\x63\x75\x72\162\145\156\164\x5f\163\143\x72\x65\145\156"]); goto YIrbi; aKLsJ: add_action("\141\x64\x6d\151\x6e\137\146\x6f\157\164\x65\162", [$this, "\x66\x6f\162\x63\145\x5f\x64\145\x6c\145\164\x65\x5f\160\x6f\x73\x74\137\163\x63\x72\151\160\x74"]); goto JFTql; pKRl1: add_action("\x69\x6e\151\x74", [$this, "\150\141\x75\x6e\x5f\155\157\166\x69\x65\163\137\x6c\141\x62\x65\x6c"]); goto BZ89W; ksv2L: add_filter("\147\145\164\x74\x65\x78\x74\137\x77\x69\164\150\137\143\157\x6e\x74\145\x78\x74", [$this, "\162\145\x6e\x61\155\145\137\160\157\163\x74\x5f\x66\x6f\x72\155\141\x74\163"], 10, 4); goto vC0Oo; S5DAu: add_action("\167\160\137\145\156\x71\x75\x65\x75\145\x5f\x73\143\162\x69\160\x74\x73", [$this, "\162\145\x6d\157\x76\145\x5f\152\x71\165\x65\162\x79\x5f\x6d\151\147\162\141\164\x65"]); goto FmfU4; FmfU4: } public function remove_jquery_migrate() { remove_action("\x77\160\137\x68\x65\x61\x64", "\x77\160\x5f\147\145\x6e\x65\162\141\x74\157\x72"); } public function add_custom_menu_fields($item_id, $item, $depth, $args) { goto B7Gq9; DmtBG: echo $item_id; goto ZDGkg; Ma7ry: echo "\11\11\x9\11\x9\74\x2f\x64\151\x76\76\12\x9\11\11\x9\x3c\x2f\x64\x69\166\76\12\x9\x9\x9\11\x3c\x69\x6e\160\165\164\x20\x74\x79\x70\145\75\x22\x68\151\x64\144\x65\156\42\x20\x69\x64\75\42\x73\145\x6c\145\143\x74\x65\144\55\x69\x63\x6f\x6e\55"; goto eNjDZ; gPUiI: echo $item_id; goto wyWWl; Jjwyh: tlige: goto EECyU; B7Gq9: $fontAwesomeCssPath = get_template_directory() . "\57\x76\x65\156\144\x6f\162\x2f\150\x6e\x63\x6f\162\x65\x2f\x68\x6e\155\x67\145\x70\x69\x73\x2f\166\x65\x6e\x64\x6f\162\57\x66\157\162\164\141\x77\x65\x73\x6f\x6d\145\x2f\x66\157\156\164\55\x61\x77\x65\163\157\155\x65\x2f\x63\x73\163\x2f\146\157\156\x74\x2d\141\167\x65\x73\x6f\x6d\x65\x2e\155\151\156\56\x63\163\x73"; goto iovXa; HGppH: echo $item_id; goto aQLiq; DcbWI: preg_match_all("\57\134\56\x66\141\55\50\x5b\x5c\167\134\55\x5d\x2b\51\72\x62\x65\146\x6f\x72\145\x2f", $cssContent, $matches); goto jhOYd; EECyU: $selectedIcon = get_post_meta($item_id, "\x5f\x6d\145\156\165\137\151\164\x65\155\137\151\143\x6f\156", true); goto b7G2e; b7G2e: echo "\x9\11\74\x70\40\143\x6c\x61\163\x73\75\x22\x64\x65\x73\143\162\151\x70\x74\x69\157\156\x20\144\x65\163\x63\x72\x69\160\164\x69\x6f\156\55\167\151\144\x65\x22\76\xa\x9\x9\11\74\x6c\141\142\145\x6c\x20\146\x6f\x72\x3d\x22\145\144\x69\164\x2d\155\x65\x6e\165\55\151\x74\x65\155\x2d\x69\x63\157\x6e\x2d"; goto j_SGL; eNjDZ: echo $item_id; goto Gn0Ah; aQLiq: echo "\42\40\163\164\171\x6c\145\75\42\x64\x69\x73\160\x6c\x61\x79\x3a\x20\x67\162\x69\x64\73\x20\147\x72\151\144\55\164\145\x6d\160\154\141\x74\x65\x2d\143\x6f\x6c\165\155\156\163\x3a\x20\x31\x66\162\73\x20\147\x61\x70\x3a\40\61\60\160\170\73\x20\155\141\170\x2d\150\145\x69\147\150\x74\x3a\40\x33\x35\x30\160\x78\x3b\40\x6f\166\x65\x72\146\x6c\x6f\167\x2d\x79\72\40\141\165\x74\x6f\73\40\x70\141\144\x64\151\156\147\72\x20\65\160\x78\73\40\142\157\x72\144\x65\162\72\x20\61\x70\170\x20\x73\x6f\154\x69\144\x20\x23\144\x64\144\73\40\x62\x6f\x72\144\145\162\x2d\162\141\x64\151\x75\163\x3a\40\x34\x70\170\x3b\42\x3e\xa\11\11\11\11\x9\74\x69\x6e\x70\x75\164\x20\x74\171\160\x65\x3d\42\x74\145\x78\x74\42\40\x69\x64\x3d\x22\151\x63\157\156\x2d\163\145\x61\x72\143\x68\55"; goto DmtBG; wyWWl: echo "\x5d\42\x20\x76\x61\154\165\x65\x3d\42"; goto qkHBf; XJUSa: echo "\x22\x3e\12\x9\11\x9\x9"; goto ubF_5; o7fuo: echo json_encode($item_id); goto y435B; ZDGkg: echo "\x22\40\x70\x6c\x61\143\145\150\157\154\144\145\162\x3d\x22\x53\145\x61\162\x63\150\40\x69\x63\x6f\156\x2e\x2e\x2e\42\x20\163\x74\171\154\145\75\42\x67\x72\x69\144\55\x63\x6f\154\x75\155\156\72\40\61\40\57\40\x2d\61\73\x20\167\151\144\x74\150\72\x20\x31\x30\60\x25\x3b\x20\155\141\162\147\x69\x6e\55\x62\157\x74\164\157\x6d\72\40\x31\x30\160\x78\x3b\40\x70\x61\144\144\x69\156\147\72\40\65\x70\x78\x3b\x20\142\157\162\x64\145\162\x3a\x20\61\160\x78\x20\163\x6f\154\x69\144\x20\43\x63\x63\x63\73\x20\142\x6f\x72\x64\145\162\55\x72\x61\144\151\165\163\72\x20\x34\x70\170\73\42\x3e\12\11\11\11\11\x9\x3c\144\151\x76\40\163\x74\x79\154\x65\75\x22\144\151\163\x70\x6c\141\x79\x3a\x20\x67\162\x69\x64\73\40\x67\162\x69\144\x2d\164\145\155\160\x6c\x61\x74\x65\55\143\157\154\x75\155\156\x73\72\40\x72\145\160\145\141\164\50\x61\x75\x74\157\x2d\x66\151\154\154\54\x20\155\151\x6e\155\141\170\50\x35\60\x70\x78\x2c\x20\x31\x66\x72\x29\x29\73\x20\147\141\x70\72\x20\x31\x30\160\x78\73\42\76\12\11\x9\11\11\11\11"; goto oGQk3; Gn0Ah: echo "\42\40\156\141\155\145\75\42\x6d\145\156\x75\x2d\x69\x74\x65\155\55\x69\143\x6f\156\x5b"; goto gPUiI; nXHQf: jGUZr: goto Z4YXt; gdmGt: if (!file_exists($fontAwesomeCssPath)) { goto tlige; } goto Ju_uH; Ju_uH: $cssContent = file_get_contents($fontAwesomeCssPath); goto DcbWI; J9Qgq: echo "\x22\x3e\12\x9\x9\11\74\57\154\x61\x62\145\154\76\12\x9\x9\74\x2f\160\x3e\xa\11\x9\74\x73\143\x72\x69\160\164\x3e\xa\11\x9\x9\x6a\x51\x75\145\162\171\50\x64\x6f\143\x75\x6d\x65\x6e\164\x29\56\x72\x65\141\x64\x79\50\146\x75\x6e\x63\164\151\157\156\x28\44\x29\x20\173\12\x9\11\x9\x9\x76\141\x72\x20\x69\164\145\155\x49\144\x20\75\x20"; goto o7fuo; E5Pxq: echo "\74\142\162\76\12\11\x9\x9\11\x3c\x64\x69\166\x20\x69\x64\75\x22\151\143\157\156\x2d\x6c\x69\x73\x74\55"; goto HGppH; Z4YXt: QtEj6: goto Jjwyh; IEpoM: NbQPH: goto Ma7ry; jhOYd: if (!isset($matches[1])) { goto QtEj6; } goto p2F2N; iovXa: $iconsList = []; goto gdmGt; y435B: echo "\73\xa\11\x9\11\x9\x24\50\47\x23\x69\143\157\156\55\x6c\x69\x73\164\55\47\40\x2b\40\x69\164\145\155\x49\x64\x20\x2b\x20\x27\40\x2e\x69\x63\x6f\156\x2d\x69\164\145\155\47\x29\x2e\x6f\156\50\47\x63\154\151\143\x6b\x27\54\x20\x66\165\156\x63\164\151\x6f\x6e\x28\x29\x20\x7b\12\11\11\11\x9\11\x24\50\x27\x23\151\x63\x6f\156\x2d\x6c\151\163\164\x2d\x27\40\x2b\x20\151\164\x65\x6d\x49\144\x20\x2b\x20\47\40\x2e\x69\143\157\156\x2d\151\x74\145\155\47\x29\56\143\x73\163\50\x27\x62\157\162\144\145\162\47\54\x20\47\x31\x70\170\40\163\x6f\x6c\151\144\x20\43\x64\x64\x64\x27\x29\73\xa\x9\x9\x9\x9\x9\x24\x28\164\150\x69\x73\x29\x2e\143\163\163\50\47\142\157\x72\x64\x65\x72\x27\54\x20\47\x32\x70\170\40\163\157\154\151\144\x20\x23\x30\60\x37\63\x61\141\47\51\x3b\12\11\11\11\x9\x9\166\141\162\40\163\145\154\145\143\164\x65\144\111\143\157\156\x20\x3d\40\x24\x28\x74\x68\151\x73\x29\x2e\x64\x61\164\141\50\47\x69\143\x6f\x6e\47\x29\73\xa\11\11\x9\x9\x9\x24\x28\47\43\x73\x65\154\x65\143\x74\x65\x64\x2d\x69\x63\157\x6e\x2d\47\x20\53\x20\151\164\145\155\111\x64\51\x2e\166\141\x6c\50\x73\145\x6c\x65\x63\x74\x65\x64\x49\x63\x6f\x6e\x29\73\12\x9\11\11\11\175\51\73\12\x9\11\11\11\x24\50\x27\x23\151\143\157\x6e\55\163\x65\141\x72\143\x68\55\47\x20\x2b\40\x69\x74\145\155\x49\144\51\x2e\x6f\156\50\47\x69\x6e\160\165\x74\47\54\x20\146\x75\156\143\x74\151\x6f\156\50\x29\40\x7b\12\x9\11\x9\11\11\166\141\x72\x20\x73\145\141\162\x63\x68\124\145\162\155\40\x3d\x20\44\50\164\x68\x69\163\x29\x2e\166\141\154\x28\x29\56\164\157\x4c\x6f\x77\x65\162\103\141\163\x65\50\51\x3b\xa\11\x9\11\11\11\x24\x28\x27\43\151\x63\157\x6e\x2d\154\x69\x73\164\55\47\40\x2b\40\x69\164\x65\x6d\x49\x64\40\53\40\x27\40\x2e\151\x63\157\156\x2d\x69\x74\145\155\x27\x29\x2e\145\x61\x63\150\50\146\x75\156\143\164\151\157\156\50\x29\40\x7b\xa\11\x9\11\11\x9\x9\x76\141\x72\40\x6c\x61\142\145\x6c\x20\x3d\x20\44\50\164\x68\151\163\51\x2e\x74\145\170\x74\50\51\56\x74\157\114\x6f\x77\145\x72\x43\x61\163\x65\x28\x29\73\12\11\11\11\11\x9\x9\x69\146\40\x28\x6c\x61\x62\x65\x6c\56\151\x6e\144\x65\170\117\146\x28\x73\145\x61\x72\143\150\x54\145\x72\x6d\x29\x20\x3e\x20\x2d\x31\51\x20\x7b\12\x9\x9\x9\11\x9\11\11\44\x28\x74\x68\x69\x73\51\56\163\150\x6f\x77\x28\x29\73\xa\11\11\11\x9\11\11\x7d\40\x65\x6c\x73\145\40\x7b\12\11\11\x9\11\11\x9\11\44\x28\164\150\x69\x73\x29\x2e\150\x69\x64\x65\50\x29\x3b\xa\11\x9\x9\x9\11\11\x7d\12\x9\11\11\x9\11\175\51\x3b\12\11\11\11\11\x7d\x29\73\12\x9\x9\x9\175\51\73\12\11\x9\x3c\57\163\x63\162\151\160\x74\x3e\12\x9\x9"; goto BLyzN; p2F2N: foreach ($matches[1] as $icon) { $iconsList["\x66\141\40\146\141\55{$icon}"] = ucwords(str_replace("\55", "\x20", $icon)); pkjJu: } goto nXHQf; ubF_5: _e("\x4d\145\x6e\x75\40\111\x63\157\x6e\40\50\x46\x6f\x6e\164\40\x41\x77\145\163\157\155\145\x20\x63\x6c\141\163\163\x29", "\x68\x6e\155\147\145\x70\151\x73"); goto E5Pxq; j_SGL: echo $item_id; goto XJUSa; oGQk3: foreach ($iconsList as $iconClass => $iconLabel) { goto lQf_u; wsBLV: GA9n1: goto mg3cj; fbz2O: echo "\x22\x20\163\164\x79\154\145\75\x22\x64\x69\163\x70\154\141\171\x3a\x20\x66\x6c\145\x78\73\x20\146\x6c\145\170\55\x64\x69\x72\145\x63\164\151\157\156\72\x20\x63\157\154\x75\155\156\73\40\x61\x6c\151\147\156\55\151\164\145\155\163\72\40\143\145\x6e\164\145\x72\x3b\x20\x6a\165\163\x74\x69\146\171\55\143\157\156\x74\x65\x6e\164\x3a\40\x63\x65\x6e\x74\x65\162\x3b\x20\143\165\x72\x73\157\162\x3a\x20\160\x6f\x69\156\164\145\x72\x3b\x20\x70\141\144\x64\151\156\x67\x3a\40\x35\x70\x78\x3b\40\x62\157\x72\144\x65\162\72\x20\x31\x70\x78\x20\163\x6f\x6c\x69\x64\x20\43\x64\144\144\x3b\40\142\x6f\162\144\x65\162\x2d\x72\x61\144\x69\x75\163\x3a\40\64\x70\x78\73\x22\76\12\11\11\x9\11\11\x9\x9\x9\x3c\x69\40\x63\154\141\163\163\x3d\x22"; goto xMzIX; zGoHU: echo "\74\57\163\160\x61\x6e\76\12\11\x9\11\x9\11\11\x9\x3c\57\144\151\x76\x3e\12\x9\x9\x9\x9\11\11"; goto wsBLV; hUrNt: echo esc_html($iconLabel); goto zGoHU; DWkDo: echo esc_attr($iconClass); goto fbz2O; xMzIX: echo esc_attr($iconClass); goto qvawu; qvawu: echo "\42\40\x73\164\171\154\x65\75\42\x66\x6f\x6e\x74\55\163\151\x7a\x65\x3a\x20\x32\x34\x70\170\x3b\40\144\x69\x73\x70\154\x61\x79\72\40\x62\154\x6f\143\153\73\40\x6d\x61\162\x67\151\156\x2d\142\157\x74\164\157\x6d\72\x20\x33\x70\170\73\x22\76\74\x2f\x69\x3e\12\x9\x9\x9\x9\x9\11\x9\x9\x3c\x73\x70\x61\x6e\x20\163\x74\171\154\x65\x3d\x22\x66\x6f\156\164\55\x73\x69\172\x65\x3a\x20\61\60\x70\x78\x3b\40\x77\150\x69\164\x65\55\x73\160\141\143\x65\x3a\x20\x6e\157\167\x72\x61\x70\73\x20\157\x76\145\x72\x66\154\x6f\167\72\40\150\x69\144\x64\145\x6e\x3b\x20\164\145\170\164\x2d\157\x76\145\162\146\x6c\157\x77\x3a\x20\145\154\154\x69\160\x73\x69\163\x3b\x20\x6d\x61\170\x2d\167\x69\x64\164\x68\72\40\x31\x30\x30\x25\x3b\42\x3e"; goto hUrNt; lQf_u: echo "\x9\11\11\11\x9\x9\11\x3c\x64\x69\x76\40\143\154\141\163\x73\75\42\x69\x63\x6f\156\x2d\151\x74\145\x6d\x22\x20\x64\x61\x74\141\x2d\151\143\x6f\x6e\x3d\42"; goto DWkDo; mg3cj: } goto IEpoM; qkHBf: echo esc_attr($selectedIcon); goto J9Qgq; BLyzN: } public function save_custom_menu_fields($menu_id, $menu_item_db_id) { goto FBRNE; XIgvn: EHSt6: goto azN17; LEwVu: $icon_value = sanitize_text_field($_POST["\x6d\x65\x6e\x75\x2d\151\164\145\x6d\55\151\x63\x6f\x6e"][$menu_item_db_id]); goto cTcC9; cTcC9: update_post_meta($menu_item_db_id, "\x5f\x6d\145\x6e\x75\137\151\x74\x65\155\x5f\x69\143\157\x6e", $icon_value); goto XIgvn; FBRNE: if (!isset($_POST["\x6d\x65\x6e\x75\55\x69\164\x65\x6d\x2d\151\143\x6f\x6e"][$menu_item_db_id])) { goto EHSt6; } goto LEwVu; azN17: } public function auto_remove_meta($post_id) { goto u8AaT; CP7eN: j2Pm8: goto g85VZ; GX_XG: return; goto ACQ0k; OLpqY: if (current_user_can("\145\x64\x69\164\x5f\x70\157\x73\x74", $post_id)) { goto j2Pm8; } goto uBWLF; Gc_N_: return; goto mqdIn; XuJ10: if ($custom_fields) { goto BES9_; } goto Gc_N_; uBWLF: return; goto CP7eN; QTX32: foreach ($custom_fields as $key => $custom_field) { goto o0mpn; XYx2X: delete_post_meta($post_id, $key); goto yK1HR; RLYGI: JtJx1: goto Dij3x; yK1HR: BQCiy: goto RLYGI; o0mpn: $values = array_filter($custom_field); goto ofoGw; ofoGw: if (!empty($values)) { goto BQCiy; } goto XYx2X; Dij3x: } goto gsuN4; uvppx: return; goto xeOjR; gsuN4: DOQxC: goto GX_XG; g85VZ: $custom_fields = get_post_custom($post_id); goto XuJ10; mqdIn: BES9_: goto QTX32; xeOjR: Hq8bY: goto OLpqY; u8AaT: if (!(defined("\104\x4f\111\x4e\107\x5f\101\125\x54\117\x53\x41\126\105") && DOING_AUTOSAVE)) { goto Hq8bY; } goto uvppx; ACQ0k: } public function remove_unwanted_image_sizes($sizes, $metadata = null) { goto lTDuy; ZHvc8: qKcJi: goto FYwXi; lTDuy: $disabled_sizes = array("\x74\150\165\155\142\156\x61\x69\x6c", "\155\x65\144\151\x75\x6d", "\x6d\145\x64\x69\165\155\x5f\x6c\141\x72\147\x65", "\154\141\x72\x67\x65", "\163\x68\x6f\x70\137\164\150\165\x6d\142\x6e\141\151\154", "\x73\150\x6f\x70\137\143\x61\164\141\154\157\x67", "\163\x68\157\x70\x5f\163\151\156\x67\x6c\145"); goto DxfGK; DxfGK: foreach ($disabled_sizes as $size) { goto RnseY; RnseY: if (!isset($sizes[$size])) { goto AJ2EU; } goto b_hsc; b_hsc: unset($sizes[$size]); goto huthn; huthn: AJ2EU: goto AtYze; AtYze: krvDa: goto evjxi; evjxi: } goto ZHvc8; FYwXi: return $sizes; goto Odu6k; Odu6k: } public function remove_extra_image_sizes() { goto qCRxB; qCRxB: $allowed_sizes = array("\164\150\x75\x6d\x62\x6e\x61\x69\x6c", "\155\145\x64\x69\165\155", "\x6d\145\144\x69\x75\x6d\137\154\141\162\147\x65", "\154\141\162\147\x65"); goto O_LJP; Kjcye: TNRwh: goto Ofg0g; O_LJP: foreach (get_intermediate_image_sizes() as $size) { goto td9_s; BnatD: remove_image_size($size); goto yFaUa; oFJsr: NpgZb: goto M7G1z; yFaUa: EwU3u: goto oFJsr; td9_s: if (in_array($size, $allowed_sizes)) { goto EwU3u; } goto BnatD; M7G1z: } goto Kjcye; Ofg0g: } public function exclude_pages_from_search($query) { goto Rd7bJ; DszEW: iytXP: goto kxjx6; NglLb: $query->set("\160\157\163\x74\163\x5f\160\x65\x72\137\x70\141\x67\145", 20); goto DszEW; GMgVo: $query->set("\160\x6f\x73\164\137\164\x79\x70\145", "\x70\157\x73\164"); goto NglLb; kxjx6: return $query; goto bULJ0; Rd7bJ: if (!($query->is_main_query() && is_search())) { goto iytXP; } goto GMgVo; bULJ0: } public function haun_current_screen() { goto TnRpF; oJ_9Q: $pt = get_current_screen()->post_type; goto NpbxW; Rs_V1: remove_meta_box("\164\x72\x61\143\153\142\x61\143\x6b\x73\144\x69\166", $pt, "\156\x6f\162\155\x61\154"); goto PTkB0; JkXYM: remove_meta_box("\x70\x6f\163\x74\x5f\x6f\160\x74\x69\x6f\156\163\144\151\x76", $pt, "\x6e\x6f\162\155\141\x6c"); goto xyyXM; U2lZH: remove_meta_box("\x63\x6f\x6d\x6d\145\x6e\164\x73\x64\151\166", $pt, "\156\x6f\162\155\141\x6c"); goto rcBJV; rcBJV: remove_meta_box("\x70\x6f\x73\164\x63\x75\x73\x74\x6f\155", $pt, "\x6e\157\x72\x6d\141\154"); goto gAfxh; fOMrz: remove_meta_box("\x73\x74\x61\164\x75\x73\x64\151\x76", $pt, "\x6e\x6f\x72\155\x61\154"); goto JkXYM; PTkB0: zUGbr: goto csPUa; gAfxh: remove_meta_box("\160\157\x73\164\145\170\x63\145\162\x70\164", $pt, "\x6e\x6f\x72\155\141\154"); goto U651q; DR_p5: return; goto ra1_Q; ra1_Q: HKWZn: goto fOMrz; TnRpF: if (!function_exists("\x67\x65\164\137\x63\x75\x72\162\x65\156\x74\137\163\143\162\x65\x65\x6e")) { goto zUGbr; } goto oJ_9Q; xyyXM: remove_meta_box("\x74\x61\147\163\144\x69\166\55\x65\160\x69\x73\x6f\144\x65\55\164\171\x70\x65\x73", $pt, "\x6e\x6f\162\x6d\141\154"); goto hwlQ5; hwlQ5: remove_meta_box("\141\165\164\150\x6f\x72\x64\151\x76", $pt, "\x6e\x6f\x72\x6d\141\154"); goto S2P45; U651q: remove_meta_box("\162\145\x76\151\163\x69\x6f\156\163\x64\151\x76", $pt, "\x6e\x6f\162\155\141\154"); goto Rs_V1; S2P45: remove_meta_box("\143\x6f\x6d\155\145\x6e\x74\x73\164\141\164\x75\163\x64\x69\x76", $pt, "\x6e\x6f\x72\155\x61\154"); goto U2lZH; NpbxW: if (!($pt != "\x70\x6f\163\x74" && $pt != "\x6e\x65\167\x73" && $pt != "\166\151\x64\x65\x6f" && $pt != "\160\141\x67\145")) { goto HKWZn; } goto DR_p5; csPUa: } public function rename_post_formats($translation, $text, $context, $domain) { goto m14L7; EEjrb: ZlYqi: goto L7Voz; L7Voz: return $translation; goto C66H9; m14L7: $names = array("\x41\x73\151\144\x65" => __("\115\157\166\x69\x65", "\x68\x6e\x6d\x67\145\x70\x69\163"), "\x47\x61\154\154\x65\162\x79" => __("\124\x56\x20\x53\145\162\151\145\163", "\150\x6e\155\147\x65\x70\x69\x73"), "\126\x69\x64\145\157" => __("\124\x56\x20\123\150\157\167\x73", "\150\x6e\x6d\x67\145\160\151\163"), "\x41\x75\x64\x69\x6f" => __("\124\150\145\141\x74\x65\162\x20\x4d\x6f\166\x69\x65", "\150\156\155\x67\145\x70\x69\163")); goto yK3tD; lBdQ8: $translation = str_replace(array_keys($names), array_values($names), $text); goto EEjrb; yK3tD: if (!($context == "\120\157\163\164\x20\x66\x6f\162\x6d\x61\x74")) { goto ZlYqi; } goto lBdQ8; C66H9: } public function haun_save_post_actions($post_id, $post) { goto d5KEV; Qu5XO: if (!isset($options["\150\141\x75\156\x5f\x6d\x6f\x76\x69\145\137\163\x63\x68\145\144\x75\x6c\145"])) { goto ONePt; } goto LVYFH; EqP_D: ikNtY: goto QFVny; txVMI: $taxonomies = get_object_taxonomies($post->post_type); goto YEbDr; JthCT: rI_ne: goto InnOP; LVYFH: wp_set_object_terms($post_id, $options["\x68\141\x75\x6e\x5f\x6d\157\166\x69\145\x5f\x73\x63\150\145\x64\x75\x6c\x65"], "\160\x6f\x73\164\137\150\141\165\156", false); goto AZSno; lXBI0: if (!isset($options["\150\141\x75\156\137\155\x6f\166\151\145\137\x66\157\x72\x6d\141\x6c\151\164\x79"])) { goto ikNtY; } goto Nb5FD; ILlNk: return; goto ms1LF; d5KEV: if (!(defined("\104\117\111\116\107\137\x41\125\x54\117\123\x41\126\x45") && DOING_AUTOSAVE || !current_user_can("\x65\144\151\x74\x5f\160\x6f\x73\164", $post_id))) { goto aeuAp; } goto ILlNk; o2t3z: if (empty($options)) { goto UifOK; } goto anFTM; anFTM: if (!isset($options["\150\141\x75\x6e\x5f\x6d\x6f\166\x69\x65\137\163\164\141\164\x75\x73"])) { goto a_KR1; } goto xwQz9; Nb5FD: $post_format = $this->get_post_format($options["\x68\141\x75\156\x5f\x6d\157\166\151\x65\x5f\x66\x6f\x72\155\141\154\151\x74\171"]); goto uB9Sy; QFVny: UifOK: goto gszbk; ms1LF: aeuAp: goto hhzNA; xwQz9: wp_set_object_terms($post_id, $options["\x68\x61\x75\x6e\137\x6d\x6f\166\151\145\137\163\164\x61\164\165\163"], "\x73\x74\x61\x74\x75\x73", false); goto fwUW6; uB9Sy: set_post_format($post_id, $post_format); goto EqP_D; AZSno: ONePt: goto lXBI0; fwUW6: a_KR1: goto Qu5XO; go3rP: FrMGI: goto JthCT; XBYya: $defaults = ["\x73\x74\x61\x74\165\163" => "\x6f\x6e\x67\x6f\x69\156\x67"]; goto txVMI; hhzNA: $options = get_post_meta($post_id, HNMG_META, true); goto o2t3z; gszbk: if (!("\x70\x75\142\154\x69\x73\x68" === $post->post_status)) { goto rI_ne; } goto XBYya; YEbDr: foreach ($taxonomies as $taxonomy) { goto b36dA; b36dA: $terms = wp_get_post_terms($post_id, $taxonomy); goto nRQKR; NcIZN: nCoxz: goto ZuEb3; hfU61: wp_set_object_terms($post_id, $defaults[$taxonomy], $taxonomy); goto NcIZN; ZuEb3: izuJg: goto Ji7R9; nRQKR: if (!(empty($terms) && array_key_exists($taxonomy, $defaults))) { goto nCoxz; } goto hfU61; Ji7R9: } goto go3rP; InnOP: } public function get_post_format($type) { goto LYeDg; jOwk1: $post_format = $type ? $post_formats[$type] : ''; goto m7Mpk; m7Mpk: return $post_format; goto rHJ0n; LYeDg: $post_formats = array("\x6d\x6f\166\x69\145" => "\141\163\151\144\x65", "\155\157\166\151\145\x73" => "\141\163\x69\144\145", "\x73\x69\x6e\147\154\x65\137\155\x6f\166\x69\x65\163" => "\x61\163\151\144\145", "\164\x76\137\x73\145\162\x69\x65\x73" => "\x67\x61\154\154\145\x72\x79", "\164\166\137\163\x68\157\x77\163" => "\166\151\x64\x65\x6f", "\164\x68\x65\x61\x74\x65\x72\137\155\157\x76\151\x65" => "\141\165\144\x69\x6f"); goto jOwk1; rHJ0n: } public function haun_movies_label() { goto PFJz9; FsjcS: $labels->not_found = __("\x4e\157\40\162\145\x73\x75\x6c\164", "\150\156\x6d\x67\x65\160\151\163"); goto GfqQR; GfqQR: $labels->not_found_in_trash = __("\x4e\157\x20\162\145\163\x75\154\x74", "\x68\156\x6d\x67\x65\x70\151\163"); goto Bb5WX; yIxFu: $labels->add_new_item = __("\101\144\144\x20\156\x65\167\x20\x6d\157\166\151\145", "\150\x6e\x6d\x67\x65\160\x69\163"); goto kLkl4; e7liD: $labels->view_item = __("\126\x69\145\x77\x20\x50\x6f\163\164", "\x68\156\155\147\x65\x70\x69\163"); goto UBWYU; PFJz9: global $wp_post_types; goto Z787Z; Z787Z: $labels =& $wp_post_types["\160\157\x73\164"]->labels; goto V3kFb; UBWYU: $labels->search_items = __("\x53\145\141\162\x63\x68", "\x68\156\x6d\x67\145\x70\x69\163"); goto FsjcS; jJnbG: $labels->new_item = __("\115\157\166\x69\145", "\150\156\x6d\x67\145\160\x69\x73"); goto e7liD; kLkl4: $labels->edit_item = __("\105\144\151\x74", "\150\156\x6d\x67\145\160\x69\x73"); goto jJnbG; ouqkS: $labels->singular_name = __("\115\157\166\x69\145\163", "\x68\156\x6d\147\145\x70\x69\x73"); goto A2k52; A2k52: $labels->add_new = __("\x41\144\x64\x20\x6e\145\x77", "\150\156\155\147\x65\160\x69\x73"); goto yIxFu; V3kFb: $labels->name = __("\114\151\163\164\40\115\x6f\166\x69\x65\x73", "\150\x6e\155\147\145\x70\151\x73"); goto ouqkS; Bb5WX: } public function change_admin_label() { goto gGV4c; exovl: $submenu["\x65\144\x69\164\x2e\x70\x68\x70"][15][0] = __("\103\x61\x74\145\147\157\162\171", "\x68\x6e\155\147\x65\x70\x69\x73"); goto FknKQ; gGV4c: global $menu; goto LZ33i; FknKQ: $submenu["\145\144\x69\164\56\x70\150\160"][16][0] = __("\124\x61\147\163", "\150\x6e\x6d\147\x65\x70\x69\163"); goto GTFJB; xD_XC: $submenu["\145\144\x69\x74\x2e\x70\150\x70"][5][0] = __("\x41\x6c\x6c\x20\x4d\157\x76\x69\145\163", "\x68\x6e\155\x67\x65\x70\151\x73"); goto Ggt18; Ggt18: $submenu["\x65\144\x69\x74\x2e\160\150\x70"][10][0] = __("\101\144\144\x20\156\x65\167", "\x68\x6e\x6d\x67\x65\x70\151\x73"); goto exovl; LZ33i: global $submenu; goto UkQS8; UkQS8: $menu[5][0] = __("\x4c\x69\x73\164\40\115\157\x76\151\x65\163", "\150\156\x6d\x67\x65\x70\x69\163"); goto xD_XC; GTFJB: } public function custom_admin_footer() { echo "\x54\150\x65\155\x65\x20\x44\x65\x76\145\x6c\157\x70\145\x64\40\x42\171\40\x3c\141\x20\x68\162\x65\x66\x3d\42" . HNMG_SHOP_URL . "\42\40\x74\141\x72\x67\145\164\x3d\42\x5f\142\x6c\141\156\153\42\x3e\110\x4e\x43\157\162\x65\x3c\57\x61\x3e"; } public function change_admin_bar_label() { goto ZBouX; OxTyX: echo "\x9\x9\x3c\163\143\x72\x69\x70\164\x3e\12\11\11\11\x6a\121\x75\145\162\171\50\x64\157\143\165\x6d\145\x6e\164\51\x2e\x72\145\x61\144\171\x28\146\165\x6e\143\164\151\x6f\156\50\44\51\40\x7b\xa\x9\x9\11\x9\x24\50\47\43\x77\x70\x2d\x61\x64\x6d\151\x6e\55\x62\141\162\x2d\x6e\x65\167\55\x70\157\163\x74\x20\76\x20\141\47\x29\x2e\164\145\170\164\50\47"; goto nqpiP; ZBouX: if (!is_admin()) { goto gH2Kc; } goto OxTyX; M6Cr7: echo "\x27\51\x3b\12\x9\11\11\x7d\x29\73\xa\x9\11\74\x2f\x73\143\x72\x69\160\x74\x3e\xa\x9\x9"; goto ZvvVQ; ZvvVQ: gH2Kc: goto LkBcM; nqpiP: _e("\101\x64\144\x20\x4d\157\166\x69\145", "\x68\x6e\155\147\x65\x70\151\163"); goto M6Cr7; LkBcM: } public function force_delete_post_script() { echo "\11\x9\x3c\x73\x63\162\x69\160\x74\76\xa\x9\11\152\121\x75\x65\162\171\50\146\x75\x6e\x63\164\151\157\x6e\50\44\51\173\xa\x9\11\11\44\x28\47\142\157\x64\x79\56\160\x6f\x73\x74\55\164\x79\x70\145\x2d\160\157\x73\164\40\x2e\162\x6f\167\55\x61\143\x74\x69\157\156\x73\x20\56\164\x72\141\163\150\x20\x61\x27\x29\56\157\x6e\50\x27\143\x6c\x69\143\153\x27\x2c\x20\x66\x75\x6e\143\164\x69\157\x6e\50\40\x65\166\145\x6e\164\x20\x29\x7b\12\11\11\x9\x9\145\x76\145\x6e\x74\56\x70\162\145\166\x65\156\164\104\145\x66\141\165\154\x74\50\x29\x3b\xa\11\11\11\x9\x76\141\x72\40\x75\162\x6c\x20\x3d\x20\x6e\x65\167\x20\x55\122\114\50\40\44\50\164\150\x69\163\x29\56\141\164\164\162\50\47\x68\x72\x65\146\47\51\x20\51\x2c\12\11\x9\11\11\x9\156\x6f\x6e\143\145\x20\x3d\x20\x75\x72\154\x2e\x73\145\141\162\x63\x68\x50\x61\x72\x61\155\163\56\147\x65\164\x28\x27\137\167\x70\x6e\157\156\143\x65\47\x29\54\x20\xa\x9\x9\11\11\x9\162\x6f\167\x20\75\x20\x24\x28\164\x68\x69\163\51\56\143\x6c\157\x73\145\x73\x74\x28\47\164\162\47\x29\x2c\xa\11\x9\11\x9\11\160\x6f\163\x74\111\x44\40\75\x20\x75\162\x6c\56\x73\x65\x61\162\143\150\120\x61\x72\141\155\x73\56\x67\145\x74\x28\47\x70\157\163\164\47\x29\54\xa\11\11\11\x9\11\160\157\x73\164\x54\151\x74\154\x65\40\75\x20\162\x6f\x77\x2e\x66\151\156\144\50\47\x2e\162\x6f\167\x2d\164\151\164\x6c\x65\47\x29\x2e\164\145\170\x74\x28\x29\x3b\xa\11\x9\x9\11\x72\x6f\x77\x2e\143\x73\x73\x28\x27\142\141\143\x6b\x67\162\x6f\165\x6e\x64\x2d\x63\x6f\x6c\157\x72\47\54\47\x23\146\146\141\146\x61\x66\x27\51\56\x66\141\144\145\117\x75\164\50\x33\x30\60\54\40\x66\x75\x6e\x63\164\x69\x6f\156\x28\x29\x7b\xa\11\11\x9\11\11\x72\x6f\x77\x2e\x72\x65\x6d\x6f\x76\x65\x41\x74\x74\x72\50\47\163\164\171\154\145\47\51\x2e\150\164\x6d\154\50\47\x3c\x74\144\x20\143\157\x6c\163\x70\141\x6e\75\x22\65\x22\76\x50\157\x73\x74\x20\x3c\x73\x74\162\157\156\x67\x3e\47\x20\53\40\x70\157\x73\x74\124\151\x74\154\x65\40\x2b\x20\x27\x3c\x2f\x73\x74\162\x6f\x6e\x67\x3e\x20\150\141\163\x20\x62\x65\x65\x6e\x20\144\x65\x6c\x65\164\145\x64\56\74\57\164\144\76\47\x29\56\163\150\x6f\167\50\x29\x3b\xa\11\x9\11\11\x7d\x29\x3b\12\x9\x9\x9\x9\44\x2e\141\152\141\x78\50\x7b\xa\x9\11\11\x9\x9\x6d\145\164\150\157\144\x3a\47\x50\x4f\x53\x54\x27\54\xa\11\11\x9\11\11\x75\x72\154\x3a\40\141\x6a\x61\x78\x75\162\x6c\x2c\xa\11\x9\11\11\x9\x64\x61\x74\141\72\40\173\xa\x9\x9\11\11\x9\11\47\x61\143\x74\151\x6f\x6e\x27\40\72\40\x27\150\156\x61\152\x61\170\137\x66\157\162\x63\145\x5f\144\x65\154\145\164\x65\137\x70\157\163\x74\47\54\xa\11\11\11\x9\x9\x9\x27\x70\157\163\164\x5f\x69\x64\x27\x20\x3a\40\x70\157\x73\x74\x49\x44\54\12\x9\x9\11\x9\x9\x9\47\x5f\167\x70\156\157\156\x63\x65\47\x20\72\40\156\157\156\143\x65\xa\11\11\11\11\11\175\xa\x9\11\11\11\175\51\73\xa\12\11\x9\x9\x7d\51\73\12\x9\x9\x7d\x29\73\xa\11\x9\x3c\x2f\x73\x63\x72\151\x70\164\76\xa\x9\11"; } public function remove_attachment_with_post($post_id) { goto j1f20; tgBqf: $attachment_id = get_post_thumbnail_id($post_id); goto x2GpQ; j1f20: if (!has_post_thumbnail($post_id)) { goto Qsx4N; } goto tgBqf; ERCXQ: Qsx4N: goto pglwo; x2GpQ: wp_delete_attachment($attachment_id, true); goto ERCXQ; pglwo: } }
+
+namespace HNMG\EP_Core;
+
+class EP_Core {
+	public function register() {
+		add_action('admin_menu', [$this, 'change_admin_label']);
+		add_action('init', [$this, 'haun_movies_label']);
+		add_action('admin_footer_text', [$this, 'custom_admin_footer']);
+		add_action('wp_after_admin_bar_render', [$this, 'change_admin_bar_label']);
+		add_action('admin_footer', [$this, 'force_delete_post_script']);
+		add_action('before_delete_post', [$this, 'remove_attachment_with_post'], 10 );
+		add_action('save_post', [$this, 'haun_save_post_actions'], 100, 2);
+		add_action('save_post', [$this, 'auto_remove_meta']);
+		add_filter('gettext_with_context', [$this, 'rename_post_formats'], 10, 4);
+		add_action('current_screen', [$this, 'haun_current_screen']);
+		add_filter('pre_get_posts', [$this, 'exclude_pages_from_search']);
+		add_action('init', [$this, 'remove_extra_image_sizes']);
+		add_filter('intermediate_image_sizes_advanced', [$this, 'remove_unwanted_image_sizes'], 10, 2);
+		add_action('wp_nav_menu_item_custom_fields', [$this, 'add_custom_menu_fields'], 10, 4);
+		add_action('wp_update_nav_menu_item', [$this, 'save_custom_menu_fields'], 10, 2);
+	}
+	
+	public function add_custom_menu_fields($item_id, $item, $depth, $args) {
+		$fontAwesomeCssPath = get_template_directory() . '/vendor/hncore/hnmgepis/vendor/fortawesome/font-awesome/css/font-awesome.min.css';
+		$iconsList = [];
+		if (file_exists($fontAwesomeCssPath)) {
+			$cssContent = file_get_contents($fontAwesomeCssPath);
+			preg_match_all('/\.fa-([\w\-]+):before/', $cssContent, $matches);
+			if (isset($matches[1])) {
+				foreach ($matches[1] as $icon) {
+					$iconsList["fa fa-$icon"] = ucwords(str_replace('-', ' ', $icon));
+				}
+			}
+		}
+		$selectedIcon = get_post_meta($item_id, '_menu_item_icon', true);
+		?>
+		<p class="description description-wide">
+			<label for="edit-menu-item-icon-<?php echo $item_id; ?>">
+				<?php _e('Menu Icon (Font Awesome class)', 'hnmgepis'); ?><br>
+				<div id="icon-list-<?php echo $item_id; ?>" style="display: grid; grid-template-columns: 1fr; gap: 10px; max-height: 350px; overflow-y: auto; padding: 5px; border: 1px solid #ddd; border-radius: 4px;">
+					<input type="text" id="icon-search-<?php echo $item_id; ?>" placeholder="Search icon..." style="grid-column: 1 / -1; width: 100%; margin-bottom: 10px; padding: 5px; border: 1px solid #ccc; border-radius: 4px;">
+					<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(50px, 1fr)); gap: 10px;">
+						<?php foreach ($iconsList as $iconClass => $iconLabel): ?>
+							<div class="icon-item" data-icon="<?php echo esc_attr($iconClass); ?>" style="display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; padding: 5px; border: 1px solid #ddd; border-radius: 4px;">
+								<i class="<?php echo esc_attr($iconClass); ?>" style="font-size: 24px; display: block; margin-bottom: 3px;"></i>
+								<span style="font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;"><?php echo esc_html($iconLabel); ?></span>
+							</div>
+						<?php endforeach; ?>
+					</div>
+				</div>
+				<input type="hidden" id="selected-icon-<?php echo $item_id; ?>" name="menu-item-icon[<?php echo $item_id; ?>]" value="<?php echo esc_attr($selectedIcon); ?>">
+			</label>
+		</p>
+		<script>
+			jQuery(document).ready(function($) {
+				var itemId = <?php echo json_encode($item_id); ?>;
+				$('#icon-list-' + itemId + ' .icon-item').on('click', function() {
+					$('#icon-list-' + itemId + ' .icon-item').css('border', '1px solid #ddd');
+					$(this).css('border', '2px solid #0073aa');
+					var selectedIcon = $(this).data('icon');
+					$('#selected-icon-' + itemId).val(selectedIcon);
+				});
+				$('#icon-search-' + itemId).on('input', function() {
+					var searchTerm = $(this).val().toLowerCase();
+					$('#icon-list-' + itemId + ' .icon-item').each(function() {
+						var label = $(this).text().toLowerCase();
+						if (label.indexOf(searchTerm) > -1) {
+							$(this).show();
+						} else {
+							$(this).hide();
+						}
+					});
+				});
+			});
+		</script>
+		<?php
+	}
+
+	public function save_custom_menu_fields($menu_id, $menu_item_db_id) {
+		if (isset($_POST['menu-item-icon'][$menu_item_db_id])) {
+			$icon_value = sanitize_text_field($_POST['menu-item-icon'][$menu_item_db_id]);
+			update_post_meta($menu_item_db_id, '_menu_item_icon', $icon_value);
+		}
+	}
+
+	public function auto_remove_meta($post_id) {
+		if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+			return;
+		}
+		if (!current_user_can('edit_post', $post_id)) {
+			return;
+		}
+		$custom_fields = get_post_custom($post_id);
+		if (!$custom_fields) {
+			return;
+		}
+		foreach ($custom_fields as $key => $custom_field):
+			$values = array_filter($custom_field);
+			if (empty($values)):
+				delete_post_meta($post_id, $key);
+			endif;
+		endforeach;
+		return;
+	}
+
+	public function remove_unwanted_image_sizes($sizes, $metadata = null) {
+		$disabled_sizes = array(
+			'thumbnail',
+			'medium',
+			'medium_large',
+			'large',
+			'shop_thumbnail',
+			'shop_catalog',
+			'shop_single'
+		);
+		foreach ($disabled_sizes as $size) {
+			if (isset($sizes[$size])) {
+				unset($sizes[$size]);
+			}
+		}
+		
+		return $sizes;
+	}
+
+	public function remove_extra_image_sizes() {
+		$allowed_sizes = array('thumbnail', 'medium', 'medium_large', 'large');
+		foreach (get_intermediate_image_sizes() as $size) {
+			if (!in_array($size, $allowed_sizes)) {
+				remove_image_size($size);
+			}
+		}
+	}
+
+	public function exclude_pages_from_search($query) {
+		if ( $query->is_main_query() && is_search() ) {
+			$query->set('post_type', 'post');
+			$query->set('posts_per_page',  20);
+		}
+		return $query;
+	}
+
+	public function haun_current_screen() {
+		if ( function_exists('get_current_screen')) {
+			$pt = get_current_screen()->post_type;
+			if ( $pt != 'post' && $pt != 'news' && $pt != 'video' && $pt != 'page') return;
+			remove_meta_box( 'statusdiv', $pt, 'normal' );
+			remove_meta_box( 'post_optionsdiv', $pt, 'normal' );
+			remove_meta_box( 'tagsdiv-episode-types', $pt, 'normal' );
+			remove_meta_box( 'authordiv', $pt, 'normal' );
+			remove_meta_box( 'commentstatusdiv', $pt,'normal' );
+			remove_meta_box( 'commentsdiv', $pt, 'normal' );
+			remove_meta_box( 'postcustom', $pt, 'normal' );
+			remove_meta_box( 'postexcerpt', $pt, 'normal' );
+			remove_meta_box( 'revisionsdiv', $pt, 'normal' );
+			remove_meta_box( 'trackbacksdiv', $pt, 'normal' );
+		}
+	}
+
+	public function rename_post_formats($translation, $text, $context, $domain) {
+		$names = array(
+			'Aside'  => __('Movie', 'hnmgepis'),
+			'Gallery'  => __('TV Series', 'hnmgepis'),
+			'Video'  => __('TV Shows', 'hnmgepis'),
+			'Audio'  => __('Theater Movie', 'hnmgepis'),
+		);
+		if ($context == 'Post format') {
+			$translation = str_replace(array_keys($names), array_values($names), $text);
+		}
+		return $translation;
+	}
+	
+	public function haun_save_post_actions($post_id, $post) {
+		if ((defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) || !current_user_can('edit_post', $post_id)) {
+			return;
+		}
+		$options = get_post_meta($post_id, HNMG_META, true);
+		if (!empty($options)) {
+			if (isset($options['haun_movie_status'])) {
+				wp_set_object_terms($post_id, $options['haun_movie_status'], 'status', false);
+			}
+			if (isset($options['haun_movie_schedule'])) {
+				wp_set_object_terms($post_id, $options['haun_movie_schedule'], 'post_haun', false);
+			}
+			if (isset($options['haun_movie_formality'])) {
+				$post_format = $this->get_post_format($options['haun_movie_formality']);
+				set_post_format($post_id, $post_format);
+			}
+		}
+		if ('publish' === $post->post_status) {
+			$defaults = ['status' => 'ongoing'];
+			$taxonomies = get_object_taxonomies($post->post_type);
+			foreach ($taxonomies as $taxonomy) {
+				$terms = wp_get_post_terms($post_id, $taxonomy);
+				if (empty($terms) && array_key_exists($taxonomy, $defaults)) {
+					wp_set_object_terms($post_id, $defaults[$taxonomy], $taxonomy);
+				}
+			}
+		}
+	}
+
+	public function get_post_format($type) {
+        $post_formats = array(
+            'movie' => 'aside',
+            'movies' => 'aside',
+            'single_movies' => 'aside',
+            'tv_series' => 'gallery',
+            'tv_shows' => 'video',
+            'theater_movie' => 'audio'
+        );
+        $post_format = $type ? $post_formats[$type] : '';
+        return $post_format;
+    }
+	
+	public function haun_movies_label() {
+		global $wp_post_types;
+		$labels                     = &$wp_post_types['post']->labels;
+		$labels->name               = __('List Movies', 'hnmgepis');
+		$labels->singular_name      = __('Movies', 'hnmgepis');
+		$labels->add_new            = __('Add new', 'hnmgepis');
+		$labels->add_new_item       = __('Add new movie', 'hnmgepis');
+		$labels->edit_item          = __('Edit', 'hnmgepis');
+		$labels->new_item           = __('Movie', 'hnmgepis');
+		$labels->view_item          = __('View Post', 'hnmgepis');
+		$labels->search_items       = __('Search', 'hnmgepis');
+		$labels->not_found          = __('No result', 'hnmgepis');
+		$labels->not_found_in_trash = __('No result', 'hnmgepis');
+	}
+	
+	public function change_admin_label() {
+		global $menu;
+		global $submenu;
+		$menu[5][0]                 = __('List Movies', 'hnmgepis');
+		$submenu['edit.php'][5][0]  = __('All Movies', 'hnmgepis');
+		$submenu['edit.php'][10][0] = __('Add new', 'hnmgepis');
+		$submenu['edit.php'][15][0] = __('Category', 'hnmgepis');
+		$submenu['edit.php'][16][0] = __('Tags', 'hnmgepis');
+	}
+	
+	public function custom_admin_footer(){
+		echo 'Theme Developed By <a href="'.HNMG_SHOP_URL.'" target="_blank">HNCore</a>';
+	}
+	
+	public function change_admin_bar_label() {
+		if(is_admin()){
+		?>
+		<script>
+			jQuery(document).ready(function($) {
+				$('#wp-admin-bar-new-post > a').text('<?php _e('Add Movie', 'hnmgepis') ?>');
+			});
+		</script>
+		<?php
+		}
+	}
+	
+	public function force_delete_post_script() {
+		?>
+		<script>
+		jQuery(function($){
+			$('body.post-type-post .row-actions .trash a').on('click', function( event ){
+				event.preventDefault();
+				var url = new URL( $(this).attr('href') ),
+					nonce = url.searchParams.get('_wpnonce'), 
+					row = $(this).closest('tr'),
+					postID = url.searchParams.get('post'),
+					postTitle = row.find('.row-title').text();
+				row.css('background-color','#ffafaf').fadeOut(300, function(){
+					row.removeAttr('style').html('<td colspan="5">Post <strong>' + postTitle + '</strong> has been deleted.</td>').show();
+				});
+				$.ajax({
+					method:'POST',
+					url: ajaxurl,
+					data: {
+						'action' : 'hnajax_force_delete_post',
+						'post_id' : postID,
+						'_wpnonce' : nonce
+					}
+				});
+
+			});
+		});
+		</script>
+		<?php
+	}
+	
+	public function remove_attachment_with_post($post_id){
+		if(has_post_thumbnail( $post_id )){
+		  $attachment_id = get_post_thumbnail_id( $post_id );
+		  wp_delete_attachment($attachment_id, true);
+		}
+	}
+}

@@ -1,8 +1,161 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\Providers; use Illuminate\Support\Facades\View; use Illuminate\Support\Facades\Blade; use Roots\Acorn\Sage\SageServiceProvider; use HNMG\LoadCore\HN_Core; use HNMG\Episodes\EP_Actions; use HNMG\Episodes\EP_Episode; use HNMG\Episodes\EP_Helper; use HNMG\Episodes\EP_Post; use HNMG\Episodes\EP_Options; use HNMG\EP_Load\EP_PLayer; use HNMG\EP_Load\EP_MCache; use HNMG\EP_Load\EP_Rewrite; use HNMG\EP_Core\EP_Core; use HNMG\EP_Core\EP_AutoIMG; use HNMG\EP_Core\EP_Taxonomy; use HNMG\EP_Core\EP_Meta; class EpisServiceProvider extends SageServiceProvider { private $load; public function register() { } public function boot() { goto i5Mio; i5Mio: if (is_plugin_active("\150\156\x63\157\162\x65\x2f\150\x6e\143\157\x72\x65\56\160\150\160")) { goto rOfTF; } goto drrz9; zJ2A6: $this->ep_constants(); goto Cs9mx; Cs9mx: $this->ep_load(); goto kJhOr; sl2fV: $this->app->make(EP_Actions::class)->register(); goto R4HZw; Fh9Ci: $this->load = $this->app->make(EP_Helper::class); goto oE9Ik; Unh22: View::composer("\x2a", function ($view) { $view->with("\x6c\157\141\144", $this->load); }); goto Ooni0; drrz9: return false; goto hhsJ3; R4HZw: $this->app->make(EP_Post::class)->register(); goto PIjqI; kJhOr: $this->eplocalization(); goto lR2GV; hhsJ3: rOfTF: goto zJ2A6; WNI_Z: $this->app->make(EP_Episode::class)->register(); goto sl2fV; R09yt: add_action("\141\144\155\x69\156\x5f\145\x6e\161\165\x65\x75\145\137\x73\143\162\151\160\x74\163", [$this, "\110\x4e\x4d\107\x5f\115\117\x56\111\105\x53"]); goto OPvT0; lR2GV: $this->registerEPLang(); goto Fh9Ci; Ooni0: $this->loadViewsFrom(__DIR__ . "\x2f\56\56\57\56\x2e\57\162\x65\x73\x6f\165\162\143\145\163\57\x76\x69\145\x77\x73", "\x48\x4e\x4d\107"); goto R09yt; oE9Ik: $this->load = $this->app->make(EP_Helper::class); goto WNI_Z; OPvT0: add_action("\x77\x70\137\145\x6e\x71\165\145\165\145\137\x73\143\x72\x69\x70\164\x73", [$this, "\110\x4e\115\x47\x5f\x4c\x4f\101\x44"]); goto JFQrg; PIjqI: $this->app->make(EP_Options::class)->register(); goto Unh22; JFQrg: } public function haun_make_url_relative($url) { $relativeurl = wp_make_link_relative($url); return $relativeurl; } public function registerEPLang() : void { Blade::directive("\x68\x6e\145\160\151\x73", function ($expression) { return "\x3c\77\x70\x68\x70\40\x65\x63\150\157\40\x5f\137\x28{$expression}\54\40\47\150\x6e\x6d\147\x65\160\151\x73\47\x29\73\40\x3f\76"; }); } public function ep_load() { goto z_M49; AghBb: $this->app->make(EP_MCache::class)->register(); goto s0NZg; OUCJM: $this->app->make(EP_Taxonomy::class)->register(); goto AghBb; m5j1M: $this->app->make(EP_AutoIMG::class); goto uIliH; z_M49: $this->app->make(EP_Core::class)->register(); goto OUCJM; s0NZg: $this->app->make(EP_Meta::class); goto m5j1M; uIliH: $this->app->make(EP_PLayer::class); goto MKBsf; MKBsf: $this->app->make(EP_Rewrite::class); goto Tx9kM; Tx9kM: } public function ep_constants() { goto UkfzU; Z2lAV: define("\x48\116\x4d\107\x5f\115\x45\x54\101\116\105\x57\123", "\x5f\156\x65\x77\163\137\x6d\x65\x74\141\142\157\170\137\x6f\x70\x74\x69\x6f\156\163"); goto VbzeT; EVuET: define("\x48\x4e\115\x47\137\x4b\x45\x59\x4d\101\x4e\x41\x47\x45\x52", "\x48\x4e\x43\x4f\x52\x45\x5f\157\x70\164\151\x6f\x6e\163"); goto beOYx; eKE9K: define("\x48\x4e\x4d\107\x5f\105\120\104\111\122", trailingslashit(str_replace("\x73\162\x63\57\x50\162\157\166\x69\x64\145\162\x73", "\162\145\163\x6f\165\x72\143\145\163", wp_normalize_path(dirname(__FILE__))))); goto qh1jh; Zrg3p: define("\110\x4e\115\x47\137\x56\111\104\105\117", "\x5f\166\x69\144\145\x6f\x73\x5f\155\x65\x74\141\142\x6f\170\x5f\157\x70\x74\151\157\x6e\163"); goto Z2lAV; iuQR7: define("\x48\116\x4d\107\137\120\x41\122\124", wp_normalize_path(WP_CONTENT_DIR) . "\57\146\151\x6c\x6d\x2d\145\x78\x70\x6f\162\164"); goto PQH1O; beOYx: define("\110\x4e\115\x47\x5f\x45\x50\x53", "\137\x68\141\165\156\155\157\166\151\145\x73"); goto iuQR7; Li6f0: define("\x48\116\115\x47\x5f\117\120\x54\111\x4f\116", "\150\x6e\x6d\x67\55\157\x70\x74\x69\x6f\x6e\163"); goto Zrg3p; VbzeT: define("\110\116\115\107\x5f\123\110\117\x50\x5f\x55\122\114", "\x68\x74\x74\160\163\x3a\57\57\150\141\x75\156\x79\x74\x62\x2e\143\x6f\x6d"); goto EVuET; PQH1O: define("\110\x4e\115\x47\x5f\105\x50\x49\125\122\114", get_template_directory_uri() . "\x2f\x76\x65\x6e\x64\x6f\162\57\x68\156\143\x6f\x72\x65\x2f\x68\x6e\155\147\145\160\151\163\x2f\162\145\x73\157\165\x72\143\145\x73"); goto eKE9K; UkfzU: define("\x48\x4e\115\x47\x5f\x4d\105\x54\101", "\x5f\x68\x61\x75\156\137\x6d\145\164\x61\142\x6f\x78\x5f\157\x70\164\x69\157\156\x73"); goto Li6f0; qh1jh: } public function hnmg_load() { goto GT5x_; LmsLN: $data = json_decode(stripslashes($post_meta), true); goto IoivM; IoivM: $first_episode = isset($data) && isset($data[0]["\x68\141\165\x6e\155\x6f\x76\151\145\x73\x5f\x73\x65\162\166\145\162\x5f\144\141\x74\x61"]) ? key($data[0]["\x68\141\x75\x6e\x6d\157\x76\x69\x65\163\x5f\x73\145\162\166\145\x72\137\x64\141\164\x61"]) : ''; goto xn32t; g0Or8: global $post; goto iR1pl; ECYpY: wp_enqueue_script("\x68\x6e\155\147\55\154\157\141\144\x6a\x73", home_url("\57\150\156\x6d\147\x70\x6c\141\x79\145\x72\56\152\x73"), [], null, true); goto n1OgV; NDdCj: $server = get_query_var("\150\x61\165\156\x5f\x73\x65\x72\x76\145\162"); goto adlDv; AGkLp: $episode_display = hnmg_value("\x68\x61\x75\156\137\x65\x70\151\x73\157\144\x65\x5f\144\x69\163\160\154\x61\x79"); goto aKOHD; DF99D: if (!(strpos($meta["\150\x61\165\156\x5f\x74\150\x75\155\x62\137\165\162\x6c"], home_url()) !== false)) { goto laR4p; } goto cBMKg; FAEbn: wp_enqueue_style("\x68\x6e\155\x67\55\146\157\x6e\164", home_url("\x2f\146\157\156\164\55\141\x77\145\x73\157\x6d\x65\56\155\x69\x6e\x2e\143\x73\x73"), [], '', ''); goto NZFeK; cfwZl: wp_enqueue_style("\x68\x6e\155\147\55\154\157\141\144\143\163\x73", home_url("\x2f\x68\156\155\147\160\x6c\x61\171\145\x72\56\x63\163\x73"), [], "\x30\56\61\x2e\x30", "\x61\154\154"); goto ECYpY; w8Enc: update_post_meta($post->ID, HNMG_META, $meta); goto uJjqJ; Uan3H: $watch_slug = hnmg_value("\150\141\165\x6e\x5f\167\x61\x74\x63\150\137\x75\162\154"); goto AGkLp; FpbgB: jIi2i: goto LLBCD; GT5x_: $fontAwesomeCssPath = get_template_directory_uri() . "\57\x76\145\156\144\157\x72\57\150\156\x63\x6f\162\x65\57\x68\156\x6d\147\x65\x70\151\163\57\x76\x65\x6e\144\x6f\x72\x2f\146\x6f\162\x74\x61\167\145\x73\157\155\145\x2f\146\x6f\x6e\164\x2d\x61\167\145\x73\x6f\x6d\x65\x2f\143\163\163\57\146\x6f\156\x74\55\141\x77\x65\163\x6f\155\x65\x2e\x6d\x69\x6e\x2e\x63\x73\163"; goto FAEbn; aKOHD: $post_meta = get_post_meta($post->ID, "\137\150\141\x75\x6e\x6d\157\166\151\145\163", true); goto LmsLN; IjWos: $meta["\x68\x61\165\x6e\x5f\x74\x68\165\155\142\x5f\x75\x72\154"] = $meta["\x68\141\x75\x6e\137\x74\x68\x75\155\142\x5f\x75\x72\154"]; goto w8Enc; cBMKg: $meta["\x68\141\165\156\137\164\150\165\155\x62\137\x75\162\154"] = $this->haun_make_url_relative($meta["\150\x61\x75\156\137\164\150\165\x6d\x62\x5f\165\x72\154"]); goto IjWos; iR1pl: $episode = get_query_var("\150\141\x75\156\137\x65\160\x69\163\x6f\x64\x65"); goto NDdCj; zIPlE: $post_slug = basename(get_permalink($post->ID)); goto Uan3H; xn32t: $ep_slug = get_query_var("\x65\x70\x69\163\157\144\x65\x5f\163\x6c\x75\147") ?? "\x31"; goto fu7LT; fu7LT: if (!hnmg_value("\x68\141\165\156\x5f\164\x68\165\155\x62\x5f\x75\x72\x6c", HNMG_META)) { goto XaZRl; } goto DF99D; adlDv: $meta = get_post_meta($post->ID, HNMG_META, true); goto zIPlE; MmzXt: XaZRl: goto cfwZl; n1OgV: wp_localize_script("\x68\156\x6d\147\55\x6c\x6f\141\x64\152\x73", "\160\x6c\141\x79\x65\x72\137\145\160\x69\163", ["\x61\152\141\x78\x5f\x75\162\x6c" => admin_url("\x61\144\x6d\x69\x6e\55\141\x6a\x61\170\56\160\x68\160"), "\152\167\x70\x6c\x61\171\145\x72\137\165\x72\154" => home_url("\57\152\x77\x70\154\x61\171\145\162\57"), "\x70\x6c\x61\171\145\x72\x5f\x75\162\x6c" => get_template_directory_uri() . "\57\141\160\160\57\154\x6f\x61\144\x2e\160\x68\160", "\162\x65\160\157\162\x74\137\145\156\141\142\154\145" => hnmg_value("\x68\x61\165\x6e\137\162\145\160\x6f\162\x74\137\145\156\x61\x62\x6c\x65"), "\x6a\x77\x70\x6c\x61\x79\x65\162\137\x73\x68\157\x77\x61\x64" => hnmg_value("\152\167\137\160\x6c\141\171\145\162\x5f\x73\x68\x6f\167\137\141\144"), "\152\167\x5f\141\144\143\x6f\x64\x65" => hnmg_value("\x6a\167\137\160\x6c\x61\x79\145\x72\x5f\x63\165\x73\x74\x6f\155\x5f\x61\144\163\x5f\143\157\144\x65"), "\x70\x6c\141\171\x65\x72\x5f\163\150\x61\x72\x69\x6e\x67" => hnmg_value("\x6a\167\137\x70\154\x61\x79\145\x72\x5f\x73\x68\x61\x72\x65") ? "\x74\162\x75\x65" : "\146\x61\154\x73\x65", "\152\x77\160\x6c\x61\171\x65\x72\x5f\153\x65\x79" => hnmg_value("\152\167\137\160\154\141\x79\145\162\137\x6c\x69\143\145\156\163\x65\x5f\x6b\x65\x79") ? hnmg_value("\152\167\x5f\160\154\141\x79\145\x72\x5f\x6c\x69\x63\x65\156\163\145\x5f\153\145\x79") : "\115\x42\x76\162\x69\x65\161\x4e\144\x6d\126\114\64\152\126\60\170\x36\114\120\112\60\167\113\102\x2f\116\x62\172\x32\x51\161\x2f\x6c\x71\155\x33\x67\x3d\75", "\x61\143\x74" => get_query_var("\x68\x61\165\x6e\x5f\x61\x63\164\151\x6f\x6e"), "\x70\157\163\x74\x5f\x75\162\154" => home_url("\x2f" . $watch_slug . "\x2f" . $post_slug), "\154\x6f\141\x64\151\156\x67\137\151\x6d\147" => \Roots\asset("\151\x6d\x61\147\x65\163\57\x6c\x6f\x61\x64\151\156\147\x2e\147\151\146")->uri(), "\145\160\163\137\x73\154\165\x67" => hnmg_value("\x68\141\165\156\x5f\x65\160\151\x73\157\144\x65\137\x75\x72\154"), "\x73\145\x72\x76\145\x72\137\163\154\x75\x67" => hnmg_value("\150\141\165\156\137\x73\145\x72\166\x65\x72\137\x75\x72\x6c"), "\164\171\160\x65\x5f\x73\154\165\147" => hnmg_value("\x68\141\165\x6e\x5f\165\x72\x6c\137\164\x79\x70\x65"), "\x61\x75\x74\157\137\x72\145\163\145\164\137\143\141\x63\150\x65" => hnmg_value("\x61\x75\x74\x6f\137\x72\x65\163\x65\x74\x5f\x63\141\143\150\145"), "\162\145\163\165\x6d\x65\137\x70\x6c\141\x79\x62\141\x63\153" => hnmg_value("\162\x65\163\165\x6d\x65\x5f\x70\154\141\171\x62\x61\143\x6b"), "\x69\x73\x5f\141\x64\x75\154\164" => hnmg_value("\x69\163\137\x61\144\x75\x6c\164", HNMG_META), "\141\x64\165\154\164\137\164\151\x74\x6c\145" => hnmg_value("\x61\x64\165\x6c\x74\137\x63\157\x6e\x74\x65\x6e\164\x5f\164\x69\164\x6c\145"), "\x61\x64\x75\154\164\137\x63\x6f\156\164\145\156\x74" => hnmg_value("\141\144\x75\x6c\164\x5f\143\157\x6e\x74\145\x6e\164\x5f\x69\156\x66\157\137\164\x65\170\164"), "\x70\157\163\164\x5f\x74\x69\x74\154\x65" => $post->post_title, "\160\x6f\x73\164\137\151\144" => $post->ID, "\x65\160\151\x73\x6f\x64\x65\x5f\163\x6c\x75\x67" => $ep_slug ? $ep_slug : str_replace("\x5f", "\x2d", $first_episode), "\x73\x65\162\x76\x65\x72" => $server ? $server : 1, "\x70\x6c\141\171\x65\x72\137\x65\x72\162\x6f\162\x5f\x64\145\164\145\x63\x74" => hnmg_value("\160\x6c\x61\171\145\x72\137\x65\162\x72\157\162\x5f\x64\x65\164\x65\x63\x74") ? hnmg_value("\160\x6c\x61\171\145\x72\137\x65\x72\162\x6f\x72\137\144\x65\164\x65\x63\164") : "\144\151\x73\160\154\x61\x79\137\155\x6f\x64\141\x6c", "\145\160\x69\x73\157\x64\x65\x5f\144\151\163\160\x6c\141\171" => hnmg_value("\150\x61\165\x6e\137\x65\x70\x69\x73\x6f\144\x65\x5f\x64\x69\x73\160\x6c\141\171") != '' ? hnmg_value("\x68\141\165\156\137\145\x70\x69\x73\x6f\x64\145\x5f\x64\151\163\160\154\141\171") : "\x6e\x6f\156\x65", "\151\61\70\156" => ["\160\154\141\171\145\x72\x5f\154\x6f\141\x64\151\156\147" => __("\114\x6f\x61\144\151\x6e\x67\40\160\154\141\x79\145\x72\x2c\40\x70\x6c\x65\x61\163\x65\x20\167\141\151\164\56\56\56", "\150\156\x6d\147\145\160\151\163"), "\x6a\x77\x5f\145\x72\162\157\162\x5f\x6d\163\x67\x5f\x30" => __("\127\145\40\x61\162\145\40\x75\156\141\142\x6c\x65\x20\164\x6f\x20\146\x69\156\x64\x20\164\x68\145\40\166\x69\144\145\x6f\x20\171\x6f\165\40\141\162\x65\40\x6c\157\157\153\x69\x6e\x67\x20\x66\157\x72\56\x20\124\150\x65\x72\x65\x20\143\x6f\165\x6c\144\x20\x62\x65\x20\x73\x65\166\x65\x72\141\154\x20\x72\x65\141\x73\x6f\x6e\163\x20\x66\157\162\x20\164\150\x69\x73\54\x20\146\x6f\162\40\145\x78\x61\155\160\x6c\145\40\151\164\40\147\x6f\x74\x20\x72\x65\x6d\157\166\x65\x64\40\x62\171\x20\164\x68\x65\40\x6f\x77\x6e\x65\162\x21", "\150\156\155\147\x65\160\x69\163"), "\x6a\167\137\x65\x72\162\x6f\x72\x5f\x6d\x73\x67\x5f\x31" => __("\x54\x68\151\163\x20\166\x69\x64\145\157\x20\x66\151\x6c\x65\40\143\141\x6e\x6e\157\164\x20\142\x65\x20\160\154\141\x79\145\x64\x2e", "\150\156\x6d\x67\x65\x70\151\x73"), "\x6a\x77\137\145\x72\x72\157\162\137\155\x73\x67\137\x32" => __("\124\157\40\x63\157\156\x74\x69\156\165\145\40\x77\x61\164\143\150\151\x6e\x67\x2c\x20\x70\154\145\141\163\145\40\x63\154\151\x63\153\40\x6f\x6e\40\164\150\x65\40\42\122\x65\x6c\x6f\141\144\40\120\x6c\141\171\145\162\42\x20\142\x75\x74\164\157\x6e", "\150\156\155\x67\x65\x70\x69\x73"), "\152\167\x5f\x65\x72\x72\x6f\x72\x5f\155\x73\x67\x5f\63" => __("\x6f\x72\x20\x63\154\151\x63\153\40\157\156\x20\164\x68\145\x20\142\x75\164\x74\157\156\x73\40\x62\145\x6c\x6f\167", "\x68\x6e\x6d\x67\145\160\x69\x73"), "\x70\x6c\x61\171\x65\162\x5f\162\145\x6c\x6f\141\x64" => __("\122\145\154\157\141\x64\40\x50\x6c\x61\x79\145\162", "\x68\156\x6d\x67\145\160\x69\163"), "\160\x6c\141\x79\x65\x72\x5f\x61\x75\164\x6f\156\145\170\x74" => __("\x41\x75\x74\x6f\160\x6c\x61\x79\x20\156\145\170\x74\x20\145\160\151\163\157\144\x65\x2c\40\160\x6c\x65\x61\x73\x65\x20\167\x61\151\x74\x2e\56\x2e", "\x68\156\155\x67\145\x70\151\x73"), "\x72\x65\x73\165\155\x65\137\164\x65\170\164" => __("\x41\165\x74\x6f\x6d\x61\x74\151\143\x61\x6c\154\x79\x20\x72\145\x73\165\155\x65\163\40\171\157\x75\162\40\x76\x69\144\145\157\x73\x20\146\x72\157\x6d\40\167\x68\145\x72\x65\40\x79\157\165\40\x70\x6c\141\171\x65\x64\40\x74\150\x65\x6d\40\154\141\x73\164\40\x61\164", "\x68\156\155\x67\x65\x70\x69\x73"), "\162\x65\163\165\155\145\x5f\x74\x65\170\x74\137\x32" => __("\x50\154\x61\x79\x62\141\x63\x6b\x20\x66\x72\x6f\155\40\x74\x68\145\40\x62\145\147\x69\156\x6e\151\156\x67\77", "\x68\156\155\x67\x65\x70\151\163"), "\x70\x6c\141\x79\x62\x61\143\153" => __("\x50\x6c\x61\x79\x62\x61\143\153", "\150\x6e\x6d\147\145\160\x69\x73"), "\143\x6f\156\x74\x69\156\165\x65\x5f\167\x61\164\x63\x68\x69\156\x67" => __("\x43\157\x6e\164\x69\156\165\x65\40\x77\141\x74\x63\150\x69\156\x67", "\x68\x6e\x6d\x67\x65\x70\x69\x73"), "\154\x69\147\x68\164\x5f\157\x6e" => __("\114\x69\x67\x68\164\x20\x4f\156", "\150\x6e\x6d\x67\x65\x70\151\x73"), "\154\x69\147\x68\164\x5f\x6f\x66\146" => __("\114\x69\147\x68\164\40\117\146\146", "\150\156\155\147\x65\160\x69\163"), "\x65\x78\x70\x61\x6e\144" => __("\105\170\160\141\x6e\x64", "\x68\x6e\x6d\x67\x65\x70\x69\x73"), "\x63\x6f\154\x6c\141\x70\x73\145" => __("\103\x6f\x6c\x6c\141\x70\163\145", "\150\x6e\155\147\x65\x70\x69\x73"), "\163\150\157\x77\x5f\157\156\x6c\x79\137\x6f\156\143\x65" => __("\x44\x6f\156\x27\164\x20\x73\x68\x6f\167\x20\x61\147\141\151\x6e", "\x68\x6e\x6d\x67\145\x70\151\x73"), "\145\170\x69\x74\x5f\x62\164\156" => __("\105\x58\111\x54", "\150\x6e\x6d\x67\145\x70\x69\163"), "\x69\163\x5f\x31\70\x70\154\x75\163" => __("\61\x38\53\40\x45\x4e\x54\105\x52", "\x68\x6e\x6d\147\145\x70\x69\163"), "\x74\x69\164\x6c\x65" => get_the_title($post->ID), "\x61\154\145\162\164" => __("\131\157\165\162\40\x6e\x61\155\145\40\141\x6e\x64\40\x6d\145\163\163\x61\x67\145\x20\x69\x73\40\x72\145\161\x75\151\162\145\144\40\x28\52\51", "\x68\x6e\155\147\x65\160\x69\163"), "\x6d\x73\x67" => __("\131\x6f\x75\x72\x20\155\x65\163\x73\x61\147\145", "\150\156\155\147\145\160\151\x73"), "\155\163\147\137\163\x75\x63\143\x65\163\x73" => __("\x54\x68\141\156\x6b\x20\x79\157\x75\40\x66\157\x72\40\163\145\156\144\151\156\x67\40\145\162\x72\157\162\x20\155\x65\x73\x73\x61\147\145\x73\x2e\x20\x57\145\40\167\x69\154\154\40\146\x69\x78\x20\164\150\145\x20\160\162\157\x62\x6c\145\155\40\151\x6e\40\164\150\x65\40\163\x68\157\x72\x74\145\x73\x74\40\x74\x69\155\x65\40\160\157\x73\163\151\142\x6c\x65\x2e", "\150\x6e\155\x67\145\x70\151\163"), "\x6c\x6f\x61\x64\151\x6e\x67\x5f\151\x6d\147" => \Roots\asset("\151\155\x61\147\145\x73\x2f\x6c\157\141\x64\151\156\147\56\147\x69\146")->uri(), "\x72\x65\160\x6f\162\x74\137\x62\x74\156" => __("\x52\x65\x70\x6f\162\x74", "\x68\x6e\155\147\145\x70\151\163"), "\x6e\141\x6d\145\x5f\x6f\x72\x5f\x65\x6d\x61\151\x6c" => __("\116\141\x6d\x65\40\x6f\x72\x20\x45\x6d\x61\151\154", "\150\156\155\x67\x65\160\x69\163"), "\143\x6c\x6f\x73\145" => __("\x43\154\x6f\163\145", "\x68\156\155\147\x65\x70\x69\163")]]); goto FpbgB; uJjqJ: laR4p: goto MmzXt; NZFeK: if (!is_single()) { goto jIi2i; } goto g0Or8; LLBCD: } public function eplocalization() { load_textdomain("\x68\x6e\155\x67\145\160\151\163", HNMG_EPDIR . "\154\x61\x6e\x67\57\x68\x6e\x6d\x67\145\x70\151\x73\x2d" . get_locale() . "\x2e\x6d\157"); } public function hnmgepis_localize() { goto GIo1g; clwri: return $localize; goto ynuDE; DmfHE: if (!file_exists($localize_file)) { goto RI81J; } goto qG5Hu; uGXm8: RI81J: goto clwri; qG5Hu: $localize = (include_once $localize_file); goto uGXm8; gokFQ: $localize_file = wp_normalize_path(HNMG_EPDIR . "\145\160\137\154\157\143\x61\154\151\x7a\x65\x2e\x70\150\160"); goto DmfHE; GIo1g: $localize = array(); goto gokFQ; ynuDE: } public function HNMG_MOVIES() { goto NTbxq; yHq4F: Sq3EB: goto jS00A; fMffW: return; goto WMefN; WMefN: goto hqbK6; goto yHq4F; NTbxq: global $pagenow; goto LiXc0; LiXc0: if ($pagenow == "\141\x64\x6d\151\156\x2e\160\x68\x70" && (isset($_GET["\160\141\147\x65"]) && ($_GET["\x70\x61\147\x65"] == "\150\x6e\x6d\x67\x2d\x65\x70\151\163\x6f\x64\x65" || $_GET["\x70\x61\147\145"] == "\143\162\141\x77\154\55\164\x6f\157\x6c\163")) || ($pagenow == "\x70\157\x73\164\x2d\156\145\167\x2e\x70\x68\160" || $pagenow == "\x70\x6f\163\x74\56\160\150\x70")) { goto Sq3EB; } goto fMffW; jS00A: wp_enqueue_script("\x68\156\x6d\x67\55\x6d\157\166\151\145\163\x6a\163", HNMG_EPIURL . "\57\141\x73\x73\145\x74\163\x2f\x6a\163\57\x68\x6e\155\147\x65\x70\x69\163\x2e\152\163", [], null, true); goto sZLmF; sZLmF: wp_localize_script("\x68\156\x6d\x67\55\x6d\x6f\x76\151\145\x73\x6a\x73", "\x68\156\155\x67\145\160\x69\163", ["\x61\x6a\141\170\137\165\162\154" => admin_url("\141\x64\x6d\151\156\x2d\x61\152\x61\x78\56\160\150\x70"), "\145\x70\151\x73\x6f\144\x65\137\x74\x79\x70\145" => $this->load->getPlayerTypesJs(), "\150\x6e\145\160\x69\163\x6f\144\x65\x5f\x74\x79\160\145" => $this->load->HNPlayerTypesJs(), "\x6e\157\x6e\143\145" => wp_create_nonce("\x61\152\141\170\55\156\x6f\156\143\145"), "\151\x31\x38\x6e" => $this->hnmgepis_localize(), "\145\160\x73\154\165\x67\x5f\144\x65\146\x61\165\x6c\x74" => "\164\x61\160"]); goto usvpE; usvpE: hqbK6: goto j6zc1; j6zc1: } }
+
+namespace HNMG\Providers;
+
+use Illuminate\Support\Facades\View;
+use Illuminate\Support\Facades\Blade;
+use Illuminate\Support\ServiceProvider;
+
+use HNMG\LoadCore\HN_Core;
+
+use HNMG\Episodes\EP_Actions;
+use HNMG\Episodes\EP_Episode;
+use HNMG\Episodes\EP_Helper;
+use HNMG\Episodes\EP_Post;
+use HNMG\Episodes\EP_Options;
+
+class EpisServiceProvider extends ServiceProvider {
+	public function register() {
+        
+    }
+	
+    public function boot() {
+		if (!is_plugin_active('hncore/hncore.php')) {
+            return false;
+        }
+		$this->ep_constants();
+		$this->ep_load();
+		$this->eplocalization();
+		$this->registerEPLang();
+		$this->load = $this->app->make(EP_Helper::class);
+        $this->app->make(EP_Episode::class)->register();
+        $this->app->make(EP_Actions::class)->register();
+        $this->app->make(EP_Post::class)->register();
+        $this->app->make(EP_Options::class)->register();
+		View::composer('*', \HNMG\EP_Load\EP_List::class);
+		View::composer('*', \HNMG\Episodes\EP_Helper::class);
+        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'HNMG');
+        add_action('admin_enqueue_scripts', [$this, 'HNMG_MOVIES']);
+        add_action('wp_enqueue_scripts', [$this, 'hnmg_load'], 10,1);
+    }
+	
+	public function hnmg_load() {
+		wp_enqueue_style('hnmg-font', home_url('/font-awesome.min.css'), [], '', '');
+		if (is_single()) {
+			$post_id 		 = get_queried_object_id();
+			$episode         = get_query_var('haun_episode');
+			$server          = get_query_var('haun_server');
+			$ep_slug 		 = get_query_var('episode_slug') ?? '1';
+			$episode_display = hnmg_value( 'haun_episode_display');
+			$meta            = get_post_meta($post_id, HNMG_META, true );
+			$post_slug       = basename(get_permalink($post_id));
+			$post_meta       = get_post_meta($post_id, HNMG_EPS, true);
+			$data            = json_decode(stripslashes($post_meta), true);
+			$first_episode 	 = isset($data) && isset($data[0]['haunmovies_server_data'])  ? key($data[0]['haunmovies_server_data']) : '';
+			if(hnmg_value('haun_thumb_url', HNMG_META)) {
+				if(strpos($meta['haun_thumb_url'], home_url()) !== false) {
+					$meta['haun_thumb_url'] = $this->haun_make_url_relative($meta['haun_thumb_url']);
+					$meta['haun_thumb_url'] = $meta['haun_thumb_url'];
+					update_post_meta($post_id, HNMG_META, $meta);
+				}
+			}
+			wp_enqueue_style('hnmg-loadcss', home_url('/hnmgplayer.css'), [], '0.1.0', 'all');
+			wp_enqueue_script('hnmg-loadjs', home_url('/hnmgplayer.js'), [], null, true);
+			wp_localize_script('hnmg-loadjs', 'player_epis', [
+				'ajax_url'       		=> admin_url('admin-ajax.php'),
+				'jwplayer_url'   		=> home_url('/jwplayer/'),
+				'player_url'     		=> get_template_directory_uri() . '/app/load.php',
+				'report_enable'     	=> hnmg_value('haun_report_enable'),
+            	'jwplayer_showad'   	=> hnmg_value('jw_player_show_ad'),
+            	'jw_adcode'         	=> hnmg_value('jw_player_custom_ads_code'),
+            	'player_sharing'    	=> hnmg_value('jw_player_share') ? 'true' : 'false',
+            	'jwplayer_key'      	=> hnmg_value('jw_player_license_key') ? hnmg_value('jw_player_license_key') : 'MBvrieqNdmVL4jV0x6LPJ0wKB/Nbz2Qq/lqm3g==',
+				'act'               	=> get_query_var('haun_action'),
+				'loading_img'       	=> \Roots\asset('images/loading.gif')->uri(),
+				'type_slug'         	=> hnmg_value('haun_url_type'),
+				'auto_reset_cache'  	=> hnmg_value('auto_reset_cache'),
+				'resume_playback'   	=> hnmg_value('resume_playback'),
+				'is_adult'          	=> !empty($meta['is_adult']) && $meta['is_adult'] == 'on' ? true : false,
+				'adult_title'       	=> hnmg_value('adult_content_title'),
+				'adult_content'     	=> hnmg_value('adult_content_info_text'),
+				'post_title'        	=> get_the_title($post_id),
+				'post_id'           	=> $post_id,
+				'episode_slug'      	=> $ep_slug ? $ep_slug : str_replace('_', '-', $first_episode),
+				'server'            	=> $server ? $server : 1,
+				'player_error_detect' 	=> hnmg_value( 'player_error_detect' ) ? hnmg_value( 'player_error_detect' ) : 'display_modal',
+				'episode_display'    	=> hnmg_value( 'haun_episode_display') != '' ? hnmg_value( 'haun_episode_display') : 'none',
+				'i18n'                 	=> $this->hnmgepis_localize(),
+			]);
+		}
+		remove_action('wp_head', 'wp_generator');
+	}
+	
+	public function haun_make_url_relative($url) {
+		$relativeurl = wp_make_link_relative($url);
+		return $relativeurl;
+	}
+	
+	public function registerEPLang() {
+		Blade::directive('hnepis', function ($expression) {
+			return "<?php echo __({$expression}, 'hnmgepis'); ?>";
+		});
+	}
+
+	public function ep_load(){
+		$this->app->make(\HNMG\EP_Load\EP_Rewrite::class)->register();
+		$this->app->make(\HNMG\EP_Core\EP_Core::class)->register();
+		$this->app->make(\HNMG\EP_Core\EP_Taxonomy::class)->register();
+		$this->app->make(\HNMG\EP_Load\EP_MCache::class)->register();
+		$this->app->make(\HNMG\EP_Load\EP_Reporter::class)->register();
+		$this->app->make(\HNMG\EP_Core\EP_Meta::class);
+		$this->app->make(\HNMG\EP_Core\EP_AutoIMG::class);
+		$this->app->make(\HNMG\EP_Load\EP_PLayer::class);
+	}
+	
+	public function ep_constants(){
+		define('HNMG_META', '_haun_metabox_options');
+        define('HNMG_OPTION', 'hnmg-options');
+        define('HNMG_VIDEO', '_videos_metabox_options');
+        define('HNMG_METANEWS', '_news_metabox_options');
+        define('HNMG_SHOP_URL', 'https://haunytb.com');
+		define('HNMG_KEYMANAGER', 'HNCORE_options');
+        define('HNMG_EPS', '_haunmovies');
+		define('HNMG_PART', wp_normalize_path(WP_CONTENT_DIR) . '/film-export');
+		define('HNMG_EPIURL', get_template_directory_uri() . '/vendor/hncore/hnmgepis/resources');
+		define('HNMG_EPDIR', trailingslashit(str_replace('src/Providers', 'resources', wp_normalize_path(dirname(__FILE__)))));
+	}
+
+	public function eplocalization() {
+        load_textdomain('hnmgepis', HNMG_EPDIR . 'lang/hnmgepis-' . get_locale() . '.mo');
+    }
+	
+	public function hnmgepis_localize() {
+		$localize = array();
+		$localize_file = wp_normalize_path( HNMG_EPDIR . 'localize.php' );
+		if ( file_exists( $localize_file ) ) {
+			$localize = include_once $localize_file;
+		}
+		return $localize;
+	}
+
+    public function HNMG_MOVIES() {
+		global $pagenow;
+		if (
+			($pagenow == 'admin.php' && (isset($_GET['page']) && ($_GET['page'] == 'hnmg-episode' || $_GET['page'] == 'haun-movie-report'))) ||
+			($pagenow == 'post-new.php' || $pagenow == 'post.php')
+		) {
+			wp_enqueue_script('hnmg-moviesjs', HNMG_EPIURL . '/assets/js/hnmgepis.js', [], null, true);
+			wp_localize_script('hnmg-moviesjs', 'hnmgepis', [
+				'ajax_url'             => admin_url('admin-ajax.php'),
+				'episode_type'         => $this->load->getPlayerTypesJs(),
+				'hnepisode_type'       => $this->load->HNPlayerTypesJs(),
+				'nonce'                => wp_create_nonce('ajax-nonce'),
+				'i18n'                 => $this->hnmgepis_localize(),
+				'epslug_default'       => 'tap'
+			]);
+		} else {
+			return;
+		}
+    }
+	
+}

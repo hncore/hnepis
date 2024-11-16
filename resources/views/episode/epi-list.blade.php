@@ -1,4 +1,4 @@
-<div id="haunmovies-player-data" x-data="playerData({{ $postID }})">
+<div id="haunmovies-player-data">
 	<ul class="flex border-b" role="tablist">
 		<template x-if="servers.length > 0">
 			<template x-for="(server, index) in servers" :key="index">
@@ -59,7 +59,7 @@
 							<div class="flex flex-wrap md:flex-nowrap gap-2 md:gap-4">
 								<div class="flex w-full md:w-1/3 gap-2 md:gap-4 auto-slug">
 									<div class="w-1/2 flex items-center md:py-2">
-										<input type="text" x-model="episode.name" class="hn-input w-full" :name="'haunmovies_ep_name[' + (index + 1) + '][' + epIndex + ']'" placeholder="{{ __('Episode Name', 'hnmgepis') }}">
+										<input type="text" x-model="episode.name" @input="changetoslug($event.target)" class="hn-input w-full" :name="'haunmovies_ep_name[' + (index + 1) + '][' + epIndex + ']'" placeholder="{{ __('Episode Name', 'hnmgepis') }}">
 									</div>
 									<div class="w-1/2 flex items-center md:py-2">
 										<input type="text" x-model="episode.slug" class="auto-ep-slug hn-input w-full" :name="'haunmovies_ep_slug[' + (index + 1) + '][' + epIndex + ']'" placeholder="{{ __('Episode Slug', 'hnmgepis') }}">
@@ -149,11 +149,17 @@
 														<input type="text" :name="'haunmovies_ep_sub_file[' + (index + 1) + '][' + epIndex + '][' + subIndex + ']'" x-model="sub.file" class="hn-input w-full py-1 px-2 border border-gray-300" placeholder="http://example.com/files/subtitle.srt" />
 													</div>
 													<div class="flex-grow w-full md:w-auto" x-show="fileType === 'file'">
-														<input type="file" :name="'haunmovies_ep_sub_upload[' + (index + 1) + '][' + epIndex + '][' + subIndex + ']'" class="w-full overflow-clip border border-neutral-300 bg-neutral-50/50 text-xs text-neutral-600 file:mr-4 file:cursor-pointer file:border-none file:bg-neutral-50 file:px-4 py-1.5 file:font-semibold file:text-neutral-900" />
+														<input type="file" :name="'haunmovies_ep_sub_upload[' + (index + 1) + '][' + epIndex + '][' + subIndex + ']'" 
+														@change="handleFileUpload($event, index, epIndex, subIndex)"
+														class="w-full overflow-clip border border-neutral-300 bg-neutral-50/50 text-xs text-neutral-600 file:mr-4 file:cursor-pointer file:border-none file:bg-neutral-50 px-4 py-0 h-[30px] file:font-semibold file:text-neutral-900" />
+
 													</div>
 													<div class="flex flex-row w-full md:w-auto md:max-w-40 items-center space-x-4">
 														<div class="flex flex-row items-center space-x-2">
-															<input type="radio" :name="'haunmovies_ep_sub_default[' + (index + 1) + '][' + epIndex + '][' + subIndex + ']'" :value="subIndex" class="ml-2 my-0" x-bind:checked="sub.default" />
+														<input type="radio" :name="'haunmovies_ep_sub_default[' + (index + 1) + '][' + epIndex + '][' + subIndex + ']'" 
+																:value="subIndex" class="ml-2 my-0" 
+																x-bind:checked="sub.default" 
+																@click="setDefaultSubtitle(index, epIndex, subIndex)" />
 															<label class="w-fit pl-0.5 mb-0 text-xs text-neutral-600 dark:text-neutral-300">@hnepis('Default')</label>
 														</div>
 														<div class="flex items-center space-x-2">

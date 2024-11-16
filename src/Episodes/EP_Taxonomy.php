@@ -1,8 +1,139 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\Episodes; use HNMG\Episodes\EP_Helper; class EP_Taxonomy { public function __construct() { $this->load = new EP_Helper(); } public function register() { goto AWwZZ; USopu: add_action("\x69\x6e\151\x74", [$this, "\150\x6e\x61\143\x74\x6f\162\163\137\164\x61\x78\157\156\157\x6d\x79"], 0); goto QayvW; CRd5b: add_action("\x69\x6e\151\164", [$this, "\x68\156\143\x6f\x75\x6e\164\x72\x79\137\x74\x61\x78\x6f\x6e\157\155\171"], 0); goto fnf83; QayvW: add_action("\x69\x6e\151\x74", [$this, "\x68\156\144\x69\x72\x65\x63\x74\157\162\163\137\x74\x61\x78\x6f\x6e\157\155\171"], 0); goto C0SJy; AWwZZ: add_action("\x69\156\x69\x74", [$this, "\x68\156\x74\x79\160\145\x5f\164\141\x78\157\x6e\x6f\x6d\171"], 0); goto USopu; C0SJy: add_action("\151\156\x69\164", [$this, "\150\156\162\x65\x6c\145\x61\163\145\x5f\164\141\x78\x6f\x6e\x6f\155\x79"], 0); goto CRd5b; fnf83: } public function hntype_taxonomy() { goto wEQwD; wEQwD: $labels = array("\x6e\x61\155\145" => _x("\105\x70\151\x73\157\144\x65\40\124\x79\x70\145\x73", "\x45\x70\x69\163\x6f\144\x65\40\164\x79\x70\x65", "\150\x61\165\x6e\164\x68\x65\155\145\x73"), "\x73\x69\x6e\147\x75\x6c\x61\x72\x5f\x6e\x61\x6d\x65" => _x("\x45\160\x69\x73\157\144\x65\40\x54\171\160\x65", "\105\160\151\x73\x6f\144\145\40\x74\171\x70\x65", "\150\141\x75\156\164\150\145\x6d\x65\x73"), "\x6d\145\x6e\x75\137\x6e\141\x6d\145" => __("\x45\x70\151\163\x6f\x64\145\40\x54\171\160\145\x73", "\150\141\x75\x6e\164\x68\x65\x6d\x65\163"), "\141\154\x6c\137\x69\164\145\x6d\x73" => __("\101\x6c\x6c\40\111\164\145\x6d\163", "\x68\141\165\x6e\164\x68\x65\155\145\x73"), "\160\x61\x72\x65\156\164\x5f\151\x74\x65\155" => __("\x50\x61\x72\145\x6e\164\40\111\x74\x65\155", "\x68\141\x75\x6e\164\150\145\x6d\145\163"), "\160\x61\x72\x65\x6e\x74\137\151\164\x65\155\137\x63\x6f\154\157\x6e" => __("\120\141\x72\145\x6e\164\40\111\x74\145\155\x3a", "\150\x61\x75\x6e\x74\x68\x65\155\145\x73"), "\156\x65\167\x5f\x69\x74\x65\155\137\156\x61\x6d\x65" => __("\116\145\x77\40\x49\164\145\x6d\40\x4e\x61\155\x65", "\x68\x61\165\156\x74\x68\145\x6d\145\x73"), "\141\x64\144\x5f\x6e\145\x77\x5f\151\x74\x65\x6d" => __("\x41\x64\x64\x20\x4e\x65\x77\40\111\164\145\155", "\150\x61\x75\156\164\150\x65\155\145\x73"), "\145\x64\151\x74\137\151\164\145\155" => __("\x45\144\151\x74\40\111\164\145\x6d", "\x68\x61\x75\x6e\164\x68\145\x6d\145\x73"), "\x75\x70\144\x61\164\x65\137\x69\164\x65\x6d" => __("\125\160\144\141\164\145\40\x49\x74\x65\x6d", "\150\141\x75\156\164\150\x65\155\x65\163"), "\166\151\x65\x77\137\151\x74\x65\x6d" => __("\126\x69\x65\x77\40\x49\x74\145\155", "\150\141\x75\156\164\x68\145\x6d\x65\163"), "\x73\145\160\x61\x72\x61\x74\145\x5f\x69\164\145\x6d\x73\137\167\x69\x74\x68\x5f\x63\x6f\155\x6d\x61\x73" => __("\123\145\160\x61\x72\141\164\x65\40\x69\164\x65\155\x73\x20\x77\151\x74\x68\x20\143\x6f\x6d\155\x61\163", "\150\141\x75\x6e\164\150\x65\x6d\145\163"), "\141\x64\x64\x5f\157\162\137\x72\145\155\157\x76\x65\137\151\164\x65\155\163" => __("\x41\x64\x64\40\157\x72\40\x72\x65\x6d\x6f\166\x65\x20\151\x74\x65\x6d\163", "\x68\x61\x75\x6e\164\150\145\155\x65\x73"), "\143\150\157\157\x73\145\137\146\162\157\x6d\137\x6d\157\163\x74\x5f\165\x73\145\x64" => __("\x43\x68\157\x6f\x73\x65\x20\146\x72\157\155\40\x74\x68\145\40\x6d\x6f\x73\x74\40\x75\x73\x65\x64", "\150\x61\x75\156\x74\150\145\155\145\163"), "\160\157\160\x75\154\141\x72\137\151\164\x65\x6d\163" => __("\120\x6f\x70\x75\x6c\141\162\40\x49\164\x65\155\x73", "\x68\x61\x75\156\164\150\x65\155\x65\x73"), "\163\x65\141\162\143\x68\137\x69\x74\145\x6d\163" => __("\x53\x65\141\162\143\150\x20\111\164\x65\155\x73", "\x68\x61\165\x6e\x74\150\x65\x6d\145\x73"), "\x6e\x6f\x74\x5f\x66\157\x75\x6e\x64" => __("\x4e\x6f\x74\40\x46\x6f\x75\156\x64", "\x68\x61\x75\156\x74\x68\x65\x6d\x65\x73"), "\x6e\x6f\137\x74\x65\x72\155\x73" => __("\116\x6f\40\151\x74\145\x6d\x73", "\150\141\x75\x6e\164\150\x65\155\145\x73"), "\x69\164\145\x6d\x73\137\154\x69\x73\x74" => __("\x49\x74\145\155\163\40\154\151\x73\164", "\150\141\x75\x6e\164\x68\x65\155\x65\163"), "\151\x74\145\x6d\x73\x5f\x6c\151\x73\164\137\156\141\x76\x69\x67\x61\164\x69\157\156" => __("\111\x74\x65\155\x73\x20\x6c\151\163\164\x20\156\x61\166\x69\x67\x61\x74\151\157\156", "\x68\141\165\156\x74\x68\145\155\x65\163")); goto w995O; bsLLL: register_taxonomy("\x65\x70\x69\163\x6f\144\x65\x2d\164\x79\x70\x65\x73", array("\x70\x6f\x73\164"), $args); goto Yoog0; w995O: $args = array("\x6c\x61\x62\x65\154\163" => $labels, "\150\151\x65\x72\141\162\143\x68\151\x63\x61\154" => false, "\x70\165\x62\x6c\151\x63" => true, "\x73\x68\x6f\167\137\x75\151" => true, "\163\150\157\x77\x5f\x61\144\x6d\x69\x6e\x5f\x63\157\154\165\155\156" => false, "\x73\x68\x6f\x77\137\151\x6e\137\x6e\141\166\137\x6d\x65\x6e\165\163" => false, "\x73\150\157\167\x5f\164\141\147\143\x6c\x6f\x75\x64" => false, "\163\x68\157\167\x5f\151\156\x5f\x72\145\x73\x74" => true); goto bsLLL; Yoog0: } public function hnactors_taxonomy() { $args = array("\154\141\x62\145\154\163" => array("\x6e\141\x6d\x65" => __("\101\x63\x74\157\162\x73", "\x68\141\165\x6e\x74\x68\x65\155\x65\x73"), "\x73\151\x6e\x67\x75\154\x61\x72" => "\x41\x63\164\x6f\162\x73", "\155\145\156\165\x2d\156\141\155\145" => "\x41\x63\x74\157\x72\163", "\141\x6c\x6c\137\x69\x74\145\x6d" => "\x41\x6c\x6c\40\141\143\164\157\x72\x73", "\141\144\x64\137\156\145\167\x5f\151\164\x65\155" => "\101\144\x64\40\156\x65\x77\x20\x61\143\164\x6f\x72"), "\x68\x69\145\x72\x61\162\143\x68\151\143\141\x6c" => false, "\x70\x75\142\154\x69\143" => true, "\163\x68\157\167\x5f\x75\151" => true, "\163\x68\x6f\167\137\x61\x64\x6d\151\x6e\137\x63\x6f\x6c\165\x6d\156" => true, "\163\x68\157\x77\137\x74\141\147\143\154\x6f\x75\x64" => true, "\163\x68\x6f\167\137\151\156\137\x6e\141\x76\x5f\x6d\145\156\165\163" => true, "\163\150\157\167\x5f\151\156\x5f\x72\x65\163\164" => true); register_taxonomy("\141\x63\x74\x6f\162", "\160\x6f\163\x74", $args); } public function hndirectors_taxonomy() { $args = array("\154\141\x62\x65\x6c\163" => array("\x6e\x61\155\x65" => __("\104\151\162\x65\143\164\157\162\x73", "\150\x61\x75\x6e\164\x68\145\x6d\x65\x73"), "\163\x69\156\147\165\x6c\141\x72" => "\104\x69\162\x65\x63\x74\x6f\x72\163", "\x6d\x65\x6e\165\55\x6e\x61\155\x65" => "\104\151\162\145\143\164\157\x72\x73", "\141\154\154\x5f\151\x74\145\x6d" => "\101\154\154\40\x44\151\x72\x65\x63\164\x6f\162\163", "\141\x64\x64\137\156\x65\x77\137\x69\164\x65\x6d" => "\101\144\144\40\156\145\x77\40\144\151\x72\145\143\164\157\162"), "\x68\151\145\162\x61\162\x63\x68\x69\x63\141\154" => false, "\x70\x75\142\x6c\x69\x63" => true, "\163\150\157\x77\x5f\x75\x69" => true, "\x73\150\157\x77\137\x61\x64\155\x69\156\137\143\x6f\154\x75\x6d\156" => true, "\x73\x68\x6f\167\137\x74\141\x67\143\x6c\x6f\x75\x64" => true, "\x73\150\x6f\167\137\x69\x6e\137\x72\145\x73\x74" => true, "\163\150\x6f\x77\x5f\151\x6e\x5f\156\141\x76\x5f\155\145\x6e\165\163" => true); register_taxonomy("\144\x69\162\x65\x63\164\157\162", "\160\157\x73\164", $args); } public function hnrelease_taxonomy() { $args = array("\154\x61\142\145\x6c\163" => array("\x6e\x61\155\145" => __("\122\145\154\145\141\x73\145", "\x68\x61\x75\156\x74\x68\x65\155\x65\x73"), "\163\x69\156\147\x75\154\x61\162" => "\x52\x65\154\145\x61\x73\145", "\155\145\x6e\x75\x2d\x6e\x61\155\x65" => "\x52\145\x6c\145\x61\163\x65", "\141\x6c\x6c\x5f\151\x74\x65\155" => "\x56\151\x65\167\40\141\154\x6c", "\141\144\x64\x5f\x6e\x65\x77\137\151\x74\x65\x6d" => "\x41\144\x64\40\x6e\x65\x77"), "\x68\151\x65\162\x61\162\143\x68\151\x63\x61\154" => false, "\160\165\142\154\x69\143" => true, "\163\150\x6f\x77\137\x75\151" => true, "\x73\150\157\167\x5f\x61\144\x6d\151\156\137\x63\157\154\165\x6d\156" => true, "\x73\x68\x6f\x77\137\164\141\147\x63\154\x6f\165\x64" => true, "\163\x68\157\167\x5f\151\x6e\137\x72\145\163\x74" => true, "\163\150\x6f\x77\x5f\x69\x6e\137\x6e\x61\166\137\155\x65\x6e\165\163" => true); register_taxonomy("\x72\x65\x6c\145\141\x73\x65", "\x70\x6f\x73\164", $args); } public function hncountry_taxonomy() { $args = array("\x6c\x61\142\145\x6c\163" => array("\156\x61\155\x65" => __("\x43\x6f\x75\x6e\164\x72\x79", "\150\x61\165\156\x74\150\145\x6d\x65\x73"), "\163\151\x6e\147\165\154\141\162" => "\x43\x6f\x75\156\x74\x72\x79", "\x6d\145\156\x75\x2d\x6e\141\155\x65" => "\x43\x6f\165\x6e\164\162\171", "\141\x6c\x6c\137\x69\164\145\155" => "\126\151\x65\167\x20\141\x6c\x6c", "\141\144\144\x5f\x6e\x65\x77\x5f\x69\x74\145\155" => "\101\x64\144\40\156\x65\167\x20\143\x6f\x75\x6e\x74\162\x79"), "\x68\x69\x65\162\141\162\143\150\x69\x63\141\154" => false, "\160\165\142\x6c\x69\143" => true, "\163\x68\x6f\x77\137\x75\151" => true, "\163\150\157\167\137\x61\x64\155\x69\x6e\x5f\x63\157\154\x75\155\156" => true, "\x73\x68\x6f\167\137\x69\x6e\x5f\x72\x65\x73\164" => true, "\x73\x68\x6f\x77\x5f\x74\141\147\143\x6c\157\165\x64" => true, "\x73\x68\157\x77\137\x69\156\137\x6e\x61\x76\137\155\145\156\165\163" => true); register_taxonomy("\x63\157\165\156\164\162\x79", "\x70\157\x73\x74", $args); } }
+namespace HNMG\Episodes;
+
+use HNMG\Episodes\EP_Helper;
+
+class EP_Taxonomy {
+	
+	public function __construct() {
+		$this->load = new EP_Helper(); 
+	}
+	
+	public function register() {
+		add_action('init', [$this, 'hntype_taxonomy'], 0);
+		add_action('init', [$this, 'hnactors_taxonomy'], 0);
+		add_action('init', [$this, 'hndirectors_taxonomy'], 0);
+		add_action('init', [$this, 'hnrelease_taxonomy'], 0);
+		add_action('init', [$this, 'hncountry_taxonomy'], 0);
+	}
+	
+	public function hntype_taxonomy() {
+        $labels = array(
+            'name'                       => _x( 'Episode Types', 'Episode type', 'haunthemes' ),
+            'singular_name'              => _x( 'Episode Type', 'Episode type', 'haunthemes' ),
+            'menu_name'                  => __( 'Episode Types', 'haunthemes' ),
+            'all_items'                  => __( 'All Items', 'haunthemes' ),
+            'parent_item'                => __( 'Parent Item', 'haunthemes' ),
+            'parent_item_colon'          => __( 'Parent Item:', 'haunthemes' ),
+            'new_item_name'              => __( 'New Item Name', 'haunthemes' ),
+            'add_new_item'               => __( 'Add New Item', 'haunthemes' ),
+            'edit_item'                  => __( 'Edit Item', 'haunthemes' ),
+            'update_item'                => __( 'Update Item', 'haunthemes' ),
+            'view_item'                  => __( 'View Item', 'haunthemes' ),
+            'separate_items_with_commas' => __( 'Separate items with commas', 'haunthemes' ),
+            'add_or_remove_items'        => __( 'Add or remove items', 'haunthemes' ),
+            'choose_from_most_used'      => __( 'Choose from the most used', 'haunthemes' ),
+            'popular_items'              => __( 'Popular Items', 'haunthemes' ),
+            'search_items'               => __( 'Search Items', 'haunthemes' ),
+            'not_found'                  => __( 'Not Found', 'haunthemes' ),
+            'no_terms'                   => __( 'No items', 'haunthemes' ),
+            'items_list'                 => __( 'Items list', 'haunthemes' ),
+            'items_list_navigation'      => __( 'Items list navigation', 'haunthemes' ),
+        );
+        $args = array(
+            'labels'                     => $labels,
+            'hierarchical'               => false,
+            'public'                     => true,
+            'show_ui'                    => true,
+            'show_admin_column'          => false,
+            'show_in_nav_menus'          => false,
+            'show_tagcloud'              => false,
+            'show_in_rest'               => true,
+        );
+        register_taxonomy( 'episode-types', array( 'post' ), $args );
+    }
+
+	public function hnactors_taxonomy() {
+		$args = array(
+				'labels'            => array(
+					'name'          => __('Actors', 'haunthemes'),
+					'singular'      => 'Actors',
+					'menu-name'     => 'Actors',
+					'all_item'      => 'All actors',
+					'add_new_item'  => 'Add new actor',
+				),
+				'hierarchical'      => false,
+				'public'            => true,
+				'show_ui'           => true,
+				'show_admin_column' => true,
+				'show_tagcloud'     => true,
+				'show_in_nav_menus' => true,
+				'show_in_rest'      => true,
+			);
+		register_taxonomy('actor', 'post', $args);
+	}
+
+	public function hndirectors_taxonomy() {
+		$args = array(
+				'labels' => array(
+					'name'          => __('Directors', 'haunthemes'),
+					'singular'      => 'Directors',
+					'menu-name'     => 'Directors',
+					'all_item'      => 'All Directors',
+					'add_new_item'  => 'Add new director',
+				),
+				'hierarchical'      => false,
+				'public'            => true,
+				'show_ui'           => true,
+				'show_admin_column' => true,
+				'show_tagcloud'     => true,
+				'show_in_rest'      => true,
+				'show_in_nav_menus' => true
+			);
+		register_taxonomy('director', 'post', $args);
+	}
+
+	public function hnrelease_taxonomy(){
+		$args = array(
+				'labels' => array(
+					'name'          => __('Release', 'haunthemes'),
+					'singular'      => 'Release',
+					'menu-name'     => 'Release',
+					'all_item'      => 'View all',
+					'add_new_item'  => 'Add new',
+				),
+				'hierarchical'      => false,
+				'public'            => true,
+				'show_ui'           => true,
+				'show_admin_column' => true,
+				'show_tagcloud'     => true,
+				'show_in_rest'      => true,
+				'show_in_nav_menus' => true
+			);
+
+		register_taxonomy('release', 'post', $args);
+	}
+	
+	public function hncountry_taxonomy() {
+		$args = array(
+				'labels' => array(
+					'name'          => __('Country', 'haunthemes'),
+					'singular'      => 'Country',
+					'menu-name'     => 'Country',
+					'all_item'      => 'View all',
+					'add_new_item'  => 'Add new country',
+				),
+				'hierarchical'      => false,
+				'public'            => true,
+				'show_ui'           => true,
+				'show_admin_column' => true,
+				'show_in_rest'      => true,
+				'show_tagcloud'     => true,
+				'show_in_nav_menus' => true
+			);
+
+		register_taxonomy('country', 'post', $args);
+	}
+}
+
+?>

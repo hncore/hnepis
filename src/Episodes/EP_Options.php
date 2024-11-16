@@ -1,8 +1,535 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\Episodes; class EP_Options { public function register() { goto HBgDV; BEvRM: add_action("\150\x6e\x6d\147\137\x61\144\x64\x5f\147\145\x6e\145\162\141\x6c", [$this, "\x68\x6e\155\147\x5f\141\x64\x64\x5f\147\x65\x6e\145\162\141\154"]); goto vanMC; a1FrR: add_action("\150\156\x6d\x67\x5f\x6f\160\x65\156\164\141\x62\137\157\160\x74\x69\157\156", [$this, "\164\x61\x62\151\x74\145\x6d\137\160\x6c\141\171\x65\162\137\x62\x6f\164\x74\x6f\x6d"]); goto BEvRM; HBgDV: add_filter("\150\156\x6d\x67\137\x6d\x61\151\x6e\x74\x61\x62\137\157\x70\164\151\157\156", [$this, "\154\x6f\x61\144\x5f\x6d\x61\x69\156\137\x74\141\x62\x5f\164\167\x6f"], 2); goto a1FrR; vanMC: } public function load_main_tab_two($items) { goto G4TPj; G4TPj: $items["\160\x6c\x61\x79\x65\x72"] = "\x3c\151\x20\143\154\141\x73\x73\75\42\x68\x6e\155\x67\x62\x6f\170\55\x69\143\157\156\40\x68\156\x6d\x67\x62\157\x78\55\x69\143\x6f\156\x2d\x70\x6c\x61\171\42\x3e\x3c\x2f\x69\76" . esc_html__("\120\x6c\141\171\145\x72\x20\x4f\160\x74\x69\157\x6e\163", "\x68\156\x6d\x67\x65\160\151\x73"); goto fJHIT; DrhhB: return $items; goto i43Do; fJHIT: $items["\157\160\x74\x69\x6d\151\x7a\x61\164\x69\157\x6e"] = "\74\151\40\143\154\141\163\x73\75\42\150\x6e\155\x67\x62\157\170\55\x69\143\157\x6e\40\x68\x6e\155\x67\x62\x6f\x78\x2d\x69\143\x6f\x6e\x2d\x6c\x69\x6e\153\x22\x3e\74\57\x69\x3e" . esc_html__("\x53\x45\117\40\117\x70\x74\151\155\x69\x7a\x61\x74\x69\157\x6e", "\150\156\x6d\147\x65\x70\x69\163"); goto DrhhB; i43Do: } public function hnmg_add_general($hnmgbox) { $hnmgbox->add_field(array("\x69\x64" => "\x65\156\x61\x62\154\145\137\157\x6c\x64\137\x65\x70\151\x73\x6f\144\x65\137\155\141\x6e\x61\x67\145\162", "\156\x61\155\145" => __("\x53\x68\x6f\167\151\156\147\40\157\x6c\144\40\145\x70\x69\x73\157\x64\145\x73\x20\155\141\156\x61\147\x65\x72", "\x68\156\166\x6c\x78\x78"), "\x74\171\160\145" => "\x73\x77\151\x74\143\x68\x65\x72", "\x64\x65\163\143" => __("\104\151\163\160\154\141\x79\x73\40\x74\x68\145\x20\157\x6c\144\x20\x65\x70\x69\163\157\144\x65\x73\x20\155\x61\156\141\147\145\x72\x20\151\x6e\40\164\x68\x65\x20\x70\x6f\x73\x74\x20\145\144\151\x74\x6f\x72", "\150\x6e\x76\x6c\170\170"), "\x64\x65\x66\141\x75\154\164" => "\157\x6e")); } public function tabitem_player_bottom($hnmgbox) { goto i3ID2; hHosm: $hnmgbox->open_tab_item("\160\x6c\x61\171\x65\x72\x2d\x67\145\x6e\145\x72\141\154"); goto Mbkf6; TGhN6: $hnmgbox->close_tab("\x70\x6c\141\171\x65\162\55\x74\141\x62\163"); goto xCtQ8; t6Q1p: $hnmgbox->close_tab_item("\160\154\141\x79\145\x72\x2d\x61\x64\x76\145\x72\164\x69\x73\151\156\x67"); goto TGhN6; clFHL: $hnmgbox->add_field(array("\x69\144" => "\x6a\167\137\x74\x72\141\143\x6b\x73\x5f\x63\157\154\157\162", "\156\x61\155\145" => __("\x53\x75\x62\164\151\x74\154\x65\x20\143\x6f\154\x6f\162", "\150\156\x6d\x67\145\160\151\163"), "\164\x79\x70\x65" => "\x63\x6f\154\x6f\162\160\151\143\153\145\162", "\x64\x65\146\x61\x75\154\164" => "\43\146\x66\146", "\x67\x72\151\x64" => "\62\x2d\x6f\x66\x2d\x38")); goto frSPd; tSOsM: $hnmgbox->add_field(array("\x6e\141\x6d\x65" => esc_html__("\101\165\x74\157\x20\143\157\x6e\146\x69\147\40\131\157\141\x73\164\x20\x53\x45\x4f", "\150\156\x6d\147\x65\160\151\x73"), "\x69\144" => "\x61\165\x74\157\137\143\157\x6e\x66\x69\x67\x5f\x79\x6f\x61\163\164\137\x73\145\157", "\164\x79\x70\x65" => "\163\167\151\164\143\150\145\x72", "\x64\145\146\141\165\154\164" => "\x6f\x6e")); goto VQlBL; I5r5e: $hnmgbox->close_tab_item("\157\160\x74\x69\x6d\x69\172\141\164\x69\157\156"); goto AWo29; Bp5Kj: $hnmgbox->add_field(array("\156\141\155\145" => __("\114\157\147\157\40\x50\157\x73\x69\164\151\157\156", "\150\x6e\x6d\x67\145\x70\151\x73"), "\151\x64" => "\x6a\x77\137\x70\x6c\x61\x79\145\x72\137\154\x6f\147\157\137\x70\157\x73\151\164\151\157\x6e", "\x74\171\x70\x65" => "\163\145\154\x65\143\x74", "\144\x65\x66\141\x75\154\164" => "\164\x6f\160\55\154\145\146\x74", "\151\x74\145\155\163" => array("\164\157\x70\x2d\x6c\x65\146\164" => __("\x54\x6f\160\40\x6c\x65\146\164", "\150\156\155\147\145\160\x69\x73"), "\x74\157\160\x2d\x72\151\147\x68\164" => __("\124\157\x70\40\x72\x69\147\x68\164", "\x68\x6e\x6d\x67\145\x70\x69\x73"), "\142\157\x74\164\157\x6d\x2d\x6c\x65\x66\164" => __("\x42\x6f\x74\x74\x6f\x6d\40\x6c\145\146\x74", "\x68\156\155\x67\145\x70\x69\x73"), "\x62\x6f\164\164\x6f\155\x2d\x72\x69\x67\x68\x74" => __("\x42\x6f\164\x74\x6f\155\x20\x72\151\147\150\x74", "\x68\156\x6d\x67\145\x70\x69\163"), "\x63\x6f\x6e\164\162\157\154\x2d\142\141\x72" => __("\103\x6f\156\164\162\x6f\x6c\x20\142\141\162", "\150\156\155\147\145\160\151\x73")), "\x64\145\x73\x63" => __("\x54\150\151\x73\x20\163\145\x74\x73\40\164\150\145\40\143\x6f\162\156\145\162\x20\151\x6e\40\x77\x68\151\x63\x68\x20\164\157\x20\144\x69\x73\x70\x6c\141\x79\40\x74\x68\x65\x20\167\x61\x74\x65\162\x6d\141\x72\153\56\40\42\x63\x6f\156\164\162\x6f\x6c\x2d\x62\141\162\x22\x20\x61\x64\x64\x73\40\164\150\145\x20\x6c\157\147\x6f\40\141\x73\40\x74\150\x65\x20\154\145\x66\164\x6d\x6f\163\164\x20\x69\143\x6f\156\x20\x69\156\40\x74\x68\145\40\162\x69\147\150\164\x20\147\x72\x6f\x75\x70\x69\x6e\x67\40\x6f\x66\40\x62\x75\164\x74\x6f\156\x73\x20\x69\156\40\x74\x68\x65\x20\x63\x6f\x6e\164\x72\157\x6c\40\142\x61\x72\56", "\150\156\x6d\147\145\x70\151\x73"))); goto rxLHz; xCtQ8: $hnmgbox->close_tab_item("\160\x6c\141\171\145\x72"); goto Hnhi1; R3M4H: $hnmgbox->add_field(array("\x6e\x61\x6d\145" => esc_html__("\105\156\x61\x62\x6c\145\40\101\x64\163\x20\106\157\x72\40\105\x6d\x62\145\144", "\150\x6e\155\x67\145\160\151\163"), "\x69\144" => "\x6a\167\x5f\163\x68\x6f\x77\x5f\x65\x6d\x62\145\x64\137\x61\x64\x73", "\x74\171\160\145" => "\x73\167\151\x74\143\150\145\x72", "\x64\x65\x66\x61\165\154\x74" => "\x6f\x6e", "\x64\145\x73\143" => __("\x49\x66\40\x54\150\x69\163\x20\x4f\x70\x74\151\x6f\x6e\40\151\163\x20\105\x6e\x61\142\x6c\x65\144\54\x20\101\144\163\40\127\151\154\154\x20\x44\x69\163\160\154\x61\x79\x20\151\156\40\x45\155\x62\x65\x64\40\x4c\151\156\153\163", "\x68\x6e\155\x67\145\160\x69\x73"))); goto a252Q; nNhv_: $hnmgbox->add_field(array("\x6e\x61\155\145" => esc_html__("\123\x68\157\x77\x20\x41\x64\x73\x20\126\141\x73\x74", "\x68\156\x6d\147\x65\x70\x69\x73"), "\x69\144" => "\x6a\167\x5f\160\x6c\x61\x79\145\x72\137\x73\150\157\167\137\141\x64", "\164\x79\160\x65" => "\x73\167\x69\x74\143\x68\145\x72", "\x64\145\x66\x61\165\x6c\x74" => "\157\x6e")); goto R3M4H; frSPd: $hnmgbox->add_field(array("\x69\144" => "\x6a\x77\x5f\164\162\x61\143\153\x73\x5f\146\x6f\x6e\164\137\x73\151\172\x65", "\156\x61\155\x65" => __("\123\165\x62\x74\151\x74\154\145\40\146\157\156\x74\x20\x73\151\172\x65", "\x68\156\x6d\147\x65\160\x69\x73"), "\x74\171\160\145" => "\x6e\x75\x6d\x62\145\162", "\144\x65\146\141\x75\x6c\164" => 14, "\147\x72\151\144" => "\x32\55\x6f\x66\55\x38", "\x6f\160\164\151\157\156\x73" => array("\165\156\x69\164" => "\145\x6d"))); goto n_7IL; F17YH: $hnmgbox->add_field(array("\x6e\x61\x6d\x65" => __("\x41\165\x74\x6f\40\x68\x69\144\145\x20\154\157\x67\x6f", "\150\x6e\x6d\x67\145\160\x69\163"), "\151\x64" => "\x6a\167\137\160\x6c\x61\171\x65\162\x5f\x6c\x6f\x67\x6f\x5f\150\151\144\x65", "\164\171\160\x65" => "\x73\x77\151\164\143\150\145\162", "\x64\145\146\141\165\154\x74" => "\x6f\x6e")); goto Bp5Kj; VQlBL: $hnmgbox->add_field(array("\156\141\155\145" => esc_html__("\104\151\163\x70\154\141\x79\x20\143\x75\x73\x74\x6f\155\40\x74\151\x74\154\x65\x20\157\156\40\x74\x68\145\x20\x69\x6e\146\x6f\x20\x70\141\x67\x65\40\x28\x69\x6e\143\x6c\x75\x64\151\x6e\147\x20\145\160\151\163\x6f\x64\x65\54\x20\162\145\154\145\141\163\x65\x2c\x20\x71\x75\141\x6c\x69\x74\x79\56\56\56\51", "\x68\156\x6d\147\145\160\x69\x73"), "\151\144" => "\x64\151\163\160\x6c\x61\x79\x5f\x63\x75\x73\164\x6f\155\137\x74\151\x74\154\x65", "\164\171\x70\x65" => "\x73\167\x69\x74\143\x68\x65\162", "\x64\x65\x66\141\165\154\x74" => "\157\x66\146")); goto MG4TD; jaOCW: $hnmgbox->close_tab_item("\x70\x6c\141\x79\x65\162\x2d\x6a\167\160\154\x61\171\145\162"); goto Z337N; mR73N: $hnmgbox->add_field(array("\x69\144" => "\x6a\167\x5f\160\x6c\141\171\x65\x72\137\166\145\x72\163\151\157\156", "\x6e\141\x6d\x65" => __("\114\x69\x63\x65\156\163\145\40\x56\145\162\x73\151\157\156", "\x68\156\155\147\145\160\x69\163"), "\164\171\x70\x65" => "\x73\145\154\145\143\x74", "\151\164\x65\x6d\x73" => array("\152\x77\137\160\154\x61\171\x65\x72\137\x70\162\x6f" => "\x50\x72\157\x20\50\146\x72\145\145\51", "\x6a\x77\x5f\160\x6c\141\x79\x65\x72\x5f\x70\162\x65\x6d\151\165\x6d" => "\x50\x72\x65\x6d\151\x75\x6d", "\x6a\167\x5f\160\x6c\141\x79\x65\x72\137\x61\144\x73" => "\x41\144\163"), "\144\145\x66\x61\165\x6c\164" => "\152\x77\x5f\160\154\x61\x79\145\x72\x5f\x70\x72\157")); goto OU3Bk; T8vOD: $hnmgbox->add_field(array("\x69\144" => "\160\x6c\x61\171\x65\162\137\145\x72\x72\157\x72\137\x64\145\x74\x65\x63\164", "\164\171\x70\145" => "\x72\141\144\151\x6f", "\x6e\141\x6d\145" => esc_html__("\x4a\x57\120\154\141\171\145\162\40\105\x72\162\157\162\40\x44\x65\x74\x65\143\164", "\x68\156\x6d\147\145\160\x69\x73"), "\x63\154\141\163\163" => "\x68\x6f\162\151\172\x6f\156\x74\x61\154", "\x69\x74\145\x6d\163" => array("\144\151\163\x70\x6c\141\171\x5f\x6d\x6f\144\x61\154" => esc_html__("\123\150\157\167\x20\x4d\x6f\x64\x61\154\x20\120\157\160\x75\x70", "\x68\x6e\x6d\147\x65\160\x69\x73"), "\x61\165\164\157\x6c\x6f\141\x64\x5f\163\x65\162\166\x65\162" => esc_html__("\101\x75\x74\157\40\x50\154\141\171\x20\101\x6c\164\145\162\x6e\x61\164\151\x76\145\x20\x53\x65\x72\166\145\x72", "\150\156\155\x67\145\160\151\163")), "\144\x65\x66\x61\x75\x6c\164" => "\144\x69\x73\160\x6c\141\x79\x5f\x6d\x6f\144\x61\x6c")); goto jGWrQ; Du0N5: $hnmgbox->add_field(array("\151\144" => "\152\x77\137\160\x6c\x61\x79\145\162\137\154\157\x67\157", "\156\141\155\145" => __("\x4c\x6f\x67\157\40\106\x69\154\145", "\150\x6e\x6d\147\x65\160\151\163"), "\x74\x79\160\145" => "\x66\x69\154\145", "\x6f\x70\164\151\157\156\x73" => array("\155\151\x6d\x65\x5f\x74\171\160\x65\163" => array("\x6a\160\x67", "\152\x70\145\147", "\x70\x6e\x67", "\x67\x69\x66", "\x69\143\157"), "\160\162\145\x76\x69\145\167\x5f\x73\x69\x7a\x65" => array("\x77\x69\x64\x74\150" => "\x32\60\60\x70\170", "\x68\145\151\147\x68\x74" => "\x36\x30\160\170"), "\155\165\x6c\x74\x69\160\154\145" => false), "\x64\x65\x73\143" => __("\124\150\x65\x20\x55\122\114\40\x6f\146\x20\x61\156\x20\x65\170\164\x65\162\x6e\x61\154\x20\x4a\120\107\x2c\x20\120\x4e\x47\40\157\162\x20\x47\111\106\x20\x69\155\x61\x67\x65\x20\164\x6f\40\142\145\40\165\163\x65\x64\x20\141\163\x20\167\141\164\145\162\x6d\x61\162\x6b\40\x28\x65\56\x67\x2e\40\57\141\x73\163\x65\x74\x73\57\x6c\x6f\x67\157\x2e\160\x6e\147\x29\x2e\x20\127\x65\x20\x72\145\x63\157\x6d\155\145\x6e\144\x20\165\x73\x69\x6e\x67\40\62\x34\40\142\x69\164\x20\120\x4e\107\40\x69\x6d\141\147\145\x73\40\167\151\164\150\40\x74\162\x61\x6e\163\160\141\162\x65\156\143\x79", "\x68\156\155\x67\x65\160\151\x73"))); goto XHJqC; X7oSD: $hnmgbox->add_field(array("\x69\144" => "\160\x6c\x61\171\x65\162\137\143\141\x63\150\x65\x5f\x74\151\155\145", "\x6e\141\x6d\145" => esc_html__("\x43\x61\143\150\x65\x20\x74\151\x6d\x65", "\x68\x6e\x6d\147\145\x70\151\x73"), "\164\x79\160\x65" => "\156\x75\155\142\x65\x72", "\144\145\x66\141\x75\154\x74" => "\61\x38\x30", "\x64\x65\163\x63" => esc_html__("\x43\x61\143\150\x65\x20\x65\x78\x70\151\x72\x65\144\40\164\x69\155\145\x2e\40\x28\163\x65\x63\x6f\x6e\144\x73\x29", "\150\x6e\155\147\x65\160\x69\x73"), "\157\160\x74\151\x6f\156\163" => array("\165\156\x69\164" => "\163\x65\x63\x6f\156\144\x73"))); goto mHip0; a252Q: $hnmgbox->add_field(array("\151\x64" => "\152\x77\x5f\x70\154\141\171\x65\x72\x5f\143\x75\163\164\x6f\x6d\137\141\x64\163\137\x63\x6f\144\145", "\x6e\141\155\x65" => __("\x41\x64\163\x20\143\x6f\x64\145", "\150\156\x6d\147\x65\160\151\163"), "\164\171\x70\x65" => "\143\x6f\144\x65\x5f\x65\x64\x69\164\157\x72", "\x6f\x70\164\x69\157\x6e\x73" => array("\154\x61\x6e\x67\x75\141\x67\x65" => "\160\150\x70", "\x74\150\x65\155\x65" => "\164\157\x6d\x6f\x72\x72\157\x77\137\x6e\151\x67\x68\x74", "\150\x65\151\x67\150\164" => "\x32\x34\60\x70\x78"), "\x64\145\146\x61\165\154\x74" => "\xa\11\x22\x61\144\x76\145\162\x74\x69\x73\151\156\x67\42\x3a\x20\173\12\11\11\x22\164\x61\x67\42\72\40\42" . get_template_directory_uri() . "\57\x76\141\x73\164\x2d\141\144\56\x78\155\x6c\42\54\xa\x9\x9\42\143\x6c\151\145\156\164\x22\x3a\40\x22\166\x61\x73\164\42\x2c\xa\11\11\42\166\160\141\x69\144\x6d\157\144\145\x22\72\x20\42\x69\x6e\163\145\x63\165\x72\x65\x22\54\12\x9\x9\x22\x70\x72\145\x6c\x6f\141\144\101\x64\163\x22\x3a\x20\164\162\165\x65\54\xa\11\11\42\x61\x64\155\x65\x73\x73\141\x67\145\42\x3a\40\42\121\x75\341\272\xa3\156\x67\40\143\303\241\x6f\x20\x63\303\xb2\156\40\130\130\x20\147\151\303\xa2\x79\56\42\54\12\11\11\x22\x73\153\x69\x70\157\x66\x66\163\145\x74\x22\x3a\40\65\x2c\12\11\11\42\163\x6b\151\160\x74\x65\170\x74\42\x3a\40\x22\102\xe1\273\x8f\x20\x71\x75\141\40\x71\165\xe1\xba\xa3\x6e\147\40\x63\303\241\157\x22\x2c\xa\x9\11\x22\163\x6b\x69\160\x6d\x65\x73\x73\141\147\145\42\72\40\x22\102\xe1\273\217\40\161\x75\141\x20\x73\x61\165\x20\x78\170\x73\42\x2c\xa\11\x7d")); goto t6Q1p; OU3Bk: $hnmgbox->add_field(array("\156\141\x6d\145" => __("\x4a\x77\160\x6c\x61\x79\145\162\40\x4c\151\x63\x65\x6e\x73\145\x20\x6b\x65\171", "\x68\156\x6d\x67\145\x70\x69\x73"), "\151\144" => "\x6a\167\137\x70\154\141\171\x65\x72\137\x6c\151\143\145\156\x73\145\137\153\145\171", "\164\x79\160\145" => "\x74\145\170\x74", "\147\162\151\144" => "\x33\55\157\146\55\x38", "\144\145\x66\141\x75\x6c\x74" => "\115\x42\166\x72\x69\x65\161\116\x64\x6d\x56\114\64\152\x56\x30\x78\x36\114\x50\112\60\x77\x4b\102\57\x4e\142\172\62\121\x71\57\154\x71\x6d\63\147\x3d\x3d", "\x64\x65\163\x63" => __("\101\40\x6c\x69\143\x65\156\x73\x65\40\x6b\x65\x79\x20\151\x73\x20\x72\145\161\165\151\x72\x65\x64\x20\146\157\x72\x20\x74\x68\x65\40\120\x72\157\x2c\40\120\x72\x65\155\151\165\x6d\40\141\156\x64\40\x41\x64\163\x20\145\144\x69\x74\x69\x6f\x6e\56", "\150\156\x6d\x67\145\160\151\x73"))); goto Du0N5; MG4TD: $hnmgbox->add_field(array("\x6e\141\155\x65" => esc_html__("\x52\x65\x6d\157\x76\145\x20\164\150\145\40\x63\x61\164\145\147\157\162\151\145\163\x20\160\x72\145\x66\151\170", "\x68\156\x6d\147\145\x70\151\x73"), "\151\x64" => "\x68\x61\x75\156\x5f\162\145\155\x6f\166\145\x5f\143\x61\x74\x65\x67\x6f\x72\151\x65\x73\137\160\162\145\146\x69\170", "\164\171\160\x65" => "\163\167\151\x74\143\150\x65\162", "\144\x65\x66\141\165\x6c\164" => "\157\x6e", "\x64\145\x73\143" => esc_html__("\103\141\164\x65\147\x6f\x72\171\x20\125\122\114\x73\40\151\x6e\40\127\157\x72\144\x50\x72\145\x73\163\x20\143\157\x6e\164\x61\151\x6e\40\x61\40\x70\162\145\x66\x69\x78\54\40\165\163\165\x61\x6c\154\x79\40\x3c\163\164\162\157\156\x67\x3e\57\x63\x61\x74\145\x67\x6f\x72\x79\57\x3c\x2f\163\164\x72\157\156\x67\76\x2c\40\164\x68\x69\163\40\x66\x65\x61\x74\x75\162\145\x20\162\x65\155\x6f\166\x65\163\x20\164\x68\x61\164\40\160\162\145\x66\x69\x78\x2c\40\146\157\162\x20\143\141\x74\145\147\157\162\x69\x65\163\40\x6f\x6e\x6c\x79\56", "\150\156\155\147\x65\x70\151\x73"))); goto s3NGm; dCEbk: $hnmgbox->add_field(array("\x6e\x61\x6d\x65" => esc_html__("\103\141\x63\x68\145\40\120\x6c\x61\x79\x65\162", "\150\x6e\x6d\147\x65\x70\x69\163"), "\x69\144" => "\x70\x6c\x61\171\145\x72\x5f\143\x61\143\150\x65", "\164\171\x70\145" => "\163\167\151\164\x63\150\x65\x72", "\144\x65\x66\x61\x75\x6c\x74" => "\157\156", "\144\145\x73\143" => esc_html__("\105\x6e\x61\142\x6c\145\40\x63\x61\x63\150\145\x20\154\x69\156\153", "\x68\156\155\x67\x65\160\151\163"))); goto X7oSD; onqXP: $hnmgbox->open_tab_item("\160\x6c\141\171\x65\162\x2d\152\x77\x70\154\141\x79\x65\x72"); goto mR73N; a37Lw: $hnmgbox->add_field(array("\x6e\x61\155\145" => __("\x41\165\164\157\x20\120\x61\x75\x73\145\x20\120\x6c\x61\171\145\162", "\x68\x6e\x6d\147\145\x70\151\x73"), "\x69\144" => "\152\x77\x5f\160\x6c\141\x79\x65\162\x5f\141\x75\x74\157\160\141\x75\x73\145", "\x74\171\x70\145" => "\x73\167\x69\x74\x63\150\145\162", "\x64\x65\x66\141\x75\x6c\164" => "\157\x6e", "\x64\145\x73\143" => __("\101\165\x74\157\x6d\141\164\151\x63\141\x6c\154\171\40\160\141\165\163\145\x73\x20\164\150\145\x20\x70\x6c\x61\x79\x65\x72\40\x62\141\163\145\144\40\157\156\40\x63\145\162\164\141\151\x6e\x20\x72\165\154\145\x73", "\x68\156\155\x67\145\160\x69\163"))); goto MyChN; rxLHz: $hnmgbox->add_field(array("\151\144" => "\x6a\x77\137\x70\x6c\141\x79\x65\162\x5f\x70\157\x73\164\145\x72\x5f\x69\x6d\x61\147\145", "\x6e\141\x6d\145" => __("\104\x65\x66\x61\165\x6c\x74\x20\x70\157\163\x74\x65\162\40\x69\x6d\141\x67\145", "\150\x6e\x6d\147\145\x70\151\163"), "\164\171\x70\145" => "\146\151\154\x65", "\x6f\160\164\x69\157\x6e\163" => array("\155\151\x6d\x65\x5f\x74\171\160\145\163" => array("\x6a\160\x67", "\152\160\145\147", "\x70\x6e\147", "\147\151\146", "\151\x63\157"), "\x70\x72\x65\x76\x69\x65\167\x5f\x73\151\x7a\x65" => array("\167\x69\x64\164\x68" => "\x32\x30\x30\160\170", "\x68\x65\x69\x67\150\164" => "\62\x30\60\x70\170"), "\155\165\x6c\164\x69\160\154\x65" => false))); goto cPxN0; UpiV6: $hnmgbox->add_tab(array("\156\141\155\145" => esc_html__("\120\x6c\x61\x79\x65\x72\40\164\141\142\163", "\x68\x6e\x6d\x67\145\160\151\x73"), "\151\x64" => "\x70\x6c\x61\171\145\x72\x2d\164\x61\142\x73", "\x69\x74\x65\x6d\163" => array("\160\x6c\x61\x79\x65\x72\55\147\145\x6e\145\x72\141\154" => "\x3c\x69\40\x63\154\x61\x73\x73\x3d\42\x68\x6e\155\x67\142\x6f\x78\55\151\143\157\x6e\x20\x68\156\155\147\142\157\170\55\x69\x63\157\x6e\x2d\x68\157\155\145\42\x3e\74\x2f\x69\76" . esc_html__("\x47\145\x6e\x65\x72\x61\x6c", "\150\156\x6d\147\145\160\151\x73"), "\x70\x6c\141\x79\145\162\x2d\x6a\x77\160\x6c\x61\171\145\162" => "\74\151\x20\x63\x6c\141\163\x73\75\x22\x68\156\155\x67\142\157\170\55\151\143\157\x6e\40\x68\156\x6d\x67\x62\x6f\170\x2d\151\x63\x6f\x6e\x2d\x70\154\141\x79\42\76\74\x2f\x69\76" . esc_html__("\x4a\127\x20\120\154\141\171\145\x72\x20\102\141\x73\x69\x63\40\123\x65\x74\164\x69\156\x67\x73", "\x68\x6e\155\147\145\x70\x69\163"), "\160\x6c\x61\x79\x65\x72\55\141\x64\x76\145\162\164\151\163\151\x6e\147" => "\74\x69\x20\143\154\141\163\x73\75\42\150\156\155\x67\x62\x6f\170\x2d\151\143\157\156\x20\150\x6e\x6d\147\x62\x6f\x78\x2d\151\143\x6f\156\x2d\146\157\154\x64\145\x72\42\x3e\74\x2f\x69\76" . esc_html__("\101\x44\x53\x20\x56\x61\x73\x74\x20\x53\x65\x74\x74\151\x6e\x67\163", "\x68\156\x6d\x67\x65\160\x69\163")))); goto hHosm; jGWrQ: $hnmgbox->add_field(array("\156\141\x6d\145" => __("\101\x75\164\x6f\x73\164\141\162\x74", "\150\x6e\155\x67\145\160\151\163"), "\x69\x64" => "\152\167\137\160\154\141\171\x65\162\x5f\x61\165\x74\157\x70\x6c\x61\171", "\164\171\x70\145" => "\x73\x77\x69\x74\x63\150\x65\162", "\x64\145\x66\141\165\x6c\164" => "\157\x6e")); goto a37Lw; AWo29: $hnmgbox->open_tab_item("\160\x6c\x61\x79\x65\162"); goto UpiV6; LTPXQ: $hnmgbox->add_field(array("\x69\144" => "\152\x77\137\x70\x6c\141\x79\x65\x72\x5f\x61\142\157\x75\x74\x5f\154\x69\x6e\153", "\x6e\141\155\x65" => __("\101\x62\157\165\x74\40\x6c\151\156\x6b", "\x68\x6e\155\x67\145\160\151\163"), "\164\x79\x70\x65" => "\164\x65\170\164", "\x67\162\151\x64" => "\x33\x2d\157\x66\x2d\x36", "\x64\145\x73\x63" => __("\103\x75\x73\164\157\x6d\40\125\122\114\40\164\157\40\x6c\x69\x6e\153\40\164\157\40\x77\x68\145\156\40\143\x6c\x69\x63\153\151\x6e\x67\40\164\x68\x65\x20\162\151\x67\150\164\55\143\x6c\x69\x63\153\40\x6d\x65\156\165\56\x20\103\141\156\40\157\156\x6c\x79\40\x62\145\x20\x73\x65\x74\x20\146\157\162\40\x74\x68\145\40\120\x72\145\155\151\x75\155\40\x61\x6e\x64\40\x41\144\163\x20\x45\144\151\x74\151\157\x6e\x73", "\x68\156\155\x67\x65\x70\151\x73"))); goto jaOCW; Mbkf6: $hnmgbox->add_field(array("\156\x61\155\x65" => esc_html__("\x52\145\x73\x75\155\x65\40\x50\154\141\171\x62\x61\143\153", "\x68\x6e\155\x67\145\x70\151\163"), "\151\144" => "\162\x65\163\165\155\x65\x5f\x70\154\x61\171\142\141\x63\153", "\x74\171\160\145" => "\163\167\x69\164\x63\150\145\x72", "\x64\x65\x66\141\165\x6c\164" => "\x6f\x6e", "\144\x65\x73\143" => esc_html__("\x55\x73\x65\40\154\x6f\143\x61\x6c\123\164\x6f\162\141\x67\145\40\x74\x6f\40\x72\145\155\x65\x6d\x62\145\162\40\x77\x68\x65\x72\145\40\164\x68\x65\40\x75\163\145\x72\x20\x6c\145\146\164\x20\157\146\146\x20\x61\x6e\144\40\x72\x65\163\165\155\145\40\x70\154\141\x79\142\x61\143\153\x20\141\x74\40\164\x68\145\40\163\x61\x6d\x65\40\x74\151\x6d\145\x20\157\x66\146\163\x65\x74\x20\167\150\x65\156\x20\x72\145\166\151\163\151\x74\x69\x6e\x67\40\164\150\x65\x20\x70\x61\x67\x65\x2e", "\150\156\155\147\145\x70\151\x73"))); goto bGyV5; mHip0: $hnmgbox->close_tab_item("\x70\154\x61\171\x65\162\55\x67\145\156\x65\x72\141\154"); goto onqXP; kbiS0: $hnmgbox->add_field(array("\151\144" => "\150\141\165\156\x5f\163\145\157\x5f\164\151\x74\x6c\145\x5f\167\141\x74\x63\x68\137\160\141\x67\145", "\164\171\160\145" => "\x74\145\170\x74", "\156\x61\x6d\145" => __("\x53\105\x4f\40\x74\x69\x74\x6c\x65\x20\x28\x50\141\x67\145\x20\x77\x61\x74\143\150\40\155\157\x76\x69\x65\x29", "\x68\x6e\155\147\x65\160\151\x73"), "\x64\145\146\141\165\154\x74" => "\127\x61\x74\x63\x68\x20\173\x74\151\164\154\145\x7d\40\x7b\145\x70\151\x73\x6f\x64\x65\x7d\40\173\161\x75\x61\154\x69\164\171\x7d", "\x61\164\164\x72\151\142\x75\x74\145\x73" => array("\160\x6c\x61\x63\145\150\x6f\154\x64\145\162" => "\127\141\164\x63\x68\x20\x7b\x74\x69\164\154\x65\x7d\40\x7b\x65\160\151\x73\x6f\144\145\175\40\x7b\x71\165\x61\154\x69\164\171\175"), "\157\x70\164\151\157\156\x73" => array("\x68\x65\x6c\160\145\162" => "\74\151\x20\143\x6c\x61\163\x73\x3d\x22\150\x6e\x6d\147\142\x6f\x78\x2d\151\x63\157\156\40\x68\156\155\147\x62\x6f\170\x2d\x69\x63\157\x6e\55\x63\150\x65\143\153\x22\76\x3c\x2f\151\76\x20\x7b\x74\x69\164\154\145\x7d\x20\x3d\x20\146\x69\154\155\x20\164\x69\x74\x6c\x65\54\x20\x7b\145\x70\x69\163\x6f\144\145\175\x20\75\40\x66\151\154\x6d\40\x65\160\x69\x73\x6f\144\x65\x2c\x20\x7b\161\165\x61\154\x69\x74\171\x7d\40\75\x20\x66\x69\154\155\40\x71\165\141\x6c\151\x74\x79\54\x20\173\x72\x65\154\x65\x61\163\145\175\40\x3d\40\162\145\x6c\145\141\163\145\x64\x2c\40\x7b\x6f\x72\x67\x5f\x74\x69\x74\154\145\x7d\40\x3d\40\157\162\x69\147\x69\156\141\x6c\x20\x74\151\x74\154\x65\x2c\x20\x7b\162\x75\x6e\x74\x69\155\145\175\40\75\40\x64\x75\x72\141\164\151\x6f\156\54\40\x7b\143\x6f\x75\x6e\164\x72\x79\175\x20\x3d\40\x63\157\165\x6e\x74\x72\x79"), "\144\145\163\x63" => __("\115\x6f\x64\151\x66\171\x20\171\157\x75\162\x20\123\x45\x4f\40\x74\x69\164\x6c\x65\x20\x62\x79\40\145\x64\x69\164\151\x6e\147\x20\151\x74\x20\x72\151\x67\x68\x74\x20\x68\x65\162\145", "\150\x6e\155\x67\145\x70\x69\x73"))); goto I5r5e; MyChN: $hnmgbox->add_field(array("\151\x64" => "\x6a\167\x5f\160\154\141\x79\145\x72\x5f\x73\150\x61\x72\145", "\156\x61\x6d\x65" => __("\123\x68\141\x72\x65\x20\x42\165\x74\x74\157\156", "\x68\x6e\155\x67\145\160\x69\x73"), "\164\x79\160\145" => "\x73\167\151\x74\143\150\x65\x72", "\144\145\x66\x61\x75\154\x74" => "\157\x6e")); goto dCEbk; bGyV5: $hnmgbox->add_field(array("\156\141\x6d\145" => esc_html__("\x41\x75\164\x6f\40\x72\145\x73\145\164\40\x63\x61\143\x68\x65", "\150\156\155\x67\145\160\x69\x73"), "\151\144" => "\141\x75\x74\157\x5f\x72\145\x73\x65\x74\137\143\x61\x63\x68\x65", "\x74\171\160\x65" => "\163\167\151\164\x63\150\x65\162", "\x64\x65\x66\x61\x75\x6c\164" => "\x6f\146\x66", "\144\145\163\x63" => esc_html__("\101\165\x74\x6f\155\x61\x74\151\x63\x61\x6c\x6c\x79\x20\x63\x6c\x65\141\162\40\x74\x68\145\40\143\141\143\x68\x65\x20\151\146\40\x74\150\145\40\160\x6c\141\171\x65\162\40\x65\162\x72\157\x72", "\150\x6e\x6d\147\145\x70\x69\x73"))); goto T8vOD; n_7IL: $hnmgbox->add_field(array("\151\144" => "\x6a\167\137\x70\154\x61\171\145\x72\137\141\x62\x6f\165\x74\137\x74\x65\170\164", "\x6e\x61\x6d\x65" => __("\x41\142\x6f\x75\164\40\x74\x65\170\x74", "\150\156\155\147\145\x70\x69\x73"), "\x74\171\x70\145" => "\x74\x65\170\164", "\147\x72\151\144" => "\63\55\x6f\x66\55\66", "\x64\145\x73\143" => __("\103\x75\163\164\157\155\x20\164\x65\170\x74\x20\164\157\40\x64\151\x73\160\154\x61\x79\40\x69\x6e\40\164\150\145\x20\x72\x69\147\x68\164\55\x63\x6c\151\143\153\x20\x6d\x65\x6e\165\56\40\x43\x61\x6e\40\157\x6e\154\x79\x20\x62\145\40\163\x65\x74\40\146\x6f\162\40\164\x68\145\40\120\x72\145\x6d\151\x75\x6d\x20\x61\156\144\x20\101\144\163\40\105\144\151\x74\151\x6f\156\x73", "\150\x6e\155\x67\x65\160\x69\x73"))); goto LTPXQ; s3NGm: $hnmgbox->add_field(array("\151\144" => "\150\141\165\156\137\163\x65\157\137\x74\x69\x74\154\x65", "\x74\171\x70\145" => "\164\145\170\x74", "\x6e\x61\155\x65" => __("\x53\x45\117\40\164\151\x74\154\x65\40\x28\x50\x61\147\x65\x20\155\157\x76\x69\x65\40\x69\x6e\x66\157\x29", "\x68\156\x6d\x67\x65\x70\x69\x73"), "\x64\x65\146\141\x75\x6c\x74" => "\173\164\151\x74\x6c\x65\x7d\x20\173\161\165\x61\154\151\x74\x79\175", "\x64\x65\163\x63" => __("\x4d\x6f\144\151\x66\x79\40\171\157\165\162\x20\123\105\117\40\x74\x69\x74\154\x65\x20\142\171\x20\145\x64\151\164\151\156\147\40\151\164\40\162\151\147\x68\164\x20\150\145\162\x65", "\x68\x6e\155\147\145\x70\x69\163"), "\141\x74\164\x72\151\x62\165\164\145\163" => array("\x70\154\x61\x63\145\x68\x6f\x6c\144\145\162" => "\x46\151\x6c\155\x20\173\164\151\164\x6c\x65\x7d\40\173\x71\165\x61\154\151\x74\x79\175"), "\157\x70\x74\151\157\156\x73" => array("\x68\x65\154\160\x65\162" => "\74\151\40\x63\x6c\x61\163\x73\75\x22\x68\156\155\x67\142\x6f\170\55\151\x63\x6f\x6e\x20\x68\156\x6d\147\x62\157\x78\55\151\x63\x6f\156\55\143\x68\145\143\x6b\x22\x3e\74\x2f\x69\76\40\173\164\151\x74\154\x65\175\40\x3d\40\x66\151\x6c\155\40\x74\151\x74\154\x65\54\x20\173\145\160\x69\163\x6f\x64\145\x7d\x20\75\40\x66\151\x6c\155\40\x65\160\x69\163\157\144\x65\x2c\40\x7b\x71\165\x61\x6c\x69\164\171\175\x20\x3d\x20\146\151\154\x6d\40\161\165\141\x6c\x69\164\x79\54\x20\173\x72\145\x6c\x65\x61\x73\x65\175\x20\x3d\x20\x72\145\x6c\145\141\163\145\144\x2c\x20\173\157\162\147\x5f\164\x69\x74\154\145\x7d\40\75\x20\157\x72\151\x67\151\x6e\141\154\x20\164\x69\x74\x6c\145\54\x20\173\x72\x75\156\x74\x69\x6d\x65\175\x20\75\x20\x64\x75\x72\141\164\x69\x6f\x6e\54\40\173\143\157\165\156\164\162\x79\175\40\75\40\143\157\x75\x6e\x74\162\171"))); goto kbiS0; QSpVv: $hnmgbox->add_field(array("\156\141\x6d\145" => __("\x53\145\154\x65\143\164\x20\141\40\155\145\164\150\157\x64\40\x74\157\40\162\x65\141\x64\40\163\x75\142\164\151\x74\154\145\x73", "\150\156\x6d\x67\x65\160\151\163"), "\x69\144" => "\x6a\x77\137\x70\154\x61\x79\x65\162\x5f\x73\x75\142\x74\151\164\154\145\137\x6d\145\164\x68\x6f\144", "\164\x79\160\145" => "\163\x65\154\145\x63\164", "\144\145\146\x61\165\154\x74" => "\x64\x69\162\145\x63\x74\137\x6c\x69\156\153", "\x69\x74\145\155\x73" => array("\x64\x69\162\145\143\x74\137\154\151\x6e\153" => __("\104\151\x72\x65\x63\164\x20\154\151\156\153", "\x68\x6e\x6d\x67\x65\x70\x69\163"), "\162\x65\141\x64\163\165\x62\137\160\150\x70" => __("\x55\x73\145\40\x72\145\x61\x64\163\x75\142\x2e\160\x68\x70", "\x68\156\x6d\x67\x65\160\151\163")))); goto clFHL; Z337N: $hnmgbox->open_tab_item("\160\x6c\x61\x79\145\162\x2d\141\144\166\145\162\164\151\163\151\x6e\x67"); goto nNhv_; XHJqC: $hnmgbox->add_field(array("\x69\144" => "\x6a\167\137\160\154\141\x79\x65\x72\137\154\157\147\x6f\x5f\x6c\151\156\x6b", "\x6e\x61\155\x65" => __("\x4c\157\147\x6f\40\x6c\x69\x6e\x6b", "\x68\156\x6d\147\145\160\x69\163"), "\x74\171\x70\145" => "\164\145\170\164", "\x67\x72\x69\144" => "\x33\x2d\157\146\x2d\66", "\x64\x65\x66\141\165\x6c\164" => home_url(), "\x64\145\x73\x63" => __("\x54\x68\x65\40\125\122\114\40\x74\x6f\40\x76\x69\x73\151\164\x20\167\150\x65\x6e\40\164\150\145\40\x77\x61\x74\145\162\155\141\162\153\x20\x69\155\x61\147\145\40\151\x73\40\x63\154\151\x63\153\x65\144\56\x20\x43\154\151\x63\x6b\151\156\x67\40\x61\x20\154\x6f\x67\157\x20\x77\151\x6c\154\x20\x68\141\x76\x65\40\x6e\157\x20\x61\146\146\x65\x63\164\x20\x75\x6e\x6c\145\163\163\x20\164\150\x69\x73\40\x69\x73\40\143\157\156\x66\x69\147\165\x72\145\x64", "\x68\x6e\155\147\x65\160\151\x73"))); goto F17YH; cPxN0: $hnmgbox->add_field(array("\151\x64" => "\x6a\x77\137\160\154\x61\x79\145\x72\x5f\144\x65\x66\x61\165\154\x74\x5f\x73\165\x62\164\151\x74\154\x65", "\156\141\x6d\x65" => __("\125\x70\154\157\x61\144\40\123\x75\142\x74\151\x74\x6c\145", "\150\156\x6d\147\145\x70\151\x73"), "\164\171\160\145" => "\146\151\x6c\x65", "\x6f\x70\164\151\x6f\156\x73" => array("\x6d\151\155\x65\137\164\x79\160\145\x73" => array("\163\x72\164", "\x76\x74\164"), "\160\x72\145\166\x69\145\167\x5f\x73\x69\172\x65" => array("\167\x69\x64\164\150" => "\62\60\x30\x70\170", "\150\x65\x69\x67\150\164" => "\x36\x30\160\x78"), "\155\165\x6c\164\151\160\154\145" => false), "\144\145\163\143" => __("\x41\x64\144\40\x74\150\x65\40\165\162\154\x20\x6f\146\x20\164\150\x65\40\x66\x69\x6c\x65\40\x73\x75\x62\x74\151\x74\x6c\x65\x2e\163\162\164\x2c\x20\56\166\164\164\x20\x6f\162\40\x75\163\x69\156\147\x20\164\150\x65\x20\125\160\x6c\157\x61\144\x20\142\165\164\164\157\156\x2e", "\x68\x6e\155\147\145\x70\151\163"))); goto QSpVv; i3ID2: $hnmgbox->open_tab_item("\x6f\160\164\x69\155\x69\x7a\141\x74\x69\157\156"); goto tSOsM; Hnhi1: } }
+namespace HNMG\Episodes;
+
+class EP_Options {
+	
+	public function register() {
+		add_filter('hnmg_maintab_option', [$this, 'load_main_tab_two'], 2);
+		add_action('hnmg_opentab_option', [$this, 'tabitem_player_bottom']);
+		add_action('hnmg_add_general', [$this, 'hnmg_add_general']);
+	}
+	
+	public function load_main_tab_two($items) {
+		$items['player'] 		= '<i class="hnmgbox-icon hnmgbox-icon-play"></i>' . esc_html__('All Options', 'hnmgepis');
+		return $items;
+	}
+	
+	public function hnmg_add_general($hnmgbox) {
+		$hnmgbox->add_field(array(
+			'id' => 'enable_old_episode_manager',
+			'name' => __('Showing old episodes manager', 'hnvlxx'),
+			'type' => 'switcher',
+			'desc' => __('Displays the old episodes manager in the post editor', 'hnvlxx'),
+			'default' => 'on',
+		));
+	}
+
+	public function tabitem_player_bottom($hnmgbox) {
+		$hnmgbox->open_tab_item( 'player' );
+				$hnmgbox->add_tab( array(
+					'name' => esc_html__( 'Player tabs', 'hnmgepis' ),
+					'id' => 'player-tabs',
+					'items' => array(
+						'player-general' 		=> '<i class="hnmgbox-icon hnmgbox-icon-home"></i>' . esc_html__( 'General', 'hnmgepis' ),
+						'player-listepis' 		=> '<i class="hnmgbox-icon hnmgbox-icon-cogs"></i>' . esc_html__( 'List Episodes', 'hnmgepis' ),
+						'player-optimization' 	=> '<i class="hnmgbox-icon hnmgbox-icon-link"></i>' . esc_html__( 'SEO Optimization', 'hnmgepis' ),
+						'player-jwplayer' 		=> '<i class="hnmgbox-icon hnmgbox-icon-play"></i>' . esc_html__( 'JWPlayer Settings', 'hnmgepis' ),
+						'player-advertising' 	=> '<i class="hnmgbox-icon hnmgbox-icon-folder"></i>' . esc_html__( 'ADS Vast Settings', 'hnmgepis' ),
+						'player-adult' 			=> '<i class="hnmgbox-icon hnmgbox-icon-exclamation-triangle"></i>' . esc_html__( 'Adult Content', 'hnmgepis' ),
+					),
+				));
+					$hnmgbox->open_tab_item( 'player-general' );
+						$this->player_general($hnmgbox);
+					$hnmgbox->close_tab_item( 'player-general' );
+					
+					$hnmgbox->open_tab_item( 'player-listepis' );
+						$this->player_listepis($hnmgbox);
+					$hnmgbox->close_tab_item( 'player-listepis' );
+					
+					$hnmgbox->open_tab_item( 'player-optimization' );
+						$this->player_optimization($hnmgbox);
+					$hnmgbox->close_tab_item( 'player-optimization' );
+					
+					$hnmgbox->open_tab_item( 'player-jwplayer' );
+						$this->player_jwplayer($hnmgbox);
+					$hnmgbox->close_tab_item( 'player-jwplayer' );
+						
+					$hnmgbox->open_tab_item('player-advertising');
+						$this->player_advertising($hnmgbox);
+					$hnmgbox->close_tab_item('player-advertising');
+					
+					$hnmgbox->open_tab_item('player-adult');
+						$this->player_adult($hnmgbox);
+					$hnmgbox->close_tab_item('player-adult');
+					
+				$hnmgbox->close_tab( 'player-tabs' );
+			$hnmgbox->close_tab_item( 'player' );	
+			
+	}
+	
+
+	public function player_general($hnmgbox){
+		$hnmgbox->add_field(array(
+			'name' => esc_html__( 'Movies Filter', 'hnmgepis' ),
+			'id' => 'haun_filter_enable',
+			'type' => 'switcher',
+			'default' => 'on',
+		));
+		$hnmgbox->open_mixed_field(array('id' => 'displayed-when:switch:haun_filter_enable:on:haun_filter_select', 'name' => __('Setting Button Player', 'hnmgepis')));
+			$hnmgbox->add_field(array(
+				'name'   	=> __('Select Filter', 'hnmgepis'),
+				'id'     	=> 'haun_filter_select',
+				'type'   	=> 'select',
+				'default' 	=> array('sort', 'formality', 'status', 'country', 'release', 'category'),
+				'items'     => array(
+					'sort'      	=> __('Sort By', 'hnmgepis'),
+					'formality'     => __('Formality', 'hnmgepis'),
+					'status'     	=> __('Status', 'hnmgepis'),
+					'country'     	=> __('Country', 'hnmgepis'),
+					'release'     	=> __('Release', 'hnmgepis'),
+					'category'     	=> __('Category', 'hnmgepis'),
+				),
+				'options'   => array(
+					'multiple'     		=> true,
+					'search'       		=> true,
+					'max_selections'    => 10,
+				),
+				'grid' 		=> '3-of-6',
+			));
+		$hnmgbox->close_mixed_field();
+		
+		$hnmgbox->add_field(array(
+			'name' => esc_html__( 'On/Off Button Player', 'hnmgepis' ),
+			'id' => 'hnbtn_player',
+			'type' => 'switcher',
+			'default' => 'on',
+		));
+		$hnmgbox->open_mixed_field(array('id' => 'displayed-when:switch:hnbtn_player:on:hnbtn_player_postion', 'name' => __('Setting Button Player', 'hnmgepis')));
+			$hnmgbox->add_field(array(
+				'id' => 'hnbtn_player_postion',
+				'name' => __('Button Player Postion', 'hnmgepis'),
+				'type' => 'radio',
+				'default' => 'left',
+				'items' => array(
+					'left' 		=> __('Left', 'hnmgepis'),
+					'center' 	=> __('Center', 'hnmgepis'),
+					'last' 		=> __('Last', 'hnmgepis'),
+				),
+				'options' => array('inline' => true),
+				'grid' 		=> '6-of-6',
+			));
+			$hnmgbox->add_field(array(
+				'name'   	=> __('Select Button Player', 'hnmgepis'),
+				'id'     	=> 'hnbtn_player_select',
+				'type'   	=> 'select',
+				'default' 	=> array('view', 'next_prev', 'expand', 'light', 'report', 'like', 'autonext'),
+				'items'     => array(
+					'view'      	=> __('Views', 'hnmgepis'),
+					'next_prev'     => __('Next & Prev', 'hnmgepis'),
+					'autonext'     	=> __('Auto Next', 'hnmgepis'),
+					'expand'     	=> __('Expand', 'hnmgepis'),
+					'light'     	=> __('Light', 'hnmgepis'),
+					'report'     	=> __('Report', 'hnmgepis'),
+					'like'     		=> __('Like & DisLike', 'hnmgepis'),
+				),
+				'options'   => array(
+					'multiple'     		=> true,
+					'search'       		=> true,
+					'sort'       		=> true,
+					'max_selections'    => 10,
+				),
+				'grid' 		=> '6-of-6',
+				'desc' => __('For Auto Next, Next & Prev Only Works With TV Series', 'hnmgepis') . '<br /><img style="margin-top: 10px" src="' . HNMG_EPIURL . '/assets/images/button_player.png'. '">',
+			));
+			$hnmgbox->add_field(array(
+				'id' => 'hnbtn_player_color',
+				'name' => __('Background Button color', 'hnmgepis'),
+				'type' => 'colorpicker',
+				'default' => '#0b0f15',
+				'grid' => '2-of-8'
+			));
+		$hnmgbox->close_mixed_field();
+		
+		$hnmgbox->add_field(array(
+			'name' => esc_html__( 'Auto reset cache', 'hnmgepis' ),
+			'id' => 'auto_reset_cache',
+			'type' => 'switcher',
+			'default' => 'off',
+			'desc' => esc_html__( 'Automatically clear the cache if the player error', 'hnmgepis' ),
+		));
+		$hnmgbox->add_field(array(
+			'name' => esc_html__( 'Cache Player', 'hnmgepis' ),
+			'id' => 'player_cache',
+			'type' => 'switcher',
+			'default' => 'on',
+			'desc' => esc_html__( 'Enable cache link' , 'hnmgepis' ),
+		));
+		$hnmgbox->add_field(array(
+			'id' => 'player_cache_time',
+			'name' =>  esc_html__( 'Cache time', 'hnmgepis' ),
+			'type' => 'number',
+			'default' => '180',
+			'desc' => esc_html__( 'Cache expired time. (seconds)', 'hnmgepis' ),
+			'options' => array(
+				'unit' => 'seconds'
+			)
+		));
+	}
+	
+	public function player_listepis($hnmgbox){
+		$hnmgbox->add_field(array(
+			'name' => hnlang('Enable Find Episodes'),
+			'id' => 'haun_find_episodes',
+			'type' => 'switcher',
+			'default' => 'on',
+		));
+		$hnmgbox->add_field( array(
+			'id' => 'haun_episode_display',
+			'name' => hnlang('Select the style to display the episode list'),
+			'type' => 'image_selector',
+			'default' => 'show_list_eps',
+			'items' => array(
+				'show_list_eps'    	=> \Roots\asset('images/show_list_episode.png')->uri(),
+				'show_tab_eps'    	=> \Roots\asset('images/show_tab_episode.png')->uri(),
+				'show_paging_eps'   => \Roots\asset('images/show_list_paging.png')->uri(),
+			),
+			'options' => array(
+				'width' 	=> '300px',
+				'height' 	=> '200px'
+			),
+		));
+		$hnmgbox->add_field(
+			array(
+				'id'      => 'episode_pagination',
+				'name'    => hnlang('Episode pages show at most'),
+				'type'    => 'number',
+				'default' => 50,
+				'grid'    => '3-of-6',
+				'options' => array(
+					'unit' => 'Episodes',
+				),
+				'desc'    => hnlang('The number of episodes displayed on the page'),
+			)
+		);
+		$hnmgbox->add_field(array(
+			'id' => 'watch_btn_display',
+			'name' => hnlang('Watch Button'),
+			'type' => 'radio',
+			'default' => 'first_episode',
+			'items' => array(
+				'first_episode' => hnlang('First Episode'),
+				'last_episode' => hnlang('Last Episode'),
+			),
+			'options' => array(
+				'inline' => false,
+			),
+		));
+		$hnmgbox->add_field(array(
+			'name'   => hnlang('Episode order'),
+			'id'     => 'episode_display_mode',
+			'type'   => 'select',
+			'items'        => array(
+				'asc'      		=> 'ASC',
+				'desc'      	=> 'DESC',
+			),
+			'default'  => 'asc',
+			'grid' 		=> '3-of-6',
+		));
+	}
+	
+	public function player_optimization($hnmgbox){
+		$hnmgbox->add_field(array(
+			'name' => esc_html__( 'Auto config Yoast SEO', 'hnmgepis' ),
+			'id' => 'auto_config_yoast_seo',
+			'type' => 'switcher',
+			'default' => 'on',
+		));
+		$hnmgbox->add_field(array(
+			'name' => esc_html__( 'Display custom title on the info page (including episode, release, quality...)', 'hnmgepis' ),
+			'id' => 'display_custom_title',
+			'type' => 'switcher',
+			'default' => 'off',
+		));
+		$hnmgbox->add_field(array(
+			'name' => esc_html__( 'Remove the categories prefix', 'hnmgepis' ),
+			'id' => 'haun_remove_categories_prefix',
+			'type' => 'switcher',
+			'default' => 'on',
+			'desc' => esc_html__( 'Category URLs in WordPress contain a prefix, usually <strong>/category/</strong>, this feature removes that prefix, for categories only.', 'hnmgepis' ),
+		));
+		$hnmgbox->add_field(array(
+			'id'     	=> 'haun_episode_name',
+			'type'   	=> 'text',
+			'name'   	=> hnlang('Default Episode Name'),
+			'grid' 		=> '3-of-6',
+			'default'   => get_bloginfo('language') == 'vi-VN' ? 'tập' : 'episode',
+			'desc'      => 'Tập, EP, Episode (Show alternative if the episode name is not set, or set to integer)',
+		));
+		$hnmgbox->add_field(array(
+			'id'    	=> 'haun_title_info_page',
+			'type'  	=> 'text',
+			'name'  	=> __('SEO Title (Page movie info)', 'hnmgepis'),
+			'default' 	=> '{title} {quality}',
+			'desc'      => '<div style="padding: 5px 0;">' . __('Accept', 'hnmgepis') . ' <i class="hnmgbox-icon hnmgbox-icon-check"></i> : 
+				<b>{title}</b> 		= ' . __('Film Title', 'hnmgepis') . ', 
+				<b>{release}</b> 	= ' . __('Film Released', 'hnmgepis') . ', 
+				<b>{runtime}</b> 	= ' . __('Film Duration', 'hnmgepis') . ', 
+				<b>{quality}</b> 	= ' . __('Film Quality', 'hnmgepis') . ', 
+				<b>{org_title}</b> 	= ' . __('Original Title', 'hnmgepis') . ',
+				<b>{country}</b> 	= ' . __('Country', 'hnmgepis') . '</div>',
+		));
+		$hnmgbox->add_field(array(
+			'id'       	=> 'haun_title_watch_page',
+			'type'     	=> 'text',
+			'name'    	=> __('SEO title (Page watch movie)', 'hnmgepis'),
+			'default'   => 'Watch {title} {episode} {quality}',
+			'attributes' => array(
+				'placeholder' => 'Watch {title} {episode} {quality}',
+			),
+			'desc'      => '<div style="padding: 5px 0;">' . __('Accept', 'hnmgepis') . ' <i class="hnmgbox-icon hnmgbox-icon-check"></i> : 
+				<b>{title}</b> 		= ' . __('Film Title', 'hnmgepis') . ', 
+				<b>{episode}</b> 	= ' . __('Film Episode', 'hnmgepis') . ', 
+				<b>{quality}</b> 	= ' . __('Film Quality', 'hnmgepis') . ', 
+				<b>{release}</b> 	= ' . __('Film Released', 'hnmgepis') . ', 
+				<b>{runtime}</b> 	= ' . __('Film Duration', 'hnmgepis') . ', 
+				<b>{org_title}</b> 	= ' . __('Original Title', 'hnmgepis') . ',
+				<b>{country}</b> 	= ' . __('Country', 'hnmgepis') . '</div>',
+		));
+		$hnmgbox->add_field(array(
+			'id'       	=> 'hncore_url_type',
+			'type'     	=> 'text',
+			'name'    	=> __('URL Watch Page', 'hnmgepis'),
+			'default'   => '{home_url}/watch/{title}-ep-{episode}-sv{server}{html}',
+			'attributes' => array(
+				'placeholder' => '{home_url}/watch/{title}-ep-{episode}-sv{server}{html}',
+			),
+			'grid' 		=> '6-of-6',
+			'desc'      => '<div style="padding: 5px 0;">' . __('Accept', 'hnmgepis') . ' <i class="hnmgbox-icon hnmgbox-icon-check"></i> : 
+				<b>{home_url}</b> 	= ' . __('Home Url', 'hnmgepis') . ', 
+				<b>{html}</b> 		= ' . __('.html', 'hnmgepis') . ', 
+				<b>{title}</b> 		= ' . __('Film Title', 'hnmgepis') . ', 
+				<b>{episode}</b> 	= ' . __('Film Episode', 'hnmgepis') . ', 
+				<b>{server}</b> 	= ' . __('Film Server', 'hnmgepis') . ',
+				<b>{org_title}</b> 	= ' . __('Original Title', 'hnmgepis') . ',
+				<b>{country}</b> 	= ' . __('Country', 'hnmgepis') . '</div>',
+		));
+	}
+	
+	public function player_jwplayer($hnmgbox){
+		$hnmgbox->add_field(array(
+			'name' => esc_html__( 'Resume Playback', 'hnmgepis' ),
+			'id' => 'resume_playback',
+			'type' => 'switcher',
+			'default' => 'on',
+			'desc' => esc_html__( 'Use localStorage to remember where the user left off and resume playback at the same time offset when revisiting the page.', 'hnmgepis' ),
+		));
+		$hnmgbox->add_field(array(
+			'name' => __('Autostart', 'hnmgepis'),
+			'id' => 'jw_player_autoplay',
+			'type' => 'switcher',
+			'default' => 'on',
+		));
+		$hnmgbox->add_field(array(
+			'name' => __('Auto Pause Player', 'hnmgepis'),
+			'id' => 'jw_player_autopause',
+			'type' => 'switcher',
+			'default' => 'on',
+			'desc' => __('Automatically pauses the player based on certain rules', 'hnmgepis'),
+		));
+		$hnmgbox->add_field(array(
+			'id' => 'jw_player_share',
+			'name' => __('Share Button', 'hnmgepis'),
+			'type' => 'switcher',
+			'default' => 'on',
+		));
+		$hnmgbox->add_field(array(
+		  'id'      => 'player_error_detect',
+		  'type'    => 'radio',
+		  'name'   => esc_html__( 'JWPlayer Error Detect', 'hnmgepis' ),
+		  'class'   => 'horizontal',
+		  'items' => array(
+			'display_modal'    => esc_html__( 'Show Modal Popup', 'hnmgepis' ),
+			'autoload_server'   => esc_html__( 'Auto Play Alternative Server', 'hnmgepis' )
+		  ),
+		  'default'   => 'display_modal',
+		));
+		$hnmgbox->add_field(array(
+			'id' => 'jw_player_version',
+			'name' => __('License Version', 'hnmgepis'),
+			'type' => 'select',
+			'items' => array(
+				'jw_player_pro' => 'Pro (free)',
+				'jw_player_premium' => 'Premium',
+				'jw_player_ads' => 'Ads',
+			),
+			'default' => 'jw_player_pro',
+		));
+		$hnmgbox->add_field(array(
+			'name' => __('Jwplayer License key', 'hnmgepis'),
+			'id' => 'jw_player_license_key',
+			'type' => 'text',
+			'grid' => '3-of-8',
+			'default' => 'MBvrieqNdmVL4jV0x6LPJ0wKB/Nbz2Qq/lqm3g==',
+			'desc' => __('A license key is required for the Pro, Premium and Ads edition.', 'hnmgepis'),
+		));
+		$hnmgbox->add_field( array(
+			'id' => 'jw_player_logo',
+			'name' => __('Logo File', 'hnmgepis'),
+			'type' => 'file',
+			'options' => array(
+				'mime_types' => array( 'jpg', 'jpeg', 'png', 'gif', 'ico' ),
+				'preview_size' => array( 'width' => '200px','height' => '60px' ),
+				'multiple' => false,
+			),
+			'desc' => __('The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /assets/logo.png). We recommend using 24 bit PNG images with transparency', 'hnmgepis'),
+		));
+		$hnmgbox->add_field(array(
+			'id' => 'jw_player_logo_link',
+			'name' => __('Logo link', 'hnmgepis'),
+			'type' => 'text',
+			'grid' => '3-of-6',
+			'default' => home_url(),
+			'desc' => __('The URL to visit when the watermark image is clicked. Clicking a logo will have no affect unless this is configured', 'hnmgepis'),
+		));
+		$hnmgbox->add_field(array(
+			'name' => __('Auto hide logo', 'hnmgepis'),
+			'id' => 'jw_player_logo_hide',
+			'type' => 'switcher',
+			'default' => 'on',
+		));
+		$hnmgbox->add_field(array(
+			'name' => __('Logo Position', 'hnmgepis'),
+			'id' => 'jw_player_logo_position',
+			'type' => 'select',
+			'default' => 'top-left',
+			'items' => array(
+				'top-left'     => __('Top left', 'hnmgepis'),
+				'top-right'    => __('Top right', 'hnmgepis'),
+				'bottom-left'  => __('Bottom left', 'hnmgepis'),
+				'bottom-right' => __('Bottom right', 'hnmgepis'),
+				'control-bar'  => __('Control bar', 'hnmgepis')
+			),
+			'desc' => __('This sets the corner in which to display the watermark. "control-bar" adds the logo as the leftmost icon in the right grouping of buttons in the control bar.', 'hnmgepis'),
+		));
+		$hnmgbox->add_field( array(
+			'id' => 'jw_player_poster_image',
+			'name' => __('Default poster image', 'hnmgepis'),
+			'type' => 'file',
+			'options' => array(
+				'mime_types' => array( 'jpg', 'jpeg', 'png', 'gif', 'ico' ),
+				'preview_size' => array( 'width' => '200px','height' => '200px' ),
+				'multiple' => false,
+			),
+		));
+		$hnmgbox->add_field( array(
+			'id' => 'jw_player_default_subtitle',
+			'name' => __('Upload Subtitle', 'hnmgepis'),
+			'type' => 'file',
+			'options' => array(
+				'mime_types' => array('srt', 'vtt' ),
+				'preview_size' => array( 'width' => '200px','height' => '60px' ),
+				'multiple' => false,
+			),
+			'desc' => __('Add the url of the file subtitle.srt, .vtt or using the Upload button.', 'hnmgepis'),
+		));
+		$hnmgbox->add_field(array(
+			'name' => __('Select a method to read subtitles', 'hnmgepis'),
+			'id' => 'jw_player_subtitle_method',
+			'type' => 'select',
+			'default' => 'direct_link',
+			'items' => array(
+				'direct_link'  => __('Direct link', 'hnmgepis'),
+				'readsub_php'  => __('Use readsub.php', 'hnmgepis')
+			),
+		));
+		$hnmgbox->add_field(array(
+			'id' => 'jw_tracks_color',
+			'name' => __('Subtitle color', 'hnmgepis'),
+			'type' => 'colorpicker',
+			'default' => '#fff',
+			'grid' => '2-of-8'
+		));
+		$hnmgbox->add_field(array(
+			'id' => 'jw_tracks_font_size',
+			'name' => __('Subtitle font size', 'hnmgepis'),
+			'type' => 'number',
+			'default' => 14,
+			'grid' => '2-of-8',
+			'options' => array(
+				'unit' => 'em'
+			),
+		));
+		$hnmgbox->add_field(array(
+			'id' => 'jw_player_about_text',
+			'name' => __('About text', 'hnmgepis'),
+			'type' => 'text',
+			'grid' => '3-of-6',
+			'desc' => __('Custom text to display in the right-click menu. Can only be set for the Premium and Ads Editions', 'hnmgepis'),
+		));
+		$hnmgbox->add_field(array(
+			'id' => 'jw_player_about_link',
+			'name' => __('About link', 'hnmgepis'),
+			'type' => 'text',
+			'grid' => '3-of-6',
+			'desc' => __('Custom URL to link to when clicking the right-click menu. Can only be set for the Premium and Ads Editions', 'hnmgepis'),
+		));
+	}
+
+	public function player_advertising($hnmgbox){
+		$hnmgbox->add_field(array(
+							'name' => esc_html__('Show Ads Vast', 'hnmgepis'),
+							'id' => 'jw_player_show_ad',
+							'type' => 'switcher',
+							'default' => 'on',
+						));
+						$hnmgbox->add_field(array(
+							'name' => esc_html__('Enable Ads For Embed', 'hnmgepis'),
+							'id' => 'jw_show_embed_ads',
+							'type' => 'switcher',
+							'default' => 'on',
+							'desc' => __('If This Option is Enabled, Ads Will Display in Embed Links', 'hnmgepis'),
+						));
+						$hnmgbox->add_field(array(
+							'id' => 'jw_player_custom_ads_code',
+							'name' => __('Ads code', 'hnmgepis'),
+							'type' => 'code_editor',
+							'options' => array(
+								'language' => 'php',
+								'theme' => 'tomorrow_night',
+								'height' => '240px',
+							),
+							'default' => '
+	"advertising": {
+		"tag": "'.get_template_directory_uri().'/vast-ad.xml",
+		"client": "vast",
+		"vpaidmode": "insecure",
+		"preloadAds": true,
+		"admessage": "Quảng cáo còn XX giây.",
+		"skipoffset": 5,
+		"skiptext": "Bỏ qua quảng cáo",
+		"skipmessage": "Bỏ qua sau xxs",
+	}',
+						));
+	}
+
+	public function player_adult($hnmgbox){
+		$hnmgbox->add_field(array(
+			'id'       	=> 'adult_content_title',
+			'type'     	=> 'text',
+			'name'    	=> __('Title Adult', 'hnmgepis'),
+			'default'   => 'Adult Content Warning',
+			'attributes' => array(
+				'placeholder' => 'Adult Content Warning!',
+			)
+		));
+		$hnmgbox->add_field(array(
+			'id'       	=> 'adult_content_info_text',
+			'type'     	=> 'wp_editor',
+			'name'    	=> __('Adult Content Info', 'hnmgepis'),
+			'default'   => 'This site contains content intended for individuals 18/21 years of age or older as determined by the local and national laws of the region in which you reside. If you are not yet 18+, leave this website immediately. By entering this website, you agree that you are at least 18 years of age or older. You will not redistribute this material to anyone, nor will you permit any minor to view this material.',
+		));
+	}
+
+}
+
+?>

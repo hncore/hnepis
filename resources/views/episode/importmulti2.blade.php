@@ -5,7 +5,7 @@
     </div>
 	<div class="p-4 bg-white rounded-b-lg">
 		<div class="import-multi-episode">
-			<p style="font-weight: 700;color: #ff6a00;font-size: 17px;">@hnepis('Latest Episode'): {!! $load->hnmg_last_episode($postID, $meta) !!}</p>
+			<p style="font-weight: 700;color: #ff6a00;font-size: 17px;">@hnepis('Latest Episode'): {!! $hnmg_last_episode($postID, $metaPost) !!}</p>
 			<div class="bg-slate-100 my-4 p-3">
 				<div class="mb-1">@hnepis('Only main episode link')</div>
 				<div class="bg-white text-red-600 p-2 mb-2">@hnepis('Episode') 13x|https://drive.google.com/file/d/1ATilCtX62rLXwpo7Gm7h2ba6wiGjbL3I/view?usp=sharing|link</div>
@@ -22,7 +22,7 @@
 			
 			<div class="my-2">
 				<div class="mr-2 font-semibold my-2 text-sm">@hnepis('Choose Server'):</div>
-				<select name="serverListsTwo" id="serverListsTwo" class="rounded-full pl-4 pr-8  border border-slate-200 font-semibold text-xs" data-postid="{{ $postID }}">
+				<select name="serverListsTwo" id="serverListsTwo" @change="handleServerChange" class="rounded-full pl-4 pr-8  border border-slate-200 font-semibold text-xs" data-postid="{{ $postID }}">
 					@foreach ($data as $key => $val)
 						<option value="{{ $key }}">{{ $val['haunmovies_server_name'] }}</option>
 					@endforeach
@@ -33,12 +33,12 @@
 					@hnepis('Episode name') <span class="text-red-700 font-bold">|</span>
 					@hnepis('Episode URL') <span class="text-red-700 font-bold">|</span>
 					@hnepis('Type') (@hnepis('Episode Type Support List'): 
-					<span style="color: #4d5bff; font-weight: bold; font-family: inherit;">{{ $load->getPlayerTypesAsText() }} link, mp4, embed</span>)
+					<span style="color: #4d5bff; font-weight: bold; font-family: inherit;">{{ $getPlayerTypesAsText() }} link, mp4, embed</span>)
 				</div>
 				<textarea id="import-multi-epitwo" rows="15" class="rounded-none border-solid p-2 mb-5 w-full border-slate-200"></textarea>
 			</div>
 
-			<div onClick="HNImporterTwo()" id="importtwo" data-postid="{{ $postID }}" class="relative inline-flex items-center px-4 hover:bg-sky-700 py-2 text-sm leading-5 rounded-full font-semibold text-white mb-5 cursor-pointer from-cyan-500 via-sky-500 to-blue-500 bg-gradient-to-r inline-block">
+			<div @click="hnimportertwo({{ $postID }})" id="importtwo" class="relative inline-flex items-center px-4 hover:bg-sky-700 py-2 text-sm leading-5 rounded-full font-semibold text-white mb-5 cursor-pointer from-cyan-500 via-sky-500 to-blue-500 bg-gradient-to-r inline-block">
 				@hnepis('Import Episode')
 				<div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900">2</div>
 			</div>

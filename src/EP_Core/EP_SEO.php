@@ -1,8 +1,123 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\EP_Core; class EP_AutoIMG { public function __construct() { goto WIFEZ; y9lyO: $this->initialize_hooks(); goto gJgQK; gJgQK: hNVCi: goto ryD54; WIFEZ: if (!$this->is_metabox_options_set()) { goto hNVCi; } goto y9lyO; ryD54: } private function is_metabox_options_set() { return isset($_POST["\137\150\x61\165\156\x5f\155\145\x74\x61\x62\x6f\x78\x5f\x6f\160\164\x69\x6f\156\163"]) || isset($_POST["\137\166\151\x64\x65\157\x73\137\155\145\x74\x61\142\157\x78\137\x6f\160\164\151\157\x6e\163"]) || isset($_POST["\137\156\x65\167\163\137\x6d\x65\x74\141\142\157\170\x5f\157\160\164\151\x6f\x6e\x73"]); } private function initialize_hooks() { goto M0T7W; XmeYv: add_filter("\x63\157\156\164\145\x6e\164\137\163\141\x76\x65\x5f\160\x72\x65", [$this, "\x68\141\165\156\137\x70\157\x73\x74\137\163\141\x76\145\137\151\155\141\x67\x65\163"]); goto tL9u3; DzF8T: if (!(!empty($meta_options["\163\141\x76\145\137\x70\x6f\x73\x74\x65\162\x5f\151\x6d\x61\x67\145"]) || !empty($meta_options["\x73\x65\164\137\162\145\141\x74\165\162\145\x64\137\151\x6d\x61\x67\145"]) || !empty($video_meta["\163\x65\x74\x5f\x61\x73\137\146\145\141\164\x75\x72\145\x64\137\151\155\141\147\x65"]))) { goto l9Eli; } goto YA9ba; Ni5R9: $news_meta = $_POST["\x5f\x6e\x65\x77\163\137\x6d\145\164\141\x62\x6f\x78\x5f\x6f\160\164\151\x6f\156\x73"] ?? ''; goto q0u4K; q0u4K: $video_meta = $_POST["\137\x76\151\x64\145\x6f\163\x5f\x6d\x65\x74\x61\142\157\x78\x5f\157\160\164\151\x6f\156\x73"] ?? ''; goto FfC1d; tL9u3: KuGw8: goto DzF8T; M0T7W: $meta_options = $_POST["\x5f\x68\x61\165\156\x5f\x6d\x65\x74\141\142\x6f\170\137\157\160\x74\151\x6f\156\x73"] ?? ''; goto Ni5R9; B26pT: l9Eli: goto mq4w1; YA9ba: add_action("\163\x61\x76\x65\x5f\160\x6f\163\164", [$this, "\x48\x4e\107\145\x6e\145\x72\141\164\x65\x5f\x50\x6f\x73\164\x65\x72\137\x49\x6d\141\147\x65"]); goto B26pT; FfC1d: if (!(!empty($meta_options["\x73\141\166\x65\x5f\x61\154\x6c\x5f\x69\x6d\147"]) || !empty($news_meta["\163\x61\166\x65\x5f\x61\x6c\154\x5f\151\x6d\x67"]))) { goto KuGw8; } goto XmeYv; mq4w1: } public function HNGenerate_Poster_Image($post_id) { goto Qwory; ktIfk: $this->process_post_thumbnail($post_id); goto eTYpg; Nv37y: goto yIsEU; goto FAcsz; Df0iQ: TxE5e: goto rDoJ7; rDoJ7: $this->process_video_thumbnail($post_id, $_POST["\x5f\x76\151\x64\145\x6f\x73\137\155\x65\164\141\142\157\170\x5f\x6f\x70\164\151\157\156\x73"] ?? ''); goto Nv37y; Qwory: global $post; goto xsdZj; FAcsz: ZfBTz: goto ktIfk; xsdZj: if ($post->post_type === "\166\x69\144\x65\x6f") { goto TxE5e; } goto xdnJL; xdnJL: if ($post->post_type === "\x70\x6f\163\x74") { goto ZfBTz; } goto s9ygq; eTYpg: yIsEU: goto IKYJC; s9ygq: goto yIsEU; goto Df0iQ; IKYJC: } private function process_video_thumbnail($post_id, $video_meta) { goto ErXWZ; k4lGZ: $this->haun_save_images($image_url, $post_id, $_POST["\160\157\163\164\x5f\164\x69\164\154\145"] ?? '', true); goto yoWkN; QqzMb: if (!($set_feature && !has_post_thumbnail($post_id))) { goto bOsQu; } goto k4lGZ; yoWkN: bOsQu: goto sN4_O; ErXWZ: $image_url = $video_meta["\x76\x69\x64\x65\157\x5f\164\150\165\155\x62\x6e\x61\151\154\x5f\x75\162\154"] ?? ''; goto ojSVl; ojSVl: $set_feature = $video_meta["\163\145\164\137\141\163\x5f\x66\x65\141\x74\x75\162\x65\144\137\x69\x6d\141\x67\145"] ?? ''; goto QqzMb; sN4_O: } private function process_post_thumbnail($post_id) { goto E13Yw; VZXQx: $meta["\x68\141\x75\156\x5f\164\x68\x75\x6d\142\x5f\x75\x72\154"] = get_the_post_thumbnail_url($post_id, "\x6d\157\x76\x69\x65\55\x74\x68\165\155\142") ?: $thumb_url; goto yUMkL; JfeoE: $save_poster = $meta["\x73\x61\x76\x65\x5f\160\x6f\x73\x74\145\162\x5f\x69\155\x61\147\145"] ?? ''; goto m54Aw; zIF1X: $poster_image_url = $poster_url; goto RgJt5; BEYWW: $poster_image_url = $this->haun_save_images($poster_url, $post_id, $_POST["\160\x6f\163\x74\137\x74\x69\164\154\x65"] ?? ''); goto qZKnF; qZKnF: NEa8P: goto VZXQx; mHJj7: $poster_url = $check_meta["\150\x61\x75\x6e\137\x70\x6f\163\x74\x65\x72\x5f\165\162\154"] ?? $meta["\x68\141\165\x6e\137\x70\157\163\x74\x65\x72\x5f\x75\x72\154"] ?? ''; goto EEuPc; RKBAB: $meta["\x73\141\x76\x65\137\160\157\163\x74\x65\162\x5f\x69\x6d\141\147\x65"] = ''; goto xTzc5; Czfrl: vD2ZT: goto uXAbI; m54Aw: if (!($set_feature && $thumb_url && !has_post_thumbnail($post_id))) { goto vD2ZT; } goto p1fhA; RqmwG: $thumb_url = $check_meta["\x68\141\x75\156\x5f\164\x68\165\x6d\x62\137\x75\162\154"] ?? $meta["\x68\x61\165\156\x5f\x74\x68\165\x6d\142\x5f\165\162\x6c"] ?? ''; goto mHJj7; E13Yw: $meta = get_post_meta($post_id, HNMG_META, true); goto AU3YS; p1fhA: $this->haun_save_images($thumb_url, $post_id, $_POST["\x70\157\163\x74\x5f\x74\151\x74\x6c\145"] ?? '', true); goto Czfrl; AU3YS: $check_meta = $_POST["\x5f\x68\141\x75\156\137\x6d\145\x74\x61\x62\x6f\x78\137\x6f\160\164\x69\157\x6e\x73"] ?? ''; goto RqmwG; jj75r: update_post_meta($post_id, HNMG_META, $meta); goto wx6Km; RgJt5: goto NEa8P; goto v51tX; v51tX: Ick6K: goto BEYWW; xTzc5: $meta["\x73\x65\x74\137\162\x65\x61\x74\165\162\145\x64\x5f\151\x6d\x61\147\x65"] = ''; goto jj75r; uXAbI: if ($save_poster && $poster_url) { goto Ick6K; } goto zIF1X; yUMkL: $meta["\x68\141\x75\156\137\x70\157\163\x74\x65\162\137\165\162\x6c"] = $poster_image_url; goto RKBAB; EEuPc: $set_feature = $meta["\x73\145\164\137\x72\145\x61\164\165\162\x65\x64\137\x69\155\141\147\145"] ?? ''; goto JfeoE; wx6Km: } public function haun_post_save_images($content) { goto DY43Y; o6qN4: set_time_limit(500); goto s2iyw; dD8Df: foreach ($matches[1] as $image_url) { goto CTjEC; SgLqt: $res = $this->haun_save_images($image_url, $post_id, $post_title); goto WScU0; WScU0: $content = str_replace($image_url, $res["\165\x72\x6c"], $content); goto ML8YD; CTjEC: if (!($image_url && strpos($image_url, $_SERVER["\x48\124\x54\120\137\x48\x4f\x53\x54"]) === false)) { goto DTfTr; } goto SgLqt; yCKuH: f00vF: goto jpqUY; ML8YD: DTfTr: goto yCKuH; jpqUY: } goto NaamB; ouG_y: $post_title = $_POST["\x70\157\x73\164\x5f\x74\x69\164\154\x65"] ?? ''; goto L_y2e; Wx82U: remove_filter("\x63\157\x6e\164\145\156\x74\137\x73\x61\166\x65\x5f\160\x72\145", [$this, "\x68\x61\165\156\137\160\x6f\163\164\x5f\x73\141\166\145\137\x69\155\x61\147\x65\x73"]); goto eozI9; L_y2e: preg_match_all("\57\74\x69\x6d\147\56\x2a\77\163\x72\x63\75\x22\50\56\52\77\x29\x22\x2f", stripslashes($content), $matches); goto dD8Df; DY43Y: if (!(isset($_POST["\x73\x61\x76\x65"]) || isset($_POST["\160\x75\x62\x6c\151\163\x68"]))) { goto J9H1B; } goto o6qN4; s2iyw: $post_id = get_the_ID(); goto ouG_y; eozI9: return $content; goto e7pIh; FYPqV: J9H1B: goto Wx82U; NaamB: BdwyI: goto FYPqV; e7pIh: } public function haun_save_images($image_url, $post_id, $post_title, $set_thumb = false) { goto Mi8ol; B6xPd: $res = wp_upload_bits($im_name, '', $file); goto aXkEh; OWwH2: $this->haun_insert_attachment($res["\x66\151\154\145"], $post_id, $set_thumb); goto whnSe; aXkEh: if ($res["\x65\162\x72\x6f\x72"]) { goto vExMl; } goto OWwH2; Mi8ol: $file = file_get_contents($image_url); goto AAstU; AAstU: $im_name = sanitize_title($post_title) . "\x2d{$post_id}\56\152\160\147"; goto B6xPd; cRE4M: return $res; goto BL84C; whnSe: vExMl: goto cRE4M; BL84C: } public function haun_insert_attachment($file, $post_id, $set_thumb) { goto ogQyz; ogQyz: $filetype = wp_check_filetype($file); goto obz15; jXCzZ: wp_update_attachment_metadata($attach_id, wp_generate_attachment_metadata($attach_id, $file)); goto SBQWL; obz15: $attachment = ["\x67\165\x69\144" => wp_get_upload_dir()["\x75\162\154"] . "\x2f" . _wp_relative_upload_path($file), "\x70\157\163\x74\x5f\x6d\151\x6d\x65\x5f\x74\171\x70\145" => $filetype["\x74\x79\160\x65"], "\x70\157\163\164\137\164\151\x74\x6c\x65" => preg_replace("\x2f\134\56\133\x5e\x2e\135\53\44\57", '', basename($file)), "\160\x6f\x73\x74\137\x63\x6f\x6e\x74\x65\x6e\x74" => '', "\160\157\163\x74\137\163\x74\x61\x74\165\x73" => "\151\156\150\x65\162\x69\x74"]; goto cqPyd; HSvQ2: set_post_thumbnail($post_id, $attach_id); goto ml4QU; ml4QU: MBlJs: goto JM0G0; cqPyd: $attach_id = wp_insert_attachment($attachment, $file, $post_id); goto jXCzZ; JM0G0: return $attach_id; goto QOhsc; SBQWL: if (!$set_thumb) { goto MBlJs; } goto HSvQ2; QOhsc: } }
+
+namespace HNMG\EP_Core;
+
+class EP_AutoIMG {
+
+    public function __construct(){
+        if ($this->is_metabox_options_set()) {
+            $this->initialize_hooks();
+        }
+    }
+
+    private function is_metabox_options_set() {
+        return isset($_POST['_haun_metabox_options']) || isset($_POST['_videos_metabox_options']) || isset($_POST['_news_metabox_options']);
+    }
+
+    private function initialize_hooks() {
+        $meta_options = $_POST['_haun_metabox_options'] ?? '';
+        $news_meta = $_POST['_news_metabox_options'] ?? '';
+        $video_meta = $_POST['_videos_metabox_options'] ?? '';
+
+        if (!empty($meta_options['save_all_img']) || !empty($news_meta['save_all_img'])) {
+            add_filter('content_save_pre', [$this, 'haun_post_save_images']);
+        }
+
+        if (!empty($meta_options['save_poster_image']) || !empty($meta_options['set_reatured_image']) || !empty($video_meta['set_as_featured_image'])) {
+            add_action('save_post', [$this, 'HNGenerate_Poster_Image']);
+        }
+    }
+
+    public function HNGenerate_Poster_Image($post_id) {
+        global $post;
+        
+        if ($post->post_type === 'video') {
+            $this->process_video_thumbnail($post_id, $_POST['_videos_metabox_options'] ?? '');
+        } elseif ($post->post_type === 'post') {
+            $this->process_post_thumbnail($post_id);
+        }
+    }
+
+    private function process_video_thumbnail($post_id, $video_meta) {
+        $image_url = $video_meta['video_thumbnail_url'] ?? '';
+        $set_feature = $video_meta['set_as_featured_image'] ?? '';
+
+        if ($set_feature && !has_post_thumbnail($post_id)) {
+            $this->haun_save_images($image_url, $post_id, $_POST['post_title'] ?? '', true);
+        }
+    }
+
+    private function process_post_thumbnail($post_id) {
+        $meta = get_post_meta($post_id, HNMG_META, true);
+        $check_meta = $_POST['_haun_metabox_options'] ?? '';
+
+        $thumb_url = $check_meta['haun_thumb_url'] ?? ($meta['haun_thumb_url'] ?? '');
+        $poster_url = $check_meta['haun_poster_url'] ?? ($meta['haun_poster_url'] ?? '');
+        $set_feature = $meta['set_reatured_image'] ?? '';
+        $save_poster = $meta['save_poster_image'] ?? '';
+        
+        if ($set_feature && $thumb_url && !has_post_thumbnail($post_id)) {
+            $this->haun_save_images($thumb_url, $post_id, $_POST['post_title'] ?? '', true);
+        }
+
+        if ($save_poster && $poster_url) {
+            $poster_image_url = $this->haun_save_images($poster_url, $post_id, $_POST['post_title'] ?? '');
+        } else {
+            $poster_image_url = $poster_url;
+        }
+
+        $meta['haun_thumb_url'] = get_the_post_thumbnail_url($post_id, 'movie-thumb') ?: $thumb_url;
+        $meta['haun_poster_url'] = $poster_image_url;
+        $meta['save_poster_image'] = '';
+        $meta['set_reatured_image'] = '';
+        update_post_meta($post_id, HNMG_META, $meta);
+    }
+
+    public function haun_post_save_images($content) {
+        if (isset($_POST['save']) || isset($_POST['publish'])) {
+            set_time_limit(500);
+            $post_id = get_the_ID();
+            $post_title = $_POST['post_title'] ?? '';
+            preg_match_all('/<img.*?src="(.*?)"/', stripslashes($content), $matches);
+            
+            foreach ($matches[1] as $image_url) {
+                if ($image_url && strpos($image_url, $_SERVER['HTTP_HOST']) === false) {
+                    $res = $this->haun_save_images($image_url, $post_id, $post_title);
+                    $content = str_replace($image_url, $res['url'], $content);
+                }
+            }
+        }
+        remove_filter('content_save_pre', [$this, 'haun_post_save_images']);
+        return $content;
+    }
+
+    public function haun_save_images($image_url, $post_id, $post_title, $set_thumb = false) {
+        $file = file_get_contents($image_url);
+        $im_name = sanitize_title($post_title) . "-$post_id.jpg";
+        $res = wp_upload_bits($im_name, '', $file);
+        
+        if (!$res['error']) {
+            $this->haun_insert_attachment($res['file'], $post_id, $set_thumb);
+        }
+        return $res;
+    }
+
+    public function haun_insert_attachment($file, $post_id, $set_thumb) {
+        $filetype = wp_check_filetype($file);
+        $attachment = [
+            'guid' => wp_get_upload_dir()['url'] . '/' . _wp_relative_upload_path($file),
+            'post_mime_type' => $filetype['type'],
+            'post_title' => preg_replace('/\.[^.]+$/', '', basename($file)),
+            'post_content' => '',
+            'post_status' => 'inherit'
+        ];
+
+        $attach_id = wp_insert_attachment($attachment, $file, $post_id);
+        wp_update_attachment_metadata($attach_id, wp_generate_attachment_metadata($attach_id, $file));
+
+        if ($set_thumb) {
+            set_post_thumbnail($post_id, $attach_id);
+        }
+        return $attach_id;
+    }
+}

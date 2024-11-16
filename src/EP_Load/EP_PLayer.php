@@ -1,8 +1,368 @@
-<?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\EP_Load; use function Roots\view; use HNMG\EP_Load\EP_Cache; use HNMG\EP_Load\EP_Getlink; use HNMG\EP_Load\EP_Helper; class EP_PLayer { public $cache; public $getlink; public function __construct() { goto SfrjF; YM5QG: add_shortcode("\x68\x61\x75\x6e\x5f\x64\145\164\145\x63\164\x5f\163\x65\x72\166\x65\162", [$this, "\150\141\x75\156\137\x64\x65\x74\145\x63\x74\137\163\145\162\166\x65\x72"], 10, 0); goto Ts_AP; qLOuD: $this->getlink = new EP_Getlink(); goto BHNjI; BHNjI: add_shortcode("\x68\x61\x75\x6e\120\x6c\x61\x79\145\x72", [$this, "\x68\141\x75\x6e\x42\165\151\154\144\x50\x6c\141\x79\145\x72\x53\x68\157\x74\x63\157\144\145"]); goto YM5QG; SfrjF: $this->cache = new EP_Cache(); goto qLOuD; Ts_AP: } public function haun_detect_server($link, $post_id) { goto SFYI6; tSZzU: $dataplayer = $this->getlink->host->get_link($this->getlink->_url); goto G9Cxl; Gjygi: if (hnmg_value("\160\154\141\171\x65\x72\x5f\x63\141\143\150\x65")) { goto Seg3N; } goto tSZzU; KlN1j: if ($doccahe) { goto PTPgy; } goto KkdN2; ZVIVr: $this->cache->saveCache($link, json_encode($dataplayer)); goto a8m1v; KOLaf: return apply_filters("\x68\141\x75\156\x5f\160\154\141\171\145\x72\x5f\163\157\165\x72\x63\x65\163", (object) ["\x70\x6f\x73\x74\x5f\151\x64" => $post_id, "\x73\157\x75\162\x63\x65\x73" => $dataplayer, "\x6c\151\x6e\x6b" => $this->getlink->_url]); goto tmA4x; KkdN2: $dataplayer = $this->getlink->host->get_link($this->getlink->_url); goto ZVIVr; EiY8e: $this->getlink->init($link); goto Gjygi; SFYI6: $this->cache->timeCache = hnmg_value("\x70\154\141\x79\145\x72\137\x63\141\143\150\x65\x5f\164\151\x6d\145"); goto EiY8e; icZW7: UZOis: goto KOLaf; G9Cxl: goto UZOis; goto LZGT2; JfT6J: pGA0I: goto icZW7; a8m1v: goto pGA0I; goto dtC74; dtC74: PTPgy: goto Hvb0C; mg8nu: $doccahe = $this->cache->readCache($link); goto KlN1j; Hvb0C: $dataplayer = json_decode($doccahe); goto JfT6J; LZGT2: Seg3N: goto mg8nu; tmA4x: } public function haun_detect_embed($args) { goto F7wOx; K0qUA: nhljB: goto Uh1FX; JY5nb: if (strpos($args["\x6c\151\156\x6b"], "\x64\162\151\166\145")) { goto D1vJz; } goto HZx0N; lBGRI: goto Vtzrg; goto hzwB1; p1CHr: $haun_embed_url = apply_filters("\x68\x61\165\x6e\x5f\145\x6d\x62\145\144\137\165\x72\x6c", (object) ["\x70\x6f\163\x74\x5f\151\144" => $args["\x70\157\163\x74\137\x69\x64"], "\x6c\151\x6e\153" => $detectembed, "\x73\x75\x62\x74\151\x74\x6c\145" => $args["\x73\x75\x62\x74\x69\164\x6c\145"], "\x73\165\142\154\141\142\x65\154" => $args["\163\165\x62\x6c\141\x62\145\154"], "\143\165\163\164\157\x6d\137\x76\x61\x72" => @$args["\x63\x75\163\164\157\x6d\137\x76\x61\x72"]]); goto Smw2e; C0QqU: $detectembed = "\x2f\x2f\167\167\x77\56\x64\x61\151\154\x79\x6d\157\x74\151\x6f\156\56\143\157\155\x2f\145\x6d\142\145\144\x2f\166\x69\x64\x65\157\x2f" . $id; goto AZ4Ez; P3W95: $id = EP_Helper::getDailyMotionId($args["\154\151\x6e\x6b"]); goto C0QqU; ssMnc: if (strpos($args["\x6c\151\156\153"], "\x76\x69\155\145\x6f")) { goto qPl83; } goto CwZ7i; EWP3P: ts9N5: goto p1CHr; JL2Pz: EEKB7: goto tQ3i1; tQ3i1: $id = EP_Helper::getYoutubeId($args["\154\151\x6e\153"]); goto rXW6j; LGHsF: s2yi2: goto gylot; dfQD4: $detectembed = str_replace("\166\x69\x65\167", "\x70\x72\145\x76\151\145\167", $args["\x6c\x69\x6e\x6b"]); goto FeHRL; gylot: goto ODTiy; goto LGgbM; bMep_: if (strpos($args["\x6c\x69\x6e\x6b"], "\x79\157\x75\164\165\x62\145")) { goto EEKB7; } goto ccwvO; Y8isZ: echo apply_filters("\x68\x61\165\x6e\137\x65\155\x62\145\144\137\x70\x6c\141\x79\x65\162", $this->load_embed($linkembed)); goto xu81A; KimrY: qPl83: goto yR2Bq; rXW6j: $detectembed = "\x2f\57\x77\x77\x77\x2e\x79\x6f\x75\164\x75\x62\x65\56\143\157\x6d\57\145\155\142\x65\x64\57" . $id; goto HH34D; oLXXb: $detectembed = str_replace("\x76\x69\144\x65\157", "\166\x69\144\x65\x6f\x65\155\x62\145\x64", $args["\x6c\x69\x6e\153"]); goto K0qUA; V_t7H: R2N2j: goto oLXXb; HZx0N: if (strpos($args["\x6c\x69\156\x6b"], "\144\141\151\x6c\171\x6d\157\x74\x69\x6f\156")) { goto L5wYf; } goto ssMnc; AZ4Ez: ODTiy: goto lBGRI; Smw2e: $linkembed = has_filter("\x68\141\165\x6e\137\x65\x6d\142\145\144\x5f\x75\162\154") ? $haun_embed_url : $haun_embed_url->link; goto Y8isZ; FeHRL: Vtzrg: goto J40UM; LGgbM: L5wYf: goto P3W95; hzwB1: D1vJz: goto dfQD4; CwZ7i: if (strpos($args["\154\151\156\x6b"], "\157\153\x2e\162\x75\57\166\151\144\145\x6f\57")) { goto R2N2j; } goto GiGcF; Um60U: I3hHu: goto u4klM; u4klM: $detectembed = $args["\154\151\156\153"]; goto EWP3P; Uh1FX: goto s2yi2; goto KimrY; J40UM: goto ts9N5; goto JL2Pz; lQ_sA: goto nhljB; goto V_t7H; HH34D: goto ts9N5; goto Um60U; ccwvO: if (strpos($args["\154\151\x6e\x6b"], "\56\x6d\x33\165\x38") === FALSE) { goto I3hHu; } goto JY5nb; WnVqr: $detectembed = "\x2f\57\160\154\x61\171\145\x72\x2e\166\151\x6d\145\157\56\143\157\x6d\57\166\x69\x64\145\x6f\57" . $id; goto LGHsF; GiGcF: $detectembed = $args["\154\x69\x6e\153"]; goto lQ_sA; F7wOx: $detectembed = ''; goto bMep_; yR2Bq: $id = EP_Helper::getVimeoId($args["\x6c\x69\156\x6b"]); goto WnVqr; xu81A: } public function load_embed($linkembed) { goto qVapW; ipZh2: tqdOw: goto jFtqn; qVapW: if (hnmg_value("\x6a\x77\x5f\160\x6c\141\171\145\x72\137\x73\x68\157\x77\x5f\141\x64") && hnmg_value("\152\x77\x5f\x73\x68\x6f\x77\137\145\155\142\x65\144\137\x61\144\x73")) { goto tqdOw; } goto xRGCN; faeQq: goto z969V; goto ipZh2; xRGCN: $haun_embed_player = "\x3c\144\151\x76\40\x63\x6c\x61\x73\163\x3d\x22\162\x65\154\x61\x74\151\x76\x65\40\167\x2d\146\x75\x6c\x6c\40\150\x2d\x30\x20\x70\142\55\133\65\x36\56\x32\65\x25\135\42\76\12\11\11\x9\11\74\x69\146\x72\141\x6d\145\40\x63\154\141\x73\x73\x3d\42\141\142\163\157\154\165\164\145\40\x74\x6f\160\55\60\42\40\x73\x72\x63\x3d\x22" . $linkembed . "\x22\40\163\143\x72\x6f\x6c\x6c\x69\x6e\147\x3d\x22\156\x6f\42\40\146\x72\141\x6d\x65\142\157\162\144\145\162\x3d\x22\60\42\40\167\151\x64\164\x68\x3d\x22\61\60\60\45\42\x20\150\145\x69\147\x68\x74\75\42\61\60\x30\45\42\x20\x61\154\x6c\157\x77\146\x75\x6c\x6c\163\143\162\145\x65\x6e\x3d\x22\164\162\165\x65\42\40\167\x65\x62\x6b\x69\x74\x61\x6c\154\157\167\x66\165\154\x6c\163\143\x72\x65\x65\156\75\x22\x74\162\165\x65\x22\x20\x6d\x6f\x7a\141\154\x6c\x6f\167\146\165\154\154\163\x63\x72\x65\145\x6e\x3d\42\164\162\165\145\42\40\141\154\154\x6f\167\75\42\x61\165\x74\x6f\x70\x6c\141\x79\42\76\74\x2f\x69\x66\x72\x61\155\145\x3e\xa\11\x9\11\x3c\x2f\144\x69\166\x3e"; goto faeQq; jFtqn: $haun_embed_player = "\x3c\x64\151\x76\40\151\144\75\42\150\x61\x75\x6e\55\145\x6d\x62\145\144\x22\40\x63\x6c\141\163\x73\75\42\162\x65\x6c\x61\x74\x69\x76\145\40\167\55\x66\x75\154\154\x20\x68\55\60\x20\x70\x62\x2d\133\65\x36\x2e\62\x35\x25\135\42\x20\x73\164\x79\154\145\75\x22\x64\x69\x73\x70\x6c\141\171\72\40\156\x6f\156\x65\73\x22\76\12\x9\11\x9\11\74\151\x66\x72\141\155\145\40\143\154\x61\163\x73\x3d\42\141\142\163\x6f\154\x75\164\x65\x20\164\x6f\x70\55\x30\x22\x20\163\143\162\x6f\154\x6c\151\x6e\147\75\42\x6e\x6f\x22\x20\146\162\141\155\x65\142\x6f\162\144\x65\162\x3d\42\60\x22\40\x77\x69\144\164\150\x3d\x22\x31\x30\60\45\42\x20\150\145\151\147\x68\164\x3d\42\x31\x30\60\x25\x22\x20\141\x6c\154\x6f\167\146\165\x6c\x6c\x73\143\x72\x65\145\156\75\42\x74\162\x75\145\x22\40\x77\145\142\153\x69\164\x61\154\x6c\x6f\x77\146\x75\x6c\x6c\x73\143\x72\145\145\x6e\x3d\x22\x74\162\165\x65\x22\40\x6d\157\x7a\141\x6c\x6c\x6f\x77\146\x75\154\x6c\163\143\162\145\x65\156\75\42\x74\162\x75\145\42\40\x73\x72\x63\75\x22" . $linkembed . "\x22\x20\141\x6c\154\157\x77\146\165\x6c\x6c\163\x63\162\145\145\156\76\x3c\x2f\151\x66\x72\141\x6d\x65\76\12\11\11\x9\x3c\x2f\144\x69\166\76\xa\11\11\x9\x3c\144\151\x76\40\151\x64\x3d\42\150\x61\x75\156\55\160\154\x61\x79\145\162\42\76\74\x2f\x64\151\x76\x3e\x3c\163\143\x72\x69\160\x74\76\114\157\141\x64\137\x45\155\142\x65\144\x28\51\x3c\x2f\x73\143\x72\151\x70\x74\76"; goto hqesC; tcVSg: return $haun_embed_player; goto xrY7x; hqesC: z969V: goto tcVSg; xrY7x: } public function haunPlayer($post_id, $episode, $server, $sub_server = '', $custom_var = '') { goto FEMIe; Xh31q: if ($data && isset($data[0]["\x68\141\x75\156\155\157\166\x69\x65\163\137\x73\x65\162\x76\x65\x72\x5f\144\x61\x74\141"][$episode])) { goto AMXHt; } goto ra9d4; u9oTK: AMXHt: goto L7Ig0; i93g2: $checksubtitle = isDomain($jw_player_default_subtitle) ? $jw_player_default_subtitle : home_url($jw_player_default_subtitle); goto ahW_Q; t7oAL: if (!$jw_player_default_subtitle) { goto ziAlq; } goto i93g2; rPHfO: yvxCs: goto xIemA; KNIZU: $data = json_decode(stripslashes($metaPost), true); goto wtLM8; PDIoT: EjEeo: goto AoGaX; ra9d4: $datasub["\144\141\164\141"] = ["\x73\164\x61\164\x75\x73" => true, "\143\x6f\144\x65" => 403]; goto i3P90; OCeHB: $subtype = $haunmovies_listsv[$sub_server - 1]["\150\141\x75\x6e\155\x6f\x76\x69\145\163\x5f\x65\160\x5f\154\x69\163\x74\163\x76\x5f\x74\x79\x70\145"] ?? ''; goto jC0JL; aGlE9: $haunmovies_ep_sub_file = $haunmovies_ep_sub_label = []; goto YgNHo; YgNHo: if (!$subtitle_listt) { goto rafB7; } goto evlYB; QItFN: $haunmovies_ep_sub_file = implode("\174", $haunmovies_ep_sub_file); goto zCHOM; Xu_20: $metaPost = get_post_meta($post_id, HNMG_EPS, true); goto KNIZU; xIemA: $subtitleb .= "\135"; goto aGlE9; Q3Wn5: $datasub["\144\x61\x74\x61"] = ["\x73\x74\x61\164\165\163" => true, "\163\157\x75\162\x63\145\x73" => $html]; goto G71Y1; m8OrM: rafB7: goto pM17q; jC0JL: $this->haunPlayerInit($post_id, $sublink, $subtype, $subtitleb, $haunmovies_ep_sub_file, $haunmovies_ep_sub_label, $custom_var); goto PDIoT; G71Y1: wp_send_json($datasub); goto NBgFC; VaG90: S2MAg: goto Ze5kH; Dlx9i: $haunmovies_listsv = $dataPlayer["\150\141\x75\156\155\x6f\x76\151\x65\163\x5f\x65\160\137\x6c\151\x73\x74\163\x76"] ?? ''; goto FM0Cr; iSebb: ziAlq: goto Gj9Mb; L7Ig0: $dataPlayer = $data[0]["\150\141\x75\156\155\157\166\x69\x65\163\x5f\x73\x65\x72\x76\x65\162\137\144\141\x74\x61"][$episode]; goto CNJ0o; SZ4ee: B8R1f: goto Qbf7_; L_iOD: LPRYu: goto QItFN; i3P90: wp_send_json($datasub); goto i9Sz3; E3cLK: goto SRS1t; goto SZ4ee; wtLM8: if ($data && isset($data[$server - 1]["\150\x61\165\x6e\x6d\157\166\151\145\163\137\163\145\162\166\x65\x72\x5f\144\x61\x74\141"][$episode])) { goto B8R1f; } goto Xh31q; Qbf7_: $dataPlayer = $data[$server - 1]["\150\141\x75\156\x6d\x6f\x76\x69\x65\x73\137\x73\145\x72\166\x65\x72\137\x64\141\x74\x61"][$episode]; goto bUJgE; i9Sz3: return; goto E3cLK; g7KrD: IUCsI: goto kn_px; zCHOM: $haunmovies_ep_sub_label = implode("\174", $haunmovies_ep_sub_label); goto m8OrM; tDXdy: $this->haunPlayerInit($post_id, $dataPlayer["\x68\141\165\156\x6d\x6f\x76\151\x65\x73\x5f\x65\x70\137\154\151\156\153"], $dataPlayer["\x68\x61\x75\x6e\155\x6f\166\x69\145\163\137\145\160\137\x74\x79\160\145"], $subtitleb, $haunmovies_ep_sub_file, $haunmovies_ep_sub_label, $custom_var); goto MWQ6z; pM17q: if ($sub_server) { goto D_HpC; } goto tDXdy; NBnMa: $html = ob_get_clean(); goto Q3Wn5; ahW_Q: $subtitleb .= "\x7b\x66\151\154\x65\72\40\x22" . trim($checksubtitle) . "\x22\x2c\x6c\x61\142\145\154\x3a\40\x22\104\x65\146\x61\x75\x6c\x74\x22\54\153\151\x6e\144\x3a\x20\x22\x63\x61\x70\164\x69\157\156\x73\x22\x2c\144\145\146\141\x75\x6c\164\72\40\164\x72\165\145\175"; goto iSebb; qebBi: $subtitle_listt = $subtitle_list ?: $data[0]["\150\x61\x75\x6e\x6d\157\x76\x69\145\163\137\x73\x65\162\166\145\162\137\144\x61\x74\141"][$episode]["\150\x61\x75\x6e\x6d\x6f\166\x69\x65\163\137\x65\160\137\163\165\x62\163"] ?? ''; goto CX4Fp; FEMIe: ob_start(); goto Xu_20; CNJ0o: SRS1t: goto esUzN; CX4Fp: $subtitleb = "\133"; goto Q5WXd; evlYB: foreach ($subtitle_listt as $value) { goto YxebR; YxebR: $haunmovies_ep_sub_file[] = $value["\150\141\x75\x6e\x6d\x6f\x76\151\145\x73\137\x65\160\x5f\163\x75\142\x5f\x66\x69\154\145"]; goto YCzPK; YCzPK: $haunmovies_ep_sub_label[] = $value["\x68\x61\x75\156\155\x6f\166\x69\145\163\137\x65\x70\x5f\163\x75\x62\137\154\x61\x62\x65\x6c"]; goto GNvOL; GNvOL: JtT45: goto w0hjc; w0hjc: } goto L_iOD; bUJgE: goto SRS1t; goto u9oTK; vugTW: D_HpC: goto Dlx9i; Gj9Mb: goto yvxCs; goto g7KrD; i7Eb2: $sublink = $haunmovies_listsv[$sub_server - 1]["\150\141\165\156\155\157\166\x69\x65\x73\137\x65\160\137\x6c\x69\163\164\x73\166\x5f\154\x69\156\153"] ?? ''; goto OCeHB; Q5WXd: if (!empty($subtitle_listt)) { goto IUCsI; } goto a0pUU; kn_px: foreach ($subtitle_listt as $key => $value) { goto sx0tN; sx0tN: $default = $key == 0 ? "\164\x72\x75\x65" : "\x66\x61\x6c\x73\x65"; goto Yplx1; Yplx1: $subtitleb .= "\x7b\146\x69\x6c\145\x3a\40\42" . trim($value["\150\141\x75\156\155\x6f\166\151\x65\163\137\145\x70\137\x73\x75\142\x5f\x66\151\154\x65"]) . "\42\x2c\x6c\141\142\x65\x6c\72\40\x22" . trim($value["\x68\141\x75\156\155\x6f\x76\151\x65\163\x5f\145\x70\x5f\163\165\142\137\x6c\x61\x62\145\x6c"]) . "\42\x2c\x6b\151\156\x64\72\40\42\x63\x61\160\x74\151\157\x6e\163\42\x2c\x64\x65\146\x61\165\154\x74\x3a\x20" . $default . "\x7d\54"; goto tSuNE; tSuNE: Qjlph: goto ldUzg; ldUzg: } goto VaG90; Ze5kH: $subtitleb = rtrim($subtitleb, "\x2c"); goto rPHfO; FM0Cr: if (!$haunmovies_listsv) { goto EjEeo; } goto i7Eb2; a0pUU: $jw_player_default_subtitle = hnmg_value("\152\x77\137\160\154\x61\x79\145\162\x5f\x64\x65\146\141\165\154\x74\137\163\165\142\164\x69\164\x6c\145") ?? ''; goto t7oAL; MWQ6z: goto uNov_; goto vugTW; esUzN: $subtitle_list = $dataPlayer["\x68\141\x75\156\x6d\157\x76\151\x65\x73\137\x65\160\137\163\165\x62\x73"] ?? ''; goto qebBi; AoGaX: uNov_: goto NBnMa; NBgFC: } public function haunPlayerInit($post_id, $episode_link, $episode_type, $tracks, $list_sub, $list_sub_label, $custom_var = '') { goto HVcSf; gzYgM: CES4n: goto x6Av8; YpF7W: OiaYp: goto Y8cBd; ijKJ3: aeGAN: goto TsoyU; pQ33X: $this->haun_detect_embed(["\x70\x6f\x73\164\x5f\151\x64" => $post_id, "\154\x69\x6e\153" => $haun_type_filter->link, "\163\x75\x62\164\151\x74\154\145" => $haun_type_filter->subtitle, "\163\165\142\x6c\141\x62\x65\154" => $haun_type_filter->sublabel]); goto pUsYJ; fEDUu: YSmFl: goto iXkrs; HVcSf: if (has_filter("\x68\x61\x75\156\137\143\x75\x73\164\x6f\155\137\x70\154\x61\x79\145\162\137\164\171\160\145\x73")) { goto kSFNP; } goto y4og5; ub_W4: if ($haun_custom_player_types->episode_type == "\x65\155\142\145\x64") { goto v2uYm; } goto pDYN8; mAXY6: goto PhGh6; goto ad16S; iXkrs: $result[] = ["\x66\x69\154\x65" => $episode_link, "\154\x61\x62\x65\154" => "\110\x44", "\x74\x79\x70\x65" => "\166\151\144\x65\x6f\57\x6d\x70\64"]; goto Y6DR7; Q2uYV: goto wE0hk; goto kYFZ6; bWM0T: goto BdsMJ; goto xlice; y4og5: if ($episode_type == "\x6c\151\156\x6b") { goto CVVan; } goto Z30QY; QVstU: rXGNX: goto Q2uYV; J0TFh: l7e4W: goto c4Etw; kcCdl: goto rXGNX; goto derYP; sKMqC: if ($haun_custom_player_types->player_type == "\143\x75\x73\x74\x6f\155\x5f\x69\146\x72\x61\x6d\x65") { goto vnIVH; } goto VC2W9; ecMoJ: K8BMO: goto mAXY6; kYFZ6: bC5Nc: goto CW3ce; pRWlV: HY4Gs: goto G46Pd; ad16S: DGwAC: goto DTYiB; U4dVM: wE0hk: goto pRWlV; x6Av8: $sources = $haun_custom_player_types->sources; goto o8KzV; ngQub: $array_filter = (object) ["\x70\157\163\164\137\151\144" => $post_id, "\x6c\x69\x6e\x6b" => $episode_link, "\164\171\160\145" => $episode_type, "\x73\x75\142\x74\151\x74\154\145" => $list_sub, "\163\165\142\x6c\141\142\145\x6c" => $list_sub_label, "\163\157\165\x72\x63\x65\x73" => '']; goto mGLE5; NNE7j: $result[] = ["\x66\x69\x6c\145" => $haun_custom_player_types->link, "\x6c\x61\142\x65\154" => "\x48\104", "\x74\171\x70\145" => "\x76\151\144\145\x6f\x2f\x6d\x70\x34"]; goto FQmXp; OewBk: if ($haun_custom_player_types->sources) { goto l7e4W; } goto Y7lq9; WNqaT: goto aeGAN; goto BR5vy; DTYiB: $array_filter = (object) ["\160\x6f\163\164\137\x69\144" => $post_id, "\154\151\156\153" => $episode_link, "\164\x79\x70\x65" => $episode_type, "\163\x75\142\164\151\x74\154\145" => $list_sub, "\x73\165\142\x6c\x61\142\145\154" => $list_sub_label, "\x73\157\x75\162\143\x65\163" => '', "\x63\x75\x73\x74\157\155\x5f\166\x61\162" => $custom_var]; goto Z4GF8; ux3zh: goto a8QqC; goto fnFAQ; lBSJ8: YPI8Q: goto qGVV1; QeZvX: do_action("\x68\141\x75\x6e\x5f\x63\165\x73\164\x6f\155\x5f\164\171\160\x65\137\146\x69\154\x74\x65\162\x5f\163\157\x75\162\x63\145\x73", $array_filter); goto kcCdl; JK1XE: if ($episode_type == "\x65\155\x62\145\x64") { goto XV1MM; } goto Dsvd9; bg8xy: goto Hlvbt; goto cdlW3; rvPSg: if ($haun_custom_player_types->episode_type == "\155\160\x34") { goto A0A9C; } goto ub_W4; g1Cky: Hlvbt: goto mB4vX; R_LHq: $haun_custom_player_types = apply_filters("\150\141\x75\156\137\143\165\163\x74\157\x6d\137\160\x6c\x61\x79\x65\x72\137\164\171\x70\145\163", (object) ["\x70\x6f\x73\164\x5f\x69\144" => $post_id, "\154\x69\156\153" => $episode_link, "\145\x70\151\163\x6f\x64\x65\x5f\x74\x79\160\145" => $episode_type, "\x70\x6c\141\171\145\162\137\164\171\x70\145" => '', "\x73\165\142\x74\x69\164\154\145" => $list_sub, "\163\165\x62\154\x61\142\145\154" => $list_sub_label, "\163\x6f\165\162\143\145\x73" => '', "\x63\165\x73\164\x6f\155\x5f\166\141\x72" => $custom_var]); goto ASRkL; c4Etw: echo $haun_custom_player_types->sources; goto lh6Xp; n2pSj: HiJLD: goto u4BFD; sss0H: A0A9C: goto NNE7j; Z30QY: if ($episode_type == "\155\160\x34") { goto YSmFl; } goto JK1XE; bcpnS: kSFNP: goto R_LHq; EGkme: if ($haun_custom_player_types->episode_type == "\x6c\151\x6e\x6b") { goto DGwAC; } goto rvPSg; o8KzV: $this->haunBuildPlayer($post_id, $sources, $tracks, $haun_custom_player_types->link); goto qOyUp; qGVV1: $sources = $haun_type_filter->sources; goto qgJJC; H6K1K: if (!$haun_custom_player_types->sources) { goto HiJLD; } goto k8Kqd; xmH72: roSH1: goto wXMmd; mib9N: do_action("\x68\x61\x75\156\137\143\x75\x73\x74\157\x6d\x5f\164\x79\x70\145\x5f\146\151\154\x74\145\x72\x5f\x73\x6f\165\162\x63\x65\x73", $array_filter); goto MU9GB; Y8cBd: goto U66J2; goto gzYgM; Dsvd9: echo "\74\x64\x69\166\x20\143\x6c\x61\163\x73\75\42\141\154\145\x72\164\x20\x61\154\145\162\164\x2d\144\x61\x6e\147\145\x72\x20\164\x65\170\164\55\143\x65\x6e\164\x65\x72\42\40\x72\x6f\x6c\x65\75\x22\x61\x6c\145\162\164\42\x3e\x45\x70\151\163\x6f\144\145\x20\x54\x79\x70\x65\x20\42\74\163\x74\x72\x6f\x6e\x67\x3e" . $episode_type . "\x3c\x2f\x73\164\162\x6f\x6e\147\x3e\42\x20\153\x68\xc3\xb4\x6e\x67\40\164\xe1\273\x93\x6e\40\x74\xe1\272\241\151\x2e\74\x62\x72\x3e\x20\xc4\220\xe1\xbb\203\x20\164\341\272\xa1\x6f\40\145\x70\151\x73\x6f\144\145\x20\164\171\160\x65\x20\x6d\341\273\233\x69\x2c\x20\x76\165\x69\40\154\303\xb2\x6e\x67\x20\x74\x72\x75\x79\x20\143\xe1\272\255\x70\40\104\141\x73\x68\x62\x6f\141\162\144\x20\x2d\x3e\40\x44\141\156\x68\x20\x73\303\xa1\x63\150\x20\160\x68\x69\155\40\55\76\x20\105\x70\x69\x73\157\144\145\x20\x54\171\160\145\x73\74\57\x64\151\166\x3e"; goto WNqaT; BR5vy: XV1MM: goto YZHEf; nrzx0: if ($haun_type_filter->type == "\x65\155\x62\145\144") { goto bC5Nc; } goto cNb3n; DVlkb: $this->haunBuildPlayer($post_id, $sources, $tracks, $haun_custom_player_types->link); goto ecMoJ; R0YPw: goto K8BMO; goto sss0H; Y7lq9: $this->haun_detect_embed(["\160\x6f\x73\x74\x5f\x69\144" => $post_id, "\x6c\151\x6e\153" => $haun_custom_player_types->link, "\163\x75\142\164\151\x74\154\x65" => $haun_custom_player_types->subtitle, "\x73\x75\x62\154\141\142\145\x6c" => $haun_custom_player_types->sublabel]); goto P3sos; MU9GB: goto roSH1; goto lBSJ8; fnFAQ: XlsR8: goto H6K1K; P3sos: goto h6mcs; goto J0TFh; qgJJC: $this->haunBuildPlayer($post_id, $sources, $tracks, $haun_type_filter->link); goto xmH72; m6Z8I: GoXqL: goto sCWxZ; Y6DR7: $sources = json_encode($result); goto Km5rV; G46Pd: PhGh6: goto ux3zh; Dsqpf: if ($haun_type_filter->type == "\x6a\167\160\154\x61\171\x65\x72") { goto YPI8Q; } goto mib9N; cNb3n: if ($haun_type_filter->type == "\x6a\x77\160\x6c\141\x79\x65\162") { goto Km6PL; } goto QeZvX; X57uw: $this->haunBuildPlayer($post_id, $sources, $tracks, $haun_custom_player_types->link); goto YvAlq; sXGtl: if (has_filter("\x68\141\165\x6e\x5f\x74\x79\x70\145\x5f\146\x69\154\x74\145\162")) { goto XKVmY; } goto vdecu; ASRkL: if ($haun_custom_player_types->player_type == "\x63\x75\x73\x74\x6f\x6d\x5f\x61\160\151") { goto CES4n; } goto sKMqC; mB4vX: goto GoXqL; goto bcpnS; YZHEf: $this->haun_detect_embed(["\160\157\x73\164\137\151\144" => $post_id, "\154\x69\x6e\x6b" => $episode_link, "\163\x75\142\164\x69\164\154\x65" => $list_sub, "\x73\165\x62\x6c\x61\142\145\154" => $list_sub_label]); goto ijKJ3; FQmXp: $sources = json_encode($result); goto DVlkb; qkKbR: if (has_filter("\x68\141\x75\x6e\137\x74\x79\160\x65\137\146\151\x6c\x74\x65\x72")) { goto lR4KZ; } goto AJECA; mGLE5: $haun_type_filter = apply_filters("\150\141\x75\156\137\x74\171\160\145\x5f\146\151\x6c\x74\145\x72", $array_filter); goto qkKbR; YvAlq: goto HY4Gs; goto KEEQI; PfvPB: BdsMJ: goto R0YPw; u4BFD: a8QqC: goto xhfxy; CW3ce: $this->haun_detect_embed(["\x70\157\x73\164\137\x69\x64" => $post_id, "\x6c\x69\156\x6b" => $haun_type_filter->link, "\x73\x75\x62\x74\151\x74\x6c\x65" => $haun_type_filter->subtitle, "\x73\165\142\154\141\x62\145\x6c" => $haun_type_filter->sublabel, "\x63\x75\163\x74\x6f\x6d\x5f\166\x61\x72" => $custom_var]); goto U4dVM; uG5hp: $this->haunBuildPlayer($post_id, $sources, $tracks, $episode_link); goto OzKLu; Vcveo: JGFlM: goto g1Cky; derYP: Km6PL: goto TKpfW; VC2W9: if ($haun_custom_player_types->player_type == "\x63\x75\x73\x74\157\x6d\x5f\x70\154\x61\171\145\162") { goto XlsR8; } goto EGkme; Km5rV: $this->haunBuildPlayer($post_id, $sources, $tracks, $episode_link); goto PCMIZ; wXMmd: goto rO3J9; goto bGKMC; xlice: v2uYm: goto x5i_g; AJECA: $sources = $this->haun_detect_server($episode_link, $post_id)->sources; goto uG5hp; pDYN8: echo "\74\144\151\x76\40\x63\x6c\x61\163\163\x3d\42\x61\x6c\x65\162\164\40\141\x6c\145\x72\x74\x2d\144\141\156\147\145\x72\x20\164\x65\x78\164\x2d\143\145\156\164\145\x72\42\40\162\157\x6c\145\x3d\x22\x61\154\145\x72\x74\x22\76\x42\x69\341\272\277\156\x20\x3c\x63\157\144\x65\76\173\x24\144\x61\164\x61\55\x3e\160\154\141\171\x65\x72\137\x74\171\x70\x65\x7d\x3c\57\143\157\x64\145\x3e\x20\143\150\306\xb0\141\x20\xc4\x91\xc6\260\341\273\xa3\143\40\153\150\x61\x69\40\142\xc3\241\157\x20\x68\157\341\xba\xb7\143\40\105\x70\151\163\x6f\144\x65\40\124\171\x70\145\40\x3c\x73\x74\x72\157\156\147\x3e" . $haun_custom_player_types->episode_type . "\74\x2f\x73\x74\x72\157\156\x67\x3e\x20\x63\x68\306\xb0\141\x20\xc4\x91\xc6\260\xe1\273\xa3\x63\x20\x68\341\xbb\x97\x20\164\x72\xe1\273\xa3\41\x3c\142\162\76\40\304\220\xe1\xbb\203\x20\x74\341\xba\xa1\157\x20\x65\x70\151\163\x6f\144\145\40\x74\x79\160\x65\x20\x6d\xe1\273\x9b\x69\x2c\40\166\x75\x69\x20\154\303\xb2\156\x67\x20\164\162\x75\x79\x20\x63\341\xba\xad\x70\40\104\x61\163\150\142\157\x61\x72\x64\x20\55\x3e\x20\104\x61\x6e\x68\40\163\303\241\143\150\x20\x70\150\151\155\x20\x2d\76\40\x45\x70\151\x73\x6f\x64\x65\x20\124\171\160\145\x73\x3c\57\x64\151\166\76"; goto bWM0T; OzKLu: goto JGFlM; goto oUogq; vdecu: $sources = $this->haun_detect_server($haun_custom_player_types->link, $post_id)->sources; goto X57uw; pUsYJ: rO3J9: goto Vcveo; x5i_g: $this->haun_detect_embed(["\160\x6f\163\164\137\x69\144" => $post_id, "\154\x69\156\x6b" => $haun_custom_player_types->link, "\163\165\142\x74\x69\164\x6c\x65" => $haun_custom_player_types->subtitle, "\163\x75\142\154\x61\x62\x65\154" => $haun_custom_player_types->sublabel]); goto PfvPB; qOyUp: U66J2: goto m6Z8I; bGKMC: QAK8p: goto pQ33X; TsoyU: goto MyQsN; goto fEDUu; KEEQI: XKVmY: goto nrzx0; TKpfW: $sources = $haun_type_filter->sources; goto CuHWY; Z4GF8: $haun_type_filter = apply_filters("\x68\141\165\156\x5f\x74\171\x70\x65\x5f\x66\x69\x6c\164\x65\162", $array_filter); goto sXGtl; oUogq: lR4KZ: goto kKaKR; PCMIZ: MyQsN: goto bg8xy; IDBI4: vnIVH: goto OewBk; lh6Xp: h6mcs: goto YpF7W; kKaKR: if ($haun_type_filter->type == "\145\x6d\142\x65\x64") { goto QAK8p; } goto Dsqpf; CuHWY: $this->haunBuildPlayer($post_id, $sources, $tracks, $haun_type_filter->link); goto QVstU; k8Kqd: echo $haun_custom_player_types->sources; goto n2pSj; xhfxy: goto OiaYp; goto IDBI4; cdlW3: CVVan: goto ngQub; sCWxZ: } public function haunBuildPlayer($post_id, $sources = null, $tracks = array(), $link = '') { goto fTOIL; dBU0L: $captions_fontsize = hnmg_value("\x6a\167\137\x74\162\141\143\153\x73\137\x66\x6f\156\164\x5f\163\x69\x7a\145") ?: 12; goto TmZpi; ZwO5Z: $logo_position = hnmg_value("\152\x77\137\x70\154\141\171\x65\162\137\x6c\157\x67\157\x5f\160\157\x73\x69\164\x69\157\156") ?: ''; goto qIfHg; DTcS2: $player_logo = hnmg_value("\152\x77\137\x70\x6c\x61\171\145\162\137\x6c\x6f\x67\157") ?: ''; goto EsTIA; w6Xqy: $player_cfg = hnmg_value("\x68\x61\165\x6e\137\152\x77\x5f\160\154\x61\171\145\162\137\157\160\x74\151\x6f\x6e\x73"); goto Cvyb3; PrYjz: $autoplay = hnmg_value("\152\x77\137\x70\154\x61\171\x65\x72\x5f\141\x75\x74\157\x70\x6c\141\x79") ? "\x74\x72\x75\145" : "\146\x61\154\x73\x65"; goto N4bI3; Qj8OJ: $meta = get_post_meta($post_id, HNMG_META, true); goto whq4N; EsTIA: $player_logo_hide = hnmg_value("\152\x77\137\160\x6c\x61\x79\x65\x72\x5f\154\157\147\x6f\137\150\151\x64\x65") ? true : false; goto ZwO5Z; pkVEI: echo view("\110\116\115\107\x3a\72\x6c\x61\x79\x6f\165\x74\163\56\x70\x6c\141\x79\145\x72", compact("\x73\x6f\165\x72\143\x65\163", "\x6a\x77\x70\154\x61\x79\145\x72\153\145\171", "\160\157\x73\x74\x5f\x69\144", "\160\157\x73\x74\145\x72", "\x74\162\x61\x63\x6b\163", "\143\x61\160\x74\151\157\156\163\x5f\143\x6f\x6c\x6f\162", "\x63\x61\160\164\x69\157\156\163\x5f\x66\157\156\164\x73\151\x7a\145", "\160\154\141\171\x65\x72\x5f\x6c\x6f\x67\x6f", "\x70\154\141\x79\145\162\137\154\x6f\147\157\x5f\x6c\151\156\153", "\160\154\x61\171\x65\x72\137\154\x6f\147\x6f\137\x68\151\x64\x65", "\154\x6f\x67\157\137\x70\x6f\163\151\x74\x69\157\156", "\146\x6c\x6f\x61\x74\x69\x6e\x67", "\x61\165\164\157\x70\141\165\x73\145", "\141\165\x74\157\160\154\x61\171", "\160\154\x61\x79\x65\x72\x5f\x73\x68\x61\162\x69\x6e\x67", "\x6a\167\137\x61\x64\x63\157\x64\145", "\152\x77\160\x6c\x61\171\145\162\137\x73\x68\x6f\167\141\x64", "\141\x64\x62\x6c\157\x63\153", "\x61\144\142\x6c\157\x63\x6b\x5f\155\163\x67")); goto LqSUL; TmZpi: $jwplayerkey = hnmg_value("\152\167\137\x70\154\x61\171\145\x72\137\x6c\151\143\145\156\163\145\137\153\145\171") ?: "\115\x42\x76\x72\151\x65\x71\x4e\x64\x6d\x56\114\64\152\126\x30\x78\x36\114\x50\x4a\60\x77\x4b\102\x2f\x4e\142\x7a\x32\121\x71\x2f\154\161\x6d\63\147\x3d\x3d"; goto h1SHO; LqSUL: do_action("\x68\x61\x75\x6e\137\160\x6c\141\171\x65\x72\137\x69\x6e\x73\x74\x61\156\x63\x65", (object) ["\160\157\x73\164\137\x69\x64" => $post_id, "\154\151\x6e\x6b" => $link]); goto onTBd; qIfHg: $player_logo_link = hnmg_value("\152\167\137\x70\x6c\x61\171\x65\x72\x5f\154\x6f\147\x6f\x5f\x6c\x69\x6e\153") ?: "\x68\164\164\x70\x73\72\x2f\x2f\150\141\165\156\x79\164\x62\56\x63\157\155"; goto IahfG; IahfG: $captions_color = hnmg_value("\x6a\167\x5f\164\162\141\143\x6b\163\x5f\x63\x6f\154\157\x72") ?: "\43\x65\x65\145\x65\62\x32"; goto dBU0L; whq4N: $poster = isset($meta["\150\141\165\156\137\160\x6f\163\164\145\x72\x5f\x75\x72\x6c"]) && $meta["\150\141\165\x6e\x5f\x70\157\x73\x74\x65\162\x5f\165\162\x6c"] ? $meta["\150\141\x75\156\x5f\160\157\163\164\x65\x72\x5f\x75\162\154"] : ''; goto iB4hz; xkedR: $jwplayer_showad = hnmg_value("\x6a\167\137\160\x6c\141\171\145\x72\137\x73\150\x6f\x77\137\141\x64"); goto w6Xqy; Cvyb3: $adblock = hnmg_value("\x64\145\164\x65\143\164\137\x61\144\x62\154\x6f\x63\153") ? "\164\x72\165\x65" : "\x66\141\x6c\163\145"; goto ChiX2; N4bI3: $autopause = hnmg_value("\x6a\x77\x5f\x70\x6c\141\171\x65\162\x5f\141\165\x74\157\160\x61\x75\x73\145") ? "\x74\162\x75\145" : "\x66\x61\x6c\x73\145"; goto Qj8OJ; Gn0nk: $sources = $sources == "\x5b\135" || $sources == '' || $sources == "\156\165\x6c\154" || !json_decode($sources)[0]->file ? "\133\x7b\x20\x66\151\x6c\145\72\40\x22\x2f\x2f\x63\157\156\164\145\x6e\x74\56\152\167\160\x6c\x61\x74\146\157\162\155\56\x63\x6f\x6d\x2f\166\x69\144\x65\157\x73\57\x6e\157\x74\x2d\x61\x2d\162\145\x61\154\x2d\166\x69\144\145\157\55\x66\151\154\145\x2e\155\x70\x34\x22\x2c\x20\154\x61\x62\x65\154\x3a\x20\x22\67\x32\x30\160\x22\54\x20\x74\x79\160\x65\x3a\40\x22\166\151\144\x65\x6f\x2f\x6d\x70\x34\42\175\135" : $sources; goto pkVEI; aMtro: $floating = hnmg_value("\146\x6c\x6f\x61\x74\x69\x6e\x67\x5f\160\x6c\x61\x79\x65\162") ? "\x31" : "\60"; goto DTcS2; fTOIL: $cache_time = hnmg_value("\x70\154\x61\171\x65\x72\137\143\141\143\x68\145\137\164\151\x6d\145"); goto xkedR; iB4hz: $jw_adcode = hnmg_value("\x6a\167\x5f\160\154\x61\x79\145\162\137\143\x75\163\x74\157\x6d\137\x61\144\163\137\x63\x6f\144\x65") ?: ''; goto Gn0nk; h1SHO: $player_sharing = hnmg_value("\152\167\x5f\x70\x6c\141\171\x65\162\137\x73\x68\x61\162\x65") ?: ''; goto PrYjz; ChiX2: $adblock_msg = hnmg_value("\141\144\x62\154\x6f\x63\x6b\x5f\155\163\x67") ? hnmg_value("\x61\144\x62\154\x6f\143\x6b\x5f\155\163\147") : "\74\x70\40\163\x74\x79\154\145\75\x22\x70\141\144\144\x69\156\x67\x2d\x74\157\160\72\x31\65\x70\x78\x3b\x22\x3e\x3c\x68\62\76\123\157\x72\x72\171\x21\74\x2f\x68\x32\76\40\x55\163\145\162\x73\40\160\x6c\x65\141\x73\145\40\162\145\155\157\x76\x65\40\x61\x64\x20\142\x6c\x6f\143\x6b\145\162\41\74\57\x70\76"; goto aMtro; onTBd: } public function haunBuildPlayerShotcode($attr) { $args = shortcode_atts(array("\154\151\x6e\x6b" => "\43", "\160\157\163\x74\x5f\151\x64" => get_the_ID(), "\163\157\x75\162\x63\x65\x73" => '', "\x74\x72\x61\143\153\163" => "\x5b\135"), $attr); $this->haunBuildPlayer($args["\x70\157\163\x74\x5f\x69\144"], HauNCrypt::decrypt($args["\163\x6f\165\x72\x63\x65\163"]), $args["\164\162\141\143\x6b\x73"], $args["\154\151\156\153"]); } }
+<?php 
+namespace HNMG\EP_Load;
+use function Roots\view;
+
+use HNMG\EP_Load\EP_Cache;
+use HNMG\EP_Load\EP_Getlink;
+use HNMG\EP_Load\EP_Helper;
+
+class EP_PLayer { 
+	public $cache;
+	public $getlink;
+	
+	public function __construct() {
+		$this->cache  = new EP_Cache();
+		$this->getlink = new EP_Getlink();
+		add_shortcode('haunPlayer', [$this, 'haunBuildPlayerShotcode'] );
+		add_shortcode('haun_detect_server', [$this, 'haun_detect_server'], 10, 0);
+		add_action('haun_player_default', [$this, 'haun_player_box'], 10, 1);
+		add_action('wp_footer', [$this, 'hnadd_lightout'], 100);
+	}
+	
+	public function hnadd_lightout() {
+		$btnonoff = hnmg_value('hnbtn_player'); 
+		$showbtn 	= hnmg_value('hnbtn_player_select');
+		if (!$btnonoff && !in_array('light', $showbtn) && !is_single()) {
+			echo '';
+		}
+		echo '<div id="hn-lightout"></div>';
+	}
+	
+	public function haun_player_box($meta) {
+        global $post;
+        $is_copyright 		= hnmg_value('is_copyright', HNMG_META);
+        $is_adult 			= hnmg_value('is_adult', HNMG_META);
+        $player_options 	= hnmg_value('haun_jw_player_options');
+        $player_autonext 	= isset($player_options['jw_player_autonext']) ? $player_options['jw_player_autonext'] : false;
+        $check 				= isset($meta['haun_movie_status']) ? $meta['haun_movie_status'] : '';
+        ob_start();
+        ?>
+		<?php if($is_copyright) { ?>
+            <div id="is_copyright" class="aspect-w-16 aspect-h-9">
+                <div class="flex items-center justify-center bg-black absolute inset-0 font-bold text-xl text-red-500">
+					<i class="fa fa-exclamation-circle mr-2"></i> <?php echo __('Copyright infringement!', 'hnmgepis'); ?>
+				</div>
+            </div>
+		<?php } else { ?>
+				<div x-data="Load_Player()" x-init="loadPlayer()" id="hn-player-wrapper" class="ajax-player-loading aspect-w-16 aspect-h-9 bg-black relative overflow-hidden" 
+					 data-adult-content="<?php echo $is_adult; ?>">
+					<?php if (!post_password_required($post)) : ?>
+						<div id="hn-player-loader" class="flex items-center justify-center absolute inset-0"></div>
+						<div class="absolute top-0 left-0 w-full h-full">
+							<div id="ajax-player"></div>
+						</div>
+						<?php if ($check == 'is_trailer') : ?>
+							<span class="trailer-button"><?php echo __('Trailer', 'hnmgepis'); ?></span>
+						<?php endif; ?>
+					<?php else : ?>
+						<?php echo get_the_password_form(); ?>
+					<?php endif; ?>
+				</div>
+        <?php } ?>
+			<div class="clearfix"></div>
+		<?php
+        $ajax_html = ob_get_clean();
+        echo $ajax_html;
+    }
+	
+	public function haun_detect_server($link, $post_id) {
+		$this->cache->timeCache = hnmg_value('player_cache_time');
+		$this->getlink->init($link);
+		if (hnmg_value('player_cache')) {
+			$doccahe = $this->cache->readCache($link);
+			if ($doccahe) {
+				$dataplayer = json_decode($doccahe);
+			} else {
+				$dataplayer = $this->getlink->host->get_link($this->getlink->_url);
+				$this->cache->saveCache($link, json_encode($dataplayer));
+			}
+		} else {
+			$dataplayer = $this->getlink->host->get_link($this->getlink->_url);
+		}
+		return apply_filters('haun_player_sources', (object) ['post_id' => $post_id, 'sources' => $dataplayer, 'link' => $this->getlink->_url]);
+	}
+	
+	public function haun_detect_embed($args){
+		$detectembed = '';
+		if (strpos($args['link'], 'youtube')) {
+			$id = EP_Helper::getYoutubeId($args['link']);
+			$detectembed = '//www.youtube.com/embed/' . $id;
+		}elseif (strpos($args['link'], '.m3u8') === FALSE) {
+			$detectembed = $args['link'];
+		} else {
+			if (strpos($args['link'], 'drive')) {
+				$detectembed = str_replace('view', 'preview', $args['link']);
+			} else {
+				if (strpos($args['link'], 'dailymotion')) {
+					$id = EP_Helper::getDailyMotionId($args['link']);
+					$detectembed = '//www.dailymotion.com/embed/video/' . $id;
+				} else {
+					if (strpos($args['link'], 'vimeo')) {
+						$id = EP_Helper::getVimeoId($args['link']);
+						$detectembed = '//player.vimeo.com/video/' . $id;
+					} else {
+						if (strpos($args['link'], 'ok.ru/video/')) {
+							$detectembed = str_replace('video', 'videoembed', $args['link']);
+						} else {
+							$detectembed = $args['link'];
+						}
+					}
+				}
+			}
+		}
+		$haun_embed_url = apply_filters('haun_embed_url', (object) ['post_id' => $args['post_id'], 'link' => $detectembed, 'subtitle' => $args['subtitle'], 'sublabel' => $args['sublabel'], 'custom_var' => @$args['custom_var']]);
+		$linkembed = has_filter('haun_embed_url') ? $haun_embed_url : $haun_embed_url->link;
+		echo apply_filters('haun_embed_player', $this->load_embed($linkembed));
+	}
+	
+	public function load_embed($linkembed){
+		if (hnmg_value('jw_player_show_ad') && hnmg_value('jw_show_embed_ads')){
+			$haun_embed_player = '<div id="haun-embed" class="relative w-full h-0 pb-[56.25%]" style="display: none;">
+				<iframe class="absolute top-0" scrolling="no" frameborder="0" width="100%" height="100%" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" src="'. $linkembed .'" allowfullscreen></iframe>
+			</div>
+			<div id="haun-player"></div><script>Load_Embed()</script>';
+		} else {
+			$haun_embed_player = '<div class="relative w-full h-0 pb-[56.25%]">
+				<iframe class="absolute top-0" src="' . $linkembed . '" scrolling="no" frameborder="0" width="100%" height="100%" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay"></iframe>
+			</div>';
+		}
+		return $haun_embed_player;
+	}
+	
+	public function haunPlayer($post_id, $episode, $server, $sub_server = '', $custom_var = ''){
+		ob_start();
+		$metaPost = get_post_meta($post_id, HNMG_EPS, true);
+		$data = json_decode(stripslashes($metaPost), true);
+		if ($data && isset($data[$server - 1]['haunmovies_server_data'][$episode])) {
+			$dataPlayer = $data[$server - 1]['haunmovies_server_data'][$episode];
+		} elseif ($data && isset($data[0]['haunmovies_server_data'][$episode])) {
+			$dataPlayer = $data[0]['haunmovies_server_data'][$episode];
+		} else {
+			$datasub['data'] = ['status' => true, 'code' => 403];
+			wp_send_json($datasub);
+			return;
+		}
+		$subtitle_list = $dataPlayer['haunmovies_ep_subs'] ?? '';
+		$subtitle_listt = $subtitle_list ?: ($data[0]['haunmovies_server_data'][$episode]['haunmovies_ep_subs'] ?? '');
+		$subtitleb = '[';
+		if (!empty($subtitle_listt)) {
+			foreach ($subtitle_listt as $key => $value) {
+				$default = $key == 0 ? 'true' : 'false';
+				$subtitleb .= '{file: "'.trim($value['haunmovies_ep_sub_file']).'",label: "'.trim($value['haunmovies_ep_sub_label']).'",kind: "captions",default: '.$default.'},';
+			}
+			$subtitleb = rtrim($subtitleb, ',');
+		} else {
+			$jw_player_default_subtitle = hnmg_value('jw_player_default_subtitle') ?? '';
+			if ($jw_player_default_subtitle) {
+				$checksubtitle = isDomain($jw_player_default_subtitle) ? $jw_player_default_subtitle : home_url($jw_player_default_subtitle);
+				$subtitleb .= '{file: "'.trim($checksubtitle).'",label: "Default",kind: "captions",default: true}';
+			}
+		}
+		$subtitleb .= ']';
+		$haunmovies_ep_sub_file = $haunmovies_ep_sub_label = [];
+		if ($subtitle_listt) {
+			foreach ($subtitle_listt as $value) {
+				$haunmovies_ep_sub_file[] = $value['haunmovies_ep_sub_file'];
+				$haunmovies_ep_sub_label[] = $value['haunmovies_ep_sub_label'];
+			}
+			$haunmovies_ep_sub_file = implode('|', $haunmovies_ep_sub_file);
+			$haunmovies_ep_sub_label = implode('|', $haunmovies_ep_sub_label);
+		}
+
+		if ($sub_server) {
+			$haunmovies_listsv = $dataPlayer['haunmovies_ep_listsv'] ?? '';
+			if ($haunmovies_listsv) {
+				$sublink = $haunmovies_listsv[$sub_server - 1]['haunmovies_ep_listsv_link'] ?? '';
+				$subtype = $haunmovies_listsv[$sub_server - 1]['haunmovies_ep_listsv_type'] ?? '';
+				$this->haunPlayerInit($post_id, $sublink, $subtype, $subtitleb, $haunmovies_ep_sub_file, $haunmovies_ep_sub_label, $custom_var);
+			}
+		} else {
+			$this->haunPlayerInit($post_id, $dataPlayer['haunmovies_ep_link'], $dataPlayer['haunmovies_ep_type'], $subtitleb, $haunmovies_ep_sub_file, $haunmovies_ep_sub_label, $custom_var);
+		}
+		$html = ob_get_clean();
+		$datasub['data'] = ['status' => true, 'sources' => $html];
+		wp_send_json($datasub);
+	}
+	
+	public function haunPlayerInit($post_id, $episode_link, $episode_type, $tracks, $list_sub, $list_sub_label, $custom_var = ''){
+        if (has_filter('haun_custom_player_types')) {
+            $haun_custom_player_types = apply_filters('haun_custom_player_types', (object) [
+				'post_id' => $post_id, 
+				'link' => $episode_link, 
+				'episode_type' => $episode_type, 
+				'player_type' => '', 
+				'subtitle' => $list_sub,
+				'sublabel' => $list_sub_label, 
+				'sources' => '', 
+				'custom_var' => $custom_var
+			]);
+            if ($haun_custom_player_types->player_type == 'custom_api') {
+                $sources = $haun_custom_player_types->sources;
+                $this->haunBuildPlayer($post_id, $sources, $tracks, $haun_custom_player_types->link);
+            } else {
+                if ($haun_custom_player_types->player_type == 'custom_iframe') {
+                    if ($haun_custom_player_types->sources) {
+                        echo $haun_custom_player_types->sources;
+                    } else {
+                        $this->haun_detect_embed([
+							'post_id' => $post_id, 
+							'link' => $haun_custom_player_types->link, 
+							'subtitle' => $haun_custom_player_types->subtitle, 
+							'sublabel' => $haun_custom_player_types->sublabel
+						]);
+                    }
+                } else {
+                    if ($haun_custom_player_types->player_type == 'custom_player') {
+                        if ($haun_custom_player_types->sources) {
+                            echo $haun_custom_player_types->sources;
+                        }
+                    } else {
+                        if ($haun_custom_player_types->episode_type == 'link') {
+                            $array_filter = (object) [
+								'post_id' => $post_id, 
+								'link' => $episode_link, 
+								'type' => $episode_type, 
+								'subtitle' => $list_sub, 
+								'sublabel' => $list_sub_label, 
+								'sources' => '', 
+								'custom_var' => $custom_var
+							];
+                            $haun_type_filter = apply_filters('haun_type_filter', $array_filter);
+                            if (has_filter('haun_type_filter')) {
+                                if ($haun_type_filter->type == 'embed') {
+                                    $this->haun_detect_embed([
+										'post_id' => $post_id, 
+										'link' => $haun_type_filter->link, 
+										'subtitle' => $haun_type_filter->subtitle, 
+										'sublabel' => $haun_type_filter->sublabel, 
+										'custom_var' => $custom_var
+									]);
+                                } else {
+                                    if ($haun_type_filter->type == 'jwplayer') {
+                                        $sources = $haun_type_filter->sources;
+                                        $this->haunBuildPlayer($post_id, $sources, $tracks, $haun_type_filter->link);
+                                    } else {
+                                        do_action('haun_custom_type_filter_sources', $array_filter);
+                                    }
+                                }
+                            } else {
+                                $sources = $this->haun_detect_server($haun_custom_player_types->link, $post_id)->sources;
+                                $this->haunBuildPlayer($post_id, $sources, $tracks, $haun_custom_player_types->link);
+                            }
+                        } else {
+                            if ($haun_custom_player_types->episode_type == 'mp4') {
+                                $result[] = [
+									'file' => $haun_custom_player_types->link, 
+									'label' => 'HD', 
+									'type' => 'video/mp4'
+								];
+                                $sources = json_encode($result);
+                                $this->haunBuildPlayer($post_id, $sources, $tracks, $haun_custom_player_types->link);
+                            } else {
+                                if ($haun_custom_player_types->episode_type == 'embed') {
+									$this->haun_detect_embed([
+										'post_id' => $post_id, 
+										'link' => $haun_custom_player_types->link, 
+										'subtitle' => $haun_custom_player_types->subtitle, 
+										'sublabel' => $haun_custom_player_types->sublabel
+									]);
+                                } else {
+                                    echo '<div class="alert alert-danger text-center" role="alert">Biến <code>{$data->player_type}</code> chưa được khai báo hoặc Episode Type <strong>'. $haun_custom_player_types->episode_type . '</strong> chưa được hỗ trợ!<br> Để tạo episode type mới, vui lòng truy cập Dashboard -> Danh sách phim -> Episode Types</div>';
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        } else {
+           if ($episode_type == 'link') {
+				$array_filter = (object) [
+					'post_id' => $post_id,
+					'link' => $episode_link,
+					'type' => $episode_type,
+					'subtitle' => $list_sub,
+					'sublabel' => $list_sub_label,
+					'sources' => ''
+				];
+				$haun_type_filter = apply_filters('haun_type_filter', $array_filter);
+				if (has_filter('haun_type_filter')) {
+					if ($haun_type_filter->type == 'embed') {
+						$this->haun_detect_embed([
+							'post_id' => $post_id, 
+							'link' => $haun_type_filter->link, 
+							'subtitle' => $haun_type_filter->subtitle, 
+							'sublabel' => $haun_type_filter->sublabel
+						]);
+					} else {
+						if ($haun_type_filter->type == 'jwplayer') {
+							$sources = $haun_type_filter->sources;
+							$this->haunBuildPlayer($post_id, $sources, $tracks, $haun_type_filter->link);
+						} else {
+							do_action('haun_custom_type_filter_sources', $array_filter);
+						}
+					}
+				} else {
+					$sources = $this->haun_detect_server($episode_link, $post_id)->sources;
+					$this->haunBuildPlayer($post_id, $sources, $tracks, $episode_link);
+				}
+			} else {
+				if ($episode_type == 'mp4') {
+					$result[] = [
+						'file' => $episode_link, 
+						'label' => 'HD', 
+						'type' => 'video/mp4'
+					];
+					$sources = json_encode($result);
+					$this->haunBuildPlayer($post_id, $sources, $tracks, $episode_link);
+				} else {
+					if ($episode_type == 'embed') {
+						$this->haun_detect_embed([
+							'post_id' => $post_id, 
+							'link' => $episode_link, 
+							'subtitle' => $list_sub, 
+							'sublabel' => $list_sub_label
+						]);
+					} else {
+						echo '<div class="alert alert-danger text-center" role="alert">Episode Type "<strong>' . $episode_type . '</strong>" không tồn tại.<br> Để tạo episode type mới, vui lòng truy cập Dashboard -> Danh sách phim -> Episode Types</div>';
+					}
+				}
+			}
+        }
+    }
+	
+	public function haunBuildPlayer($post_id, $sources = null, $tracks = array(), $link = '') {
+		$cache_time         = hnmg_value('player_cache_time');
+		$jwplayer_showad    = hnmg_value('jw_player_show_ad');
+		$player_cfg         = hnmg_value('haun_jw_player_options');
+		$adblock            = hnmg_value('detect_adblock') ? "true" : "false";
+		$adblock_msg        = hnmg_value('adblock_msg') ? hnmg_value('adblock_msg') : '<p style="padding-top:15px;"><h2>Sorry!</h2> Users please remove ad blocker!</p>';
+		$floating           = hnmg_value('floating_player') ? '1' : '0';
+		$player_logo        = hnmg_value('jw_player_logo') ?: '';
+		$player_logo_hide   = hnmg_value('jw_player_logo_hide') ? true : false;
+		$logo_position      = hnmg_value('jw_player_logo_position') ?: '';
+		$player_logo_link   = hnmg_value('jw_player_logo_link') ?: 'https://haunytb.com';
+		$captions_color     = hnmg_value('jw_tracks_color') ?: '#eeee22';
+		$captions_fontsize  = hnmg_value('jw_tracks_font_size') ?: 12;
+		$jwplayerkey        = hnmg_value('jw_player_license_key') ?: 'MBvrieqNdmVL4jV0x6LPJ0wKB/Nbz2Qq/lqm3g==';
+		$player_sharing     = hnmg_value('jw_player_share') ?: '';
+		$autoplay           = hnmg_value('jw_player_autoplay') ? 'true' : 'false';
+		$autopause          = hnmg_value('jw_player_autopause') ? 'true' : 'false';
+		$meta               = get_post_meta($post_id, HNMG_META, true);
+		$poster             = isset($meta['haun_poster_url']) && $meta['haun_poster_url'] ? $meta['haun_poster_url'] : '';
+		$jw_adcode          = hnmg_value('jw_player_custom_ads_code') ?: '';
+		$sources            = $sources == '[]' || $sources == '' || $sources == 'null' || !json_decode($sources)[0]->file ? '[{ file: "//content.jwplatform.com/videos/not-a-real-video-file.mp4", label: "720p", type: "video/mp4"}]' : $sources;
+		echo view('HNMG::layouts.player', compact('sources', 'jwplayerkey', 'post_id', 'poster', 'tracks', 'captions_color', 'captions_fontsize', 'player_logo', 'player_logo_link', 'player_logo_hide', 'logo_position', 'floating', 'autopause', 'autoplay', 'player_sharing', 'jw_adcode', 'jwplayer_showad', 'adblock', 'adblock_msg'));
+		do_action('haun_player_instance', (object)['post_id' => $post_id, 'link' => $link]);
+	}
+
+	public function haunBuildPlayerShotcode($attr) {
+        $args = shortcode_atts(array(
+                'link' => '#',
+                'post_id' => get_the_ID(),
+                'sources' => '',
+                'tracks' => '[]'
+            ), $attr);
+        $this->haunBuildPlayer($args['post_id'], HauNCrypt::decrypt($args['sources']), $args['tracks'], $args['link']);
+    }
+	
+}

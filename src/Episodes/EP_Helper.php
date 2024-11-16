@@ -1,8 +1,392 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\Episodes; class EP_Helper { public function selected($query, $key) { $active = $query == $key ? "\40\163\x65\x6c\x65\x63\164\145\144" : ''; return $active; } public function checked_selected_multiple($selected_arr, $current = true, $type = "\x73\145\x6c\145\x63\x74\x65\144", $echo = true) { goto E9bLg; xAkWl: if (!$echo) { goto VzvE2; } goto qU8S9; l3ben: jUiSW: goto qnHTV; qU8S9: echo $type; goto d86AU; qnHTV: return ''; goto G_dKz; d86AU: VzvE2: goto nr2Lj; nr2Lj: return $type; goto l3ben; E9bLg: if (!(is_array($selected_arr) && in_array($current, $selected_arr))) { goto jUiSW; } goto xAkWl; G_dKz: } public function set_post_modified($post_id) { $post = array("\111\x44" => $post_id, "\x70\157\163\164\x5f\x6d\x6f\x64\x69\146\151\145\x64\x5f\147\x6d\x74" => date("\x59\x3a\155\x3a\x64\x20\x48\x3a\x69\x3a\163")); wp_update_post($post); } public function get_post_format($type) { goto nSiZM; ilwxW: return $post_format; goto yuvzR; vY9Y7: $post_format = $type ? $post_formats[$type] : ''; goto ilwxW; nSiZM: $post_formats = array("\x6d\x6f\166\x69\145" => "\x61\163\151\x64\x65", "\x6d\x6f\166\x69\x65\x73" => "\x61\x73\x69\x64\145", "\163\x69\x6e\x67\x6c\145\137\x6d\x6f\x76\x69\145\163" => "\141\x73\x69\144\x65", "\x74\166\137\163\x65\x72\x69\x65\163" => "\x67\141\x6c\x6c\x65\162\171", "\164\166\x5f\x73\x68\157\167\163" => "\166\x69\144\145\x6f", "\x74\x68\145\141\164\145\x72\x5f\x6d\x6f\x76\x69\x65" => "\x61\165\x64\x69\x6f"); goto vY9Y7; yuvzR: } public function array_key_last($array) { goto P9wMI; C17Jp: CHxB2: goto MgI81; P9wMI: if (!(!is_array($array) || empty($array))) { goto CHxB2; } goto OkL6x; OkL6x: return NULL; goto C17Jp; MgI81: return array_keys($array)[count($array) - 1]; goto FgY8H; FgY8H: } public function hnmg_last_episodes($post_id) { goto lyas4; xklda: $dataPlayer = json_decode($metaPost, true); goto WRY03; v1zwo: OQKWL: goto nxUu_; cSCtt: $last_episode = $dataPlayer[0]["\150\x61\165\156\x6d\x6f\166\x69\145\x73\x5f\163\145\x72\x76\x65\x72\137\x64\x61\x74\x61"][$this->array_key_last($dataPlayer[0]["\150\141\x75\156\x6d\157\x76\x69\x65\x73\137\163\x65\162\x76\x65\162\137\144\x61\164\x61"])]["\150\x61\x75\x6e\x6d\157\166\151\x65\x73\x5f\x65\160\137\156\141\x6d\x65"]; goto v1zwo; WRY03: if (!($dataPlayer != '')) { goto OQKWL; } goto cSCtt; lyas4: $last_episode = ''; goto F5MKV; F5MKV: $metaPost = get_post_meta($post_id, HNMG_EPS, true); goto xklda; nxUu_: return $last_episode; goto R8aCW; R8aCW: } public function last_episode_by_serverid($post_id, $server) { goto Btx1L; xr2Rd: Wxr9f: goto vIu07; UeUNi: $server_data = $data->{$server}->haunmovies_server_data ?? []; goto dMejo; zh9vm: if (!($data && isset($data->{$server}))) { goto Wxr9f; } goto UeUNi; o4U8l: return $lastEp[1] ?? false; goto y3YvW; Btx1L: $episode_meta = get_post_meta($post_id, HNMG_EPS, true); goto yzW2N; dMejo: if (empty($server_data)) { goto sZpx1; } goto vcYkJ; JchHC: if (!preg_match("\x2f\50\134\x64\53\51\x2f", $lastEl, $lastEp)) { goto q0sWz; } goto o4U8l; vcYkJ: $lastEl = end(array_keys((array) $server_data)); goto JchHC; T_lVe: sZpx1: goto xr2Rd; y3YvW: q0sWz: goto T_lVe; yzW2N: $data = json_decode(stripslashes($episode_meta)); goto zh9vm; vIu07: return false; goto bbxpI; bbxpI: } public function hnmg_last_episode($post_id, $meta) { goto Nw4mw; I5_7h: if (empty($metaPost)) { goto tAs62; } goto xQzn8; Nw4mw: $last_episode = ''; goto yDgFk; JGzbS: fy8sk: goto B3Y1u; w3OSv: $metaPost = get_post_meta($post_id, HNMG_EPS, true); goto I5_7h; Xvz7Q: TPV7S: goto SnD5g; Ls6zj: return "\x3c\x62\165\x74\164\x6f\x6e\x20\x63\154\141\x73\163\75\42\160\171\55\x31\40\x70\x78\55\x35\x20\142\147\55\163\x6b\171\55\x35\x30\60\40\164\145\170\164\55\167\150\151\164\x65\40\164\x65\170\x74\55\170\163\40\146\157\156\164\x2d\x73\145\x6d\x69\142\157\154\144\40\162\157\x75\x6e\144\x65\144\55\x66\165\x6c\x6c\40\x73\x68\141\x64\157\x77\55\x62\154\165\145\55\65\x30\60\x2f\65\x30\x20\x66\157\143\165\x73\x3a\157\165\164\x6c\151\x6e\145\55\156\x6f\156\145\x22\76\x46\x75\x6c\154\74\57\142\x75\164\x74\157\x6e\x3e"; goto Xvz7Q; Vm4pT: j4SQU: goto Ekh4x; Ekh4x: tAs62: goto NimIV; aY2Z2: return "\74\142\165\164\164\157\x6e\40\x63\x6c\141\163\163\75\42\x70\x79\x2d\x31\40\160\x78\x2d\65\40\142\x67\x2d\163\153\171\55\x35\x30\x30\x20\x74\145\170\164\55\167\x68\151\x74\x65\x20\164\x65\170\164\55\170\x73\x20\x66\x6f\156\x74\55\x73\x65\155\151\142\157\x6c\x64\40\x72\157\165\156\144\145\x64\55\146\165\x6c\x6c\x20\163\x68\x61\x64\x6f\167\55\x62\x6c\x75\x65\x2d\65\60\x30\57\x35\x30\x20\146\157\143\x75\x73\72\157\x75\164\x6c\x69\x6e\x65\x2d\x6e\157\x6e\x65\x22\76" . $last_episode . "\x2f" . $total_episode . "\x3c\x2f\x62\x75\164\x74\157\156\x3e"; goto JGzbS; xQzn8: $dataPlayer = json_decode($metaPost, true); goto OeoXJ; DbTmy: if (empty($dataPlayer[0]["\x68\141\x75\x6e\155\x6f\166\151\x65\163\x5f\x73\145\162\x76\145\x72\137\144\141\164\x61"])) { goto ZxKsI; } goto RboI8; B3Y1u: return $last_episode; goto foxmW; fHH7q: DvgPg: goto LQUSq; SnD5g: if (!(!empty($last_episode) && !empty($total_episode))) { goto fy8sk; } goto aY2Z2; RboI8: $last_key = $this->array_key_last($dataPlayer[0]["\x68\x61\165\156\x6d\157\x76\x69\x65\x73\137\163\145\x72\166\x65\162\137\x64\x61\164\x61"]); goto x2aut; OeoXJ: if (empty($dataPlayer)) { goto j4SQU; } goto DbTmy; LQUSq: ZxKsI: goto Vm4pT; oJMvB: $last_episode = $dataPlayer[0]["\150\141\165\x6e\x6d\157\x76\151\145\163\137\163\x65\162\x76\145\x72\x5f\x64\x61\164\141"][$last_key]["\150\x61\x75\x6e\155\157\166\x69\145\x73\137\145\x70\137\x6e\x61\x6d\x65"]; goto fHH7q; NimIV: if (!($last_episode == "\106\165\154\x6c")) { goto TPV7S; } goto Ls6zj; yDgFk: $total_episode = isset($meta["\150\141\165\x6e\137\x74\157\x74\141\x6c\x5f\145\160\151\x73\x6f\144\x65"]) ? $meta["\150\x61\x75\x6e\x5f\x74\x6f\164\x61\154\137\x65\160\x69\x73\x6f\144\x65"] : "\x20\74\x73\166\147\40\x63\x6c\x61\x73\163\x3d\42\x73\x69\x7a\x65\x2d\64\x20\151\156\x6c\x69\156\x65\x20\164\145\170\x74\x2d\167\150\151\x74\145\40\146\157\x6e\164\x2d\x62\x6f\154\x64\42\40\x76\151\x65\167\x42\157\x78\x3d\42\x30\x20\60\x20\62\64\40\62\x34\x22\x20\x73\x74\x72\157\x6b\x65\x2d\x77\x69\x64\x74\150\75\x22\x33\42\x20\x73\x74\x72\x6f\153\145\x3d\42\143\x75\x72\162\x65\156\164\x43\157\154\x6f\x72\42\40\146\x69\154\154\x3d\42\x6e\x6f\x6e\145\42\40\x73\164\x72\x6f\x6b\145\55\x6c\x69\156\145\143\141\x70\x3d\42\162\x6f\165\156\x64\x22\x20\163\164\162\x6f\153\x65\55\154\x69\x6e\x65\x6a\157\151\156\x3d\x22\x72\x6f\x75\x6e\x64\x22\x3e\40\40\74\160\141\164\150\40\x73\x74\x72\157\153\x65\x3d\x22\x6e\x6f\x6e\x65\x22\x20\x64\75\42\x4d\60\40\60\150\x32\x34\166\62\64\110\60\172\x22\57\76\40\x20\x3c\160\x61\164\x68\x20\144\x3d\x22\x4d\71\x2e\70\x32\x38\x20\71\56\61\67\62\x61\x34\40\x34\x20\x30\x20\61\40\60\40\x30\40\x35\56\66\65\66\40\141\61\x30\40\x31\60\x20\x30\40\60\x20\x30\40\x32\x2e\61\67\x32\40\x2d\62\56\x38\x32\70\x61\61\x30\40\x31\60\40\x30\40\60\x20\61\x20\62\56\61\67\62\x20\x2d\x32\x2e\70\62\70\40\x61\x34\40\64\40\60\40\x31\40\x31\40\60\x20\65\x2e\66\x35\x36\141\61\x30\x20\x31\60\40\x30\x20\60\40\x31\40\55\62\56\x31\67\62\x20\x2d\x32\56\x38\x32\70\x61\61\x30\x20\x31\x30\40\x30\40\60\40\x30\x20\55\62\56\61\67\x32\x20\x2d\62\56\x38\62\70\42\x20\57\76\x3c\x2f\x73\x76\147\76"; goto w3OSv; x2aut: if (!isset($dataPlayer[0]["\x68\x61\x75\156\155\157\166\151\x65\x73\137\x73\145\162\x76\x65\x72\137\x64\141\164\x61"][$last_key]["\150\x61\x75\x6e\x6d\157\166\151\x65\x73\x5f\x65\160\137\156\141\155\145"])) { goto DvgPg; } goto oJMvB; foxmW: } public function list_episode_servers($post_id, $data) { goto muHrV; yYKZC: echo "\74\163\145\154\x65\x63\164\40\143\154\x61\163\163\x3d\x22\162\x6f\x75\156\144\145\144\55\146\165\154\154\x20\164\x65\170\x74\55\x78\163\40\x66\x6f\156\164\55\142\157\x6c\x64\40\x70\x78\x2d\x36\40\x68\156\x73\145\162\x76\x65\x72\55\164\157\x2d\145\x78\x70\157\162\164\x22\x20\144\x61\164\x61\x2d\160\157\x73\164\55\151\144\x3d\x22" . $post_id . "\42\x3e\xa\x9\x9\x9\11\74\157\160\x74\151\x6f\156\x20\166\x61\154\165\145\75\x22\42\76" . __("\x43\x68\x6f\157\163\x65\40\x41\40\123\x65\162\166\x65\162", "\x68\156\x6d\x67\x65\x70\151\163") . "\x20\x3c\x2f\x6f\x70\x74\x69\x6f\x6e\76"; goto HYLLi; sT4c3: echo "\x3c\57\163\145\x6c\x65\143\x74\76"; goto QE9g5; HYLLi: foreach ($data as $key => $value) { echo "\40\x3c\157\x70\164\151\157\x6e\x20\x76\x61\154\x75\x65\75\x22\40" . $key . "\40\x22\x3e" . $value["\150\x61\x75\x6e\155\157\x76\151\x65\x73\137\163\x65\162\166\145\162\x5f\156\141\155\x65"] . "\74\x2f\x6f\160\x74\151\x6f\x6e\76"; hG9Q1: } goto wtky5; QE9g5: TM7nI: goto uqJ2q; wtky5: uT6xH: goto sT4c3; muHrV: if (!($data !== NULL)) { goto TM7nI; } goto yYKZC; uqJ2q: } public function hnshow_formality($data = '') { goto ukD5a; DfpO_: return "\74\x62\x75\x74\164\157\x6e\x20\164\171\160\145\75\42\x62\165\164\164\x6f\x6e\x22\x20\143\154\141\163\x73\x3d\42\160\x79\x2d\x31\40\x70\170\55\x33\x20\x6d\171\55\60\56\65\x20" . $types[$data]["\x63\157\154\157\162"] . "\40\x74\x65\170\164\55\167\x68\x69\164\145\x20\x74\x65\x78\x74\55\170\x73\40\x66\157\156\164\x2d\163\x65\x6d\x69\x62\x6f\154\x64\x20\x72\157\x75\156\x64\145\x64\55\146\165\x6c\x6c\40\x73\x68\141\144\157\x77\55\142\x6c\x75\x65\x2d\x35\60\60\57\65\60\x20\146\157\143\x75\163\x3a\x6f\165\164\154\x69\x6e\x65\55\156\157\156\x65\42\76" . $types[$data]["\154\x61\x62\x65\154"] . "\x3c\x2f\142\x75\164\x74\x6f\156\x3e"; goto caNpi; U4z2Z: return ''; goto tBVEq; caNpi: Wn5W1: goto U4z2Z; ukD5a: $types = ["\x73\x69\x6e\147\x6c\145\x5f\155\157\166\151\x65\163" => ["\x6c\141\x62\x65\x6c" => __("\x4d\157\x76\x69\145\163", "\x68\156\x6d\147\145\160\151\163"), "\143\x6f\x6c\x6f\162" => "\142\x67\55\x72\x65\144\55\65\x30\x30"], "\164\166\137\163\145\x72\x69\145\163" => ["\x6c\141\142\145\154" => __("\x54\126\40\123\x65\162\151\145\163", "\x68\x6e\155\147\x65\160\151\163"), "\x63\x6f\154\157\x72" => "\142\147\x2d\142\x6c\165\145\55\x36\60\60"], "\164\x76\137\x73\150\x6f\167\x73" => ["\x6c\141\142\145\154" => __("\124\126\x20\x53\x68\157\x77\x73", "\x68\x6e\x6d\147\145\160\151\163"), "\x63\157\154\157\162" => "\142\147\x2d\164\x65\141\154\55\66\x30\60"], "\164\150\145\141\164\x65\162\x5f\x6d\x6f\166\151\145" => ["\154\141\x62\x65\154" => __("\x54\x68\145\141\164\145\x72\x20\x4d\x6f\166\151\x65", "\150\x6e\155\x67\145\x70\151\163"), "\143\x6f\x6c\157\x72" => "\x62\147\x2d\146\165\x63\x68\163\151\x61\55\x38\60\x30"]]; goto MpedY; MpedY: if (!($data != '' && isset($types[$data]))) { goto Wn5W1; } goto DfpO_; tBVEq: } public function hnshow_status($data = '') { goto iCUKJ; iCUKJ: $statuses = ["\x69\x73\137\164\162\x61\151\x6c\145\162" => ["\154\141\x62\145\x6c" => __("\124\162\x61\x69\x6c\145\x72", "\150\x6e\x6d\147\x65\160\x69\163"), "\143\x6f\154\157\x72" => "\142\x67\55\x72\145\x64\x2d\x35\x30\x30"], "\x6f\x6e\147\x6f\151\156\147" => ["\154\141\142\145\x6c" => __("\117\x6e\x67\157\151\156\147", "\x68\156\155\x67\145\x70\x69\163"), "\x63\157\x6c\157\162" => "\x62\x67\x2d\142\x6c\165\145\55\x36\x30\x30"], "\x63\x6f\x6d\160\154\145\164\145\x64" => ["\154\x61\x62\x65\154" => __("\103\157\x6d\x70\154\x65\x74\x65\144", "\150\x6e\155\147\x65\x70\x69\163"), "\x63\157\154\157\162" => "\142\147\55\x74\x65\x61\x6c\x2d\66\60\x30"], "\155\157\166\151\x65\143\x6f\155\x69\156\147" => ["\x6c\141\142\x65\x6c" => __("\x4d\157\x76\151\x65\x73\40\x43\x6f\x6d\151\x6e\147", "\x68\156\155\147\x65\x70\151\x73"), "\x63\x6f\154\x6f\162" => "\142\147\x2d\x66\165\143\x68\163\x69\x61\55\x38\60\x30"]]; goto px8iX; yyf4O: return ''; goto bXy6R; zjxC4: CM9Ac: goto yyf4O; RpvDA: return "\x3c\142\165\x74\164\x6f\156\x20\x74\x79\160\145\75\42\142\x75\164\x74\x6f\156\42\40\143\x6c\x61\163\x73\75\42\160\171\55\x31\x20\160\x78\x2d\x33\40\x6d\171\x2d\x30\x2e\x35\40" . $statuses[$data]["\143\x6f\x6c\157\x72"] . "\x20\x74\145\x78\x74\55\x77\x68\x69\x74\145\x20\x74\145\x78\164\x2d\170\x73\40\x66\x6f\156\x74\x2d\163\145\155\151\142\157\154\x64\40\x72\x6f\165\x6e\144\145\144\55\146\165\x6c\x6c\x20\163\150\x61\144\157\x77\x2d\x62\x6c\165\145\55\65\x30\x30\57\65\60\x20\x66\157\143\x75\x73\x3a\157\x75\x74\154\151\156\x65\x2d\x6e\157\x6e\x65\42\x3e" . $statuses[$data]["\154\x61\x62\x65\154"] . "\74\57\x62\165\164\164\157\x6e\x3e"; goto zjxC4; px8iX: if (!isset($statuses[$data])) { goto CM9Ac; } goto RpvDA; bXy6R: } public function getPlayerTypes($type = "\x6c\151\156\153") { goto QQp5A; UMMDb: echo "\76\105\155\x62\145\x64\74\x2f\x6f\160\164\151\157\x6e\76\12\11\x9"; goto NRnCo; NRnCo: if (empty($taxonomies)) { goto BKsXw; } goto fywxM; kH11O: $this->selected($type, "\x65\x6d\x62\x65\144"); goto UMMDb; QZu0X: $this->selected($type, "\x6c\151\156\153"); goto nUSNd; B21Jl: BKsXw: goto Vbh_9; QQp5A: $taxonomies = get_terms("\145\160\x69\x73\x6f\x64\145\55\164\171\160\145\163", array("\x68\x69\x64\x65\x5f\x65\x6d\x70\x74\x79" => false)); goto SOgJU; EWqWt: $this->selected($type, "\x6d\160\64"); goto eIYVE; ZEtts: xP7Gl: goto B21Jl; qdOyV: echo "\x9\x9\11\74\x6f\160\x74\x69\157\156\x20\x76\141\x6c\x75\145\x3d\42\x6c\151\156\x6b\x22\40"; goto QZu0X; eIYVE: echo "\x3e\x4d\x50\x34\x20\x66\x69\x6c\x65\74\57\x6f\x70\164\151\157\x6e\76\xa\x9\x9\x9\x3c\x6f\160\164\151\157\x6e\40\x76\x61\x6c\165\x65\x3d\x22\x65\x6d\142\145\144\42\x20"; goto kH11O; fywxM: foreach ($taxonomies as $category) { goto Q2v8U; xzsgq: echo "\74\57\x6f\x70\x74\x69\x6f\x6e\x3e\12\x9\x9\11"; goto bOqpE; bOqpE: oTNJl: goto r5BY7; Hoiu4: echo "\42\40"; goto K4Thx; UEKi6: echo "\76"; goto kDD5v; Q2v8U: echo "\x9\x9\11\11\74\x6f\160\x74\151\x6f\156\40\x76\141\x6c\165\x65\x3d\42"; goto vKUO3; kDD5v: echo esc_html($category->name); goto xzsgq; vKUO3: echo esc_attr($category->slug); goto Hoiu4; K4Thx: $this->selected($type, $category->slug); goto UEKi6; r5BY7: } goto ZEtts; SOgJU: $type = apply_filters("\x68\141\165\x6e\137\145\160\x69\x73\x6f\144\x65\137\x74\171\x70\145", $type); goto qdOyV; nUSNd: echo "\76\x4c\151\x6e\153\74\x2f\157\160\x74\151\157\156\76\xa\x9\x9\x9\x3c\157\x70\164\x69\157\x6e\40\x76\x61\154\165\x65\75\x22\x6d\160\64\x22\40"; goto EWqWt; Vbh_9: } public function HNPlayerTypesJs($type = "\x6c\x69\x6e\153") { goto rOqVw; Ugaoj: o32dT: goto aVhPQ; ZAtID: if (empty($taxonomies)) { goto o32dT; } goto qZcLW; qZcLW: foreach ($taxonomies as $category) { $types[$category->slug] = $category->name; I0sEX: } goto paq1x; aVhPQ: return $types; goto GOvlE; rOqVw: $taxonomies = get_terms("\x65\160\x69\x73\x6f\144\x65\x2d\164\x79\160\145\x73", array("\150\151\x64\145\x5f\145\x6d\x70\x74\x79" => false)); goto zOoad; vcJto: $types = ["\x6c\151\x6e\153" => "\x4c\x69\156\153", "\155\160\64" => "\115\120\x34\x20\146\151\154\x65", "\145\x6d\142\x65\x64" => "\x45\155\x62\x65\144"]; goto ZAtID; zOoad: $type = apply_filters("\x68\x61\x75\x6e\137\x65\160\151\163\157\144\145\137\164\171\x70\x65", $type); goto vcJto; paq1x: GFWHh: goto Ugaoj; GOvlE: } public function getPlayerTypesJs($type = "\154\x69\156\x6b") { goto EGZih; HLIQD: foreach ($taxonomies as $category) { $html .= "\x3c\x6f\160\x74\x69\x6f\156\40\x76\141\154\x75\x65\75\42" . $category->slug . "\x22" . $this->selected($type, $category->slug) . "\76" . $category->name . "\x3c\x2f\x6f\x70\164\151\x6f\x6e\76"; IJeJ2: } goto Mm99_; Mm99_: ckzPN: goto t0AGm; gOxuK: if (empty($taxonomies)) { goto O3QLI; } goto HLIQD; Iozss: $html .= "\x3c\157\x70\164\x69\x6f\156\40\166\x61\154\165\x65\75\x22\x6c\151\x6e\x6b\x22" . $this->selected($type, "\154\x69\156\x6b") . "\76\114\151\x6e\x6b\74\x2f\157\x70\x74\x69\157\156\76\74\x6f\160\164\x69\x6f\156\40\166\141\x6c\x75\145\x3d\42\155\x70\64\42" . $this->selected($type, "\155\160\x34") . "\x3e\115\x50\x34\40\146\x69\154\145\x3c\x2f\x6f\160\164\151\157\x6e\76\74\x6f\x70\x74\151\x6f\156\x20\x76\141\154\165\145\75\42\x65\155\142\x65\144\42" . $this->selected($type, "\145\x6d\142\145\144") . "\x3e\x45\155\142\145\x64\74\57\x6f\160\x74\151\157\x6e\76"; goto gOxuK; BMeKN: $type = apply_filters("\150\141\x75\x6e\x5f\x65\160\x69\x73\157\x64\145\137\x74\x79\x70\x65", $type); goto KsgWT; EGZih: $taxonomies = get_terms("\145\x70\x69\x73\157\x64\x65\55\x74\x79\160\x65\x73", array("\150\151\x64\145\137\145\155\160\x74\x79" => false)); goto BMeKN; t0AGm: O3QLI: goto JN8Ru; JN8Ru: return $html; goto TZeCE; KsgWT: $html = ''; goto Iozss; TZeCE: } public function getPlayerTypesAsText() { goto OCVeR; DjFmK: tLfEe: goto sZjYx; ugGTf: if (empty($taxonomies)) { goto tLfEe; } goto SvL0e; SvL0e: foreach ($taxonomies as $category) { $html .= $category->slug . "\54\x20"; pMPfT: } goto Xnx6F; j6enX: $html = ''; goto ugGTf; OCVeR: $taxonomies = get_terms("\145\160\151\x73\x6f\144\x65\55\164\x79\160\x65\x73", array("\150\x69\144\x65\137\145\155\x70\164\171" => false)); goto j6enX; sZjYx: return $html; goto GbFu1; Xnx6F: cc2jd: goto DjFmK; GbFu1: } public function hnmg_pagenav($total, $showpost, $paged) { goto d1UVo; orFYf: if (!(!in_array($max, $hnlink) && $max > 1)) { goto XJylu; } goto VWSCW; WVeSY: echo "\x3c\x75\154\40\x63\x6c\x61\163\163\75\x22\146\154\145\170\x20\151\164\x65\155\163\55\x63\145\x6e\x74\145\162\x20\152\x75\x73\164\151\x66\171\x2d\x63\x65\x6e\x74\x65\162\40\147\x61\160\55\62\40\164\x65\x78\x74\55\163\155\x20\146\x6f\156\x74\x2d\x6d\x65\144\151\x75\155\40\x70\x62\x2d\x37\x20\x70\164\55\x34\x22\76"; goto PdL3t; AhXuZ: echo "\74\x2f\x6e\141\166\x3e"; goto D11k_; R1cQO: $class = 1 == $paged ? "\x20\142\x67\55\x62\x6c\141\143\x6b\x20\164\145\170\x74\55\167\x68\151\x74\x65\40\x66\x6f\156\x74\55\142\x6f\x6c\144" : "\40\x62\147\55\x74\x65\141\154\55\x37\60\60\x20\164\145\x78\164\x2d\x77\x68\x69\164\145\x20\150\157\166\145\162\72\164\145\x78\164\55\162\157\x73\145\55\x35\60\x30"; goto UPc44; Z8sCn: echo "\74\x69\x6e\x70\165\x74\x20\156\141\x6d\145\x3d\x22\160\141\x67\145\x64\42\x20\x74\x79\x70\145\75\42\x6e\x75\155\x62\x65\x72\x22\40\166\141\x6c\x75\x65\75\42" . $paged . "\x22\x20\143\x6c\141\163\163\75\42\x62\x6c\x6f\x63\x6b\40\160\154\55\65\x20\x70\171\55\x31\56\65\40\x77\x2d\x66\165\x6c\154\40\x7a\x2d\x32\x30\40\164\x65\170\x74\55\170\x73\x20\164\145\x78\164\x2d\x67\x72\x61\x79\x2d\x39\60\60\x20\142\147\55\x67\162\x61\171\55\x35\x30\x20\162\x6f\165\156\144\x65\x64\55\146\x75\154\154\40\x62\x6f\x72\x64\x65\x72\40\x62\157\x72\144\x65\162\x2d\163\154\141\x74\x65\x2d\x33\x30\60\x20\x66\157\x63\x75\163\x3a\x72\x69\156\x67\55\60\40\x66\157\143\x75\163\72\x6f\165\164\x6c\151\x6e\x65\x2d\x6e\x6f\x6e\145\42\x20\x72\145\x71\x75\x69\162\145\x64\40\57\76\12\11\x9\x9\11\11\x3c\x62\x75\164\x74\157\156\x20\164\171\160\145\75\42\163\165\142\x6d\151\x74\x22\40\x63\x6c\141\x73\163\x3d\x22\x61\142\x73\157\x6c\x75\164\x65\x20\164\157\160\x2d\60\40\145\x6e\x64\x2d\x30\40\160\170\55\64\40\x70\x79\x2d\x31\x2e\x35\x20\x74\x65\170\x74\55\x78\x73\x20\146\x6f\x6e\164\x2d\x62\x6f\154\x64\x20\150\x2d\146\165\x6c\154\40\164\x65\x78\x74\x2d\x77\150\151\164\x65\40\x62\147\55\x73\x6b\171\x2d\65\x30\x30\40\x68\157\166\145\x72\72\142\147\55\x73\153\171\55\67\x30\x30\40\x72\157\x75\x6e\x64\145\144\x2d\x65\x2d\x66\165\x6c\154\40\142\157\162\144\x65\x72\x20\142\x6f\x72\144\145\162\x2d\x73\x6b\171\x2d\65\x30\60\x20\146\157\x63\165\163\72\x72\151\x6e\x67\55\60\40\x66\157\x63\x75\x73\x3a\x6f\x75\164\x6c\151\x6e\x65\55\156\157\x6e\x65\x22\76\xa\11\x9\x9\x9\11\x9\107\x4f\xa\11\x9\11\11\x9\x3c\x2f\142\x75\164\164\x6f\x6e\x3e\12\x9\x9\11\11\x3c\x2f\144\x69\166\76"; goto gBBAH; ScS_f: $max = intval($total_page); goto hpYKs; tbJle: mSeMK: goto yeM5U; rDc6m: echo "\x3c\x6c\x69\x3e\x3c\141\40\150\x72\x65\x66\75\42" . esc_url(get_pagenum_link($paged - 1)) . "\x22\x20\143\154\x61\x73\x73\x3d\x22\x66\x6c\145\x78\40\x69\x74\145\155\163\x2d\x63\x65\x6e\164\x65\x72\x20\152\x75\x73\164\151\x66\171\55\143\145\x6e\x74\145\x72\x20\162\157\165\x6e\144\x65\x64\x2d\146\x75\154\x6c\x20\x70\170\x2d\62\x2e\65\40\x70\x79\x2d\x31\40\x62\x67\x2d\x74\x65\x61\154\x2d\x37\60\60\40\146\x6f\x6e\164\55\163\x65\155\151\142\157\154\x64\40\164\145\170\164\x2d\167\150\x69\164\x65\40\150\157\x76\145\162\x3a\x74\145\x78\x74\55\x72\157\163\x65\x2d\65\60\60\x20\x6e\x6f\55\x75\156\x64\x65\162\x6c\x69\156\x65\42\x3e\120\162\145\166\151\x6f\x75\x73\x3c\57\x61\76\x3c\x2f\154\151\76"; goto FC4Em; OIGcq: $hnlink[] = $paged - 1; goto PsRFM; VWSCW: $class = $paged == $max ? "\40\x62\147\x2d\142\154\141\x63\x6b\40\164\145\x78\164\55\x77\150\151\x74\145\x20\146\x6f\156\164\55\x62\157\x6c\144" : "\x20\x62\x67\x2d\164\145\x61\154\55\x37\60\60\40\164\145\170\164\x2d\x77\150\151\x74\x65\x20\x68\157\166\x65\x72\x3a\164\145\170\164\55\x72\x6f\x73\x65\x2d\65\x30\x30"; goto Zd20p; X1r_X: KNfK8: goto KVALk; Bi2MI: if (!($paged >= 1)) { goto TALwA; } goto dhQwp; X39hP: echo "\x3c\151\156\x70\x75\164\x20\x6e\141\155\145\75\42\x70\x61\147\145\x22\40\x74\x79\x70\x65\75\x22\x68\x69\144\x64\145\156\x22\x20\166\x61\154\x75\x65\x3d\42\150\x6e\x6d\x67\x2d\145\x70\x69\x73\157\144\x65\42\x2f\x3e"; goto LFDVs; bCtX9: if (!($paged + 2 <= $max)) { goto EJkmi; } goto H0eUo; EhooQ: dqtbf: goto bCtX9; d1UVo: $idpage = isset($_GET["\160\x6f\163\164\x5f\151\144"]) ? absint($_GET["\160\157\163\164\137\x69\x64"]) : ''; goto Gb4tG; P6KMq: EJkmi: goto aCP4y; GkXps: LZ2Km: goto orFYf; gBBAH: echo "\74\57\x66\x6f\x72\x6d\x3e"; goto WVeSY; dhQwp: $hnlink[] = $paged; goto KB8PW; yeM5U: echo "\74\57\x75\154\x3e"; goto AhXuZ; f1CJk: $hnlink[] = $paged + 2; goto P6KMq; aCP4y: echo "\x3c\x6e\x61\x76\x20\141\162\151\x61\x2d\x6c\x61\142\x65\154\75\42\x70\x61\147\151\x6e\x61\x74\x69\157\x6e\42\40\x63\x6c\x61\x73\163\x3d\x22\x77\55\146\x75\154\x6c\40\x74\x65\170\x74\x2d\143\145\x6e\164\145\x72\x20\155\x74\55\65\x22\x3e"; goto cn1Mt; KB8PW: TALwA: goto BlL85; hpYKs: $hnlink = []; goto Bi2MI; PsRFM: $hnlink[] = $paged - 2; goto EhooQ; UPc44: echo "\74\x6c\x69\76\74\141\40\x68\162\x65\146\x3d\x22" . esc_url(get_pagenum_link(1)) . "\42\40\143\154\x61\x73\163\x3d\x22\x66\154\x65\x78\x20\151\x74\145\155\163\x2d\143\x65\156\164\x65\162\x20\x6a\x75\163\x74\x69\146\171\x2d\143\145\156\164\x65\162\x20\x72\x6f\x75\x6e\144\145\x64\55\146\165\154\x6c\40\160\x78\55\62\x2e\x35\40\160\x79\x2d\61\40\146\157\x6e\x74\55\163\145\x6d\x69\x62\x6f\x6c\x64\40\x6e\x6f\55\x75\156\144\145\162\x6c\x69\x6e\145" . $class . "\42\76\61\x3c\57\141\76\x3c\57\x6c\x69\76"; goto X1r_X; kWz9c: $total_page = ceil($total / $showpost); goto ScS_f; FC4Em: un08R: goto GdQI7; c6JAo: $paged = isset($_GET["\x70\x61\147\x65\x64"]) && $_GET["\160\141\147\145\x64"] ? absint($_GET["\x70\x61\x67\145\x64"]) : "\61"; goto kWz9c; OUxpL: if (!($paged < $max)) { goto mSeMK; } goto dELoi; Gb4tG: $server = isset($_GET["\x73\x65\162\166\145\x72"]) ? absint($_GET["\163\145\162\166\x65\162"]) : ''; goto c6JAo; BlL85: if (!($paged >= 3)) { goto dqtbf; } goto OIGcq; dELoi: echo "\74\x6c\151\76\74\141\40\x68\162\145\x66\75\x22" . esc_url(get_pagenum_link($paged + 1)) . "\42\40\x63\x6c\141\163\x73\x3d\x22\146\x6c\x65\170\40\x69\164\145\x6d\163\55\x63\145\x6e\164\x65\x72\x20\152\x75\x73\164\151\146\x79\x2d\143\145\x6e\164\x65\x72\40\x72\157\x75\156\x64\x65\144\x2d\146\x75\154\154\40\160\170\x2d\62\56\x35\40\x70\171\55\x31\x20\x66\x6f\156\164\x2d\x73\x65\155\151\142\x6f\x6c\x64\x20\x62\x67\x2d\164\x65\141\154\x2d\67\x30\x30\40\x74\145\x78\164\x2d\x77\x68\x69\x74\x65\40\150\x6f\166\x65\162\x3a\164\145\x78\164\55\162\x6f\x73\x65\55\65\60\x30\x20\156\157\55\x75\x6e\144\x65\x72\154\x69\156\x65\42\x3e\x4e\145\x78\164\x3c\x2f\141\76\x3c\57\154\x69\76"; goto tbJle; cn1Mt: echo "\74\x66\157\x72\155\x20\x61\143\x74\x69\157\x6e\x3d\x22\141\144\155\x69\x6e\56\x70\150\160\x22\x20\155\145\x74\x68\x6f\144\x3d\x22\107\x45\124\42\40\x63\x6c\x61\x73\x73\x3d\42\x69\x6e\154\x69\x6e\145\55\142\x6c\x6f\x63\153\x20\164\145\170\x74\x2d\143\145\156\164\x65\162\x22\x3e\x3c\x64\x69\166\40\143\x6c\x61\x73\x73\75\42\x72\x65\x6c\141\164\x69\x76\x65\40\x77\x2d\146\x75\x6c\x6c\40\155\144\x3a\x77\55\x33\x36\x22\76"; goto X39hP; QkbPM: foreach ($hnlink as $link) { goto q7EKC; tz8pm: TMk7a: goto TK0AK; Tyrgz: echo "\x3c\x6c\151\76\74\x61\40\x68\x72\145\x66\x3d\42" . esc_url(get_pagenum_link($link)) . "\x22\x20\143\x6c\141\x73\x73\x3d\x22\x66\154\145\x78\x20\151\x74\x65\x6d\163\x2d\143\x65\x6e\164\x65\162\x20\152\165\163\164\x69\x66\171\x2d\x63\145\x6e\x74\x65\x72\x20\x72\157\x75\156\x64\145\144\55\146\165\154\x6c\40\x70\170\55\62\56\x35\40\160\171\55\x31\x20\x66\157\156\164\x2d\x73\145\155\151\142\x6f\x6c\144\40\x6e\x6f\x2d\x75\x6e\x64\145\162\154\x69\x6e\145\40" . $class . "\42\x3e" . $link . "\x3c\57\x61\x3e\x3c\57\x6c\151\x3e"; goto tz8pm; q7EKC: $class = $paged == $link ? "\x20\x62\x67\x2d\x62\x6c\141\143\153\40\x74\x65\170\164\55\167\x68\151\164\145\x20\x66\157\156\x74\x2d\x62\157\x6c\x64" : "\40\142\147\x2d\x74\x65\x61\x6c\x2d\67\x30\x30\x20\164\145\x78\x74\x2d\x77\x68\x69\x74\x65\x20\x68\x6f\166\145\x72\x3a\164\145\170\164\x2d\x72\157\x73\x65\x2d\x35\60\x30"; goto Tyrgz; TK0AK: } goto GkXps; PdL3t: if (!($paged > 1)) { goto un08R; } goto rDc6m; x1S4k: echo "\x3c\151\x6e\x70\x75\x74\40\x6e\x61\155\145\75\x22\x70\157\163\164\x5f\151\x64\42\40\164\171\160\x65\x3d\42\x68\x69\x64\x64\145\156\x22\x20\x76\x61\154\165\x65\x3d\42" . $idpage . "\x22\x2f\x3e"; goto G6del; KVALk: sort($hnlink); goto QkbPM; LFDVs: echo "\x3c\151\156\x70\165\x74\x20\x6e\x61\155\x65\x3d\42\x61\x63\x74\x22\x20\x74\x79\160\145\75\x22\x68\151\144\x64\x65\x6e\42\x20\166\141\x6c\x75\x65\75\42\x65\x64\151\164\137\145\160\x22\x2f\x3e"; goto x1S4k; GdQI7: if (in_array(1, $hnlink)) { goto KNfK8; } goto R1cQO; iN6R4: XJylu: goto OUxpL; H0eUo: $hnlink[] = $paged + 1; goto f1CJk; Zd20p: echo "\x3c\x6c\x69\76\74\141\x20\150\162\x65\146\75\x22" . esc_url(get_pagenum_link($max)) . "\x22\x20\x63\x6c\141\x73\x73\x3d\42\x66\154\x65\170\40\x69\164\x65\x6d\x73\55\143\145\x6e\x74\145\x72\40\152\165\x73\x74\x69\x66\x79\55\x63\145\156\164\x65\x72\40\x72\157\x75\156\144\145\x64\x2d\x66\x75\x6c\154\40\160\170\x2d\x32\56\x35\x20\x70\171\55\61\40\x66\x6f\x6e\x74\55\163\145\155\151\142\x6f\x6c\x64\40\156\157\55\165\x6e\144\145\x72\154\x69\156\x65\40" . $class . "\42\76" . $max . "\x3c\x2f\141\x3e\74\x2f\x6c\x69\x3e"; goto iN6R4; G6del: echo "\74\x69\x6e\x70\x75\164\40\156\x61\x6d\145\75\x22\x73\x65\x72\x76\x65\162\x22\40\x74\171\160\x65\x3d\42\150\x69\144\x64\145\x6e\x22\40\x76\141\x6c\165\x65\x3d\42" . $server . "\42\x2f\76"; goto Z8sCn; D11k_: } public function hnimage_display($size = "\155\x6f\x76\x69\145\55\x74\x68\165\x6d\142") { goto ih1_0; zNCUv: return null; goto xVO0A; Jnqh8: FgBit: goto kCm4N; ih1_0: global $post; goto n4IvY; n4IvY: if ($post) { goto uUVvM; } goto zNCUv; af1Kn: $image_url = wp_get_attachment_image_src(get_post_thumbnail_id(), $size)[0] ?? ''; goto Jnqh8; lW9kj: preg_match_all("\57\x3c\x69\x6d\147\56\53\x73\x72\x63\x3d\x5b\x27\42\135\x28\x5b\136\x27\42\x5d\53\51\x5b\47\42\x5d\x2e\52\76\x2f\x69", $post->post_content, $matches); goto SiDLc; jxBSu: Jdl8S: goto af1Kn; NR1Vf: if (has_post_thumbnail()) { goto Jdl8S; } goto sbrje; VDkDW: ob_end_clean(); goto lW9kj; xH6G6: $meta_data = $post->post_type === "\x76\x69\x64\145\x6f" ? get_post_meta($post->ID, HNMG_VIDEO, true) : get_post_meta($post->ID, HNMG_META, true); goto Q03_z; xVO0A: uUVvM: goto xH6G6; T1ODe: $image_url = $thumb ?: get_template_directory_uri() . "\x2f\x61\163\x73\145\164\163\57\x69\x6d\x61\147\x65\x73\57" . ($post->post_type === "\166\151\x64\x65\x6f" || $post->post_type === "\156\x65\167\163" ? "\144\145\x66\141\165\x6c\164\56\160\156\147" : "\144\145\146\x61\165\x6c\164\x2d\160\x6f\x73\164\145\162\x2e\152\x70\147"); goto ne3JC; kCm4N: return esc_url($image_url); goto ZQwn_; sbrje: if ($thumb) { goto NlDHu; } goto weDY0; weDY0: ob_start(); goto VDkDW; Q03_z: $thumb = $meta_data["\166\151\144\x65\x6f\137\x74\x68\165\x6d\142\x6e\x61\151\x6c\137\x75\162\154"] ?? $meta_data["\150\141\x75\156\137\164\x68\x75\155\142\137\x75\162\x6c"] ?? ''; goto NR1Vf; ne3JC: goto FgBit; goto jxBSu; SiDLc: $thumb = $matches[1][0] ?? null; goto po93K; po93K: NlDHu: goto T1ODe; ZQwn_: } public function hnupdate_views($postID) { goto SRyqh; SRyqh: $views = get_post_meta($postID, "\x5f\150\156\166\x69\x65\167\x73", true); goto r7uIT; r7uIT: if ($views) { goto ivZZM; } goto k1JIS; k1JIS: $views = ["\x68\x6e\166\151\145\167\x5f\x70\157\163\x74\137\141\x6c\154" => 0, "\150\156\166\x69\x65\167\x5f\x70\x6f\x73\x74\137\144\x61\x79" => 0, "\x68\x6e\x76\x69\145\x77\137\x70\157\163\x74\137\x77\145\145\x6b" => 0, "\150\x6e\x76\x69\x65\x77\x5f\x70\157\x73\164\x5f\x6d\x6f\x6e" => 0]; goto QBUet; PL6JJ: $views["\x68\156\166\151\145\x77\x5f\160\157\163\x74\137\141\x6c\x6c"]++; goto XJWDA; ioc7k: $views["\x68\x6e\166\151\145\x77\x5f\160\x6f\x73\164\x5f\167\x65\145\153"]++; goto qCQv9; XJWDA: $views["\x68\156\x76\x69\x65\167\137\160\157\x73\x74\137\144\x61\x79"]++; goto ioc7k; QBUet: ivZZM: goto PL6JJ; qCQv9: $views["\x68\156\166\x69\x65\x77\137\x70\157\x73\164\137\x6d\157\x6e"]++; goto wcT5M; wcT5M: update_post_meta($postID, "\137\150\x6e\x76\x69\145\167\x73", $views); goto rw0dF; rw0dF: } public function hnshow_views($postid, $type = "\141\x6c\x6c") { goto Oz6x_; Xag5n: goto dAYDx; goto GYRT4; x_2SL: $precision = 1; goto J4g6O; Kd9DZ: goto j6hRn; goto CXGiV; pYdYV: return $n_format . $suffix; goto G6C1O; CXGiV: MizzI: goto n4rwu; G1WOY: R2uoY: goto YztFC; Ee9rR: $dotzero = "\x2e" . str_repeat("\x30", $precision); goto Aqp7q; ZoToU: dJXFZ: goto Q8oUA; zH7iq: if ($count < 900000) { goto Y_lBi; } goto r25BR; IRf7E: $n_format = number_format($count / 1000000000, $precision); goto xc9z0; lL1WB: QRspf: goto pYdYV; wTtNw: if ($count < 900000000000) { goto wR0jE; } goto yI278; BkIZu: $suffix = ''; goto G1WOY; xvF9D: Y_lBi: goto DZYNI; Oz6x_: $views = get_post_meta($postid, "\137\x68\x6e\166\151\145\x77\x73", true); goto jsktx; k5mtv: goto R2uoY; goto ZoToU; O3nJl: $count = $views["\150\141\165\x6e\137\166\151\x65\167\137\160\x6f\x73\164\137{$type}"] ?? $views["\x68\x6e\x76\151\145\x77\137\x70\x6f\x73\x74\137\141\154\154"]; goto x_2SL; xc9z0: $suffix = "\x42"; goto amdbT; n4rwu: $n_format = number_format($count / 1000000, $precision); goto PKjYk; PKjYk: $suffix = "\x4d"; goto TSOR6; DZYNI: $n_format = number_format($count / 1000, $precision); goto hbvDV; k9n1n: dOdJz: goto O3nJl; YztFC: if (!($precision > 0)) { goto QRspf; } goto Ee9rR; J4g6O: if ($count < 900) { goto dJXFZ; } goto zH7iq; g9w9_: goto PVwx9; goto xvF9D; dGXUc: $views = ["\x68\x6e\x76\151\x65\x77\x5f\x70\157\x73\164\137\141\x6c\154" => 0, "\x68\156\166\x69\145\167\x5f\160\157\163\x74\137\x64\141\x79" => 0, "\x68\156\x76\x69\145\167\137\x70\157\163\164\x5f\167\145\x65\153" => 0, "\150\x6e\166\x69\x65\x77\137\160\157\x73\164\x5f\155\x6f\156" => 0]; goto RctPA; TSOR6: j6hRn: goto g9w9_; Aqp7q: $n_format = str_replace($dotzero, '', $n_format); goto lL1WB; hbvDV: $suffix = "\113"; goto lH36P; RctPA: update_post_meta($postid, "\137\150\156\x76\151\145\x77\x73", $views); goto k9n1n; lH36P: PVwx9: goto k5mtv; amdbT: dAYDx: goto Kd9DZ; yI278: $n_format = number_format($count / 1000000000000, $precision); goto uTEhi; Q8oUA: $n_format = number_format($count, $precision); goto BkIZu; uTEhi: $suffix = "\124"; goto Xag5n; jsktx: if ($views) { goto dOdJz; } goto dGXUc; r25BR: if ($count < 900000000) { goto MizzI; } goto wTtNw; GYRT4: wR0jE: goto IRf7E; G6C1O: } public function hnserver_hide($postid) { goto WtAlf; rARAP: kLqEw: goto SITYV; sFTx_: foreach ($data as $key => $value) { goto Dqwjc; ScGDT: echo "\x20\x2f\x3e\12\x9\11\11\x9\x9" . __("\110\x69\x64\x65", "\150\x6e\x6d\x67\x65\160\151\163") . "\x20\74\x73\x74\162\x6f\x6e\x67\x3e" . $value["\x68\x61\x75\156\155\x6f\166\151\x65\163\x5f\163\x65\x72\x76\145\162\137\x6e\x61\x6d\x65"] . "\74\57\163\164\162\157\x6e\147\x3e\xa\x9\x9\x9\x9\74\x2f\x6c\151\76"; goto R4RuY; R_MNV: suVaE: goto ScGDT; pTbo3: echo in_array($key, $hidden_servers) ? "\40\x63\x68\145\x63\153\145\144" : ''; goto R_MNV; Dqwjc: echo "\x3c\154\x69\40\x69\x64\75\x22\145\160\151\x73\157\x64\145\137\163\x65\x72\166\145\x72\137\x68\x69\144\144\145\156\x2d" . $postid . "\42\40\143\x6c\x61\163\163\75\x22\160\x78\55\62\40\x70\x79\x2d\x31\56\65\40\x74\x65\170\164\x2d\154\145\146\164\40\x68\x6f\x76\x65\x72\x3a\142\147\x2d\147\162\141\171\55\62\60\60\42\76\xa\11\x9\x9\11\11\x3c\x69\156\x70\165\164\40\164\x79\160\145\75\x22\x63\x68\x65\x63\x6b\142\x6f\170\42\40\x76\x61\154\x75\x65\x3d\x22" . $key . "\42\40\x63\x6c\141\x73\x73\75\x22\155\x72\55\62\40\x6d\x74\x2d\x30\x22\x20\x6e\x61\x6d\x65\75\x22\145\160\x69\163\x6f\x64\145\137\x73\145\x72\166\x65\162\x5f\150\151\144\144\145\156\x5b\x5d\42"; goto f_eQj; f_eQj: if (!$hidden_servers) { goto suVaE; } goto pTbo3; R4RuY: MLdxA: goto WOWtM; WOWtM: } goto BebVJ; JvZEd: $hidden_servers = get_post_meta($postid, "\x65\x70\151\163\157\144\145\x5f\163\145\162\166\145\x72\137\150\151\x64\144\145\156", true); goto T6bqb; BebVJ: KcU7i: goto rARAP; WtAlf: $postmeta = get_post_meta($postid, HNMG_EPS, true); goto ETYGT; ETYGT: $data = json_decode(stripslashes($postmeta), true); goto JvZEd; SITYV: echo "\74\57\x75\154\76\12\11\11\x3c\x2f\x64\x69\x76\76"; goto YelSE; t6JAx: if (!$data) { goto kLqEw; } goto sFTx_; T6bqb: echo "\74\x64\151\166\40\x78\55\144\x61\x74\x61\x3d\42\173\40\x6f\160\145\156\x3a\40\146\x61\x6c\x73\145\x2c\40\163\x61\x76\x65\115\145\x73\x73\141\147\x65\72\x20\47\123\141\166\145\x27\x2c\40\160\x6f\x73\x74\111\144\72\x20" . $postid . "\x20\175\42\x20\x63\x6c\x61\163\163\x3d\42\162\145\154\x61\x74\x69\166\145\42\x3e\12\11\x9\11\74\x62\x75\164\x74\x6f\156\40\x40\x63\x6c\151\143\x6b\75\x22\157\x70\x65\x6e\40\75\x20\x21\157\160\x65\x6e\x22\40\x63\x6c\141\163\163\x3d\x22\x74\x65\170\x74\55\147\162\x61\171\55\x36\x30\60\40\x74\145\x78\x74\x2d\x78\x73\x20\x66\x6f\156\164\x2d\163\x65\155\x69\x62\x6f\154\144\x20\x62\x6f\162\144\x65\x72\40\142\x6f\162\x64\145\162\x2d\x73\x6c\141\x74\x65\x2d\64\60\60\57\x31\x30\40\x62\x67\x2d\163\154\x61\x74\145\x2d\x34\x30\60\57\61\60\40\x72\x6f\165\x6e\x64\145\144\x2d\x66\x75\x6c\154\x20\x70\x79\x2d\x31\40\x70\170\55\x33\42\x3e\xa\x9\11\x9\11" . __("\x43\150\x6f\x6f\163\145\x20\123\x65\x72\166\145\162\x20\110\151\x64\x65", "\150\x6e\x6d\x67\145\x70\151\x73") . "\12\11\11\11\x9\x3c\163\x76\x67\x20\167\151\144\164\x68\x3d\x22\66\42\x20\150\145\x69\147\150\x74\75\42\x33\x22\40\143\154\141\x73\163\x3d\x22\155\154\x2d\62\x20\x6f\x76\145\x72\x66\x6c\157\167\55\166\x69\163\x69\x62\154\145\40\x69\x6e\154\x69\156\x65\x22\40\141\162\151\x61\55\x68\151\144\x64\x65\x6e\x3d\x22\164\x72\x75\x65\42\76\74\160\x61\164\150\40\x64\75\x22\x4d\60\40\60\114\x33\40\x33\x4c\66\40\60\x22\x20\x66\x69\154\x6c\75\42\156\x6f\156\145\x22\x20\x73\164\162\x6f\x6b\x65\x3d\x22\x63\x75\162\162\145\x6e\x74\103\157\x6c\157\x72\42\40\163\164\162\157\x6b\x65\x2d\x77\x69\x64\164\x68\x3d\42\x31\56\x35\42\40\x73\x74\162\157\x6b\x65\x2d\x6c\x69\156\x65\x63\x61\160\75\42\162\x6f\165\x6e\x64\42\76\x3c\57\160\x61\164\150\76\74\x2f\163\x76\147\76\xa\x9\11\11\x3c\x2f\x62\165\164\164\157\x6e\x3e\12\11\11\11\x3c\x75\x6c\40\170\55\163\x68\157\x77\x3d\x22\x6f\160\x65\156\42\40\x40\x63\x6c\151\x63\153\x2e\x61\x77\x61\171\x3d\42\x6f\160\x65\156\40\x3d\40\146\x61\154\163\x65\42\40\143\x6c\x61\x73\x73\x3d\42\141\x62\163\157\154\165\x74\x65\40\x6c\x65\x66\164\x2d\x30\x20\155\164\55\x32\40\142\x67\55\167\150\151\x74\x65\40\142\x6f\162\144\x65\162\40\x62\157\x72\x64\145\x72\x2d\x73\154\x61\x74\x65\55\61\x30\x30\x20\x77\55\x34\64\x20\x73\150\x61\144\x6f\167\55\x6c\147\x20\x7a\55\61\60\40\162\x6f\165\x6e\x64\x65\144\55\154\x67\x22\x3e\xa\11\x9\11\11\74\154\151\x20\144\x61\x74\141\55\144\151\166\151\x64\x3d\42\x65\160\151\163\x6f\x64\x65\137\163\x65\162\166\x65\x72\137\150\x69\x64\144\x65\x6e\55" . $postid . "\42\40\144\141\x74\141\55\160\x6f\x73\164\55\151\x64\x3d\x22" . $postid . "\42\40\143\x6c\141\x73\163\x3d\x22\x73\141\166\x65\55\x6f\160\164\x69\157\156\x20\x63\165\x72\163\157\162\55\x70\x6f\151\156\164\x65\162\x20\160\x78\x2d\64\40\x70\x79\x2d\62\x20\x68\157\x76\145\x72\x3a\x62\x67\55\147\x72\141\171\x2d\61\60\x30\40\164\145\x78\164\55\x72\x69\x67\x68\x74\x20\150\157\166\x65\x72\x3a\x72\157\165\x6e\144\145\144\55\164\55\x6c\x67\42\x3e\12\x9\11\x9\11\11\x3c\x73\160\141\156\40\143\154\141\x73\163\75\x22\x62\147\55\163\153\x79\x2d\65\x30\x30\40\x68\x6f\166\145\162\72\142\147\x2d\163\153\171\x2d\67\60\x30\40\160\x78\55\x35\x20\x70\x79\55\61\x20\164\x65\170\164\x2d\170\x73\40\154\145\141\x64\151\x6e\x67\x2d\x35\x20\x72\157\165\156\144\145\144\55\x66\165\154\154\x20\146\157\156\164\x2d\163\x65\155\151\x62\x6f\154\144\x20\164\x65\170\164\x2d\x77\x68\x69\x74\x65\42\x20\x78\55\x74\145\x78\x74\75\42\x73\141\x76\x65\x4d\145\x73\163\141\147\x65\x22\76\74\x2f\x73\x70\141\x6e\x3e\xa\11\11\x9\11\74\57\154\151\x3e"; goto t6JAx; YelSE: } public function hnupdate_publish($postid) { goto Jlfy1; Jlfy1: if (get_post_status($postid) !== "\160\x75\x62\154\x69\163\x68") { goto IX7jM; } goto QBSlY; ZvKYh: aZ814: goto RcXGj; QBSlY: echo "\x3c\142\x75\x74\x74\157\x6e\40\x63\x6c\141\163\x73\x3d\x22\x70\x79\x2d\x31\x20\x70\x78\55\64\40\164\145\170\x74\x2d\170\163\x20\143\165\162\163\157\x72\55\x64\145\x66\x61\165\154\164\x20\x66\x6f\156\164\55\x62\x6f\154\144\x20\x74\x65\170\x74\55\x63\x65\x6e\164\145\162\40\164\x65\x78\x74\55\167\150\151\164\x65\x20\162\x6f\x75\156\144\145\x64\x2d\x66\165\154\x6c\x20\155\x62\55\62\x20\x6d\144\x3a\155\x62\55\x30\40\x62\x67\x2d\x67\x72\145\145\156\x2d\66\60\x30\42\76" . ucwords(get_post_status($postid)) . "\x3c\57\142\165\164\x74\x6f\x6e\x3e"; goto oj2Gf; FvhKJ: IX7jM: goto PDfy3; PDfy3: echo "\x3c\x62\x75\164\164\157\156\x20\x63\154\x61\163\163\x3d\42\x72\x65\x6c\x61\x74\151\x76\145\x20\x69\x6e\x6c\151\x6e\145\55\x66\154\x65\x78\x20\x63\165\162\163\157\162\x2d\144\x65\x66\141\165\154\x74\x20\151\164\x65\x6d\163\x2d\x63\145\x6e\164\145\162\x20\160\x79\x2d\61\x20\160\170\55\64\40\x74\145\170\x74\55\170\163\x20\x66\157\156\x74\x2d\x62\x6f\x6c\144\x20\164\145\170\164\55\x63\x65\x6e\164\145\162\40\164\x65\170\164\55\x77\150\x69\x74\145\40\162\x6f\x75\x6e\x64\145\144\x2d\x66\x75\x6c\x6c\x20\x6d\142\55\62\40\x6d\x64\72\155\142\x2d\x30\40\142\147\x2d\162\145\x64\x2d\64\60\60\x22\x3e\12\x9\x9\x9\11" . ucwords(get_post_status($postid)) . "\xa\11\x9\11\x9\74\x64\x69\x76\40\x63\154\141\163\163\x3d\42\x61\x62\x73\157\x6c\x75\x74\x65\x20\150\156\x70\165\142\x6c\x69\163\x68\x20\143\x75\162\x73\157\162\x2d\x70\157\151\156\164\x65\162\40\x69\x6e\x6c\x69\x6e\145\55\146\x6c\145\x78\40\x69\164\145\155\163\55\143\145\x6e\164\145\162\40\x6a\x75\x73\x74\151\146\x79\x2d\x63\145\156\x74\x65\162\x20\167\x2d\65\40\x68\55\65\x20\x74\145\170\x74\x2d\x78\163\x20\146\x6f\156\x74\x2d\142\157\x6c\144\40\x74\145\x78\x74\x2d\x77\150\151\164\145\40\x62\x67\x2d\162\145\144\55\65\60\60\x20\142\x6f\x72\144\x65\162\55\62\40\142\157\x72\x64\x65\162\55\x77\150\x69\164\x65\x20\162\157\x75\x6e\x64\145\144\x2d\x66\165\x6c\154\x20\55\x74\157\160\x2d\62\x20\x2d\145\156\144\55\62\40\144\141\x72\x6b\72\x62\x6f\162\x64\145\162\x2d\147\162\141\x79\x2d\71\60\60\42\x20\144\141\x74\141\55\x70\157\163\164\x2d\151\144\x3d\42" . $postid . "\x22\x3e\12\x9\11\11\11\11\74\x73\x76\x67\40\x61\162\151\141\55\x68\151\x64\144\145\x6e\75\x22\x74\162\165\x65\42\40\143\x6c\141\x73\x73\75\42\154\157\x61\x64\x70\165\142\154\x69\x73\150\40\163\151\172\x65\55\x33\x20\x74\x65\x78\x74\55\x77\x68\151\x74\x65\x20\x66\x69\154\x6c\x2d\142\154\165\x65\55\x36\x30\x30\x20\x73\164\162\157\153\145\x2d\133\67\x70\170\x5d\42\40\x20\166\151\145\x77\102\x6f\170\75\x22\x30\x20\60\x20\61\x30\x30\40\x31\60\61\42\40\146\151\x6c\x6c\75\42\x6e\x6f\x6e\x65\42\x20\170\155\x6c\x6e\163\x3d\x22\150\164\x74\x70\x3a\57\x2f\x77\167\x77\56\x77\x33\56\x6f\162\147\x2f\x32\60\x30\x30\57\163\166\x67\x22\76\xa\x9\x9\11\11\11\11\x9\x3c\x70\141\x74\150\40\144\x3d\x22\115\61\60\x30\x20\x35\60\56\65\x39\x30\x38\103\61\x30\60\x20\67\x38\56\62\60\x35\x31\40\67\x37\x2e\66\x31\x34\x32\40\x31\x30\60\56\65\71\x31\40\x35\60\x20\x31\60\60\56\65\71\61\x43\62\62\56\x33\70\x35\70\x20\x31\x30\x30\x2e\65\71\61\x20\x30\x20\x37\x38\x2e\x32\60\65\61\40\60\40\65\x30\x2e\65\x39\60\70\103\x30\x20\x32\x32\x2e\71\x37\66\66\40\62\62\x2e\63\70\65\70\x20\x30\x2e\65\71\60\x38\x32\40\x35\60\40\x30\x2e\65\71\x30\70\62\x43\67\67\56\x36\61\x34\62\40\x30\x2e\x35\71\60\70\62\40\61\60\x30\x20\62\x32\56\x39\x37\x36\66\40\x31\60\60\40\x35\x30\56\x35\71\x30\x38\x5a\x4d\x39\56\x30\70\61\64\x34\40\65\60\x2e\65\71\60\70\x43\71\56\x30\70\x31\64\64\40\67\x33\56\x31\70\x39\x35\x20\x32\67\x2e\64\x30\61\63\40\71\61\56\65\60\x39\64\x20\x35\60\40\x39\61\x2e\65\x30\71\x34\103\67\62\56\65\x39\x38\67\40\71\x31\x2e\x35\x30\x39\x34\40\x39\60\x2e\x39\61\x38\66\x20\67\63\x2e\x31\70\x39\x35\x20\71\x30\x2e\x39\x31\70\x36\x20\65\x30\x2e\65\x39\60\x38\103\71\60\56\x39\x31\70\66\x20\x32\x37\56\71\x39\x32\x31\40\67\62\x2e\x35\71\x38\x37\40\x39\x2e\66\x37\x32\x32\x36\40\x35\x30\x20\x39\x2e\x36\67\62\62\66\103\x32\x37\x2e\64\60\61\x33\40\x39\56\x36\67\62\62\66\x20\71\56\60\x38\x31\64\64\x20\62\67\x2e\x39\x39\62\61\x20\71\56\60\70\x31\64\x34\40\65\60\56\x35\x39\60\70\x5a\x22\40\x66\151\x6c\154\x3d\42\143\165\x72\x72\145\156\x74\x43\x6f\154\157\x72\x22\x2f\x3e\xa\11\11\11\11\11\11\11\74\160\x61\x74\150\x20\144\x3d\x22\x4d\71\63\x2e\71\66\x37\x36\x20\x33\71\56\x30\x34\60\x39\x43\71\66\x2e\x33\71\63\40\x33\70\x2e\x34\x30\x33\x38\40\x39\x37\56\x38\66\62\64\40\63\65\x2e\x39\x31\61\x36\x20\x39\x37\x2e\60\x30\x37\71\40\x33\63\x2e\x35\65\x33\x39\x43\x39\65\56\x32\x39\63\x32\x20\62\70\56\70\62\x32\67\40\x39\x32\56\70\67\61\40\x32\x34\56\x33\66\71\x32\x20\70\x39\x2e\70\x31\66\x37\40\x32\x30\56\x33\64\70\103\70\x35\56\70\x34\x35\x32\x20\61\65\x2e\x31\61\x39\x32\40\70\x30\56\70\x38\62\66\40\61\x30\56\x37\x32\x33\x38\40\67\65\56\62\x31\62\x34\x20\x37\x2e\64\x31\x32\70\x39\103\x36\x39\x2e\65\64\62\x32\40\64\x2e\x31\x30\x31\71\64\x20\66\x33\x2e\x32\67\x35\64\x20\61\x2e\x39\x34\x30\x32\65\x20\65\66\x2e\x37\x36\71\x38\x20\61\56\60\65\61\62\64\x43\65\61\56\67\66\x36\x36\x20\60\56\x33\x36\x37\x35\x34\x31\40\64\66\x2e\66\71\x37\x36\40\60\56\64\64\x36\x38\64\x33\x20\64\x31\56\x37\63\64\x35\x20\61\56\62\x37\x38\x37\x33\x43\x33\x39\56\x32\x36\61\63\x20\61\x2e\x36\x39\63\62\70\40\x33\67\56\70\x31\63\x20\64\x2e\61\x39\67\x37\x38\x20\x33\70\56\64\65\x30\x31\40\66\56\x36\x32\63\62\66\103\63\71\x2e\x30\70\67\63\40\71\x2e\60\x34\70\x37\x34\x20\x34\61\56\65\x36\71\64\40\x31\60\x2e\x34\x37\x31\67\40\x34\64\56\60\65\x30\x35\x20\x31\60\x2e\61\60\67\61\103\64\67\56\x38\65\61\61\40\x39\x2e\65\64\x38\x35\x35\40\x35\x31\56\x37\61\71\x31\40\71\56\65\62\66\70\x39\x20\x35\x35\56\65\x34\60\62\40\x31\x30\56\x30\x34\x39\x31\x43\66\x30\x2e\70\66\x34\62\x20\x31\x30\x2e\x37\67\66\66\40\x36\65\x2e\x39\71\x32\70\40\61\x32\x2e\x35\x34\65\67\x20\67\60\x2e\66\x33\x33\x31\40\61\65\56\x32\x35\65\x32\103\67\65\56\x32\67\x33\65\40\61\x37\x2e\x39\x36\x34\70\x20\x37\71\x2e\x33\63\x34\67\x20\x32\61\x2e\x35\66\61\x39\40\x38\62\x2e\65\70\x34\x39\x20\x32\x35\x2e\x38\x34\x31\x43\70\x34\x2e\x39\61\x37\x35\x20\x32\70\x2e\71\x31\x32\x31\40\x38\66\x2e\x37\x39\71\x37\x20\63\x32\56\62\71\x31\63\40\70\70\56\61\70\x31\61\x20\x33\65\56\70\67\65\x38\103\70\x39\x2e\60\x38\63\x20\63\70\x2e\62\61\65\70\x20\x39\x31\x2e\65\64\62\x31\x20\63\71\56\x36\67\70\x31\40\71\x33\x2e\71\66\67\x36\40\x33\x39\x2e\x30\64\x30\71\x5a\42\40\x66\151\154\154\75\x22\143\x75\x72\162\145\156\164\x46\151\x6c\154\42\x2f\76\12\11\x9\11\11\11\x3c\x2f\x73\166\x67\x3e\12\11\11\x9\11\x3c\x2f\144\151\166\76\xa\11\11\x9\x3c\x2f\142\165\164\x74\157\156\x3e"; goto ZvKYh; oj2Gf: goto aZ814; goto FvhKJ; RcXGj: } public static function compress_htmlcode($codedata) { goto HdwdD; HdwdD: $searchdata = array("\x2f\134\76\x5b\x5e\134\x53\40\x5d\x2b\57\x73", "\57\x5b\136\134\123\x20\x5d\53\134\74\x2f\x73", "\57\50\x5c\x73\x29\x2b\57\163"); goto fGmrh; S8Hk3: return $codedata; goto YKR4y; fGmrh: $replacedata = array("\x3e", "\x3c", "\x5c\x31"); goto SunGJ; SunGJ: $codedata = preg_replace($searchdata, $replacedata, $codedata); goto S8Hk3; YKR4y: } }
+namespace HNMG\Episodes;
+
+class EP_Helper {
+	
+	public function compose($view) {
+        $view->with([
+            'getPlayerTypesAsText' 	=> [$this, 'getPlayerTypesAsText'],
+            'hnmg_last_episode' 	=> [$this, 'hnmg_last_episode'],
+            'selected' 				=> [$this, 'selected'],
+            'hnupdate_publish' 		=> [$this, 'hnupdate_publish'],
+            'hnshow_status' 		=> [$this, 'hnshow_status'],
+            'hnshow_formality' 		=> [$this, 'hnshow_formality'],
+            'list_episode_servers' 	=> [$this, 'list_episode_servers'],
+            'hidden_servers' 		=> [$this, 'hidden_servers'],
+        ]);
+    }
+	
+	public function selected($query, $key){
+		$active = $query == $key ? ' selected' : '';
+		return $active;
+	}
+	
+	public function set_post_modified($post_id) {
+	    $post = array(
+	        'ID' => $post_id,
+	        'post_modified_gmt' => date( 'Y:m:d H:i:s' )
+	    );
+	    wp_update_post( $post );
+	}	
+	
+	public function get_post_format($type) {
+        $post_formats = array(
+            'movie' => 'aside',
+            'movies' => 'aside',
+            'single_movies' => 'aside',
+            'tv_series' => 'gallery',
+            'tv_shows' => 'video',
+            'theater_movie' => 'audio'
+        );
+        $post_format = $type ? $post_formats[$type] : '';
+        return $post_format;
+    }
+	
+	public function array_key_last($array){
+        if (!is_array($array) || empty($array)) {
+            return NULL;
+        }
+        return array_keys($array)[count($array)-1];
+    }
+	
+	public function hnmg_last_episodes($post_id) {
+		$last_episode = '';
+		$metaPost = get_post_meta($post_id, HNMG_EPS, true );
+		$dataPlayer = json_decode($metaPost, true);
+		if($dataPlayer != ''){
+			$last_episode = $dataPlayer[0]['haunmovies_server_data'][$this->array_key_last($dataPlayer[0]['haunmovies_server_data'])]['haunmovies_ep_name'];
+		}
+		return $last_episode;
+	}
+	
+	public function last_episode_by_serverid($post_id, $server) {
+		$episode_meta = get_post_meta($post_id, HNMG_EPS, true);
+		$data = json_decode(stripslashes($episode_meta));
+		if ($data && isset($data->$server)) {
+			$server_data = $data->$server->haunmovies_server_data ?? [];
+			if (!empty($server_data)) {
+				$lastEl = end(array_keys((array) $server_data));
+				if (preg_match('/(\d+)/', $lastEl, $lastEp)) {
+					return $lastEp[1] ?? false; 
+				}
+			}
+		}
+		return false;
+	}
+
+	public function hnmg_last_episode($post_id, $meta) {
+		$last_episode = '';
+		$total_episode = isset($meta['haun_total_episode']) ? $meta['haun_total_episode'] : ' <svg class="size-4 inline text-white font-bold" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" /></svg>';
+		$metaPost = get_post_meta($post_id, HNMG_EPS, true );
+		if (!empty($metaPost)) {
+			$dataPlayer = json_decode($metaPost, true);
+			if (!empty($dataPlayer)) {
+				if (!empty($dataPlayer[0]['haunmovies_server_data'])) {
+					$last_key = $this->array_key_last($dataPlayer[0]['haunmovies_server_data']);
+					if (isset($dataPlayer[0]['haunmovies_server_data'][$last_key]['haunmovies_ep_name'])) {
+						$last_episode = $dataPlayer[0]['haunmovies_server_data'][$last_key]['haunmovies_ep_name'];
+					}
+				}
+			}
+		}
+		if ($last_episode == 'Full') {
+			return '<button class="py-1 px-5 bg-sky-500 text-white text-xs font-semibold rounded-full shadow-blue-500/50 focus:outline-none">Full</button>';
+		}
+		if(!empty($last_episode) && !empty($total_episode)) {
+			return '<button class="py-1 px-5 bg-sky-500 text-white text-xs font-semibold rounded-full shadow-blue-500/50 focus:outline-none">' . $last_episode . '/' . $total_episode . '</button>';
+		}
+		return $last_episode;
+	}
+
+	public function hidden_servers($post_id, $data) {
+		$hidden_servers = get_post_meta($post_id, 'episode_server_hidden', true);
+		$html =  '';
+		$html .=  '<div class="relative">
+			<button @click="toggleHiddenMenu(' . $post_id . ')" class="text-gray-600 text-xs font-semibold border border-slate-400/10 bg-slate-400/10 rounded-full py-1 px-3">
+				' . __('Choose Server Hide', 'hnmgepis') . '
+				<svg width="6" height="3" class="ml-2 overflow-visible inline" aria-hidden="true">
+					<path d="M0 0L3 3L6 0" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+				</svg>
+			</button>
+			<ul x-show="openHidden[' . $post_id . ']" @click.away="openHidden[' . $post_id . '] = false" class="absolute left-0 mt-2 bg-white border border-slate-100 w-44 shadow-lg z-10 rounded-lg">
+				<li @click="saveHiddenServer(' . $post_id . ')" class="cursor-pointer px-4 py-2 hover:bg-gray-100 text-right hover:rounded-t-lg">
+					<span :class="{\'bg-sky-500\': saveMessage[' . $post_id . '] !== \'' . __('Saving...', 'hnmgepis') . '\', \'bg-green-500\': saveMessage[' . $post_id . '] === \'' . __('Done', 'hnmgepis') . '\', \'bg-red-500\': saveMessage[' . $post_id . '] === \'' . __('Error', 'hnmgepis') . '\'}" class="px-5 py-1 text-xs leading-5 rounded-full font-semibold text-white" x-text="saveMessage[' . $post_id . '] || \'' . __('Save', 'hnmgepis') . '\'"></span>
+				</li>';
+				
+				if($data){
+					foreach($data as $key => $value){
+						$hiddenservers = $hidden_servers ? $this->checked_selected_multiple($hidden_servers, $key, 'checked', false) : '';
+						$html.= '<li id="episode_server_hidden-' . $post_id . '" class="px-2 py-1.5 text-left hover:bg-gray-200">
+							<input type="checkbox" value="' . $key . '" class="mr-2 mt-0" name="episode_server_hidden" '.$hiddenservers.' />
+							' . __('Hide', 'hnmgepis') . ' <strong>' . $value['haunmovies_server_name'] . '</strong>
+						</li>';
+					}
+				}
+			$html.= '</ul>
+		</div>';
+		return $html;
+	}
+	
+	public function checked_selected_multiple($selected_arr, $current = true, $type = 'selected', $echo = true) {
+		if (in_array($current, $selected_arr)) {
+			if ($echo) {
+				echo $type;
+			}
+			return $type;
+		}
+	}
+	
+	public function list_episode_servers($post_id, $data) {
+		$html= '';
+		if ($data !== NULL) {
+			$html .= '<select @change="handleExportChange" class="rounded-full text-xs font-bold px-6" data-post-id="' . $post_id . '">
+				<option value="">' . __('Choose A Server', 'hnmgepis') . ' </option>';
+				foreach ($data as $key => $value) {
+					$html .= ' <option value=" ' .$key . ' ">' . $value['haunmovies_server_name'] . '</option>';
+				}
+			$html .= '</select>';
+		}
+		return $html;
+	}
+	
+	public function hnshow_formality($data = '') {
+		$types = [
+			'single_movies' => ['label' => __('Movies', 'hnmgepis'), 'color' => 'bg-red-500'],
+			'tv_series' => ['label' => __('TV Series', 'hnmgepis'), 'color' => 'bg-blue-600'],
+			'tv_shows' => ['label' => __('TV Shows', 'hnmgepis'), 'color' => 'bg-teal-600'],
+			'theater_movie' => ['label' => __('Theater Movie', 'hnmgepis'), 'color' => 'bg-fuchsia-800']
+		];
+		if ($data != '' && isset($types[$data])) {
+			return '<button type="button" class="py-1 px-3 my-0.5 ' . $types[$data]['color'] . ' text-white text-xs font-semibold rounded-full shadow-blue-500/50 focus:outline-none">'  . $types[$data]['label'] . '</button>';
+		}
+		return '';
+	}
+
+	public function hnshow_status($data = '') {
+		$statuses = [
+			'is_trailer' => ['label' => __('Trailer', 'hnmgepis'), 'color' => 'bg-red-500'],
+			'ongoing' => ['label' => __('Ongoing', 'hnmgepis'), 'color' => 'bg-blue-600'],
+			'completed' => ['label' => __('Completed', 'hnmgepis'), 'color' => 'bg-teal-600'],
+			'moviecoming' => ['label' => __('Movies Coming', 'hnmgepis'), 'color' => 'bg-fuchsia-800']
+		];
+		if (isset($statuses[$data])) {
+			return '<button type="button" class="py-1 px-3 my-0.5 ' . $statuses[$data]['color'] . ' text-white text-xs font-semibold rounded-full shadow-blue-500/50 focus:outline-none">' . $statuses[$data]['label'] .  '</button>';
+		}
+		return '';
+	}
+
+	public function getPlayerTypes($type = 'link'){
+		$taxonomies = get_terms('episode-types', array('hide_empty' => false));
+		$type = apply_filters( 'haun_episode_type', $type );
+		?>
+			<option value="link" <?php $this->selected($type, 'link' ); ?>>Link</option>
+			<option value="mp4" <?php $this->selected($type, 'mp4' ); ?>>MP4 file</option>
+			<option value="embed" <?php $this->selected($type, 'embed' ); ?>>Embed</option>
+		<?php
+		if ( !empty($taxonomies) ) :
+			foreach( $taxonomies as $category ) { ?>
+				<option value="<?php echo esc_attr( $category->slug ); ?>" <?php $this->selected($type, $category->slug ); ?>><?php echo esc_html( $category->name ); ?></option>
+			<?php
+			}
+		endif;
+	}
+	
+	public function HNPlayerTypesJs($type = 'link') {
+		$taxonomies = get_terms('episode-types', array('hide_empty' => false));
+		$type = apply_filters('haun_episode_type', $type);
+		$types = [
+			'link' => 'Link',
+			'mp4' => 'MP4 file',
+			'embed' => 'Embed'
+		];
+		if (!empty($taxonomies)) {
+			foreach ($taxonomies as $category) {
+				$types[$category->slug] = $category->name;
+			}
+		}
+
+		return $types;
+	}
+
+	public function getPlayerTypesJs($type = 'link'){
+		$taxonomies = get_terms('episode-types', array('hide_empty' => false));
+		$type = apply_filters( 'haun_episode_type', $type );
+		$html = '';
+		$html .= '<option value="link"'.$this->selected($type, 'link' ).'>Link</option><option value="mp4"'.$this->selected($type, 'mp4' ).'>MP4 file</option><option value="embed"'.$this->selected($type, 'embed' ).'>Embed</option>';
+		if ( !empty($taxonomies) ) :
+
+			foreach( $taxonomies as $category ) {
+				$html .= '<option value="'.$category->slug.'"'.$this->selected($type, $category->slug).'>'.$category->name.'</option>';
+			}
+		endif;
+		return $html;
+	}
+	
+	public function getPlayerTypesAsText(){
+		$taxonomies = get_terms('episode-types', array('hide_empty' => false));
+		$html = '';
+		if ( !empty($taxonomies) ) :
+			foreach( $taxonomies as $category ) {
+				$html .= $category->slug.', ';
+			}
+		endif;
+		return $html;
+	}
+
+	
+	public function hnmg_pagenav($total, $showpost, $paged) {
+		$idpage = isset($_GET["post_id"]) ? absint($_GET["post_id"]) : "";
+		$server = isset($_GET["server"]) ? absint($_GET["server"]) : "";
+		$paged = isset($_GET["paged"]) && $_GET["paged"] ? absint($_GET["paged"]) : "1";
+		$total_page = ceil($total / $showpost);
+		$max = intval($total_page);
+		$hnlink = [];
+		if ($paged >= 1) {
+			$hnlink[] = $paged;
+		}
+		if ($paged >= 3) {
+			$hnlink[] = $paged - 1;
+			$hnlink[] = $paged - 2;
+		}
+		if ($paged + 2 <= $max) {
+			$hnlink[] = $paged + 1;
+			$hnlink[] = $paged + 2;
+		}
+
+		echo '<nav aria-label="pagination" class="w-full text-center mt-5">';
+			echo '<form action="admin.php" method="GET" class="inline-block text-center"><div class="relative w-full md:w-36">';
+			echo '<input name="page" type="hidden" value="hnmg-episode"/>';
+			echo '<input name="act" type="hidden" value="edit_ep"/>';
+			echo '<input name="post_id" type="hidden" value="' . $idpage . '"/>';
+			echo '<input name="server" type="hidden" value="' . $server . '"/>';
+			echo '<input name="paged" type="number" value="' . $paged . '" class="block pl-5 py-1.5 w-full z-20 text-xs text-gray-900 bg-gray-50 rounded-full border border-slate-300 focus:ring-0 focus:outline-none" required />
+					<button type="submit" class="absolute top-0 end-0 px-4 py-1.5 text-xs font-bold h-full text-white bg-sky-500 hover:bg-sky-700 rounded-e-full border border-sky-500 focus:ring-0 focus:outline-none">
+						GO
+					</button>
+				</div>';
+			echo '</form>';
+			echo '<ul class="flex items-center justify-center gap-2 text-sm font-medium pb-7 pt-4">';
+				if ($paged > 1) {
+					echo '<li><a href="' . esc_url(get_pagenum_link($paged - 1)) . '" class="flex items-center justify-center rounded-full px-2.5 py-1 bg-teal-700 font-semibold text-white hover:text-rose-500 no-underline">Previous</a></li>';
+				}
+				if (!in_array(1, $hnlink)) {
+					$class = 1 == $paged ? ' bg-black text-white font-bold' : ' bg-teal-700 text-white hover:text-rose-500';
+					echo '<li><a href="' . esc_url(get_pagenum_link(1)) . '" class="flex items-center justify-center rounded-full px-2.5 py-1 font-semibold no-underline' . $class . '">1</a></li>';
+				}
+				sort($hnlink);
+				foreach ($hnlink as $link) {
+					$class = $paged == $link ? ' bg-black text-white font-bold' : ' bg-teal-700 text-white hover:text-rose-500';
+					echo '<li><a href="' . esc_url(get_pagenum_link($link)) . '" class="flex items-center justify-center rounded-full px-2.5 py-1 font-semibold no-underline ' . $class . '">' . $link . '</a></li>';
+				}
+				if (!in_array($max, $hnlink) && $max > 1) {
+					$class = $paged == $max ? ' bg-black text-white font-bold' : ' bg-teal-700 text-white hover:text-rose-500';
+					echo '<li><a href="' . esc_url(get_pagenum_link($max)) . '" class="flex items-center justify-center rounded-full px-2.5 py-1 font-semibold no-underline ' . $class . '">' . $max . '</a></li>';
+				}
+
+				if ($paged < $max) {
+					echo '<li><a href="' . esc_url(get_pagenum_link($paged + 1)) . '" class="flex items-center justify-center rounded-full px-2.5 py-1 font-semibold bg-teal-700 text-white hover:text-rose-500 no-underline">Next</a></li>';
+				}
+			echo '</ul>';
+		echo '</nav>';
+		
+	}
+	
+	public function hnimage_display($size = 'movie-thumb') {
+		global $post;
+		if (!$post) return null;
+		$meta_data = $post->post_type === 'video' ? get_post_meta($post->ID, HNMG_VIDEO, true) : get_post_meta($post->ID, HNMG_META, true);
+		$thumb = $meta_data['video_thumbnail_url'] ?? $meta_data['haun_thumb_url'] ?? '';
+		if (has_post_thumbnail()) {
+			$image_url = wp_get_attachment_image_src(get_post_thumbnail_id(), $size)[0] ?? '';
+		} else {
+			if (!$thumb) {
+				ob_start();
+				ob_end_clean();
+
+				preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
+				$thumb = $matches[1][0] ?? null;
+			}
+			$image_url = $thumb ?: get_template_directory_uri() . '/assets/images/' . ($post->post_type === 'video' || $post->post_type === 'news' ? 'default.png' : 'default-poster.jpg');
+		}
+
+		return esc_url($image_url);
+	}
+	
+	public function hnupdate_views($postID) {
+		$views = get_post_meta($postID, '_hnviews', true);
+		if (!$views) {
+			$views = [
+				'hnview_post_all' => 0,
+				'hnview_post_day' => 0,
+				'hnview_post_week' => 0,
+				'hnview_post_mon' => 0,
+			];
+		}
+		$views['hnview_post_all']++;
+		$views['hnview_post_day']++;
+		$views['hnview_post_week']++;
+		$views['hnview_post_mon']++;
+		update_post_meta($postID, '_hnviews', $views);
+	}
+
+	public function hnshow_views($postid, $type = 'all') {
+		$views = get_post_meta($postid, '_hnviews', true);
+		if (!$views) {
+			$views = [
+				'hnview_post_all' => 0,
+				'hnview_post_day' => 0,
+				'hnview_post_week' => 0,
+				'hnview_post_mon' => 0,
+			];
+			update_post_meta($postid, '_hnviews', $views);
+		}
+		$count = $views["haun_view_post_{$type}"] ?? $views['hnview_post_all'];
+		$precision = 1; 
+		if ($count < 900) { 
+			$n_format = number_format($count, $precision);
+			$suffix = '';
+		} else if ($count < 900000) { 
+			$n_format = number_format($count / 1000, $precision);
+			$suffix = 'K';
+		} else if ($count < 900000000) {
+			$n_format = number_format($count / 1000000, $precision);
+			$suffix = 'M';
+		} else if ($count < 900000000000) {
+			$n_format = number_format($count / 1000000000, $precision);
+			$suffix = 'B';
+		} else { 
+			$n_format = number_format($count / 1000000000000, $precision);
+			$suffix = 'T';
+		}
+		if ($precision > 0) {
+			$dotzero = '.' . str_repeat('0', $precision);
+			$n_format = str_replace($dotzero, '', $n_format);
+		}
+		return $n_format . $suffix;
+	}
+
+	public function hnupdate_publish($postid){
+		if(get_post_status($postid) !== 'publish'):
+			return '<button class="relative inline-flex cursor-default items-center py-1 px-4 text-xs font-bold text-center text-white rounded-full mb-2 md:mb-0 bg-red-400">
+				' .ucwords(get_post_status($postid)). '
+				<div @click="hnpublish('.$postid.', $event)" class="absolute cursor-pointer inline-flex items-center justify-center w-5 h-5 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900">
+					<svg aria-hidden="true" class="loadpublish size-3 text-white fill-blue-600 stroke-[7px]"  viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor"/>
+							<path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentFill"/>
+					</svg>
+				</div>
+			</button>';
+		else: 
+			return '<button class="py-1 px-4 text-xs cursor-default font-bold text-center text-white rounded-full mb-2 md:mb-0 bg-green-600">' .ucwords(get_post_status($postid)). '</button>';
+		endif;
+	}
+	
+	public static function compress_htmlcode($codedata) {
+		$searchdata = array('/\>[^\S ]+/s','/[^\S ]+\</s','/(\s)+/s');
+		$replacedata = array('>','<','\\1');
+		$codedata = preg_replace($searchdata, $replacedata, $codedata);
+		return $codedata;
+	}
+}
+
+?>

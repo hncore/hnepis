@@ -1,8 +1,101 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\Episodes; use HNMG\Episodes\EP_Helper; class EP_Post { public function __construct() { $this->load = new EP_Helper(); } public function register() { goto Mp9yM; Mp9yM: add_action("\x73\141\166\145\x5f\x70\157\x73\164", [$this, "\150\156\163\x61\166\x65\x5f\143\165\163\x74\x6f\155\137\x70\157\163\x74\155\x65\164\x61"]); goto zgOrL; YkiDW: add_action("\x6d\x61\156\141\147\145\x5f\x70\157\163\164\x5f\x70\157\163\164\163\x5f\x63\x75\x73\x74\x6f\155\x5f\x63\157\x6c\165\x6d\x6e", [$this, "\x68\x6e\x63\x6f\x6c\x75\155\156\x73\137\143\x6f\x6e\x74\145\x6e\x74"], 10, 2); goto PiXYQ; zgOrL: add_action("\155\141\156\141\147\145\x5f\x70\x6f\163\164\137\x70\x6f\x73\164\x73\x5f\143\157\154\x75\x6d\x6e\x73", [$this, "\150\x6e\x73\x65\x74\x5f\x70\157\163\x74\137\x63\x6f\154\x75\x6d\156\x73"]); goto YkiDW; PiXYQ: } public function hnset_post_columns($columns) { return array("\143\x62" => "\x3c\x69\x6e\x70\x75\164\x20\164\171\x70\145\75\x22\143\150\x65\143\x6b\142\x6f\170\x22\x20\57\76", "\x68\x6e\155\x6f\166\x69\145\x73\x2d\x74\x69\x74\x6c\145" => __("\x54\x69\164\x6c\x65", "\150\x6e\x6d\147\x65\x70\151\163"), "\x68\156\155\157\166\151\x65\x73\x5f\x69\x6d\x61\x67\145\x73" => __("\x54\x68\x75\x6d\142\163", "\x68\x6e\x6d\147\145\x70\x69\163"), "\x68\x6e\155\157\166\151\145\x73\137\x64\145\164\x61\x69\x6c\163" => __("\x44\145\164\x61\151\154\163", "\150\156\x6d\x67\x65\160\x69\x73"), "\143\x61\x74\x65\147\157\162\151\x65\163" => __("\103\141\164\145\x67\157\162\x69\145\x73", "\150\156\155\147\145\160\151\163"), "\164\141\x78\157\156\x6f\x6d\171\x2d\x61\x63\x74\x6f\x72" => __("\101\x63\164\157\162\163", "\150\156\x6d\x67\x65\160\151\163"), "\164\x61\170\x6f\x6e\x6f\155\x79\55\x64\151\162\145\x63\164\x6f\x72" => __("\x44\x69\162\x65\x63\164\x6f\x72\163", "\x68\156\x6d\x67\x65\x70\151\x73"), "\x74\x61\x78\x6f\156\x6f\x6d\x79\x2d" . get_taxonomy("\x72\145\x6c\x65\x61\x73\145")->name => __("\x52\145\x6c\145\141\x73\145", "\x68\x6e\155\x67\145\160\x69\163"), "\x74\141\170\157\156\157\155\171\x2d" . get_taxonomy("\x63\157\165\156\164\x72\x79")->name => __("\x43\x6f\165\x6e\x74\x72\171", "\150\x6e\x6d\147\145\x70\x69\163"), "\x74\141\147\x73" => __("\124\x61\147\x73", "\x68\x6e\155\147\x65\160\151\x73"), "\x68\156\x6d\157\166\x69\x65\x73\x5f\165\160\144\141\164\x65\x64" => __("\114\x61\163\164\40\125\x70\x64\x61\x74\x65", "\x68\156\155\147\x65\160\151\163"), "\x68\x6e\x6d\157\166\151\145\x73\x5f\141\143\164\x69\157\156" => __("\105\160\151\163\x6f\x64\x65\x73", "\150\x6e\x6d\x67\x65\160\151\x73")); } public function hncolumns_content($column_name, $post_id) { goto WPwRA; Q55te: echo "\x3c\144\151\166\x20\x63\154\141\x73\x73\x3d\42\162\x65\x6c\x61\x74\151\x76\x65\x20\155\x61\x78\55\x77\x2d\133\x31\65\60\x70\170\135\x20\x74\x65\x78\164\x2d\x63\x65\156\164\x65\162\x20\40\x6d\x61\x78\55\x68\x2d\x32\x38\x20\162\157\165\x6e\144\145\144\x2d\154\x67\40\163\150\141\144\157\x77\x2d\x6c\147\x22\x3e\12\11\11\11\11\11\x3c\151\x6d\x67\40\163\162\143\x3d\x22" . $this->load->hnimage_display("\x6d\157\x76\x69\x65\x2d\x74\150\165\155\x62") . "\42\40\x63\x6c\141\163\163\75\42\167\55\146\x75\x6c\x6c\x20\150\x2d\146\x75\x6c\x6c\x20\x72\157\165\x6e\x64\145\x64\55\x6c\x67\x22\x2f\x3e\xa\11\x9\x9\x9\x9\x3c\144\151\166\40\143\x6c\x61\163\163\x3d\x22\x61\x62\163\157\x6c\165\164\145\x20\164\145\170\x74\x2d\133\x31\61\160\x78\135\x20\x66\x6f\156\x74\x2d\x62\157\154\x64\x20\164\x65\x78\x74\55\x77\x68\151\164\x65\40\x62\147\x2d\162\x65\144\55\x35\x30\x30\x20\x70\x78\55\x32\x20\x72\x6f\165\x6e\144\145\x64\55\142\154\55\154\147\x20\x72\x6f\x75\x6e\144\x65\144\55\164\x72\55\x6c\x67\40\x74\157\160\55\60\40\145\156\144\55\x30\42\x3e\xa\x9\x9\x9\11\x9\x9" . $this->load->hnshow_views($post_id) . "\x20" . __("\166\151\x65\167", "\x68\156\155\147\x65\160\151\163") . "\xa\x9\x9\x9\11\x9\x3c\57\x64\x69\166\76\xa\x9\11\x9\x9\74\57\x64\151\166\x3e\12\11\11\x9"; goto GbZSC; Tf5jk: $total = !empty($meta["\x68\x61\x75\x6e\137\x74\157\x74\x61\154\137\145\160\151\163\157\x64\145"]) ? $meta["\150\141\165\156\x5f\164\x6f\x74\141\x6c\137\145\160\x69\x73\157\x64\145"] : "\x30"; goto QdIJO; WPwRA: $meta = get_post_meta($post_id, HNMG_META, true); goto r8SCq; ahxgn: oksKm: goto pdEGw; g9npM: if (!($column_name == "\x68\x6e\x6d\157\166\x69\145\163\x5f\144\x65\164\141\151\x6c\163")) { goto aFJSF; } goto oHWPh; v2K0A: $check = !empty($meta["\150\141\165\156\137\155\x6f\x76\151\x65\x5f\x73\x74\x61\x74\x75\x73"]) ? $this->load->hnshow_status($meta["\x68\141\x75\x6e\137\155\157\166\x69\145\x5f\x73\164\x61\164\165\163"]) : ''; goto yhnBp; DUcDR: $org_title = isset($meta["\150\x61\165\x6e\137\157\x72\x69\x67\x69\x6e\x61\154\137\x74\151\164\x6c\x65"]) && $meta["\x68\x61\165\x6e\x5f\157\x72\151\x67\151\x6e\x61\x6c\137\164\151\x74\154\145"] != '' ? "\74\163\x70\x61\x6e\40\x63\154\x61\163\163\x3d\42\x6f\x72\147\137\164\151\164\x6c\145\42\76\x28" . $meta["\x68\x61\x75\x6e\x5f\157\x72\151\147\151\156\141\x6c\x5f\164\151\164\x6c\145"] . "\x29\74\57\x73\x70\141\x6e\x3e" : ''; goto pN_Bu; r8SCq: if (!($column_name == "\x68\x6e\x6d\x6f\x76\151\145\x73\137\151\155\141\147\x65\x73")) { goto hCj4J; } goto Q55te; oHWPh: $quality = !empty($meta["\150\141\x75\156\137\161\x75\x61\x6c\x69\164\x79"]) ? "\x3c\142\x75\x74\164\157\x6e\40\x74\x79\160\x65\75\42\142\165\164\164\x6f\x6e\42\40\x63\154\141\x73\163\x3d\x22\160\x79\x2d\61\x20\x70\170\x2d\x33\x20\x6d\x79\x2d\x30\x2e\65\40\x62\147\x2d\162\x6f\x73\x65\x2d\x38\60\x30\40\164\145\170\x74\x2d\x77\x68\x69\164\145\40\164\x65\x78\164\55\170\163\40\x66\x6f\156\x74\55\163\x65\x6d\x69\x62\157\154\144\x20\162\x6f\165\x6e\144\x65\x64\x2d\146\x75\154\154\x20\163\150\141\x64\x6f\x77\55\x72\x6f\163\x65\x2d\x35\60\60\57\65\x30\40\x66\157\143\165\x73\72\x6f\165\x74\154\x69\156\145\55\x6e\157\156\x65\42\76" . $meta["\x68\x61\x75\156\x5f\161\165\141\154\151\x74\171"] . "\74\x2f\142\x75\164\x74\x6f\156\76" : ''; goto TrEcz; GbZSC: hCj4J: goto g9npM; sa2Hl: if (!($column_name == "\x68\156\x6d\x6f\x76\151\x65\x73\137\141\x63\x74\151\x6f\156")) { goto JdMiM; } goto PN9Ot; pN_Bu: echo "\x3c\141\40\143\154\141\x73\163\x3d\42\145\144\151\164\55\x70\157\163\x74\55\154\x69\156\153\42\x20\150\x72\x65\146\x3d\x22" . get_edit_post_link($post_id) . "\x22\76" . get_the_title() . "\x20\74\57\141\x3e\x20" . $org_title; goto yABfe; PN9Ot: echo "\x3c\x61\x20\x63\x6c\x61\x73\163\75\42\145\144\x69\x74\105\120\x53\x22\40\x68\x72\x65\146\x3d\x22" . admin_url("\x61\144\x6d\151\x6e\x2e\x70\x68\x70\77\160\x61\147\x65\75\150\156\155\x67\x2d\x65\x70\151\x73\x6f\144\x65\46\x61\143\x74\75\x65\144\151\164\137\x65\x70\x26\x70\157\163\164\137\x69\144\x3d" . $post_id) . "\x22\x20\164\x61\162\x67\x65\x74\x3d\42\x5f\142\154\x61\x6e\153\42\x20\x63\154\141\x73\163\x3d\42\164\x65\x78\x74\x2d\143\x65\x6e\164\145\x72\x22\x3e\xa\11\x9\11\11\74\x62\x75\164\x74\157\156\x20\141\162\151\141\55\x6c\x61\142\x65\x6c\x3d\x22\143\162\145\x61\x74\145\40\163\157\155\x65\164\150\151\156\x67\40\145\160\151\143\x22\x20\x74\x79\x70\x65\75\42\142\x75\x74\164\x6f\x6e\x22\x20\x63\x6c\x61\x73\x73\75\42\x63\165\162\x73\x6f\162\55\x70\x6f\x69\x6e\x74\x65\162\x20\x69\156\154\151\x6e\145\x2d\146\x6c\145\170\40\152\x75\x73\164\x69\x66\x79\55\143\x65\156\x74\145\x72\x20\151\x74\x65\x6d\163\x2d\x63\145\156\164\145\162\x20\x61\x73\x70\145\x63\164\x2d\x73\161\165\x61\162\x65\40\167\x68\151\164\145\163\160\141\x63\145\55\156\157\x77\162\x61\x70\40\162\157\x75\156\144\145\x64\x2d\146\165\154\154\x20\142\147\x2d\x73\x6b\x79\x2d\65\x30\x30\x20\160\x2d\x32\x20\x74\145\170\x74\55\x78\x73\x20\x66\157\x6e\164\x2d\155\x65\144\151\165\155\x20\164\x72\x61\143\x6b\x69\x6e\147\x2d\x77\151\144\x65\x20\x74\x65\170\x74\55\x77\x68\151\164\x65\40\x74\x72\x61\x6e\163\151\164\151\x6f\156\x20\x68\x6f\x76\x65\x72\72\x6f\160\x61\143\151\164\x79\55\x37\x35\40\164\x65\x78\164\55\143\x65\156\164\x65\162\x20\146\157\143\x75\x73\55\x76\x69\163\x69\x62\x6c\x65\x3a\x6f\165\164\x6c\151\x6e\x65\x20\x66\157\x63\165\163\x2d\166\x69\x73\151\142\x6c\x65\72\x6f\x75\x74\x6c\x69\x6e\145\55\x32\40\x66\x6f\x63\165\163\55\x76\151\x73\x69\142\154\145\x3a\x6f\165\164\154\x69\156\145\55\157\146\146\163\145\x74\55\x32\40\146\157\143\165\163\x2d\x76\x69\163\x69\x62\x6c\145\x3a\157\x75\x74\154\x69\156\145\55\x73\x6b\171\55\65\x30\60\40\141\143\x74\151\166\145\72\x6f\160\x61\143\151\x74\171\55\x31\x30\60\40\x61\143\164\151\x76\x65\x3a\x6f\165\164\x6c\151\156\145\x2d\157\146\x66\163\145\x74\x2d\x30\40\x64\151\163\141\142\x6c\145\x64\72\x6f\x70\x61\x63\x69\164\x79\55\x37\65\40\x64\151\x73\x61\142\154\x65\144\x3a\x63\x75\x72\x73\157\x72\55\156\157\164\x2d\x61\154\x6c\157\167\x65\144\x20\x64\141\162\x6b\x3a\x62\x67\55\x73\153\x79\x2d\x35\x30\60\40\144\141\x72\153\x3a\x74\145\x78\x74\x2d\x77\150\x69\x74\145\x20\144\141\162\153\72\x66\x6f\x63\165\x73\x2d\x76\151\x73\x69\142\x6c\x65\72\x6f\165\164\154\x69\x6e\x65\55\x73\153\171\x2d\x35\x30\x30\x22\76\xa\11\11\11\11\11\74\163\166\x67\40\170\x6d\x6c\156\x73\75\x22\150\164\164\160\x3a\x2f\57\167\167\x77\x2e\167\x33\x2e\x6f\x72\147\x2f\x32\60\x30\x30\57\x73\166\x67\42\40\166\151\x65\x77\102\x6f\x78\75\42\x30\x20\60\x20\61\66\40\61\66\x22\x20\146\151\x6c\x6c\75\x22\143\x75\x72\x72\145\x6e\x74\x43\x6f\x6c\157\x72\42\x20\143\154\141\x73\163\x3d\42\163\151\x7a\145\x2d\x34\42\76\12\11\11\11\x9\11\11\x3c\x70\x61\164\150\40\x64\75\x22\x4d\x31\x33\x2e\64\x38\70\x20\62\56\65\61\x33\141\x31\x2e\67\x35\x20\x31\x2e\x37\65\x20\x30\x20\x30\x20\60\55\x32\56\64\67\65\x20\60\114\66\56\x37\65\40\66\x2e\67\67\x34\141\62\56\67\65\40\x32\x2e\67\x35\40\60\x20\60\x20\60\55\x2e\x35\x39\x36\56\70\x39\x32\x6c\55\56\x38\64\70\40\x32\x2e\60\x34\67\141\x2e\x37\x35\56\x37\65\x20\x30\x20\x30\x20\60\x20\56\71\70\56\71\70\x6c\x32\x2e\x30\64\67\x2d\x2e\70\x34\x38\x61\62\x2e\67\65\40\62\x2e\67\65\x20\x30\40\x30\x20\x30\40\56\x38\71\x32\55\x2e\65\x39\66\x6c\x34\56\62\66\x31\55\x34\x2e\x32\x36\x32\141\61\x2e\67\x35\40\61\x2e\67\x35\x20\60\x20\60\40\60\x20\x30\55\62\x2e\x34\x37\64\x5a\x22\40\x2f\76\12\11\x9\11\11\x9\11\x3c\x70\141\164\150\40\144\75\x22\x4d\x34\x2e\67\65\x20\x33\x2e\x35\x63\55\56\x36\x39\x20\60\55\61\x2e\x32\x35\56\65\x36\55\61\x2e\x32\x35\40\61\x2e\62\65\x76\66\x2e\65\143\60\40\56\x36\71\x2e\65\66\40\x31\x2e\62\65\x20\61\56\x32\65\x20\x31\56\62\65\x68\x36\56\65\143\56\x36\71\40\60\x20\61\x2e\62\x35\55\56\x35\66\x20\x31\x2e\62\x35\x2d\61\x2e\x32\65\x56\71\101\x2e\67\65\x2e\67\65\x20\x30\x20\x30\x20\61\x20\61\64\40\x39\x76\62\x2e\x32\65\x41\62\x2e\x37\x35\40\62\x2e\67\65\x20\x30\40\x30\x20\61\40\61\x31\56\62\65\x20\61\x34\x68\55\x36\56\65\101\x32\x2e\x37\65\40\62\x2e\x37\x35\x20\x30\x20\60\x20\x31\40\62\x20\61\61\56\62\65\x76\55\66\x2e\65\x41\62\x2e\x37\65\x20\x32\56\67\65\x20\60\40\60\x20\x31\40\x34\x2e\67\65\x20\62\110\x37\x61\x2e\x37\x35\x2e\67\65\40\60\40\60\40\x31\x20\60\x20\61\x2e\x35\110\x34\x2e\67\x35\x5a\42\x20\x2f\76\xa\11\x9\11\x9\11\x3c\57\163\166\x67\76\12\11\x9\11\11\74\57\x62\165\164\x74\x6f\x6e\76\12\11\11\11\74\x2f\141\76"; goto bJls1; QdIJO: $formality = !empty($meta["\150\x61\x75\x6e\x5f\x6d\157\166\x69\x65\x5f\146\157\162\155\141\154\151\164\x79"]) ? $this->load->hnshow_formality($meta["\x68\141\x75\156\137\x6d\157\166\151\145\137\x66\x6f\162\x6d\141\154\x69\x74\x79"]) : ''; goto v2K0A; TrEcz: $episode = !empty($meta["\x68\141\x75\x6e\137\145\x70\151\163\157\144\x65"]) ? "\74\x62\165\164\164\157\156\40\x74\x79\x70\145\x3d\42\142\165\164\x74\x6f\156\42\40\x63\154\x61\x73\163\75\42\160\171\55\61\40\160\x78\x2d\x33\40\155\x79\x2d\60\x2e\65\40\142\x67\55\141\155\x62\x65\x72\55\x35\x30\x30\40\x74\x65\170\x74\x2d\x77\x68\x69\x74\145\x20\x74\x65\x78\164\55\170\163\x20\x66\157\x6e\x74\x2d\x73\x65\155\151\142\157\x6c\x64\40\162\157\x75\156\144\x65\144\55\x66\165\x6c\x6c\40\163\150\x61\144\x6f\167\55\141\155\x62\x65\x72\x2d\x35\60\60\57\x35\x30\x20\x66\x6f\x63\x75\x73\72\x6f\165\164\154\151\156\x65\x2d\156\x6f\156\x65\x22\76" . $meta["\x68\141\x75\156\137\145\160\x69\163\157\x64\x65"] . "\74\x2f\x62\x75\164\164\157\156\x3e" : ''; goto Tf5jk; bJls1: JdMiM: goto b_YS2; yABfe: l5eyE: goto sa2Hl; LDD_d: if (!($column_name == "\150\156\x6d\157\x76\151\x65\163\137\x75\160\x64\x61\164\x65\x64")) { goto oksKm; } goto F9nJi; yhnBp: echo "\74\144\151\166\x20\143\154\x61\x73\163\75\42\162\145\154\x61\x74\151\x76\x65\40\x66\154\x65\170\x20\146\x6c\x65\x78\55\167\162\x61\x70\40\147\141\160\55\x70\x78\x22\x3e" . $episode . $quality . $formality . $check . "\74\57\x64\151\x76\x3e"; goto zLmrK; F9nJi: echo "\74\144\151\x76\40\143\x6c\141\163\x73\x3d\x22\x74\145\x78\164\55\143\x65\x6e\x74\145\162\42\76" . get_the_modified_date(get_option("\144\141\x74\x65\x5f\x66\x6f\162\155\x61\x74"), $post_id) . "\x3c\57\x64\x69\x76\76"; goto ahxgn; zLmrK: aFJSF: goto LDD_d; pdEGw: if (!($column_name == "\150\x6e\155\x6f\166\x69\x65\163\x2d\x74\x69\164\154\x65")) { goto l5eyE; } goto DUcDR; b_YS2: } public function hnsave_custom_postmeta($post_id) { goto BK20q; BK20q: $currentScreen = get_current_screen(); goto VE86B; MyPQ8: ZgxEu: goto hwsgO; VE86B: if (!(@$currentScreen->id == "\x70\157\163\164")) { goto aM33k; } goto HD4rI; QGN6U: wp_set_object_terms($post_id, $options["\x68\x61\165\156\x5f\x6d\157\166\x69\x65\x5f\163\x74\x61\164\165\163"], "\163\x74\x61\x74\165\x73", false); goto C6uE0; HD4rI: $options = isset($_POST[HNMG_META]) ? $_POST[HNMG_META] : ''; goto Piv_C; EOQQU: aM33k: goto tR0Xj; CZf1z: set_post_format($post_id, $post_format); goto gglNS; C6uE0: g6dMc: goto cnYxo; FzoNo: wp_set_object_terms($post_id, $options["\x68\x61\x75\156\137\141\144\144\x5f\x74\157\x5f\167\x69\x64\x67\x65\x74"], "\x70\157\163\164\137\157\x70\x74\x69\157\156\163", false); goto DZGYV; DZGYV: W_LUB: goto mxbo_; hwsgO: if (!isset($options["\150\x61\x75\x6e\x5f\155\x6f\x76\x69\145\x5f\146\x6f\x72\155\x61\154\151\164\x79"])) { goto LTbNT; } goto HhX_b; SlcP_: wp_set_object_terms($post_id, $options["\150\x61\165\x6e\137\x6d\157\166\151\145\x5f\163\143\x68\145\144\165\154\x65"], "\160\x6f\x73\164\x5f\150\x61\165\x6e", false); goto MyPQ8; Piv_C: if (!isset($options["\150\141\165\x6e\137\155\x6f\x76\x69\x65\137\163\164\x61\x74\x75\x73"])) { goto g6dMc; } goto QGN6U; cnYxo: if (!isset($options["\150\141\x75\x6e\x5f\141\x64\x64\137\x74\x6f\x5f\167\x69\x64\147\x65\164"])) { goto W_LUB; } goto FzoNo; gglNS: LTbNT: goto EOQQU; mxbo_: if (!isset($options["\150\141\x75\x6e\137\x6d\x6f\166\151\x65\x5f\163\143\x68\145\x64\165\154\145"])) { goto ZgxEu; } goto SlcP_; HhX_b: $post_format = $this->load->get_post_format($options["\x68\141\165\156\137\155\x6f\166\x69\x65\137\146\157\162\x6d\141\154\151\x74\171"]); goto CZf1z; tR0Xj: } }
+namespace HNMG\Episodes;
+
+use HNMG\Episodes\EP_Helper;
+
+class EP_Post {
+	
+	public function __construct() {
+		$this->load = new EP_Helper(); 
+	}
+	
+	public function register() {
+		add_action('save_post', [$this, 'hnsave_custom_postmeta']);
+		add_action('manage_post_posts_columns', [$this, 'hnset_post_columns']);
+		add_action('manage_post_posts_custom_column', [$this,'hncolumns_content'], 10, 2);
+	}
+	
+	public function hnset_post_columns($columns) {
+        return array(
+			'cb' => '<input type="checkbox" />', 
+				'hnmovies-title' 	=> __('Title', 'hnmgepis'), 
+				'hnmovies_images' 	=> __('Thumbs', 'hnmgepis'), 
+				'hnmovies_details' 	=> __('Details', 'hnmgepis'), 
+				'categories' 		=> __('Categories', 'hnmgepis'), 
+				'taxonomy-actor' 	=> __('Actors', 'hnmgepis'),
+				'taxonomy-director' => __('Directors', 'hnmgepis'),
+				'taxonomy-' . get_taxonomy('release')->name => __('Release', 'hnmgepis'),
+				'taxonomy-' . get_taxonomy('country')->name => __('Country', 'hnmgepis'),
+				'tags' => __('Tags', 'hnmgepis'), 
+				'hnmovies_updated' => __('Last Update', 'hnmgepis'),
+				'hnmovies_action' 	=> __('Episodes', 'hnmgepis'));
+    }
+	
+	public function hncolumns_content($column_name, $post_id) {
+        $meta = get_post_meta($post_id, HNMG_META, true);
+		
+        if ($column_name == 'hnmovies_images') {
+            echo '<div class="relative max-w-[150px] text-center  max-h-28 rounded-lg shadow-lg">
+					<img src="'. $this->load->hnimage_display('movie-thumb') . '" class="w-full h-full rounded-lg"/>
+					<div class="absolute text-[11px] font-bold text-white bg-red-500 px-2 rounded-bl-lg rounded-tr-lg top-0 end-0">
+						' . $this->load->hnshow_views($post_id) . ' ' . __('view', 'hnmgepis') . '
+					</div>
+				</div>
+			';
+        }
+		
+        if ($column_name == 'hnmovies_details') {
+            $quality 	= !empty($meta['haun_quality']) ? '<button type="button" class="py-1 px-3 my-0.5 bg-rose-800 text-white text-xs font-semibold rounded-full shadow-rose-500/50 focus:outline-none">' . $meta['haun_quality'] . '</button>' : '';
+            $episode 	= !empty($meta['haun_episode']) ? '<button type="button" class="py-1 px-3 my-0.5 bg-amber-500 text-white text-xs font-semibold rounded-full shadow-amber-500/50 focus:outline-none">' . $meta['haun_episode'] . '</button>' : '';
+            $total 		= !empty($meta['haun_total_episode']) ? $meta['haun_total_episode'] : '0';
+            $formality 	= !empty($meta['haun_movie_formality']) ? $this->load->hnshow_formality($meta['haun_movie_formality']) : '';
+            $check 		= !empty($meta['haun_movie_status']) ? $this->load->hnshow_status($meta['haun_movie_status']) : '';
+            echo '<div class="relative flex flex-wrap gap-px">'.$episode . $quality . $formality . $check .'</div>';
+        }
+		
+        if ($column_name == 'hnmovies_updated') {
+            echo '<div class="text-center">' . get_the_modified_date(get_option('date_format'), $post_id). '</div>';
+        }
+		
+        if ($column_name == 'hnmovies-title') {
+            $org_title = isset($meta['haun_original_title']) && $meta['haun_original_title'] != '' ? '<span class="org_title">(' . $meta["haun_original_title"] . ')</span>' : '';
+            echo '<a class="edit-post-link" href="' . get_edit_post_link($post_id) . '">' . get_the_title() . ' </a> ' . $org_title;
+        }
+		
+		if ($column_name == 'hnmovies_action') {
+			echo '<a class="editEPS" href="' . admin_url('admin.php?page=hnmg-episode&act=edit_ep&post_id=' . $post_id) . '" target="_blank" class="text-center">
+				<button aria-label="create something epic" type="button" class="cursor-pointer inline-flex justify-center items-center aspect-square whitespace-nowrap rounded-full bg-sky-500 p-2 text-xs font-medium tracking-wide text-white transition hover:opacity-75 text-center focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500 active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:bg-sky-500 dark:text-white dark:focus-visible:outline-sky-500">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4">
+						<path d="M13.488 2.513a1.75 1.75 0 0 0-2.475 0L6.75 6.774a2.75 2.75 0 0 0-.596.892l-.848 2.047a.75.75 0 0 0 .98.98l2.047-.848a2.75 2.75 0 0 0 .892-.596l4.261-4.262a1.75 1.75 0 0 0 0-2.474Z" />
+						<path d="M4.75 3.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h6.5c.69 0 1.25-.56 1.25-1.25V9A.75.75 0 0 1 14 9v2.25A2.75 2.75 0 0 1 11.25 14h-6.5A2.75 2.75 0 0 1 2 11.25v-6.5A2.75 2.75 0 0 1 4.75 2H7a.75.75 0 0 1 0 1.5H4.75Z" />
+					</svg>
+				</button>
+			</a>';
+		}
+    }
+
+	
+	public function hnsave_custom_postmeta( $post_id ){
+		$currentScreen = get_current_screen();
+		if(@$currentScreen->id == 'post'){
+			$options = isset($_POST[HNMG_META]) ? $_POST[HNMG_META] : '';
+			if(isset($options['haun_movie_status'])) {
+				wp_set_object_terms($post_id, $options['haun_movie_status'], 'status', false);
+			}
+			if(isset($options['haun_add_to_widget'])){
+				wp_set_object_terms($post_id, $options['haun_add_to_widget'], 'post_options', false);
+			}
+			if(isset($options['haun_movie_schedule'])){
+				wp_set_object_terms($post_id, $options['haun_movie_schedule'], 'post_haun', false);
+			}
+			if(isset($options['haun_movie_formality'])){
+				$post_format = $this->load->get_post_format($options['haun_movie_formality']);
+				set_post_format($post_id, $post_format);
+			}
+		}
+	}
+
+	
+}
+
+?>

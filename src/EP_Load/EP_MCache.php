@@ -1,8 +1,111 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\EP_Load; use HNMG\EP_Load\EP_Cache; class EP_MCache { public function register() { goto fB4xy; BOS65: add_filter("\110\x4e\x4d\107\55\160\x61\147\x65\x73", [$this, "\x68\x6e\x61\x70\x69\x73\x6f\x64\145\x5f\x63\x61\143\150\x65\137\155\x65\156\x75"]); goto uZrdj; fB4xy: add_action("\167\160\x5f\x61\152\141\170\x5f\162\x65\163\x65\x74\137\160\154\x61\x79\145\x72\x5f\143\x61\x63\150\x65", [$this, "\x72\x65\163\145\164\x5f\160\x6c\x61\171\x65\x72\137\x63\x61\143\x68\x65"]); goto Bj_Xq; ZZ3JW: add_action("\x77\x70\x5f\x61\x6a\x61\x78\137\156\x6f\x70\162\151\166\x5f\144\145\x6c\x65\164\x65\137\x61\x6c\154\x5f\x63\141\x63\x68\145", [$this, "\144\145\154\x65\164\145\137\x61\154\x6c\x5f\143\x61\143\x68\145"]); goto lLkr7; bhFPZ: add_filter("\110\116\115\107\x2d\164\x61\x62\163", [$this, "\x68\x6e\x61\x70\x69\163\x6f\144\x65\x5f\x63\141\143\150\x65\137\x6d\145\156\165"]); goto BOS65; Bj_Xq: add_action("\x77\x70\x5f\141\x6a\x61\170\137\x6e\157\160\162\151\x76\137\162\145\163\x65\164\137\160\x6c\141\171\x65\x72\137\x63\x61\x63\150\145", [$this, "\162\145\163\145\x74\137\x70\154\141\x79\145\162\x5f\143\x61\143\x68\x65"]); goto bhFPZ; uZrdj: add_action("\167\x70\137\x61\152\x61\170\x5f\144\x65\154\x65\164\x65\x5f\141\154\x6c\137\143\x61\x63\x68\145", [$this, "\x64\x65\x6c\x65\164\145\x5f\x61\x6c\154\x5f\143\x61\143\x68\145"]); goto ZZ3JW; lLkr7: } public function hnapisode_cache_menu($nav) { $nav["\61\62\x30"] = array("\x73\x6c\x75\x67" => "\x68\141\165\x6e\55\143\x61\143\150\x65\x2d\x6d\x61\x6e\141\x67\x65\x72", "\x63\141\x6c\x6c\142\141\143\x6b" => array($this, "\150\141\165\156\x5f\x63\x61\x63\150\145\137\x6d\x61\x6e\141\x67\x65\137\160\x61\x67\x65"), "\164\x69\x74\154\145" => __("\110\x4e\x4d\107\40\x43\x61\x63\x68\145", "\x68\x6e\x6d\x67\145\x70\151\163"), "\151\x63\157\x6e" => "\146\141\55\x70\x6c\141\171\x2d\x63\151\162\143\154\145"); return $nav; } public function haun_cache_manage_page() { goto T62Rf; X1Ree: s3zmr: goto Jldjb; NyuDY: cgdBi: goto r2SYL; MHgqs: $cache_count = json_decode($cache->cacheCount()); goto gVTDF; gVTDF: if (!($cache_count->result == 1)) { goto w9lUp; } goto XE02a; V85p2: echo "\74\165\154\40\x63\154\141\163\x73\x3d\x22\x6c\x69\163\164\x2d\x63\141\x63\150\x65\x22\x20\163\164\171\x6c\x65\75\x22\xa\11\11\11\11\x9\11\155\141\x78\x2d\x68\x65\x69\147\150\164\x3a\x20\63\60\x30\x70\170\x3b\12\11\x9\11\x9\11\11\157\166\x65\162\x66\x6c\x6f\x77\55\x78\72\x20\x68\151\x64\x64\x65\x6e\x3b\12\11\11\x9\x9\11\x9\x62\x6f\x72\144\145\162\x3a\40\61\x70\170\x20\163\x6f\x6c\151\x64\x3b\xa\11\11\x9\11\11\11\160\141\144\x64\x69\x6e\147\72\40\x31\x35\x70\x78\73\12\11\x9\x9\x9\x9\x22\76"; goto DsrtW; r2SYL: foreach ($get_cache as $key => $value) { echo "\74\x6c\x69\x3e" . $value->file . "\74\57\154\x69\76"; mO6nE: } goto X1Ree; T62Rf: echo "\x9\x9\x3c\x64\151\166\40\143\154\x61\163\x73\75\42\x77\x72\141\160\40\x68\141\x75\x6e\55\x77\x72\141\160\42\76\xa\11\x9\x9\74\150\61\x3e\103\141\143\150\145\x20\115\141\x6e\141\147\145\x72\x3c\x2f\150\61\76\12\x9\x9\x9\74\144\x69\x76\x20\143\x6c\x61\163\x73\x3d\42\x68\x61\165\156\55\143\141\x63\150\x65\x2d\142\157\x78\x22\76\12\x9\11\x9\11"; goto d2NDb; d2NDb: $cache = new EP_Cache(); goto MHgqs; Jldjb: xPbX8: goto HvD_H; HvD_H: echo "\74\x2f\x75\x6c\x3e"; goto ObdCu; zB5XC: goto xPbX8; goto NyuDY; fg4uQ: $get_cache = json_decode($cache->getCache()); goto V85p2; DsrtW: if ($get_cache) { goto cgdBi; } goto APnHO; XE02a: echo "\x3c\x73\x70\x61\156\40\x63\154\141\x73\x73\75\x22\x63\x61\x63\x68\x65\x2d\143\157\165\156\x74\x22\x20\163\164\171\154\x65\75\42\143\157\154\x6f\162\72\x20\x72\x65\x64\73\42\76\124\x6f\164\141\x6c\x20\x63\x61\143\150\145\72\x20" . $cache_count->total_cache . "\x3c\57\163\x70\x61\x6e\76"; goto FfoV3; FfoV3: w9lUp: goto fg4uQ; ObdCu: echo "\x9\11\11\x9\x3c\x64\151\166\x20\151\x64\75\42\x64\145\154\145\x74\145\x2d\x61\x6c\154\55\x63\x61\143\150\x65\x22\40\x63\154\x61\x73\x73\x3d\x22\142\x75\x74\164\157\156\x20\142\x75\x74\x74\157\156\x2d\x70\162\x69\x6d\x61\x72\171\42\x3e\104\x65\x6c\x65\x74\x65\x20\x61\154\x6c\x20\143\x61\x63\x68\145\x3c\57\x64\151\166\x3e\12\x9\x9\11\11\x3c\144\151\166\x20\x69\x64\75\42\162\x65\163\165\x6c\164\42\x3e\x3c\x2f\144\x69\x76\76\xa\x9\x9\x9\11\74\163\x63\162\151\160\164\x3e\xa\x9\11\x9\11\x9\152\121\x75\x65\162\171\50\x64\157\143\x75\x6d\x65\x6e\164\x29\56\x72\x65\141\144\x79\x28\146\165\x6e\x63\x74\151\x6f\156\x28\x24\51\173\12\x9\11\x9\x9\x9\11\152\121\165\145\x72\171\50\47\x23\x64\145\x6c\145\164\145\55\141\x6c\x6c\55\143\141\x63\x68\145\x27\x29\56\x63\154\151\x63\x6b\x28\146\165\x6e\143\x74\x69\x6f\x6e\x28\44\x29\x7b\xa\x9\x9\x9\x9\11\x9\x9\166\141\x72\x20\x63\157\156\x66\x69\x72\155\141\x74\x69\x6f\156\40\75\40\x63\x6f\x6e\x66\x69\162\155\50\42\101\x72\x65\x20\x79\157\x75\40\163\165\162\x65\40\x79\157\165\40\x77\141\x6e\164\x20\x74\157\40\x72\x65\155\157\x76\x65\x20\141\x6c\x6c\x20\x63\x61\x63\x68\x65\77\42\x29\73\12\x9\11\x9\x9\11\x9\x9\x69\x66\x20\50\143\x6f\x6e\x66\x69\162\x6d\x61\x74\x69\157\156\51\40\173\12\11\11\x9\x9\11\x9\x9\x9\x6a\121\x75\x65\162\171\x2e\141\x6a\141\170\x28\173\xa\11\x9\11\x9\11\11\11\x9\x9\x74\x79\160\x65\72\x20\47\120\117\123\x54\x27\54\12\11\x9\11\11\11\11\x9\x9\11\165\x72\154\72\40\x27"; goto iVVT1; iVVT1: echo admin_url("\x61\x64\x6d\151\156\x2d\141\x6a\x61\170\x2e\160\x68\160"); goto SoHio; APnHO: echo "\74\154\151\76\103\x61\x63\x68\145\40\145\155\160\164\171\x21\x3c\x2f\154\x69\x3e"; goto zB5XC; SoHio: echo "\47\x2c\xa\x9\11\x9\11\11\11\x9\x9\x9\144\141\x74\x61\72\x20\x7b\12\11\11\11\11\11\11\11\x9\11\x9\x61\143\164\x69\157\156\72\x20\47\x64\x65\x6c\x65\164\x65\x5f\141\x6c\154\137\143\141\x63\x68\145\47\12\x9\x9\x9\x9\x9\11\x9\x9\x9\x7d\x2c\12\11\x9\x9\11\x9\11\11\11\11\163\x75\143\x63\145\163\163\72\40\146\x75\x6e\143\x74\151\157\x6e\x28\x64\x61\164\141\51\x7b\xa\11\11\x9\11\11\11\x9\11\x9\11\x6a\x51\x75\145\x72\171\x28\47\x23\x72\145\163\x75\154\164\x27\x29\56\x68\164\155\x6c\50\144\x61\x74\141\x29\73\xa\11\x9\11\11\11\x9\11\11\11\x9\152\x51\165\x65\x72\171\50\x27\x2e\154\x69\x73\164\55\x63\x61\x63\x68\145\47\51\56\150\164\x6d\x6c\x28\x27\x3c\x6c\151\76\x43\141\143\150\145\40\x65\155\160\164\171\41\74\x2f\x6c\x69\x3e\47\51\73\12\11\x9\x9\11\x9\11\11\11\11\11\152\121\165\145\x72\171\50\x27\x2e\143\x61\x63\x68\145\55\x63\157\165\x6e\x74\x27\51\x2e\150\x74\155\x6c\50\47\x54\x6f\x74\x61\154\x20\143\x61\x63\x68\x65\72\x20\x30\47\x29\x3b\xa\11\11\11\x9\x9\11\x9\11\x9\x7d\12\11\x9\11\x9\x9\11\11\11\175\x29\x3b\xa\11\x9\x9\11\11\x9\11\175\12\x9\11\x9\11\x9\x9\175\51\12\11\11\11\x9\x9\175\x29\12\12\x9\11\x9\11\x3c\57\163\143\x72\x69\160\164\76\12\11\x9\x9\x3c\57\x64\x69\x76\76\xa\11\11\74\x2f\x64\x69\166\76\xa\x9\x9"; goto iWARB; iWARB: } public function delete_all_cache() { goto ocBX3; deDTZ: echo "\x3c\x2f\154\x69\x3e\xa\11\11\x9\x3c\x2f\165\x6c\76\xa\12\11\11"; goto o32a7; FRPBM: echo $result["\143\141\x63\150\x65\x5f\x64\145\x6c\x65\164\145\144"]; goto deDTZ; bCnxm: echo "\x9\11\11\x3c\x75\154\40\x63\x6c\141\163\x73\75\42\144\145\x6c\145\164\x65\55\x63\141\x63\x68\145\42\x3e\12\x9\11\x9\x9\74\x6c\151\x3e\x3c\163\160\141\156\x3e\x53\x74\141\x74\x75\163\72\x20\x3c\x2f\163\x70\x61\156\x3e"; goto jF1iW; m09ib: echo $result["\x74\151\x6d\x65\x5f\x6c\151\x6d\151\x74"]; goto UJ3SV; SEoHf: echo "\x3c\57\154\x69\76\12\11\x9\x9\11\x3c\154\x69\76\74\163\160\x61\156\x3e\x43\x61\x63\x68\x65\x20\x74\x69\155\x65\x3a\40\74\57\x73\160\141\x6e\x3e"; goto m09ib; e4P4U: echo "\x3c\x2f\154\x69\x3e\12\x9\11\x9\11\x3c\x6c\151\x3e\x3c\x73\160\141\x6e\x3e\124\x6f\x74\x61\x6c\x20\x63\x61\x63\150\x65\72\40\x3c\57\x73\x70\141\156\76"; goto N2DAo; o32a7: wp_die(); goto ZFGRG; xq7xg: $result = json_decode($cache->delAllCache(0), true); goto bCnxm; UJ3SV: echo "\x3c\x2f\x6c\151\76\12\x9\x9\x9\11\74\x6c\151\x3e\74\163\x70\141\156\x3e\x43\141\143\x68\145\x20\x64\x65\154\x65\x74\x65\x64\72\40\x3c\57\163\160\141\156\76"; goto FRPBM; N2DAo: echo $result["\x74\x6f\x74\x61\154\x5f\143\x61\143\150\x65"]; goto SEoHf; jF1iW: echo $result["\x73\164\x61\164\x75\x73"] == 1 ? "\123\x75\x63\143\x65\163\x73\x66\x75\x6c\x79" : "\105\162\x72\157\162\x21"; goto e4P4U; ocBX3: $cache = new EP_Cache(); goto xq7xg; ZFGRG: } public function reset_player_cache() { goto qViPK; YPAgg: $link = $data[$server - 1]["\150\141\165\x6e\x6d\157\x76\151\145\163\x5f\x73\x65\x72\166\145\x72\137\144\141\x74\141"][$episode_slug]["\x68\141\x75\x6e\155\x6f\x76\x69\x65\163\137\x65\160\137\x6c\x69\156\x6b"]; goto YwTV5; Uyvqs: $post_id = isset($_POST["\160\x6f\163\164\x5f\x69\144"]) ? (int) $_POST["\160\x6f\163\x74\x5f\x69\x64"] : ''; goto TJylJ; UTLlF: $film_meta = get_post_meta($post_id, HNMG_EPS, true); goto UPtMl; qViPK: $server = isset($_POST["\x73\x65\162\x76\x65\162\137\151\x64"]) ? (int) $_POST["\x73\145\162\166\x65\162\x5f\x69\144"] : ''; goto Uyvqs; YwTV5: $cache = new EP_Cache(); goto nMecf; HQZ6F: wp_send_json($cacheData); goto WSTBA; TJylJ: $episode_slug = isset($_POST["\x65\160\151\x73\157\x64\145\x5f\x73\x6c\x75\147"]) ? str_replace("\55", "\x5f", wp_strip_all_tags($_POST["\x65\x70\151\x73\x6f\x64\145\x5f\x73\154\x75\x67"])) : ''; goto UTLlF; nMecf: $cacheData = $cache->delCache($link); goto HQZ6F; UPtMl: $data = json_decode($film_meta, true); goto YPAgg; WSTBA: } }
+
+namespace HNMG\EP_Load;
+
+use HNMG\EP_Load\EP_Cache;
+
+class EP_MCache {
+	
+	public function register() {
+		add_action('wp_ajax_reset_player_cache', [$this, 'reset_player_cache']);
+		add_action('wp_ajax_nopriv_reset_player_cache', [$this, 'reset_player_cache']);
+		add_filter('HNMG-tabs', [$this, 'hnapisode_cache_menu']);
+        add_filter('HNMG-pages', [$this, 'hnapisode_cache_menu']);
+		add_action('wp_ajax_delete_all_cache', [$this, 'delete_all_cache']);
+		add_action('wp_ajax_nopriv_delete_all_cache', [$this, 'delete_all_cache']);
+	}
+	
+	public function hnapisode_cache_menu($nav) {
+        $nav['120'] = array(
+            'slug'     => 'haun-cache-manager',
+            'callback' => array($this, 'haun_cache_manage_page'),
+            'title'    => __('HNMG Cache', 'hnmgepis'),
+            'icon'     => 'fa-play-circle',
+        );
+        return $nav;
+    }
+	
+	public function haun_cache_manage_page(){ ?>
+		<div class="wrap haun-wrap">
+			<h1>Cache Manager</h1>
+			<div class="haun-cache-box">
+				<?php
+					$cache = new EP_Cache();
+					$cache_count = json_decode($cache->cacheCount());
+					if($cache_count->result == 1) echo '<span class="cache-count" style="color: red;">Total cache: '.$cache_count->total_cache.'</span>';
+					$get_cache = json_decode($cache->getCache());
+					echo '<ul class="list-cache" style="
+						max-height: 300px;
+						overflow-x: hidden;
+						border: 1px solid;
+						padding: 15px;
+					">';
+					if($get_cache) {
+
+						foreach ($get_cache as $key => $value) {
+							echo  '<li>'.$value->file.'</li>';
+						}
+					}
+					else
+					{
+						echo '<li>Cache empty!</li>';
+					}
+					echo '</ul>';
+					?>
+				<div id="delete-all-cache" class="button button-primary">Delete all cache</div>
+				<div id="result"></div>
+				<script>
+					jQuery(document).ready(function($){
+						jQuery('#delete-all-cache').click(function($){
+							var confirmation = confirm("Are you sure you want to remove all cache?");
+							if (confirmation) {
+								jQuery.ajax({
+									type: 'POST',
+									url: '<?php echo admin_url('admin-ajax.php'); ?>',
+									data: {
+										action: 'delete_all_cache'
+									},
+									success: function(data){
+										jQuery('#result').html(data);
+										jQuery('.list-cache').html('<li>Cache empty!</li>');
+										jQuery('.cache-count').html('Total cache: 0');
+									}
+								});
+							}
+						})
+					})
+
+				</script>
+			</div>
+		</div>
+		<?php
+	}
+
+	public function delete_all_cache() {
+		$cache = new EP_Cache();
+		$result = json_decode($cache->delAllCache(0), true);
+		?>
+			<ul class="delete-cache">
+				<li><span>Status: </span><?php echo $result['status'] == 1 ? 'Successfuly' : 'Error!'; ?></li>
+				<li><span>Total cache: </span><?php echo $result['total_cache']; ?></li>
+				<li><span>Cache time: </span><?php echo $result['time_limit']; ?></li>
+				<li><span>Cache deleted: </span><?php echo $result['cache_deleted']; ?></li>
+			</ul>
+
+		<?php
+		wp_die();
+	}
+
+	public function reset_player_cache() {
+		$server = isset($_POST['server_id']) ? (int)$_POST['server_id'] : '';
+		$post_id = isset($_POST['post_id']) ? (int)$_POST['post_id'] : '';
+		$episode_slug = isset($_POST['episode_slug']) ? str_replace('-', '_', wp_strip_all_tags($_POST['episode_slug'])) : '';
+		$film_meta = get_post_meta($post_id, HNMG_EPS, true);
+		$data = json_decode($film_meta, true);
+		$link = $data[($server-1)]['haunmovies_server_data'][$episode_slug]['haunmovies_ep_link'];
+		$cache = new EP_Cache();
+		$cacheData = $cache->delCache($link);
+		wp_send_json($cacheData);
+
+	}
+}

@@ -760,3 +760,6 @@ msgstr "Xuất Bản"
 
 msgid "Completed"
 msgstr "Hoàn Thành"
+
+msgid "Copyright infringement!"
+msgstr "Vi phạm bản quyền!"

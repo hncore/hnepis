@@ -1,8 +1,436 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\EP_Core; class EP_Taxonomy { public function register() { goto BVEDP; Ua8QJ: add_action("\151\156\x69\164", [$this, "\x68\156\156\x65\167\163\x5f\164\x61\x67"], 0); goto D87ia; l92vE: add_action("\x69\156\x69\x74", [$this, "\x68\156\141\143\x74\157\162\163\137\x74\141\170\x6f\156\x6f\155\x79"], 0); goto rOKGe; rOKGe: add_action("\151\156\151\x74", [$this, "\x68\156\144\151\162\145\143\x74\x6f\162\x73\x5f\164\141\170\x6f\156\157\155\x79"], 0); goto AJgtI; n2XZs: add_action("\151\156\151\x74", [$this, "\150\x6e\166\151\x64\145\157\x5f\164\141\x67"], 1); goto AkjL3; mO_qZ: add_action("\151\156\151\x74", [$this, "\150\x6e\x6e\145\167\x73\137\160\157\163\164\x74\x79\x70\145"], 0); goto Ua8QJ; CF_pI: add_action("\x69\156\x69\x74", [$this, "\x68\x6e\156\x65\x77\x73\x5f\164\x61\170\157\156\x6f\155\x79"], 0); goto mO_qZ; k0ePy: add_action("\x69\x6e\151\x74", [$this, "\x68\x6e\x76\151\144\x65\x6f\137\x74\x61\x78\157\156\157\155\171"], 1); goto n2XZs; QUtky: add_action("\x69\156\151\164", [$this, "\150\x61\x75\x6e\137\162\x65\x67\151\x73\164\x65\162\137\x74\141\x78\157\156\x6f\x6d\171\x5f\160\157\x73\164\137\x6f\x70\164\x69\x6f\x6e\163"], 0); goto bUPIT; D87ia: add_action("\x69\x6e\x69\x74", [$this, "\150\156\x76\x69\x64\145\x6f\137\x70\x6f\x73\x74\164\x79\x70\x65"], 1); goto k0ePy; BtavC: add_action("\151\156\151\x74", [$this, "\143\x75\x73\x74\157\x6d\x5f\x70\x6f\163\x74\137\x66\x6f\162\x6d\141\x74\x73\x5f\x74\141\170\x6f\x6e\157\155\151\145\x73"], 0); goto QUtky; XX4jj: add_action("\x69\x6e\151\x74", [$this, "\x68\156\x63\x6f\165\x6e\x74\x72\171\137\x74\141\x78\x6f\156\157\155\171"], 0); goto BtavC; bUPIT: add_action("\151\156\151\x74", [$this, "\150\x61\165\x6e\137\143\x75\x73\157\155\137\x77\x70\x5f\151\156\x73\145\x72\164\137\x74\145\162\x6d"], 0); goto CF_pI; BVEDP: add_action("\151\x6e\x69\164", [$this, "\150\x6e\164\171\160\x65\137\164\x61\170\x6f\156\157\x6d\x79"], 0); goto l92vE; AJgtI: add_action("\151\x6e\151\x74", [$this, "\150\x6e\162\145\x6c\x65\141\163\145\x5f\164\141\x78\157\x6e\157\155\x79"], 0); goto XX4jj; AkjL3: } public function hntype_taxonomy() { goto BIMjE; wpxen: $args = array("\154\x61\x62\145\154\163" => $labels, "\150\x69\x65\162\141\x72\x63\x68\151\x63\x61\154" => false, "\x70\165\142\154\x69\x63" => true, "\163\150\x6f\x77\x5f\165\151" => true, "\x73\x68\157\167\x5f\x61\144\x6d\151\156\137\143\157\154\x75\x6d\x6e" => false, "\163\150\x6f\x77\137\x69\x6e\x5f\x6e\141\x76\x5f\x6d\145\156\x75\163" => false, "\163\x68\x6f\x77\x5f\x74\141\147\x63\x6c\157\x75\144" => true, "\x73\150\157\x77\x5f\x69\x6e\137\162\x65\x73\x74" => false); goto N7961; N7961: register_taxonomy("\x65\x70\151\x73\157\x64\x65\x2d\x74\x79\160\x65\163", array("\160\157\x73\x74"), $args); goto rK3IQ; BIMjE: $labels = array("\156\x61\x6d\145" => _x("\105\160\151\163\x6f\144\x65\40\x54\171\160\x65\163", "\105\x70\x69\163\157\x64\x65\40\164\x79\160\x65", "\150\156\x6d\147\145\x70\x69\x73"), "\163\151\156\x67\165\154\x61\x72\137\x6e\141\x6d\145" => _x("\x45\x70\151\163\x6f\144\x65\x20\x54\x79\x70\145", "\105\160\151\x73\x6f\x64\x65\x20\x74\171\160\145", "\x68\x6e\x6d\x67\x65\160\151\163"), "\x6d\x65\156\165\137\x6e\141\155\x65" => __("\x45\160\x69\x73\157\144\x65\x20\124\171\x70\145\x73", "\150\x6e\x6d\x67\145\x70\x69\x73"), "\141\x6c\x6c\137\x69\x74\x65\x6d\x73" => __("\x41\x6c\x6c\x20\111\x74\x65\155\163", "\x68\156\155\x67\x65\160\x69\163"), "\160\x61\x72\x65\x6e\x74\x5f\151\x74\x65\x6d" => __("\120\141\162\x65\156\164\40\x49\x74\x65\x6d", "\x68\156\155\x67\145\x70\x69\163"), "\160\141\162\145\156\164\x5f\x69\164\x65\x6d\137\x63\x6f\154\x6f\156" => __("\120\x61\162\x65\x6e\164\x20\x49\x74\145\155\72", "\x68\156\x6d\x67\x65\x70\x69\163"), "\x6e\x65\167\137\x69\x74\145\x6d\137\x6e\x61\155\x65" => __("\116\x65\x77\x20\x49\164\x65\x6d\x20\x4e\141\155\145", "\150\x6e\x6d\x67\x65\x70\151\x73"), "\141\x64\x64\137\156\x65\167\x5f\x69\164\145\155" => __("\x41\x64\x64\x20\116\145\167\x20\x49\x74\145\155", "\x68\x6e\x6d\x67\145\x70\x69\x73"), "\x65\144\151\x74\137\x69\164\x65\x6d" => __("\105\144\x69\x74\x20\x49\x74\x65\x6d", "\x68\x6e\x6d\147\145\160\x69\163"), "\x75\x70\x64\141\x74\145\137\151\x74\145\155" => __("\125\160\144\x61\x74\x65\40\111\164\x65\155", "\x68\x6e\x6d\x67\x65\x70\151\163"), "\166\151\145\167\137\151\x74\x65\155" => __("\x56\151\145\167\40\x49\164\x65\x6d", "\150\x6e\x6d\x67\145\160\x69\163"), "\163\x65\x70\x61\162\x61\x74\x65\137\x69\x74\145\155\x73\137\x77\151\x74\x68\x5f\143\157\x6d\155\141\x73" => __("\x53\145\160\141\162\x61\164\x65\40\151\164\145\x6d\x73\40\x77\x69\164\150\x20\x63\157\155\155\x61\163", "\150\156\155\147\145\160\x69\x73"), "\141\x64\x64\x5f\157\162\x5f\162\x65\155\x6f\x76\145\137\x69\164\145\x6d\163" => __("\x41\144\144\x20\157\162\40\162\145\x6d\x6f\166\x65\40\151\x74\145\x6d\163", "\x68\x6e\155\x67\x65\160\151\163"), "\x63\x68\157\x6f\163\x65\137\x66\x72\x6f\155\x5f\155\157\163\x74\x5f\x75\x73\145\144" => __("\103\x68\157\x6f\x73\145\x20\146\162\157\x6d\x20\164\x68\x65\x20\x6d\x6f\x73\x74\40\165\163\145\x64", "\150\156\155\x67\145\160\151\163"), "\x70\x6f\x70\x75\x6c\141\x72\x5f\x69\x74\x65\155\163" => __("\120\157\x70\x75\x6c\x61\162\x20\x49\164\145\x6d\163", "\x68\156\155\x67\x65\160\151\163"), "\x73\x65\x61\162\143\x68\137\151\164\145\x6d\x73" => __("\x53\x65\141\x72\x63\x68\x20\111\x74\145\x6d\x73", "\x68\x6e\155\147\x65\160\151\x73"), "\156\157\x74\137\x66\x6f\x75\156\144" => __("\x4e\x6f\164\40\106\157\x75\156\x64", "\150\156\x6d\x67\x65\x70\x69\163"), "\x6e\157\137\x74\145\162\x6d\x73" => __("\116\x6f\40\151\x74\145\x6d\x73", "\x68\156\x6d\x67\x65\160\151\163"), "\x69\164\145\x6d\x73\137\x6c\x69\163\x74" => __("\x49\x74\x65\x6d\x73\40\x6c\x69\x73\x74", "\150\x6e\155\x67\145\x70\151\x73"), "\151\164\x65\x6d\x73\137\x6c\151\163\164\137\x6e\141\x76\151\147\141\x74\151\x6f\x6e" => __("\x49\164\145\155\163\40\154\x69\x73\x74\x20\156\141\166\151\x67\141\x74\151\157\x6e", "\x68\156\155\147\x65\x70\x69\163")); goto wpxen; rK3IQ: } public function hnactors_taxonomy() { $args = array("\x6c\x61\x62\x65\x6c\163" => array("\x6e\x61\155\x65" => __("\x41\143\x74\x6f\162\x73", "\150\156\155\x67\x65\x70\151\x73"), "\x73\151\x6e\x67\165\x6c\x61\162" => "\101\x63\164\157\x72\x73", "\155\145\x6e\x75\x2d\156\x61\x6d\x65" => "\101\143\x74\x6f\x72\163", "\141\154\154\x5f\151\164\x65\155" => "\x41\154\154\40\141\x63\164\157\162\x73", "\141\x64\x64\x5f\x6e\145\x77\x5f\x69\164\x65\x6d" => "\101\144\144\x20\x6e\145\x77\x20\141\143\x74\157\162"), "\150\151\145\162\x61\162\143\150\151\143\141\154" => false, "\160\165\x62\154\x69\143" => true, "\x73\150\157\x77\x5f\165\151" => true, "\163\x68\157\x77\137\x61\x64\155\151\x6e\x5f\143\x6f\x6c\x75\x6d\156" => true, "\x73\x68\x6f\167\x5f\x74\x61\x67\143\154\157\x75\x64" => true, "\163\x68\x6f\x77\137\x69\x6e\x5f\x6e\x61\x76\137\x6d\145\156\x75\x73" => true, "\163\x68\x6f\167\x5f\151\x6e\137\x72\145\x73\164" => true); register_taxonomy("\141\143\164\x6f\x72", "\160\x6f\x73\x74", $args); } public function hndirectors_taxonomy() { $args = array("\x6c\141\142\x65\154\163" => array("\x6e\141\x6d\145" => __("\104\x69\162\145\x63\x74\157\x72\x73", "\150\x6e\155\x67\145\x70\x69\163"), "\x73\x69\x6e\147\x75\154\x61\162" => "\x44\151\x72\145\x63\164\x6f\162\163", "\x6d\145\156\165\55\156\x61\155\x65" => "\x44\x69\162\x65\x63\164\157\x72\163", "\x61\154\x6c\x5f\x69\164\x65\155" => "\101\154\154\x20\x44\x69\x72\x65\x63\164\157\162\163", "\x61\x64\144\137\156\x65\x77\137\x69\x74\145\155" => "\x41\x64\x64\x20\x6e\x65\x77\40\x64\x69\x72\x65\x63\164\x6f\162"), "\150\151\145\x72\141\162\x63\x68\151\143\x61\x6c" => false, "\x70\x75\142\x6c\x69\143" => true, "\163\x68\x6f\x77\x5f\x75\x69" => true, "\163\150\157\x77\x5f\141\x64\x6d\x69\x6e\x5f\143\x6f\x6c\165\155\156" => true, "\x73\x68\x6f\167\x5f\164\141\147\143\154\x6f\x75\x64" => true, "\x73\150\157\x77\137\151\x6e\x5f\x72\x65\163\164" => true, "\x73\x68\x6f\167\x5f\151\x6e\x5f\156\141\x76\137\x6d\x65\156\x75\x73" => true); register_taxonomy("\x64\x69\162\145\x63\x74\x6f\x72", "\x70\157\x73\164", $args); } public function hnrelease_taxonomy() { $args = array("\x6c\x61\142\x65\154\163" => array("\156\x61\155\145" => __("\122\x65\x6c\145\141\163\x65", "\150\x6e\x6d\147\145\160\x69\x73"), "\x73\x69\x6e\x67\165\x6c\141\x72" => "\122\x65\x6c\x65\141\163\145", "\155\145\156\165\x2d\x6e\x61\155\145" => "\122\145\x6c\x65\141\x73\145", "\x61\x6c\154\137\151\164\145\x6d" => "\x56\x69\145\x77\40\141\154\x6c", "\141\x64\x64\x5f\156\145\167\137\151\x74\145\155" => "\x41\144\x64\40\156\x65\x77"), "\x68\x69\145\162\141\x72\x63\150\x69\x63\141\x6c" => false, "\160\165\x62\x6c\x69\x63" => true, "\163\150\x6f\x77\137\x75\x69" => true, "\163\x68\x6f\167\137\x61\x64\155\151\x6e\x5f\143\157\x6c\165\155\156" => true, "\x73\x68\157\x77\137\164\141\x67\143\154\x6f\165\x64" => true, "\x73\150\x6f\x77\137\x69\x6e\137\162\x65\163\164" => true, "\x73\150\157\167\137\151\x6e\137\x6e\141\x76\137\x6d\145\x6e\x75\163" => true); register_taxonomy("\162\x65\154\x65\x61\163\x65", "\160\157\163\x74", $args); } public function hncountry_taxonomy() { $args = array("\154\141\x62\x65\x6c\163" => array("\x6e\x61\155\145" => __("\x43\x6f\x75\x6e\x74\162\x79", "\x68\156\155\x67\x65\x70\151\x73"), "\x73\x69\x6e\x67\165\154\141\x72" => "\x43\x6f\165\x6e\164\x72\171", "\x6d\145\156\x75\55\156\x61\x6d\145" => "\103\157\x75\156\164\x72\171", "\x61\154\154\137\151\x74\145\155" => "\x56\151\145\x77\x20\141\154\154", "\x61\x64\x64\137\156\x65\x77\x5f\151\164\x65\x6d" => "\x41\x64\144\x20\x6e\x65\167\40\x63\x6f\165\156\164\x72\171"), "\x68\151\x65\x72\x61\x72\x63\150\151\143\x61\154" => false, "\160\x75\142\x6c\x69\143" => true, "\x73\150\157\167\137\165\x69" => true, "\x73\x68\x6f\x77\137\x61\x64\x6d\x69\x6e\137\143\157\154\165\x6d\156" => true, "\163\x68\x6f\167\x5f\151\x6e\137\162\145\x73\164" => true, "\x73\150\x6f\x77\x5f\164\141\x67\143\x6c\x6f\165\x64" => true, "\163\x68\157\x77\137\x69\x6e\137\x6e\x61\166\x5f\x6d\145\x6e\165\x73" => true); register_taxonomy("\x63\x6f\165\x6e\x74\162\x79", "\x70\157\163\164", $args); } public function hnnews_taxonomy() { goto ZSy4K; ZSy4K: $labels = array("\156\x61\x6d\x65" => __("\x4e\x65\167\x73\40\143\141\x74\145\147\157\162\x69\x65\x73", "\x68\x6e\155\147\x65\160\x69\163"), "\163\x69\156\x67\165\x6c\x61\162\x5f\x6e\x61\155\x65" => __("\116\145\167\x73\40\143\141\x74\x65\147\x6f\162\x79", "\150\156\x6d\147\x65\x70\x69\x73"), "\x6d\x65\x6e\165\137\156\141\155\x65" => __("\116\x65\x77\x73\x20\x63\x61\x74\145\147\157\162\151\x65\163", "\150\156\x6d\x67\145\x70\151\x73"), "\141\154\154\137\x69\164\x65\x6d\163" => __("\x41\x6c\x6c\40\143\x61\164\x65\x67\x6f\x72\x69\145\163", "\x68\156\x6d\147\x65\160\151\x73")); goto OzQyh; OzQyh: $rewrite = array("\x73\154\x75\x67" => "\x6e\x65\x77\x73\x2d\143\141\164", "\167\151\164\150\x5f\x66\162\157\x6e\164" => true, "\150\x69\x65\x72\x61\162\x63\150\x69\143\x61\154" => true); goto eEYjg; eEYjg: $args = array("\x6c\141\x62\145\x6c\163" => $labels, "\150\141\x73\137\141\x72\143\x68\x69\166\145" => true, "\150\x69\145\162\141\x72\143\150\151\143\x61\154" => true, "\x70\x75\142\x6c\x69\x63" => true, "\x73\x68\157\167\x5f\165\x69" => true, "\x73\x68\x6f\167\137\x61\144\x6d\x69\156\x5f\x63\x6f\154\x75\155\156" => true, "\163\x68\x6f\x77\x5f\151\156\x5f\x6e\x61\166\137\155\x65\156\165\163" => true, "\x73\150\x6f\167\x5f\x74\141\x67\143\x6c\157\x75\144" => false, "\x71\165\x65\162\x79\x5f\x76\141\x72" => "\156\x65\x77\163\x2d\143\141\x74", "\162\x65\x77\x72\151\164\x65" => $rewrite); goto gBddp; gBddp: register_taxonomy("\156\x65\167\x73\x5f\143\141\x74", array("\156\145\x77\x73"), $args); goto B963D; B963D: } public function hnnews_posttype() { goto y_Nvc; zQDEa: register_post_type("\x6e\145\x77\163", $args); goto jU2p6; K1dWj: $args = array("\154\141\142\145\x6c" => __("\x4e\x65\167\x73", "\150\x6e\155\x67\x65\x70\x69\x73"), "\154\x61\142\145\154\163" => $labels, "\x73\165\160\x70\x6f\x72\x74\x73" => array("\164\x69\x74\154\x65", "\x65\x64\x69\164\157\x72", "\164\x68\x75\155\142\156\x61\x69\154", "\x63\x75\x73\x74\157\x6d\55\146\x69\145\x6c\x64\x73"), "\x68\151\x65\162\x61\x72\143\150\x69\143\141\154" => false, "\160\x75\142\x6c\151\143" => true, "\163\150\x6f\x77\x5f\x75\x69" => true, "\x73\150\157\167\x5f\x69\156\x5f\x6d\145\156\165" => true, "\x6d\145\156\165\137\160\157\163\x69\x74\x69\x6f\x6e" => 5, "\163\150\x6f\x77\x5f\151\x6e\x5f\x61\144\155\151\156\x5f\142\x61\x72" => true, "\x73\x68\157\x77\x5f\x69\x6e\137\156\141\x76\137\155\145\156\165\x73" => true, "\143\x61\156\x5f\x65\x78\x70\157\162\164" => true, "\150\x61\x73\x5f\x61\162\x63\150\151\166\x65" => true, "\145\170\143\154\x75\144\145\137\x66\162\x6f\155\x5f\x73\145\141\x72\x63\x68" => true, "\x70\x75\x62\154\x69\143\x6c\x79\137\161\x75\145\162\x79\141\142\x6c\145" => true, "\143\141\x70\141\142\x69\x6c\x69\164\x79\x5f\x74\x79\160\x65" => "\x70\x6f\x73\x74", "\x6d\145\156\x75\137\x69\x63\x6f\x6e" => "\144\x61\163\x68\151\x63\157\x6e\x73\55\x69\144"); goto zQDEa; y_Nvc: $labels = array("\x6e\x61\x6d\145" => __("\x4e\x65\167\163", "\x68\x6e\155\x67\145\x70\151\163"), "\x73\x69\x6e\x67\x75\x6c\141\x72\x5f\156\141\155\x65" => __("\x4e\x65\167\163", "\150\156\155\x67\x65\160\151\x73"), "\x6d\x65\156\x75\137\x6e\x61\x6d\145" => __("\116\145\167\163", "\x68\156\155\x67\x65\160\x69\163"), "\156\141\x6d\145\x5f\141\144\x6d\x69\156\137\142\x61\162" => __("\101\x64\x64\x20\x6e\145\x77\x73", "\150\x6e\x6d\147\145\x70\151\x73")); goto K1dWj; jU2p6: } public function hnnews_tag() { goto vO3Y5; N664r: $args = array("\154\141\x62\145\154\163" => $labels, "\x68\151\145\x72\x61\x72\143\150\151\x63\141\x6c" => false, "\x70\165\142\x6c\151\143" => true, "\x73\150\157\x77\x5f\165\x69" => true, "\163\150\x6f\167\137\141\144\155\x69\156\137\143\157\x6c\165\x6d\156" => true, "\x73\x68\x6f\x77\x5f\x69\x6e\137\156\x61\166\137\x6d\x65\x6e\x75\163" => true, "\x73\x68\x6f\x77\137\164\x61\x67\x63\154\157\x75\144" => true, "\161\165\145\x72\x79\x5f\x76\x61\162" => "\156\145\x77\x73\x2d\164\141\147"); goto KHWsY; KHWsY: register_taxonomy("\156\x65\167\x73\137\x74\x61\147", array("\x6e\x65\x77\163"), $args); goto D_RIi; vO3Y5: $labels = array("\x6e\141\x6d\x65" => __("\116\x65\x77\163\40\164\x61\x67\x73", "\150\156\x6d\147\145\160\x69\x73"), "\x73\x69\156\147\165\x6c\x61\x72\137\x6e\141\x6d\x65" => __("\x4e\x65\x77\x73\x20\x74\141\x67", "\150\156\155\147\x65\160\x69\x73"), "\155\x65\x6e\x75\137\156\x61\x6d\145" => __("\116\145\167\x73\40\x74\141\x67\x73", "\150\x6e\x6d\147\145\160\x69\x73")); goto N664r; D_RIi: } public function hnvideo_posttype() { goto WKQ9f; cN1zK: register_post_type("\166\x69\144\x65\157", $args); goto zMhbL; WKQ9f: $labels = array("\156\141\155\145" => __("\x56\151\x64\x65\157\x73", "\150\156\x6d\x67\145\160\x69\163"), "\x73\x69\x6e\147\x75\154\141\162\137\x6e\141\x6d\145" => __("\126\x69\144\145\x6f", "\150\x6e\155\147\x65\x70\151\163"), "\x6d\x65\156\165\x5f\x6e\141\155\x65" => __("\126\151\144\x65\157\163", "\150\x6e\155\x67\145\x70\x69\x73"), "\156\141\x6d\x65\x5f\x61\144\x6d\151\x6e\x5f\142\141\162" => __("\101\x64\x64\x20\x6e\x65\167\40\x76\x69\x64\x65\157", "\x68\156\155\147\x65\x70\151\163")); goto G1MMG; G1MMG: $args = array("\x6c\141\142\x65\x6c" => __("\126\x69\x64\x65\157", "\x68\156\x6d\x67\145\x70\x69\x73"), "\x6c\141\142\x65\x6c\163" => $labels, "\x73\x75\160\x70\x6f\x72\x74\163" => array("\x74\x69\x74\x6c\x65", "\x65\x64\151\164\157\x72", "\164\x68\x75\155\142\156\x61\151\x6c", "\143\x75\x73\164\x6f\x6d\x2d\x66\x69\x65\154\144\x73"), "\150\x69\x65\162\141\162\143\150\151\143\141\x6c" => false, "\160\x75\142\x6c\151\x63" => true, "\x73\x68\x6f\167\x5f\165\151" => true, "\163\x68\x6f\167\x5f\151\156\x5f\155\x65\x6e\x75" => true, "\155\145\156\x75\x5f\160\157\163\x69\164\151\x6f\x6e" => 5, "\163\x68\x6f\x77\137\151\x6e\137\x61\144\x6d\151\156\x5f\x62\141\x72" => true, "\163\x68\x6f\x77\137\x69\156\137\x6e\141\166\x5f\155\x65\x6e\x75\163" => true, "\143\x61\x6e\137\145\170\x70\157\162\164" => true, "\x68\141\x73\x5f\x61\x72\143\150\151\166\x65" => true, "\145\x78\143\154\165\144\x65\137\146\162\x6f\x6d\x5f\163\145\141\162\x63\150" => true, "\x70\x75\142\154\151\x63\154\x79\137\x71\x75\x65\162\171\x61\142\x6c\145" => true, "\x63\141\160\x61\x62\x69\x6c\151\164\171\x5f\164\171\x70\145" => "\x70\157\163\164", "\x6d\145\156\x75\137\x69\143\x6f\156" => "\x64\141\x73\150\x69\x63\x6f\156\x73\55\166\151\144\x65\x6f\x2d\141\x6c\164\x33"); goto cN1zK; zMhbL: } public function hnvideo_taxonomy() { goto Xn4pB; Xn4pB: $labels = array("\x6e\141\155\x65" => __("\126\151\x64\145\x6f\40\x43\141\x74\145\x67\x6f\x72\x69\145\x73", "\150\x6e\x6d\x67\145\160\151\x73"), "\163\x69\x6e\x67\x75\154\141\162\137\156\x61\155\x65" => __("\126\x69\144\x65\157\40\x43\x61\164\145\x67\x6f\x72\x79", "\x68\x6e\x6d\147\145\x70\151\x73"), "\155\x65\156\x75\137\x6e\141\155\x65" => __("\126\151\x64\x65\x6f\40\103\141\164\145\147\157\162\151\145\x73", "\150\156\155\x67\x65\160\x69\x73"), "\x61\154\x6c\137\x69\x74\x65\155\163" => __("\101\154\154\x20\x63\x61\164\x65\147\x6f\x72\x69\145\163", "\150\x6e\x6d\147\x65\x70\x69\163")); goto c1z2H; ldLc1: register_taxonomy("\166\x69\144\x65\157\x5f\x63\141\x74", array("\166\x69\x64\145\157"), $args); goto TVhCW; DCf1u: $args = array("\154\141\x62\x65\x6c\163" => $labels, "\150\141\x73\137\141\x72\143\150\151\x76\145" => true, "\150\x69\145\162\x61\x72\x63\150\x69\143\x61\x6c" => true, "\x70\165\142\x6c\151\143" => true, "\163\x68\x6f\167\x5f\165\151" => true, "\163\150\x6f\x77\x5f\141\x64\x6d\x69\x6e\x5f\143\157\154\x75\155\x6e" => true, "\163\150\157\x77\137\x69\x6e\x5f\x6e\x61\166\137\x6d\145\x6e\x75\x73" => true, "\163\x68\x6f\167\137\164\x61\x67\143\x6c\x6f\x75\144" => false, "\161\x75\145\162\171\x5f\x76\141\162" => "\x76\x69\x64\145\x6f\x2d\x63\x61\x74", "\162\145\x77\162\x69\164\145" => $rewrite); goto ldLc1; c1z2H: $rewrite = array("\163\154\x75\147" => "\x76\151\144\x65\157\x2d\143\141\164", "\167\151\164\150\x5f\146\x72\x6f\x6e\x74" => true, "\150\x69\145\162\x61\x72\x63\x68\151\143\x61\154" => true); goto DCf1u; TVhCW: } public function hnvideo_tag() { goto dKP6A; SowJ2: $args = array("\154\x61\x62\x65\x6c\x73" => $labels, "\x68\x69\145\162\141\162\x63\150\x69\143\x61\x6c" => false, "\160\165\x62\x6c\151\143" => true, "\163\150\157\167\137\165\x69" => true, "\x73\x68\157\x77\137\x61\x64\155\151\x6e\137\143\x6f\154\x75\x6d\156" => true, "\x73\x68\157\167\x5f\151\x6e\137\x6e\x61\x76\137\155\145\x6e\x75\163" => true, "\x73\150\x6f\x77\x5f\164\x61\147\x63\x6c\x6f\x75\x64" => true, "\162\x65\x77\162\151\x74\x65" => $rewrite); goto SOlY4; dKP6A: $labels = array("\156\x61\x6d\x65" => __("\x56\x69\144\145\157\x20\x74\141\147\163", "\x68\156\155\x67\x65\x70\x69\163"), "\x73\151\156\x67\165\154\141\x72\x5f\156\141\x6d\x65" => __("\126\x69\x64\145\x6f\40\x74\141\x67", "\150\x6e\155\x67\145\160\x69\163"), "\155\x65\156\x75\137\x6e\141\155\x65" => __("\x56\x69\144\145\157\x20\x74\x61\147\163", "\150\x6e\155\x67\145\x70\151\x73")); goto C8rx7; SOlY4: register_taxonomy("\x76\x69\x64\x65\x6f\137\164\141\147", array("\166\151\144\x65\157"), $args); goto Sbb3X; C8rx7: $rewrite = array("\163\x6c\x75\147" => "\166\151\144\x65\x6f\x2d\x74\x61\147", "\167\x69\x74\150\137\146\162\157\x6e\x74" => true, "\x68\151\145\x72\x61\x72\x63\150\151\x63\x61\x6c" => true); goto SowJ2; Sbb3X: } public function custom_post_formats_taxonomies() { goto zUScF; zUScF: $labels = array("\156\x61\x6d\145" => _x("\x53\164\141\164\165\x73", "\164\x61\170\x6f\156\x6f\155\171\x20\x67\x65\156\145\162\x61\154\40\156\x61\155\145", "\x74\x65\x78\x74\144\x6f\155\141\x69\x6e"), "\163\x69\156\x67\x75\154\141\162\x5f\156\x61\x6d\145" => _x("\123\164\x61\164\165\x73", "\x74\141\170\157\x6e\157\155\171\40\163\x69\x6e\147\x75\154\141\162\40\x6e\x61\x6d\145", "\x74\145\x78\x74\144\157\x6d\x61\151\x6e"), "\x73\x65\141\162\143\150\x5f\151\164\145\155\x73" => __("\123\145\141\162\143\150\40\123\164\141\164\165\x73", "\x74\x65\170\164\x64\157\155\141\x69\156"), "\x61\x6c\x6c\x5f\x69\x74\145\155\163" => __("\x41\x6c\154\x20\x53\164\141\x74\x75\x73", "\x74\145\170\164\x64\x6f\x6d\x61\x69\x6e"), "\x70\141\162\145\156\x74\137\x69\164\145\x6d" => __("\x50\141\x72\145\x6e\164\x20\123\x74\x61\x74\x75\x73", "\x74\x65\x78\x74\x64\x6f\155\x61\x69\156"), "\160\141\162\x65\156\164\x5f\151\x74\145\x6d\x5f\x63\157\154\157\156" => __("\120\x61\162\145\156\x74\x20\x53\164\141\x74\x75\163\72", "\x74\x65\170\164\x64\157\x6d\x61\151\156"), "\x65\x64\151\164\137\x69\x74\145\x6d" => __("\105\x64\x69\164\x20\123\164\141\164\165\163", "\x74\x65\x78\x74\x64\x6f\x6d\141\151\156"), "\x75\x70\x64\x61\164\x65\137\x69\164\x65\155" => __("\x55\160\144\141\x74\145\x20\x53\x74\141\164\x75\163", "\164\x65\170\164\x64\157\155\141\x69\156"), "\x61\x64\144\x5f\x6e\x65\167\x5f\x69\x74\x65\x6d" => __("\x41\144\144\x20\x4e\x65\x77\x20\123\164\141\x74\x75\163", "\164\145\x78\x74\144\157\155\x61\151\x6e"), "\156\145\167\137\151\x74\145\155\137\156\141\155\x65" => __("\116\145\167\40\123\164\x61\164\165\x73\x20\116\x61\x6d\145", "\x74\x65\170\x74\144\x6f\155\x61\x69\156"), "\155\145\x6e\165\x5f\156\x61\x6d\145" => __("\123\164\x61\x74\165\163", "\164\x65\x78\164\144\157\x6d\141\x69\156")); goto ChSvE; ChSvE: $args = array("\x68\151\x65\x72\141\x72\143\x68\151\x63\141\x6c" => true, "\x6c\x61\x62\145\x6c\x73" => $labels, "\163\x68\x6f\167\137\165\x69" => true, "\163\x68\x6f\x77\x5f\141\x64\155\151\x6e\137\143\157\x6c\x75\155\156" => true, "\x71\165\145\162\x79\137\166\x61\162" => true, "\162\x65\167\x72\151\x74\145" => array("\163\154\165\147" => "\x73\164\141\x74\165\x73"), "\x63\x61\x70\x61\x62\x69\x6c\151\x74\x69\145\163" => array("\x6d\141\156\x61\147\x65\x5f\164\x65\162\x6d\x73" => '', "\145\x64\151\x74\137\164\x65\x72\x6d\x73" => '', "\144\145\x6c\145\164\145\x5f\164\x65\x72\x6d\163" => '', "\x61\163\x73\151\x67\156\x5f\164\145\162\155\163" => "\x65\x64\x69\x74\x5f\x70\157\163\164\163"), "\x70\x75\142\154\x69\143" => true, "\163\150\157\167\x5f\x69\156\x5f\156\141\166\x5f\x6d\x65\x6e\x75\x73" => false, "\x73\x68\x6f\167\137\164\x61\147\x63\x6c\157\165\144" => false); goto rmZIl; rmZIl: register_taxonomy("\x73\x74\x61\164\x75\x73", array("\x70\x6f\163\164"), $args); goto lFJpx; lFJpx: } public function haun_register_taxonomy_post_options() { goto s8Q_B; WpTrE: register_taxonomy("\x70\x6f\x73\x74\x5f\x6f\x70\164\x69\x6f\156\x73", array("\160\x6f\163\164"), $args); goto iy0OP; s8Q_B: $labels = array("\156\x61\x6d\145" => _x("\x50\x6f\163\164\40\x6f\160\x74\151\x6f\x6e\x73", "\x74\141\x78\157\156\x6f\155\171\40\147\145\156\x65\x72\x61\154\x20\x6e\141\155\x65", "\164\x65\170\x74\144\x6f\x6d\x61\x69\x6e"), "\163\151\x6e\147\x75\x6c\x61\162\x5f\156\x61\x6d\x65" => _x("\x50\157\x73\164\40\x6f\160\x74\x69\x6f\156\x73", "\164\x61\170\x6f\156\x6f\155\x79\x20\163\x69\156\147\165\x6c\x61\162\x20\x6e\141\x6d\145", "\164\x65\170\x74\144\x6f\155\x61\151\x6e"), "\163\x65\141\x72\143\150\x5f\x69\x74\145\155\163" => __("\123\145\141\x72\143\x68\40\x6f\160\x74\x69\157\x6e", "\x74\145\x78\x74\144\157\155\141\151\x6e"), "\x61\154\x6c\137\151\x74\x65\155\x73" => __("\x41\x6c\154\x20\157\160\x74\151\x6f\x6e\163", "\x74\145\170\164\144\x6f\x6d\x61\x69\156"), "\x70\x61\x72\145\x6e\164\x5f\151\164\145\155" => __("\120\x61\162\145\156\164", "\x74\145\170\164\x64\157\x6d\141\151\156"), "\160\x61\x72\145\x6e\164\x5f\151\x74\145\155\x5f\x63\157\154\157\x6e" => __("\x50\x61\162\x65\156\164", "\x74\x65\x78\164\x64\x6f\155\141\151\x6e"), "\145\x64\151\x74\137\x69\164\145\x6d" => __("\105\144\x69\164", "\164\x65\x78\164\x64\x6f\x6d\141\151\x6e"), "\x75\x70\x64\x61\x74\145\x5f\151\164\145\155" => __("\125\x70\144\x61\x74\x65", "\x74\x65\x78\x74\144\x6f\x6d\x61\x69\x6e"), "\x61\x64\x64\137\x6e\x65\x77\137\x69\164\145\155" => __("\x41\x64\x64\x20\x4e\x65\x77", "\164\x65\170\x74\144\157\x6d\141\x69\x6e"), "\x6e\x65\167\137\151\164\x65\155\x5f\156\141\x6d\145" => __("\x4e\145\167\x20\157\160\x74\151\157\x6e\40\x6e\141\x6d\x65", "\164\x65\x78\164\x64\157\155\141\x69\x6e"), "\155\x65\x6e\165\x5f\x6e\x61\x6d\145" => __("\117\x70\164\151\157\156\163", "\164\x65\170\x74\x64\x6f\x6d\141\x69\x6e")); goto xKK9h; xKK9h: $args = array("\150\151\x65\162\141\162\x63\x68\x69\x63\141\154" => true, "\x6c\141\142\x65\x6c\163" => $labels, "\x73\150\x6f\x77\137\165\x69" => true, "\163\x68\157\167\137\x61\144\x6d\x69\156\137\143\x6f\x6c\x75\x6d\156" => true, "\x71\x75\x65\x72\171\137\x76\141\x72" => true, "\x72\145\x77\162\x69\x74\x65" => array("\163\154\x75\x67" => "\160\x6f\x73\x74\137\x6f\160\164\x69\157\156\163"), "\x63\x61\160\x61\142\x69\154\151\x74\151\145\163" => array("\155\141\156\141\x67\145\x5f\x74\145\162\155\163" => '', "\145\x64\151\164\x5f\164\145\162\x6d\x73" => '', "\x64\145\x6c\145\x74\145\x5f\x74\145\162\155\163" => '', "\x61\163\163\151\x67\x6e\137\x74\x65\162\x6d\x73" => "\x65\144\x69\x74\x5f\x70\157\x73\x74\x73"), "\160\165\142\x6c\x69\x63" => true, "\163\150\157\x77\x5f\151\156\x5f\x6e\141\166\x5f\x6d\x65\x6e\x75\x73" => false, "\x73\x68\157\167\x5f\x74\x61\x67\x63\154\x6f\165\144" => false); goto WpTrE; iy0OP: } public function haun_cusom_wp_insert_term() { goto g_6Mf; g_6Mf: if (term_exists("\x63\157\x6d\160\x6c\x65\x74\145\x64", "\x73\x74\x61\164\x75\x73")) { goto d9Qgg; } goto IFshL; DIxln: if (term_exists("\x69\x73\137\157\156\145\137\163\154\151\x64\x65", "\x70\157\x73\x74\x5f\157\x70\164\151\157\x6e\163")) { goto VNZFD; } goto wyZ1f; Ty6jK: AedMY: goto Gj6Sy; pMaap: IRMs9: goto Zb8ue; eHYxk: if (term_exists("\157\156\x67\157\151\156\x67", "\x73\x74\141\x74\x75\x73")) { goto IRMs9; } goto z5P2Q; ts8Ez: if (term_exists("\160\141\147\x69\x6e\x67\x5f\x65\x70\x69\x73\157\x64\145", "\160\157\163\x74\137\157\x70\x74\151\x6f\x6e\163")) { goto AedMY; } goto OKXn7; wyZ1f: wp_insert_term("\101\x64\x64\40\164\157\40\167\151\144\x67\x65\x74\x20\42\117\156\145\x20\x53\154\x69\144\145\x22\40\50\123\x6c\151\144\145\162\40\x6f\156\145\x20\142\x79\x20\x6f\x6e\x65\51", "\160\x6f\x73\164\137\157\160\164\x69\x6f\x6e\x73", array("\x64\x65\x73\143\162\151\160\x74\151\x6f\156" => "\101\144\144\x20\x74\x6f\x20\x77\151\144\147\x65\164\x20\x22\x4f\x6e\145\40\123\x6c\x69\144\145\x22\x20\50\123\154\x69\x64\x65\162\40\x6f\x6e\x65\x20\142\x79\x20\x6f\x6e\145\x29", "\x73\x6c\x75\147" => "\151\163\x5f\x6f\156\x65\137\163\154\151\x64\x65")); goto IlD6I; xLs8S: wp_insert_term("\x41\144\144\40\164\x6f\x20\167\x69\144\147\145\x74\x20\42\x43\141\x72\x6f\165\x73\145\x6c\x20\x53\154\151\x64\x65\x72\x22", "\160\157\x73\x74\137\x6f\x70\164\x69\x6f\x6e\x73", array("\x64\x65\x73\x63\x72\151\160\164\151\x6f\156" => "\101\144\x64\x20\x74\x6f\x20\x77\151\144\147\145\164\x20\42\x43\x61\x72\x6f\x75\x73\145\x6c\x20\x53\x6c\151\144\145\x72\42", "\163\154\x75\x67" => "\x69\163\137\x63\141\162\x6f\165\163\145\x6c\x5f\x73\x6c\x69\144\x65")); goto eTgx5; pSD0V: wp_insert_term("\124\162\141\151\154\145\162", "\x73\164\x61\164\165\163", array("\x64\145\x73\143\162\x69\160\164\x69\x6f\x6e" => "\x54\162\141\151\x6c\x65\x72", "\163\x6c\x75\147" => "\x69\x73\x5f\164\x72\141\151\154\145\162")); goto FTDkP; Zb8ue: if (term_exists("\x69\x73\x5f\x74\162\x61\151\154\x65\x72", "\x73\x74\x61\164\x75\x73")) { goto ZE_kz; } goto pSD0V; FTDkP: ZE_kz: goto DIxln; eTgx5: jqd8E: goto ts8Ez; IFshL: wp_insert_term("\x43\x6f\155\160\154\x65\164\145\x64", "\x73\164\141\164\x75\163", array("\144\x65\163\x63\x72\x69\x70\x74\151\157\x6e" => "\103\157\155\160\x6c\x65\x74\145\x64", "\x73\154\165\x67" => "\x63\157\155\160\x6c\x65\164\145\144")); goto ooPqb; NW5wg: if (term_exists("\x69\163\x5f\143\141\x72\x6f\165\163\145\x6c\137\x73\x6c\x69\x64\145", "\x70\157\x73\164\137\157\160\x74\x69\157\156\163")) { goto jqd8E; } goto xLs8S; OKXn7: wp_insert_term("\120\x61\147\151\156\147\40\x74\x68\145\40\145\x70\x69\163\157\144\145\40\154\151\163\164", "\x70\x6f\163\164\x5f\x6f\x70\x74\x69\157\156\163", array("\x64\x65\x73\x63\x72\151\x70\x74\x69\157\156" => "\x50\x61\x67\151\x6e\x67\40\x74\150\145\x20\145\x70\151\x73\157\x64\x65\40\x6c\x69\x73\164", "\x73\x6c\165\x67" => "\x70\x61\147\x69\156\147\x5f\145\160\x69\x73\157\144\145")); goto Ty6jK; ooPqb: d9Qgg: goto eHYxk; IlD6I: VNZFD: goto NW5wg; z5P2Q: wp_insert_term("\x4f\156\147\157\x69\156\x67", "\x73\x74\141\164\x75\163", array("\x64\145\x73\143\x72\x69\160\164\151\157\x6e" => "\x4f\156\147\157\151\156\147", "\x73\154\165\x67" => "\x6f\x6e\x67\x6f\x69\156\x67")); goto pMaap; Gj6Sy: } }
+namespace HNMG\EP_Core;
+
+class EP_Taxonomy {
+
+	public function register() {
+		add_action('init', [$this, 'hntype_taxonomy'], 0);
+		add_action('init', [$this, 'hnactors_taxonomy'], 0);
+		add_action('init', [$this, 'hndirectors_taxonomy'], 0);
+		add_action('init', [$this, 'hnrelease_taxonomy'], 0);
+		add_action('init', [$this, 'hncountry_taxonomy'], 0);
+		add_action('init', [$this, 'custom_post_formats_taxonomies'], 0);
+		add_action('init', [$this, 'haun_register_taxonomy_post_options'], 0);
+		add_action('init', [$this, 'haun_cusom_wp_insert_term'], 0);
+		add_action('init', [$this, 'hnnews_taxonomy'], 0);
+		add_action('init', [$this, 'hnnews_posttype'], 0);
+		add_action('init', [$this, 'hnnews_tag'], 0);
+		add_action('init', [$this, 'hnvideo_posttype'], 1);
+		add_action('init', [$this, 'hnvideo_taxonomy'], 1);
+		add_action('init', [$this, 'hnvideo_tag'], 1);
+	}
+	
+	public function hntype_taxonomy() {
+        $labels = array(
+            'name'                       => _x( 'Episode Types', 'Episode type', 'hnmgepis' ),
+            'singular_name'              => _x( 'Episode Type', 'Episode type', 'hnmgepis' ),
+            'menu_name'                  => __( 'Episode Types', 'hnmgepis' ),
+            'all_items'                  => __( 'All Items', 'hnmgepis' ),
+            'parent_item'                => __( 'Parent Item', 'hnmgepis' ),
+            'parent_item_colon'          => __( 'Parent Item:', 'hnmgepis' ),
+            'new_item_name'              => __( 'New Item Name', 'hnmgepis' ),
+            'add_new_item'               => __( 'Add New Item', 'hnmgepis' ),
+            'edit_item'                  => __( 'Edit Item', 'hnmgepis' ),
+            'update_item'                => __( 'Update Item', 'hnmgepis' ),
+            'view_item'                  => __( 'View Item', 'hnmgepis' ),
+            'separate_items_with_commas' => __( 'Separate items with commas', 'hnmgepis' ),
+            'add_or_remove_items'        => __( 'Add or remove items', 'hnmgepis' ),
+            'choose_from_most_used'      => __( 'Choose from the most used', 'hnmgepis' ),
+            'popular_items'              => __( 'Popular Items', 'hnmgepis' ),
+            'search_items'               => __( 'Search Items', 'hnmgepis' ),
+            'not_found'                  => __( 'Not Found', 'hnmgepis' ),
+            'no_terms'                   => __( 'No items', 'hnmgepis' ),
+            'items_list'                 => __( 'Items list', 'hnmgepis' ),
+            'items_list_navigation'      => __( 'Items list navigation', 'hnmgepis' ),
+        );
+        $args = array(
+            'labels'                     => $labels,
+            'hierarchical'               => false,
+            'public'                     => true,
+            'show_ui'                    => true,
+            'show_admin_column'          => false,
+            'show_in_nav_menus'          => false,
+            'show_tagcloud'              => true,
+            'show_in_rest'               => false,
+        );
+        register_taxonomy( 'episode-types', array( 'post' ), $args );
+    }
+
+	public function hnactors_taxonomy() {
+		$args = array(
+				'labels'            => array(
+					'name'          => __('Actors', 'hnmgepis'),
+					'singular'      => 'Actors',
+					'menu-name'     => 'Actors',
+					'all_item'      => 'All actors',
+					'add_new_item'  => 'Add new actor',
+				),
+				'hierarchical'      => false,
+				'public'            => true,
+				'show_ui'           => true,
+				'show_admin_column' => true,
+				'show_tagcloud'     => true,
+				'show_in_nav_menus' => true,
+				'show_in_rest'      => true,
+			);
+		register_taxonomy('actor', 'post', $args);
+	}
+
+	public function hndirectors_taxonomy() {
+		$args = array(
+				'labels' => array(
+					'name'          => __('Directors', 'hnmgepis'),
+					'singular'      => 'Directors',
+					'menu-name'     => 'Directors',
+					'all_item'      => 'All Directors',
+					'add_new_item'  => 'Add new director',
+				),
+				'hierarchical'      => false,
+				'public'            => true,
+				'show_ui'           => true,
+				'show_admin_column' => true,
+				'show_tagcloud'     => true,
+				'show_in_rest'      => true,
+				'show_in_nav_menus' => true
+			);
+		register_taxonomy('director', 'post', $args);
+	}
+
+	public function hnrelease_taxonomy(){
+		$args = array(
+				'labels' => array(
+					'name'          => __('Release', 'hnmgepis'),
+					'singular'      => 'Release',
+					'menu-name'     => 'Release',
+					'all_item'      => 'View all',
+					'add_new_item'  => 'Add new',
+				),
+				'hierarchical'      => false,
+				'public'            => true,
+				'show_ui'           => true,
+				'show_admin_column' => true,
+				'show_tagcloud'     => true,
+				'show_in_rest'      => true,
+				'show_in_nav_menus' => true
+			);
+
+		register_taxonomy('release', 'post', $args);
+	}
+	
+	public function hncountry_taxonomy() {
+		$args = array(
+				'labels' => array(
+					'name'          => __('Country', 'hnmgepis'),
+					'singular'      => 'Country',
+					'menu-name'     => 'Country',
+					'all_item'      => 'View all',
+					'add_new_item'  => 'Add new country',
+				),
+				'hierarchical'      => false,
+				'public'            => true,
+				'show_ui'           => true,
+				'show_admin_column' => true,
+				'show_in_rest'      => true,
+				'show_tagcloud'     => true,
+				'show_in_nav_menus' => true
+			);
+
+		register_taxonomy('country', 'post', $args);
+	}
+
+	// news
+	public function hnnews_taxonomy() {
+        $labels = array(
+			'name' => __('News categories', 'hnmgepis'), 
+			'singular_name' => __('News category', 'hnmgepis'), 
+			'menu_name' => __('News categories', 'hnmgepis'), 
+			'all_items' => __('All categories', 'hnmgepis')
+		);
+        $rewrite = array(
+			'slug' => 'news-cat', 
+			'with_front' => true, 
+			'hierarchical' => true
+		);
+        $args = array(
+			'labels' => $labels, 
+			'has_archive' => true, 
+			'hierarchical' => true, 
+			'public' => true, 
+			'show_ui' => true, 
+			'show_admin_column' => true, 
+			'show_in_nav_menus' => true, 
+			'show_tagcloud' => false, 
+			'query_var' => 'news-cat', 
+			'rewrite' => $rewrite
+		);
+        register_taxonomy('news_cat', array( 'news' ), $args);
+    }
+
+	public function hnnews_posttype() {
+        $labels = array(
+			'name' => __('News', 'hnmgepis'), 
+			'singular_name' => __('News', 'hnmgepis'), 
+			'menu_name' => __('News', 'hnmgepis'), 
+			'name_admin_bar' => __('Add news', 'hnmgepis')
+		);
+        $args = array(
+			'label' => __('News', 'hnmgepis'), 
+			'labels' => $labels, 
+			'supports' => array(
+				'title', 
+				'editor', 
+				'thumbnail', 
+				'custom-fields'
+			), 
+			'hierarchical' => false, 
+			'public' => true, 
+			'show_ui' => true, 
+			'show_in_menu' => true, 
+			'menu_position' => 5, 
+			'show_in_admin_bar' => true, 
+			'show_in_nav_menus' => true, 
+			'can_export' => true, 
+			'has_archive' => true, 
+			'exclude_from_search' => true, 
+			'publicly_queryable' => true, 
+			'capability_type' => 'post', 
+			'menu_icon' => 'dashicons-id'
+		);
+        register_post_type('news', $args);
+    }
+	
+	public function hnnews_tag() {
+		$labels = array(
+			'name'          => __( 'News tags', 'hnmgepis' ),
+			'singular_name' => __( 'News tag', 'hnmgepis' ),
+			'menu_name'     => __( 'News tags', 'hnmgepis' ),
+		);
+		$args = array(
+			'labels'            => $labels,
+			'hierarchical'      => false,
+			'public'            => true,
+			'show_ui'           => true,
+			'show_admin_column' => true,
+			'show_in_nav_menus' => true,
+			'show_tagcloud'     => true,
+			'query_var'         => 'news-tag',
+		);
+		register_taxonomy( 'news_tag', array( 'news' ), $args );
+	}
+	// videos
+	public function hnvideo_posttype() {
+		$labels = array(
+			'name'           => __( 'Videos', 'hnmgepis' ),
+			'singular_name'  => __( 'Video', 'hnmgepis' ),
+			'menu_name'      => __( 'Videos', 'hnmgepis' ),
+			'name_admin_bar' => __( 'Add new video', 'hnmgepis' ),
+		);
+		$args = array(
+			'label'               => __( 'Video', 'hnmgepis' ),
+			'labels'              => $labels,
+			'supports'            => array( 'title', 'editor', 'thumbnail', 'custom-fields'),
+			'hierarchical'        => false,
+			'public'              => true,
+			'show_ui'             => true,
+			'show_in_menu'        => true,
+			'menu_position'       => 5,
+			'show_in_admin_bar'   => true,
+			'show_in_nav_menus'   => true,
+			'can_export'          => true,
+			'has_archive'         => true,
+			'exclude_from_search' => true,
+			'publicly_queryable'  => true,
+			'capability_type'     => 'post',
+			'menu_icon'           => 'dashicons-video-alt3',
+		);
+		register_post_type( 'video', $args );
+	}
+	
+	public function hnvideo_taxonomy() {
+		$labels = array(
+			'name'          => __( 'Video Categories', 'hnmgepis' ),
+			'singular_name' => __( 'Video Category', 'hnmgepis' ),
+			'menu_name'     => __( 'Video Categories', 'hnmgepis' ),
+			'all_items'     => __( 'All categories', 'hnmgepis' ),
+		);
+		$rewrite = array(
+			'slug'         => 'video-cat',
+			'with_front'   => true,
+			'hierarchical' => true,
+		);
+		$args = array(
+			'labels'            => $labels,
+			'has_archive'       => true,
+			'hierarchical'      => true,
+			'public'            => true,
+			'show_ui'           => true,
+			'show_admin_column' => true,
+			'show_in_nav_menus' => true,
+			'show_tagcloud'     => false,
+			'query_var'         => 'video-cat',
+			'rewrite'           => $rewrite,
+		);
+		register_taxonomy( 'video_cat', array( 'video' ), $args );
+	}
+	
+	public function hnvideo_tag() {
+		$labels = array(
+			'name'          => __( 'Video tags', 'hnmgepis' ),
+			'singular_name' => __( 'Video tag', 'hnmgepis' ),
+			'menu_name'     => __( 'Video tags', 'hnmgepis' ),
+		);
+		$rewrite = array(
+			'slug'         => 'video-tag',
+			'with_front'   => true,
+			'hierarchical' => true,
+		);
+		$args = array(
+			'labels'            => $labels,
+			'hierarchical'      => false,
+			'public'            => true,
+			'show_ui'           => true,
+			'show_admin_column' => true,
+			'show_in_nav_menus' => true,
+			'show_tagcloud'     => true,
+			'rewrite'           => $rewrite,
+		);
+		register_taxonomy( 'video_tag', array( 'video' ), $args );
+	}
+	
+	// Status & Options
+	public function custom_post_formats_taxonomies() {
+		$labels = array(
+			'name'              => _x( 'Status', 'taxonomy general name', 'textdomain' ),
+			'singular_name'     => _x( 'Status', 'taxonomy singular name', 'textdomain' ),
+			'search_items'      => __( 'Search Status', 'textdomain' ),
+			'all_items'         => __( 'All Status', 'textdomain' ),
+			'parent_item'       => __( 'Parent Status', 'textdomain' ),
+			'parent_item_colon' => __( 'Parent Status:', 'textdomain' ),
+			'edit_item'         => __( 'Edit Status', 'textdomain' ),
+			'update_item'       => __( 'Update Status', 'textdomain' ),
+			'add_new_item'      => __( 'Add New Status', 'textdomain' ),
+			'new_item_name'     => __( 'New Status Name', 'textdomain' ),
+			'menu_name'         => __( 'Status', 'textdomain' ),
+		);
+		$args = array(
+			'hierarchical'      => true,
+			'labels'            => $labels,
+			'show_ui'           => true,
+			'show_admin_column' => true,
+			'query_var'         => true,
+			'rewrite'           => array( 'slug' => 'status' ),
+			'capabilities' => array(
+				'manage_terms' => '',
+				'edit_terms' => '',
+				'delete_terms' => '',
+				'assign_terms' => 'edit_posts'
+			),
+			'public' => true,
+			'show_in_nav_menus' => false,
+			'show_tagcloud' => false,
+		);
+		register_taxonomy( 'status', array( 'post' ), $args );
+	}
+
+	public function haun_register_taxonomy_post_options() {
+		$labels = array(
+			'name' => _x('Post options', 'taxonomy general name', 'textdomain'),
+			'singular_name' => _x('Post options', 'taxonomy singular name', 'textdomain'),
+			'search_items' => __('Search option', 'textdomain'),
+			'all_items' => __('All options', 'textdomain'),
+			'parent_item' => __('Parent', 'textdomain'),
+			'parent_item_colon' => __('Parent', 'textdomain'),
+			'edit_item' => __('Edit', 'textdomain'),
+			'update_item' => __('Update', 'textdomain'),
+			'add_new_item' => __('Add New', 'textdomain'),
+			'new_item_name' => __('New option name', 'textdomain'),
+			'menu_name' => __('Options', 'textdomain')
+		);
+		$args = array(
+			'hierarchical' => true, 
+			'labels' => $labels, 
+			'show_ui' => true, 
+			'show_admin_column' => true, 
+			'query_var' => true, 
+			'rewrite' => array(
+				'slug' => 'post_options'
+			), 
+			'capabilities' => array(
+				'manage_terms' => '', 
+				'edit_terms' => '', 
+				'delete_terms' => '', 
+				'assign_terms' => 'edit_posts'
+			), 
+			'public' => true, 
+			'show_in_nav_menus' => false, 
+			'show_tagcloud' => false
+		);
+		register_taxonomy('post_options', array('post'), $args);
+	}
+
+	public function haun_cusom_wp_insert_term() {
+		if (!term_exists('completed', 'status')) {
+			wp_insert_term(
+				'Completed', 
+				'status', 
+				array(
+					'description' => 'Completed', 
+					'slug' => 'completed'
+				)
+			);
+		}
+		if (!term_exists('ongoing', 'status')) {
+			wp_insert_term(
+				'Ongoing', 
+				'status', 
+				array(
+					'description' => 'Ongoing', 
+					'slug' => 'ongoing'
+				)
+			);
+		}
+		if (!term_exists('is_trailer', 'status')) {
+			wp_insert_term(
+				'Trailer', 
+				'status', 
+				array(
+					'description' => 'Trailer', 
+					'slug' => 'is_trailer'
+				)
+			);
+		}
+		if (!term_exists('is_one_slide', 'post_options')) {
+			wp_insert_term(
+				'Add to widget "One Slide" (Slider one by one)', 
+				'post_options', 
+				array(
+					'description' => 'Add to widget "One Slide" (Slider one by one)', 
+					'slug' => 'is_one_slide'
+				)
+			);
+		}
+		if (!term_exists('is_carousel_slide', 'post_options')) {
+			wp_insert_term(
+				'Add to widget "Carousel Slider"', 
+				'post_options', 
+				array(
+					'description' => 'Add to widget "Carousel Slider"', 
+					'slug' => 'is_carousel_slide'
+				)
+			);
+		}
+		if (!term_exists('paging_episode', 'post_options')) {
+			wp_insert_term(
+				'Paging the episode list', 
+				'post_options', 
+				array(
+					'description' => 'Paging the episode list', 
+					'slug' => 'paging_episode'
+				)
+			);
+		}
+	}
+
+}
+
+?>

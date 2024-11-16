@@ -1,8 +1,78 @@
-<?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\EP_Load; class EP_Rewrite { public function __construct() { add_action("\151\x6e\151\164", [$this, "\x61\144\x64\x5f\x63\x75\x73\x74\157\155\137\x72\x65\x77\162\151\164\145\x5f\x72\x75\x6c\x65\163"]); } public function add_custom_rewrite_rules() { goto n_v4S; UvREE: add_rewrite_rule("\136\x68\156\155\x67\160\154\141\x79\145\x72\134\56\x63\163\x73\44", "{$urlpath}\x2f\x63\x73\163\57\150\156\x6d\x67\x70\x6c\141\171\x65\162\x2e\x63\163\163", "\x74\157\160"); goto Yabv8; n_v4S: $base_path = strpos(get_template_directory(), "\141\160\x70\57\x74\150\x65\x6d\x65\163") !== false ? "\141\x70\x70\x2f\164\x68\x65\155\x65\x73" : "\167\160\55\x63\x6f\x6e\x74\145\156\x74\57\164\150\x65\x6d\x65\163"; goto fezaD; jhf6x: add_rewrite_rule("\x5e\152\x77\160\x6c\x61\171\x65\162\57\166\141\x73\x74\x5c\56\x6a\x73\x24", "{$urlpath}\x2f\152\167\160\x6c\x61\x79\145\x72\57\x76\x61\x73\164\x2e\x6a\x73", "\x74\x6f\160"); goto h7cp9; DGf7v: add_rewrite_rule("\136\x6a\x77\x70\x6c\x61\x79\x65\162\x2f\152\167\x70\x6c\x61\x79\x65\162\134\56\x63\157\162\x65\x5c\56\143\157\x6e\x74\162\157\154\x73\x5c\56\150\164\155\x6c\x35\134\x2e\x6a\x73\x24", "{$urlpath}\57\x6a\167\x70\x6c\x61\x79\x65\162\57\152\x77\x70\x6c\141\171\145\x72\56\x63\x6f\162\145\x2e\x63\157\156\164\x72\157\154\x73\x2e\150\x74\155\154\65\x2e\152\x73", "\164\x6f\160"); goto l1cOK; GpnQC: add_rewrite_rule("\136\x66\x6f\156\164\55\x61\167\x65\x73\157\155\145\134\56\155\x69\x6e\x5c\56\143\x73\x73\x24", "{$urlfont}\x2f\143\x73\x73\x2f\x66\x6f\x6e\x74\55\141\167\145\163\157\155\145\x2e\155\151\156\x2e\143\x73\x73", "\x74\157\x70"); goto JebWC; JebWC: add_rewrite_rule("\x5e\152\x77\x70\x6c\x61\x79\x65\x72\x2f\x70\162\157\166\151\x64\145\162\x5c\56\x68\x6c\x73\x6a\163\134\x2e\x6a\x73\44", "{$urlpath}\x2f\x6a\x77\160\154\x61\171\145\162\57\160\x72\x6f\166\x69\x64\x65\162\x2e\x68\154\163\152\x73\56\152\x73", "\x74\157\160"); goto sY5GO; fezaD: $urlpath = $base_path . "\57" . get_template() . "\x2f\166\x65\156\x64\157\x72\x2f\x68\156\143\157\162\x65\57\x68\x6e\x6d\147\145\x70\151\x73\x2f\x72\145\x73\x6f\x75\x72\x63\145\x73\x2f\x61\x73\163\x65\x74\x73"; goto XYiXR; sY5GO: add_rewrite_rule("\x5e\152\167\x70\154\141\x79\x65\162\x2f\164\162\141\x6e\x73\x6c\x61\x74\x69\x6f\x6e\x73\x2f\166\x69\x5c\x2e\152\x73\157\156\x24", "{$urlpath}\x2f\152\167\160\154\141\x79\145\x72\x2f\x74\x72\x61\x6e\x73\x6c\x61\x74\x69\157\156\x73\57\166\x69\x2e\152\163\x6f\156", "\164\157\x70"); goto hnPsq; Yabv8: add_rewrite_rule("\x5e\150\x6e\x6d\x67\x70\x6c\141\171\145\x72\x5c\56\152\163\44", "{$urlpath}\x2f\152\x73\57\150\156\x6d\147\x70\x6c\x61\171\x65\x72\56\x6a\163", "\164\x6f\160"); goto jhf6x; XYiXR: $urlfont = $base_path . "\x2f" . get_template() . "\x2f\166\145\156\144\157\x72\x2f\x68\x6e\x63\157\x72\x65\x2f\x68\x6e\x6d\147\145\160\151\x73\x2f\166\x65\156\144\x6f\162\57\146\157\162\164\x61\x77\145\163\x6f\155\145\x2f\146\157\156\164\x2d\141\x77\x65\163\x6f\x6d\145"; goto UvREE; WrZT7: flush_rewrite_rules(); goto C7opP; hnPsq: add_rewrite_rule("\136\152\x77\160\154\x61\x79\x65\162\x2f\152\x77\160\154\141\171\x65\162\134\56\x63\x6f\162\x65\134\x2e\143\x6f\x6e\x74\162\157\154\163\x5c\x2e\x6a\x73\44", "{$urlpath}\57\x6a\x77\160\x6c\x61\171\145\162\57\x6a\x77\160\154\141\171\145\162\56\x63\x6f\x72\x65\56\143\x6f\x6e\x74\162\x6f\x6c\x73\x2e\152\x73", "\x74\x6f\x70"); goto DGf7v; l1cOK: add_rewrite_rule("\x5e\x66\157\156\x74\x73\57\146\157\156\164\141\167\x65\163\x6f\155\x65\55\x77\x65\142\x66\157\156\x74\134\56\x28\167\x6f\146\146\x32\77\174\164\164\x66\x7c\163\x76\147\174\x65\157\164\x29\x28\134\77\x2e\x2a\51\77\44", "{$urlfont}\57\x66\x6f\156\164\x73\x2f\x66\157\156\164\141\167\145\163\x6f\x6d\x65\x2d\167\x65\142\x66\x6f\156\164\x2e\44\x31\x24\x32", "\164\157\160"); goto WrZT7; h7cp9: add_rewrite_rule("\136\152\x77\x70\154\x61\x79\x65\162\57\x6a\x77\160\x73\162\x76\x5c\56\152\163\44", "{$urlpath}\x2f\x6a\x77\x70\x6c\x61\171\x65\162\57\x6a\167\160\x73\x72\166\56\152\163", "\164\x6f\160"); goto GpnQC; C7opP: } }
+<?php 
+namespace HNMG\EP_Load;
+
+class EP_Rewrite {
+
+    public function register() {
+        add_action('init', [$this, 'add_custom_rewrite_rules']);
+		add_action('init', [$this, 'hn_rewrite_rule'], 10, 0);
+		add_filter('query_vars', [$this, 'hn_register_query_vars']);
+		//add_action('after_setup_theme', [$this, 'haun_remove_categories_prefix']);
+    }
+	
+	public function hn_rewrite_rule(){
+		if (is_plugin_active('hncore/hncore.php')) {
+			$urltype 	= hnmg_value('hncore_url_type');
+			$filter 	= hnmg_value('haun_filter_select');
+			$patterns = [
+				'{home_url}' 	=> '', 
+				'{title}' 		=> '([^/]*)',
+				'{episode}' 	=> '([^/]*)',
+				'{server}' 		=> '([0-9]+)',
+				'{org_title}' 	=> '([^/]*)',
+				'{country}' 	=> '([^/]*)',
+				'{year}' 		=> '([0-9]{4})',
+				'{html}' 		=> '.html?'
+			];
+			$watchPattern 	= str_replace(array_keys($patterns), array_values($patterns), $urltype);
+			$watch 			= (substr($watchPattern, 0, 1) === '/') ? ltrim($watchPattern, '/') : $watchPattern;
+			add_rewrite_rule('^' . $watch . '$', 'index.php?name=$matches[1]&episode_slug=$matches[2]&haun_server=$matches[3]&haun_action=watch','top');
+			
+			add_rewrite_rule('^code/([^/]*)/?', 'index.php?pagename=haun-code&haun_code=$matches[1]', 'top');
+			add_rewrite_rule('^az-list/([^/]*)?','index.php?pagename=az-list&letter=$matches[1]','top');
+			add_rewrite_rule('^az-list/([^/]*)/([^/]*)/([^/]*)?','index.php?pagename=az-list&letter=$matches[1]&page=$matches[2]&page1=$matches[3]','top');
+			
+			$path_pattern = '^filter-movies/' . str_repeat('([^/]*)/', count($filter));
+			$query_string = 'index.php?pagename=filter-movies';
+			foreach ($filter as $index => $param) {
+				$query_string .= "&$param=\$matches[" . ($index + 1) . "]";
+			}
+			$path_pattern_with_pagination = $path_pattern . '([^/]*)/([^/]*)/?';
+			$with_pagination = $query_string . '&page=$matches[' . (count($filter) + 1) . ']&page1=$matches[' . (count($filter) + 2) . ']';
+			add_rewrite_rule(rtrim($path_pattern_with_pagination, '/?') . '/?$', $with_pagination, 'top');
+			add_rewrite_rule(rtrim($path_pattern, '/?') . '/?$', $query_string, 'top');
+			
+			add_rewrite_rule('^filter-movies/([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]*)/?','index.php?pagename=filter-movies&sort=$matches[1]&formality=$matches[2]&status=$matches[3]&country=$matches[4]&release=$matches[5]&category=$matches[6]&page=$matches[7]&page1=$matches[8]','top');
+			add_rewrite_rule('^filter-movies/([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]*)/?','index.php?pagename=filter-movies&sort=$matches[1]&formality=$matches[2]&status=$matches[3]&country=$matches[4]&release=$matches[5]&category=$matches[6]','top');
+			flush_rewrite_rules();
+		}
+	}
+
+	public function hn_register_query_vars( $vars ) {
+		$new_vars = [
+			'haun_action', 'haun_info', 'haun_server', 'episode_slug', 'haun_episode',
+			'formality', 'status', 'country', 'release', 'category', 'page', 'page1', 
+			'letter', 'haun_code', 'filter_page', 'sort', 'type', 'year', 'genre', 'keyword', 'paged'
+		];
+		return array_merge($vars, $new_vars);
+	}
+	
+	public function add_custom_rewrite_rules() {
+		$base_path 		= strpos(get_template_directory(), 'app/themes') !== false ? 'app/themes' : 'wp-content/themes';
+		$urlpath		= $base_path . '/' . get_template() . '/vendor/hncore/hnmgepis/resources/assets';
+		$urlfont		= $base_path . '/' . get_template() . '/vendor/hncore/hnmgepis/vendor/fortawesome/font-awesome';
+		add_rewrite_rule('^hnmgplayer\.css$', "$urlpath/css/hnmgplayer.css", 'top');
+		add_rewrite_rule('^hnmgplayer\.js$', "$urlpath/js/hnmgplayer.js", 'top');
+		add_rewrite_rule('^jwplayer/vast\.js$', "$urlpath/jwplayer/vast.js", 'top');
+		add_rewrite_rule('^jwplayer/jwpsrv\.js$', "$urlpath/jwplayer/jwpsrv.js", 'top');
+		add_rewrite_rule('^font-awesome\.min\.css$', "$urlfont/css/font-awesome.min.css", 'top');
+		add_rewrite_rule('^jwplayer/provider\.hlsjs\.js$', "$urlpath/jwplayer/provider.hlsjs.js", 'top');
+		add_rewrite_rule('^jwplayer/provider\.html5\.js$', "$urlpath/jwplayer/provider.html5.js", 'top');
+		add_rewrite_rule('^jwplayer/translations/vi\.json$', "$urlpath/jwplayer/translations/vi.json", 'top');
+		add_rewrite_rule('^jwplayer/jwplayer\.core\.controls\.js$', "$urlpath/jwplayer/jwplayer.core.controls.js", 'top');
+		add_rewrite_rule('^jwplayer/jwplayer\.core\.controls\.html5\.js$', "$urlpath/jwplayer/jwplayer.core.controls.html5.js", 'top');
+		add_rewrite_rule('^fonts/fontawesome-webfont\.(woff2?|ttf|svg|eot)(\?.*)?$', "$urlfont/fonts/fontawesome-webfont.$1$2",'top');
+		flush_rewrite_rules();
+	}
+
+}

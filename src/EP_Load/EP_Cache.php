@@ -1,8 +1,174 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\EP_Load; class EP_Cache { public $timeCache; public $folderCache; public function __construct() { goto UdIBA; AvL2y: $this->wp_filesystem = $wp_filesystem; goto iiQm2; ILuvi: global $wp_filesystem; goto G9g9N; UdIBA: $this->folderCache = WP_CONTENT_DIR . "\57\146\151\154\155\x2d\x63\141\x63\150\145"; goto R0DDT; qF7b9: if (!function_exists("\127\120\137\106\x69\x6c\145\x73\171\163\x74\x65\155")) { require_once ABSPATH . "\167\160\55\141\x64\155\151\156\57\x69\x6e\143\154\x75\144\145\x73\57\146\x69\154\145\56\x70\150\160"; } goto ILuvi; G9g9N: WP_Filesystem(); goto AvL2y; R0DDT: $this->timeCache = 3600; goto qF7b9; iiQm2: } public function readCache($name) { goto CJ0js; hVt5W: $createFolderCache = $this->createFolderCache($name); goto NqUSs; CJ0js: $name = md5(md5($name)); goto OYoTD; DsDCj: if ($this->timeCache != '') { goto WiquZ; } goto Fzb4D; s2SkQ: WiquZ: goto Z5v3c; Fzb4D: $result = file_get_contents($file); goto MGRpg; Nr673: $result = file_get_contents($file); goto OHTwW; JL4mN: return $result; goto sLNVZ; MGRpg: goto Yk7VC; goto s2SkQ; NqUSs: $file = $this->folderCache . "\x2f" . $createFolderCache . "\57" . $name . "\56\x74\170\x74"; goto J7mB1; J7mB1: if (!file_exists($file)) { goto nl1gy; } goto DsDCj; Enlyd: Yk7VC: goto jatxn; Z5v3c: if (!($this->timeCache > time() - filemtime($file))) { goto SuPV0; } goto Nr673; jatxn: nl1gy: goto JL4mN; OYoTD: $result = ''; goto hVt5W; OHTwW: SuPV0: goto Enlyd; sLNVZ: } public function getCache() { goto PXm9v; PXm9v: $result = array(); goto CwwSG; JlHzy: if (!$getDirContents) { goto rW6Uh; } goto mJ1Uv; siTb1: rW6Uh: goto Ey_6l; mJ1Uv: foreach ($getDirContents as $key => $value) { goto DeH_Q; LPgM1: $result[] = array("\x66\151\x6c\145" => $value); goto VF49f; DeH_Q: if (!strpos($value, "\x2e\x74\170\164")) { goto ChZ5I; } goto LPgM1; VF49f: ChZ5I: goto r4AnP; r4AnP: RiDke: goto eARD0; eARD0: } goto FhHCw; TqwuJ: $i = 0; goto JlHzy; Y97Zd: return json_encode($result); goto siTb1; FhHCw: xEBJg: goto Y97Zd; CwwSG: $getDirContents = $this->getDirContents($this->folderCache); goto TqwuJ; Ey_6l: } public function saveCache($name, $data) { goto jj0O2; S_6ne: if (chmod($this->folderCache, 0777)) { goto bi60R; } goto tIM1Z; PfBW7: $this->wp_filesystem->put_contents($file, $data, FS_CHMOD_FILE); goto F5kgl; tIM1Z: chmod($this->folderCache, 0777); goto DbQvF; cYOAB: $file = $dir . "\x2f" . $name . "\x2e\x74\170\x74"; goto Oe13N; l5EOZ: $createFolderCache = $this->createFolderCache($name); goto N83r1; ysdNA: $dir = $this->folderCache . "\57" . $createFolderCache; goto cYOAB; F5kgl: $index_file = WP_CONTENT_DIR . "\57\146\x69\x6c\155\x2d\143\x61\143\x68\145\57\151\x6e\144\145\170\56\x70\150\160"; goto tzIqy; l45Ee: mkdir($this->folderCache, 0777, true); goto jETTs; CAny3: iKuiq: goto PfBW7; ElpFZ: mkdir($dir, 0777, true); goto CAny3; tzIqy: $this->wp_filesystem->put_contents($index_file, "\x3c\77\160\x68\160\x20\57\x2f\x20\123\151\154\x65\x6e\x63\145\x20\151\163\x20\147\157\x6c\x64\x65\x6e\x2e", FS_CHMOD_FILE); goto sMO8h; N83r1: if (is_dir($this->folderCache)) { goto xC5Gu; } goto l45Ee; jj0O2: $name = md5(md5($name)); goto l5EOZ; jETTs: xC5Gu: goto S_6ne; DbQvF: bi60R: goto ysdNA; Oe13N: if (is_dir($dir)) { goto iKuiq; } goto ElpFZ; sMO8h: } public function delCache($name) { goto y1f0R; zvXKf: goto sWQDy; goto DsNZs; z3SDY: goto qnQWN; goto Mid8o; kxC10: if (file_exists($file)) { goto RklLL; } goto cIim1; hugPD: $result = array("\x73\x74\141\164\x75\x73" => 0, "\162\x65\163\165\154\164" => "\104\x65\154\x65\x74\145\40\x65\162\x72\157\162"); goto z3SDY; uss6V: $name = md5(md5($name)); goto JUtSd; VRKu0: sWQDy: goto P6Qm9; J8y5b: $file = $this->folderCache . "\x2f" . $createFolderCache . "\x2f" . $name . "\x2e\164\x78\x74"; goto kxC10; JUtSd: $createFolderCache = $this->createFolderCache($name); goto J8y5b; DsNZs: RklLL: goto Mf6VH; Mf6VH: if (unlink($file)) { goto R1XI5; } goto hugPD; nNwIT: qnQWN: goto VRKu0; P6Qm9: return $result; goto SRe0t; cIim1: $result = array("\x73\x74\141\164\x75\163" => 0, "\x72\145\x73\x75\x6c\164" => "\114\151\x6e\153\x20\x6e\x6f\x74\40\145\170\151\x73\x74\163"); goto zvXKf; y1f0R: $result = ''; goto uss6V; Mid8o: R1XI5: goto PsgJN; PsgJN: $result = array("\x73\x74\x61\164\x75\x73" => 1, "\162\x65\x73\x75\x6c\x74" => "\x44\145\x6c\145\x74\145\x64"); goto nNwIT; SRe0t: } public function delAllCache($timeCache) { goto zHRTh; OvlV6: $i = $j = 0; goto UYmqN; CMnT8: $result["\x63\141\143\x68\145\137\x64\145\154\145\x74\x65\x64"] = $j; goto w6HBe; w6HBe: $result["\x63\x61\x63\x68\x65\x5f\x63\x6f\165\x6e\164"] = $i - $j; goto tQDee; UYmqN: if (!$getDirContents) { goto ladsS; } goto nvSMp; ZcV8O: $result["\x74\x69\x6d\x65\137\x6c\x69\x6d\x69\x74"] = $timeCache; goto CMnT8; TltT1: Ao1Mj: goto bqknp; tQDee: return json_encode($result); goto sU3xi; P2n_Z: $getDirContents = $this->getDirContents($this->folderCache); goto OvlV6; btrvq: $this->removeEmptySubFolders($this->folderCache); goto W9UCM; nvSMp: foreach ($getDirContents as $key => $value) { goto r37zP; NnLLn: $result["\163\x74\x61\x74\x75\x73"] = 1; goto laYqg; r37zP: if (!strpos($value, "\56\x74\170\164")) { goto XWG64; } goto LC_Qv; VQ0VK: oFPF4: goto ucczx; gK2pm: P1Sp1: goto NnLLn; SHsi1: $j++; goto kAe7f; afhdH: $result["\163\164\141\164\x75\x73"] = 0; goto WQCN5; kAe7f: if (unlink($value)) { goto P1Sp1; } goto afhdH; WQCN5: goto GDx0X; goto gK2pm; ucczx: XWG64: goto dPJpp; LC_Qv: $i++; goto LSNa3; dPJpp: aHST1: goto Z8IGq; LSNa3: if (!($timeCache <= time() - filemtime($value))) { goto oFPF4; } goto SHsi1; laYqg: GDx0X: goto VQ0VK; Z8IGq: } goto TltT1; W9UCM: $result["\x74\157\x74\141\154\x5f\143\x61\x63\150\x65"] = $i; goto ZcV8O; zHRTh: $result = array(); goto P2n_Z; bqknp: ladsS: goto btrvq; sU3xi: } public function cacheCount() { goto f_Bd8; f_Bd8: $result = array(); goto Bxk7p; nMnh3: if (!$getDirContents) { goto E1f00; } goto i1Vgy; LwRhL: goGee: goto rKmwq; Bxk7p: $getDirContents = $this->getDirContents($this->folderCache); goto A49qY; c62Vu: return json_encode($result); goto bxsMP; i1Vgy: foreach ($getDirContents as $key => $value) { goto AilGO; tKpIp: $result["\x74\157\x74\x61\154\x5f\x63\x61\x63\x68\145"] = $i; goto rv7R5; mNkjW: $result["\x72\145\x73\x75\154\164"] = 1; goto tKpIp; rv7R5: $i++; goto JLDxo; AilGO: if (!strpos($value, "\x2e\x74\170\x74")) { goto YKut0; } goto mNkjW; JLDxo: YKut0: goto yvHTn; yvHTn: AiVlx: goto vcfnd; vcfnd: } goto LwRhL; A49qY: $i = 1; goto nMnh3; rKmwq: E1f00: goto c62Vu; bxsMP: } private function createFolderCache($name) { goto QBJQ6; hLmLG: return $folder1 . "\57" . $folder2; goto WsRTR; PZj20: $folder2 = substr($name, 2, 2); goto hLmLG; QBJQ6: $folder1 = substr($name, 0, 2); goto PZj20; WsRTR: } private function getDirContents($dir, &$results = array()) { goto Llif2; RnoO1: return $results; goto TNcNE; QD56B: GA81d: goto RnoO1; zcCqV: foreach ($files as $key => $value) { goto ulKa2; j3dJU: if (!is_dir($path)) { goto S9O1f; } goto tKVHG; Lv__q: S9O1f: goto F4wbj; rBfK0: goto uxcAw; goto Lv__q; tKVHG: if (!($value != "\56" && $value != "\x2e\x2e")) { goto dkkud; } goto NPP2W; NPP2W: $this->getDirContents($path, $results); goto eOvBI; L72qL: dkkud: goto rBfK0; F4wbj: $results[] = $path; goto AiL0R; Vqehs: YVjFs: goto rHUs6; eOvBI: $results[] = $path; goto L72qL; AiL0R: uxcAw: goto Vqehs; ulKa2: $path = realpath($dir . DIRECTORY_SEPARATOR . $value); goto j3dJU; rHUs6: } goto QD56B; Llif2: $files = scandir($dir); goto zcCqV; TNcNE: } private function removeEmptySubFolders($path) { goto esKbg; esKbg: $empty = true; goto GjG5d; m_jmh: return $empty && @rmdir($path); goto tGBTH; GjG5d: foreach (glob($path . DIRECTORY_SEPARATOR . "\x2a") as $file) { $empty &= is_dir($file) && $this->removeEmptySubFolders($file); Gd8aW: } goto TpBGD; TpBGD: TXpnz: goto m_jmh; tGBTH: } }
+namespace HNMG\EP_Load;
+
+class EP_Cache {
+	public $timeCache;
+    public $folderCache;
+	
+    public function __construct() {
+        $this->folderCache = WP_CONTENT_DIR . '/film-cache';
+        $this->timeCache = 3600;
+        if (!function_exists('WP_Filesystem')) {
+            require_once ABSPATH . 'wp-admin/includes/file.php';
+        }
+
+        global $wp_filesystem;
+        WP_Filesystem();
+        $this->wp_filesystem = $wp_filesystem;
+    }
+
+    public function readCache($name){
+        $name = md5(md5($name));
+        $result = '';
+        $createFolderCache = $this->createFolderCache($name);
+        $file = $this->folderCache.'/'.$createFolderCache.'/'.$name.'.txt';
+        if(file_exists($file)){
+            if($this->timeCache != ''){
+                if($this->timeCache > (time() - filemtime($file))){
+                    $result = file_get_contents($file);
+                }
+            } else {
+                $result = file_get_contents($file);
+            }
+        }
+        return $result;
+    }
+
+    public function getCache(){
+        $result = array();
+        $getDirContents = $this->getDirContents($this->folderCache);
+        $i = 0;
+        if($getDirContents){
+            foreach ($getDirContents as $key => $value) {
+                if(strpos($value, '.txt')){
+                    $result[] = array(
+                        'file'    => $value
+                    );
+                }
+            }
+            return json_encode($result);
+        }
+    }
+
+    public function saveCache($name, $data){
+        $name = md5(md5($name));
+        $createFolderCache = $this->createFolderCache($name);
+        if (!is_dir($this->folderCache)) {
+            mkdir($this->folderCache, 0777, true);
+        }
+        if(!chmod($this->folderCache, 0777)) {
+            chmod($this->folderCache, 0777);
+        }
+        $dir = $this->folderCache.'/'.$createFolderCache;
+        $file = $dir.'/'.$name.'.txt';
+        if (!is_dir($dir)) {
+            mkdir($dir, 0777, true);
+        }
+
+        $this->wp_filesystem->put_contents($file, $data, FS_CHMOD_FILE);
+        $index_file = WP_CONTENT_DIR . '/film-cache/index.php';
+        $this->wp_filesystem->put_contents($index_file, '<?php // Silence is golden.', FS_CHMOD_FILE);
+    }
+
+    public function delCache($name){
+        $result = '';
+        $name = md5(md5($name));
+        $createFolderCache = $this->createFolderCache($name);
+        $file = $this->folderCache.'/'.$createFolderCache.'/'.$name.'.txt';
+        if(file_exists($file)){
+            if(unlink($file)) {
+                $result = array(
+                    'status' => 1,
+                    'result' => 'Deleted'
+                );
+            } else {
+                $result = array(
+                    'status' => 0,
+                    'result' => 'Delete error'
+                );
+            }
+        }else{
+            $result = array(
+                    'status' => 0,
+                    'result' => 'Link not exists'
+                );
+        }
+        return $result;
+    }
+
+    public function delAllCache($timeCache){
+        $result = array();
+        $getDirContents = $this->getDirContents($this->folderCache);
+        $i = $j = 0;
+        if($getDirContents){
+            foreach ($getDirContents as $key => $value) {
+                if(strpos($value, '.txt')){
+                    $i++;
+                    if($timeCache <= (time() - filemtime($value))){
+                        $j++;
+                        if(unlink($value))
+                            $result['status'] = 1;
+                        else
+                            $result['status'] = 0;
+                    }
+                }
+            }
+        }
+        $this->removeEmptySubFolders($this->folderCache);
+        $result['total_cache'] = $i;
+        $result['time_limit'] = $timeCache;
+        $result['cache_deleted'] = $j;
+        $result['cache_count'] = $i-$j;
+        return json_encode($result);
+    }
+
+    public function cacheCount(){
+        $result = array();
+        $getDirContents = $this->getDirContents($this->folderCache);
+        $i = 1;
+        if($getDirContents){
+            foreach ($getDirContents as $key => $value) {
+                if(strpos($value, '.txt')){
+                    $result['result'] = 1;
+                    $result['total_cache'] = $i;
+                    $i++;
+                }
+            }
+        }
+
+        return json_encode($result);
+    }
+
+    private function createFolderCache($name){
+        $folder1 = substr($name, 0, 2);
+        $folder2 = substr($name, 2, 2);
+        return $folder1.'/'.$folder2;
+    }
+
+    private function getDirContents($dir, &$results = array()){
+        $files = scandir($dir);
+
+        foreach($files as $key => $value){
+            $path = realpath($dir.DIRECTORY_SEPARATOR.$value);
+            if(!is_dir($path)) {
+                $results[] = $path;
+            } else if($value != "." && $value != "..") {
+                $this->getDirContents($path, $results);
+                $results[] = $path;
+            }
+        }
+        return $results;
+    }
+
+    private function removeEmptySubFolders($path){
+        $empty=true;
+        foreach (glob($path.DIRECTORY_SEPARATOR."*") as $file)
+        {
+            $empty &= is_dir($file) && $this->removeEmptySubFolders($file);
+        }
+        return $empty && @rmdir($path);
+    }
+	
+}
+
+?>

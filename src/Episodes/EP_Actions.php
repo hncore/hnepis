@@ -1,8 +1,478 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\Episodes; use HNMG\Episodes\EP_Helper; class EP_Actions { public function __construct() { $this->load = new EP_Helper(); } public function register() { goto bDCc_; ietDo: add_action("\167\x70\137\x61\x6a\141\x78\137\150\156\141\152\x61\x78\137\141\x64\144\156\145\167\163\145\x72\x76\145\162", [$this, "\150\x6e\x61\x6a\x61\170\x5f\x61\144\144\156\x65\x77\x73\145\x72\x76\x65\162"]); goto ZiinQ; bDCc_: add_action("\167\x70\137\141\x6a\x61\x78\137\x68\x6e\141\x6a\141\170\x5f\147\145\164\154\151\163\164\137\x65\160\151\163\x6f\144\x65\x73", [$this, "\150\156\141\152\141\170\x5f\147\145\164\154\x69\163\x74\x5f\x65\160\151\163\157\x64\145\x73"]); goto K3V07; gQY3b: add_action("\167\160\x5f\141\x6a\141\170\x5f\x68\156\x61\152\141\170\x5f\x6f\x6e\145\137\x69\x6d\160\x6f\x72\164\145\162", [$this, "\x68\x6e\141\x6a\141\170\x5f\157\x6e\145\137\x69\x6d\160\157\x72\164\x65\162"]); goto TKQOT; Talse: add_action("\x77\x70\x5f\x61\152\141\170\x5f\150\x6e\x61\x6a\x61\x78\x5f\x65\170\x70\x6f\162\164\x5f\x65\x70\151\163\157\144\145\163", [$this, "\150\156\141\x6a\141\170\137\x65\x78\x70\157\162\x74\137\145\x70\151\163\x6f\x64\x65\163"]); goto Qimb2; ZuNRB: add_action("\167\x70\137\141\x6a\141\170\137\150\x6e\141\152\x61\170\x5f\x75\x70\144\x61\x74\x65\x5f\145\160\151\163\x6f\x64\x65", [$this, "\150\x6e\141\x6a\141\x78\137\165\160\144\141\x74\x65\137\x65\160\151\x73\157\x64\x65"]); goto ietDo; K3V07: add_action("\167\160\x5f\x61\152\141\x78\137\x68\x6e\141\x6a\x61\170\137\x72\x65\x6d\157\x76\x65\137\163\145\x72\166\x65\162", [$this, "\x68\x6e\141\x6a\141\x78\x5f\x72\x65\155\157\166\145\137\x73\145\x72\166\145\162"]); goto eKb4q; IDpu7: add_action("\167\160\137\x61\x6a\141\x78\137\150\156\141\152\x61\x78\137\x6c\x69\x73\x74\x5f\163\145\x72\166\x65\162\151\144", [$this, "\150\156\141\152\141\x78\137\154\x69\x73\164\137\x73\145\162\166\x65\162\151\x64"]); goto ZuNRB; eKb4q: add_action("\167\160\x5f\141\152\x61\170\x5f\150\x6e\x61\x6a\x61\x78\x5f\160\165\x62\x6c\151\x73\150\x5f\160\157\x73\164", [$this, "\150\156\141\x6a\x61\x78\x5f\160\x75\142\154\151\x73\150\x5f\x70\157\x73\164"]); goto gQY3b; ZiinQ: add_action("\x77\160\x5f\141\152\x61\170\x5f\150\156\141\x6a\141\170\137\x75\x70\144\141\164\145\137\x70\x6f\163\x74\x6d\145\x74\141", [$this, "\x68\x6e\x61\x6a\x61\x78\137\x75\x70\144\141\164\x65\137\160\x6f\163\164\x6d\145\x74\141"]); goto Wb6Ep; TKQOT: add_action("\167\160\137\x61\x6a\x61\x78\x5f\150\156\141\x6a\141\170\137\164\x77\x6f\137\x69\x6d\160\x6f\x72\x74\x65\162", [$this, "\x68\156\141\x6a\141\170\137\164\167\157\x5f\151\x6d\160\157\162\x74\x65\162"]); goto IDpu7; Qimb2: add_action("\167\160\137\141\152\141\x78\x5f\150\x6e\141\152\141\170\137\x66\x6f\162\x63\x65\x5f\x64\x65\x6c\145\164\x65\x5f\x70\x6f\163\x74", [$this, "\x68\x6e\141\152\141\170\137\x66\157\162\x63\x65\x5f\x64\145\x6c\x65\x74\x65\x5f\x70\x6f\x73\x74"]); goto AT6xA; Wb6Ep: add_action("\x77\160\x5f\141\152\141\x78\137\150\x6e\x73\141\x76\x65\137\x73\x65\162\x76\145\x72\137\150\x69\144\x64\x65\156", [$this, "\150\156\x73\141\x76\x65\137\163\145\162\x76\x65\162\137\x68\151\x64\x64\x65\156"]); goto Talse; AT6xA: } public function hnajax_update_episode() { goto PfvJf; PfvJf: $post_id = isset($_POST["\x70\157\163\164\x5f\151\144"]) ? absint($_POST["\x70\157\x73\x74\x5f\x69\x64"]) : ''; goto FHVz9; XTyjl: T7Tcc: goto wsqqx; mTwfz: wp_die(json_encode($input, JSON_UNESCAPED_UNICODE)); goto W7gid; wsqqx: update_post_meta($post_id, HNMG_EPS, json_encode($input, JSON_UNESCAPED_UNICODE)); goto mTwfz; FHVz9: $input = []; goto r1SKl; r1SKl: foreach ($_POST["\x68\141\x75\x6e\x6d\157\166\151\145\x73\137\x73\145\162\x76\145\162\x5f\156\x61\155\145"] as $serverIndex => $serverName) { goto Jz3l1; WnAnt: wuOy5: goto ABD8U; WIZUK: qY3NJ: goto WnAnt; KdLqt: $serverdata["\x68\141\165\x6e\x6d\x6f\x76\151\145\x73\137\x73\145\162\166\x65\162\137\x64\141\x74\x61"] = []; goto AmuwY; NMv9D: $serverdata["\150\141\165\x6e\155\x6f\x76\x69\x65\x73\137\x73\x65\162\x76\145\x72\x5f\x6e\141\155\145"] = esc_attr($serverName ? $serverName : "\x53\145\x72\166\x65\x72\x20\43" . $serverIndex); goto KdLqt; wfmH9: foreach ($_POST["\x68\141\x75\156\155\x6f\x76\x69\x65\163\x5f\145\x70\137\x6c\x69\156\x6b"][$serverIndex] as $episodeIndex => $episodeLink) { goto ir0C9; Y3cdE: $serverdata["\x68\141\x75\156\155\x6f\166\151\145\x73\x5f\163\x65\x72\x76\145\x72\137\x64\141\164\x61"][$_slug] = ["\150\x61\165\156\x6d\157\x76\151\145\x73\x5f\145\160\137\156\x61\155\145" => isset($_POST["\x68\141\165\x6e\x6d\157\x76\x69\x65\163\x5f\x65\x70\137\x6e\x61\155\145"][$serverIndex][$episodeIndex]) ? $_POST["\x68\x61\165\x6e\155\157\x76\x69\145\x73\x5f\145\x70\x5f\x6e\141\155\x65"][$serverIndex][$episodeIndex] : '', "\x68\141\165\156\x6d\157\166\x69\x65\163\137\x65\x70\x5f\x73\x6c\x75\x67" => isset($_POST["\x68\141\165\x6e\x6d\x6f\x76\151\x65\163\137\x65\x70\x5f\x73\x6c\165\147"][$serverIndex][$episodeIndex]) ? $_POST["\x68\141\x75\x6e\155\157\x76\x69\x65\x73\137\145\x70\x5f\163\154\x75\x67"][$serverIndex][$episodeIndex] : '', "\150\x61\x75\156\x6d\x6f\166\x69\145\x73\137\x65\x70\137\164\x79\x70\x65" => isset($_POST["\150\141\x75\156\x6d\157\x76\151\145\x73\x5f\145\x70\137\x74\x79\160\x65"][$serverIndex][$episodeIndex]) ? $_POST["\150\141\165\156\155\157\166\151\x65\x73\x5f\x65\x70\x5f\164\x79\x70\145"][$serverIndex][$episodeIndex] : '', "\x68\141\x75\156\x6d\x6f\x76\x69\145\163\x5f\145\160\x5f\154\151\x6e\153" => $episodeLink, "\150\141\165\156\155\x6f\x76\x69\145\163\137\145\x70\137\163\165\x62\163" => [], "\x68\x61\165\156\155\157\x76\x69\x65\x73\x5f\x65\160\x5f\154\151\163\164\x73\166" => []]; goto dKlrl; z6zuo: $_slug = str_replace("\x2d", "\x5f", $episode_slug); goto Y3cdE; KLkAy: ENEyo: goto sNunX; bpXTs: $subLabels = $_POST["\x73\165\x62\x5f\x6c\x61\142\145\x6c"][$serverIndex][$episodeIndex]; goto gmXUW; rpQlq: DzKid: goto ub2I9; ir0C9: $episode_slug = sanitize_title($_POST["\x68\141\x75\156\x6d\x6f\x76\151\145\163\x5f\145\160\x5f\163\154\165\x67"][$serverIndex][$episodeIndex]); goto z6zuo; gmXUW: $subDefaults = $_POST["\x73\x75\x62\137\x64\145\x66\x61\165\x6c\164"][$serverIndex][$episodeIndex]; goto cCN8s; wGrZ9: Ok1bc: goto rpQlq; dKlrl: if (!isset($_POST["\x73\x75\142\137\154\x61\142\145\x6c"][$serverIndex][$episodeIndex])) { goto DzKid; } goto bpXTs; RJnwK: QCN3H: goto QJ9ag; ub2I9: if (!isset($_POST["\154\x69\163\x74\x73\166\x5f\x6c\x69\x6e\x6b"][$serverIndex][$episodeIndex])) { goto hMDeU; } goto dsj1y; dsj1y: foreach ($_POST["\154\151\x73\x74\163\166\x5f\x6c\151\x6e\x6b"][$serverIndex][$episodeIndex] as $svIndex => $listsvLink) { goto U1Xly; U1Xly: $listsvName = isset($_POST["\154\x69\x73\164\x73\x76\137\x6e\141\x6d\x65"][$serverIndex][$episodeIndex][$svIndex]) ? $_POST["\154\151\x73\x74\163\166\x5f\156\141\155\145"][$serverIndex][$episodeIndex][$svIndex] : ''; goto SBsPt; r45Q4: $serverdata["\150\x61\165\156\x6d\x6f\166\151\145\163\x5f\163\145\x72\166\145\162\x5f\x64\141\x74\141"][$_slug]["\150\141\165\x6e\x6d\157\166\x69\145\163\x5f\145\x70\137\x6c\x69\x73\164\163\166"][] = ["\x68\141\165\x6e\155\157\x76\151\145\163\x5f\145\x70\137\x6c\x69\x73\x74\x73\166\x5f\154\x69\156\153" => trim($listsvLink), "\x68\x61\x75\156\155\x6f\166\x69\145\163\137\x65\160\137\154\151\163\164\x73\x76\x5f\156\141\x6d\145" => trim($listsvName), "\150\141\165\x6e\155\157\x76\151\145\x73\x5f\x65\160\x5f\154\x69\x73\x74\x73\166\x5f\x74\171\x70\145" => trim($listsvType)]; goto ERNqi; SBsPt: $listsvType = isset($_POST["\154\x69\x73\164\163\x76\137\164\171\x70\145"][$serverIndex][$episodeIndex][$svIndex]) ? $_POST["\154\x69\163\164\x73\166\x5f\x74\x79\x70\145"][$serverIndex][$episodeIndex][$svIndex] : ''; goto r45Q4; ERNqi: rt3y8: goto f1OM_; f1OM_: } goto KLkAy; cCN8s: foreach ($subLabels as $subIndex => $subLabel) { goto M0oYr; P6hGH: bPFfR: goto lUqvu; Xvost: f4Brq: goto xmglx; GbBPY: $serverdata["\150\141\x75\x6e\x6d\x6f\166\x69\x65\x73\137\x73\145\162\166\145\162\137\144\x61\x74\141"][$_slug]["\150\141\165\156\155\x6f\x76\151\x65\163\137\x65\160\137\x73\x75\142\x73"][] = ["\x68\x61\x75\x6e\x6d\157\x76\151\145\163\137\145\160\137\163\x75\x62\137\146\x69\154\x65" => trim($subFile), "\x68\141\165\156\155\x6f\166\151\145\x73\137\x65\x70\137\x73\x75\x62\137\154\141\x62\x65\x6c" => trim($subLabel), "\150\141\165\x6e\155\157\166\x69\145\163\x5f\145\x70\x5f\163\165\x62\x5f\153\151\156\144" => "\x63\x61\160\164\x69\x6f\x6e\163", "\x68\x61\x75\x6e\155\157\x76\x69\145\163\x5f\x65\x70\137\163\x75\x62\x5f\144\145\x66\x61\165\x6c\x74" => isset($subDefaults[$subIndex]) && $subDefaults[$subIndex] == "\61" ? "\164\162\x75\145" : "\146\x61\x6c\x73\145"]; goto AAKfG; M0oYr: $subFile = ''; goto lRuub; xmglx: gDTm5: goto GbBPY; lUqvu: goto gDTm5; goto KQpdh; lRuub: if (isset($_FILES["\x73\165\x62\x5f\x66\x69\x6c\145\x5f\x75\160\154\x6f\x61\144"]["\156\141\x6d\x65"][$serverIndex][$episodeIndex][$subIndex]) && !empty($_FILES["\x73\x75\142\x5f\146\151\154\145\137\x75\x70\154\x6f\x61\x64"]["\x6e\141\155\145"][$serverIndex][$episodeIndex][$subIndex])) { goto XBuYd; } goto qurgs; qK4Co: if (isset($upload["\x65\x72\162\x6f\x72"])) { goto f4Brq; } goto jnCi3; AAKfG: HEDCm: goto r7n2K; jnCi3: $subFile = $upload["\x75\162\154"]; goto Xvost; qurgs: if (!isset($_POST["\x73\165\x62\137\x66\x69\x6c\x65"][$serverIndex][$episodeIndex][$subIndex])) { goto bPFfR; } goto hW3Xh; KQpdh: XBuYd: goto FNQ1l; cnAtr: $upload = wp_handle_upload($uploadedFile, ["\164\x65\x73\164\x5f\x66\x6f\x72\x6d" => false]); goto qK4Co; hW3Xh: $subFile = $_POST["\x73\x75\142\137\146\x69\x6c\145"][$serverIndex][$episodeIndex][$subIndex]; goto P6hGH; FNQ1l: $uploadedFile = ["\x6e\x61\155\145" => $_FILES["\x73\165\142\137\x66\x69\154\145\x5f\165\x70\x6c\x6f\141\x64"]["\x6e\x61\155\145"][$serverIndex][$episodeIndex][$subIndex], "\164\171\160\x65" => $_FILES["\163\165\x62\x5f\146\x69\x6c\145\137\165\160\154\x6f\x61\144"]["\x74\171\160\145"][$serverIndex][$episodeIndex][$subIndex], "\x74\155\x70\x5f\156\x61\x6d\x65" => $_FILES["\163\x75\x62\x5f\146\x69\x6c\145\137\165\160\x6c\x6f\141\x64"]["\164\155\160\137\156\141\155\x65"][$serverIndex][$episodeIndex][$subIndex], "\x65\x72\x72\157\x72" => $_FILES["\x73\x75\x62\x5f\x66\151\154\x65\137\165\x70\x6c\x6f\141\x64"]["\x65\x72\162\157\x72"][$serverIndex][$episodeIndex][$subIndex], "\163\x69\172\145" => $_FILES["\x73\x75\142\x5f\x66\x69\x6c\145\x5f\x75\x70\154\x6f\141\144"]["\163\x69\x7a\145"][$serverIndex][$episodeIndex][$subIndex]]; goto cnAtr; r7n2K: } goto wGrZ9; sNunX: hMDeU: goto RJnwK; QJ9ag: } goto WIZUK; Jz3l1: $serverdata = []; goto NMv9D; AmuwY: if (!isset($_POST["\150\x61\x75\x6e\x6d\x6f\x76\151\x65\163\x5f\145\x70\137\154\x69\156\x6b"][$serverIndex])) { goto wuOy5; } goto wfmH9; cj5Qv: W1D2N: goto TM0JK; ABD8U: $input[] = $serverdata; goto cj5Qv; TM0JK: } goto XTyjl; W7gid: } public function hnajax_getlist_episodes() { goto mBEwL; SDyoz: $data = json_decode(stripslashes($metaPost), true); goto enCil; UipLg: wp_die(); goto ryfW7; mBEwL: $postID = isset($_POST["\160\x6f\x73\164\137\151\144"]) ? intval($_POST["\160\157\x73\x74\x5f\x69\144"]) : 0; goto UIlpn; UIlpn: $metaPost = get_post_meta($postID, HNMG_EPS, true); goto SDyoz; enCil: wp_send_json_success($data); goto UipLg; ryfW7: } public function hnajax_remove_server() { goto Y_7fl; jtna8: $metaPost = array_values($data); goto ipjYE; Y_7fl: $post_id = isset($_POST["\x70\157\x73\x74\x5f\x69\x64"]) ? absint($_POST["\160\x6f\163\x74\137\151\144"]) : ''; goto rJj5m; eWh6t: update_post_meta($post_id, "\x65\x70\151\x73\x6f\x64\x65\137\x73\x65\162\x76\145\162\x5f\x68\151\x64\x64\x65\x6e", $hiddensv); goto nNadV; rJj5m: $server = isset($_POST["\163\145\162\x76\x65\162"]) ? absint($_POST["\163\x65\162\x76\x65\x72"]) : ''; goto RmSsx; ipjYE: if (!$hiddensv) { goto aHdPH; } goto qBEt0; nNadV: aHdPH: goto O6PHB; NVQ2S: $hiddensv = get_post_meta($post_id, "\x65\x70\x69\163\157\144\145\137\x73\x65\162\x76\145\162\137\150\151\x64\x64\145\x6e", true); goto gu5kX; qBEt0: unset($hiddensv[$server]); goto eWh6t; O6PHB: update_post_meta($post_id, HNMG_EPS, wp_json_encode($metaPost, JSON_UNESCAPED_UNICODE)); goto JBRWW; gu5kX: unset($data[$server]); goto jtna8; RmSsx: $data = json_decode(stripcslashes(get_post_meta($post_id, HNMG_EPS, true)), true); goto NVQ2S; JBRWW: wp_die(wp_json_encode($metaPost, JSON_UNESCAPED_UNICODE)); goto ojFBf; ojFBf: } public function hnajax_publish_post() { goto q0jMg; CtHMi: wp_update_post($postData); goto HNIwn; IIExo: wp_send_json(array("\163\164\x61\x74\x75\163" => 0, "\x6d\x65\x73\163\x61\147\x65" => '')); goto gwWCo; HNIwn: wp_send_json(array("\x73\x74\141\x74\x75\163" => 1, "\155\145\x73\x73\x61\147\x65" => '')); goto LBpgl; LBpgl: j6Cqm: goto Tynsq; J6yld: if ($post_id) { goto KQbtS; } goto IIExo; KsQqB: $postData = array("\111\104" => $post_id, "\160\157\163\164\x5f\163\164\141\x74\165\163" => "\x70\165\x62\x6c\151\163\x68"); goto CtHMi; LCEIo: KQbtS: goto KsQqB; gwWCo: goto j6Cqm; goto LCEIo; q0jMg: $post_id = isset($_POST["\160\x6f\163\164\x5f\x69\x64"]) ? (int) $_POST["\160\x6f\x73\x74\x5f\151\x64"] : ''; goto J6yld; Tynsq: } public function hnajax_one_importer() { goto TNAxE; amSRr: foreach ($list_link as $link) { goto FFdfy; T935_: GBnn0: goto U5sNt; helTw: goto GBnn0; goto GwQ0j; qySfB: u0gim: goto T935_; rHvan: KWjz8: goto qySfB; BgxlF: $link_parts = explode("\174", $link); goto IHHKy; lQqkZ: goto GBnn0; goto nreaF; FFdfy: if (!empty($link)) { goto dv3q7; } goto lQqkZ; GwQ0j: FpXvS: goto Yxmgl; Yxmgl: switch ($import_type) { case "\x6c\x69\x73\x74\163\x65\162\166\x65\162": goto dKXFf; VQeJ4: goto u0gim; goto u76WM; fyl70: $metaPost[$server]["\150\x61\x75\x6e\x6d\157\x76\151\145\163\x5f\x73\145\x72\166\145\162\137\x64\x61\164\141"][$episode_slug]["\x68\x61\165\156\x6d\x6f\x76\151\145\163\137\x65\x70\137\x6c\151\x73\164\x73\166"] = $metaPost[$server]["\x68\x61\x75\156\x6d\x6f\x76\151\145\163\137\163\x65\162\x76\x65\x72\x5f\x64\x61\164\x61"][$episode_slug]["\150\x61\165\x6e\155\x6f\166\151\145\163\x5f\145\160\x5f\154\151\x73\164\x73\x76"] ?? []; goto RuXNj; dKXFf: $new_episode_data = ["\x68\141\165\156\x6d\x6f\166\x69\x65\x73\x5f\145\160\x5f\154\x69\x73\164\163\166\x5f\x6e\141\155\x65" => sanitize_text_field(trim($link_parts[0])), "\x68\x61\x75\x6e\155\157\166\x69\x65\163\x5f\x65\x70\137\154\x69\163\x74\163\x76\x5f\154\151\156\153" => sanitize_text_field(trim($link_parts[1])), "\150\x61\165\x6e\155\x6f\x76\151\x65\163\137\x65\x70\137\x6c\151\163\164\163\166\137\164\x79\x70\145" => sanitize_text_field(trim($link_parts[2] ?? ''))]; goto fyl70; RuXNj: $metaPost[$server]["\150\x61\165\x6e\x6d\157\x76\151\x65\x73\x5f\x73\x65\x72\166\x65\162\x5f\144\x61\x74\141"][$episode_slug]["\x68\141\165\156\155\157\x76\151\x65\x73\x5f\145\x70\x5f\x6c\x69\x73\164\163\166"][] = $new_episode_data; goto VQeJ4; u76WM: case "\163\x75\x62\x74\x69\164\x6c\145": goto fVYM5; HnmG9: $metaPost[$server]["\150\141\165\156\x6d\157\x76\151\145\163\137\x73\x65\x72\x76\x65\x72\137\144\x61\x74\141"][$episode_slug]["\150\141\x75\156\155\x6f\x76\x69\x65\163\137\145\x70\x5f\163\165\x62\x73"][] = $new_subtitle_data; goto plUFX; plUFX: goto u0gim; goto JXyt0; ftT8h: $metaPost[$server]["\150\x61\x75\156\155\x6f\166\151\x65\x73\137\x73\145\162\x76\x65\162\x5f\x64\141\164\x61"][$episode_slug]["\x68\x61\x75\x6e\155\157\x76\x69\x65\x73\137\x65\160\x5f\x73\x75\142\163"] = $metaPost[$server]["\x68\x61\x75\x6e\x6d\157\166\x69\x65\x73\137\163\145\x72\x76\145\x72\137\144\x61\x74\141"][$episode_slug]["\x68\141\x75\x6e\155\x6f\x76\151\145\x73\x5f\145\x70\137\163\x75\142\x73"] ?? []; goto HnmG9; fVYM5: $new_subtitle_data = ["\150\x61\x75\156\155\x6f\x76\151\145\163\x5f\145\x70\137\163\x75\x62\137\x6c\x61\x62\145\x6c" => sanitize_text_field(trim($link_parts[0])), "\150\141\165\156\x6d\x6f\166\151\145\163\x5f\x65\160\x5f\x73\165\x62\137\154\x69\156\x6b" => sanitize_text_field(trim($link_parts[1]))]; goto ftT8h; JXyt0: case "\x6c\x69\x73\x74\x65\160\x69\x73\x6f\x64\145": goto KyrOp; eHxAW: goto u0gim; goto ZpkAg; KyrOp: list($ep_name, $ep_link, $ep_type) = $link_parts; goto bdcdh; bdcdh: $ep_slug = sanitize_text_field(trim($ep_name)); goto pXZJY; pXZJY: $metaPost[$server]["\x68\141\165\156\155\157\166\151\145\163\137\x73\x65\162\x76\x65\x72\x5f\144\141\164\141"][$ep_slug] = ["\x68\x61\165\156\x6d\157\166\x69\x65\x73\137\x65\160\137\156\x61\x6d\145" => sanitize_text_field(trim($ep_name)), "\x68\141\165\x6e\155\x6f\x76\x69\x65\163\137\x65\x70\137\163\154\165\x67" => $ep_slug, "\x68\x61\165\x6e\x6d\157\x76\x69\145\x73\x5f\145\160\x5f\x74\x79\160\x65" => sanitize_text_field(trim($ep_type)), "\150\141\165\x6e\155\157\x76\x69\145\163\137\145\x70\137\154\151\x6e\153" => sanitize_text_field(trim($ep_link)), "\150\141\x75\x6e\155\157\166\151\145\163\137\145\x70\137\x73\165\x62\163" => [], "\150\x61\165\156\155\x6f\x76\151\145\x73\137\145\160\137\x6c\151\x73\x74\163\x76" => []]; goto eHxAW; ZpkAg: } goto rHvan; nreaF: dv3q7: goto BgxlF; IHHKy: if (!(count($link_parts) < 2)) { goto FpXvS; } goto helTw; U5sNt: } goto Yfh5T; CE5Vv: $list_link = $_POST["\x6c\151\x73\x74\x5f\x6c\151\x6e\x6b"] ?? []; goto gXPXb; gXPXb: $import_type = sanitize_text_field(trim($_POST["\x69\x6d\x70\157\162\x74\137\x74\x79\x70\x65"] ?? '')); goto luW8C; luW8C: $episode_slug = sanitize_text_field(trim($_POST["\145\160\x69\163\x6f\144\x65\137\163\154\x75\147"] ?? '')); goto FlzTK; q1CPb: update_post_meta($post_id, HNMG_EPS, wp_json_encode($metaPost, JSON_UNESCAPED_UNICODE)); goto Eoa1f; Yfh5T: xdYNb: goto q1CPb; TNAxE: $post_id = isset($_POST["\x70\157\163\164\x5f\151\144"]) ? absint($_POST["\160\x6f\x73\164\x5f\151\144"]) : ''; goto G8V_h; Eoa1f: wp_die(wp_json_encode($metaPost, JSON_UNESCAPED_UNICODE)); goto mUuCa; FlzTK: $metaPost = json_decode(get_post_meta($post_id, HNMG_EPS, true), true) ?? []; goto amSRr; Np9fl: $server_name = isset($_POST["\163\145\162\x76\145\x72\x5f\x6e\x61\x6d\145"]) ? sanitize_text_field(trim($_POST["\x73\145\162\x76\x65\162\137\156\141\x6d\145"])) : "\x53\x65\162\x76\145\x72\x20\43\x31"; goto CE5Vv; G8V_h: $server = isset($_POST["\163\145\x72\166\x65\x72"]) ? absint($_POST["\x73\145\x72\x76\x65\162"]) : ''; goto Np9fl; mUuCa: } public function hnajax_list_serverid() { goto T4bm0; xu1mH: echo "\74\x6f\x70\164\151\x6f\x6e\40\x76\x61\154\165\145\75\42\x22\40\151\x64\75\x22\143\150\x6f\157\x73\x65\55\x65\x70\42\76" . __("\x43\x68\x6f\157\x73\145\x20\105\160\x69\x73\x6f\144\x65", "\150\156\x6d\x67\x65\160\151\x73") . "\x3c\57\157\160\x74\151\x6f\x6e\x3e"; goto fjt6v; Uyb95: $data = json_decode(stripcslashes($episode_meta)); goto xu1mH; yBTAc: exit; goto csl4f; sLJQm: $episode_meta = get_post_meta($post_id, HNMG_EPS, true); goto Uyb95; PbOCG: tjcN1: goto yBTAc; d2frG: $server = isset($_POST["\163\x65\162\166\145\x72"]) ? absint($_POST["\x73\x65\162\166\x65\x72"]) : ''; goto sLJQm; T4bm0: $post_id = isset($_POST["\160\157\x73\164\x5f\x69\x64"]) ? absint($_POST["\x70\x6f\163\x74\x5f\x69\144"]) : ''; goto d2frG; fjt6v: foreach ($data[$server]->haunmovies_server_data as $key => $val) { echo "\74\157\160\x74\151\x6f\x6e\x20\x76\141\x6c\x75\x65\x3d\x22" . $key . "\42\76" . $val->haunmovies_ep_name . "\x3c\x2f\x6f\x70\x74\151\x6f\156\76"; qJwZr: } goto PbOCG; csl4f: } public function hnajax_two_importer() { goto o80UA; b8s82: wp_die(wp_json_encode($json, JSON_UNESCAPED_UNICODE)); goto ZSTWN; WsX_4: $server_name = isset($_POST["\163\145\x72\x76\x65\x72\x5f\156\141\x6d\145"]) ? sanitize_text_field(trim($_POST["\x73\x65\x72\x76\145\x72\x5f\x6e\141\x6d\x65"])) : "\x53\145\162\x76\x65\162\40\x23\x31"; goto huciC; Pr_fP: $json = json_decode(stripcslashes(get_post_meta($post_id, HNMG_EPS, true)), true); goto x93kt; o80UA: $post_id = isset($_POST["\x70\x6f\163\x74\137\x69\x64"]) ? absint($_POST["\x70\157\163\x74\137\151\144"]) : ''; goto n6nj8; huciC: $list_link = isset($_POST["\x6c\151\x73\x74\137\x6c\151\x6e\x6b"]) ? $_POST["\x6c\151\x73\164\x5f\x6c\x69\156\x6b"] : ''; goto kCvmD; Qkj9Y: update_post_meta($post_id, HNMG_EPS, wp_json_encode($json, JSON_UNESCAPED_UNICODE)); goto b8s82; ApcJE: foreach ($list_link as $links) { goto wD10n; P2SOC: if (!isset($info[4])) { goto iDuKK; } goto DkD6Y; DkD6Y: $server_data = str_replace("\163\145\162\x76\x65\162\x3d", '', explode("\54", $info[4])); goto vdSg5; SRop6: foreach ($subtitle_arr as $key => $subfile) { goto UD1Y3; ekY36: $subtitle_info[$key]["\150\141\165\156\155\157\x76\151\x65\163\x5f\145\160\137\x73\165\x62\x5f\154\141\x62\145\x6c"] = sanitize_text_field($subfile[1]); goto uP5SL; uP5SL: $subtitle_info[$key]["\150\x61\x75\x6e\155\157\166\151\145\163\x5f\145\x70\137\x73\x75\142\x5f\144\x65\x66\141\165\x6c\x74"] = $key == 0 ? true : false; goto fojED; fojED: E0CFE: goto pH1S6; UD1Y3: $subfile = explode("\52", $subfile); goto jA7WF; jA7WF: $subtitle_info[$key]["\x68\x61\165\156\155\x6f\x76\151\x65\163\x5f\x65\160\x5f\x73\165\142\x5f\146\151\x6c\x65"] = sanitize_text_field($subfile[0]); goto ekY36; pH1S6: } goto PgY9A; nrbGh: if (!isset($info[3])) { goto LRtfN; } goto pgMTx; G5vYp: foreach ($server_data as $key => $sv) { goto bSA7F; rTD_3: $dataserver[$key]["\150\141\x75\x6e\155\157\x76\151\x65\x73\137\145\x70\137\154\x69\x73\164\x73\x76\137\154\151\x6e\153"] = sanitize_text_field($sv[0]); goto Ni26M; Ni26M: $dataserver[$key]["\x68\141\165\x6e\x6d\x6f\x76\x69\145\163\137\x65\x70\x5f\x6c\151\x73\164\163\166\x5f\156\x61\x6d\145"] = sanitize_text_field($sv[1]); goto XH8Vd; bSA7F: $sv = explode("\52", $sv); goto rTD_3; kWVhK: EquY6: goto FEcd1; XH8Vd: $dataserver[$key]["\x68\141\x75\x6e\155\x6f\x76\x69\x65\163\x5f\145\x70\137\x6c\x69\x73\164\x73\166\x5f\x74\x79\160\145"] = sanitize_text_field($sv[2]); goto kWVhK; FEcd1: } goto Mq6yM; EUG8e: list($ep_name, $ep_link, $ep_type) = $info; goto idGRR; pgMTx: $subtitle_arr = str_replace("\x73\x75\x62\164\151\x74\x6c\x65\75", '', explode("\54", $info[3])); goto blqkI; ruhmM: $array = array("\150\141\165\x6e\x6d\157\166\x69\145\x73\x5f\x65\160\x5f\x6e\141\x6d\145" => sanitize_text_field($ep_name), "\x68\x61\x75\156\x6d\x6f\x76\x69\145\x73\x5f\145\160\137\163\x6c\x75\x67" => sanitize_text_field($ep_slug), "\150\141\165\156\x6d\x6f\x76\x69\145\163\x5f\145\x70\137\x74\171\160\x65" => sanitize_text_field($ep_type), "\x68\141\x75\x6e\x6d\157\x76\x69\x65\x73\137\145\160\137\154\x69\x6e\x6b" => sanitize_text_field($ep_link), "\150\141\x75\x6e\155\x6f\166\151\145\x73\137\x65\160\137\x73\x75\142\x73" => array(), "\150\x61\165\156\155\x6f\x76\151\145\x73\137\145\160\x5f\154\151\x73\x74\x73\x76" => array()); goto t2wle; Lyo_N: $info = explode("\174", $links); goto EUG8e; vdSg5: if (!($server_data[0] !== '')) { goto ckE2_; } goto G5vYp; P0cYy: G_w5j: goto h60rx; Mq6yM: dYbre: goto Bgpae; JJ4Hz: LRtfN: goto P2SOC; blqkI: if (!($subtitle_arr[0] !== '')) { goto pnUPW; } goto SRop6; NGhjQ: iDuKK: goto fVIdb; Bgpae: $json[$server]["\150\x61\x75\x6e\x6d\157\x76\x69\x65\163\137\x73\145\x72\x76\x65\162\x5f\x64\141\164\141"][$_slug]["\x68\x61\165\156\x6d\x6f\166\x69\145\163\x5f\145\160\x5f\x6c\x69\x73\164\163\166"] = $dataserver; goto Jb0sa; GplxU: $json[$server]["\150\141\x75\156\x6d\157\x76\x69\145\163\x5f\x73\x65\162\166\x65\162\x5f\144\x61\164\141"][$_slug]["\150\141\x75\x6e\x6d\x6f\x76\151\145\163\137\145\x70\137\x73\x75\x62\x73"] = $subtitle_info; goto s3Hlg; t2wle: $json[$server]["\150\141\165\x6e\155\157\x76\151\145\163\137\x73\145\162\x76\145\162\137\144\x61\x74\141"][$_slug] = $array; goto nrbGh; s3Hlg: pnUPW: goto JJ4Hz; fVIdb: wJl2F: goto P0cYy; PgY9A: ZbWaS: goto GplxU; wD10n: if (!($links != '')) { goto wJl2F; } goto Lyo_N; bKGM7: $_slug = str_replace("\55", "\x5f", $ep_slug); goto ruhmM; Jb0sa: ckE2_: goto NGhjQ; idGRR: $ep_slug = preg_match("\x2f\x28\133\x61\x2d\x7a\135\x2b\51\x2f\151\163", $ep_name) ? sanitize_title($ep_name) : sanitize_title($episode_slug . "\x20" . $ep_name); goto bKGM7; h60rx: } goto O0idg; n6nj8: $server = isset($_POST["\x73\145\x72\166\145\x72"]) ? absint($_POST["\x73\145\x72\166\x65\x72"]) : 0; goto WsX_4; x93kt: $json[$server]["\x68\x61\165\156\155\157\x76\x69\x65\163\137\x73\x65\x72\x76\145\x72\137\x6e\141\x6d\x65"] = $server_name; goto ApcJE; kCvmD: $episode_slug = hnmanager_value(HNMG_OPTION, "\150\141\165\156\137\145\x70\x69\x73\x6f\x64\x65\137\x75\x72\154", "\x65\x70"); goto Pr_fP; O0idg: H3cFE: goto Qkj9Y; ZSTWN: } public function hnajax_addnewserver() { goto D3tEm; iHTpg: $server = isset($_POST["\x73\x65\x72\166\x65\162"]) ? absint($_POST["\163\145\162\x76\x65\x72"]) : ''; goto FhJIs; X3BOF: $this->load->set_post_modified($post_id); goto shbhL; zltot: foreach ($list_link as $key => $link) { goto JONKp; JONKp: $data = explode("\x7c", $link); goto Y4oIx; Y4oIx: $ep_name = sanitize_text_field($data[0]); goto s6a2O; s6a2O: $ep_link = sanitize_text_field($data[1]); goto k0ya9; qVuW5: Q8nM2: goto burYq; fqiw8: $metaPost[$server]["\x68\x61\165\x6e\x6d\x6f\166\x69\145\163\x5f\163\145\162\166\145\162\x5f\x64\141\164\141"][$ep_slug] = ["\x68\x61\165\x6e\155\x6f\166\151\145\163\x5f\145\160\x5f\156\141\155\145" => $ep_name, "\x68\141\x75\156\x6d\x6f\x76\151\x65\x73\x5f\x65\x70\137\x73\154\165\x67" => $ep_slug, "\x68\141\165\156\x6d\157\166\151\145\x73\137\x65\x70\137\x74\x79\160\x65" => $ep_type, "\150\x61\165\x6e\155\157\166\151\145\163\137\145\x70\137\x6c\x69\156\x6b" => $ep_link, "\x68\x61\x75\156\155\157\x76\x69\145\163\137\145\x70\x5f\163\165\142\x73" => [], "\x68\141\165\x6e\x6d\157\x76\151\x65\x73\x5f\145\160\137\x6c\151\x73\164\x73\x76" => []]; goto qVuW5; k0ya9: $ep_type = sanitize_text_field($data[2]); goto T3tza; T3tza: $ep_slug = preg_match("\57\x28\x5b\141\x2d\x7a\135\x2b\51\57\151\x73", $ep_name) ? sanitize_title($ep_name) : sanitize_title($episode_slug . "\x20" . $ep_name); goto faTgd; faTgd: $ep_slug = str_replace("\x2d", "\137", $ep_slug); goto fqiw8; burYq: } goto BZsIg; dybo1: wp_die(wp_json_encode($metaPost, JSON_UNESCAPED_UNICODE)); goto TRgu3; hokQ2: $metaPost = json_decode(stripslashes(get_post_meta($post_id, HNMG_EPS, true)), true); goto BcfLG; shbhL: update_post_meta($post_id, HNMG_EPS, wp_json_encode($metaPost, JSON_UNESCAPED_UNICODE)); goto dybo1; BcfLG: $metaPost[$server]["\x68\141\x75\156\x6d\157\166\151\145\163\137\163\x65\162\166\x65\162\x5f\156\141\x6d\x65"] = $server_name; goto zltot; YV7vx: $list_link = isset($_POST["\x6c\151\163\x74\137\154\151\156\153"]) ? $_POST["\154\151\163\164\x5f\154\x69\x6e\153"] : ''; goto ys4es; D3tEm: $post_id = isset($_POST["\160\157\163\x74\x5f\151\x64"]) ? absint($_POST["\160\x6f\x73\x74\x5f\x69\x64"]) : ''; goto iHTpg; BZsIg: Dp9xT: goto X3BOF; ys4es: $episode_slug = hnmanager_value(HNMG_OPTION, "\x68\x61\x75\156\137\x65\160\x69\163\x6f\144\145\x5f\x75\x72\154", "\x65\x70"); goto hokQ2; FhJIs: $server_name = isset($_POST["\163\x65\x72\x76\x65\x72\137\x6e\x61\x6d\145"]) ? sanitize_text_field($_POST["\163\x65\x72\x76\145\162\x5f\x6e\x61\155\145"]) : ''; goto YV7vx; TRgu3: } public function hnajax_update_postmeta() { goto X8KEE; t2Zpk: $meta_data = get_post_meta($post_id, HNMG_META, true); goto b5BaX; cMMn9: $post_meta = isset($_POST["\x70\157\x73\164\137\x6d\x65\164\x61"]) ? $_POST["\x70\x6f\163\x74\x5f\155\x65\164\141"] : ''; goto t2Zpk; X8KEE: $post_id = isset($_POST["\160\x6f\163\x74\x5f\151\x64"]) ? absint($_POST["\160\157\163\x74\137\x69\144"]) : ''; goto aQ4Ok; XlFDR: update_post_meta($post_id, HNMG_META, $metaPost); goto E1Ii4; xzjs_: Ckx0g: goto LzaRR; E1Ii4: sleep(1); goto DUmuT; b5BaX: $metaPost["\x68\x61\165\156\x5f\x70\157\x73\164\145\x72\137\165\162\154"] = sanitize_text_field($meta_data["\x68\141\165\156\x5f\x70\x6f\x73\x74\145\162\x5f\x75\162\154"]); goto TszmN; UIrZA: wp_die(wp_json_encode($metaPost, JSON_UNESCAPED_UNICODE)); goto z4vwe; TszmN: $metaPost["\x68\141\165\156\x5f\164\150\165\155\x62\x5f\x75\162\154"] = sanitize_text_field($meta_data["\x68\x61\165\156\137\164\150\x75\155\x62\137\x75\162\154"]); goto xD2kT; FLaew: $formality = $this->load->get_post_format($post_meta["\150\x61\165\x6e\x5f\x6d\157\x76\151\x65\x5f\146\x6f\162\155\x61\154\151\164\x79"]); goto X1yQm; aQ4Ok: $server = isset($_POST["\163\x65\x72\166\145\x72"]) ? absint($_POST["\163\145\x72\x76\x65\x72"]) : ''; goto cMMn9; DUmuT: $post_meta = get_post_meta($post_id, HNMG_META, true); goto OqFOT; JmNIi: $this->load->set_post_modified($post_id); goto XlFDR; ljE7O: wp_set_object_terms($post_id, $post_meta["\x68\141\165\156\137\x61\x64\144\137\x74\157\x5f\x77\x69\x64\x67\145\164"], "\x70\157\x73\x74\x5f\x6f\160\164\x69\x6f\x6e\x73", false); goto FLaew; X1yQm: set_post_format($post_id, $formality); goto UIrZA; OqFOT: wp_set_object_terms($post_id, $post_meta["\150\141\x75\x6e\137\155\157\166\x69\145\137\x73\x74\x61\164\x75\163"], "\163\x74\141\x74\165\163", false); goto ljE7O; LzaRR: $metaPost["\x68\x61\x75\x6e\x5f\141\x64\144\x5f\164\x6f\137\167\151\144\147\145\x74"] = $widget_values; goto JmNIi; xD2kT: foreach ($post_meta as $key => $val) { goto KePwO; p2pAc: $widget_values[] = sanitize_text_field($val["\166\141\154\165\x65"]); goto o7PV1; SpImt: if (!($val["\156\x61\x6d\145"] == "\150\141\x75\156\137\x61\144\x64\137\x74\x6f\137\x77\151\x64\147\x65\x74")) { goto DC4h4; } goto p2pAc; KePwO: $metaPost[$val["\156\x61\155\x65"]] = sanitize_text_field($val["\166\x61\154\165\x65"]); goto SpImt; o7PV1: DC4h4: goto PnHlm; PnHlm: W7ZxJ: goto HJd1e; HJd1e: } goto xzjs_; z4vwe: } public function hnajax_export_episodes() { goto fzqA5; rB_rK: $file_path = HNMG_PART . "\x2f" . sanitize_file_name($file_name); goto Npi7l; PE1rg: $file_name = "\105\x70\151\163\x6f\x64\145\x20\x2d\x20" . get_the_title($post_id) . "\x20\x2d\40" . str_replace("\43", '', $json[$server]["\150\x61\165\x6e\155\157\166\151\x65\163\x5f\x73\145\x72\x76\145\x72\137\156\141\155\145"]) . "\56\x74\170\164"; goto rB_rK; CNNgI: $server = sanitize_text_field($_POST["\x73\x65\x72\x76\x65\x72\x5f\151\x64"]); goto Cv9vf; VYbCw: wp_mkdir_p(HNMG_PART); goto MOc0i; dZQ7p: $list_link = array_map(function ($episode) { goto WcfuR; yqgeu: $list_server = array_map(function ($server_data) { return implode("\x2a", [$server_data["\150\141\x75\156\x6d\157\x76\x69\x65\163\137\x65\x70\137\x6c\x69\163\x74\x73\x76\x5f\x6e\x61\155\x65"], $server_data["\150\x61\165\156\x6d\x6f\x76\x69\145\163\x5f\x65\x70\137\154\x69\163\x74\x73\x76\137\154\151\156\153"], $server_data["\150\x61\x75\156\x6d\x6f\166\151\145\x73\137\x65\x70\137\x6c\x69\163\x74\x73\166\137\164\171\x70\x65"]]); }, $episode["\x68\x61\165\x6e\x6d\157\166\151\x65\x73\137\145\x70\x5f\x6c\151\163\164\x73\x76"] ?? []); goto g4h7q; dsVDw: $lists_v = !empty($list_server) ? "\x7c\163\145\162\166\x65\x72\x3d" . implode("\x2c", $list_server) : ''; goto mk2V3; mk2V3: return implode("\174", [$episode["\x68\141\x75\156\155\157\166\x69\x65\x73\x5f\x65\x70\137\x6e\141\x6d\145"], $episode["\150\x61\165\x6e\x6d\x6f\166\x69\x65\x73\137\145\160\137\x6c\x69\156\x6b"], $episode["\x68\x61\x75\x6e\x6d\x6f\166\151\145\163\137\145\160\x5f\164\171\160\145"]]) . $subtitle_string . $lists_v; goto LLoXm; g4h7q: $subtitle_string = !empty($subtitle_list) ? "\x7c\x73\165\142\x74\x69\164\x6c\145\x3d" . implode("\x2c", $subtitle_list) : ''; goto dsVDw; WcfuR: $subtitle_list = array_map(function ($sub) { return $sub["\x68\141\165\x6e\155\x6f\166\x69\x65\163\137\x65\x70\137\163\165\142\x5f\146\151\x6c\145"] . "\52" . $sub["\x68\141\x75\156\155\157\166\x69\145\x73\137\145\160\137\163\x75\x62\x5f\x6c\141\142\145\x6c"]; }, $episode["\150\x61\165\156\x6d\x6f\166\x69\145\x73\x5f\145\160\x5f\x73\165\142\x73"] ?? []); goto yqgeu; LLoXm: }, $json[$server]["\x68\141\x75\x6e\x6d\x6f\166\x69\145\x73\x5f\163\x65\x72\x76\145\x72\137\144\141\164\141"] ?? []); goto v5CYo; Cfo6M: $list_link_string = implode("\15\12", $list_link); goto PE1rg; v5CYo: if (is_dir(HNMG_PART)) { goto Extvo; } goto VYbCw; Cv9vf: $json = json_decode(stripslashes(get_post_meta($post_id, HNMG_EPS, true)), true); goto dZQ7p; Npi7l: file_put_contents($file_path, $list_link_string); goto Oh3YV; fzqA5: $post_id = sanitize_text_field($_POST["\160\x6f\163\x74\x5f\151\x64"]); goto CNNgI; Oh3YV: wp_send_json(["\163\x74\x61\x74\165\x73" => true, "\x6d\163\147" => "\74\144\x69\166\x20\143\154\x61\x73\x73\75\x22\x74\145\170\164\55\142\141\163\x65\40\146\x6f\156\x74\x2d\x62\157\x6c\x64\x20\x70\x78\x2d\x34\40\160\x79\x2d\x36\40\164\145\x78\x74\x2d\143\x65\156\x74\145\162\42\76\74\x61\40\x68\162\145\146\75\42" . esc_url(content_url("\x66\151\154\155\x2d\x65\170\x70\x6f\162\164") . "\x2f" . sanitize_file_name($file_name)) . "\x22\40\x64\x6f\167\156\x6c\157\x61\144\76\104\x6f\x77\x6e\154\157\141\x64\x20" . esc_html($file_name) . "\x3c\x2f\x61\x3e\x3c\57\144\151\166\76"]); goto mJutr; MOc0i: Extvo: goto Cfo6M; mJutr: } public function hnsave_server_hidden() { goto lCGdW; FHMX5: wp_die(); goto vH2hr; bXRd0: $post_id = isset($_POST["\160\157\163\164\137\x69\144"]) ? absint($_POST["\160\x6f\x73\164\x5f\x69\x64"]) : ''; goto YpvJ9; YpvJ9: update_post_meta($post_id, "\x65\x70\151\x73\157\144\145\137\163\x65\x72\166\145\x72\x5f\x68\x69\144\144\145\x6e", $value); goto FHMX5; lCGdW: $value = isset($_POST["\x76\x61\x6c\165\145"]) ? $_POST["\166\x61\154\165\145"] : ''; goto bXRd0; vH2hr: } public function hnajax_force_delete_post() { wp_delete_post($_POST["\160\157\163\164\137\x69\x64"], true); die; } }
+
+namespace HNMG\Episodes;
+
+use HNMG\Episodes\EP_Helper;
+use Illuminate\Support\Str;
+
+class EP_Actions {
+	
+	public function __construct() {
+		$this->load = new EP_Helper(); 
+	}
+	
+	public function register() {
+		add_action('wp_ajax_hnajax_getlist_episodes', [$this, 'hnajax_getlist_episodes']);
+		add_action('wp_ajax_hnajax_remove_server', [$this, 'hnajax_remove_server']);
+		add_action('wp_ajax_hnajax_publish_post', [$this, 'hnajax_publish_post']);
+		add_action('wp_ajax_hnajax_one_importer', [$this, 'hnajax_one_importer']);
+		add_action('wp_ajax_hnajax_two_importer', [$this, 'hnajax_two_importer']);
+		add_action('wp_ajax_hnajax_list_serverid', [$this, 'hnajax_list_serverid']);
+		add_action('wp_ajax_hnajax_update_episode', [$this, 'hnajax_update_episode']);
+		add_action('wp_ajax_hnajax_addnewserver', [$this, 'hnajax_addnewserver']);
+		add_action('wp_ajax_hnajax_update_postmeta', [$this, 'hnajax_update_postmeta']);
+		add_action('wp_ajax_hnsave_server_hidden', [$this, 'hnsave_server_hidden']);
+		add_action('wp_ajax_hnajax_export_episodes', [$this, 'hnajax_export_episodes']);
+		add_action('wp_ajax_hnajax_force_delete_post', [$this, 'hnajax_force_delete_post'] );
+		add_action('wp_ajax_hn_delete_selected_posts', [$this, 'hn_delete_selected_posts']);
+		add_action('wp_ajax_load_posts_data', [$this, 'load_posts_data']);
+	}
+	
+	public function load_posts_data() {
+		$query = new \WP_Query([
+			'post_type' => 'post',
+			'posts_per_page' => -1, 
+			'orderby' => 'modified',
+			'order' => 'DESC',
+		]);
+
+		$posts_data = [];
+
+		if ($query->have_posts()) {
+			while ($query->have_posts()) {
+				$query->the_post();
+				global $post;
+				$post_meta = get_post_meta($post->ID, HNMG_EPS, true);
+				$meta = get_post_meta($post->ID, HNMG_META, true);
+				$data = json_decode(stripslashes($post_meta), true);
+				$hidden_servers = get_post_meta($post->ID, 'episode_server_hidden', true);
+				$hidden_servers = is_array($hidden_servers) ? $hidden_servers : (empty($hidden_servers) ? [] : explode(',', $hidden_servers));
+				$dataPlayer = $data && !empty($data[0]['haunmovies_server_data']) ? key($data[0]['haunmovies_server_data']) : NULL;
+				$link = $dataPlayer != NULL ? ($data[0]['haunmovies_server_data'][$dataPlayer]['haunmovies_ep_link'] ?? '') : '';
+				$linkclass = $link != '' ? 'bg-red-500 hover:bg-red-600' : 'bg-orange-500 hover:bg-orange-600';
+				$linkname = $link != '' ? __('Edit', 'hnmgepis') : __('Add Server', 'hnmgepis');
+				$posts_data[] = [
+					'checkbox' 	=> '<input type="checkbox" name="episode_ids" value="'.$post->ID.'" @click="toggleSelection('.$post->ID.')" :checked="checkAll" class="size-4 text-center cursor-pointer appearance-none overflow-hidden rounded border border-neutral-300 bg-white focus:outline-none focus:ring-0" />',
+					'ID' 		=> $post->ID,
+					'title' 	=> '<a href="' .get_permalink($post->ID). '" target="_blank" class="text-pink-500 font-semibold text-xs hover:text-fuchsia-300 hover:no-underline">' . Str::limit($post->post_title, 60, '...') . '</a>',
+					'show' 		=> $this->load->hidden_servers($post->ID, $data),
+					'publish' 	=> $this->load->hnupdate_publish($post->ID),
+					'episode' 	=> $this->load->hnmg_last_episode($post->ID, $meta),
+					'status' 	=> $this->load->hnshow_status($meta['haun_movie_status'] ?? ''),
+					'formality' => $this->load->hnshow_formality($meta['haun_movie_formality'] ?? ''),
+					'export' 	=> $this->load->list_episode_servers($post->ID, $data),
+					'actions_link' => '<a href="?page=hnmg-episode&act=edit_ep&post_id=' . $post->ID . '" class="'.$linkclass.' font-bold text-xs text-white py-1 px-4 rounded-full">' . $linkname . '</a>'
+				];
+			}
+			wp_reset_postdata();
+		}
+
+    wp_send_json_success($posts_data);
+}
+	
+	public function hn_delete_selected_posts() {
+		if (!current_user_can('delete_posts')) {
+			wp_send_json_error(['message' => 'Unauthorized']);
+			wp_die();
+		}
+		$post_ids = isset($_POST['post_ids']) ? array_map('intval', $_POST['post_ids']) : [];
+		if (empty($post_ids)) {
+			wp_send_json_error(['message' => 'No posts selected']);
+			wp_die();
+		}
+		foreach ($post_ids as $post_id) {
+			if (get_post($post_id) && current_user_can('delete_post', $post_id)) {
+				$meta_options = get_post_meta($post_id, '_haun_metabox_options', true);
+
+				if ($meta_options) {
+					if (!empty($meta_options['haun_poster_url'])) {
+						$poster_path = ABSPATH . str_replace(site_url('/'), '', $meta_options['haun_poster_url']);
+						if (file_exists($poster_path)) {
+							unlink($poster_path);
+						}
+					}
+					
+					if (!empty($meta_options['haun_thumb_url'])) {
+						$thumb_path = ABSPATH . str_replace(site_url('/'), '', $meta_options['haun_thumb_url']);
+						if (file_exists($thumb_path)) {
+							unlink($thumb_path);
+						}
+					}
+				}
+				wp_delete_post($post_id, true);
+			}
+		}
+		wp_send_json_success(['message' => 'Selected posts and associated images deleted successfully']);
+		wp_die();
+	}
+
+	public function hnajax_update_episode() {
+		$post_id = isset($_POST['post_id']) ? absint($_POST['post_id']) : '';
+		$input = [];
+		foreach ($_POST['haunmovies_server_name'] as $serverIndex => $serverName) {
+			$serverdata = [];
+			$serverdata['haunmovies_server_name'] = esc_attr($serverName ? $serverName : 'Server #' . $serverIndex);
+			$serverdata['haunmovies_server_data'] = [];
+
+			if (isset($_POST['haunmovies_ep_link'][$serverIndex])) {
+				foreach ($_POST['haunmovies_ep_link'][$serverIndex] as $episodeIndex => $episodeLink) {
+					$episode_slug = sanitize_title($_POST['haunmovies_ep_slug'][$serverIndex][$episodeIndex]);
+					$_slug = str_replace('-', '_', $episode_slug);
+
+					$serverdata['haunmovies_server_data'][$_slug] = [
+						'haunmovies_ep_name' => isset($_POST['haunmovies_ep_name'][$serverIndex][$episodeIndex]) ? $_POST['haunmovies_ep_name'][$serverIndex][$episodeIndex] : '',
+						'haunmovies_ep_slug' => isset($_POST['haunmovies_ep_slug'][$serverIndex][$episodeIndex]) ? $_POST['haunmovies_ep_slug'][$serverIndex][$episodeIndex] : '',
+						'haunmovies_ep_type' => isset($_POST['haunmovies_ep_type'][$serverIndex][$episodeIndex]) ? $_POST['haunmovies_ep_type'][$serverIndex][$episodeIndex] : '',
+						'haunmovies_ep_link' => $episodeLink,
+						'haunmovies_ep_subs' => [],
+						'haunmovies_ep_listsv' => []
+					];
+
+					if (isset($_POST['haunmovies_ep_sub_label'][$serverIndex][$episodeIndex])) {
+						$subLabels = $_POST['haunmovies_ep_sub_label'][$serverIndex][$episodeIndex];
+						$subDefaults = $_POST['haunmovies_ep_sub_default'][$serverIndex][$episodeIndex];
+
+						foreach ($subLabels as $subIndex => $subLabel) {
+							$subFile = '';
+							if (isset($_FILES['haunmovies_ep_sub_upload']['name'][$serverIndex][$episodeIndex][$subIndex]) && !empty($_FILES['haunmovies_ep_sub_upload']['name'][$serverIndex][$episodeIndex][$subIndex])) {
+								$uploadedFile = [
+									'name' => $_FILES['haunmovies_ep_sub_upload']['name'][$serverIndex][$episodeIndex][$subIndex],
+									'type' => $_FILES['haunmovies_ep_sub_upload']['type'][$serverIndex][$episodeIndex][$subIndex],
+									'tmp_name' => $_FILES['haunmovies_ep_sub_upload']['tmp_name'][$serverIndex][$episodeIndex][$subIndex],
+									'error' => $_FILES['haunmovies_ep_sub_upload']['error'][$serverIndex][$episodeIndex][$subIndex],
+									'size' => $_FILES['haunmovies_ep_sub_upload']['size'][$serverIndex][$episodeIndex][$subIndex]
+								];
+								$upload = wp_handle_upload($uploadedFile, ['test_form' => false]);
+								if (!isset($upload['error'])) {
+									$subFile = $upload['url'];
+								}
+							} else {
+								if (isset($_POST['haunmovies_ep_sub_file'][$serverIndex][$episodeIndex][$subIndex])) {
+									$subFile = $_POST['haunmovies_ep_sub_file'][$serverIndex][$episodeIndex][$subIndex];
+								}
+							}
+							$serverdata['haunmovies_server_data'][$_slug]['haunmovies_ep_subs'][] = [
+								'haunmovies_ep_sub_file' => trim($subFile),
+								'haunmovies_ep_sub_label' => trim($subLabel),
+								'haunmovies_ep_sub_kind' => 'captions',
+								'haunmovies_ep_sub_default' => isset($subDefaults[$subIndex]) && $subDefaults[$subIndex] === 'true' ? 'true' : 'false'
+							];
+						}
+					}
+
+					if (isset($_POST['haunmovies_ep_listsv_link'][$serverIndex][$episodeIndex])) {
+						foreach ($_POST['haunmovies_ep_listsv_link'][$serverIndex][$episodeIndex] as $svIndex => $listsvLink) {
+							$listsvName = isset($_POST['haunmovies_ep_listsv_name'][$serverIndex][$episodeIndex][$svIndex]) ? $_POST['haunmovies_ep_listsv_name'][$serverIndex][$episodeIndex][$svIndex] : '';
+							$listsvType = isset($_POST['haunmovies_ep_listsv_type'][$serverIndex][$episodeIndex][$svIndex]) ? $_POST['haunmovies_ep_listsv_type'][$serverIndex][$episodeIndex][$svIndex] : '';
+							$serverdata['haunmovies_server_data'][$_slug]['haunmovies_ep_listsv'][] = [
+								'haunmovies_ep_listsv_link' => trim($listsvLink),
+								'haunmovies_ep_listsv_name' => trim($listsvName),
+								'haunmovies_ep_listsv_type' => trim($listsvType)
+							];
+						}
+					}
+				}
+			}
+
+			$input[] = $serverdata;
+		}
+
+		update_post_meta($post_id, HNMG_EPS, json_encode($input, JSON_UNESCAPED_UNICODE));
+		wp_send_json_success(json_encode($input, JSON_UNESCAPED_UNICODE));
+	}
+
+
+	public function hnajax_getlist_episodes() {
+		$postID = isset($_POST['post_id']) ? intval($_POST['post_id']) : 0;
+		$metaPost = get_post_meta($postID, HNMG_EPS, true);
+		$data = json_decode(stripslashes($metaPost), true);
+		wp_send_json_success($data);
+		wp_die();
+	}
+	
+	public function hnajax_remove_server() {
+		$post_id  = isset($_POST['post_id']) ? absint($_POST['post_id']) : '';
+		$server   = isset($_POST['server']) ? absint($_POST['server']) : '';
+		if(empty($server) && $server == '0') {
+			delete_post_meta($post_id, HNMG_EPS);
+			wp_send_json_success(['message' => 'Server deleted successfully']);
+			wp_die();
+		}
+		if (!$post_id || !$server) {
+			wp_send_json_error(['message' => 'Invalid request']);
+		}
+		$data     = json_decode(stripslashes(get_post_meta($post_id, HNMG_EPS, true)), true);
+		$hiddensv = get_post_meta($post_id, 'episode_server_hidden', true);
+		unset($data[$server]);
+		$metaPost = array_values($data);
+		if ($hiddensv) {
+			unset($hiddensv[$server]);
+			update_post_meta($post_id, 'episode_server_hidden', $hiddensv);
+		}
+		update_post_meta($post_id, HNMG_EPS, wp_json_encode($metaPost, JSON_UNESCAPED_UNICODE));
+		wp_send_json_success(['message' => 'Server deleted successfully']);
+		wp_die();
+	}
+	
+	public function hnajax_publish_post() {
+		$post_id = isset($_POST['post_id']) ? (int) $_POST['post_id'] : '';
+		if ($post_id) {
+			$postData = array(
+				'ID' => $post_id, 
+				'post_status' => 'publish'
+			);
+			wp_update_post($postData);
+			wp_send_json_success($post_id);
+		} else {
+			wp_send_json_error();
+		}
+	}
+	
+	public function hnajax_one_importer() {
+		$post_id        = isset($_POST['post_id']) ? absint($_POST['post_id']) : '';
+		$server         = isset($_POST['server']) ? absint($_POST['server']) : '';
+		$server_name    = isset($_POST['server_name']) ? sanitize_text_field(trim($_POST['server_name'])) : 'Server #1';
+		$list_link 		= isset($_POST['list_link']) ? json_decode(stripslashes($_POST['list_link']), true) : [];
+		$import_type    = sanitize_text_field(trim($_POST['import_type'] ?? ''));
+		$episode_slug   = sanitize_text_field(trim($_POST['episode_slug'] ?? ''));
+		$metaPost       = json_decode(get_post_meta($post_id, HNMG_EPS, true), true) ?? [];
+
+		foreach ($list_link as $link) {
+			if (empty($link)) {
+				continue;
+			}
+			$link_parts = explode('|', $link);
+			if (count($link_parts) < 2) {
+				continue; 
+			}
+
+			switch ($import_type) {
+				case 'listserver':
+					$new_episode_data = [
+						'haunmovies_ep_listsv_name' => sanitize_text_field(trim($link_parts[0])),
+						'haunmovies_ep_listsv_link' => sanitize_text_field(trim($link_parts[1])),
+						'haunmovies_ep_listsv_type' => sanitize_text_field(trim($link_parts[2] ?? ''))
+					];
+					$metaPost[$server]['haunmovies_server_data'][$episode_slug]['haunmovies_ep_listsv'] = 
+					$metaPost[$server]['haunmovies_server_data'][$episode_slug]['haunmovies_ep_listsv'] ?? [];
+					$metaPost[$server]['haunmovies_server_data'][$episode_slug]['haunmovies_ep_listsv'][] = $new_episode_data;
+				break;
+				
+				case 'subtitle':
+					$new_subtitle_data = [
+						'haunmovies_ep_sub_label' 	=> sanitize_text_field(trim($link_parts[0])),
+						'haunmovies_ep_sub_link' 	=> sanitize_text_field(trim($link_parts[1]))
+					];
+					$metaPost[$server]['haunmovies_server_data'][$episode_slug]['haunmovies_ep_subs'] = 
+					$metaPost[$server]['haunmovies_server_data'][$episode_slug]['haunmovies_ep_subs'] ?? [];
+					$metaPost[$server]['haunmovies_server_data'][$episode_slug]['haunmovies_ep_subs'][] = $new_subtitle_data;
+					break;
+
+				case 'listepisode':
+					list($ep_name, $ep_link, $ep_type) = $link_parts;
+					$ep_slug = sanitize_text_field(trim($ep_name));
+					$metaPost[$server]['haunmovies_server_data'][$ep_slug] = [
+						'haunmovies_ep_name' => sanitize_text_field(trim($ep_name)),
+						'haunmovies_ep_slug' => $ep_slug,
+						'haunmovies_ep_type' => sanitize_text_field(trim($ep_type)),
+						'haunmovies_ep_link' => sanitize_text_field(trim($ep_link)),
+						'haunmovies_ep_subs' => [],
+						'haunmovies_ep_listsv' => []
+					];
+					break;
+			}
+		}
+
+		update_post_meta($post_id, HNMG_EPS, wp_json_encode($metaPost, JSON_UNESCAPED_UNICODE));
+		wp_send_json_success($metaPost);
+	}
+
+	public function hnajax_list_serverid() {
+		$post_id = isset($_POST['post_id']) ? absint($_POST['post_id']) : '';
+		$server = isset($_POST['server']) ? absint($_POST['server']) : '';
+		$episode_meta = get_post_meta($post_id, HNMG_EPS, true);
+		$data = json_decode(stripslashes($episode_meta));
+
+		if (!empty($data) && isset($data[$server]->haunmovies_server_data)) {
+			$options = '<option value="" id="choose-ep">' . __('Choose Episode', 'hnmgepis') . '</option>';
+			foreach ($data[$server]->haunmovies_server_data as $key => $val) {
+				$options .= '<option value="' . $key . '">' . esc_html($val->haunmovies_ep_name) . '</option>';
+			}
+			wp_send_json_success($options);
+		} else {
+			wp_send_json_error(__('No episodes found', 'hnmgepis'));
+		}
+		exit;
+	}
+
+	public function hnajax_two_importer() {
+        $post_id 		= isset($_POST['post_id']) ? absint($_POST['post_id']) : '';
+        $server 		= isset($_POST['server']) ? absint($_POST['server']) : 0;
+        $server_name 	= isset($_POST['server_name']) ? sanitize_text_field(trim($_POST['server_name'])) : 'Server #1';
+		$list_link 		= isset($_POST['list_link']) ? json_decode(stripslashes($_POST['list_link']), true) : [];
+        $json 			= json_decode(stripcslashes(get_post_meta($post_id, HNMG_EPS, true)), true);
+        $json[$server]['haunmovies_server_name'] = $server_name;
+        foreach ($list_link as $links) {
+            if ($links != '') {
+                $info = explode('|', $links);
+                list($ep_name, $ep_link, $ep_type) = $info;
+                $ep_slug = preg_match('/([a-z]+)/is', $ep_name) ? sanitize_title($ep_name) : sanitize_title($ep_name);
+                $_slug = str_replace('-', '_', $ep_slug);
+                $array = array(
+					'haunmovies_ep_name' => sanitize_text_field($ep_name), 
+					'haunmovies_ep_slug' => sanitize_text_field($ep_slug), 
+					'haunmovies_ep_type' => sanitize_text_field($ep_type), 
+					'haunmovies_ep_link' => sanitize_text_field($ep_link), 
+					'haunmovies_ep_subs' => array(), 
+					'haunmovies_ep_listsv' => array()
+				);
+                $json[$server]['haunmovies_server_data'][$_slug] = $array;
+                if(isset($info[3])) {
+                    $subtitle_arr = str_replace('subtitle=', '', explode(',', $info[3]));
+                    if ($subtitle_arr[0] !== '') {
+                        foreach ($subtitle_arr as $key => $subfile) {
+                            $subfile = explode('*', $subfile);
+                            $subtitle_info[$key]['haunmovies_ep_sub_file'] = sanitize_text_field($subfile[0]);
+                            $subtitle_info[$key]['haunmovies_ep_sub_label'] = sanitize_text_field($subfile[1]);
+                            $subtitle_info[$key]['haunmovies_ep_sub_default'] = $key == 0 ? true : false;
+                        }
+                        $json[$server]['haunmovies_server_data'][$_slug]['haunmovies_ep_subs'] = $subtitle_info;
+                    }
+                }
+                if (isset($info[4])) {
+                    $server_data = str_replace('server=', '', explode(',', $info[4]));
+                    if ($server_data[0] !== '') {
+                        foreach ($server_data as $key => $sv) {
+                            $sv = explode('*', $sv);
+                            $dataserver[$key]['haunmovies_ep_listsv_link'] = sanitize_text_field($sv[0]);
+                            $dataserver[$key]['haunmovies_ep_listsv_name'] = sanitize_text_field($sv[1]);
+                            $dataserver[$key]['haunmovies_ep_listsv_type'] = sanitize_text_field($sv[2]);
+                        }
+                        $json[$server]['haunmovies_server_data'][$_slug]['haunmovies_ep_listsv'] = $dataserver;
+                    }
+                }
+            }
+        }
+        update_post_meta($post_id, HNMG_EPS, wp_json_encode($json, JSON_UNESCAPED_UNICODE));
+		wp_send_json_success($json);
+    }
+	
+	public function hnajax_addnewserver() {
+		$post_id = isset($_POST['post_id']) ? absint($_POST['post_id']) : 0;
+		$server = isset($_POST['server']) ? absint($_POST['server']) : 0;
+		$server_name = isset($_POST['server_name']) ? sanitize_text_field($_POST['server_name']) : '';
+		$list_link = isset($_POST['list_link']) ? json_decode(stripslashes($_POST['list_link']), true) : [];
+		if (!$post_id || !$server || !$server_name || !is_array($list_link)) {
+			wp_send_json_error(['message' => __('Invalid data provided.', 'hnmgepis')]);
+		}
+		$metaPost = json_decode(stripslashes(get_post_meta($post_id, HNMG_EPS, true)), true);
+		$metaPost[$server]['haunmovies_server_name'] = $server_name;
+
+		foreach ($list_link as $link) {
+			$data = explode('|', $link);
+			if (count($data) < 3) continue; 
+			$ep_name = sanitize_text_field($data[0]);
+			$ep_link = esc_url_raw($data[1]);
+			$ep_type = sanitize_text_field($data[2]);
+			$ep_slug = preg_match('/([a-z]+)/is', $ep_name) ? sanitize_title($ep_name) : sanitize_title("{$ep_name}");
+			$ep_slug = str_replace('-', '_', $ep_slug);
+			$metaPost[$server]['haunmovies_server_data'][$ep_slug] = [
+				'haunmovies_ep_name' => $ep_name,
+				'haunmovies_ep_slug' => $ep_slug,
+				'haunmovies_ep_type' => $ep_type,
+				'haunmovies_ep_link' => $ep_link,
+				'haunmovies_ep_subs' => [],
+				'haunmovies_ep_listsv' => []
+			];
+		}
+		$this->load->set_post_modified($post_id);
+		update_post_meta($post_id, HNMG_EPS, wp_json_encode($metaPost, JSON_UNESCAPED_UNICODE));
+		wp_send_json_success($metaPost);
+	}
+
+	public function hnajax_update_postmeta() {
+		$post_id = isset($_POST['post_id']) ? absint($_POST['post_id']) : '';
+		$server = isset($_POST['server']) ? absint($_POST['server']) : '';
+		$post_meta = isset($_POST['post_meta']) ? json_decode(stripslashes($_POST['post_meta']), true) : []; 
+
+		if (!is_array($post_meta)) {
+			wp_send_json_error(['message' => 'Invalid post meta format']);
+			wp_die();
+		}
+
+		$meta_data = get_post_meta($post_id, HNMG_META, true);
+		$metaPost['haun_poster_url'] = sanitize_text_field($meta_data['haun_poster_url']);
+		$metaPost['haun_thumb_url'] = sanitize_text_field($meta_data['haun_thumb_url']);
+
+		$widget_values = [];
+		foreach ($post_meta as $item) {
+			if (isset($item['name']) && isset($item['value'])) {
+				$metaPost[$item['name']] = sanitize_text_field($item['value']);
+				if ($item['name'] == 'haun_add_to_widget') {
+					$widget_values[] = sanitize_text_field($item['value']);
+				}
+			}
+		}
+
+		$metaPost['haun_add_to_widget'] = $widget_values;
+		$this->load->set_post_modified($post_id);
+		update_post_meta($post_id, HNMG_META, $metaPost);
+
+		sleep(1);
+		$post_meta = get_post_meta($post_id, HNMG_META, true);
+		wp_set_object_terms($post_id, $post_meta['haun_movie_status'], 'status', false);
+		wp_set_object_terms($post_id, $post_meta['haun_add_to_widget'], 'post_options', false);
+
+		$formality = $this->load->get_post_format($post_meta['haun_movie_formality']);
+		set_post_format($post_id, $formality);
+
+		wp_send_json_success($metaPost);
+	}
+
+	public function hnajax_export_episodes() {
+		$post_id = sanitize_text_field($_POST['post_id']);
+		$server  = sanitize_text_field($_POST['server_id']);
+		$json    = json_decode(stripslashes(get_post_meta($post_id, HNMG_EPS, true)), true);
+		$list_link = array_map(function($episode) {
+			$subtitle_list = array_map(function($sub) {
+				return $sub['haunmovies_ep_sub_file'] . '*' . $sub['haunmovies_ep_sub_label'];
+			}, $episode['haunmovies_ep_subs'] ?? []);
+
+			$list_server = array_map(function($server_data) {
+				return implode('*', [
+					$server_data['haunmovies_ep_listsv_name'],
+					$server_data['haunmovies_ep_listsv_link'],
+					$server_data['haunmovies_ep_listsv_type']
+				]);
+			}, $episode['haunmovies_ep_listsv'] ?? []);
+
+			$subtitle_string = !empty($subtitle_list) ? '|subtitle=' . implode(',', $subtitle_list) : '';
+			$lists_v = !empty($list_server) ? '|server=' . implode(',', $list_server) : '';
+			return implode('|', [$episode['haunmovies_ep_name'], $episode['haunmovies_ep_link'], $episode['haunmovies_ep_type']]) . $subtitle_string . $lists_v;
+		}, $json[$server]['haunmovies_server_data'] ?? []);
+
+		if(!is_dir(HNMG_PART)) wp_mkdir_p(HNMG_PART);
+		
+		$list_link_string 	= implode("\r\n", $list_link);
+		$file_name 			= 'Episode - ' . get_the_title($post_id) . ' - ' . str_replace('#', '', $json[$server]['haunmovies_server_name']) . '.txt';
+		$file_path 			= HNMG_PART . '/' . sanitize_file_name($file_name);
+		file_put_contents($file_path, $list_link_string);
+		wp_send_json([
+			'status' => true,
+			'msg' => '<div class="text-base font-bold px-4 py-6 text-center"><a href="' . esc_url(content_url('film-export') . '/' . sanitize_file_name($file_name)) . '" download>Download ' . esc_html($file_name) . '</a></div>'
+		]);
+	}
+
+	public function hnsave_server_hidden() {
+		$value = isset($_POST['value']) ? (array) $_POST['value'] : [];
+		$post_id = isset($_POST['post_id']) ? absint($_POST['post_id']) : '';
+		update_post_meta($post_id, 'episode_server_hidden', $value);
+		wp_die();
+	}
+
+	public function hnajax_force_delete_post() {
+		wp_delete_post( $_POST['post_id'], true );
+		die();
+	}
+	
+}

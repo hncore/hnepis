@@ -4,7 +4,7 @@
             <a href="{{ get_permalink($postID) }}" target="_blank" class="text-blue-600 hover:underline">{!! get_the_title($postID) !!}</a>
     </div>
 	<div class="p-4">
-		<form id="hnupdate-postmeta" data-postid="{{ $postID }}">
+		<form id="hnupdate-postmeta" data-postid="{{ $postID }}" @submit.prevent="hnpostmeta($event, {{ $postID }})">
 			@php
 				$fields = [
 					'haun_quality' 		    => __('Quality', 'hnmgepis'),

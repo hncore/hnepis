@@ -1,8 +1,58 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\EP_Load; use HNMG\EP_Load\EP_GetHost; class EP_Getlink { public function init($url = null) { $this->set_url($url); $this->load_host(); } public function set_url($url) { $this->_url = $url; } public function get_url() { return $this->_url; } public function load_host() { goto RH6RF; DzDU8: $this->host = new EP_GetHost(); goto iHC7E; K1Jkq: $class_name = "\x68\x61\165\x6e\137" . str_replace(array("\x2d", "\56"), "\x5f", $host); goto ILrEK; RhaM9: $host = isset($info["\x68\x6f\163\x74"]) ? $info["\150\x6f\x73\164"] : "\144\145\146\x61\165\x6c\x74"; goto zrja2; RH6RF: if (!isset($this->_url)) { goto vX719; } goto uvZXf; zvn84: vX719: goto Ss2Sz; pZoEh: include_once get_template_directory() . "\141\160\160\x2f\x50\x6c\141\171\x65\x72\x2f\x68\141\165\156\55" . $host . "\56\x70\150\x70"; goto K1Jkq; iHC7E: goto sezSG; goto ek28x; qS8l4: sezSG: goto zvn84; uvZXf: $info = parse_url($this->_url); goto RhaM9; etaki: if (file_exists(get_template_directory() . "\x61\x70\160\57\x50\x6c\141\171\x65\162\x2f\150\141\165\x6e\x2d" . $host . "\56\160\x68\x70")) { goto mzf56; } goto DzDU8; ILrEK: $this->host = new $class_name(); goto qS8l4; ek28x: mzf56: goto pZoEh; zrja2: $host = str_replace("\x77\x77\x77\x2e", '', $host); goto etaki; Ss2Sz: } public function get_content($url) { goto HeGqL; wogF0: CRWyN: goto tZErK; XufMJ: return ''; goto wogF0; HeGqL: $args = array("\150\145\x61\x64\145\x72\x73" => array("\x43\x6f\156\156\145\143\164\x69\157\x6e" => "\153\145\x65\160\55\141\154\x69\x76\145", "\x4b\145\x65\x70\x2d\101\154\x69\166\145" => "\x33\x30\60", "\x41\x63\x63\x65\160\x74\x2d\x43\150\141\162\x73\x65\x74" => "\111\x53\117\x2d\70\x38\65\x39\x2d\61\x2c\165\164\x66\55\x38\x3b\x71\75\60\56\67\x2c\52\x3b\161\x3d\x30\56\x37", "\x41\x63\143\145\160\x74\x2d\x4c\x61\156\x67\x75\141\x67\145" => "\x65\156\55\x75\x73\x2c\145\x6e\x3b\161\x3d\60\56\x35", "\x55\163\145\x72\x2d\101\147\x65\x6e\164" => "\115\x6f\x7a\151\x6c\154\141\x2f\65\x2e\x30\x20\50\127\151\156\144\x6f\x77\x73\x20\116\x54\x20\x36\x2e\61\x3b\40\127\117\x57\x36\x34\x29\x20\101\x70\160\154\x65\127\145\x62\113\151\x74\x2f\65\x33\x37\56\63\x36\40\50\113\110\124\115\114\54\40\x6c\151\153\x65\x20\x47\x65\143\153\157\x29\x20\x43\x68\162\157\x6d\145\57\x33\67\x2e\x30\x2e\62\60\66\x32\x2e\61\62\x34\40\123\x61\x66\x61\162\151\57\65\x33\67\x2e\63\66", "\122\x65\x66\145\x72\145\162" => "\x68\164\164\160\163\72\57\x2f\x67\157\157\x67\x6c\145\56\x63\x6f\155"), "\x74\x69\155\x65\x6f\x75\164" => 60, "\163\163\x6c\x76\145\x72\x69\x66\x79" => false, "\x72\145\144\x69\x72\145\143\x74\151\157\x6e" => 5); goto ZIJuM; tZErK: return wp_remote_retrieve_body($response); goto ijYiO; tTlGv: if (!is_wp_error($response)) { goto CRWyN; } goto XufMJ; ZIJuM: $response = wp_safe_remote_get($url, $args); goto tTlGv; ijYiO: } }
+namespace HNMG\EP_Load;
+
+use HNMG\EP_Load\EP_GetHost;
+
+class EP_Getlink {
+	
+	public function init($url = null){
+        $this->set_url($url);
+        $this->load_host();
+    }
+	
+    public function set_url($url){
+        $this->_url = $url;
+    }
+	
+    public function get_url(){
+        return $this->_url;
+    }
+
+    public function load_host(){
+		if(isset($this->_url)){
+            $info = parse_url($this->_url);
+            $host = isset($info['host']) ? $info['host'] : 'default';
+            $host = str_replace('www.', '', $host);
+            if(file_exists(get_template_directory() . 'app/Player/haun-' . $host . '.php')){
+                include_once get_template_directory() . 'app/Player/haun-' . $host . '.php';
+                $class_name =  'haun_' . str_replace(array('-', '.'), '_', $host);
+                $this->host = new $class_name;
+            } else {
+                $this->host = new EP_GetHost();
+            }
+        }
+    }
+
+    public function get_content($url) {
+		$args = array(
+			'headers' => array(
+				'Connection' => 'keep-alive',
+				'Keep-Alive' => '300',
+				'Accept-Charset' => 'ISO-8859-1,utf-8;q=0.7,*;q=0.7',
+				'Accept-Language' => 'en-us,en;q=0.5',
+				'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36',
+				'Referer' => 'https://google.com',
+			),
+			'timeout' => 60,
+			'sslverify' => false,
+			'redirection' => 5,
+		);
+		$response = wp_safe_remote_get($url, $args);
+		if (is_wp_error($response)) {
+			return ''; 
+		}
+		return wp_remote_retrieve_body($response);
+	}
+}
+
+?>

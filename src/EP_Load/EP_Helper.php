@@ -1,8 +1,130 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\EP_Load; class EP_Helper { public static function compress_htmlcode($codedata) { goto iTYFd; A0NC3: $replacedata = array("\76", "\74", "\134\61"); goto wKheC; iTYFd: $searchdata = array("\x2f\x5c\76\133\136\134\123\40\135\53\x2f\163", "\x2f\x5b\136\x5c\123\40\135\53\134\74\57\x73", "\57\50\x5c\x73\x29\53\57\163"); goto A0NC3; nXX_0: return $codedata; goto mdI0Y; wKheC: $codedata = preg_replace($searchdata, $replacedata, $codedata); goto nXX_0; mdI0Y: } public static function getDriveId($url) { preg_match("\x2f\133\55\134\167\135\x7b\x32\x35\54\175\x2f\151\163", $url, $id); return $id[0]; } public static function getDailyMotionId($url) { preg_match("\57\x64\141\151\154\x79\155\157\164\x69\157\156\x5c\56\x63\157\x6d\x5c\57\50\x2e\x2a\77\51\x76\151\x64\x65\157\x5c\x2f\50\x2e\x2a\x29\57\x69\x73", $url, $matches); return $matches[2]; } public static function getVimeoId($url) { goto kSuSP; DJDrx: preg_match($regex, $url, $matches); goto nw5y2; kSuSP: $regex = "\x7e\12\x9\x9\11\43\40\x4d\141\x74\x63\x68\x20\x56\x69\155\x65\157\40\154\x69\x6e\x6b\x20\x61\156\144\x20\x65\155\142\x65\x64\x20\143\x6f\x64\x65\12\11\11\11\50\77\x3a\74\151\146\x72\x61\155\145\x20\133\x5e\76\x5d\x2a\x73\162\143\75\42\51\x3f\x20\x20\40\x20\40\40\40\40\x20\x23\40\x49\146\x20\x69\146\x72\x61\x6d\x65\x20\155\x61\164\143\150\40\165\x70\x20\x74\x6f\40\x66\151\162\x73\x74\40\161\165\x6f\x74\x65\40\157\146\x20\163\162\x63\xa\11\11\11\x28\77\72\40\x20\x20\x20\x20\40\40\40\x20\40\x20\x20\x20\x20\x20\x20\x20\40\40\x20\x20\40\40\x20\40\x20\x20\x20\x20\43\x20\107\x72\157\x75\x70\x20\166\151\155\x65\157\40\x75\162\x6c\12\x9\x9\x9\x9\x9\150\164\x74\x70\x73\x3f\x3a\134\x2f\x5c\57\x20\40\x20\40\x20\40\40\x20\x20\x20\40\x20\40\x23\x20\105\151\x74\x68\x65\162\40\150\x74\164\x70\40\x6f\162\40\150\x74\164\x70\x73\xa\11\x9\11\x9\x9\x28\x3f\72\x5b\134\x77\x5d\53\x5c\x2e\x29\x2a\40\40\x20\40\x20\40\x20\40\40\x20\40\40\43\40\117\x70\x74\x69\x6f\x6e\x61\154\40\x73\165\142\x64\157\155\141\151\156\163\xa\11\x9\11\x9\x9\x76\x69\x6d\145\157\x5c\x2e\x63\x6f\x6d\x20\x20\x20\x20\x20\40\x20\40\x20\x20\x20\40\x20\40\43\40\115\x61\x74\143\x68\x20\x76\x69\x6d\145\x6f\56\x63\157\x6d\xa\x9\x9\11\11\11\50\77\x3a\x5b\134\57\134\167\135\52\134\57\166\x69\144\x65\x6f\163\77\x29\77\40\40\40\43\40\x4f\160\164\x69\x6f\156\141\x6c\40\166\151\144\x65\157\x20\163\x75\142\40\144\151\x72\x65\143\x74\x6f\x72\171\40\x74\150\151\163\x20\150\x61\x6e\x64\154\145\x73\40\x67\162\157\x75\x70\x73\40\x6c\x69\x6e\153\163\x20\x61\x6c\x73\157\xa\x9\x9\x9\11\x9\x5c\x2f\x20\40\40\40\x20\40\x20\40\x20\40\40\x20\x20\x20\x20\40\x20\40\40\40\x20\x20\x23\40\123\154\x61\163\x68\40\x62\x65\146\157\x72\x65\x20\x49\x64\12\11\x9\11\11\11\50\133\x30\55\x39\x5d\x2b\x29\x20\40\x20\x20\x20\40\40\x20\x20\40\x20\x20\x20\x20\x20\x20\x23\40\x24\61\x3a\x20\126\111\104\105\x4f\137\111\x44\x20\x69\x73\40\x6e\165\x6d\x65\x72\x69\x63\12\11\11\x9\x9\11\x5b\136\134\163\135\52\40\40\40\x20\40\x20\x20\40\40\x20\40\x20\x20\x20\x20\40\x20\40\43\x20\x4e\157\x74\x20\141\40\x73\160\x61\143\145\xa\11\x9\11\x29\x20\40\x20\40\x20\x20\x20\40\x20\x20\x20\x20\x20\40\40\x20\x20\40\40\x20\x20\40\40\x20\40\40\40\x20\40\x20\x20\43\40\x45\x6e\144\x20\x67\x72\x6f\x75\160\12\x9\x9\x9\x22\77\x20\x20\x20\40\40\x20\40\40\40\x20\40\40\40\x20\40\x20\40\40\x20\40\x20\40\40\40\40\40\x20\40\x20\40\43\40\115\x61\164\143\x68\40\145\x6e\144\x20\161\165\x6f\164\x65\x20\x69\x66\40\x70\x61\x72\164\x20\x6f\x66\x20\163\x72\143\12\x9\x9\11\x28\77\72\133\x5e\76\x5d\x2a\76\74\x2f\x69\146\x72\141\155\x65\x3e\x29\77\40\40\40\40\x20\40\x20\x20\x20\x20\x20\x20\x23\40\115\x61\x74\143\150\40\x74\150\x65\40\x65\x6e\x64\x20\x6f\x66\40\164\150\x65\40\x69\x66\162\x61\x6d\x65\12\x9\11\x9\50\77\x3a\74\x70\x3e\x2e\52\74\57\x70\76\51\77\x20\40\x20\40\40\x20\40\40\x20\x20\40\x20\40\x20\40\40\40\40\x23\x20\115\x61\164\x63\150\40\x61\x6e\x79\x20\164\x69\164\154\x65\x20\x69\156\x66\x6f\x72\155\141\x74\151\157\x6e\x20\163\x74\165\146\x66\xa\x9\x9\11\x7e\x69\x78"; goto DJDrx; nw5y2: return $matches[1]; goto SOaDF; SOaDF: } public static function getYoutubeId($url) { goto uf4K4; uf4K4: $regex = "\176\12\11\x9\x23\40\115\x61\x74\x63\150\x20\x59\x6f\x75\x74\165\142\x65\40\x6c\151\x6e\153\40\141\156\x64\40\x65\x6d\x62\x65\144\40\143\x6f\x64\145\12\x9\x9\x28\x3f\x3a\x9\11\11\11\x20\x23\x20\107\x72\157\x75\160\40\164\157\x20\155\x61\164\143\150\x20\145\155\x62\x65\144\40\143\157\144\x65\x73\12\11\11\x20\x20\40\x28\77\72\74\151\146\x72\x61\x6d\145\x20\x5b\x5e\76\x5d\x2a\x73\162\x63\75\42\x29\x3f\11\40\x23\x20\111\146\40\151\x66\162\x61\155\145\40\155\x61\x74\x63\150\x20\165\160\40\x74\157\x20\146\151\x72\163\164\40\x71\x75\x6f\x74\145\x20\x6f\x66\x20\x73\x72\x63\xa\11\11\40\40\x20\x7c\50\x3f\72\11\11\11\x9\40\43\x20\107\x72\x6f\165\x70\x20\164\x6f\x20\x6d\x61\x74\143\150\x20\151\146\x20\157\154\x64\145\162\40\145\155\x62\x65\144\xa\11\x9\40\x20\x20\x20\40\40\50\x3f\72\74\x6f\x62\152\x65\x63\x74\40\x2e\52\76\51\77\x9\11\x20\43\40\115\x61\x74\143\150\x20\157\160\x65\x6e\x69\156\x67\x20\x4f\142\x6a\x65\143\164\40\164\x61\147\12\x9\x9\x20\40\40\40\40\x20\50\77\72\74\160\x61\x72\x61\155\40\x2e\52\x3c\x2f\x70\x61\x72\x61\x6d\x3e\51\x2a\40\x20\x20\x20\40\43\x20\x4d\141\164\143\150\x20\x61\154\154\x20\x70\141\x72\x61\155\40\x74\x61\x67\x73\12\11\11\x20\40\40\40\x20\x20\x28\x3f\72\x3c\x65\155\142\145\x64\x20\x5b\136\x3e\135\52\x73\162\x63\75\42\51\x3f\40\x20\x20\40\40\x23\x20\x4d\141\x74\143\150\40\145\155\x62\x65\144\40\164\141\x67\x20\x74\157\40\164\x68\145\x20\x66\151\162\x73\164\40\161\x75\157\x74\x65\40\x6f\146\40\163\x72\x63\12\x9\11\x20\40\40\x29\77\11\11\11\x9\40\x23\x20\x45\156\x64\x20\x6f\154\x64\145\162\x20\145\155\142\x65\x64\x20\x63\157\x64\x65\x20\147\162\x6f\x75\x70\xa\x9\x9\51\x3f\11\11\x9\11\x20\x23\40\105\x6e\144\x20\145\155\142\145\144\x20\x63\157\x64\x65\x20\x67\x72\x6f\165\160\163\12\11\11\x28\77\x3a\11\x9\x9\x9\40\x23\x20\x47\162\x6f\165\x70\40\x79\x6f\165\164\x75\142\145\40\x75\162\x6c\xa\x9\x9\x20\x20\40\x68\164\164\160\163\77\72\x5c\x2f\x5c\x2f\x9\11\40\x20\40\x20\40\x20\x20\40\40\x23\x20\x45\151\x74\150\145\162\x20\150\x74\x74\160\x20\x6f\162\40\150\x74\164\x70\163\xa\11\11\40\40\x20\x28\x3f\72\x5b\x5c\x77\x5d\x2b\134\x2e\51\x2a\x9\x9\40\x20\40\x20\x20\40\x20\40\x20\x23\40\117\160\164\151\157\156\141\x6c\x20\x73\165\x62\x64\157\x6d\x61\x69\x6e\x73\xa\11\11\40\40\40\x28\x3f\72\40\x20\x20\x20\40\x20\x20\x20\40\40\40\x20\x20\40\40\11\x20\40\40\40\x20\40\40\40\40\43\40\107\x72\x6f\165\160\40\x68\x6f\163\x74\40\141\154\164\145\x72\x6e\141\164\151\x76\x65\163\56\xa\x9\x9\40\40\40\40\40\40\x20\x79\x6f\x75\x74\x75\134\x2e\142\x65\57\x20\40\x20\40\40\x20\x9\40\40\40\x20\x20\40\x20\40\x20\43\x20\x45\x69\x74\x68\x65\x72\40\171\157\x75\x74\x75\x2e\142\145\54\12\x9\11\40\40\40\40\40\x20\x20\174\40\171\x6f\x75\164\x75\142\x65\x5c\56\143\157\155\11\x9\x20\43\x20\157\162\40\x79\157\165\x74\165\x62\145\56\143\157\155\xa\x9\11\40\40\40\40\40\40\x20\x7c\40\x79\x6f\x75\164\x75\x62\x65\x2d\x6e\157\x63\x6f\x6f\153\x69\145\134\x2e\143\x6f\x6d\x9\40\x23\x20\x6f\162\x20\171\x6f\x75\164\165\x62\x65\55\x6e\157\143\x6f\157\153\x69\x65\56\x63\x6f\x6d\12\x9\x9\40\x20\x20\51\11\11\11\x9\40\x23\x20\x45\x6e\144\40\110\x6f\x73\x74\40\x47\x72\x6f\x75\160\12\x9\11\40\x20\x20\x28\x3f\x3a\x5c\x53\x2a\x5b\136\134\167\134\x2d\134\x73\x5d\51\77\40\40\40\x20\x20\x20\40\x9\40\x23\x20\105\x78\x74\162\141\x20\163\164\165\x66\x66\40\165\160\x20\164\x6f\40\126\111\104\105\x4f\x5f\x49\x44\12\x9\x9\40\x20\x20\x28\x5b\134\167\x5c\x2d\x5d\173\x31\x31\x7d\x29\11\x9\40\40\x20\40\40\x20\x20\40\40\x23\x20\x24\x31\x3a\x20\x56\111\104\105\117\x5f\x49\104\40\151\163\x20\x6e\165\x6d\145\162\151\x63\xa\x9\11\x20\40\x20\133\136\134\x73\x5d\52\11\x9\11\x20\x23\x20\116\x6f\x74\40\141\x20\163\160\x61\x63\x65\xa\x9\x9\x29\x9\x9\x9\x9\40\43\40\105\x6e\x64\x20\147\162\157\165\x70\xa\x9\x9\42\77\x9\x9\11\11\x20\43\40\115\x61\x74\143\x68\x20\x65\156\x64\x20\161\165\x6f\x74\145\40\x69\146\40\160\x61\162\x74\x20\157\146\40\163\x72\143\12\11\11\50\77\x3a\133\x5e\x3e\135\x2a\x3e\51\77\x9\11\11\40\x23\40\x4d\x61\x74\143\150\x20\141\x6e\x79\x20\x65\170\x74\x72\141\x20\163\x74\x75\146\x66\x20\165\160\40\x74\157\40\143\x6c\157\163\x65\x20\142\x72\141\x63\145\12\x9\11\x28\x3f\x3a\x9\x9\x9\11\x20\43\40\x47\x72\157\x75\160\40\164\x6f\40\x6d\x61\164\143\x68\40\154\141\x73\x74\x20\145\x6d\142\x65\144\40\x63\157\x64\145\xa\11\x9\x20\x20\x20\74\57\151\146\162\141\x6d\x65\x3e\x9\x9\x20\x20\x20\x20\40\40\40\40\x20\43\40\115\141\x74\143\150\x20\x74\x68\x65\x20\x65\156\x64\40\157\146\40\x74\150\145\x20\151\146\162\141\155\x65\xa\11\x9\40\40\x20\174\x3c\57\x65\x6d\x62\145\144\76\x3c\57\157\142\152\145\x63\x74\x3e\x9\x20\x20\40\x20\40\40\x20\40\40\43\40\x6f\162\40\115\141\x74\x63\150\40\x74\x68\x65\x20\x65\x6e\144\40\157\146\x20\164\150\x65\40\x6f\x6c\144\145\x72\x20\x65\x6d\142\145\144\xa\11\x9\x29\77\x9\x9\11\x9\x20\x23\40\x45\x6e\144\x20\x47\x72\x6f\x75\x70\x20\x6f\x66\40\154\x61\x73\164\x20\142\x69\164\40\x6f\146\x20\145\155\x62\145\x64\x20\x63\157\x64\145\12\x9\x9\176\151\x78"; goto oOmcH; oOmcH: preg_match($regex, $url, $matches); goto m2Htg; m2Htg: return $matches[1]; goto VZ4_s; VZ4_s: } public static function getVideoThumbnailByUrl($url, $format = "\163\155\141\x6c\154") { goto aVCkT; QN2Ne: goto DAzEA; goto X_kXg; nwMUu: $id = EP_Helper::getVimeoId($url); goto W4ZI5; TYPLF: return "\x68\164\x74\160\x73\72\x2f\x2f\x69\x6d\147\x2e\x79\157\x75\x74\165\x62\145\x2e\143\x6f\155\x2f\x76\x69\x2f" . $id . "\57\x64\x65\x66\141\165\154\x74\x2e\x6a\x70\147"; goto s1tIt; S5O6h: if (strpos($url, "\166\x69\155\145\x6f")) { goto o0A18; } goto Fjj2v; X_kXg: ae0C2: goto inR4Y; fkxVa: wK3aq: goto TYPLF; PLNSL: return "\150\x74\x74\160\163\x3a\57\x2f\151\x6d\x67\56\171\x6f\165\164\x75\x62\x65\x2e\x63\x6f\x6d\x2f\x76\151\57" . $id . "\57\x68\161\x64\x65\146\x61\x75\154\164\x2e\x6a\x70\x67"; goto fkxVa; Fjj2v: if (strpos($url, "\x64\141\151\154\171\155\x6f\164\x69\157\x6e")) { goto JGwUS; } goto QN2Ne; FV7gN: return "\x68\x74\x74\160\x73\72" . str_replace("\145\x6d\x62\145\x64", "\x74\150\165\x6d\x62\156\x61\151\154", $url); goto SdUB6; inR4Y: $id = EP_Helper::getYoutubeId($url); goto EHcA1; dpq_l: $url = str_replace("\77\x61\165\x74\157\120\154\x61\x79\x3d\x31", "\57", $url); goto FV7gN; s1tIt: goto DAzEA; goto vZS3r; EHcA1: if (!("\155\145\144\151\165\x6d" === $format)) { goto wK3aq; } goto PLNSL; SdUB6: DAzEA: goto bUxU0; vZS3r: o0A18: goto nwMUu; bUxU0: return false; goto Dq2TY; W4ZI5: $hash = unserialize(EP_Helper::cURL("\x68\164\164\x70\x3a\x2f\57\x76\x69\x6d\x65\157\56\143\157\155\57\141\160\x69\x2f\x76\x32\x2f\166\x69\144\145\x6f\57{$id}\56\160\150\x70")); goto orq85; WES3S: goto DAzEA; goto SXV7O; orq85: return $hash[0]["\164\x68\x75\x6d\x62\156\x61\151\154\x5f\x6c\141\162\147\x65"]; goto WES3S; aVCkT: if (strpos($url, "\171\x6f\x75\164\x75\x62\145")) { goto ae0C2; } goto S5O6h; SXV7O: JGwUS: goto dpq_l; Dq2TY: } public static function getVideoLocation($url) { goto HT45w; t4vhr: return false; goto wN_Gj; tybGR: return "\x68\x74\164\160\163\x3a\57\x2f\x77\167\167\56\171\x6f\165\x74\x75\142\x65\x2e\x63\x6f\155\57\145\155\142\145\144\x2f" . $id; goto IZ97Y; KTXf8: $id = EP_Helper::getVimeoId($url); goto JSZvW; xh2Hb: return "\150\x74\164\160\163\72\57\57\x77\167\x77\56\x64\x61\x69\154\171\x6d\157\164\x69\x6f\x6e\56\143\x6f\155\x2f\x65\155\142\x65\144\x2f\166\x69\x64\x65\x6f\x2f" . $id; goto fdYi6; hhCN4: $id = EP_Helper::getYoutubeId($url); goto tybGR; e6S39: goto tCcNb; goto XdM7r; kkCqU: $id = EP_Helper::getDailyMotionId($url); goto xh2Hb; GrhRO: if (strpos($url, "\166\151\x6d\x65\x6f")) { goto Suj1r; } goto CSplU; XdM7r: txMNs: goto kkCqU; fdYi6: tCcNb: goto t4vhr; ZafNm: goto tCcNb; goto IXIjD; HT45w: if (strpos($url, "\x79\157\x75\164\165\x62\x65")) { goto dbd0i; } goto GrhRO; IZ97Y: goto tCcNb; goto nXkQj; IXIjD: dbd0i: goto hhCN4; CSplU: if (strpos($url, "\144\x61\x69\154\171\155\x6f\x74\151\157\x6e")) { goto txMNs; } goto ZafNm; nXkQj: Suj1r: goto KTXf8; JSZvW: return "\x68\164\x74\160\x73\x3a\57\57\160\154\x61\171\x65\x72\56\166\x69\x6d\145\x6f\x2e\143\x6f\155\x2f\166\x69\144\x65\157\x2f" . $id; goto e6S39; wN_Gj: } public static function cURL($url) { goto kIrA3; SwNWw: $response = wp_safe_remote_get($url, $args); goto FUvN8; E5Mwj: return ''; goto e37fY; e37fY: G6FzV: goto SFA5b; SFA5b: return wp_remote_retrieve_body($response); goto Nzsjn; FUvN8: if (!is_wp_error($response)) { goto G6FzV; } goto E5Mwj; kIrA3: $args = array("\150\145\x61\x64\x65\x72\163" => array("\x43\x6f\x6e\156\x65\x63\x74\x69\157\x6e" => "\153\145\x65\160\55\141\154\x69\166\x65", "\x4b\x65\x65\160\55\101\x6c\x69\x76\x65" => "\63\x30\x30", "\x41\x63\x63\145\160\x74\x2d\103\150\141\x72\x73\145\x74" => "\111\x53\117\x2d\x38\x38\65\71\x2d\61\x2c\x75\x74\x66\x2d\70\73\161\75\x30\56\67\x2c\52\x3b\161\x3d\60\x2e\67", "\x41\x63\x63\x65\x70\x74\x2d\114\141\156\147\x75\141\147\x65" => "\x65\156\55\x75\163\54\x65\x6e\73\161\x3d\x30\56\x35", "\x55\163\145\162\55\x41\x67\x65\156\x74" => "\x4d\x6f\172\x69\154\154\141\57\65\56\60\40\x28\151\x50\150\x6f\156\x65\73\x20\x43\120\125\40\x69\x50\150\157\156\145\x20\117\x53\40\x31\x30\x5f\x33\137\61\x20\x6c\151\x6b\145\40\115\x61\143\40\x4f\x53\40\x58\x29\x20\101\160\x70\x6c\145\127\x65\x62\x4b\151\x74\57\66\60\63\56\x31\56\63\60\40\x28\x4b\110\124\115\114\x2c\x20\154\x69\153\145\40\107\x65\x63\153\x6f\51\40\x56\x65\162\x73\x69\x6f\156\x2f\61\60\x2e\x30\40\x4d\157\142\x69\154\x65\57\x31\x34\x45\63\x30\64\x20\x53\141\x66\141\162\x69\57\x36\60\62\x2e\61"), "\x74\x69\155\145\x6f\x75\164" => 30, "\x73\163\154\x76\145\x72\x69\x66\x79" => false, "\x72\145\x64\x69\x72\x65\x63\164\151\x6f\156" => 5); goto SwNWw; Nzsjn: } }
+namespace HNMG\EP_Load;
+
+class EP_Helper {
+	public static function compress_htmlcode($codedata) {
+		$searchdata = array('/\>[^\S ]+/s','/[^\S ]+\</s','/(\s)+/s');
+		$replacedata = array('>','<','\\1');
+		$codedata = preg_replace($searchdata, $replacedata, $codedata);
+		return $codedata;
+	}
+	public static function getDriveId($url) {
+		preg_match('/[-\w]{25,}/is', $url, $id);
+		return $id[0];
+	}
+    public static function getDailyMotionId($url) {
+        preg_match('/dailymotion\.com\/(.*?)video\/(.*)/is', $url, $matches);
+        return $matches[2];
+	}
+    public static function getVimeoId($url) {
+		$regex = '~
+			# Match Vimeo link and embed code
+			(?:<iframe [^>]*src=")?         # If iframe match up to first quote of src
+			(?:                             # Group vimeo url
+					https?:\/\/             # Either http or https
+					(?:[\w]+\.)*            # Optional subdomains
+					vimeo\.com              # Match vimeo.com
+					(?:[\/\w]*\/videos?)?   # Optional video sub directory this handles groups links also
+					\/                      # Slash before Id
+					([0-9]+)                # $1: VIDEO_ID is numeric
+					[^\s]*                  # Not a space
+			)                               # End group
+			"?                              # Match end quote if part of src
+			(?:[^>]*></iframe>)?            # Match the end of the iframe
+			(?:<p>.*</p>)?                  # Match any title information stuff
+			~ix';
+
+		preg_match( $regex, $url, $matches );
+
+		return $matches[1];
+	}
+    public static function getYoutubeId($url) {
+		$regex = '~
+		# Match Youtube link and embed code
+		(?:				 # Group to match embed codes
+		   (?:<iframe [^>]*src=")?	 # If iframe match up to first quote of src
+		   |(?:				 # Group to match if older embed
+		      (?:<object .*>)?		 # Match opening Object tag
+		      (?:<param .*</param>)*     # Match all param tags
+		      (?:<embed [^>]*src=")?     # Match embed tag to the first quote of src
+		   )?				 # End older embed code group
+		)?				 # End embed code groups
+		(?:				 # Group youtube url
+		   https?:\/\/		         # Either http or https
+		   (?:[\w]+\.)*		         # Optional subdomains
+		   (?:               	         # Group host alternatives.
+		       youtu\.be/      	         # Either youtu.be,
+		       | youtube\.com		 # or youtube.com
+		       | youtube-nocookie\.com	 # or youtube-nocookie.com
+		   )				 # End Host Group
+		   (?:\S*[^\w\-\s])?       	 # Extra stuff up to VIDEO_ID
+		   ([\w\-]{11})		         # $1: VIDEO_ID is numeric
+		   [^\s]*			 # Not a space
+		)				 # End group
+		"?				 # Match end quote if part of src
+		(?:[^>]*>)?			 # Match any extra stuff up to close brace
+		(?:				 # Group to match last embed code
+		   </iframe>		         # Match the end of the iframe
+		   |</embed></object>	         # or Match the end of the older embed
+		)?				 # End Group of last bit of embed code
+		~ix';
+
+		preg_match( $regex, $url, $matches );
+
+		return $matches[1];
+	}
+    public static function getVideoThumbnailByUrl($url, $format = 'small'){
+		if(strpos($url, 'youtube')){
+			$id = EP_Helper::getYoutubeId($url);
+	        if ('medium' === $format) {
+	            return 'https://img.youtube.com/vi/' . $id . '/hqdefault.jpg';
+	        }
+	        return 'https://img.youtube.com/vi/' . $id . '/default.jpg';
+
+		}elseif(strpos($url, 'vimeo')){
+			$id = EP_Helper::getVimeoId($url);
+	        $hash = unserialize(EP_Helper::cURL("http://vimeo.com/api/v2/video/$id.php"));
+	        return $hash[0]['thumbnail_large'];
+
+		}elseif(strpos($url, 'dailymotion')){
+			$url = str_replace('?autoPlay=1', '/', $url);
+			return 'https:'.str_replace('embed', 'thumbnail', $url);
+		}
+	    return false;
+	}
+	
+    public static function getVideoLocation($url) {
+		if(strpos($url, 'youtube')) {
+			$id = EP_Helper::getYoutubeId($url);
+			return 'https://www.youtube.com/embed/' . $id;
+		} elseif(strpos($url, 'vimeo')) {
+			$id = EP_Helper::getVimeoId($url);
+			return 'https://player.vimeo.com/video/' . $id;
+		} elseif(strpos($url, 'dailymotion')) {
+			$id = EP_Helper::getDailyMotionId($url);
+			return 'https://www.dailymotion.com/embed/video/' . $id;
+		}
+	    return false;
+	}
+	public static function cURL($url) {
+		$args = array(
+			'headers' => array(
+				'Connection' => 'keep-alive',
+				'Keep-Alive' => '300',
+				'Accept-Charset' => 'ISO-8859-1,utf-8;q=0.7,*;q=0.7',
+				'Accept-Language' => 'en-us,en;q=0.5',
+				'User-Agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+			),
+			'timeout' => 30,
+			'sslverify' => false,
+			'redirection' => 5,
+		);
+		$response = wp_safe_remote_get($url, $args);
+		if (is_wp_error($response)) {
+			return ''; 
+		}
+		return wp_remote_retrieve_body($response);
+	}
+}
+
+?>

@@ -14,6 +14,6 @@
 		</a>
 	</div>
 </div>
-<div class="content-tabs" id="hncore" x-data="{ activeTab: '{{ $curpage }}',activeClasses: 'border-l border-t border-r rounded-t text-blue-700', inactiveClasses: 'text-blue-500 hover:text-blue-700'}">
+<div class="content-tabs" id="hncore" x-data="{ activeTab: '{{ $curpage }}', activeClasses: 'border-l border-t border-r rounded-t text-blue-700', inactiveClasses: 'text-blue-500 hover:text-blue-700'}">
 	{!! $core->display_tabs() !!}
 	<div x-show="activeTab === '{{ $curpage }}'" :class="{ 'rounded-tl-none': activeTab === 'hnmg-dashboard' }" class="bg-white {{ $curpage == 'hnmg-options' ? 'py-4' : 'p-4' }} rounded-tl-lg rounded-br-lg shadow-lg w-[98%] rounded-bl-lg rounded-tr-lg">

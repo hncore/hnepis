@@ -87,6 +87,9 @@ return array(
 	'Item removed successfully!'                  		=> __('Item removed successfully!', 'hnmgepis'),
 	'Failed to remove item!'                  			=> __('Failed to remove item!', 'hnmgepis'),
 	'An error occurred while removing the item.'        => __('An error occurred while removing the item.', 'hnmgepis'),
-	'An error occurred while removing all items.'       => __('An error occurred while removing all items.', 'hnmgepis')
+	'An error occurred while removing all items.'       => __('An error occurred while removing all items.', 'hnmgepis'),
+	'No posts selected'       							=> __('No posts selected', 'hnmgepis'),
+	'Are you sure you want to delete the selected posts?'  => __('Are you sure you want to delete the selected posts?', 'hnmgepis'),
+	'Auto Report'  => __('Auto Report', 'hnmgepis')
 	
 );

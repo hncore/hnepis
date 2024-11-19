@@ -55,7 +55,7 @@
 					</li>
 
 					<template x-for="(episode, epIndex) in paginatedEpisodes(index)" :key="epIndex">
-						<li class="w-full bg-white border-b last:border-b-0 p-2 episode-list">
+						<li class="w-full bg-white border-b last:border-b-0 px-2 episode-list">
 							<div class="flex flex-wrap md:flex-nowrap gap-2 md:gap-4">
 								<div class="flex w-full md:w-1/3 gap-2 md:gap-4 auto-slug">
 									<div class="w-1/2 flex items-center md:py-2">
@@ -191,33 +191,21 @@
 						<button @click="changePage(index, 1)" 
 							:class="{ 'bg-gray-200': servers[index] && servers[index].currentPage === 1 }" 
 							type="button" 
-							class="min-h-[32px] min-w-8 flex justify-center items-center text-gray-800 border border-gray-200 py-1 px-2.5 text-sm first:rounded-s-full last:rounded-e-full" 
+							class="min-h-[32px] min-w-8 flex justify-center items-center text-gray-800 border border-gray-200 py-1.5 px-2.5 text-sm first:rounded-s-full last:rounded-e-full" 
 							aria-current="page">1</button>
-
-						<!-- Các trang giữa (xung quanh trang hiện tại) -->
 						<template x-for="page in pagesToShow(index)" :key="page">
-							<button @click="changePage(index, page)" 
-								:class="{ 'bg-gray-200': servers[index] && servers[index].currentPage === page }" 
-								type="button" 
-								class="min-h-[32px] min-w-8 flex justify-center items-center text-gray-800 border border-gray-200 py-1 px-2.5 text-sm first:rounded-s-full last:rounded-e-full" 
+							<button @click="changePage(index, page)" :class="{ 'bg-gray-200': servers[index] && servers[index].currentPage === page }" type="button" 
+								class="min-h-[32px] min-w-8 flex justify-center items-center text-gray-800 border border-gray-200 py-1.5 px-2.5 text-sm first:rounded-s-full last:rounded-e-full" 
 								x-text="page"></button>
 						</template>
 
-						<input type="number" min="1" :max="totalPages(index)" @keyup.enter="changePage(index, +$event.target.value);" class="border border-gray-200 min-h-[32px] ouline-none focus:outline-none focus:ring-0 min-w-8 w-16 text-center" placeholder="Go"/>
-
-						<!-- Trang cuối cùng -->
+						<input type="number" min="1" :max="totalPages(index)" @keyup.enter="changePage(index, +$event.target.value);" class="border border-gray-200 min-h-[32px] ouline-none focus:outline-none rounded-none focus:ring-0 min-w-8 w-16 text-center" placeholder="Go"/>
 						<button @click="changePage(index, totalPages(index))" 
-							:class="{ 'bg-gray-200': servers[index] && servers[index].currentPage === totalPages(index) }" 
-							type="button" 
-							class="pg-last" 
+							:class="{ 'bg-gray-200': servers[index] && servers[index].currentPage === totalPages(index) }" type="button" class="pg-last py-1.5" 
 							x-text="totalPages(index)"></button>
 
-						<!-- Nút Next -->
 						<button @click="changePage(index, Math.min(totalPages(index), servers[index].currentPage + 1))" 
-							:disabled="servers[index] && servers[index].currentPage === totalPages(index)" 
-							type="button" 
-							class="pg-right" 
-							aria-label="Next">
+							:disabled="servers[index] && servers[index].currentPage === totalPages(index)" type="button" class="pg-right" aria-label="Next">
 							<span class="sr-only">@hnepis('Next')</span>
 							@hnsvg('arrow-right-circle')
 						</button>

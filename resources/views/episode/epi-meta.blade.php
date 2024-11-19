@@ -6,5 +6,7 @@
         </div>
     </div>
 @else
-    @include('HNMG::episode.epi-list', compact('postID'))
+	<div x-data="HNEpis()" x-init="init({{ $postID ?? 'null' }})">
+		@include('HNMG::episode.epi-list', compact('postID'))
+	</div>
 @endif

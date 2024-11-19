@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-10-30 01:01+0700\n"
+"PO-Revision-Date: 2024-11-19 04:58+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -763,3 +763,204 @@ msgstr "Hoàn Thành"
 
 msgid "Copyright infringement!"
 msgstr "Vi phạm bản quyền!"
+
+msgid "Select Filter Field"
+msgstr "Chọn Trường Bộ Lọc"
+
+msgid "Enable/Disable Movie Filtering"
+msgstr "Bật/Tắt Lọc Phim"
+
+msgid "On/Off Button Player"
+msgstr "Bật/Tắt Button Trình Phát"
+
+msgid "Setting Button Player"
+msgstr "Cài Đặt Button Trình Phát"
+
+msgid "Button Player Postion"
+msgstr "Vị Trí Button"
+
+msgid "Left"
+msgstr "Bên Trái"
+
+msgid "Right"
+msgstr "Bên Phải"
+
+msgid "Center"
+msgstr "Ở Giữa"
+
+msgid "Select Button Player"
+msgstr "Chọn Button Trình Phát"
+
+msgid "Views"
+msgstr "Lượt Xem"
+
+msgid "Next & Prev"
+msgstr "Tiếp Theo & Trước"
+
+msgid "Auto Next"
+msgstr "Tự Động Phát"
+
+msgid "Expand"
+msgstr "Phóng"
+
+msgid "Light"
+msgstr "Đèn"
+
+msgid "Report"
+msgstr "Báo Lỗi"
+
+msgid "Like & DisLike"
+msgstr "Thích"
+
+msgid "For Auto Next, Next & Prev Only Works With TV Series"
+msgstr "Đối với Tự động Tiếp theo, Tiếp theo & Trước đó Chỉ Hoạt động với Phim Bộ"
+
+msgid "Enable Find Episodes"
+msgstr "Bật Tìm Tập Nhanh"
+
+msgid "Only Shows With Series. Not Shows With Movies"
+msgstr "Chỉ Hiển Thị Với Phim Bộ. Không Hiển Thị Với Phim Lẻ"
+
+msgid "Using Ajax for Episodes"
+msgstr "Sử Dụng Ajax Cho Các Tập Phim"
+
+msgid "Select the style to display the episode list"
+msgstr "Chọn kiểu để hiển thị danh sách tập phim"
+
+msgid "Episode pages show at most"
+msgstr "Các trang tập phim hiển thị nhiều nhất"
+
+msgid "The number of episodes displayed on the page"
+msgstr "Số lượng tập phim được hiển thị trên trang"
+
+msgid "Watch Button"
+msgstr "Nút Xem Phim"
+
+msgid "First Episode"
+msgstr "Tập Đầu Tiên"
+
+msgid "Last Episode"
+msgstr "Tập Cuối Cùng"
+
+msgid "Episode order"
+msgstr "Thứ tự tập phim"
+
+msgid "ASC"
+msgstr "Tăng Dần"
+
+msgid "DESC"
+msgstr "Giảm Dần"
+
+msgid "Episode Options"
+msgstr "Tùy Chọn Tập Phim"
+
+msgid "Default Episode Name"
+msgstr "Tên Tập Mặc Định"
+
+msgid "SEO Title (Page movie info)"
+msgstr "Tiêu đề SEO (Thông tin trang phim)"
+
+msgid "URL Watch Page"
+msgstr "Slug Trang Xem Phim"
+
+msgid "Accept"
+msgstr "Chấp Nhận"
+
+msgid "Film Title"
+msgstr "Tên Phim"
+
+msgid "Film Released"
+msgstr "Năm Phát Hành Phim"
+
+msgid "Film Duration"
+msgstr "Thời Lượng Phim"
+
+msgid "Film Quality"
+msgstr "Chất Lượng Phim"
+
+msgid "Film Episode"
+msgstr "Tập Phim"
+
+msgid "Home Url"
+msgstr "Đường Dẫn Trang Chủ"
+
+msgid ".html"
+msgstr ".html"
+
+msgid "Film Server"
+msgstr "Máy Chủ Phim"
+
+msgid "Auto config Rank Math"
+msgstr "Tự động cấu hình Rank Math"
+
+msgid "JWPlayer Settings"
+msgstr "Cài Đặt JWPlayer"
+
+msgid "Title Adult"
+msgstr "Tiêu Đề Thông Báo 18+"
+
+msgid "Adult Content Info"
+msgstr "Nội Dung Thông Báo 18+"
+
+msgid "All Options"
+msgstr "Tất Cả Tùy Chọn"
+
+msgid "Sort By"
+msgstr "Lọc Theo"
+
+msgid "Background Button color"
+msgstr "Màu Nền Button"
+
+msgid "Text Button color"
+msgstr "Màu Chữ Button"
+
+msgid "Showing old episodes manager"
+msgstr "Hiển thị trình quản lý tập cũ"
+
+msgid "No posts selected"
+msgstr "Không có bài viết nào được chọn"
+
+msgid "Are you sure you want to delete the selected posts?"
+msgstr "Bạn có chắc chắn muốn xóa các bài đăng đã chọn không?"
+
+msgid "Cache Manager"
+msgstr "Quản Lý Cache"
+
+msgid "Total Cache"
+msgstr "Tổng Cache"
+
+msgid "Cache Empty!"
+msgstr "Cache Trống!"
+
+msgid "Delete All Cache"
+msgstr "Xóa Tất Cả Cache"
+
+msgid "Issues"
+msgstr "Vấn Đề"
+
+msgid "Add one entry per line. These issues will appear in the form of a checkbox."
+msgstr "Thêm một mục nhập trên mỗi dòng. Các vấn đề này sẽ xuất hiện dưới dạng hộp kiểm."
+
+msgid "Reporter"
+msgstr "Người Báo Lỗi"
+
+msgid "Time"
+msgstr "Thời Gian"
+
+msgid "Remove"
+msgstr "Xóa Bỏ"
+
+msgid "Broken Movie"
+msgstr "Phim Lỗi"
+
+msgid "List Broken Movie"
+msgstr "Danh Sách Phim Lỗi"
+
+msgid "Delete All"
+msgstr "Xóa Tất Cả"
+
+msgid "Mark As Resolved"
+msgstr "Đã Giải Quyết"
+
+msgid "Auto Report"
+msgstr "Tự Động Báo Lỗi"

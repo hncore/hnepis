@@ -413,3 +413,6 @@ body, .jw-text {
     display: none !important;
 }
 
+.notice.notice-warning.inline {
+    display: inline-block !important;
+}

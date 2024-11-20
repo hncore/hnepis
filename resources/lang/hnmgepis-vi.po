@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-11-19 04:58+0700\n"
+"PO-Revision-Date: 2024-11-20 18:14+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -306,9 +306,7 @@ msgstr "Dưới phải"
 msgid "Control bar"
 msgstr "Thanh điều khiển"
 
-msgid ""
-"This sets the corner in which to display the watermark. \"control-bar\" adds the logo as the leftmost icon in the right grouping of buttons in the control "
-"bar."
+msgid "This sets the corner in which to display the watermark. \"control-bar\" adds the logo as the leftmost icon in the right grouping of buttons in the control bar."
 msgstr "Điều này đặt góc hiển thị hình mờ. \"control-bar\" thêm logo là biểu tượng bên trái nhất trong nhóm nút bên phải trên thanh điều khiển."
 
 msgid "Default poster image"
@@ -812,8 +810,8 @@ msgstr "Báo Lỗi"
 msgid "Like & DisLike"
 msgstr "Thích"
 
-msgid "For Auto Next, Next & Prev Only Works With TV Series"
-msgstr "Đối với Tự động Tiếp theo, Tiếp theo & Trước đó Chỉ Hoạt động với Phim Bộ"
+msgid "For Auto Next, Next & Previous Only Works with Series. Expand and Collapse only works when there is a Sidebar."
+msgstr "Đối với Tự động Tiếp theo, Tiếp theo & Trước đó Chỉ Hoạt động với Phim Bộ. Phóng To và Thu Nhỏ chỉ hoạt động khi có Sidebar."
 
 msgid "Enable Find Episodes"
 msgstr "Bật Tìm Tập Nhanh"
@@ -964,3 +962,120 @@ msgstr "Đã Giải Quyết"
 
 msgid "Auto Report"
 msgstr "Tự Động Báo Lỗi"
+
+msgid "If using Ajax, when clicking on the episode list, the page will not reload"
+msgstr "Nếu sử dụng Ajax, khi nhấp vào danh sách tập phim, trang sẽ không tải lại"
+
+msgid "For the last option it only applies to using the XXX theme"
+msgstr "Đối với lựa chọn cuối nó chỉ áp dụng cho sử dụng chủ đề XXX"
+
+msgid "Like"
+msgstr "Thích"
+
+msgid "Reply"
+msgstr "Trả Lời"
+
+msgid "less than 1 second ago"
+msgstr "chưa đầy 1 giây trước"
+
+msgid "year ago"
+msgstr "năm trước"
+
+msgid "years ago"
+msgstr "nhiều năm trước"
+
+msgid "month ago"
+msgstr "tháng trước"
+
+msgid "months ago"
+msgstr "nhiều tháng trước"
+
+msgid "day ago"
+msgstr "ngày trước"
+
+msgid "days ago"
+msgstr "nhiều ngày trước"
+
+msgid "hour ago"
+msgstr "giờ trước"
+
+msgid "hours ago"
+msgstr "nhiều giờ trước"
+
+msgid "minute ago"
+msgstr "phút trước"
+
+msgid "minutes ago"
+msgstr "nhiều phút trước"
+
+msgid "second ago"
+msgstr "giây trước"
+
+msgid "seconds ago"
+msgstr "nhiều giây trước"
+
+msgid "Settings Comment"
+msgstr "Cài Đặt Bình Luận"
+
+msgid "Enable Comment"
+msgstr "Bật Bình Luận"
+
+msgid "Select Comments"
+msgstr "Chọn Loại Bình Luận"
+
+msgid "Comments"
+msgstr "Bình Luận"
+
+msgid "Your Name"
+msgstr "Tên Bạn"
+
+msgid "Enter Content"
+msgstr "Nhập Nội Dung"
+
+msgid "List Comments"
+msgstr "Danh Sách Bình Luận"
+
+msgid "See more"
+msgstr "Xem Thêm"
+
+msgid "Disqus Comments"
+msgstr "Bình luận Disqus"
+
+msgid "Facebook Comment"
+msgstr "Bình luận Facebook"
+
+msgid "System Comment"
+msgstr "Bình luận hệ thống"
+
+msgid "Facebook settings"
+msgstr "Cài đặt Facebook"
+
+msgid "Facebook Apps ID"
+msgstr "ID ứng dụng Facebook"
+
+msgid "If This Value Does Not Exist . Facebook Comments and Like and Share Buttons Will Not Work"
+msgstr "Nếu giá trị này không tồn tại, các nút bình luận, thích và chia sẻ của Facebook sẽ không hoạt động"
+
+msgid "Number of comment to show"
+msgstr "Số lượng bình luận hiển thị"
+
+msgid "The number of comments to show by default. The minimum value is 1."
+msgstr "Số lượng bình luận hiển thị mặc định. Giá trị tối thiểu là 1."
+
+msgid "Order by"
+msgstr "Sắp xếp theo"
+
+msgid "Reverse time"
+msgstr "Thời gian giảm dần"
+
+msgid "Social"
+msgstr "Mạng xã hội"
+
+msgid "The order to use when displaying comments. Can be \"social\", \"reverse_time\", or \"time\". The different order types are explained in the FAQ"
+msgstr "Thứ tự sử dụng khi hiển thị bình luận. Có thể là \"mạng xã hội\", \"thời gian giảm dần\" hoặc \"thời gian\". Các kiểu sắp xếp khác nhau được giải thích trong phần FAQ"
+
+msgid "Disqus Shortname"
+msgstr "Tên ngắn Disqus"
+
+msgid "a few seconds ago"
+msgstr "vài giây trước"

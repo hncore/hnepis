@@ -1165,3 +1165,160 @@ msgstr ""
 
 msgid "You can add your own emojis by typing in the box above with the format emoji 1|emoji 2..."
 msgstr ""
+
+msgid "Import Episode To"
+msgstr ""
+
+msgid "Notification/Note"
+msgstr ""
+
+msgid "Showtime Movies"
+msgstr ""
+
+msgid "Add to One Slide (Slider one by one)"
+msgstr ""
+
+msgid "Add to Carousel Slider"
+msgstr ""
+
+msgid "Paging the episode list"
+msgstr ""
+
+msgid "Edit Post Info"
+msgstr ""
+
+msgid "Add Subtitle"
+msgstr ""
+
+msgid "Subtitle Label"
+msgstr ""
+
+msgid "MP4 File"
+msgstr ""
+
+msgid "New Server Name"
+msgstr ""
+
+msgid "Current Servers"
+msgstr ""
+
+msgid "Episode URL"
+msgstr ""
+
+msgid "Episode Type support list:"
+msgstr ""
+
+msgid "Add New Server"
+msgstr ""
+
+msgid "Reload this page"
+msgstr ""
+
+msgid "Example"
+msgstr ""
+
+msgid "Only main episode link"
+msgstr ""
+
+msgid "Only main episode link and subtitle, not alternate link fallback"
+msgstr ""
+
+msgid "Only main episode link and alternate link fallback, not subtitles"
+msgstr ""
+
+msgid "Full of parameters"
+msgstr ""
+
+msgid "Choose Server"
+msgstr ""
+
+msgid "Alternate Server"
+msgstr ""
+
+msgid "Subtitle"
+msgstr ""
+
+msgid "Autoplay next episode, please wait..."
+msgstr ""
+
+msgid "Automatically resumes your videos from where you played them last at"
+msgstr ""
+
+msgid "Playback from the beginning?"
+msgstr ""
+
+msgid "Playback"
+msgstr ""
+
+msgid "Continue watching"
+msgstr ""
+
+msgid "EXIT"
+msgstr ""
+
+msgid "18+ ENTER"
+msgstr ""
+
+msgid "Your name and message is required (*)"
+msgstr ""
+
+msgid "Your message"
+msgstr ""
+
+msgid "Thank you for sending error messages. We will fix the problem in the shortest time possible."
+msgstr ""
+
+msgid "Name or Email"
+msgstr ""
+
+msgid "End of episode list"
+msgstr ""
+
+msgid "First of episode list"
+msgstr ""
+
+msgid "Failed to remove items!"
+msgstr ""
+
+msgid "All items removed successfully!"
+msgstr ""
+
+msgid "Marked as resolved successfully!"
+msgstr ""
+
+msgid "Failed to mark as resolved!"
+msgstr ""
+
+msgid "Item removed successfully!"
+msgstr ""
+
+msgid "Failed to remove item!"
+msgstr ""
+
+msgid "An error occurred while removing the item."
+msgstr ""
+
+msgid "An error occurred while removing all items."
+msgstr ""
+
+msgid "Invalid structure. Each line must have exactly 3 parts separated by the \"|\" character."
+msgstr ""
+
+msgid "There are no new episodes yet or this is the last episode!"
+msgstr ""
+
+msgid "HNMG Cache"
+msgstr ""
+
+msgid "Empty!"
+msgstr ""
+
+msgid "HD, FULL HD..."
+msgstr ""
+
+msgid "Manage Episode"
+msgstr ""
+
+msgid "Please publish post before you can edit episodes"
+msgstr ""
+

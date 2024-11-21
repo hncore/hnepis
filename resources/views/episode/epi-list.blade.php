@@ -135,7 +135,7 @@
 											<template x-for="(sub, subIndex) in episode.subtitles" :key="subIndex">
 												<div class="hnmovies_subs mb-0.5 px-4 py-2 border border-gray-300 shadow-sm bg-white flex flex-col md:flex-row items-start md:items-center space-y-1 md:space-y-0 md:space-x-4" x-data="{ fileType: sub.file ? 'url' : 'file' }">
 													<div class="flex-wrap w-full md:w-auto md:max-w-40">
-														<input type="text" :name="'haunmovies_ep_sub_label[' + (index + 1) + '][' + epIndex + '][' + subIndex + ']'" x-model="sub.label" class="hn-input w-full py-1 px-2 border border-gray-300" placeholder="Subtitle Label" />
+														<input type="text" :name="'haunmovies_ep_sub_label[' + (index + 1) + '][' + epIndex + '][' + subIndex + ']'" x-model="sub.label" class="hn-input w-full py-1 px-2 border border-gray-300" placeholder="@hnepis('Subtitle Label')" />
 													</div>
 													<div class="flex-wrap w-full md:w-auto md:max-w-40">
 														<div class="flex space-x-2">

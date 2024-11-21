@@ -30,7 +30,7 @@
 			</div>
 			<div class="my-5">
 				<div class="border border-solid border-slate-200 p-2 mb-5">
-					@hnepis('Episode name') <span class="text-red-700 font-bold">|</span>
+					@hnepis('Episode Name') <span class="text-red-700 font-bold">|</span>
 					@hnepis('Episode URL') <span class="text-red-700 font-bold">|</span>
 					@hnepis('Type') (@hnepis('Episode Type Support List'): 
 					<span style="color: #4d5bff; font-weight: bold; font-family: inherit;">{{ $getPlayerTypesAsText() }} link, mp4, embed</span>)

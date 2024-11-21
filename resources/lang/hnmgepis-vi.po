@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-11-21 10:56+0700\n"
+"PO-Revision-Date: 2024-11-21 18:18+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -1166,3 +1166,159 @@ msgstr "Màu Nền Bình Luận"
 
 msgid "You can add your own emojis by typing in the box above with the format emoji 1|emoji 2..."
 msgstr "Bạn có thể thêm các emoji Của mình bằng các nhập vào ô trên với cấu trúc dạng emoji 1|emoji 2..."
+
+msgid "Import Episode To"
+msgstr "Nhập tập phim vào"
+
+msgid "Notification/Note"
+msgstr "Thông báo/Ghi chú"
+
+msgid "Showtime Movies"
+msgstr "Phim chiếu rạp"
+
+msgid "Add to One Slide (Slider one by one)"
+msgstr "Thêm vào một slide (từng slide một)"
+
+msgid "Add to Carousel Slider"
+msgstr "Thêm vào slider dạng carousel"
+
+msgid "Paging the episode list"
+msgstr "Phân trang danh sách tập"
+
+msgid "Edit Post Info"
+msgstr "Chỉnh sửa thông tin bài viết"
+
+msgid "Add Subtitle"
+msgstr "Thêm phụ đề"
+
+msgid "Subtitle Label"
+msgstr "Nhãn phụ đề"
+
+msgid "MP4 File"
+msgstr "Tệp MP4"
+
+msgid "New Server Name"
+msgstr "Tên máy chủ mới"
+
+msgid "Current Servers"
+msgstr "Các máy chủ hiện tại"
+
+msgid "Episode URL"
+msgstr "URL của tập phim"
+
+msgid "Episode Type support list:"
+msgstr "Danh sách các loại tập phim hỗ trợ:"
+
+msgid "Add New Server"
+msgstr "Thêm máy chủ mới"
+
+msgid "Reload this page"
+msgstr "Tải lại trang này"
+
+msgid "Example"
+msgstr "Ví dụ"
+
+msgid "Only main episode link"
+msgstr "Chỉ liên kết tập chính"
+
+msgid "Only main episode link and subtitle, not alternate link fallback"
+msgstr "Chỉ liên kết tập chính và phụ đề, không bao gồm liên kết thay thế"
+
+msgid "Only main episode link and alternate link fallback, not subtitles"
+msgstr "Chỉ liên kết tập chính và liên kết thay thế, không bao gồm phụ đề"
+
+msgid "Full of parameters"
+msgstr "Đầy đủ tham số"
+
+msgid "Choose Server"
+msgstr "Chọn máy chủ"
+
+msgid "Alternate Server"
+msgstr "Máy chủ thay thế"
+
+msgid "Subtitle"
+msgstr "Phụ đề"
+
+msgid "Autoplay next episode, please wait..."
+msgstr "Tự động phát tập tiếp theo, vui lòng chờ..."
+
+msgid "Automatically resumes your videos from where you played them last at"
+msgstr "Tự động tiếp tục phát video từ nơi bạn đã xem lần cuối"
+
+msgid "Playback from the beginning?"
+msgstr "Phát lại từ đầu?"
+
+msgid "Playback"
+msgstr "Phát lại"
+
+msgid "Continue watching"
+msgstr "Tiếp tục xem"
+
+msgid "EXIT"
+msgstr "THOÁT"
+
+msgid "18+ ENTER"
+msgstr "18+ VÀO"
+
+msgid "Your name and message is required (*)"
+msgstr "Tên và tin nhắn của bạn là bắt buộc (*)"
+
+msgid "Your message"
+msgstr "Tin nhắn của bạn"
+
+msgid "Thank you for sending error messages. We will fix the problem in the shortest time possible."
+msgstr "Cảm ơn bạn đã gửi thông báo lỗi. Chúng tôi sẽ khắc phục vấn đề trong thời gian sớm nhất có thể."
+
+msgid "Name or Email"
+msgstr "Tên hoặc Email"
+
+msgid "End of episode list"
+msgstr "Kết thúc danh sách tập"
+
+msgid "First of episode list"
+msgstr "Đầu danh sách tập"
+
+msgid "Failed to remove items!"
+msgstr "Xóa mục thất bại!"
+
+msgid "All items removed successfully!"
+msgstr "Đã xóa thành công tất cả các mục!"
+
+msgid "Marked as resolved successfully!"
+msgstr "Đánh dấu đã giải quyết thành công!"
+
+msgid "Failed to mark as resolved!"
+msgstr "Đánh dấu giải quyết thất bại!"
+
+msgid "Item removed successfully!"
+msgstr "Đã xóa mục thành công!"
+
+msgid "Failed to remove item!"
+msgstr "Xóa mục thất bại!"
+
+msgid "An error occurred while removing the item."
+msgstr "Đã xảy ra lỗi khi xóa mục."
+
+msgid "An error occurred while removing all items."
+msgstr "Đã xảy ra lỗi khi xóa tất cả các mục."
+
+msgid "Invalid structure. Each line must have exactly 3 parts separated by the \"|\" character."
+msgstr "Cấu trúc không hợp lệ. Mỗi dòng phải có đúng 3 phần được ngăn cách bởi ký tự \"|\"."
+
+msgid "There are no new episodes yet or this is the last episode!"
+msgstr "Hiện chưa có tập mới hoặc đây là tập cuối!"
+
+msgid "HNMG Cache"
+msgstr "Bộ nhớ đệm HNMG"
+
+msgid "Empty!"
+msgstr "Trống!"
+
+msgid "HD, FULL HD..."
+msgstr "HD, FULL HD..."
+
+msgid "Manage Episode"
+msgstr "Quản lý tập phim"
+
+msgid "Please publish post before you can edit episodes"
+msgstr "Vui lòng xuất bản bài viết trước khi chỉnh sửa tập phim"

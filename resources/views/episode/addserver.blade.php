@@ -8,7 +8,7 @@
     <div class="p-4 bg-white rounded-b-lg">
        @if($data)
 			<div class="my-4">
-				<div class="font-bold mb-4">@hnepis('Current Servers:')</div>
+				<div class="font-bold mb-4">@hnepis('Current Servers'):</div>
 				<div class="flex flex-wrap">
 					@foreach ($data as $key => $value)
 						@php
@@ -33,7 +33,7 @@
 		@endif
        
         <div class="border border-solid border-slate-200 p-2 mb-5">
-            @hnepis('Episode name')<span class="text-red-700 font-bold">|</span>
+            @hnepis('Episode Name')<span class="text-red-700 font-bold">|</span>
             @hnepis('Episode URL')<span class="text-red-700 font-bold">|</span>
             @hnepis('Type') (@hnepis('Episode Type support list:')
             <span style="color: #4d5bff; font-weight: bold; font-family: inherit;">{{ $getPlayerTypesAsText() }} link, mp4, embed</span>)
@@ -48,8 +48,8 @@
             <textarea id="hnlist-addnewsv" class="rounded-none border-solid p-2 mb-5 w-full border-slate-200" rows="15"></textarea>
         </div>
 		<div id="hnstatus" style="display: none;"></div>
-        <div class="w-40 bg-sky-500 hover:bg-sky-700 px-5 py-2 text-sm leading-5 rounded-full font-semibold text-white mb-5 cursor-pointer" @click="hnaddserver({{ $postID }})" id="hnbtn-addnewsv">
-           @hnepis('Add new server')
+        <div class="w-40 bg-sky-500 hover:bg-sky-700 px-5 py-2 text-center text-sm leading-5 rounded-full font-semibold text-white mb-5 cursor-pointer" @click="hnaddserver({{ $postID }})" id="hnbtn-addnewsv">
+           @hnepis('Add New Server')
         </div>
         <p>
             <input type="radio" name="hnredirect_options" value="redirect" id="redirect" checked>

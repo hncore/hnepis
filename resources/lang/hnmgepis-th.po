@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-11-21 11:32+0700\n"
+"PO-Revision-Date: 2024-11-21 18:15+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: th\n"
@@ -136,7 +136,7 @@ msgid "Choose Episode"
 msgstr "เลือกตอน"
 
 msgid "HNMG Manager"
-msgstr "HNMG Manager"
+msgstr "ผู้จัดการ HNMG"
 
 msgid "Single movie"
 msgstr "ภาพยนตร์เดี่ยว"
@@ -1178,3 +1178,159 @@ msgstr "คุณสามารถเพิ่มอิโมจิของค
 
 msgid "EP, Episode (Show alternative if the episode name is not set, or set to integer)"
 msgstr "EP, ตอน (แสดงทางเลือกหากไม่ได้ตั้งชื่อตอน หรือตั้งเป็นจำนวนเต็ม)"
+
+msgid "Import Episode To"
+msgstr "นำเข้าตอนไปยัง"
+
+msgid "Notification/Note"
+msgstr "การแจ้งเตือน/หมายเหตุ"
+
+msgid "Showtime Movies"
+msgstr "ภาพยนตร์ตามเวลาฉาย"
+
+msgid "Add to One Slide (Slider one by one)"
+msgstr "เพิ่มในสไลด์เดี่ยว (ทีละสไลด์)"
+
+msgid "Add to Carousel Slider"
+msgstr "เพิ่มในสไลด์หมุน"
+
+msgid "Paging the episode list"
+msgstr "แบ่งหน้ารายการตอน"
+
+msgid "Edit Post Info"
+msgstr "แก้ไขข้อมูลโพสต์"
+
+msgid "Add Subtitle"
+msgstr "เพิ่มคำบรรยาย"
+
+msgid "Subtitle Label"
+msgstr "ป้ายกำกับคำบรรยาย"
+
+msgid "MP4 File"
+msgstr "ไฟล์ MP4"
+
+msgid "New Server Name"
+msgstr "ชื่อเซิร์ฟเวอร์ใหม่"
+
+msgid "Current Servers"
+msgstr "เซิร์ฟเวอร์ปัจจุบัน"
+
+msgid "Episode URL"
+msgstr "URL ของตอน"
+
+msgid "Episode Type support list:"
+msgstr "รายการประเภทตอนที่รองรับ:"
+
+msgid "Add New Server"
+msgstr "เพิ่มเซิร์ฟเวอร์ใหม่"
+
+msgid "Reload this page"
+msgstr "โหลดหน้านี้ใหม่"
+
+msgid "Example"
+msgstr "ตัวอย่าง"
+
+msgid "Only main episode link"
+msgstr "เฉพาะลิงก์ตอนหลัก"
+
+msgid "Only main episode link and subtitle, not alternate link fallback"
+msgstr "เฉพาะลิงก์ตอนหลักและคำบรรยาย ไม่รวมลิงก์สำรอง"
+
+msgid "Only main episode link and alternate link fallback, not subtitles"
+msgstr "เฉพาะลิงก์ตอนหลักและลิงก์สำรอง ไม่รวมคำบรรยาย"
+
+msgid "Full of parameters"
+msgstr "ครบทุกพารามิเตอร์"
+
+msgid "Choose Server"
+msgstr "เลือกเซิร์ฟเวอร์"
+
+msgid "Alternate Server"
+msgstr "เซิร์ฟเวอร์สำรอง"
+
+msgid "Subtitle"
+msgstr "คำบรรยาย"
+
+msgid "Autoplay next episode, please wait..."
+msgstr "เล่นตอนถัดไปอัตโนมัติ กรุณารอสักครู่..."
+
+msgid "Automatically resumes your videos from where you played them last at"
+msgstr "กลับมาเล่นวิดีโอของคุณจากตำแหน่งล่าสุดโดยอัตโนมัติ"
+
+msgid "Playback from the beginning?"
+msgstr "เล่นใหม่ตั้งแต่ต้น?"
+
+msgid "Playback"
+msgstr "การเล่นวิดีโอ"
+
+msgid "Continue watching"
+msgstr "ดูต่อ"
+
+msgid "EXIT"
+msgstr "ออก"
+
+msgid "18+ ENTER"
+msgstr "18+ เข้าสู่ระบบ"
+
+msgid "Your name and message is required (*)"
+msgstr "จำเป็นต้องใส่ชื่อและข้อความของคุณ (*)"
+
+msgid "Your message"
+msgstr "ข้อความของคุณ"
+
+msgid "Thank you for sending error messages. We will fix the problem in the shortest time possible."
+msgstr "ขอบคุณที่ส่งข้อความแจ้งข้อผิดพลาด เราจะแก้ไขปัญหาโดยเร็วที่สุด"
+
+msgid "Name or Email"
+msgstr "ชื่อหรืออีเมล"
+
+msgid "End of episode list"
+msgstr "สิ้นสุดรายการตอน"
+
+msgid "First of episode list"
+msgstr "เริ่มต้นรายการตอน"
+
+msgid "Failed to remove items!"
+msgstr "ลบรายการไม่สำเร็จ!"
+
+msgid "All items removed successfully!"
+msgstr "ลบรายการทั้งหมดเรียบร้อยแล้ว!"
+
+msgid "Marked as resolved successfully!"
+msgstr "ทำเครื่องหมายว่าแก้ไขแล้วสำเร็จ!"
+
+msgid "Failed to mark as resolved!"
+msgstr "ทำเครื่องหมายว่าแก้ไขแล้วล้มเหลว!"
+
+msgid "Item removed successfully!"
+msgstr "ลบรายการเรียบร้อยแล้ว!"
+
+msgid "Failed to remove item!"
+msgstr "ลบรายการไม่สำเร็จ!"
+
+msgid "An error occurred while removing the item."
+msgstr "เกิดข้อผิดพลาดขณะลบรายการ"
+
+msgid "An error occurred while removing all items."
+msgstr "เกิดข้อผิดพลาดขณะลบรายการทั้งหมด"
+
+msgid "Invalid structure. Each line must have exactly 3 parts separated by the \"|\" character."
+msgstr "โครงสร้างไม่ถูกต้อง แต่ละบรรทัดต้องมี 3 ส่วนที่คั่นด้วยตัวอักษร \"|\""
+
+msgid "There are no new episodes yet or this is the last episode!"
+msgstr "ยังไม่มีตอนใหม่หรือเป็นตอนสุดท้ายแล้ว!"
+
+msgid "HNMG Cache"
+msgstr "แคช HNMG"
+
+msgid "Empty!"
+msgstr "ว่างเปล่า!"
+
+msgid "HD, FULL HD..."
+msgstr "เอชดี ฟูลเอชดี..."
+
+msgid "Manage Episode"
+msgstr "จัดการตอน"
+
+msgid "Please publish post before you can edit episodes"
+msgstr "กรุณาเผยแพร่บทความก่อนจึงจะสามารถแก้ไขตอนต่างๆ ได้"

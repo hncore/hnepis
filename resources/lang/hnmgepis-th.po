@@ -1,0 +1,1180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
+"PO-Revision-Date: 2024-11-21 11:32+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+msgid "Label"
+msgstr "ป้ายกำกับ"
+
+msgid "Loading..."
+msgstr "กำลังโหลด..."
+
+msgid "Choose Type"
+msgstr "เลือกประเภท"
+
+msgid "Subtitle has been updated!"
+msgstr "คำบรรยายได้รับการอัปเดตแล้ว!"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Upload File"
+msgstr "อัปโหลดไฟล์"
+
+msgid "Default"
+msgstr "ค่าเริ่มต้น"
+
+msgid "Upload"
+msgstr "อัปโหลด"
+
+msgid "Please enter server name"
+msgstr "กรุณาใส่ชื่อเซิร์ฟเวอร์"
+
+msgid "Please enter the episode list in the form!"
+msgstr "กรุณาใส่รายการตอนในแบบฟอร์ม!"
+
+msgid "Please wait..."
+msgstr "กรุณารอ..."
+
+msgid "Import successfully!"
+msgstr "นำเข้าเรียบร้อยแล้ว!"
+
+msgid "Error!"
+msgstr "ข้อผิดพลาด!"
+
+msgid "Saving..."
+msgstr "กำลังบันทึก..."
+
+msgid "Save"
+msgstr "บันทึก"
+
+msgid "Updating..."
+msgstr "กำลังอัปเดต..."
+
+msgid "Done!"
+msgstr "เสร็จสิ้น!"
+
+msgid "Server Name"
+msgstr "ชื่อเซิร์ฟเวอร์"
+
+msgid "Name"
+msgstr "ชื่อ"
+
+msgid "Type"
+msgstr "ประเภท"
+
+msgid "Action"
+msgstr "การดำเนินการ"
+
+msgid "Link"
+msgstr "ลิงก์"
+
+msgid "Alternative Link"
+msgstr "ลิงก์สำรอง"
+
+msgid "Successfully"
+msgstr "สำเร็จ"
+
+msgid "Update Episodes"
+msgstr "อัปเดตตอน"
+
+msgid "Import Episode"
+msgstr "นำเข้าตอน"
+
+msgid "Update Post Info"
+msgstr "อัปเดตข้อมูลโพสต์"
+
+msgid "Backup link server update successful"
+msgstr "อัปเดตลิงก์สำรองของเซิร์ฟเวอร์สำเร็จ"
+
+msgid "Please enter link list!"
+msgstr "กรุณาใส่รายการลิงก์!"
+
+msgid "Please select the episode to import!"
+msgstr "กรุณาเลือกตอนที่จะนำเข้า!"
+
+msgid "Are you sure you want to delete this server & all episodes?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบเซิร์ฟเวอร์นี้และทุกตอน?"
+
+msgid "Add subtitles"
+msgstr "เพิ่มคำบรรยาย"
+
+msgid "Delete The Current Episode"
+msgstr "ลบตอนปัจจุบัน"
+
+msgid "Add Backup Server"
+msgstr "เพิ่มเซิร์ฟเวอร์สำรอง"
+
+msgid "Add Field"
+msgstr "เพิ่มฟิลด์"
+
+msgid "Update Server"
+msgstr "อัปเดตเซิร์ฟเวอร์"
+
+msgid "Update Subtitle"
+msgstr "อัปเดตคำบรรยาย"
+
+msgid "Click Here To Add A New Episode"
+msgstr "คลิกที่นี่เพื่อเพิ่มตอนใหม่"
+
+msgid "Need to <b>Update Episodes</b> Before <b>Adding Subtitles</b>"
+msgstr "ต้อง <b>อัปเดตตอน</b> ก่อน <b>เพิ่มคำบรรยาย</b>"
+
+msgid "Need to <b>Update Episodes</b> Before <b>Backup Links</b>"
+msgstr "ต้อง <b>อัปเดตตอน</b> ก่อน <b>สำรองลิงก์</b>"
+
+msgid "Choose Episode"
+msgstr "เลือกตอน"
+
+msgid "HNMG Manager"
+msgstr "HNMG Manager"
+
+msgid "Single movie"
+msgstr "ภาพยนตร์เดี่ยว"
+
+msgid "TV series"
+msgstr "ซีรีส์ทีวี"
+
+msgid "TV show"
+msgstr "รายการทีวี"
+
+msgid "Theater movie"
+msgstr "ภาพยนตร์โรงภาพยนตร์"
+
+msgid "Ongoing"
+msgstr "กำลังดำเนินการ"
+
+msgid "Trailer"
+msgstr "ตัวอย่าง"
+
+msgid "Episode List"
+msgstr "รายการตอน"
+
+msgid "Movies"
+msgstr "ภาพยนตร์"
+
+msgid "TV Series"
+msgstr "ซีรีส์ทีวี"
+
+msgid "TV Shows"
+msgstr "รายการทีวี"
+
+msgid "Theater Movie"
+msgstr "ภาพยนตร์โรงภาพยนตร์"
+
+msgid "Movies Coming"
+msgstr "ภาพยนตร์ที่กำลังจะมา"
+
+msgid "Hide"
+msgstr "ซ่อน"
+
+msgid "Player Options"
+msgstr "ตัวเลือกเครื่องเล่น"
+
+msgid "SEO Optimization"
+msgstr "การปรับแต่ง SEO"
+
+msgid "Auto config Yoast SEO"
+msgstr "ตั้งค่า Yoast SEO อัตโนมัติ"
+
+msgid "Display custom title on the info page (including episode, release, quality...)"
+msgstr "แสดงชื่อที่กำหนดเองในหน้าข้อมูล (รวมถึงตอน วันที่ออก คุณภาพ...)"
+
+msgid "Remove the categories prefix"
+msgstr "ลบคำนำหน้าหมวดหมู่"
+
+msgid ""
+"Category URLs in WordPress contain a prefix, usually <strong>/category/</strong>, this feature removes that prefix, for categories "
+"only."
+msgstr "URL หมวดหมู่ใน WordPress มีคำนำหน้า โดยทั่วไปคือ <strong>/category/</strong> ฟีเจอร์นี้จะลบคำนำหน้านั้น เฉพาะหมวดหมู่"
+
+msgid "SEO title (Page movie info)"
+msgstr "ชื่อ SEO (หน้าข้อมูลภาพยนตร์)"
+
+msgid "Modify your SEO title by editing it right here"
+msgstr "แก้ไขชื่อ SEO ของคุณได้ที่นี่"
+
+msgid "SEO title (Page watch movie)"
+msgstr "ชื่อ SEO (หน้าชมภาพยนตร์)"
+
+msgid "URL Type"
+msgstr "ประเภท URL"
+
+msgid "Player tabs"
+msgstr "แท็บเครื่องเล่น"
+
+msgid "General"
+msgstr "ทั่วไป"
+
+msgid "JW Player Basic Settings"
+msgstr "การตั้งค่าพื้นฐาน JW Player"
+
+msgid "ADS Vast Settings"
+msgstr "การตั้งค่า ADS Vast"
+
+msgid "Resume Playback"
+msgstr "เล่นต่อจากเดิม"
+
+msgid "Use localStorage to remember where the user left off and resume playback at the same time offset when revisiting the page."
+msgstr "ใช้ localStorage เพื่อจดจำตำแหน่งที่ผู้ใช้หยุดไว้และเล่นต่อในตำแหน่งเดียวกันเมื่อกลับมายังหน้า"
+
+msgid "Auto reset cache"
+msgstr "รีเซ็ตแคชอัตโนมัติ"
+
+msgid "Automatically clear the cache if the player error"
+msgstr "ล้างแคชโดยอัตโนมัติหากเครื่องเล่นมีข้อผิดพลาด"
+
+msgid "JWPlayer Error Detect"
+msgstr "ตรวจจับข้อผิดพลาดของ JWPlayer"
+
+msgid "Show Modal Popup"
+msgstr "แสดงป๊อปอัพโมดอล"
+
+msgid "Auto Play Alternative Server"
+msgstr "เล่นเซิร์ฟเวอร์สำรองอัตโนมัติ"
+
+msgid "Autostart"
+msgstr "เริ่มเล่นอัตโนมัติ"
+
+msgid "Auto Pause Player"
+msgstr "หยุดเล่นอัตโนมัติ"
+
+msgid "Automatically pauses the player based on certain rules"
+msgstr "หยุดเล่นอัตโนมัติตามกฎที่กำหนด"
+
+msgid "Share Button"
+msgstr "ปุ่มแชร์"
+
+msgid "Cache Player"
+msgstr "แคชเครื่องเล่น"
+
+msgid "Enable cache link"
+msgstr "เปิดใช้งานแคชลิงก์"
+
+msgid "Cache time"
+msgstr "เวลาแคช"
+
+msgid "Cache expired time. (seconds)"
+msgstr "เวลาหมดอายุของแคช (วินาที)"
+
+msgid "License Version"
+msgstr "เวอร์ชันใบอนุญาต"
+
+msgid "Jwplayer License key"
+msgstr "รหัสใบอนุญาตของ Jwplayer"
+
+msgid "A license key is required for the Pro, Premium and Ads edition."
+msgstr "ต้องใช้รหัสใบอนุญาตสำหรับรุ่น Pro, Premium และ Ads"
+
+msgid "Logo File"
+msgstr "ไฟล์โลโก้"
+
+msgid ""
+"The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /assets/logo.png). We recommend using 24 bit PNG images "
+"with transparency"
+msgstr "URL ของภาพ JPG, PNG หรือ GIF ที่ใช้เป็นลายน้ำ (เช่น /assets/logo.png) แนะนำให้ใช้ภาพ PNG 24 บิตพร้อมความโปร่งใส"
+
+msgid "Logo link"
+msgstr "ลิงก์โลโก้"
+
+msgid "The URL to visit when the watermark image is clicked. Clicking a logo will have no affect unless this is configured"
+msgstr "URL ที่จะเปิดเมื่อคลิกที่ภาพลายน้ำ โลโก้จะไม่มีผลจนกว่าจะกำหนดค่าตัวเลือกนี้"
+
+msgid "Auto hide logo"
+msgstr "ซ่อนโลโก้อัตโนมัติ"
+
+msgid "Logo Position"
+msgstr "ตำแหน่งโลโก้"
+
+msgid "Top left"
+msgstr "บนซ้าย"
+
+msgid "Top right"
+msgstr "บนขวา"
+
+msgid "Bottom left"
+msgstr "ล่างซ้าย"
+
+msgid "Bottom right"
+msgstr "ล่างขวา"
+
+msgid "Control bar"
+msgstr "แถบควบคุม"
+
+msgid ""
+"This sets the corner in which to display the watermark. \"control-bar\" adds the logo as the leftmost icon in the right grouping of "
+"buttons in the control bar."
+msgstr "ตั้งค่ามุมที่จะแสดงลายน้ำ \"control-bar\" จะเพิ่มโลโก้เป็นไอคอนซ้ายสุดในกลุ่มปุ่มทางขวาของแถบควบคุม"
+
+msgid "Default poster image"
+msgstr "ภาพโปสเตอร์เริ่มต้น"
+
+msgid "Upload Subtitle"
+msgstr "อัปโหลดคำบรรยาย"
+
+msgid "Add the url of the file subtitle.srt, .vtt or using the Upload button."
+msgstr "เพิ่ม URL ของไฟล์ subtitle.srt, .vtt หรือใช้ปุ่มอัปโหลด"
+
+msgid "Select a method to read subtitles"
+msgstr "เลือกวิธีการอ่านคำบรรยาย"
+
+msgid "Direct link"
+msgstr "ลิงก์โดยตรง"
+
+msgid "Use readsub.php"
+msgstr "ใช้ readsub.php"
+
+msgid "Subtitle color"
+msgstr "สีคำบรรยาย"
+
+msgid "Subtitle font size"
+msgstr "ขนาดตัวอักษรคำบรรยาย"
+
+msgid "About text"
+msgstr "ข้อความเกี่ยวกับ"
+
+msgid "Custom text to display in the right-click menu. Can only be set for the Premium and Ads Editions"
+msgstr "ข้อความที่กำหนดเองสำหรับแสดงในเมนูคลิกขวา ใช้ได้เฉพาะรุ่น Premium และ Ads"
+
+msgid "About link"
+msgstr "ลิงก์เกี่ยวกับ"
+
+msgid "Custom URL to link to when clicking the right-click menu. Can only be set for the Premium and Ads Editions"
+msgstr "URL ที่กำหนดเองสำหรับคลิกในเมนูคลิกขวา ใช้ได้เฉพาะรุ่น Premium และ Ads"
+
+msgid "Show Ads Vast"
+msgstr "แสดงโฆษณา Vast"
+
+msgid "Enable Ads For Embed"
+msgstr "เปิดใช้งานโฆษณาสำหรับ Embed"
+
+msgid "If This Option is Enabled, Ads Will Display in Embed Links"
+msgstr "หากเปิดใช้งานตัวเลือกนี้ โฆษณาจะแสดงในลิงก์ Embed"
+
+msgid "Ads code"
+msgstr "โค้ดโฆษณา"
+
+msgid "Title"
+msgstr "ชื่อเรื่อง"
+
+msgid "Thumbs"
+msgstr "รูปภาพ"
+
+msgid "Details"
+msgstr "รายละเอียด"
+
+msgid "Categories"
+msgstr "หมวดหมู่"
+
+msgid "Actors"
+msgstr "นักแสดง"
+
+msgid "Directors"
+msgstr "ผู้กำกับ"
+
+msgid "Release"
+msgstr "วันฉาย"
+
+msgid "Country"
+msgstr "ประเทศ"
+
+msgid "Tags"
+msgstr "แท็ก"
+
+msgid "Last Update"
+msgstr "อัปเดตล่าสุด"
+
+msgid "Episodes"
+msgstr "ตอน"
+
+msgid "view"
+msgstr "ดู"
+
+msgid "Movie"
+msgstr "ภาพยนตร์"
+
+msgid "List Movies"
+msgstr "รายการภาพยนตร์"
+
+msgid "Add new"
+msgstr "เพิ่มใหม่"
+
+msgid "Add new movie"
+msgstr "เพิ่มภาพยนตร์ใหม่"
+
+msgid "Edit"
+msgstr "แก้ไข"
+
+msgid "View Post"
+msgstr "ดูโพสต์"
+
+msgid "Search"
+msgstr "ค้นหา"
+
+msgid "No result"
+msgstr "ไม่พบผลลัพธ์"
+
+msgid "All Movies"
+msgstr "ภาพยนตร์ทั้งหมด"
+
+msgid "Category"
+msgstr "หมวดหมู่"
+
+msgid "Add Movie"
+msgstr "เพิ่มภาพยนตร์"
+
+msgid "Formality"
+msgstr "ความเป็นทางการ"
+
+msgid "Status"
+msgstr "สถานะ"
+
+msgid "Poster image URL"
+msgstr "URL ภาพโปสเตอร์"
+
+msgid "Input image url or use Upload button."
+msgstr "ใส่ URL ของภาพหรือใช้ปุ่มอัปโหลด"
+
+msgid "Upload Poster image"
+msgstr "อัปโหลดภาพโปสเตอร์"
+
+msgid "Remote upload the poster image to server"
+msgstr "อัปโหลดภาพโปสเตอร์ไปยังเซิร์ฟเวอร์ระยะไกล"
+
+msgid "Featured image URL"
+msgstr "URL ภาพเด่น"
+
+msgid "Post thumbnail URL"
+msgstr "URL รูปย่อของโพสต์"
+
+msgid "Set as featured image"
+msgstr "ตั้งเป็นภาพเด่น"
+
+msgid "Set as featured image and save image to server"
+msgstr "ตั้งเป็นภาพเด่นและบันทึกภาพลงเซิร์ฟเวอร์"
+
+msgid "Auto save images"
+msgstr "บันทึกภาพอัตโนมัติ"
+
+msgid "Auto save images to server"
+msgstr "บันทึกภาพไปยังเซิร์ฟเวอร์อัตโนมัติ"
+
+msgid "Copyright"
+msgstr "ลิขสิทธิ์"
+
+msgid "Adult content (18+)"
+msgstr "เนื้อหาสำหรับผู้ใหญ่ (18+)"
+
+msgid "Original Title"
+msgstr "ชื่อเรื่องดั้งเดิม"
+
+msgid "Runtime"
+msgstr "ระยะเวลา"
+
+msgid "Runtime (90 min)"
+msgstr "ระยะเวลา (90 นาที)"
+
+msgid "Episode"
+msgstr "ตอน"
+
+msgid "Episode 20, Tập 20"
+msgstr "ตอนที่ 20, Tập 20"
+
+msgid "Total Episode"
+msgstr "จำนวนตอนทั้งหมด"
+
+msgid "Quality"
+msgstr "คุณภาพ"
+
+msgid "Notification / Note"
+msgstr "การแจ้งเตือน / หมายเหตุ"
+
+msgid "Showtime movies"
+msgstr "ภาพยนตร์ตามเวลาฉาย"
+
+msgid "Video URL"
+msgstr "URL วิดีโอ"
+
+msgid "Embed"
+msgstr "ฝัง"
+
+msgid "Embed / iframe"
+msgstr "ฝัง / iframe"
+
+msgid "Thumbnail URL"
+msgstr "URL รูปย่อ"
+
+msgctxt "Episode type"
+msgid "Episode Types"
+msgstr "ประเภทตอน"
+
+msgctxt "Episode type"
+msgid "Episode Type"
+msgstr "ประเภทตอน"
+
+msgid "Episode Types"
+msgstr "ประเภทตอน"
+
+msgid "All Items"
+msgstr "รายการทั้งหมด"
+
+msgid "Parent Item"
+msgstr "รายการแม่"
+
+msgid "Parent Item:"
+msgstr "รายการแม่:"
+
+msgid "New Item Name"
+msgstr "ชื่อรายการใหม่"
+
+msgid "Add New Item"
+msgstr "เพิ่มรายการใหม่"
+
+msgid "Edit Item"
+msgstr "แก้ไขรายการ"
+
+msgid "Update Item"
+msgstr "อัปเดตรายการ"
+
+msgid "View Item"
+msgstr "ดูรายการ"
+
+msgid "Separate items with commas"
+msgstr "แยกรายการด้วยเครื่องหมายจุลภาค"
+
+msgid "Add or remove items"
+msgstr "เพิ่มหรือลบรายการ"
+
+msgid "Choose from the most used"
+msgstr "เลือกจากที่ใช้บ่อยที่สุด"
+
+msgid "Popular Items"
+msgstr "รายการยอดนิยม"
+
+msgid "Search Items"
+msgstr "ค้นหารายการ"
+
+msgid "Not Found"
+msgstr "ไม่พบ"
+
+msgid "No items"
+msgstr "ไม่มีรายการ"
+
+msgid "Items list"
+msgstr "รายการของรายการ"
+
+msgid "Items list navigation"
+msgstr "นำทางรายการของรายการ"
+
+msgid "News categories"
+msgstr "หมวดหมู่ข่าว"
+
+msgid "News category"
+msgstr "หมวดหมู่ข่าว"
+
+msgid "All categories"
+msgstr "หมวดหมู่ทั้งหมด"
+
+msgid "News"
+msgstr "ข่าว"
+
+msgid "Add news"
+msgstr "เพิ่มข่าว"
+
+msgid "News tags"
+msgstr "แท็กข่าว"
+
+msgid "News tag"
+msgstr "แท็กข่าว"
+
+msgid "Videos"
+msgstr "วิดีโอ"
+
+msgid "Video"
+msgstr "วิดีโอ"
+
+msgid "Add new video"
+msgstr "เพิ่มวิดีโอใหม่"
+
+msgid "Video Categories"
+msgstr "หมวดหมู่วิดีโอ"
+
+msgid "Video Category"
+msgstr "หมวดหมู่วิดีโอ"
+
+msgid "Video tags"
+msgstr "แท็กวิดีโอ"
+
+msgid "Video tag"
+msgstr "แท็กวิดีโอ"
+
+msgctxt "taxonomy general name"
+msgid "Status"
+msgstr "สถานะ"
+
+msgctxt "taxonomy singular name"
+msgid "Status"
+msgstr "สถานะ"
+
+msgid "Search Status"
+msgstr "ค้นหาสถานะ"
+
+msgid "All Status"
+msgstr "สถานะทั้งหมด"
+
+msgid "Parent Status"
+msgstr "สถานะแม่"
+
+msgid "Parent Status:"
+msgstr "สถานะแม่:"
+
+msgid "Edit Status"
+msgstr "แก้ไขสถานะ"
+
+msgid "Update Status"
+msgstr "อัปเดตสถานะ"
+
+msgid "Add New Status"
+msgstr "เพิ่มสถานะใหม่"
+
+msgid "New Status Name"
+msgstr "ชื่อสถานะใหม่"
+
+msgctxt "taxonomy general name"
+msgid "Post options"
+msgstr "ตัวเลือกโพสต์"
+
+msgctxt "taxonomy singular name"
+msgid "Post options"
+msgstr "ตัวเลือกโพสต์"
+
+msgid "Search option"
+msgstr "ค้นหาตัวเลือก"
+
+msgid "All options"
+msgstr "ตัวเลือกทั้งหมด"
+
+msgid "Parent"
+msgstr "แม่"
+
+msgid "Update"
+msgstr "อัปเดต"
+
+msgid "Add New"
+msgstr "เพิ่มใหม่"
+
+msgid "New option name"
+msgstr "ชื่อตัวเลือกใหม่"
+
+msgid "Options"
+msgstr "ตัวเลือก"
+
+msgid "Loading player, please wait..."
+msgstr "กำลังโหลดเครื่องเล่น กรุณารอสักครู่..."
+
+msgid ""
+"We are unable to find the video you are looking for. There could be several reasons for this, for example it got removed by the owner!"
+msgstr "เราไม่พบวิดีโอที่คุณกำลังค้นหา อาจมีหลายสาเหตุ เช่น วิดีโอนี้ถูกลบโดยเจ้าของ!"
+
+msgid "This video file cannot be played."
+msgstr "ไม่สามารถเล่นไฟล์วิดีโอนี้ได้"
+
+msgid "To continue watching, please click on the \"Reload Player\" button"
+msgstr "หากต้องการดูต่อ กรุณาคลิกที่ปุ่ม \"โหลดเครื่องเล่นใหม่\""
+
+msgid "or click on the buttons below"
+msgstr "หรือคลิกที่ปุ่มด้านล่าง"
+
+msgid "Reload Player"
+msgstr "โหลดเครื่องเล่นใหม่"
+
+msgid "Redirect to Server"
+msgstr "เปลี่ยนเส้นทางไปยังเซิร์ฟเวอร์"
+
+msgid "Redirect to Edit"
+msgstr "เปลี่ยนเส้นทางไปยังการแก้ไข"
+
+msgid "Episode Name"
+msgstr "ชื่อตอน"
+
+msgid "Episode Slug"
+msgstr "Slug ของตอน"
+
+msgid "Episode Link"
+msgstr "ลิงก์ของตอน"
+
+msgid "Add Server"
+msgstr "เพิ่มเซิร์ฟเวอร์"
+
+msgid "IMBD Rating"
+msgstr "คะแนน IMBD"
+
+msgid "IMBD Vote"
+msgstr "การโหวต IMBD"
+
+msgid "Trailer URL"
+msgstr "URL ตัวอย่าง"
+
+msgid "Export Episodes"
+msgstr "ส่งออกตอน"
+
+msgid "Post Name"
+msgstr "ชื่อโพสต์"
+
+msgid "Show/Hide Server"
+msgstr "แสดง/ซ่อนเซิร์ฟเวอร์"
+
+msgid "Post Status"
+msgstr "สถานะโพสต์"
+
+msgid "Latest Episode"
+msgstr "ตอนล่าสุด"
+
+msgid "Post Type"
+msgstr "ประเภทโพสต์"
+
+msgid "Actions"
+msgstr "การดำเนินการ"
+
+msgid "Mass Import Episode"
+msgstr "นำเข้าตอนจำนวนมาก"
+
+msgid "Add Episode Server"
+msgstr "เพิ่มเซิร์ฟเวอร์ตอน"
+
+msgid "Edit Movie Details"
+msgstr "แก้ไขรายละเอียดภาพยนตร์"
+
+msgid "Choose Server Hide"
+msgstr "เลือกเซิร์ฟเวอร์ที่ซ่อน"
+
+msgid "Choose A Server"
+msgstr "เลือกเซิร์ฟเวอร์"
+
+msgid "Publish"
+msgstr "เผยแพร่"
+
+msgid "Completed"
+msgstr "เสร็จสิ้น"
+
+msgid "Copyright infringement!"
+msgstr "การละเมิดลิขสิทธิ์!"
+
+msgid "Select Filter Field"
+msgstr "เลือกฟิลด์ตัวกรอง"
+
+msgid "Enable/Disable Movie Filtering"
+msgstr "เปิด/ปิดการกรองภาพยนตร์"
+
+msgid "On/Off Button Player"
+msgstr "ปุ่มเปิด/ปิดเครื่องเล่น"
+
+msgid "Setting Button Player"
+msgstr "ตั้งค่าปุ่มเครื่องเล่น"
+
+msgid "Button Player Postion"
+msgstr "ตำแหน่งปุ่มเครื่องเล่น"
+
+msgid "Left"
+msgstr "ซ้าย"
+
+msgid "Right"
+msgstr "ขวา"
+
+msgid "Center"
+msgstr "กลาง"
+
+msgid "Select Button Player"
+msgstr "เลือกปุ่มเครื่องเล่น"
+
+msgid "Views"
+msgstr "การดู"
+
+msgid "Next & Prev"
+msgstr "ถัดไป & ก่อนหน้า"
+
+msgid "Auto Next"
+msgstr "เล่นตอนถัดไปอัตโนมัติ"
+
+msgid "Expand"
+msgstr "ขยาย"
+
+msgid "Light"
+msgstr "โหมดแสง"
+
+msgid "Report"
+msgstr "รายงาน"
+
+msgid "Like & DisLike"
+msgstr "ถูกใจ & ไม่ถูกใจ"
+
+msgid "For Auto Next, Next & Previous Only Works with Series. Expand and Collapse only works when there is a Sidebar."
+msgstr "สำหรับเล่นตอนถัดไปอัตโนมัติ, ถัดไป & ก่อนหน้า ใช้ได้เฉพาะกับซีรีส์ การขยายและยุบใช้ได้เฉพาะเมื่อมีแถบด้านข้าง"
+
+msgid "Enable Find Episodes"
+msgstr "เปิดใช้งานการค้นหาตอน"
+
+msgid "Only Shows With Series. Not Shows With Movies"
+msgstr "แสดงเฉพาะซีรีส์ ไม่แสดงภาพยนตร์"
+
+msgid "Using Ajax for Episodes"
+msgstr "ใช้ Ajax สำหรับตอน"
+
+msgid "Select the style to display the episode list"
+msgstr "เลือกสไตล์การแสดงรายการตอน"
+
+msgid "Episode pages show at most"
+msgstr "จำนวนตอนที่แสดงในหน้าสูงสุด"
+
+msgid "The number of episodes displayed on the page"
+msgstr "จำนวนตอนที่แสดงในหน้า"
+
+msgid "Watch Button"
+msgstr "ปุ่มดู"
+
+msgid "First Episode"
+msgstr "ตอนแรก"
+
+msgid "Last Episode"
+msgstr "ตอนสุดท้าย"
+
+msgid "Episode order"
+msgstr "ลำดับตอน"
+
+msgid "ASC"
+msgstr "เรียงจากน้อยไปมาก"
+
+msgid "DESC"
+msgstr "เรียงจากมากไปน้อย"
+
+msgid "Episode Options"
+msgstr "ตัวเลือกตอน"
+
+msgid "Default Episode Name"
+msgstr "ชื่อตอนเริ่มต้น"
+
+msgid "SEO Title (Page movie info)"
+msgstr "ชื่อ SEO (หน้าข้อมูลภาพยนตร์)"
+
+msgid "URL Watch Page"
+msgstr "URL หน้าชม"
+
+msgid "Accept"
+msgstr "ยอมรับ"
+
+msgid "Film Title"
+msgstr "ชื่อภาพยนตร์"
+
+msgid "Film Released"
+msgstr "วันที่ฉายภาพยนตร์"
+
+msgid "Film Duration"
+msgstr "ระยะเวลาภาพยนตร์"
+
+msgid "Film Quality"
+msgstr "คุณภาพภาพยนตร์"
+
+msgid "Film Episode"
+msgstr "ตอนภาพยนตร์"
+
+msgid "Home Url"
+msgstr "URL หน้าแรก"
+
+msgid ".html"
+msgstr ".html"
+
+msgid "Film Server"
+msgstr "เซิร์ฟเวอร์ภาพยนตร์"
+
+msgid "Auto config Rank Math"
+msgstr "ตั้งค่า Rank Math อัตโนมัติ"
+
+msgid "JWPlayer Settings"
+msgstr "การตั้งค่า JWPlayer"
+
+msgid "Title Adult"
+msgstr "ชื่อเนื้อหาผู้ใหญ่"
+
+msgid "Adult Content Info"
+msgstr "ข้อมูลเนื้อหาผู้ใหญ่"
+
+msgid "All Options"
+msgstr "ตัวเลือกทั้งหมด"
+
+msgid "Sort By"
+msgstr "จัดเรียงตาม"
+
+msgid "Background Button color"
+msgstr "สีพื้นหลังปุ่ม"
+
+msgid "Text Button color"
+msgstr "สีข้อความปุ่ม"
+
+msgid "Showing old episodes manager"
+msgstr "แสดงตัวจัดการตอนเก่า"
+
+msgid "No posts selected"
+msgstr "ไม่มีโพสต์ที่เลือก"
+
+msgid "Are you sure you want to delete the selected posts?"
+msgstr "คุณแน่ใจหรือว่าต้องการลบโพสต์ที่เลือก?"
+
+msgid "Cache Manager"
+msgstr "ตัวจัดการแคช"
+
+msgid "Total Cache"
+msgstr "แคชทั้งหมด"
+
+msgid "Cache Empty!"
+msgstr "ไม่มีแคช!"
+
+msgid "Delete All Cache"
+msgstr "ลบแคชทั้งหมด"
+
+msgid "Issues"
+msgstr "ปัญหา"
+
+msgid "Add one entry per line. These issues will appear in the form of a checkbox."
+msgstr "เพิ่มรายการทีละบรรทัด ปัญหาเหล่านี้จะแสดงในรูปแบบช่องทำเครื่องหมาย"
+
+msgid "Reporter"
+msgstr "ผู้รายงาน"
+
+msgid "Time"
+msgstr "เวลา"
+
+msgid "Remove"
+msgstr "ลบ"
+
+msgid "Broken Movie"
+msgstr "ภาพยนตร์เสีย"
+
+msgid "List Broken Movie"
+msgstr "รายการภาพยนตร์เสีย"
+
+msgid "Delete All"
+msgstr "ลบทั้งหมด"
+
+msgid "Mark As Resolved"
+msgstr "ทำเครื่องหมายว่าแก้ไขแล้ว"
+
+msgid "Auto Report"
+msgstr "รายงานอัตโนมัติ"
+
+msgid "If using Ajax, when clicking on the episode list, the page will not reload"
+msgstr "หากใช้ Ajax เมื่อคลิกที่รายการตอน หน้าจะไม่โหลดใหม่"
+
+msgid "For the last option it only applies to using the XXX theme"
+msgstr "ตัวเลือกสุดท้ายใช้ได้เฉพาะกับการใช้ธีม XXX"
+
+msgid "Like"
+msgstr "ถูกใจ"
+
+msgid "Reply"
+msgstr "ตอบกลับ"
+
+msgid "less than 1 second ago"
+msgstr "น้อยกว่า 1 วินาทีที่แล้ว"
+
+msgid "year ago"
+msgstr "ปีที่แล้ว"
+
+msgid "years ago"
+msgstr "หลายปีที่แล้ว"
+
+msgid "month ago"
+msgstr "เดือนที่แล้ว"
+
+msgid "months ago"
+msgstr "หลายเดือนที่แล้ว"
+
+msgid "day ago"
+msgstr "วันที่แล้ว"
+
+msgid "days ago"
+msgstr "หลายวันที่แล้ว"
+
+msgid "hour ago"
+msgstr "ชั่วโมงที่แล้ว"
+
+msgid "hours ago"
+msgstr "หลายชั่วโมงที่แล้ว"
+
+msgid "minute ago"
+msgstr "นาทีที่แล้ว"
+
+msgid "minutes ago"
+msgstr "หลายนาทีที่แล้ว"
+
+msgid "second ago"
+msgstr "วินาทีที่แล้ว"
+
+msgid "seconds ago"
+msgstr "หลายวินาทีที่แล้ว"
+
+msgid "Settings Comment"
+msgstr "การตั้งค่าความคิดเห็น"
+
+msgid "Enable Comment"
+msgstr "เปิดใช้งานความคิดเห็น"
+
+msgid "Select Comments"
+msgstr "เลือกความคิดเห็น"
+
+msgid "Comments"
+msgstr "ความคิดเห็น"
+
+msgid "Your Name"
+msgstr "ชื่อของคุณ"
+
+msgid "Enter Content"
+msgstr "ใส่เนื้อหา"
+
+msgid "List Comments"
+msgstr "รายการความคิดเห็น"
+
+msgid "See more"
+msgstr "ดูเพิ่มเติม"
+
+msgid "Disqus Comments"
+msgstr "ความคิดเห็นผ่าน Disqus"
+
+msgid "Facebook Comment"
+msgstr "ความคิดเห็นผ่าน Facebook"
+
+msgid "System Comment"
+msgstr "ความคิดเห็นในระบบ"
+
+msgid "Facebook settings"
+msgstr "การตั้งค่า Facebook"
+
+msgid "Facebook Apps ID"
+msgstr "รหัสแอป Facebook"
+
+msgid "If This Value Does Not Exist . Facebook Comments and Like and Share Buttons Will Not Work"
+msgstr "หากไม่มีค่านี้ ฟีเจอร์ความคิดเห็น ถูกใจ และแชร์ของ Facebook จะไม่ทำงาน"
+
+msgid "Number of comment to show"
+msgstr "จำนวนความคิดเห็นที่จะแสดง"
+
+msgid "The number of comments to show by default. The minimum value is 1."
+msgstr "จำนวนความคิดเห็นที่จะแสดงโดยค่าเริ่มต้น ค่าอย่างน้อยคือ 1"
+
+msgid "Order by"
+msgstr "เรียงลำดับโดย"
+
+msgid "Reverse time"
+msgstr "ย้อนเวลาขึ้น"
+
+msgid "Social"
+msgstr "สังคม"
+
+msgid ""
+"The order to use when displaying comments. Can be \"social\", \"reverse_time\", or \"time\". The different order types are explained "
+"in the FAQ"
+msgstr "การเรียงลำดับเมื่อแสดงความคิดเห็น สามารถเป็น \"social\", \"reverse_time\" หรือ \"time\" โดยประเภทต่างๆ อธิบายไว้ในคำถามที่พบบ่อย"
+
+msgid "Disqus Shortname"
+msgstr "ชื่อย่อ Disqus"
+
+msgid "a few seconds ago"
+msgstr "ไม่กี่วินาทีที่แล้ว"
+
+msgid "Only Works With Themes That Have Filters"
+msgstr "ใช้ได้เฉพาะธีมที่มีตัวกรอง"
+
+msgid "Dislikes"
+msgstr "ไม่ถูกใจ"
+
+msgid "Likes"
+msgstr "ถูกใจ"
+
+msgid "Percentage"
+msgstr "เปอร์เซ็นต์"
+
+msgid "You reaction this post."
+msgstr "ปฏิกิริยาของคุณกับโพสต์นี้"
+
+msgid "Your reaction has been recorded."
+msgstr "ปฏิกิริยาของคุณได้รับการบันทึกแล้ว"
+
+msgid "Prev EP"
+msgstr "ตอนก่อนหน้า"
+
+msgid "Next EP"
+msgstr "ตอนถัดไป"
+
+msgid "Light Off"
+msgstr "ปิดไฟ"
+
+msgid "Light On"
+msgstr "เปิดไฟ"
+
+msgid "Background Button Color"
+msgstr "สีพื้นหลังปุ่ม"
+
+msgid "Text Button Color"
+msgstr "สีข้อความปุ่ม"
+
+msgid "If you do not use a background color, you can enter the value: <b>transparent</b>"
+msgstr "หากคุณไม่ใช้สีพื้นหลัง คุณสามารถใส่ค่า: <b>transparent</b>"
+
+msgid "Button Border Radius"
+msgstr "รัศมีขอบปุ่ม"
+
+msgid "Use px value. If not rounded leave value 0"
+msgstr "ใช้ค่า px หากไม่ต้องการปุ่มมนให้ตั้งค่าเป็น 0"
+
+msgid "Color Settings"
+msgstr "การตั้งค่าสี"
+
+msgid "Backup Server Color"
+msgstr "สีเซิร์ฟเวอร์สำรอง"
+
+msgid "Background Backup Server"
+msgstr "สีพื้นหลังเซิร์ฟเวอร์สำรอง"
+
+msgid "Text Color Backup Server"
+msgstr "สีข้อความเซิร์ฟเวอร์สำรอง"
+
+msgid "Change Server"
+msgstr "เปลี่ยนเซิร์ฟเวอร์"
+
+msgid "Episode Hover Backgroud Color"
+msgstr "สีพื้นหลังเมื่อชี้เมาส์ที่ตอน"
+
+msgid "Episode Backgroud Color"
+msgstr "สีพื้นหลังตอน"
+
+msgid "Backgroud List Color"
+msgstr "สีพื้นหลังรายการ"
+
+msgid "Hide Change Server Button"
+msgstr "ซ่อนปุ่มเปลี่ยนเซิร์ฟเวอร์"
+
+msgid "Text Active Backup Server"
+msgstr "ข้อความเซิร์ฟเวอร์สำรองที่ใช้งานอยู่"
+
+msgid "List Episode Color"
+msgstr "สีรายการตอน"
+
+msgid "Color Comments"
+msgstr "สีความคิดเห็น"
+
+msgid "Backgroud Color Comments"
+msgstr "สีพื้นหลังความคิดเห็น"
+
+msgid "You can add your own emojis by typing in the box above with the format emoji 1|emoji 2..."
+msgstr "คุณสามารถเพิ่มอิโมจิของคุณเองโดยพิมพ์ในกล่องด้านบนในรูปแบบ emoji 1|emoji 2..."
+
+msgid "EP, Episode (Show alternative if the episode name is not set, or set to integer)"
+msgstr "EP, ตอน (แสดงทางเลือกหากไม่ได้ตั้งชื่อตอน หรือตั้งเป็นจำนวนเต็ม)"

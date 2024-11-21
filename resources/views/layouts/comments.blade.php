@@ -1,4 +1,4 @@
-<div class="block mt-3 shadow-md bg-[#1e2024] p-2">
+<div class="block mt-3 shadow-md bg-commentsbg p-2">
 	<div class="pl-1.5 m-0 text-[14px] text-[#adb5bd] font-medium uppercase relative inline-block border-l-2 border-l-[#bd941b]">@hnepis('Comments')</div>
 	<div class="-mx-[5px] p-0 list-none lg:-mx-[5px] mb-2">
 		@if(hnmg_value('select_comments') == 'disqus_comment')
@@ -56,6 +56,12 @@
 								<span @click="addEmoji('😈')" class="emoji w-[18px] h-[18px] m-1 cursor-pointer align-middle">😈</span>
 								<span @click="addEmoji('💥')" class="emoji w-[18px] h-[18px] m-1 cursor-pointer align-middle">💥</span>
 								<span @click="addEmoji('🍀')" class="emoji w-[18px] h-[18px] m-1 cursor-pointer align-middle">🍀</span>
+								@if(!empty(hnmg_value('emojis_comments')))
+									@php($emoijs = array_slice(explode('|', htmlspecialchars(hnmg_value('emojis_comments'))), 0, 20))
+									@foreach($emoijs as $emoij)
+										<span @click="addEmoji('{{ $emoij }}')" class="emoji w-[18px] h-[18px] m-1 cursor-pointer align-middle">{{ $emoij }}</span>
+									@endforeach
+								@endif
 							</div>
 							<input type="hidden" name="action" value="add_comment">
 							<input type="hidden" name="video_id" value="{{ $post->ID }}">

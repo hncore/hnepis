@@ -11,9 +11,6 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 
-msgid "Publish"
-msgstr ""
-
 msgid "Label"
 msgstr ""
 
@@ -152,9 +149,6 @@ msgstr ""
 msgid "Theater movie"
 msgstr ""
 
-msgid "Completed"
-msgstr ""
-
 msgid "Ongoing"
 msgstr ""
 
@@ -162,9 +156,6 @@ msgid "Trailer"
 msgstr ""
 
 msgid "Episode List"
-msgstr ""
-
-msgid "Choose A Server"
 msgstr ""
 
 msgid "Movies"
@@ -180,9 +171,6 @@ msgid "Theater Movie"
 msgstr ""
 
 msgid "Movies Coming"
-msgstr ""
-
-msgid "Choose Server Hide"
 msgstr ""
 
 msgid "Hide"
@@ -758,9 +746,422 @@ msgstr ""
 msgid "Edit Movie Details"
 msgstr ""
 
-msgid "Import Episode To"
+msgid "Choose Server Hide"
 msgstr ""
 
-msgid "Edit Post Info"
+msgid "Choose A Server"
 msgstr ""
 
+msgid "Publish"
+msgstr ""
+
+msgid "Completed"
+msgstr ""
+
+msgid "Copyright infringement!"
+msgstr ""
+
+msgid "Select Filter Field"
+msgstr ""
+
+msgid "Enable/Disable Movie Filtering"
+msgstr ""
+
+msgid "On/Off Button Player"
+msgstr ""
+
+msgid "Setting Button Player"
+msgstr ""
+
+msgid "Button Player Postion"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Center"
+msgstr ""
+
+msgid "Select Button Player"
+msgstr ""
+
+msgid "Views"
+msgstr ""
+
+msgid "Next & Prev"
+msgstr ""
+
+msgid "Auto Next"
+msgstr ""
+
+msgid "Expand"
+msgstr ""
+
+msgid "Light"
+msgstr ""
+
+msgid "Report"
+msgstr ""
+
+msgid "Like & DisLike"
+msgstr ""
+
+msgid "For Auto Next, Next & Previous Only Works with Series. Expand and Collapse only works when there is a Sidebar."
+msgstr ""
+
+msgid "Enable Find Episodes"
+msgstr ""
+
+msgid "Only Shows With Series. Not Shows With Movies"
+msgstr ""
+
+msgid "Using Ajax for Episodes"
+msgstr ""
+
+msgid "Select the style to display the episode list"
+msgstr ""
+
+msgid "Episode pages show at most"
+msgstr ""
+
+msgid "The number of episodes displayed on the page"
+msgstr ""
+
+msgid "Watch Button"
+msgstr ""
+
+msgid "First Episode"
+msgstr ""
+
+msgid "Last Episode"
+msgstr ""
+
+msgid "Episode order"
+msgstr ""
+
+msgid "ASC"
+msgstr ""
+
+msgid "DESC"
+msgstr ""
+
+msgid "Episode Options"
+msgstr ""
+
+msgid "Default Episode Name"
+msgstr ""
+
+msgid "SEO Title (Page movie info)"
+msgstr ""
+
+msgid "URL Watch Page"
+msgstr ""
+
+msgid "Accept"
+msgstr ""
+
+msgid "Film Title"
+msgstr ""
+
+msgid "Film Released"
+msgstr ""
+
+msgid "Film Duration"
+msgstr ""
+
+msgid "Film Quality"
+msgstr ""
+
+msgid "Film Episode"
+msgstr ""
+
+msgid "Home Url"
+msgstr ""
+
+msgid ".html"
+msgstr ""
+
+msgid "Film Server"
+msgstr ""
+
+msgid "Auto config Rank Math"
+msgstr ""
+
+msgid "JWPlayer Settings"
+msgstr ""
+
+msgid "Title Adult"
+msgstr ""
+
+msgid "Adult Content Info"
+msgstr ""
+
+msgid "All Options"
+msgstr ""
+
+msgid "Sort By"
+msgstr ""
+
+msgid "Background Button color"
+msgstr ""
+
+msgid "Text Button color"
+msgstr ""
+
+msgid "Showing old episodes manager"
+msgstr ""
+
+msgid "No posts selected"
+msgstr ""
+
+msgid "Are you sure you want to delete the selected posts?"
+msgstr ""
+
+msgid "Cache Manager"
+msgstr ""
+
+msgid "Total Cache"
+msgstr ""
+
+msgid "Cache Empty!"
+msgstr ""
+
+msgid "Delete All Cache"
+msgstr ""
+
+msgid "Issues"
+msgstr ""
+
+msgid "Add one entry per line. These issues will appear in the form of a checkbox."
+msgstr ""
+
+msgid "Reporter"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Broken Movie"
+msgstr ""
+
+msgid "List Broken Movie"
+msgstr ""
+
+msgid "Delete All"
+msgstr ""
+
+msgid "Mark As Resolved"
+msgstr ""
+
+msgid "Auto Report"
+msgstr ""
+
+msgid "If using Ajax, when clicking on the episode list, the page will not reload"
+msgstr ""
+
+msgid "For the last option it only applies to using the XXX theme"
+msgstr ""
+
+msgid "Like"
+msgstr ""
+
+msgid "Reply"
+msgstr ""
+
+msgid "less than 1 second ago"
+msgstr ""
+
+msgid "year ago"
+msgstr ""
+
+msgid "years ago"
+msgstr ""
+
+msgid "month ago"
+msgstr ""
+
+msgid "months ago"
+msgstr ""
+
+msgid "day ago"
+msgstr ""
+
+msgid "days ago"
+msgstr ""
+
+msgid "hour ago"
+msgstr ""
+
+msgid "hours ago"
+msgstr ""
+
+msgid "minute ago"
+msgstr ""
+
+msgid "minutes ago"
+msgstr ""
+
+msgid "second ago"
+msgstr ""
+
+msgid "seconds ago"
+msgstr ""
+
+msgid "Settings Comment"
+msgstr ""
+
+msgid "Enable Comment"
+msgstr ""
+
+msgid "Select Comments"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Your Name"
+msgstr ""
+
+msgid "Enter Content"
+msgstr ""
+
+msgid "List Comments"
+msgstr ""
+
+msgid "See more"
+msgstr ""
+
+msgid "Disqus Comments"
+msgstr ""
+
+msgid "Facebook Comment"
+msgstr ""
+
+msgid "System Comment"
+msgstr ""
+
+msgid "Facebook settings"
+msgstr ""
+
+msgid "Facebook Apps ID"
+msgstr ""
+
+msgid "If This Value Does Not Exist . Facebook Comments and Like and Share Buttons Will Not Work"
+msgstr ""
+
+msgid "Number of comment to show"
+msgstr ""
+
+msgid "The number of comments to show by default. The minimum value is 1."
+msgstr ""
+
+msgid "Order by"
+msgstr ""
+
+msgid "Reverse time"
+msgstr ""
+
+msgid "Social"
+msgstr ""
+
+msgid "The order to use when displaying comments. Can be \"social\", \"reverse_time\", or \"time\". The different order types are explained in the FAQ"
+msgstr ""
+
+msgid "Disqus Shortname"
+msgstr ""
+
+msgid "a few seconds ago"
+msgstr ""
+
+msgid "Only Works With Themes That Have Filters"
+msgstr ""
+
+msgid "Dislikes"
+msgstr ""
+
+msgid "Likes"
+msgstr ""
+
+msgid "Percentage"
+msgstr ""
+
+msgid "You reaction this post."
+msgstr ""
+
+msgid "Your reaction has been recorded."
+msgstr ""
+
+msgid "Prev EP"
+msgstr ""
+
+msgid "Next EP"
+msgstr ""
+
+msgid "Light Off"
+msgstr ""
+
+msgid "Light On"
+msgstr ""
+
+msgid "Background Button Color"
+msgstr ""
+
+msgid "Text Button Color"
+msgstr ""
+
+msgid "If you do not use a background color, you can enter the value: <b>transparent</b>"
+msgstr ""
+
+msgid "Button Border Radius"
+msgstr ""
+
+msgid "Use px value. If not rounded leave value 0"
+msgstr ""
+
+msgid "Color Settings"
+msgstr ""
+
+msgid "Backup Server Color"
+msgstr ""
+
+msgid "Background Backup Server"
+msgstr ""
+
+msgid "Text Color Backup Server"
+msgstr ""
+
+msgid "Change Server"
+msgstr ""
+
+msgid "Episode Hover Backgroud Color"
+msgstr ""
+
+msgid "Episode Backgroud Color"
+msgstr ""
+
+msgid "Backgroud List Color"
+msgstr ""
+
+msgid "Hide Change Server Button"
+msgstr ""
+
+msgid "Text Active Backup Server"
+msgstr ""
+
+msgid "List Episode Color"
+msgstr ""
+
+msgid "Color Comments"
+msgstr ""
+
+msgid "Backgroud Color Comments"
+msgstr ""
+
+msgid "You can add your own emojis by typing in the box above with the format emoji 1|emoji 2..."
+msgstr ""

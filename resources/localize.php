@@ -16,8 +16,8 @@ return array(
 	'resume_text_2'                                 	=> __('Playback from the beginning?', 'hnmgepis'),
 	'playback'                                      	=> __('Playback', 'hnmgepis'),
 	'continue_watching'                             	=> __('Continue watching', 'hnmgepis'),
-	'light_on'                                      	=> __('Light On', 'hnmgepis'),
-	'light_off'                                     	=> __('Light Off', 'hnmgepis'),
+	'Light On'                                      	=> __('Light On', 'hnmgepis'),
+	'Light Off'                                     	=> __('Light Off', 'hnmgepis'),
 	'expand'                                        	=> __('Expand', 'hnmgepis'),
 	'collapse'                                      	=> __('Collapse', 'hnmgepis'),
 	'show_only_once'                                	=> __('Don\'t show again', 'hnmgepis'),
@@ -90,6 +90,8 @@ return array(
 	'An error occurred while removing all items.'       => __('An error occurred while removing all items.', 'hnmgepis'),
 	'No posts selected'       							=> __('No posts selected', 'hnmgepis'),
 	'Are you sure you want to delete the selected posts?'  => __('Are you sure you want to delete the selected posts?', 'hnmgepis'),
-	'Auto Report'  => __('Auto Report', 'hnmgepis')
+	'Auto Report'  => __('Auto Report', 'hnmgepis'),
+	'You reaction this post.'  => __('You reaction this post.', 'hnmgepis'),
+	'Your reaction has been recorded.'  => __('Your reaction has been recorded.', 'hnmgepis')
 	
 );

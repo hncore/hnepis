@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-11-21 00:38+0700\n"
+"PO-Revision-Date: 2024-11-21 10:56+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -1082,3 +1082,87 @@ msgstr "vài giây trước"
 
 msgid "Only Works With Themes That Have Filters"
 msgstr "Chỉ Hoạt Động Với Những Themes Có Bộ Lọc"
+
+msgid "Dislikes"
+msgstr "Không Thích"
+
+msgid "Likes"
+msgstr "Thích"
+
+msgid "Percentage"
+msgstr "Phần Trăm"
+
+msgid "You reaction this post."
+msgstr "Bạn đã phản hồi bài viết này."
+
+msgid "Your reaction has been recorded."
+msgstr "Phản hồi của bạn đã được ghi lại."
+
+msgid "Prev EP"
+msgstr "Tập Trước"
+
+msgid "Next EP"
+msgstr "Tập Tiếp"
+
+msgid "Light Off"
+msgstr "Tắt Đèn"
+
+msgid "Light On"
+msgstr "Bật Đèn"
+
+msgid "Background Button Color"
+msgstr "Màu Nền Button"
+
+msgid "Text Button Color"
+msgstr "Màu Chữ Button"
+
+msgid "If you do not use a background color, you can enter the value: <b>transparent</b>"
+msgstr "Nếu không sử dụng màu nền có thể nhập giá trị: <b>transparent</b>"
+
+msgid "Button Border Radius"
+msgstr "Bo Tròn Góc Button"
+
+msgid "Use px value. If not rounded leave value 0"
+msgstr "Sử dụng giá trị px . nếu không bo tròn hãy để giá trị 0"
+
+msgid "Color Settings"
+msgstr "Cài Đặt Màu Sắc"
+
+msgid "Backup Server Color"
+msgstr "Màu Sắc Máy Chủ Dự Phòng"
+
+msgid "Background Backup Server"
+msgstr "Màu Nền Máy Chủ Dự Phòng"
+
+msgid "Text Color Backup Server"
+msgstr "Màu Chữ Máy Chủ Dự Phòng"
+
+msgid "Change Server"
+msgstr "Đổi Máy Chủ"
+
+msgid "Episode Hover Backgroud Color"
+msgstr "Màu Nền Khi Hover Vào Tập"
+
+msgid "Episode Backgroud Color"
+msgstr "Màu Nền Tập"
+
+msgid "Backgroud List Color"
+msgstr "Màu Nền Danh Sách Tập"
+
+msgid "Hide Change Server Button"
+msgstr "Ẩn Button Change Server"
+
+msgid "Text Active Backup Server"
+msgstr "Màu Chữ Server Dự Phòng Khi Active"
+
+msgid "List Episode Color"
+msgstr "Màu Sắc Danh Sách Tập"
+
+msgid "Color Comments"
+msgstr "Màu Sắc Bình Luận"
+
+msgid "Backgroud Color Comments"
+msgstr "Màu Nền Bình Luận"
+
+msgid "You can add your own emojis by typing in the box above with the format emoji 1|emoji 2..."
+msgstr "Bạn có thể thêm các emoji Của mình bằng các nhập vào ô trên với cấu trúc dạng emoji 1|emoji 2..."

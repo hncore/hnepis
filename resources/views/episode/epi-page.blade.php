@@ -10,14 +10,20 @@
 		@if($data)
 			<button @click="toggleImport1"
 				class="relative inline-flex items-center py-2 px-4 text-sm font-bold text-center text-white rounded-full hover:bg-blue-800 from-rose-400 via-fuchsia-500 to-indigo-500 bg-gradient-to-r mb-2 md:mb-0">
-				@hnsvg('plus-circle') @hnepis('Mass Import Episode')
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+						  <path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm.75-11.25a.75.75 0 0 0-1.5 0v2.5h-2.5a.75.75 0 0 0 0 1.5h2.5v2.5a.75.75 0 0 0 1.5 0v-2.5h2.5a.75.75 0 0 0 0-1.5h-2.5v-2.5Z" clip-rule="evenodd" />
+					</svg>
+					@hnepis('Mass Import Episode')
 				<div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900">
 					1
 				</div>
 			</button>
 			<button @click="toggleImport2"
 				class="relative inline-flex items-center py-2 px-4 text-sm font-bold text-center text-white rounded-full hover:bg-blue-800 from-cyan-500 via-sky-500 to-blue-500 bg-gradient-to-r mb-2 md:mb-0">
-				@hnsvg('squares-plus') @hnepis('Mass Import Episode')
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4">
+						<path d="M2 3.5A1.5 1.5 0 0 1 3.5 2h2A1.5 1.5 0 0 1 7 3.5v2A1.5 1.5 0 0 1 5.5 7h-2A1.5 1.5 0 0 1 2 5.5v-2ZM2 10.5A1.5 1.5 0 0 1 3.5 9h2A1.5 1.5 0 0 1 7 10.5v2A1.5 1.5 0 0 1 5.5 14h-2A1.5 1.5 0 0 1 2 12.5v-2ZM10.5 2A1.5 1.5 0 0 0 9 3.5v2A1.5 1.5 0 0 0 10.5 7h2A1.5 1.5 0 0 0 14 5.5v-2A1.5 1.5 0 0 0 12.5 2h-2ZM11.5 9a.75.75 0 0 1 .75.75v1h1a.75.75 0 0 1 0 1.5h-1v1a.75.75 0 0 1-1.5 0v-1h-1a.75.75 0 0 1 0-1.5h1v-1A.75.75 0 0 1 11.5 9Z" />
+					</svg>
+					@hnepis('Mass Import Episode')
 				<div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900">
 					2
 				</div>
@@ -26,13 +32,23 @@
 		<button @click="toggleAddServer"
 			class="m-1 p-1 rounded-full bg-gradient-to-r from-rose-600 via-purple-500 to-violet-700">
 			<span class="block text-white text-sx px-4 py-1 font-semibold rounded-full hover:bg-transparent hover:text-white transition">
-				@hnsvg('add-server') @hnepis('Add Episode Server')
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4 inline">
+					<path fill-rule="evenodd"
+						d="M15 4a3.001 3.001 0 0 1-2.25 2.905V8.5a.75.75 0 0 1-.22.53l-.5.5a.75.75 0 0 1-1.06 0l-.72-.72-4.677 4.678A1.75 1.75 0 0 1 4.336 14h-.672a.25.25 0 0 0-.177.073l-.707.707a.75.75 0 0 1-1.06 0l-.5-.5a.75.75 0 0 1 0-1.06l.707-.707A.25.25 0 0 0 2 12.336v-.672c0-.464.184-.909.513-1.237L7.189 5.75l-.72-.72a.75.75 0 0 1 0-1.06l.5-.5a.75.75 0 0 1 .531-.22h1.595A3.001 3.001 0 0 1 15 4ZM9.19 7.75l-.94-.94-4.677 4.678a.25.25 0 0 0-.073.176v.672c0 .058-.003.115-.009.173a1.74 1.74 0 0 1 .173-.009h.672a.25.25 0 0 0 .177-.073L9.189 7.75Z"
+						clip-rule="evenodd" />
+				</svg>
+				@hnepis('Add Episode Server')
 			</span>
 		</button>
 		<button @click="toggleEditDetails"
 			class="m-1 p-1 rounded-full bg-gradient-to-r from-sky-400 via-emerald-500 to-teal-600">
 			<span class="block text-white text-sx px-4 py-1 font-semibold rounded-full hover:bg-transparent hover:text-white transition">
-				@hnsvg('edit-post') @hnepis('Edit Movie Details')
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4 inline">
+					<path fill-rule="evenodd"
+						d="M15 4a3.001 3.001 0 0 1-2.25 2.905V8.5a.75.75 0 0 1-.22.53l-.5.5a.75.75 0 0 1-1.06 0l-.72-.72-4.677 4.678A1.75 1.75 0 0 1 4.336 14h-.672a.25.25 0 0 0-.177.073l-.707.707a.75.75 0 0 1-1.06 0l-.5-.5a.75.75 0 0 1 0-1.06l.707-.707A.25.25 0 0 0 2 12.336v-.672c0-.464.184-.909.513-1.237L7.189 5.75l-.72-.72a.75.75 0 0 1 0-1.06l.5-.5a.75.75 0 0 1 .531-.22h1.595A3.001 3.001 0 0 1 15 4ZM9.19 7.75l-.94-.94-4.677 4.678a.25.25 0 0 0-.073.176v.672c0 .058-.003.115-.009.173a1.74 1.74 0 0 1 .173-.009h.672a.25.25 0 0 0 .177-.073L9.189 7.75Z"
+						clip-rule="evenodd" />
+				</svg>
+				@hnepis('Edit Movie Details')
 			</span>
 		</button>
 	</div>

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-11-21 18:15+0700\n"
+"PO-Revision-Date: 2024-11-24 12:22+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: th\n"
@@ -1334,3 +1334,9 @@ msgstr "จัดการตอน"
 
 msgid "Please publish post before you can edit episodes"
 msgstr "กรุณาเผยแพร่บทความก่อนจึงจะสามารถแก้ไขตอนต่างๆ ได้"
+
+msgid "Displays the old episodes manager in the post editor"
+msgstr "แสดงตัวจัดการตอนเก่าในโปรแกรมแก้ไขโพสต์"
+
+msgid "You Must Provide Full Parameters: TITLE, SV, EP, Otherwise There Will Be An Error"
+msgstr "คุณต้องระบุพารามิเตอร์ทั้งหมด: TITLE, SV, EP มิฉะนั้นจะเกิดข้อผิดพลาด"

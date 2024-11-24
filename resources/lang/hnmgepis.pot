@@ -1322,3 +1322,9 @@ msgstr ""
 msgid "Please publish post before you can edit episodes"
 msgstr ""
 
+msgid "Displays the old episodes manager in the post editor"
+msgstr ""
+
+msgid "You Must Provide Full Parameters: TITLE, SV, EP, Otherwise There Will Be An Error"
+msgstr ""
+

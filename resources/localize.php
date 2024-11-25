@@ -29,6 +29,8 @@ return array(
 	'msg_success'                                   	=> __('Thank you for sending error messages. We will fix the problem in the shortest time possible.', 'hnmgepis'),
 	'loading_img'                                   	=> \Roots\asset('images/loading.gif')->uri(),
 	'report_btn'                                    	=> __('Report', 'hnmgepis'),
+	'message'                                    		=> __('Message', 'hnmgepis'),
+	'submit_report'                                    	=> __('Submit Report', 'hnmgepis'),
 	'name_or_email'                                 	=> __('Name or Email', 'hnmgepis'),
 	'close'                                         	=> __('Close', 'hnmgepis'),
 	'publish'                                       	=> __('Publish', 'hnmgepis'),

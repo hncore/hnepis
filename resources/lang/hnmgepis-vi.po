@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-11-24 12:22+0700\n"
+"PO-Revision-Date: 2024-11-26 04:14+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -141,9 +141,6 @@ msgstr "Quản lý HNMG"
 msgid "Single movie"
 msgstr "Phim lẻ"
 
-msgid "TV series"
-msgstr "Phim Bộ"
-
 msgid "TV show"
 msgstr "TV Shows"
 
@@ -161,6 +158,9 @@ msgstr "Danh Sách Tập"
 
 msgid "Movies"
 msgstr "Phim Lẻ"
+
+msgid "TV series"
+msgstr "Phim bộ"
 
 msgid "TV Series"
 msgstr "Phim Bộ"
@@ -394,7 +394,7 @@ msgid "view"
 msgstr "lượt xem"
 
 msgid "Movie"
-msgstr "Phim"
+msgstr "Phim Lẻ"
 
 msgid "List Movies"
 msgstr "Danh sách phim"
@@ -1325,3 +1325,9 @@ msgstr "Vui lòng xuất bản bài viết trước khi chỉnh sửa tập phim
 
 msgid "You Must Provide Full Parameters: TITLE, SV, EP, Otherwise There Will Be An Error"
 msgstr "Bạn phải cung cấp đầy đủ các tham số: TITLE, SV, EP, nếu không sẽ xảy ra lỗi"
+
+msgid "Submit Report"
+msgstr "Gửi Báo Lỗi"
+
+msgid "Message"
+msgstr "Nội Dung"

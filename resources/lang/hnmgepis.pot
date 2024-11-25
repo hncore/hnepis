@@ -1328,3 +1328,9 @@ msgstr ""
 msgid "You Must Provide Full Parameters: TITLE, SV, EP, Otherwise There Will Be An Error"
 msgstr ""
 
+msgid "Submit Report"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+

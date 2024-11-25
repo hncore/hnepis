@@ -1,0 +1,27 @@
+{
+    "name": "hncore/hnmgepis",
+    "type": "package",
+    "description": "Manager Episode",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HauN",
+            "email": "haunytb@gmail.com"
+        }
+    ],
+	"require": {
+        "fortawesome/font-awesome": "4.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HNMG\\": "src/"
+        }
+    },
+    "extra": {
+        "acorn": {
+            "providers": [
+                "HNMG\\Providers\\EpisServiceProvider"
+            ]
+        }
+    }
+}

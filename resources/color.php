@@ -15,4 +15,8 @@ return array(
 	'episbglist' 		=> hnmg_value('hnepis_bglist') ?? '#0b0f15',
 	'epistextsv' 		=> hnmg_value('hnepis_textsv') ?? '#ea9b06',
 	'commentsbg' 		=> hnmg_value('comments_bgcolor') ?? '#ea9b06',
+	'quicklybg' 		=> hnmg_value('quickly_bgcolor') ?? '#1a1a1a',
+	'quicklytext' 		=> hnmg_value('quickly_textcolor') ?? '#fff',
+	'quicklyborder' 	=> hnmg_value('quickly_bordercolor') ?? '#1a1a1a',
+	'sitebgcolor' 		=> hnmg_value('site_bgcolor') ?? '#1a1a1a',
 );

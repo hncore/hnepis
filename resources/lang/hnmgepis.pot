@@ -1334,3 +1334,77 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
+msgid "On Going"
+msgstr ""
+
+msgid "Theater Movies"
+msgstr ""
+
+msgid "Background Color"
+msgstr ""
+
+msgid "Body Background"
+msgstr ""
+
+msgid "Color Button Player"
+msgstr ""
+
+msgid "Find Episodes Quickly"
+msgstr ""
+
+msgid "Color Button Player"
+msgstr ""
+
+msgid "Backgroud Color Find Episodes"
+msgstr ""
+
+msgid "Text Color Find Episodes"
+msgstr ""
+
+msgid "Border Color Find Episodes"
+msgstr ""
+
+msgid "Episode Server Text Color"
+msgstr ""
+
+msgid "Hover Background Color"
+msgstr ""
+
+msgid "Backgroud Active Backup Server"
+msgstr ""
+
+msgid "Border Backup Server"
+msgstr ""
+
+msgid "Hover Backup Server"
+msgstr ""
+
+msgid "Adult Content"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Forward 10 Seconds"
+msgstr ""
+
+msgid "Rewind 10 Seconds"
+msgstr ""
+
+msgid "AdBlock Detected!"
+msgstr ""
+
+msgid "Please disable AdBlock to continue watching."
+msgstr ""
+
+msgid "Detect AdBlocker"
+msgstr ""
+
+msgid "Auto detects ad blockers and displays a notifications to users"
+msgstr ""
+
+msgid "Ex: \"Users please remove ad blocker!\""
+msgstr ""
+
+
+

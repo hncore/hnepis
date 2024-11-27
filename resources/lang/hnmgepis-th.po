@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-11-26 04:16+0700\n"
+"PO-Revision-Date: 2024-11-27 22:23+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: th\n"
@@ -1346,3 +1346,72 @@ msgstr "ส่งรายงาน"
 
 msgid "Message"
 msgstr "ข้อความ"
+
+msgid "On Going"
+msgstr "กำลังดำเนินการ"
+
+msgid "Theater Movies"
+msgstr "ภาพยนตร์ในโรง"
+
+msgid "Background Color"
+msgstr "สีพื้นหลัง"
+
+msgid "Body Background"
+msgstr "พื้นหลังเนื้อหา"
+
+msgid "Find Episodes Quickly"
+msgstr "ค้นหาตอนอย่างรวดเร็ว"
+
+msgid "Color Button Player"
+msgstr "สีปุ่มเครื่องเล่น"
+
+msgid "Backgroud Color Find Episodes"
+msgstr "สีพื้นหลังการค้นหาตอน"
+
+msgid "Text Color Find Episodes"
+msgstr "สีข้อความการค้นหาตอน"
+
+msgid "Border Color Find Episodes"
+msgstr "สีขอบการค้นหาตอน"
+
+msgid "Episode Server Text Color"
+msgstr "สีข้อความเซิร์ฟเวอร์ตอน"
+
+msgid "Hover Background Color"
+msgstr "สีพื้นหลังเมื่อชี้เมาส์"
+
+msgid "Backgroud Active Backup Server"
+msgstr "สีพื้นหลังเมื่อเปิดใช้งานเซิร์ฟเวอร์สำรอง"
+
+msgid "Border Backup Server"
+msgstr "ขอบเซิร์ฟเวอร์สำรอง"
+
+msgid "Hover Backup Server"
+msgstr "เอฟเฟกต์เซิร์ฟเวอร์สำรองเมื่อชี้เมาส์"
+
+msgid "Adult Content"
+msgstr "เนื้อหาสำหรับผู้ใหญ่"
+
+msgid "Close"
+msgstr "ปิด"
+
+msgid "Forward 10 Seconds"
+msgstr "เดินหน้า 10 วินาที"
+
+msgid "Rewind 10 Seconds"
+msgstr "ย้อนกลับ 10 วินาที"
+
+msgid "AdBlock Detected!"
+msgstr "ตรวจพบ AdBlock!"
+
+msgid "Please disable AdBlock to continue watching."
+msgstr "กรุณาปิด AdBlock เพื่อดำเนินการรับชมต่อ"
+
+msgid "Detect AdBlocker"
+msgstr "ตรวจจับ AdBlocker"
+
+msgid "Auto detects ad blockers and displays a notifications to users"
+msgstr "ตรวจจับ AdBlocker โดยอัตโนมัติและแสดงการแจ้งเตือนแก่ผู้ใช้งาน"
+
+msgid "Ex: \"Users please remove ad blocker!\""
+msgstr "ตัวอย่าง: \"กรุณาปิด AdBlock!\""

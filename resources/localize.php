@@ -89,6 +89,8 @@ return array(
 	'An error occurred while removing the item.'        => __('An error occurred while removing the item.', 'hnmgepis'),
 	'An error occurred while removing all items.'       => __('An error occurred while removing all items.', 'hnmgepis'),
 	'No posts selected'       							=> __('No posts selected', 'hnmgepis'),
+	'Forward 10 Seconds'       							=> __('Forward 10 Seconds', 'hnmgepis'),
+	'Rewind 10 Seconds'       							=> __('Rewind 10 Seconds', 'hnmgepis'),
 	'Are you sure you want to delete the selected posts?'  => __('Are you sure you want to delete the selected posts?', 'hnmgepis'),
 	'Auto Report'  => __('Auto Report', 'hnmgepis'),
 	'Empty!'  => __('Empty!', 'hnmgepis'),

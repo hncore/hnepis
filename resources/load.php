@@ -1,31 +1,8 @@
 <?php
-
-namespace HNCore;
-
-use HNMG\EP_Load\EP_Player;
-
-header('Content-type: application/json; charset=utf-8');
-header('X-Frame-Options: SAMEORIGIN');
-
-define('WP_LOAD_PATH', file_exists(__DIR__ . '/../../../../../../../wp/wp-load.php') ? __DIR__ . '/../../../../../../../wp/wp-load.php' : __DIR__ . '/../../../../../../../wp-load.php');
-require_once WP_LOAD_PATH;
-
-$isAjax = isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest';
-if ($isAjax) {
-    $episode_slug = isset($_POST['episode_slug']) ? sanitize_text_field(str_replace('-', '_', $_POST['episode_slug'])) : '';
-    $post_id = isset($_POST['post_id']) ? absint($_POST['post_id']) : 0;
-    $server = isset($_POST['server_id']) ? absint($_POST['server_id']) : 0;
-    $subsv_id = isset($_POST['subsv_id']) ? absint($_POST['subsv_id']) : 0;
-    $custom_var = isset($_POST['custom_var']) ? sanitize_text_field($_POST['custom_var']) : '';
-    if ($post_id) {
-        $player = new EP_Player();
-        $player->haunPlayer($post_id, $episode_slug, $server, $subsv_id, $custom_var);
-    } else {
-        echo json_encode([
-            'status' => false,
-            'code' => 403
-        ]);
-    }
-} else {
-    header("HTTP/1.1 404 Not Found");
-}
+/*   __________________________________________________
+    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
+    |          Telegram: https://t.me/haunytb         |
+    |    	   Url : https://haunytb.com    		  |
+    |_________________________________________________|
+*/
+ namespace HNCore; use HNMG\EP_Load\EP_Player; header("\x43\x6f\156\x74\x65\156\164\55\x74\x79\160\x65\x3a\x20\141\x70\x70\154\x69\143\x61\164\151\x6f\x6e\57\152\x73\x6f\156\73\x20\x63\150\x61\x72\163\x65\x74\75\x75\x74\146\55\70"); header("\x58\55\106\x72\141\x6d\x65\x2d\117\160\x74\151\x6f\156\x73\72\40\x53\x41\115\x45\117\x52\111\107\x49\x4e"); define("\x57\x50\x5f\114\117\x41\x44\x5f\120\101\124\110", file_exists(__DIR__ . "\x2f\56\x2e\57\x2e\x2e\57\56\x2e\57\56\x2e\57\x2e\x2e\x2f\x2e\x2e\x2f\56\56\x2f\167\160\57\x77\160\x2d\x6c\157\141\x64\56\x70\150\160") ? __DIR__ . "\x2f\x2e\56\57\56\56\x2f\56\56\x2f\56\x2e\x2f\56\56\x2f\x2e\x2e\x2f\x2e\56\x2f\x77\160\57\167\x70\55\x6c\x6f\x61\x64\56\160\150\160" : __DIR__ . "\x2f\56\56\x2f\56\56\x2f\x2e\56\x2f\x2e\56\x2f\x2e\x2e\x2f\56\x2e\57\x2e\56\57\x77\160\x2d\x6c\x6f\x61\x64\x2e\160\x68\160"); require_once WP_LOAD_PATH; $isAjax = isset($_SERVER["\110\124\124\120\137\130\x5f\x52\105\x51\125\105\123\124\105\104\137\x57\x49\124\x48"]) && strtolower($_SERVER["\x48\124\x54\x50\x5f\x58\137\122\x45\x51\125\105\x53\124\x45\x44\x5f\x57\x49\x54\x48"]) === "\170\155\154\150\x74\x74\x70\162\x65\x71\165\x65\x73\164"; if ($isAjax) { goto huiS2; } header("\x48\x54\124\x50\57\61\56\x31\40\64\60\x34\x20\116\x6f\164\x20\106\x6f\x75\x6e\144"); goto BEtDL; huiS2: $episode_slug = isset($_POST["\145\160\x69\x73\x6f\144\x65\x5f\163\154\x75\147"]) ? sanitize_text_field(str_replace("\x2d", "\x5f", $_POST["\145\x70\x69\x73\157\x64\x65\137\x73\154\x75\147"])) : ''; $post_id = isset($_POST["\160\x6f\163\x74\137\x69\144"]) ? absint($_POST["\160\x6f\x73\164\x5f\x69\144"]) : 0; $server = isset($_POST["\x73\x65\x72\x76\x65\x72\137\151\x64"]) ? absint($_POST["\x73\x65\162\166\x65\162\137\x69\x64"]) : 0; $subsv_id = isset($_POST["\x73\165\142\163\x76\137\x69\144"]) ? absint($_POST["\163\165\142\x73\166\137\151\x64"]) : 0; $custom_var = isset($_POST["\143\x75\x73\x74\157\x6d\137\x76\x61\162"]) ? sanitize_text_field($_POST["\x63\x75\x73\164\157\x6d\x5f\166\x61\x72"]) : ''; if ($post_id) { goto GWA4_; } echo json_encode(["\163\x74\x61\164\x75\163" => false, "\143\x6f\144\x65" => 403]); goto avpAT; GWA4_: $player = new EP_Player(); $player->haunPlayer($post_id, $episode_slug, $server, $subsv_id, $custom_var); avpAT: BEtDL:

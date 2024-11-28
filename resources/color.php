@@ -1,22 +1,8 @@
 <?php
-return array(
-	'btn_bgcolor' 		=> hnmg_value('hnbtn_player_bgcolor') ?? '#0b0f15',
-	'btn_textcolor' 	=> hnmg_value('hnbtn_player_textcolor') ?? '#fff',
-	'btn_hover' 		=> hnmg_value('hnbtn_player_hover') ?? '#0369A1',
-	'btn_radius' 		=> hnmg_value('hnbtn_player_radius') ? hnmg_value('hnbtn_player_radius').'px' : '4px',
-	'backupbg' 			=> hnmg_value('hnbtn_backupbg') ?? '#0b0f15',
-	'backuptext' 		=> hnmg_value('hnbtn_backuptext') ?? '#fff',
-	'backuphover' 		=> hnmg_value('hnbtn_backuphover') ?? '#e87d7f',
-	'backupbgactive' 	=> hnmg_value('hnbtn_backupbgactive') ?? '#f2a900',
-	'backuptextactive' 	=> hnmg_value('hnbtn_backuptextactive') ?? '#702526',
-	'bordersv' 			=> hnmg_value('hnbtn_bordersv') ? hnmg_value('hnbtn_bordersv').'px' : '0px',
-	'episbgcolor' 		=> hnmg_value('hnepis_bgcolor') ?? '#344156',
-	'episbghover' 		=> hnmg_value('hnepis_bghover') ?? '#000',
-	'episbglist' 		=> hnmg_value('hnepis_bglist') ?? '#0b0f15',
-	'epistextsv' 		=> hnmg_value('hnepis_textsv') ?? '#ea9b06',
-	'commentsbg' 		=> hnmg_value('comments_bgcolor') ?? '#ea9b06',
-	'quicklybg' 		=> hnmg_value('quickly_bgcolor') ?? '#1a1a1a',
-	'quicklytext' 		=> hnmg_value('quickly_textcolor') ?? '#fff',
-	'quicklyborder' 	=> hnmg_value('quickly_bordercolor') ?? '#1a1a1a',
-	'sitebgcolor' 		=> hnmg_value('site_bgcolor') ?? '#1a1a1a',
-);
+/*   __________________________________________________
+    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
+    |          Telegram: https://t.me/haunytb         |
+    |    	   Url : https://haunytb.com    		  |
+    |_________________________________________________|
+*/
+ return array("\x62\164\x6e\x5f\x62\x67\x63\157\x6c\157\162" => hnmg_value("\150\156\142\164\156\x5f\160\154\141\171\145\x72\x5f\142\147\143\157\x6c\157\x72") ?? "\43\x30\x62\60\146\x31\x35", "\x62\x74\x6e\137\164\145\x78\164\143\157\154\157\x72" => hnmg_value("\x68\x6e\x62\x74\x6e\137\160\x6c\141\171\x65\x72\137\x74\x65\x78\x74\143\x6f\x6c\x6f\x72") ?? "\x23\x66\x66\x66", "\142\164\156\137\x68\157\166\145\162" => hnmg_value("\150\x6e\x62\x74\x6e\x5f\x70\154\x61\x79\145\162\137\150\157\166\x65\x72") ?? "\x23\x30\x33\x36\x39\101\61", "\142\164\156\137\162\x61\144\151\165\163" => hnmg_value("\x68\x6e\142\x74\156\x5f\160\x6c\141\171\145\162\x5f\162\141\x64\x69\x75\x73") ? hnmg_value("\150\156\x62\164\156\x5f\x70\154\x61\171\x65\x72\137\162\141\x64\x69\x75\163") . "\x70\170" : "\x34\x70\170", "\x62\x61\x63\153\x75\x70\x62\147" => hnmg_value("\150\x6e\x62\164\x6e\137\142\141\x63\x6b\165\x70\142\147") ?? "\x23\60\142\x30\x66\x31\x35", "\142\x61\143\153\165\160\x74\145\x78\164" => hnmg_value("\x68\x6e\142\164\x6e\x5f\x62\x61\x63\x6b\165\x70\164\145\170\164") ?? "\x23\x66\146\x66", "\x62\x61\x63\153\165\160\150\x6f\166\x65\x72" => hnmg_value("\x68\156\x62\x74\156\x5f\x62\x61\143\x6b\x75\x70\150\157\x76\145\162") ?? "\43\x65\x38\67\x64\x37\x66", "\x62\141\143\x6b\x75\160\x62\x67\141\143\x74\151\166\145" => hnmg_value("\150\x6e\x62\x74\156\137\x62\141\x63\153\165\x70\x62\147\141\x63\164\x69\x76\145") ?? "\x23\x66\x32\x61\x39\60\x30", "\x62\x61\x63\153\x75\160\x74\145\x78\x74\x61\x63\x74\x69\166\145" => hnmg_value("\150\x6e\142\x74\156\137\x62\x61\143\153\x75\x70\x74\145\x78\164\x61\x63\164\x69\x76\145") ?? "\x23\x37\x30\x32\x35\x32\66", "\142\x6f\162\144\x65\162\x73\x76" => hnmg_value("\150\156\x62\x74\156\137\x62\157\162\x64\x65\162\x73\166") ? hnmg_value("\150\x6e\142\x74\x6e\x5f\142\157\x72\144\x65\x72\x73\x76") . "\160\x78" : "\60\x70\x78", "\145\160\x69\163\x62\147\x63\x6f\154\x6f\162" => hnmg_value("\x68\x6e\x65\x70\151\x73\137\142\147\x63\157\154\x6f\162") ?? "\43\x33\x34\64\x31\x35\66", "\x65\x70\151\163\x62\147\x68\x6f\166\145\x72" => hnmg_value("\150\x6e\x65\x70\x69\163\x5f\x62\x67\150\157\x76\x65\x72") ?? "\x23\x30\x30\60", "\145\x70\151\x73\x62\147\x6c\151\x73\x74" => hnmg_value("\x68\x6e\145\x70\151\163\x5f\142\147\154\151\163\x74") ?? "\43\60\x62\x30\146\61\65", "\145\160\151\x73\164\x65\170\x74\x73\x76" => hnmg_value("\x68\x6e\x65\160\151\x73\137\164\145\170\x74\x73\x76") ?? "\43\145\141\71\x62\x30\66", "\143\x6f\155\155\x65\x6e\164\163\x62\x67" => hnmg_value("\143\x6f\x6d\x6d\145\156\x74\163\x5f\142\147\143\157\154\157\162") ?? "\43\x65\x61\x39\142\x30\x36", "\161\165\x69\x63\x6b\x6c\171\142\x67" => hnmg_value("\x71\x75\151\143\153\x6c\x79\x5f\x62\x67\143\x6f\x6c\157\162") ?? "\43\x31\x61\61\141\61\141", "\x71\x75\151\143\153\x6c\171\164\x65\170\x74" => hnmg_value("\x71\165\151\143\x6b\154\171\x5f\164\x65\170\x74\143\x6f\154\x6f\162") ?? "\x23\146\146\146", "\x71\x75\x69\143\153\154\x79\x62\157\x72\x64\x65\x72" => hnmg_value("\x71\165\151\x63\153\154\171\137\142\x6f\x72\144\145\x72\143\x6f\x6c\157\x72") ?? "\x23\61\141\61\x61\x31\141", "\163\151\164\145\142\147\x63\x6f\x6c\x6f\x72" => hnmg_value("\x73\x69\x74\145\x5f\x62\x67\x63\x6f\154\157\x72") ?? "\x23\61\x61\x31\141\61\141");

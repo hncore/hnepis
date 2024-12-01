@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-11-30 15:09+0700\n"
+"PO-Revision-Date: 2024-12-01 14:53+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1410,3 +1410,27 @@ msgstr "总赞数"
 
 msgid "Total Dislikes"
 msgstr "完全不喜欢"
+
+msgid "Change Label Movies"
+msgstr "更改电影标签"
+
+msgid "Select Label TV Series : Completed"
+msgstr "选择电视剧标签：已完成"
+
+msgid "Select Label TV Series : Ongoing"
+msgstr "选择电视剧标签：正在进行"
+
+msgid "Select Label Movies"
+msgstr "选择电影标签"
+
+msgid "Full {quality}"
+msgstr "完整 {quality}"
+
+msgid "Episode {episode}/{total_episode}"
+msgstr "剧集 {episode}/{total_episode}"
+
+msgid "Completed ({episode}/{total_episode})"
+msgstr "已完成 ({episode}/{total_episode})"
+
+msgid "Adblock Notices"
+msgstr "广告拦截通知"

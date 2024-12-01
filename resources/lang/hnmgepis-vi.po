@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-11-30 15:08+0700\n"
+"PO-Revision-Date: 2024-12-01 14:54+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -1406,3 +1406,27 @@ msgstr "Tổng Lượt Thích"
 
 msgid "Total Dislikes"
 msgstr "Tổng Lượt Không Thích"
+
+msgid "Change Label Movies"
+msgstr "Thay Đổi Nhãn Phim"
+
+msgid "Select Label TV Series : Completed"
+msgstr "Chọn nhãn Phim Bộ: Hoàn thành"
+
+msgid "Select Label TV Series : Ongoing"
+msgstr "Chọn nhãn Phim Bộ: Đang chiếu"
+
+msgid "Select Label Movies"
+msgstr "Chọn nhãn Phim Lẻ"
+
+msgid "Full {quality}"
+msgstr "Full {quality}"
+
+msgid "Episode {episode}/{total_episode}"
+msgstr "Tập {episode}/{total_episode}"
+
+msgid "Completed ({episode}/{total_episode})"
+msgstr "Hoàn thành ({episode}/{total_episode})"
+
+msgid "Adblock Notices"
+msgstr "Thông báo Adblock"

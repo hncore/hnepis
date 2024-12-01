@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-11-30 15:10+0700\n"
+"PO-Revision-Date: 2024-12-01 14:54+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: th\n"
@@ -1421,3 +1421,27 @@ msgstr "ยอดไลค์รวม"
 
 msgid "Total Dislikes"
 msgstr "ไม่ชอบทั้งหมด"
+
+msgid "Change Label Movies"
+msgstr "เปลี่ยนป้ายภาพยนตร์"
+
+msgid "Select Label TV Series : Completed"
+msgstr "เลือกป้ายซีรีส์ทีวี: เสร็จสมบูรณ์"
+
+msgid "Select Label TV Series : Ongoing"
+msgstr "เลือกป้ายซีรีส์ทีวี: กำลังดำเนินการ"
+
+msgid "Select Label Movies"
+msgstr "เลือกป้ายภาพยนตร์"
+
+msgid "Full {quality}"
+msgstr "เต็มรูปแบบ {quality}"
+
+msgid "Episode {episode}/{total_episode}"
+msgstr "ตอนที่ {episode}/{total_episode}"
+
+msgid "Completed ({episode}/{total_episode})"
+msgstr "เสร็จสมบูรณ์ ({episode}/{total_episode})"
+
+msgid "Adblock Notices"
+msgstr "การแจ้งเตือนบล็อกโฆษณา"

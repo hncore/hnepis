@@ -1412,5 +1412,29 @@ msgstr ""
 msgid "Total Dislikes"
 msgstr ""
 
+msgid "Change Label Movies"
+msgstr ""
+
+msgid "Select Label TV Series : Completed"
+msgstr ""
+
+msgid "Select Label TV Series : Ongoing"
+msgstr ""
+
+msgid "Select Label Movies"
+msgstr ""
+
+msgid "Full {quality}"
+msgstr ""
+
+msgid "Episode {episode}/{total_episode}"
+msgstr ""
+
+msgid "Completed ({episode}/{total_episode})"
+msgstr ""
+
+msgid "Adblock Notices"
+msgstr ""
+
 
 

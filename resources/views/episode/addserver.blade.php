@@ -1,7 +1,7 @@
 <div class="my-5 border border-gray-300 rounded-lg shadow-full w-[98%]">
     <div class="px-4 py-2 text-xs font-semibold text-gray-700 rounded-t-lg uppercase bg-gray-100">
         @hnepis('New Server Name'):
-        <input type="text" name="hnserver_name" id="hnserver-name" value="Server #{{ $data ? array_key_last($data) + 2 : '0' }}" 
+        <input type="text" name="hnserver_name" id="hnserver-name" value="Server #{{ $data ? array_key_last($data) + 2 : '1' }}" 
             data-server="{{ $data ? array_key_last($data) + 1 : 0 }}" 
             data-post-id="{{ $postID }}" class="rounded-none border border-solid border-slate-200">
     </div>
@@ -52,12 +52,7 @@
            @hnepis('Add New Server')
         </div>
         <p>
-            <input type="radio" name="hnredirect_options" value="redirect" id="redirect" checked>
-            <label for="redirect" style="margin-right: 10px;">
-                {{ $data ? __('Redirect to Server', 'hnmgepis') . ' #' . (array_key_last($data) + 2) : __('Redirect to Edit', 'hnmgepis') }}
-            </label>
-
-            <input type="radio" name="hnredirect_options" value="reload" id="reload">
+            <input type="radio" name="hnredirect_options" value="reload" id="reload" checked>
             <label for="reload">@hnepis('Reload this page')</label>
         </p>
     </div>

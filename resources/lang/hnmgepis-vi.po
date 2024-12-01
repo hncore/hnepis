@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-11-27 22:23+0700\n"
+"PO-Revision-Date: 2024-11-30 15:08+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -1400,3 +1400,9 @@ msgstr "Tự động phát hiện trình chặn quảng cáo và hiển thị th
 
 msgid "Ex: \"Users please remove ad blocker!\""
 msgstr "Ví dụ: \"Người dùng vui lòng gỡ bỏ trình chặn quảng cáo!\""
+
+msgid "Total Likes"
+msgstr "Tổng Lượt Thích"
+
+msgid "Total Dislikes"
+msgstr "Tổng Lượt Không Thích"

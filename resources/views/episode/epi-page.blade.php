@@ -1,7 +1,7 @@
 @php
     $postID 	= isset($_GET['post_id']) ? absint($_GET['post_id']) : get_the_ID();
-	$metaPost 	= get_post_meta($postID, HNMG_META, true);
-	$loaddata 	= get_post_meta($postID, HNMG_EPS, true);
+	$metaPost 	= get_haunmovies($postID, HNMG_META, true);
+	$loaddata 	= get_haunmovies($postID, HNMG_EPS, true);
 	$data 		= json_decode(stripslashes($loaddata), true);
 @endphp
 

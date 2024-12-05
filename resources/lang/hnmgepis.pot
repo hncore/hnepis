@@ -1,15 +1,16 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-06 02:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.9.0\n"
+"X-Generator: Poedit 3.5\n"
 
 msgid "Label"
 msgstr ""
@@ -185,13 +186,17 @@ msgstr ""
 msgid "Auto config Yoast SEO"
 msgstr ""
 
-msgid "Display custom title on the info page (including episode, release, quality...)"
+msgid ""
+"Display custom title on the info page (including episode, release, "
+"quality...)"
 msgstr ""
 
 msgid "Remove the categories prefix"
 msgstr ""
 
-msgid "Category URLs in WordPress contain a prefix, usually <strong>/category/</strong>, this feature removes that prefix, for categories only."
+msgid ""
+"Category URLs in WordPress contain a prefix, usually <strong>/category/</"
+"strong>, this feature removes that prefix, for categories only."
 msgstr ""
 
 msgid "SEO title (Page movie info)"
@@ -221,7 +226,9 @@ msgstr ""
 msgid "Resume Playback"
 msgstr ""
 
-msgid "Use localStorage to remember where the user left off and resume playback at the same time offset when revisiting the page."
+msgid ""
+"Use localStorage to remember where the user left off and resume playback at "
+"the same time offset when revisiting the page."
 msgstr ""
 
 msgid "Auto reset cache"
@@ -275,13 +282,17 @@ msgstr ""
 msgid "Logo File"
 msgstr ""
 
-msgid "The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /assets/logo.png). We recommend using 24 bit PNG images with transparency"
+msgid ""
+"The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /"
+"assets/logo.png). We recommend using 24 bit PNG images with transparency"
 msgstr ""
 
 msgid "Logo link"
 msgstr ""
 
-msgid "The URL to visit when the watermark image is clicked. Clicking a logo will have no affect unless this is configured"
+msgid ""
+"The URL to visit when the watermark image is clicked. Clicking a logo will "
+"have no affect unless this is configured"
 msgstr ""
 
 msgid "Auto hide logo"
@@ -305,7 +316,10 @@ msgstr ""
 msgid "Control bar"
 msgstr ""
 
-msgid "This sets the corner in which to display the watermark. \"control-bar\" adds the logo as the leftmost icon in the right grouping of buttons in the control bar."
+msgid ""
+"This sets the corner in which to display the watermark. \"control-bar\" adds "
+"the logo as the leftmost icon in the right grouping of buttons in the "
+"control bar."
 msgstr ""
 
 msgid "Default poster image"
@@ -335,13 +349,17 @@ msgstr ""
 msgid "About text"
 msgstr ""
 
-msgid "Custom text to display in the right-click menu. Can only be set for the Premium and Ads Editions"
+msgid ""
+"Custom text to display in the right-click menu. Can only be set for the "
+"Premium and Ads Editions"
 msgstr ""
 
 msgid "About link"
 msgstr ""
 
-msgid "Custom URL to link to when clicking the right-click menu. Can only be set for the Premium and Ads Editions"
+msgid ""
+"Custom URL to link to when clicking the right-click menu. Can only be set "
+"for the Premium and Ads Editions"
 msgstr ""
 
 msgid "Show Ads Vast"
@@ -674,7 +692,9 @@ msgstr ""
 msgid "Loading player, please wait..."
 msgstr ""
 
-msgid "We are unable to find the video you are looking for. There could be several reasons for this, for example it got removed by the owner!"
+msgid ""
+"We are unable to find the video you are looking for. There could be several "
+"reasons for this, for example it got removed by the owner!"
 msgstr ""
 
 msgid "This video file cannot be played."
@@ -809,7 +829,9 @@ msgstr ""
 msgid "Like & DisLike"
 msgstr ""
 
-msgid "For Auto Next, Next & Previous Only Works with Series. Expand and Collapse only works when there is a Sidebar."
+msgid ""
+"For Auto Next, Next & Previous Only Works with Series. Expand and Collapse "
+"only works when there is a Sidebar."
 msgstr ""
 
 msgid "Enable Find Episodes"
@@ -935,7 +957,8 @@ msgstr ""
 msgid "Issues"
 msgstr ""
 
-msgid "Add one entry per line. These issues will appear in the form of a checkbox."
+msgid ""
+"Add one entry per line. These issues will appear in the form of a checkbox."
 msgstr ""
 
 msgid "Reporter"
@@ -962,7 +985,8 @@ msgstr ""
 msgid "Auto Report"
 msgstr ""
 
-msgid "If using Ajax, when clicking on the episode list, the page will not reload"
+msgid ""
+"If using Ajax, when clicking on the episode list, the page will not reload"
 msgstr ""
 
 msgid "For the last option it only applies to using the XXX theme"
@@ -1052,7 +1076,9 @@ msgstr ""
 msgid "Facebook Apps ID"
 msgstr ""
 
-msgid "If This Value Does Not Exist . Facebook Comments and Like and Share Buttons Will Not Work"
+msgid ""
+"If This Value Does Not Exist . Facebook Comments and Like and Share Buttons "
+"Will Not Work"
 msgstr ""
 
 msgid "Number of comment to show"
@@ -1070,7 +1096,10 @@ msgstr ""
 msgid "Social"
 msgstr ""
 
-msgid "The order to use when displaying comments. Can be \"social\", \"reverse_time\", or \"time\". The different order types are explained in the FAQ"
+msgid ""
+"The order to use when displaying comments. Can be \"social\", "
+"\"reverse_time\", or \"time\". The different order types are explained in "
+"the FAQ"
 msgstr ""
 
 msgid "Disqus Shortname"
@@ -1115,7 +1144,9 @@ msgstr ""
 msgid "Text Button Color"
 msgstr ""
 
-msgid "If you do not use a background color, you can enter the value: <b>transparent</b>"
+msgid ""
+"If you do not use a background color, you can enter the value: "
+"<b>transparent</b>"
 msgstr ""
 
 msgid "Button Border Radius"
@@ -1163,7 +1194,9 @@ msgstr ""
 msgid "Backgroud Color Comments"
 msgstr ""
 
-msgid "You can add your own emojis by typing in the box above with the format emoji 1|emoji 2..."
+msgid ""
+"You can add your own emojis by typing in the box above with the format emoji "
+"1|emoji 2..."
 msgstr ""
 
 msgid "Import Episode To"
@@ -1265,7 +1298,9 @@ msgstr ""
 msgid "Your message"
 msgstr ""
 
-msgid "Thank you for sending error messages. We will fix the problem in the shortest time possible."
+msgid ""
+"Thank you for sending error messages. We will fix the problem in the "
+"shortest time possible."
 msgstr ""
 
 msgid "Name or Email"
@@ -1301,7 +1336,9 @@ msgstr ""
 msgid "An error occurred while removing all items."
 msgstr ""
 
-msgid "Invalid structure. Each line must have exactly 3 parts separated by the \"|\" character."
+msgid ""
+"Invalid structure. Each line must have exactly 3 parts separated by the \"|"
+"\" character."
 msgstr ""
 
 msgid "There are no new episodes yet or this is the last episode!"
@@ -1325,7 +1362,9 @@ msgstr ""
 msgid "Displays the old episodes manager in the post editor"
 msgstr ""
 
-msgid "You Must Provide Full Parameters: TITLE, SV, EP, Otherwise There Will Be An Error"
+msgid ""
+"You Must Provide Full Parameters: TITLE, SV, EP, Otherwise There Will Be An "
+"Error"
 msgstr ""
 
 msgid "Submit Report"
@@ -1350,9 +1389,6 @@ msgid "Color Button Player"
 msgstr ""
 
 msgid "Find Episodes Quickly"
-msgstr ""
-
-msgid "Color Button Player"
 msgstr ""
 
 msgid "Backgroud Color Find Episodes"
@@ -1435,6 +1471,3 @@ msgstr ""
 
 msgid "Adblock Notices"
 msgstr ""
-
-
-

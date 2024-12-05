@@ -6,7 +6,7 @@
 @if($is_copyright)
 	<div id="is_copyright" class="aspect-w-16 aspect-h-9">
 		<div class="flex items-center justify-center bg-black absolute inset-0 font-bold text-xl text-red-500">
-			<i class="fa fa-exclamation-circle mr-2"></i> @hnmgepis('Copyright infringement!')
+			<i class="fa fa-exclamation-circle mr-2"></i> @hnepis('Copyright infringement!')
 		</div>
 	</div>
 @else
@@ -17,7 +17,11 @@
 				<div id="ajax-player"></div>
 			</div>
 			@if($check == 'is_trailer')
-				<span class="trailer-button">@hnmgepis('Trailer')</span>
+				<div class="aspect-w-16 aspect-h-9">
+					<div class="flex items-center justify-center bg-black absolute inset-0 font-bold text-xl text-red-500">
+						<i class="fa fa-exclamation-circle mr-2"></i> @hnepis('Trailer')
+					</div>
+				</div>
 			@endif
 		@else
 			{!! get_the_password_form() !!}

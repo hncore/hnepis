@@ -5,4 +5,4 @@
     |    	   Url : https://haunytb.com    		  |
     |_________________________________________________|
 */
- namespace HNMG\EP_Load; use HNMG\EP_Load\EP_Getlink; class EP_GetHost extends EP_Getlink { public function get_link($link) { $json[] = array("\146\151\x6c\145" => $link, "\164\x79\160\145" => "\x68\154\163"); return json_encode($json); } }
+ namespace HNMG\Contracts; interface Directives { public function directives() : array; }

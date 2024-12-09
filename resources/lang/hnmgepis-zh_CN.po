@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-12-01 14:53+0700\n"
+"PO-Revision-Date: 2024-12-09 20:56+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1434,3 +1434,15 @@ msgstr "已完成 ({episode}/{total_episode})"
 
 msgid "Adblock Notices"
 msgstr "广告拦截通知"
+
+msgid "Find episodes"
+msgstr "查找剧集"
+
+msgid "Color 5 Latest Episode"
+msgstr "最近5集的颜色"
+
+msgid "Text Color Button"
+msgstr "按钮文字颜色"
+
+msgid "Backgroud Color Button"
+msgstr "按钮背景颜色"

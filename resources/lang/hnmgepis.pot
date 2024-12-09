@@ -1471,3 +1471,16 @@ msgstr ""
 
 msgid "Adblock Notices"
 msgstr ""
+
+msgid "Find episodes"
+msgstr ""
+
+msgid "Color 5 Latest Episode"
+msgstr ""
+
+msgid "Text Color Button"
+msgstr ""
+
+msgid "Backgroud Color Button"
+msgstr ""
+

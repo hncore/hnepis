@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-12-01 14:54+0700\n"
+"PO-Revision-Date: 2024-12-09 20:55+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: th\n"
@@ -1445,3 +1445,15 @@ msgstr "เสร็จสมบูรณ์ ({episode}/{total_episode})"
 
 msgid "Adblock Notices"
 msgstr "การแจ้งเตือนบล็อกโฆษณา"
+
+msgid "Find episodes"
+msgstr "ค้นหาตอน"
+
+msgid "Color 5 Latest Episode"
+msgstr "สีสำหรับ 5 ตอนล่าสุด"
+
+msgid "Text Color Button"
+msgstr "สีข้อความปุ่ม"
+
+msgid "Backgroud Color Button"
+msgstr "สีพื้นหลังปุ่ม"

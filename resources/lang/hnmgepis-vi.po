@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-12-01 14:54+0700\n"
+"PO-Revision-Date: 2024-12-09 20:58+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -1430,3 +1430,15 @@ msgstr "Hoàn thành ({episode}/{total_episode})"
 
 msgid "Adblock Notices"
 msgstr "Thông báo Adblock"
+
+msgid "Find episodes"
+msgstr "Tìm Tập Nhanh"
+
+msgid "Color 5 Latest Episode"
+msgstr "Màu cho 5 tập mới nhất"
+
+msgid "Text Color Button"
+msgstr "Màu chữ của nút"
+
+msgid "Backgroud Color Button"
+msgstr "Màu nền của nút"

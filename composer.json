@@ -9,7 +9,7 @@
             "email": "haunytb@gmail.com"
         }
     ],
-	"require": {
+    "require": {
         "fortawesome/font-awesome": "4.7.0"
     },
     "autoload": {
@@ -23,5 +23,13 @@
                 "HNMG\\Providers\\EpisServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "wp acorn vendor:publish --tag=hnmg-assets --force"
+        ],
+        "post-install-cmd": [
+            "wp acorn vendor:publish --tag=hnmg-assets --force"
+        ]
     }
 }

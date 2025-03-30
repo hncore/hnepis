@@ -1,8 +1,54 @@
-<?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\EP_Core; class EP_SEO { public function register() { add_action("\x61\144\x6d\x69\156\137\151\156\151\x74", [$this, "\x68\141\165\156\x5f\141\x75\x74\157\x5f\x63\157\x6e\x66\x69\x67\137\171\x6f\141\163\x74\137\163\145\157"]); add_action("\141\x64\x6d\151\156\137\x69\x6e\151\164", [$this, "\x68\141\165\x6e\x5f\x61\165\164\x6f\x5f\143\157\156\x66\151\147\137\x72\141\x6e\x6b\x5f\x6d\x61\164\150"]); } public function haun_auto_config_yoast_seo() { goto ApX3r; wOElh: wc3Ms: goto dICNm; Yv80t: HYeGJ: goto lFcON; k1dAa: $custom_taxonomies = $this->get_custom_taxonomies(); goto wqGO0; lFcON: foreach ($options as $key => $value) { WPSEO_Options::save_option("\x77\x70\163\145\157\137\164\151\164\154\145\x73", $key, $value); XewiV: } goto GdmrP; GdmrP: B9DH7: goto NIF3X; dICNm: $options = ["\164\x69\164\x6c\x65\x2d\160\x6f\163\x74" => "\45\45\164\151\x74\154\145\45\x25", "\x74\x69\164\x6c\145\x2d\x70\141\147\x65" => "\x25\45\164\x69\164\154\x65\45\45", "\164\x69\x74\x6c\145\55\x61\x74\x74\141\143\150\155\145\x6e\164" => "\x25\45\164\x69\164\154\145\x25\45", "\164\151\164\x6c\145\55\x68\157\x6d\145\x2d\x77\x70\x73\x65\x6f" => "\45\45\163\151\164\x65\156\x61\155\145\45\45", "\160\x6f\x73\164\x5f\x74\x79\x70\145\x73\x2d\x70\157\163\164\x2d\x6d\141\151\x6e\x74\141\x78" => "\x63\141\164\x65\x67\x6f\x72\171", "\x74\151\164\154\x65\55\x74\x61\170\55\x70\157\163\164\137\x74\x61\x67" => "\x25\45\x74\145\162\155\x5f\164\x69\164\154\145\x25\x25\x20\x25\x25\x73\x65\160\45\45\40\45\x25\x73\151\x74\145\x6e\141\x6d\x65\45\x25", "\164\151\x74\154\x65\55\x74\x61\170\x2d\x63\141\164\x65\147\x6f\x72\171" => "\x25\45\x74\145\162\x6d\x5f\164\x69\x74\x6c\x65\x25\x25\x20\x25\45\x73\145\x70\x25\x25\40\45\45\163\151\x74\145\156\141\x6d\x65\x25\45", "\142\x72\x65\x61\144\143\162\x75\x6d\x62\163\x2d\x65\x6e\141\x62\x6c\x65" => true, "\x73\164\162\151\160\143\x61\164\145\147\x6f\162\x79\x62\x61\163\x65" => true]; goto k1dAa; wqGO0: foreach ($custom_taxonomies as $taxonomy) { goto bOvwQ; Scgcs: VnmWk: goto USLtu; AFQAs: $options[$taxonomy_key] = "\x25\x25\164\145\x72\x6d\137\x74\x69\164\x6c\145\45\x25\40\45\45\x73\145\x70\45\x25\x20\x25\x25\x73\x69\164\145\156\x61\155\145\45\45"; goto Scgcs; bOvwQ: $taxonomy_key = "\164\x69\x74\154\145\x2d\164\141\170\55" . $taxonomy; goto AFQAs; USLtu: } goto Yv80t; DxWfZ: return; goto wOElh; ApX3r: if (!(!hnmg_value("\x61\x75\164\x6f\x5f\x63\157\156\146\x69\x67\x5f\171\x6f\x61\163\164\137\x73\145\x6f") || !class_exists("\127\120\123\105\x4f\x5f\117\x70\164\151\157\156\x73"))) { goto wc3Ms; } goto DxWfZ; NIF3X: } public function haun_auto_config_rank_math() { goto XDZnC; XxXeG: Tv3yn: goto FoO7f; efk87: return; goto DsPgP; VSt22: $options = ["\x74\x69\x74\x6c\x65\163\x2e\x68\157\x6d\145\x70\x61\x67\145\137\x74\x69\164\x6c\145" => "\x25\x25\x73\151\164\x65\156\x61\155\x65\45\x25", "\164\x69\164\x6c\x65\x73\56\x70\157\x73\x74\137\164\151\x74\x6c\145" => "\45\x25\164\x69\x74\x6c\x65\x25\x25", "\164\151\x74\154\x65\163\x2e\x70\x61\x67\145\137\x74\151\x74\x6c\x65" => "\45\45\x74\151\164\x6c\145\x25\x25", "\x74\x69\164\154\145\163\x2e\x61\164\x74\x61\x63\150\155\145\156\x74\137\164\151\164\154\145" => "\45\45\x74\151\164\x6c\145\45\45", "\164\151\x74\x6c\145\163\x2e\143\x61\164\x65\147\157\162\x79\137\164\151\x74\x6c\145" => "\45\45\x74\145\162\x6d\x5f\164\x69\x74\x6c\x65\x25\x25\x20\x25\45\163\x65\x70\45\45\x20\x25\45\163\x69\164\145\156\141\155\145\x25\45", "\x74\151\x74\x6c\x65\163\x2e\164\141\147\x5f\164\151\x74\154\145" => "\x25\x25\x74\x65\162\x6d\137\x74\x69\164\154\145\45\45\40\x25\45\x73\145\x70\45\45\40\45\45\x73\x69\x74\145\156\x61\x6d\x65\x25\x25", "\x74\151\164\154\x65\163\56\x61\165\164\x68\157\x72\x5f\164\151\164\x6c\x65" => "\45\x25\x6e\x61\155\145\45\45\54\40\x41\x75\x74\x68\x6f\162\x20\x61\x74\40\45\45\x73\x69\x74\145\x6e\141\x6d\145\x25\x25", "\164\x69\164\154\145\x73\x2e\x62\x72\x65\141\x64\x63\x72\165\155\x62\x73\137\x65\156\x61\142\x6c\145" => true, "\x74\x69\164\154\x65\163\x2e\163\x74\162\151\160\137\143\x61\x74\x65\x67\x6f\162\171\x5f\x62\141\x73\x65" => true, "\164\151\x74\x6c\x65\x73\x2e\156\x6f\151\156\x64\145\170\x5f\x61\x75\164\150\157\162\x5f\141\x72\143\150\x69\166\145\x73" => false, "\x74\x69\x74\154\x65\x73\56\x6e\x6f\x69\156\144\145\x78\137\x63\x61\x74\x65\x67\157\x72\x79\137\x61\x72\143\150\151\x76\x65\x73" => false, "\x74\151\x74\154\x65\163\x2e\x6e\157\151\156\144\145\170\x5f\164\x61\x67\137\141\x72\x63\x68\151\x76\145\x73" => false]; goto AMExr; DsPgP: ymVPV: goto VSt22; XDZnC: if (!(!hnmg_value("\141\165\164\x6f\137\143\x6f\x6e\x66\x69\x67\x5f\162\141\x6e\153\137\x6d\x61\164\150") || !class_exists("\x52\141\x6e\153\115\141\164\x68\134\x48\145\x6c\160\x65\x72"))) { goto ymVPV; } goto efk87; C0BSd: gDdgY: goto uX59R; GhX4A: foreach ($custom_taxonomies as $taxonomy) { goto HC1L3; Mplnu: WsXe3: goto HogQT; HC1L3: $taxonomy_key = "\164\x69\x74\x6c\145\163\56" . $taxonomy . "\137\x74\151\164\x6c\145"; goto sxNTW; qUr3R: $options["\x74\151\x74\154\145\x73\56\156\x6f\x69\156\x64\145\170\x5f\x74\x61\170\55" . $taxonomy] = false; goto Mplnu; sxNTW: $options[$taxonomy_key] = "\x25\x25\x74\x65\162\x6d\x5f\164\x69\x74\x6c\x65\x25\45\40\x25\45\163\145\160\x25\x25\x20\x25\45\163\151\164\145\156\x61\x6d\145\x25\45"; goto qUr3R; HogQT: } goto C0BSd; FoO7f: flush_rewrite_rules(); goto xOXVq; uX59R: foreach ($options as $key => $value) { RankMath\Helper::update_settings("\147\145\x6e\x65\162\x61\154", [$key => $value]); RQmes: } goto XxXeG; AMExr: $custom_taxonomies = $this->get_custom_taxonomies(); goto GhX4A; xOXVq: } private function get_custom_taxonomies() { $custom_taxonomies = ["\x61\x63\x74\157\162", "\144\151\162\x65\143\164\157\x72", "\162\145\154\145\x61\163\x65", "\x63\x6f\x75\156\164\x72\171", "\x6e\x65\x77\x73\x5f\x63\x61\164", "\x6e\x65\167\x73\137\x74\141\147", "\x76\151\x64\x65\x6f\x5f\143\x61\x74", "\166\151\144\145\x6f\137\164\x61\147"]; return $custom_taxonomies; } }
+<?php //002e0
+// Coder By HNCore
+if(extension_loaded('ionCube Loader')){die('The file '.__FILE__." is corrupted.\n");}echo("\nScript error: the ".(($cli=(php_sapi_name()=='cli')) ?'ionCube':'<a href="https://www.ioncube.com">ionCube</a>')." Loader for PHP needs to be installed.\n\nThe ionCube Loader is the industry standard PHP extension for running protected PHP code,\nand can usually be added easily to a PHP installation.\n\nFor Loaders please visit".($cli?":\n\nhttps://get-loader.ioncube.com\n\nFor":' <a href="https://get-loader.ioncube.com">get-loader.ioncube.com</a> and for')." an instructional video please see".($cli?":\n\nhttp://ioncu.be/LV\n\n":' <a href="http://ioncu.be/LV">http://ioncu.be/LV</a> ')."\n\n");exit(199);
+?>
+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
+I5YMA4+AT7fWzjIu8xouEVqURylNvLE/6kjai0==

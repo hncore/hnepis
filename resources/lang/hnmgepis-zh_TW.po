@@ -136,8 +136,8 @@ msgstr "需要先<b>更新劇集</b>再<b>備份連結</b>"
 msgid "Choose Episode"
 msgstr "選擇劇集"
 
-msgid "HNMG Manager"
-msgstr "HNMG 管理器"
+msgid "Episode Manager"
+msgstr "劇集經理"
 
 msgid "Single movie"
 msgstr "單部電影"
@@ -1309,8 +1309,8 @@ msgstr "無效結構。每行必須包含正好3個部分，並用 \"|\" 字符�
 msgid "There are no new episodes yet or this is the last episode!"
 msgstr "還沒有新集數或者這是最後一集！"
 
-msgid "HNMG Cache"
-msgstr "HNMG緩存"
+msgid "Cache Movies"
+msgstr "快取電影"
 
 msgid "Empty!"
 msgstr "空的！"
@@ -1446,3 +1446,6 @@ msgstr "按鈕文字顏色"
 
 msgid "Backgroud Color Button"
 msgstr "按鈕背景顏色"
+
+msgid "License Manager"
+msgstr "許可證管理器"

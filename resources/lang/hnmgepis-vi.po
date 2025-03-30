@@ -135,8 +135,8 @@ msgstr "Cần <b>Cập nhật Tập phim</b> trước khi <b>Liên kết Sao lư
 msgid "Choose Episode"
 msgstr "Chọn tập phim"
 
-msgid "HNMG Manager"
-msgstr "Quản lý HNMG"
+msgid "Episode Manager"
+msgstr "Quản Lý Tập Phim"
 
 msgid "Single movie"
 msgstr "Phim lẻ"
@@ -1308,8 +1308,8 @@ msgstr "Cấu trúc không hợp lệ. Mỗi dòng phải có đúng 3 phần đ
 msgid "There are no new episodes yet or this is the last episode!"
 msgstr "Hiện chưa có tập mới hoặc đây là tập cuối!"
 
-msgid "HNMG Cache"
-msgstr "HNMG Cache"
+msgid "Cache Movies"
+msgstr "Cache Phim"
 
 msgid "Empty!"
 msgstr "Trống!"
@@ -1442,3 +1442,315 @@ msgstr "Màu chữ của nút"
 
 msgid "Backgroud Color Button"
 msgstr "Màu nền của nút"
+
+msgid "License Manager"
+msgstr ""
+
+msgid "Theme License"
+msgstr ""
+
+msgid "Enter your theme license key."
+msgstr ""
+
+msgid "License Key"
+msgstr ""
+
+msgid "License Action"
+msgstr ""
+
+msgid "Deactivate License"
+msgstr ""
+
+msgid "Activate License"
+msgstr ""
+
+msgid "License status is unknown."
+msgstr ""
+
+msgid "Renew?"
+msgstr ""
+
+msgid "unlimited"
+msgstr ""
+
+msgid "License key is active."
+msgstr ""
+
+msgid "Expires %s."
+msgstr ""
+
+msgid "Lifetime License."
+msgstr ""
+
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+msgid "License key expired %s."
+msgstr ""
+
+msgid "License key has expired."
+msgstr ""
+
+msgid "License keys do not match."
+msgstr ""
+
+msgid "License is inactive."
+msgstr ""
+
+msgid "License key is disabled."
+msgstr ""
+
+msgid "Site is inactive."
+msgstr ""
+
+msgid "License status is unknown."
+msgstr ""
+
+msgid "Updating this theme will lose any customizations you have made. \"Cancel\" to stop, \"OK\" to update."
+msgstr ""
+
+msgid "<strong>%1\$s %2\$s</strong> is available. <a href=\"%3\$s\" class=\"thickbox\" title=\"%4s\">Check out what's new</a> or <a href=\"%5\$s\"%6\$s>update now</a>."
+msgstr ""
+
+msgid "License Details"
+msgstr ""
+
+msgid "Status:"
+msgstr ""
+
+msgid "License Key:"
+msgstr ""
+
+msgid "Email:"
+msgstr ""
+
+msgid "Expiration Date:"
+msgstr ""
+
+msgid "Lifetime License"
+msgstr ""
+
+msgid "License Limit:"
+msgstr ""
+
+msgid "You have %s/%s sites activated"
+msgstr ""
+
+msgid "Update License"
+msgstr ""
+
+msgid "Deactivate License"
+msgstr ""
+
+msgid "If you wish to use this license on a different server, deactivate it first."
+msgstr ""
+
+msgid "License Code"
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Import Page/Menu/Widgets Template"
+msgstr ""
+
+msgid "Header"
+msgstr ""
+
+msgid "Footer"
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid "Import/Export Templates"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Settings imported. This is just an example. No data imported."
+msgstr ""
+
+msgid "Custom description for theme options"
+msgstr ""
+
+msgid "Pages"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "Widgets"
+msgstr ""
+
+msgid "Classic Editor"
+msgstr ""
+
+msgid "Classic Widgets"
+msgstr ""
+
+msgid "Additional CSS"
+msgstr ""
+
+msgid "Font size"
+msgstr ""
+
+msgid "Font Family"
+msgstr ""
+
+msgid "Show/Hide Admin Bar"
+msgstr ""
+
+msgid "Background Color"
+msgstr ""
+
+msgid "Add your own CSS code here to customize the appearance and layout of your site."
+msgstr ""
+
+msgid "This option disables the new Gutenberg Editor (aka Block Editor) and replaces it with the Classic Editor"
+msgstr ""
+
+msgid "This Option Will Return Widgets to Classic Mode"
+msgstr ""
+
+msgid "Show Or Hide Admin Bar From Frontend Theme"
+msgstr ""
+
+msgid "Displays the old episodes manager in the post editor"
+msgstr ""
+
+msgid "Google Analytics"
+msgstr ""
+
+msgid "Meta verification"
+msgstr ""
+
+msgid "Other Scripts Header"
+msgstr ""
+
+msgid "Paste here your Google Analytics following code."
+msgstr ""
+
+msgid "Paste here your meta codes (for example to verify your domain from a third party like Google Suite, etc.)"
+msgstr ""
+
+msgid "Disable XML-RPC"
+msgstr ""
+
+msgid "Disable REST API"
+msgstr ""
+
+msgid "Disable RSS"
+msgstr ""
+
+msgid "Disable Block Inline CSS"
+msgstr ""
+
+msgid "Disable Global Styles"
+msgstr ""
+
+msgid "Disable Oembed"
+msgstr ""
+
+msgid "Disable Emojis"
+msgstr ""
+
+msgid "Block Bad Query"
+msgstr ""
+
+msgid "Disable Application Passwords"
+msgstr ""
+
+msgid "Hide required plugins notice"
+msgstr ""
+
+msgid "This Option Will Hide Notifications About Required Plugin Installation"
+msgstr ""
+
+msgid "Disable F12 Key, Debug tools in Browser"
+msgstr ""
+
+msgid "URL to redirect if debug tool is opened"
+msgstr ""
+
+msgid "URL will redirect to after pressing F12 (Default is: https://haunytb.com)"
+msgstr ""
+
+msgid "Footer Scripts"
+msgstr ""
+
+msgid "Enter the codes which you need to place in your footer. Tracking Code or any other JavaScript. (ex: Google Analytics, Clicky, Woopra, Histats, etc.)."
+msgstr ""
+
+msgid "Footer About Text"
+msgstr ""
+
+msgid "Copyright Text"
+msgstr ""
+
+msgid "You can change or remove our link from footer and use your own custom text. (Link back is always appreciated)"
+msgstr ""
+
+msgid "Create Page"
+msgstr ""
+
+msgid "Create Menu"
+msgstr ""
+
+msgid "Create Widgets"
+msgstr ""
+
+msgid "Create <a href=\"%s\" target=\"_blank\">page</a> like on <a href=\"%s\" target=\"_blank\">%s</a> demo."
+msgstr ""
+
+msgid "Create a <a href=\"%s\" target=\"_blank\">menu</a> like on <a href=\"%s\" target=\"_blank\">%s</a> demo."
+msgstr ""
+
+msgid "Create <a href=\"%s\" target=\"_blank\">widgets</a> like on <a href=\"%s\" target=\"_blank\">%s</a> demo."
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Download and make a backup of your options."
+msgstr ""
+
+msgid "This action will create a page in your admin."
+msgstr ""
+
+msgid "This action will create a menu in your admin."
+msgstr ""
+
+msgid "This action will integrate video block widgets in your admin."
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Select a Niche image to import options from a niche. Then click on the Import button."
+msgstr ""
+
+msgid "Theme options will be imported in order to change the appearance of your site."
+msgstr ""
+
+msgid "Select \"From file\" to import options from a json backup file. Then click on the Import button."
+msgstr ""
+
+msgid "You can export a json backup file in the Export section of this theme options."
+msgstr ""
+
+msgid "Theme Options"
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Logs"
+msgstr ""
+
+msgid "Help"
+msgstr ""

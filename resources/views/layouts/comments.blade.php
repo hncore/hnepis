@@ -1,11 +1,11 @@
 <div class="block mt-3 shadow-md bg-commentsbg p-2">
 	<div class="pl-1.5 m-0 text-[14px] text-[#adb5bd] font-medium uppercase relative inline-block border-l-2 border-l-[#bd941b]">@hnepis('Comments')</div>
 	<div class="-mx-[5px] p-0 list-none lg:-mx-[5px] mb-2">
-		@if(hnmg_value('select_comments') == 'disqus_comment')
+		@if(csoptionepis('select_comments') == 'disqus_comment')
 			<div class="w-full mx-1.5">
 				<div id="disqus_thread"></div>
 				@php
-					$disqusShortname = hnmg_value('disqus_shortname') != '' ? hnmg_value('disqus_shortname') : 'haunytb';
+					$disqusShortname = csoptionepis('disqus_shortname') != '' ? csoptionepis('disqus_shortname') : 'haunytb';
 				@endphp
 				<script>
 					var disqus_shortname = '{{ $disqusShortname }}';
@@ -17,9 +17,9 @@
 					})();
 				</script>
 			</div>
-		@elseif(hnmg_value('select_comments') == 'fb_comments')
-			<div class="fb-comments" data-href="@php(the_permalink())" data-width="100%" data-mobile="true" data-lazy="true" data-colorscheme="light" data-numposts="@php(hnmg_value('fb_comment_display'))" data-order-by="@php(hnmg_value( 'fb_comment_order_by'))" data-lazy="true"></div>
-		@elseif(hnmg_value('select_comments') == 'system_comments') 
+		@elseif(csoptionepis('select_comments') == 'fb_comments')
+			<div class="fb-comments" data-href="@php(the_permalink())" data-width="100%" data-mobile="true" data-lazy="true" data-colorscheme="light" data-numposts="@php(csoptionepis('fb_comment_display'))" data-order-by="@php(csoptionepis( 'fb_comment_order_by'))" data-lazy="true"></div>
+		@elseif(csoptionepis('select_comments') == 'system_comments') 
 			<div x-data="HNComment()" class="my-5 mx-1.5">
 				<div id="new-comment" class="w-full mx-auto mb-4 flex items-start space-x-4">
 					<div>
@@ -56,8 +56,8 @@
 								<span @click="addEmoji('😈')" class="emoji w-[18px] h-[18px] m-1 cursor-pointer align-middle">😈</span>
 								<span @click="addEmoji('💥')" class="emoji w-[18px] h-[18px] m-1 cursor-pointer align-middle">💥</span>
 								<span @click="addEmoji('🍀')" class="emoji w-[18px] h-[18px] m-1 cursor-pointer align-middle">🍀</span>
-								@if(!empty(hnmg_value('emojis_comments')))
-									@php($emoijs = array_slice(explode('|', htmlspecialchars(hnmg_value('emojis_comments'))), 0, 20))
+								@if(!empty(csoptionepis('emojis_comments')))
+									@php($emoijs = array_slice(explode('|', htmlspecialchars(csoptionepis('emojis_comments'))), 0, 20))
 									@foreach($emoijs as $emoij)
 										<span @click="addEmoji('{{ $emoij }}')" class="emoji w-[18px] h-[18px] m-1 cursor-pointer align-middle">{{ $emoij }}</span>
 									@endforeach

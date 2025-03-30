@@ -1,8 +1,34 @@
 <?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNCore; use HNMG\EP_Load\EP_Player; header("\103\157\156\x74\145\156\164\x2d\x74\171\160\x65\72\40\141\160\160\x6c\151\x63\x61\x74\151\157\x6e\57\x6a\x73\157\x6e\73\x20\143\x68\141\x72\163\145\164\75\165\x74\x66\x2d\70"); header("\130\x2d\x46\162\141\x6d\145\55\117\x70\164\x69\157\156\x73\x3a\x20\123\x41\x4d\105\x4f\x52\x49\x47\111\x4e"); if (file_exists($_SERVER["\104\x4f\x43\125\115\x45\116\x54\137\122\117\x4f\124"] . "\57\x77\x70\x2d\x6c\x6f\x61\x64\x2e\x70\x68\x70")) { goto Mvi4h; } include $_SERVER["\x44\x4f\103\x55\x4d\x45\x4e\124\x5f\x52\117\x4f\124"] . "\x2f\167\x65\142\57\x77\160\57\x77\x70\55\154\x6f\141\144\x2e\160\150\160"; goto P6zG7; Mvi4h: include $_SERVER["\x44\117\103\125\115\105\x4e\x54\137\122\117\117\x54"] . "\x2f\x77\160\x2d\x6c\157\141\x64\56\x70\150\x70"; P6zG7: $isAjax = isset($_SERVER["\x48\124\x54\x50\x5f\x58\x5f\122\x45\121\125\x45\x53\x54\105\104\137\x57\111\124\x48"]) && strtolower($_SERVER["\x48\124\x54\x50\x5f\130\137\x52\x45\x51\x55\105\123\x54\105\x44\x5f\127\x49\124\x48"]) === "\x78\155\x6c\150\x74\164\x70\x72\145\x71\165\145\x73\164"; if ($isAjax) { goto YqFsp; } header("\x48\x54\x54\x50\57\x31\56\x31\x20\64\x30\x34\40\116\157\x74\x20\x46\x6f\x75\x6e\x64"); goto TlulX; YqFsp: $episode_slug = isset($_POST["\145\160\x69\163\157\144\145\137\163\x6c\165\x67"]) ? sanitize_text_field(str_replace("\55", "\x5f", $_POST["\145\x70\x69\163\x6f\144\145\137\163\154\x75\x67"])) : ''; $post_id = isset($_POST["\x70\157\163\x74\x5f\x69\x64"]) ? absint($_POST["\x70\157\163\x74\x5f\x69\x64"]) : 0; $server = isset($_POST["\163\x65\x72\x76\x65\162\x5f\x69\144"]) ? absint($_POST["\163\145\x72\x76\145\162\137\x69\144"]) : 0; $subsv_id = isset($_POST["\163\x75\x62\163\166\137\151\x64"]) ? absint($_POST["\x73\165\x62\x73\166\137\x69\x64"]) : 0; $custom_var = isset($_POST["\143\x75\x73\164\157\155\137\x76\141\x72"]) ? sanitize_text_field($_POST["\x63\x75\x73\x74\x6f\155\x5f\166\141\162"]) : ''; if ($post_id) { goto g49dI; } echo json_encode(["\x73\164\x61\164\165\163" => false, "\x63\x6f\x64\145" => 403]); goto tC8JA; g49dI: $player = new EP_Player(); $player->haunPlayer($post_id, $episode_slug, $server, $subsv_id, $custom_var); tC8JA: TlulX:
+
+namespace HNCore;
+
+use HNMG\EP_Load\EP_Player;
+
+header('Content-type: application/json; charset=utf-8');
+header('X-Frame-Options: SAMEORIGIN');
+
+if (file_exists($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php')) {
+    include $_SERVER['DOCUMENT_ROOT'] . '/wp-load.php';
+} else {
+    include $_SERVER['DOCUMENT_ROOT'] . '/web/wp/wp-load.php';
+} 
+
+$isAjax = isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest';
+if ($isAjax) {
+    $episode_slug = isset($_POST['episode_slug']) ? sanitize_text_field(str_replace('-', '_', $_POST['episode_slug'])) : '';
+    $post_id = isset($_POST['post_id']) ? absint($_POST['post_id']) : 0;
+    $server = isset($_POST['server_id']) ? absint($_POST['server_id']) : 0;
+    $subsv_id = isset($_POST['subsv_id']) ? absint($_POST['subsv_id']) : 0;
+    $custom_var = isset($_POST['custom_var']) ? sanitize_text_field($_POST['custom_var']) : '';
+    if ($post_id) {
+        $player = new EP_Player();
+        $player->haunPlayer($post_id, $episode_slug, $server, $subsv_id, $custom_var);
+    } else {
+        echo json_encode([
+            'status' => false,
+            'code' => 403
+        ]);
+    }
+} else {
+    header("HTTP/1.1 404 Not Found");
+}

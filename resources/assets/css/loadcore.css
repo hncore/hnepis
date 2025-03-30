@@ -26,10 +26,3 @@
         max-width: 1400px
     }
 }
-    .hnlogo-img {
-    height: var(--hnlogoheight);
-    width: var(--hnlogowidth)
-}
-	.hnlogo-text {
-    font-size: var(--hnlogosize)
-}

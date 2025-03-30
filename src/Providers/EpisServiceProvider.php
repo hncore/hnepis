@@ -1,8 +1,66 @@
-<?php
-/*   __________________________________________________
-    |  		Code By HauN - HauNYTB.COM  2.0.14    	  |
-    |          Telegram: https://t.me/haunytb         |
-    |    	   Url : https://haunytb.com    		  |
-    |_________________________________________________|
-*/
- namespace HNMG\Providers; use Illuminate\Support\Facades\View; use Illuminate\Support\Facades\Blade; use Illuminate\Support\ServiceProvider; use Illuminate\Support\Facades\File; class EpisServiceProvider extends ServiceProvider { protected array $directives = [\HNMG\Directives\Acf::class, \HNMG\Directives\Helpers::class, \HNMG\Directives\WordPress::class]; public function boot() : void { goto aLN34; tTgnh: $this->app->make(\HNMG\Episodes\EP_Post::class)->register(); goto X460j; k14JB: $this->app->make(\HNMG\EP_Load\EP_Rewrite::class)->register(); goto zPpSZ; J1SXo: $this->app->make(\HNMG\EP_Load\EP_Load::class)->register(); goto r3BcK; zPpSZ: $this->app->make(\HNMG\EP_Load\EP_Comment::class)->register(); goto nH40K; qxYGN: $this->ep_constants(); goto E1_m2; E1_m2: collect($this->directives)->filter(fn($directive) => is_subclass_of($directive, \HNMG\Directives\Directives::class))->each(fn($directive) => $directive::make()->register()); goto J1SXo; NCkAm: $this->app->make(\HNMG\EP_Core\EP_Taxonomy::class)->register(); goto D3C7h; rJk3u: KV37D: goto qxYGN; uDrhS: $this->app->make(\HNMG\EP_Load\EP_Reporter::class)->register(); goto jJKVg; nH40K: $this->app->make(\HNMG\EP_Core\EP_Core::class)->register(); goto NCkAm; D3C7h: $this->app->make(\HNMG\EP_Core\EP_SEO::class)->register(); goto NZQf2; E09nK: $this->app->make(\HNMG\Episodes\EP_Actions::class)->register(); goto tTgnh; eKJMd: return; goto rJk3u; X460j: $this->app->make(\HNMG\Episodes\EP_Options::class)->register(); goto yKbdL; aLN34: if (is_plugin_active("\x68\156\143\157\162\x65\x2f\151\x6e\144\x65\170\x2e\x70\x68\160")) { goto KV37D; } goto eKJMd; NZQf2: $this->app->make(\HNMG\EP_Core\EP_Meta::class); goto lTHSj; VurH7: $this->loadViewsFrom(__DIR__ . "\57\x2e\56\57\x2e\x2e\57\x72\x65\x73\157\165\162\x63\x65\163\x2f\x76\151\145\167\x73", "\110\x4e\x4d\x47"); goto FYkpt; r3BcK: $this->app->make(\HNMG\EP_Load\EP_Cache::class)->register(); goto uDrhS; FYkpt: $this->publishes([get_theme_file_path("\x76\x65\x6e\144\157\x72\x2f\150\x6e\x63\x6f\162\x65\57\150\x6e\155\x67\145\x70\151\x73\x2f\x76\x65\x6e\x64\157\162\57\146\x6f\162\164\x61\x77\145\x73\x6f\x6d\x65\x2f\x66\157\x6e\x74\x2d\141\167\x65\x73\x6f\155\x65\57\146\157\156\164\x73") => get_theme_file_path("\160\165\x62\154\x69\143\57\146\157\x6e\164\163"), get_theme_file_path("\166\145\x6e\x64\x6f\162\57\x68\156\143\x6f\x72\145\57\x68\x6e\155\x67\x65\160\151\x73\x2f\166\x65\156\144\x6f\x72\x2f\146\157\162\x74\x61\x77\x65\163\x6f\x6d\145\x2f\146\157\156\x74\55\141\167\145\x73\157\x6d\x65\57\143\x73\163") => get_theme_file_path("\x70\165\x62\x6c\x69\x63\x2f\x63\163\163"), get_theme_file_path("\x76\x65\x6e\144\x6f\162\57\150\156\143\x6f\162\145\x2f\150\156\155\x67\x65\x70\x69\x73\x2f\162\145\163\x6f\165\162\x63\145\163\57\141\163\163\145\x74\x73\57\x63\163\x73\57\163\164\171\x6c\145\56\x63\x73\x73") => get_theme_file_path("\x70\165\x62\x6c\x69\x63\57\143\x73\163\x2f\x73\x74\x79\x6c\x65\56\x63\x73\x73"), get_theme_file_path("\166\145\156\144\x6f\162\57\150\x6e\143\x6f\162\145\57\x68\x6e\155\147\145\160\151\x73\x2f\162\x65\163\x6f\165\162\143\145\163\57\141\163\x73\x65\164\x73\57\143\163\163\57\x6c\x6f\141\144\143\x6f\162\145\x2e\143\x73\163") => get_theme_file_path("\160\165\142\x6c\151\x63\x2f\x63\163\x73\57\154\157\141\144\143\157\x72\145\x2e\x63\163\163"), get_theme_file_path("\166\x65\x6e\144\157\162\57\x68\x6e\143\157\162\145\57\x68\156\155\147\x65\x70\x69\163\x2f\162\x65\163\x6f\x75\x72\143\145\x73\x2f\x61\163\x73\145\164\x73\x2f\143\x73\x73\x2f\x68\x6e\155\x67\x70\154\x61\x79\145\162\x2e\x63\163\163") => get_theme_file_path("\x70\165\x62\154\x69\x63\57\143\x73\x73\x2f\x68\156\155\x67\160\x6c\x61\x79\x65\x72\56\x63\163\163"), get_theme_file_path("\x76\145\156\x64\x6f\162\x2f\x68\x6e\x63\157\x72\x65\57\150\156\x6d\x67\145\x70\x69\163\57\x72\145\163\x6f\165\x72\x63\x65\163\x2f\141\163\x73\x65\x74\163\x2f\152\163\57\x68\156\x6d\x67\x70\154\x61\x79\145\x72\56\x6a\163") => get_theme_file_path("\160\165\142\x6c\151\143\57\152\x73\x2f\x68\156\x6d\147\x70\154\x61\x79\x65\x72\56\152\163"), get_theme_file_path("\166\145\156\x64\x6f\162\x2f\x68\156\x63\x6f\162\x65\x2f\x68\x6e\x6d\147\x65\160\151\163\57\162\x65\x73\x6f\165\162\143\145\x73\x2f\x61\x73\163\x65\x74\163\57\x6a\163\x2f\x68\156\x6d\x67\145\160\151\x73\x2e\x6a\x73") => get_theme_file_path("\160\x75\142\x6c\x69\x63\57\x6a\163\57\150\156\x6d\x67\145\x70\x69\163\56\152\x73"), get_theme_file_path("\x76\x65\x6e\x64\x6f\x72\57\150\156\143\157\162\x65\x2f\x68\x6e\x6d\147\145\160\x69\163\57\x72\145\163\x6f\x75\x72\x63\145\163\x2f\x61\163\x73\x65\x74\x73\x2f\x6a\163\x2f\152\167\160\x6c\141\x79\x65\162\x2e\152\163") => get_theme_file_path("\x70\x75\x62\154\151\x63\57\x6a\x73\57\x6a\x77\160\x6c\x61\171\x65\x72\x2e\152\163"), get_theme_file_path("\x76\x65\x6e\x64\x6f\162\x2f\x68\156\143\x6f\162\145\x2f\x68\156\x6d\x67\x65\160\x69\163\x2f\162\x65\x73\x6f\x75\162\143\145\x73\57\141\x73\x73\x65\x74\163\57\x6a\x73\x2f\x6c\157\141\144\143\x6f\x72\145\56\152\x73") => get_theme_file_path("\160\165\x62\x6c\151\143\57\x6a\163\x2f\154\157\x61\144\x63\x6f\x72\145\x2e\152\163"), get_theme_file_path("\x2f\x76\145\x6e\x64\157\x72\x2f\150\156\x63\x6f\x72\145\57\x68\x6e\x6d\x67\x65\x70\x69\x73\x2f\x72\x65\x73\157\165\x72\143\145\x73\x2f\x6c\157\141\x64\56\160\x68\x70") => get_theme_file_path("\x70\165\x62\154\x69\143\57\x6c\157\141\144\56\160\x68\160"), get_theme_file_path("\57\166\145\x6e\144\157\162\57\150\156\143\x6f\162\145\57\150\x6e\x6d\x67\145\x70\151\x73\57\162\x65\x73\x6f\x75\162\x63\145\163\57\x63\x6f\154\157\162\x2e\160\x68\x70") => get_theme_file_path("\160\165\x62\154\151\143\57\x63\157\154\157\162\x2e\x70\150\160"), get_theme_file_path("\57\x76\145\x6e\144\x6f\x72\x2f\x68\x6e\143\x6f\162\145\x2f\x68\x6e\155\x67\x65\160\x69\x73\x2f\x72\x65\163\x6f\165\x72\x63\145\x73\57\x61\163\x73\x65\164\x73\57\x6a\167\160\x6c\x61\171\145\x72") => get_theme_file_path("\x70\165\x62\154\x69\143\x2f\152\x77\160\154\x61\171\x65\x72")], "\x68\156\x6d\147\55\141\x73\163\145\x74\x73"); goto ws7m3; KLKnS: $this->app->make(\HNMG\Episodes\EP_Episode::class)->register(); goto E09nK; jJKVg: $this->app->make(\HNMG\EP_Load\EP_PLayer::class); goto k14JB; owczV: View::composer("\x2a", \HNMG\Episodes\EP_Helper::class); goto VurH7; yKbdL: View::composer("\x2a", \HNMG\EP_Load\EP_List::class); goto owczV; lTHSj: $this->app->make(\HNMG\EP_Core\EP_AutoIMG::class); goto KLKnS; ws7m3: } public function ep_constants() { goto ktkMP; TlNbl: define("\110\116\115\x47\137\x43\101\x43\110\x45", wp_normalize_path(WP_CONTENT_DIR) . "\x2f\x66\x69\154\x6d\x2d\143\141\143\150\x65"); goto ZuT8P; ZuT8P: define("\110\x4e\115\107\137\x46\117\116\x54\125\122\x4c", get_template_directory_uri() . "\57\166\x65\x6e\x64\x6f\x72\x2f\150\x6e\x63\x6f\162\145\57\x68\156\x6d\147\145\x70\151\x73\x2f\x76\x65\156\x64\x6f\162\x2f\146\157\x72\164\x61\167\x65\163\x6f\155\145\57\x66\157\156\x74\x2d\141\167\x65\x73\x6f\155\145"); goto xxcKA; ktkMP: define("\x48\116\115\x47\137\105\130\120\117\x52\124", wp_normalize_path(WP_CONTENT_DIR) . "\x2f\x66\151\154\x6d\x2d\x65\170\x70\157\x72\x74"); goto TlNbl; TLwfN: define("\x48\116\115\x47\137\105\x50\104\x49\122", get_template_directory() . "\57\x76\x65\x6e\x64\157\162\57\x68\x6e\143\157\x72\x65\x2f\150\156\x6d\x67\145\160\151\163\x2f\162\x65\x73\x6f\165\162\x63\x65\x73\x2f"); goto SqSg1; SqSg1: load_textdomain("\x68\156\x6d\x67\145\x70\151\x73", HNMG_EPDIR . "\154\x61\156\x67\57\150\156\x6d\x67\145\x70\x69\163\55" . get_locale() . "\56\155\157"); goto zyqZF; xxcKA: define("\x48\116\115\107\x5f\x45\x50\x49\x55\x52\114", get_template_directory_uri() . "\x2f\x76\145\156\144\x6f\162\x2f\150\156\x63\x6f\162\x65\57\150\x6e\x6d\147\x65\x70\151\x73\x2f\x72\x65\163\157\165\x72\x63\145\x73\57\141\x73\163\145\x74\163"); goto TLwfN; zyqZF: } }
+<?php //002e0
+// Coder By HNCore
+if(extension_loaded('ionCube Loader')){die('The file '.__FILE__." is corrupted.\n");}echo("\nScript error: the ".(($cli=(php_sapi_name()=='cli')) ?'ionCube':'<a href="https://www.ioncube.com">ionCube</a>')." Loader for PHP needs to be installed.\n\nThe ionCube Loader is the industry standard PHP extension for running protected PHP code,\nand can usually be added easily to a PHP installation.\n\nFor Loaders please visit".($cli?":\n\nhttps://get-loader.ioncube.com\n\nFor":' <a href="https://get-loader.ioncube.com">get-loader.ioncube.com</a> and for')." an instructional video please see".($cli?":\n\nhttp://ioncu.be/LV\n\n":' <a href="http://ioncu.be/LV">http://ioncu.be/LV</a> ')."\n\n");exit(199);
+?>
+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
+L7DE

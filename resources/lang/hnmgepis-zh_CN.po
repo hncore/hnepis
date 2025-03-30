@@ -136,8 +136,8 @@ msgstr "在<b>备用链接</b>之前需要<b>更新剧集</b>"
 msgid "Choose Episode"
 msgstr "选择剧集"
 
-msgid "HNMG Manager"
-msgstr "HNMG 管理员"
+msgid "Episode Manager"
+msgstr "剧集经理"
 
 msgid "Single movie"
 msgstr "单部电影"
@@ -1309,8 +1309,8 @@ msgstr "结构无效。每一行必须有 3 个部分，且使用 \"|\" 字符�
 msgid "There are no new episodes yet or this is the last episode!"
 msgstr "还没有新剧集，或者这是最后一集！"
 
-msgid "HNMG Cache"
-msgstr "HNMG 缓存"
+msgid "Cache Movies"
+msgstr "缓存电影"
 
 msgid "Empty!"
 msgstr "空的！"
@@ -1446,3 +1446,6 @@ msgstr "按钮文字颜色"
 
 msgid "Backgroud Color Button"
 msgstr "按钮背景颜色"
+
+msgid "License Manager"
+msgstr "许可证管理器"

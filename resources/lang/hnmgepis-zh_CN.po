@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-12-09 20:56+0700\n"
+"POT-Creation-Date: 2025-04-01 02:39+0700\n"
+"PO-Revision-Date: 2025-04-01 02:42+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 msgid "Label"
 msgstr "标签"
@@ -41,10 +41,10 @@ msgid "Please enter server name"
 msgstr "请输入服务器名称"
 
 msgid "Please enter the episode list in the form!"
-msgstr "请输入剧集列表！"
+msgstr "请在表单中输入剧集列表！"
 
 msgid "Please wait..."
-msgstr "请稍等..."
+msgstr "请稍候..."
 
 msgid "Import successfully!"
 msgstr "导入成功！"
@@ -80,7 +80,7 @@ msgid "Link"
 msgstr "链接"
 
 msgid "Alternative Link"
-msgstr "备用链接"
+msgstr "替代链接"
 
 msgid "Successfully"
 msgstr "成功"
@@ -95,7 +95,7 @@ msgid "Update Post Info"
 msgstr "更新帖子信息"
 
 msgid "Backup link server update successful"
-msgstr "备用链接服务器更新成功"
+msgstr "备份链接服务器更新成功"
 
 msgid "Please enter link list!"
 msgstr "请输入链接列表！"
@@ -104,7 +104,7 @@ msgid "Please select the episode to import!"
 msgstr "请选择要导入的剧集！"
 
 msgid "Are you sure you want to delete this server & all episodes?"
-msgstr "你确定要删除这个服务器及所有剧集吗？"
+msgstr "您确定要删除此服务器和所有剧集吗？"
 
 msgid "Add subtitles"
 msgstr "添加字幕"
@@ -113,7 +113,7 @@ msgid "Delete The Current Episode"
 msgstr "删除当前剧集"
 
 msgid "Add Backup Server"
-msgstr "添加备用服务器"
+msgstr "添加备份服务器"
 
 msgid "Add Field"
 msgstr "添加字段"
@@ -125,34 +125,28 @@ msgid "Update Subtitle"
 msgstr "更新字幕"
 
 msgid "Click Here To Add A New Episode"
-msgstr "点击这里添加新剧集"
+msgstr "点击此处添加新剧集"
 
 msgid "Need to <b>Update Episodes</b> Before <b>Adding Subtitles</b>"
 msgstr "在<b>添加字幕</b>之前需要<b>更新剧集</b>"
 
 msgid "Need to <b>Update Episodes</b> Before <b>Backup Links</b>"
-msgstr "在<b>备用链接</b>之前需要<b>更新剧集</b>"
+msgstr "在<b>备份链接</b>之前需要<b>更新剧集</b>"
 
 msgid "Choose Episode"
 msgstr "选择剧集"
 
 msgid "Episode Manager"
-msgstr "剧集经理"
+msgstr "剧集管理器"
 
 msgid "Single movie"
-msgstr "单部电影"
-
-msgid "TV series"
-msgstr "电视剧"
+msgstr "电影"
 
 msgid "TV show"
 msgstr "电视节目"
 
-msgid "Theater movie"
-msgstr "影院电影"
-
 msgid "Ongoing"
-msgstr "进行中"
+msgstr "连载中"
 
 msgid "Trailer"
 msgstr "预告片"
@@ -170,10 +164,10 @@ msgid "TV Shows"
 msgstr "电视节目"
 
 msgid "Theater Movie"
-msgstr "影院电影"
+msgstr "院线电影"
 
 msgid "Movies Coming"
-msgstr "即将上映电影"
+msgstr "即将上映"
 
 msgid "Hide"
 msgstr "隐藏"
@@ -182,49 +176,49 @@ msgid "Player Options"
 msgstr "播放器选项"
 
 msgid "SEO Optimization"
-msgstr "SEO 优化"
+msgstr "SEO优化"
 
 msgid "Auto config Yoast SEO"
-msgstr "自动配置 Yoast SEO"
+msgstr "自动配置Yoast SEO"
 
-msgid "Display custom title on the info page (including episode, release, quality...)"
-msgstr "在信息页面上显示自定义标题（包括剧集、发布、质量等）"
+msgid ""
+"Display custom title on the info page (including episode, release, "
+"quality...)"
+msgstr "在信息页面显示自定义标题（包括剧集、发布、质量...）"
 
 msgid "Remove the categories prefix"
 msgstr "移除分类前缀"
 
-msgid "Category URLs in WordPress contain a prefix, usually <strong>/category/</strong>, this feature removes that prefix, for categories only."
-msgstr "WordPress 中的分类 URL 包含前缀，通常为 <strong>/category/</strong>，此功能移除该前缀，仅适用于分类。"
-
-msgid "SEO title (Page movie info)"
-msgstr "SEO 标题（电影信息页面）"
+msgid ""
+"Category URLs in WordPress contain a prefix, usually <strong>/category/</"
+"strong>, this feature removes that prefix, for categories only."
+msgstr "WordPress中的分类URL包含前缀，通常是<strong>/category/</strong>，此功能仅移除分类的前缀。"
 
 msgid "Modify your SEO title by editing it right here"
-msgstr "通过编辑此处修改 SEO 标题"
+msgstr "在此处编辑您的SEO标题"
 
 msgid "SEO title (Page watch movie)"
-msgstr "SEO 标题（观看电影页面）"
+msgstr "SEO标题（观看电影页面）"
 
 msgid "URL Type"
-msgstr "网址类型"
+msgstr "URL类型"
 
 msgid "Player tabs"
 msgstr "播放器标签"
 
-msgid "General"
-msgstr "常规"
-
 msgid "JW Player Basic Settings"
-msgstr "JW Player 基本设置"
+msgstr "JW Player基本设置"
 
 msgid "ADS Vast Settings"
-msgstr "ADS Vast 设置"
+msgstr "ADS Vast设置"
 
 msgid "Resume Playback"
 msgstr "恢复播放"
 
-msgid "Use localStorage to remember where the user left off and resume playback at the same time offset when revisiting the page."
-msgstr "使用 localStorage 记住用户停止的地方，并在重新访问页面时恢复播放至相同的时间点。"
+msgid ""
+"Use localStorage to remember where the user left off and resume playback at "
+"the same time offset when revisiting the page."
+msgstr "使用localStorage记住用户停止的位置，并在重新访问页面时从相同时间点恢复播放。"
 
 msgid "Auto reset cache"
 msgstr "自动重置缓存"
@@ -233,13 +227,13 @@ msgid "Automatically clear the cache if the player error"
 msgstr "如果播放器出错，自动清除缓存"
 
 msgid "JWPlayer Error Detect"
-msgstr "JWPlayer 错误检测"
+msgstr "JWPlayer错误检测"
 
 msgid "Show Modal Popup"
 msgstr "显示模态弹窗"
 
 msgid "Auto Play Alternative Server"
-msgstr "自动播放备用服务器"
+msgstr "自动播放替代服务器"
 
 msgid "Autostart"
 msgstr "自动开始"
@@ -248,7 +242,7 @@ msgid "Auto Pause Player"
 msgstr "自动暂停播放器"
 
 msgid "Automatically pauses the player based on certain rules"
-msgstr "根据某些规则自动暂停播放器"
+msgstr "根据特定规则自动暂停播放器"
 
 msgid "Share Button"
 msgstr "分享按钮"
@@ -269,94 +263,105 @@ msgid "License Version"
 msgstr "许可证版本"
 
 msgid "Jwplayer License key"
-msgstr "JWPlayer 许可证密钥"
+msgstr "Jwplayer许可证密钥"
 
 msgid "A license key is required for the Pro, Premium and Ads edition."
-msgstr "Pro、Premium 和 Ads 版本需要许可证密钥。"
+msgstr "Pro、Premium和广告版本需要许可证密钥。"
 
 msgid "Logo File"
-msgstr "徽标文件"
+msgstr ""
 
-msgid "The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /assets/logo.png). We recommend using 24 bit PNG images with transparency"
-msgstr "用作水印的外部 JPG、PNG 或 GIF 图像的 URL（例如 /assets/logo.png）。我们建议使用具有透明度的 24 位 PNG 图像"
+msgid ""
+"The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /"
+"assets/logo.png). We recommend using 24 bit PNG images with transparency"
+msgstr ""
 
 msgid "Logo link"
-msgstr "徽标链接"
+msgstr ""
 
-msgid "The URL to visit when the watermark image is clicked. Clicking a logo will have no affect unless this is configured"
-msgstr "点击水印图片时要访问的 URL。除非配置了该 URL，否则点击徽标不会有任何影响。"
+msgid ""
+"The URL to visit when the watermark image is clicked. Clicking a logo will "
+"have no affect unless this is configured"
+msgstr ""
 
-msgid "Auto hide logo"
-msgstr "自动隐藏徽标"
+msgid "Auto hide logo (JWPlayer only)"
+msgstr ""
 
 msgid "Logo Position"
-msgstr "徽标位置"
+msgstr ""
 
 msgid "Top left"
-msgstr "左上"
+msgstr ""
 
 msgid "Top right"
-msgstr "右上"
+msgstr ""
 
 msgid "Bottom left"
-msgstr "左下"
+msgstr ""
 
 msgid "Bottom right"
-msgstr "右下"
+msgstr ""
 
-msgid "Control bar"
-msgstr "控制栏"
+msgid "Control bar (JWPlayer only)"
+msgstr ""
 
-msgid "This sets the corner in which to display the watermark. \"control-bar\" adds the logo as the leftmost icon in the right grouping of buttons in the control bar."
-msgstr "此设置确定显示水印的角落。\"control-bar\" 将徽标作为控制栏右侧按钮组中的最左图标添加。"
+msgid ""
+"This sets the corner in which to display the watermark. The \"control-bar\" "
+"option is only supported in JWPlayer and adds the logo as the leftmost icon "
+"in the right grouping of buttons in the control bar."
+msgstr ""
 
 msgid "Default poster image"
-msgstr "默认海报图像"
+msgstr ""
 
 msgid "Upload Subtitle"
-msgstr "上传字幕"
+msgstr ""
 
 msgid "Add the url of the file subtitle.srt, .vtt or using the Upload button."
-msgstr "添加文件的 URL，如 subtitle.srt 或 .vtt，或使用上传按钮。"
+msgstr ""
 
 msgid "Select a method to read subtitles"
-msgstr "选择读取字幕的方法"
+msgstr ""
 
 msgid "Direct link"
-msgstr "直接链接"
+msgstr ""
 
 msgid "Use readsub.php"
-msgstr "使用 readsub.php"
+msgstr ""
 
 msgid "Subtitle color"
-msgstr "字幕颜色"
+msgstr ""
 
 msgid "Subtitle font size"
-msgstr "字幕字体大小"
+msgstr ""
 
 msgid "About text"
-msgstr "关于文本"
+msgstr ""
 
-msgid "Custom text to display in the right-click menu. Can only be set for the Premium and Ads Editions"
-msgstr "在右键菜单中显示的自定义文本。只能为高级版和广告版设置"
+msgid ""
+"Custom text to display in the right-click menu. Can only be set for the "
+"Premium and Ads Editions"
+msgstr ""
 
 msgid "About link"
-msgstr "关于链接"
+msgstr ""
 
-msgid "Custom URL to link to when clicking the right-click menu. Can only be set for the Premium and Ads Editions"
-msgstr "点击右键菜单时链接到的自定义 URL。只能为高级版和广告版设置"
+msgid ""
+"Custom URL to link to when clicking the right-click menu. Can only be set "
+"for the Premium and Ads Editions"
+msgstr ""
 
 msgid "Show Ads Vast"
-msgstr "显示广告 Vast"
+msgstr ""
 
 msgid "Enable Ads For Embed"
-msgstr "启用嵌入广告"
+msgstr ""
 
 msgid "If This Option is Enabled, Ads Will Display in Embed Links"
-msgstr "如果启用此选项，广告将在嵌入链接中显示"
+msgstr ""
 
 msgid "Ads code"
-msgstr "广告代码"
+msgstr ""
 
 msgid "Title"
 msgstr "标题"
@@ -365,7 +370,7 @@ msgid "Thumbs"
 msgstr "缩略图"
 
 msgid "Details"
-msgstr "详情"
+msgstr "详细信息"
 
 msgid "Categories"
 msgstr "分类"
@@ -377,7 +382,7 @@ msgid "Directors"
 msgstr "导演"
 
 msgid "Release"
-msgstr "发布日期"
+msgstr "发布"
 
 msgid "Country"
 msgstr "国家"
@@ -398,1054 +403,1591 @@ msgid "Movie"
 msgstr "电影"
 
 msgid "List Movies"
-msgstr "列出电影"
+msgstr "电影列表"
 
 msgid "Add new"
-msgstr "添加新电影"
+msgstr ""
 
 msgid "Add new movie"
-msgstr "添加新电影"
+msgstr ""
 
 msgid "Edit"
-msgstr "编辑"
+msgstr ""
 
 msgid "View Post"
-msgstr "查看帖子"
+msgstr ""
 
 msgid "Search"
-msgstr "搜索"
+msgstr ""
 
 msgid "No result"
-msgstr "没有结果"
+msgstr ""
 
 msgid "All Movies"
-msgstr "所有电影"
+msgstr ""
 
 msgid "Category"
-msgstr "分类"
+msgstr ""
 
 msgid "Add Movie"
-msgstr "添加电影"
+msgstr ""
 
 msgid "Formality"
-msgstr "形式"
-
-msgid "Status"
-msgstr "状态"
+msgstr ""
 
 msgid "Poster image URL"
-msgstr "海报图像 URL"
+msgstr ""
 
 msgid "Input image url or use Upload button."
-msgstr "输入图像 URL 或使用上传按钮。"
+msgstr ""
 
 msgid "Upload Poster image"
-msgstr "上传海报图像"
+msgstr ""
 
 msgid "Remote upload the poster image to server"
-msgstr "远程上传海报图像到服务器"
+msgstr ""
 
 msgid "Featured image URL"
-msgstr "特色图像 URL"
+msgstr ""
 
 msgid "Post thumbnail URL"
-msgstr "文章缩略图 URL"
+msgstr ""
 
 msgid "Set as featured image"
-msgstr "设为特色图像"
+msgstr ""
 
 msgid "Set as featured image and save image to server"
-msgstr "设为特色图像并保存图像到服务器"
+msgstr ""
 
 msgid "Auto save images"
-msgstr "自动保存图像"
+msgstr ""
 
 msgid "Auto save images to server"
-msgstr "自动保存图像到服务器"
+msgstr ""
 
 msgid "Copyright"
-msgstr "版权"
+msgstr ""
 
 msgid "Adult content (18+)"
-msgstr "成人内容 (18+)"
+msgstr ""
 
 msgid "Original Title"
-msgstr "原始标题"
+msgstr ""
 
 msgid "Runtime"
-msgstr "播放时长"
+msgstr ""
 
 msgid "Runtime (90 min)"
-msgstr "播放时长 (90 分钟)"
+msgstr ""
 
 msgid "Episode"
-msgstr "集数"
+msgstr ""
 
 msgid "Episode 20, Tập 20"
-msgstr "第 20 集，Tập 20"
+msgstr ""
 
 msgid "Total Episode"
-msgstr "总集数"
+msgstr ""
 
 msgid "Quality"
-msgstr "质量"
+msgstr ""
 
 msgid "Notification / Note"
-msgstr "通知 / 备注"
+msgstr ""
 
 msgid "Showtime movies"
-msgstr "电影放映时间"
+msgstr ""
 
 msgid "Video URL"
-msgstr "视频 URL"
+msgstr ""
 
 msgid "Embed"
-msgstr "嵌入"
+msgstr ""
 
 msgid "Embed / iframe"
-msgstr "嵌入 / iframe"
+msgstr ""
 
 msgid "Thumbnail URL"
-msgstr "缩略图 URL"
+msgstr ""
 
-msgctxt "Episode type"
-msgid "Episode Types"
-msgstr "集数类型"
-
-msgctxt "Episode type"
 msgid "Episode Type"
-msgstr "集数类型"
+msgstr ""
 
 msgid "Episode Types"
-msgstr "集数类型"
+msgstr ""
 
 msgid "All Items"
-msgstr "所有项目"
+msgstr ""
 
 msgid "Parent Item"
-msgstr "父项"
+msgstr ""
 
 msgid "Parent Item:"
-msgstr "父项："
+msgstr ""
 
 msgid "New Item Name"
-msgstr "新项目名称"
+msgstr ""
 
 msgid "Add New Item"
-msgstr "添加新项目"
+msgstr ""
 
 msgid "Edit Item"
-msgstr "编辑项目"
+msgstr ""
 
 msgid "Update Item"
-msgstr "更新项目"
+msgstr ""
 
 msgid "View Item"
-msgstr "查看项目"
+msgstr ""
 
 msgid "Separate items with commas"
-msgstr "用逗号分隔项目"
+msgstr ""
 
 msgid "Add or remove items"
-msgstr "添加或删除项目"
+msgstr ""
 
 msgid "Choose from the most used"
-msgstr "从最常用的中选择"
+msgstr ""
 
 msgid "Popular Items"
-msgstr "热门项目"
+msgstr ""
 
 msgid "Search Items"
-msgstr "搜索项目"
+msgstr ""
 
 msgid "Not Found"
-msgstr "未找到"
+msgstr ""
 
 msgid "No items"
-msgstr "没有项目"
+msgstr ""
 
 msgid "Items list"
-msgstr "项目列表"
+msgstr ""
 
 msgid "Items list navigation"
-msgstr "项目列表导航"
+msgstr ""
 
 msgid "News categories"
-msgstr "新闻类别"
+msgstr ""
 
 msgid "News category"
-msgstr "新闻类别"
+msgstr ""
 
 msgid "All categories"
-msgstr "所有类别"
+msgstr ""
 
 msgid "News"
-msgstr "新闻"
+msgstr ""
 
 msgid "Add news"
-msgstr "添加新闻"
+msgstr ""
 
 msgid "News tags"
-msgstr "新闻标签"
+msgstr ""
 
 msgid "News tag"
-msgstr "新闻标签"
+msgstr ""
 
 msgid "Videos"
-msgstr "视频"
+msgstr ""
 
 msgid "Video"
-msgstr "视频"
+msgstr ""
 
 msgid "Add new video"
-msgstr "添加新视频"
+msgstr ""
 
 msgid "Video Categories"
-msgstr "视频类别"
+msgstr ""
 
 msgid "Video Category"
-msgstr "视频类别"
+msgstr ""
 
 msgid "Video tags"
-msgstr "视频标签"
+msgstr ""
 
 msgid "Video tag"
-msgstr "视频标签"
+msgstr ""
 
-msgctxt "taxonomy general name"
 msgid "Status"
-msgstr "状态"
-
-msgctxt "taxonomy singular name"
-msgid "Status"
-msgstr "状态"
+msgstr ""
 
 msgid "Search Status"
-msgstr "搜索状态"
+msgstr ""
 
 msgid "All Status"
-msgstr "所有状态"
+msgstr ""
 
 msgid "Parent Status"
-msgstr "父状态"
+msgstr ""
 
 msgid "Parent Status:"
-msgstr "父状态："
+msgstr ""
 
 msgid "Edit Status"
-msgstr "编辑状态"
+msgstr ""
 
 msgid "Update Status"
-msgstr "更新状态"
+msgstr ""
 
 msgid "Add New Status"
-msgstr "添加新状态"
+msgstr ""
 
 msgid "New Status Name"
-msgstr "新状态名称"
+msgstr ""
 
-msgctxt "taxonomy general name"
 msgid "Post options"
-msgstr "文章选项"
-
-msgctxt "taxonomy singular name"
-msgid "Post options"
-msgstr "文章选项"
+msgstr ""
 
 msgid "Search option"
-msgstr "搜索选项"
-
-msgid "All options"
-msgstr "所有选项"
+msgstr ""
 
 msgid "Parent"
-msgstr "父项"
+msgstr ""
 
 msgid "Update"
-msgstr "更新"
+msgstr ""
 
 msgid "Add New"
-msgstr "添加新项目"
+msgstr ""
 
 msgid "New option name"
-msgstr "新选项名称"
+msgstr ""
 
 msgid "Options"
-msgstr "选项"
+msgstr ""
 
 msgid "Loading player, please wait..."
-msgstr "正在加载播放器，请稍候..."
+msgstr ""
 
-msgid "We are unable to find the video you are looking for. There could be several reasons for this, for example it got removed by the owner!"
-msgstr "我们无法找到您要观看的视频。这可能是由于多种原因，例如视频被所有者删除了！"
+msgid ""
+"We are unable to find the video you are looking for. There could be several "
+"reasons for this, for example it got removed by the owner!"
+msgstr ""
 
 msgid "This video file cannot be played."
-msgstr "此视频文件无法播放。"
+msgstr ""
 
 msgid "To continue watching, please click on the \"Reload Player\" button"
-msgstr "要继续观看，请点击 \"重新加载播放器\" 按钮"
+msgstr ""
 
 msgid "or click on the buttons below"
-msgstr "或点击下面的按钮"
+msgstr ""
 
 msgid "Reload Player"
-msgstr "重新加载播放器"
+msgstr ""
 
 msgid "Redirect to Server"
-msgstr "重定向到服务器"
+msgstr ""
 
 msgid "Redirect to Edit"
-msgstr "重定向到编辑"
+msgstr ""
 
 msgid "Episode Name"
-msgstr "集数名称"
+msgstr ""
 
 msgid "Episode Slug"
-msgstr "集数别名"
+msgstr ""
 
 msgid "Episode Link"
-msgstr "剧集链接"
+msgstr ""
 
 msgid "Add Server"
-msgstr "添加服务器"
+msgstr ""
 
 msgid "IMBD Rating"
-msgstr "IMBD评分"
+msgstr ""
 
 msgid "IMBD Vote"
-msgstr "IMBD投票"
+msgstr ""
 
 msgid "Trailer URL"
-msgstr "预告片链接"
+msgstr ""
 
 msgid "Export Episodes"
-msgstr "导出剧集"
+msgstr ""
 
 msgid "Post Name"
-msgstr "文章名称"
+msgstr ""
 
 msgid "Show/Hide Server"
-msgstr "显示/隐藏服务器"
+msgstr ""
 
 msgid "Post Status"
-msgstr "文章状态"
+msgstr ""
 
 msgid "Latest Episode"
-msgstr "最新剧集"
+msgstr ""
 
 msgid "Post Type"
-msgstr "文章类型"
+msgstr ""
 
 msgid "Actions"
-msgstr "操作"
+msgstr ""
 
 msgid "Mass Import Episode"
-msgstr "批量导入剧集"
+msgstr ""
 
 msgid "Add Episode Server"
-msgstr "添加剧集服务器"
+msgstr ""
 
 msgid "Edit Movie Details"
-msgstr "编辑电影详情"
+msgstr ""
 
 msgid "Choose Server Hide"
-msgstr "选择服务器隐藏"
+msgstr ""
 
 msgid "Choose A Server"
-msgstr "选择一个服务器"
+msgstr ""
 
 msgid "Publish"
-msgstr "发布"
+msgstr ""
 
 msgid "Completed"
-msgstr "已完成"
+msgstr ""
 
 msgid "Copyright infringement!"
-msgstr "版权侵犯！"
+msgstr ""
 
 msgid "Select Filter Field"
-msgstr "选择过滤字段"
+msgstr ""
 
 msgid "Enable/Disable Movie Filtering"
-msgstr "启用/禁用电影过滤"
+msgstr ""
 
 msgid "On/Off Button Player"
-msgstr "开启/关闭按钮播放器"
+msgstr ""
 
 msgid "Setting Button Player"
-msgstr "设置按钮播放器"
+msgstr ""
 
 msgid "Button Player Postion"
-msgstr "按钮播放器位置"
+msgstr ""
 
 msgid "Left"
-msgstr "左"
+msgstr ""
 
 msgid "Right"
-msgstr "右"
+msgstr ""
 
 msgid "Center"
-msgstr "居中"
+msgstr ""
 
 msgid "Select Button Player"
-msgstr "选择按钮播放器"
+msgstr ""
 
 msgid "Views"
-msgstr "观看次数"
+msgstr ""
 
 msgid "Next & Prev"
-msgstr "下一集 & 上一集"
+msgstr ""
 
 msgid "Auto Next"
-msgstr "自动播放下一集"
+msgstr ""
 
 msgid "Expand"
-msgstr "展开"
+msgstr ""
 
 msgid "Light"
-msgstr "光亮"
+msgstr ""
 
 msgid "Report"
-msgstr "举报"
+msgstr ""
 
 msgid "Like & DisLike"
-msgstr "喜欢 & 不喜欢"
+msgstr ""
 
-msgid "For Auto Next, Next & Previous Only Works with Series. Expand and Collapse only works when there is a Sidebar."
-msgstr "自动播放下一集，上一集仅适用于系列。展开和折叠仅在有侧边栏时有效。"
+msgid ""
+"For Auto Next, Next & Previous Only Works with Series. Expand and Collapse "
+"only works when there is a Sidebar."
+msgstr ""
 
 msgid "Enable Find Episodes"
-msgstr "启用查找剧集"
+msgstr ""
 
 msgid "Only Shows With Series. Not Shows With Movies"
-msgstr "仅显示系列剧集，不显示电影"
+msgstr ""
 
 msgid "Using Ajax for Episodes"
-msgstr "使用Ajax加载剧集"
+msgstr ""
 
 msgid "Select the style to display the episode list"
-msgstr "选择显示剧集列表的样式"
+msgstr ""
 
 msgid "Episode pages show at most"
-msgstr "每页显示最多剧集数"
+msgstr ""
 
 msgid "The number of episodes displayed on the page"
-msgstr "页面上显示的剧集数量"
+msgstr ""
 
 msgid "Watch Button"
-msgstr "观看按钮"
+msgstr ""
 
 msgid "First Episode"
-msgstr "第一集"
+msgstr ""
 
 msgid "Last Episode"
-msgstr "最后一集"
+msgstr ""
 
 msgid "Episode order"
-msgstr "剧集顺序"
+msgstr ""
 
 msgid "ASC"
-msgstr "升序"
+msgstr ""
 
 msgid "DESC"
-msgstr "降序"
+msgstr ""
 
 msgid "Episode Options"
-msgstr "剧集选项"
+msgstr ""
 
 msgid "Default Episode Name"
-msgstr "默认剧集名称"
+msgstr ""
 
 msgid "SEO Title (Page movie info)"
-msgstr "SEO标题（页面电影信息）"
+msgstr ""
 
 msgid "URL Watch Page"
-msgstr "观看页面URL"
+msgstr ""
 
 msgid "Accept"
-msgstr "接受"
+msgstr ""
 
 msgid "Film Title"
-msgstr "电影标题"
+msgstr ""
 
 msgid "Film Released"
-msgstr "电影上映"
+msgstr ""
 
 msgid "Film Duration"
-msgstr "电影时长"
+msgstr ""
 
 msgid "Film Quality"
-msgstr "电影质量"
+msgstr ""
 
 msgid "Film Episode"
-msgstr "电影剧集"
+msgstr ""
 
 msgid "Home Url"
-msgstr "主页URL"
+msgstr ""
 
 msgid ".html"
-msgstr ".html"
+msgstr ""
 
 msgid "Film Server"
-msgstr "电影服务器"
+msgstr ""
 
 msgid "Auto config Rank Math"
-msgstr "自动配置Rank Math"
+msgstr ""
 
 msgid "JWPlayer Settings"
-msgstr "JWPlayer设置"
+msgstr ""
 
 msgid "Title Adult"
-msgstr "成人标题"
+msgstr ""
 
 msgid "Adult Content Info"
-msgstr "成人内容信息"
+msgstr ""
 
 msgid "All Options"
-msgstr "所有选项"
+msgstr ""
 
 msgid "Sort By"
-msgstr "排序方式"
-
-msgid "Background Button color"
-msgstr "按钮背景色"
+msgstr ""
 
 msgid "Text Button color"
-msgstr "文本按钮颜色"
+msgstr ""
 
 msgid "Showing old episodes manager"
-msgstr "显示旧剧集管理器"
+msgstr ""
 
 msgid "No posts selected"
-msgstr "未选择文章"
+msgstr ""
 
 msgid "Are you sure you want to delete the selected posts?"
-msgstr "您确定要删除所选的文章吗？"
+msgstr ""
 
 msgid "Cache Manager"
-msgstr "缓存管理"
+msgstr ""
 
 msgid "Total Cache"
-msgstr "总缓存"
+msgstr ""
 
 msgid "Cache Empty!"
-msgstr "缓存为空！"
+msgstr ""
 
 msgid "Delete All Cache"
-msgstr "删除所有缓存"
+msgstr ""
 
 msgid "Issues"
-msgstr "问题"
+msgstr ""
 
-msgid "Add one entry per line. These issues will appear in the form of a checkbox."
-msgstr "每行添加一个条目。这些问题将以复选框的形式出现。"
+msgid ""
+"Add one entry per line. These issues will appear in the form of a checkbox."
+msgstr ""
 
 msgid "Reporter"
-msgstr "报告者"
+msgstr ""
 
 msgid "Time"
-msgstr "时间"
+msgstr ""
 
 msgid "Remove"
-msgstr "移除"
+msgstr ""
 
 msgid "Broken Movie"
-msgstr "损坏的电影"
+msgstr ""
 
 msgid "List Broken Movie"
-msgstr "列出损坏的电影"
+msgstr ""
 
 msgid "Delete All"
-msgstr "删除所有"
+msgstr ""
 
 msgid "Mark As Resolved"
-msgstr "标记为已解决"
+msgstr ""
 
 msgid "Auto Report"
-msgstr "自动报告"
+msgstr ""
 
-msgid "If using Ajax, when clicking on the episode list, the page will not reload"
-msgstr "如果使用Ajax，点击剧集列表时页面不会重新加载"
+msgid ""
+"If using Ajax, when clicking on the episode list, the page will not reload"
+msgstr ""
 
 msgid "For the last option it only applies to using the XXX theme"
-msgstr "最后一个选项仅适用于使用XXX主题"
+msgstr ""
 
 msgid "Like"
-msgstr "喜欢"
+msgstr ""
 
 msgid "Reply"
-msgstr "回复"
+msgstr ""
 
 msgid "less than 1 second ago"
-msgstr "不到1秒前"
+msgstr ""
 
 msgid "year ago"
-msgstr "一年前"
+msgstr ""
 
 msgid "years ago"
-msgstr "年前"
+msgstr ""
 
 msgid "month ago"
-msgstr "一个月前"
+msgstr ""
 
 msgid "months ago"
-msgstr "个月前"
+msgstr ""
 
 msgid "day ago"
-msgstr "一天前"
+msgstr ""
 
 msgid "days ago"
-msgstr "天前"
+msgstr ""
 
 msgid "hour ago"
-msgstr "一小时前"
+msgstr ""
 
 msgid "hours ago"
-msgstr "小时前"
+msgstr ""
 
 msgid "minute ago"
-msgstr "一分钟前"
+msgstr ""
 
 msgid "minutes ago"
-msgstr "分钟前"
+msgstr ""
 
 msgid "second ago"
-msgstr "一秒钟前"
+msgstr ""
 
 msgid "seconds ago"
-msgstr "秒前"
+msgstr ""
 
 msgid "Settings Comment"
-msgstr "评论设置"
+msgstr ""
 
 msgid "Enable Comment"
-msgstr "启用评论"
+msgstr ""
 
 msgid "Select Comments"
-msgstr "选择评论"
+msgstr ""
 
 msgid "Comments"
-msgstr "评论"
+msgstr ""
 
 msgid "Your Name"
-msgstr "你的名字"
+msgstr ""
 
 msgid "Enter Content"
-msgstr "输入内容"
+msgstr ""
 
 msgid "List Comments"
-msgstr "评论列表"
+msgstr ""
 
 msgid "See more"
-msgstr "查看更多"
+msgstr ""
 
 msgid "Disqus Comments"
-msgstr "Disqus评论"
+msgstr ""
 
 msgid "Facebook Comment"
-msgstr "Facebook评论"
+msgstr ""
 
 msgid "System Comment"
-msgstr "系统评论"
+msgstr ""
 
 msgid "Facebook settings"
-msgstr "Facebook设置"
+msgstr ""
 
-msgid "Facebook Apps ID"
-msgstr "Facebook应用ID"
-
-msgid "If This Value Does Not Exist . Facebook Comments and Like and Share Buttons Will Not Work"
-msgstr "如果此值不存在，Facebook评论、点赞和分享按钮将无法工作"
+msgid ""
+"If This Value Does Not Exist . Facebook Comments and Like and Share Buttons "
+"Will Not Work"
+msgstr ""
 
 msgid "Number of comment to show"
-msgstr "显示评论数量"
+msgstr ""
 
 msgid "The number of comments to show by default. The minimum value is 1."
-msgstr "默认显示的评论数量。最小值为1。"
+msgstr ""
 
 msgid "Order by"
-msgstr "排序方式"
+msgstr ""
 
 msgid "Reverse time"
-msgstr "时间倒序"
+msgstr ""
 
 msgid "Social"
-msgstr "社交"
+msgstr ""
 
-msgid "The order to use when displaying comments. Can be \"social\", \"reverse_time\", or \"time\". The different order types are explained in the FAQ"
-msgstr "显示评论时使用的排序方式。可以是\"social\"、\"reverse_time\"或\"time\"。不同的排序类型在FAQ中有解释"
-
-msgid "Disqus Shortname"
-msgstr "Disqus短名称"
+msgid ""
+"The order to use when displaying comments. Can be \"social\", "
+"\"reverse_time\", or \"time\". The different order types are explained in "
+"the FAQ"
+msgstr ""
 
 msgid "a few seconds ago"
-msgstr "几秒钟前"
+msgstr ""
 
 msgid "Only Works With Themes That Have Filters"
-msgstr "仅适用于具有过滤器的主题"
+msgstr ""
 
 msgid "Dislikes"
-msgstr "不喜欢"
+msgstr ""
 
 msgid "Likes"
-msgstr "喜欢"
+msgstr ""
 
 msgid "Percentage"
-msgstr "百分比"
+msgstr ""
 
 msgid "You reaction this post."
-msgstr "您对此文章的反应。"
+msgstr ""
 
 msgid "Your reaction has been recorded."
-msgstr "您的反应已被记录。"
+msgstr ""
 
 msgid "Prev EP"
-msgstr "上一集"
+msgstr ""
 
 msgid "Next EP"
-msgstr "下一集"
+msgstr ""
 
 msgid "Light Off"
-msgstr "关闭灯光"
+msgstr ""
 
 msgid "Light On"
-msgstr "开启灯光"
+msgstr ""
 
 msgid "Background Button Color"
-msgstr "按钮背景颜色"
+msgstr ""
 
-msgid "Text Button Color"
-msgstr "文本按钮颜色"
-
-msgid "If you do not use a background color, you can enter the value: <b>transparent</b>"
-msgstr "如果不使用背景颜色，可以输入值：<b>transparent</b>"
+msgid ""
+"If you do not use a background color, you can enter the value: "
+"<b>transparent</b>"
+msgstr ""
 
 msgid "Button Border Radius"
-msgstr "按钮边框半径"
+msgstr ""
 
 msgid "Use px value. If not rounded leave value 0"
-msgstr "使用px值。如果不圆角，留值为0"
+msgstr ""
 
 msgid "Color Settings"
-msgstr "颜色设置"
+msgstr ""
 
 msgid "Backup Server Color"
-msgstr "备用服务器颜色"
+msgstr ""
 
 msgid "Background Backup Server"
-msgstr "备用服务器背景"
+msgstr ""
 
 msgid "Text Color Backup Server"
-msgstr "备用服务器文本颜色"
+msgstr ""
 
 msgid "Change Server"
-msgstr "更换服务器"
+msgstr ""
 
-msgid "Episode Hover Background Color"
-msgstr "剧集悬停背景色"
+msgid "Episode Hover Backgroud Color"
+msgstr ""
 
-msgid "Episode Background Color"
-msgstr "剧集背景色"
+msgid "Episode Backgroud Color"
+msgstr ""
 
-msgid "Background List Color"
-msgstr "列表背景色"
+msgid "Backgroud List Color"
+msgstr ""
 
 msgid "Hide Change Server Button"
-msgstr "隐藏更换服务器按钮"
+msgstr ""
 
 msgid "Text Active Backup Server"
-msgstr "文本激活备份服务器"
+msgstr ""
 
 msgid "List Episode Color"
-msgstr "剧集列表颜色"
+msgstr ""
 
 msgid "Color Comments"
-msgstr "评论颜色"
+msgstr ""
 
-msgid "Background Color Comments"
-msgstr "评论背景颜色"
-
-msgid "You can add your own emojis by typing in the box above with the format emoji 1|emoji 2..."
-msgstr "您可以在上面的方框中输入 emoji 1|emoji 2 格式，添加自己的表情符号..."
+msgid "Backgroud Color Comments"
+msgstr ""
 
 msgid "Import Episode To"
-msgstr "导入剧集到"
+msgstr ""
 
 msgid "Notification/Note"
-msgstr "通知/备注"
-
-msgid "Showtime Movies"
-msgstr "电影放映时间"
+msgstr ""
 
 msgid "Add to One Slide (Slider one by one)"
-msgstr "添加到一个幻灯片（逐个滑动）"
+msgstr ""
 
 msgid "Add to Carousel Slider"
-msgstr "添加到轮播滑块"
+msgstr ""
 
 msgid "Paging the episode list"
-msgstr "分页剧集列表"
+msgstr ""
 
 msgid "Edit Post Info"
-msgstr "编辑帖子信息"
+msgstr ""
 
 msgid "Add Subtitle"
-msgstr "添加字幕"
+msgstr ""
 
 msgid "Subtitle Label"
-msgstr "字幕标签"
+msgstr ""
 
 msgid "MP4 File"
-msgstr "MP4 文件"
+msgstr ""
 
 msgid "New Server Name"
-msgstr "新服务器名称"
+msgstr ""
 
 msgid "Current Servers"
-msgstr "当前服务器"
+msgstr ""
 
 msgid "Episode URL"
-msgstr "剧集链接"
+msgstr ""
 
 msgid "Episode Type support list:"
-msgstr "剧集类型支持列表："
+msgstr ""
 
 msgid "Add New Server"
-msgstr "添加新服务器"
+msgstr ""
 
 msgid "Reload this page"
-msgstr "重新加载此页面"
+msgstr ""
 
 msgid "Example"
-msgstr "示例"
+msgstr ""
 
 msgid "Only main episode link"
-msgstr "仅主剧集链接"
+msgstr ""
 
 msgid "Only main episode link and subtitle, not alternate link fallback"
-msgstr "仅主剧集链接和字幕，不包括备用链接回退"
+msgstr ""
 
 msgid "Only main episode link and alternate link fallback, not subtitles"
-msgstr "仅主剧集链接和备用链接回退，不包括字幕"
+msgstr ""
 
 msgid "Full of parameters"
-msgstr "参数完整"
+msgstr ""
 
 msgid "Choose Server"
-msgstr "选择服务器"
+msgstr ""
 
 msgid "Alternate Server"
-msgstr "备用服务器"
+msgstr ""
 
 msgid "Subtitle"
-msgstr "字幕"
+msgstr ""
 
 msgid "Autoplay next episode, please wait..."
-msgstr "自动播放下一集，请稍等..."
+msgstr ""
 
 msgid "Automatically resumes your videos from where you played them last at"
-msgstr "自动从上次播放位置恢复视频"
+msgstr ""
 
 msgid "Playback from the beginning?"
-msgstr "从头开始播放？"
+msgstr ""
 
 msgid "Playback"
-msgstr "播放"
+msgstr ""
 
 msgid "Continue watching"
-msgstr "继续观看"
+msgstr ""
 
 msgid "EXIT"
-msgstr "退出"
+msgstr ""
 
 msgid "18+ ENTER"
-msgstr "18+ 进入"
+msgstr ""
 
 msgid "Your name and message is required (*)"
-msgstr "需要您的姓名和留言（*）"
+msgstr ""
 
 msgid "Your message"
-msgstr "您的留言"
+msgstr ""
 
-msgid "Thank you for sending error messages. We will fix the problem in the shortest time possible."
-msgstr "感谢您发送错误信息，我们将尽快修复问题。"
+msgid ""
+"Thank you for sending error messages. We will fix the problem in the "
+"shortest time possible."
+msgstr ""
 
 msgid "Name or Email"
-msgstr "姓名或邮箱"
+msgstr ""
 
 msgid "End of episode list"
-msgstr "剧集列表结束"
+msgstr ""
 
 msgid "First of episode list"
-msgstr "剧集列表开始"
+msgstr ""
 
 msgid "Failed to remove items!"
-msgstr "删除项目失败！"
+msgstr ""
 
 msgid "All items removed successfully!"
-msgstr "所有项目已成功删除！"
+msgstr ""
 
 msgid "Marked as resolved successfully!"
-msgstr "已成功标记为已解决！"
+msgstr ""
 
 msgid "Failed to mark as resolved!"
-msgstr "标记为已解决失败！"
+msgstr ""
 
 msgid "Item removed successfully!"
-msgstr "项目已成功删除！"
+msgstr ""
 
 msgid "Failed to remove item!"
-msgstr "删除项目失败！"
+msgstr ""
 
 msgid "An error occurred while removing the item."
-msgstr "删除项目时发生错误。"
+msgstr ""
 
 msgid "An error occurred while removing all items."
-msgstr "删除所有项目时发生错误。"
+msgstr ""
 
-msgid "Invalid structure. Each line must have exactly 3 parts separated by the \"|\" character."
-msgstr "结构无效。每一行必须有 3 个部分，且使用 \"|\" 字符分隔。"
+msgid ""
+"Invalid structure. Each line must have exactly 3 parts separated by the \"|"
+"\" character."
+msgstr ""
 
 msgid "There are no new episodes yet or this is the last episode!"
-msgstr "还没有新剧集，或者这是最后一集！"
+msgstr ""
 
 msgid "Cache Movies"
-msgstr "缓存电影"
+msgstr ""
 
 msgid "Empty!"
-msgstr "空的！"
+msgstr ""
 
 msgid "HD, FULL HD..."
-msgstr "高清, 全高清..."
+msgstr ""
 
 msgid "Manage Episode"
-msgstr "管理剧集"
+msgstr ""
 
 msgid "Please publish post before you can edit episodes"
-msgstr "请先发布帖子，然后才能编辑剧集"
+msgstr ""
 
-msgid "Displays the old episodes manager in the post editor"
-msgstr "在帖子编辑器中显示旧剧集管理器"
-
-msgid "You Must Provide Full Parameters: TITLE, SV, EP, Otherwise There Will Be An Error"
-msgstr "您必须提供完整的参数：TITLE, SV, EP，否则会出现错误"
+msgid ""
+"You Must Provide Full Parameters: TITLE, SV, EP, Otherwise There Will Be An "
+"Error"
+msgstr ""
 
 msgid "Submit Report"
-msgstr "提交报告"
+msgstr ""
 
 msgid "Message"
-msgstr "消息"
+msgstr ""
 
 msgid "On Going"
-msgstr "进行中"
+msgstr ""
 
 msgid "Theater Movies"
-msgstr "影院电影"
+msgstr ""
 
 msgid "Background Color"
-msgstr "背景色"
+msgstr ""
 
 msgid "Body Background"
-msgstr "主体背景"
+msgstr ""
 
 msgid "Color Button Player"
-msgstr "播放器按钮颜色"
+msgstr ""
 
 msgid "Find Episodes Quickly"
-msgstr "快速查找剧集"
+msgstr ""
 
-msgid "Background Color Find Episodes"
-msgstr "查找剧集背景色"
+msgid "Backgroud Color Find Episodes"
+msgstr ""
 
 msgid "Text Color Find Episodes"
-msgstr "查找剧集文本颜色"
+msgstr ""
 
 msgid "Border Color Find Episodes"
-msgstr "查找剧集边框颜色"
+msgstr ""
 
 msgid "Episode Server Text Color"
-msgstr "剧集服务器文本颜色"
+msgstr ""
 
 msgid "Hover Background Color"
-msgstr "悬停背景色"
+msgstr ""
 
-msgid "Background Active Backup Server"
-msgstr "激活备份服务器背景色"
+msgid "Backgroud Active Backup Server"
+msgstr ""
 
 msgid "Border Backup Server"
-msgstr "备份服务器边框"
+msgstr ""
 
 msgid "Hover Backup Server"
-msgstr "备份服务器悬停"
+msgstr ""
 
 msgid "Adult Content"
-msgstr "成人内容"
-
-msgid "Close"
-msgstr "关闭"
+msgstr ""
 
 msgid "Forward 10 Seconds"
-msgstr "快进 10 秒"
+msgstr ""
 
 msgid "Rewind 10 Seconds"
-msgstr "倒退 10 秒"
+msgstr ""
 
 msgid "AdBlock Detected!"
-msgstr "检测到广告拦截器！"
+msgstr ""
 
 msgid "Please disable AdBlock to continue watching."
-msgstr "请禁用广告拦截器继续观看。"
+msgstr ""
 
 msgid "Detect AdBlocker"
-msgstr "检测广告拦截器"
+msgstr ""
 
 msgid "Auto detects ad blockers and displays a notifications to users"
-msgstr "自动检测广告拦截器并向用户显示通知"
+msgstr ""
 
 msgid "Ex: \"Users please remove ad blocker!\""
-msgstr "例如：\"用户，请禁用广告拦截器！\""
+msgstr ""
 
 msgid "Total Likes"
-msgstr "总赞数"
+msgstr ""
 
 msgid "Total Dislikes"
-msgstr "完全不喜欢"
+msgstr ""
 
 msgid "Change Label Movies"
-msgstr "更改电影标签"
+msgstr ""
 
 msgid "Select Label TV Series : Completed"
-msgstr "选择电视剧标签：已完成"
+msgstr ""
 
 msgid "Select Label TV Series : Ongoing"
-msgstr "选择电视剧标签：正在进行"
+msgstr ""
 
 msgid "Select Label Movies"
-msgstr "选择电影标签"
+msgstr ""
 
 msgid "Full {quality}"
-msgstr "完整 {quality}"
+msgstr ""
 
 msgid "Episode {episode}/{total_episode}"
-msgstr "剧集 {episode}/{total_episode}"
+msgstr ""
 
 msgid "Completed ({episode}/{total_episode})"
-msgstr "已完成 ({episode}/{total_episode})"
+msgstr ""
 
 msgid "Adblock Notices"
-msgstr "广告拦截通知"
+msgstr ""
 
 msgid "Find episodes"
-msgstr "查找剧集"
+msgstr ""
 
 msgid "Color 5 Latest Episode"
-msgstr "最近5集的颜色"
+msgstr ""
 
 msgid "Text Color Button"
-msgstr "按钮文字颜色"
+msgstr ""
 
 msgid "Backgroud Color Button"
-msgstr "按钮背景颜色"
+msgstr ""
 
 msgid "License Manager"
-msgstr "许可证管理器"
+msgstr ""
+
+msgid "Theme License"
+msgstr ""
+
+msgid "Enter your theme license key."
+msgstr ""
+
+msgid "License Key"
+msgstr ""
+
+msgid "License Action"
+msgstr ""
+
+msgid "Deactivate License"
+msgstr ""
+
+msgid "Activate License"
+msgstr ""
+
+msgid "License status is unknown."
+msgstr ""
+
+msgid "Renew?"
+msgstr ""
+
+msgid "unlimited"
+msgstr ""
+
+msgid "License key is active."
+msgstr ""
+
+msgid "Expires %s."
+msgstr ""
+
+msgid "Lifetime License."
+msgstr ""
+
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+msgid "License key expired %s."
+msgstr ""
+
+msgid "License key has expired."
+msgstr ""
+
+msgid "License keys do not match."
+msgstr ""
+
+msgid "License is inactive."
+msgstr ""
+
+msgid "License key is disabled."
+msgstr ""
+
+msgid "Site is inactive."
+msgstr ""
+
+msgid ""
+"Updating this theme will lose any customizations you have made. \"Cancel\" "
+"to stop, \"OK\" to update."
+msgstr ""
+
+msgid ""
+"<strong>%1\\$s %2\\$s</strong> is available. <a href=\"%3\\$s\" "
+"class=\"thickbox\" title=\"%4s\">Check out what's new</a> or <a href=\"%5\\"
+"$s\"%6\\$s>update now</a>."
+msgstr ""
+
+msgid "License Details"
+msgstr ""
+
+msgid "Status:"
+msgstr ""
+
+msgid "License Key:"
+msgstr ""
+
+msgid "Email:"
+msgstr ""
+
+msgid "Expiration Date:"
+msgstr ""
+
+msgid "Lifetime License"
+msgstr ""
+
+msgid "License Limit:"
+msgstr ""
+
+msgid "You have %s/%s sites activated"
+msgstr ""
+
+msgid "Update License"
+msgstr ""
+
+msgid ""
+"If you wish to use this license on a different server, deactivate it first."
+msgstr ""
+
+msgid "License Code"
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Import Page/Menu/Widgets Template"
+msgstr ""
+
+msgid "Header"
+msgstr ""
+
+msgid "Footer"
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid "Import/Export Templates"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Settings imported. This is just an example. No data imported."
+msgstr ""
+
+msgid "Custom description for theme options"
+msgstr ""
+
+msgid "Pages"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "Widgets"
+msgstr ""
+
+msgid "Classic Editor"
+msgstr ""
+
+msgid "Classic Widgets"
+msgstr ""
+
+msgid "Additional CSS"
+msgstr ""
+
+msgid "Font size"
+msgstr ""
+
+msgid "Font Family"
+msgstr ""
+
+msgid "Show/Hide Admin Bar"
+msgstr ""
+
+msgid ""
+"Add your own CSS code here to customize the appearance and layout of your "
+"site."
+msgstr ""
+
+msgid ""
+"This option disables the new Gutenberg Editor (aka Block Editor) and "
+"replaces it with the Classic Editor"
+msgstr ""
+
+msgid "This Option Will Return Widgets to Classic Mode"
+msgstr ""
+
+msgid "Show Or Hide Admin Bar From Frontend Theme"
+msgstr ""
+
+msgid "Displays the old episodes manager in the post editor"
+msgstr ""
+
+msgid "Google Analytics"
+msgstr ""
+
+msgid "Meta verification"
+msgstr ""
+
+msgid "Other Scripts Header"
+msgstr ""
+
+msgid "Paste here your Google Analytics following code."
+msgstr ""
+
+msgid ""
+"Paste here your meta codes (for example to verify your domain from a third "
+"party like Google Suite, etc.)"
+msgstr ""
+
+msgid "Hide required plugins notice"
+msgstr ""
+
+msgid "This Option Will Hide Notifications About Required Plugin Installation"
+msgstr ""
+
+msgid "Footer Scripts"
+msgstr ""
+
+msgid ""
+"Enter the codes which you need to place in your footer. Tracking Code or any "
+"other JavaScript. (ex: Google Analytics, Clicky, Woopra, Histats, etc.)."
+msgstr ""
+
+msgid "Footer About Text"
+msgstr ""
+
+msgid "Copyright Text"
+msgstr ""
+
+msgid ""
+"You can change or remove our link from footer and use your own custom text. "
+"(Link back is always appreciated)"
+msgstr ""
+
+msgid "Create Page"
+msgstr ""
+
+msgid "Create Menu"
+msgstr ""
+
+msgid "Create Widgets"
+msgstr ""
+
+msgid ""
+"Create <a href=\"%s\" target=\"_blank\">page</a> like on <a href=\"%s\" "
+"target=\"_blank\">%s</a> demo."
+msgstr ""
+
+msgid ""
+"Create a <a href=\"%s\" target=\"_blank\">menu</a> like on <a href=\"%s\" "
+"target=\"_blank\">%s</a> demo."
+msgstr ""
+
+msgid ""
+"Create <a href=\"%s\" target=\"_blank\">widgets</a> like on <a href=\"%s\" "
+"target=\"_blank\">%s</a> demo."
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Download and make a backup of your options."
+msgstr ""
+
+msgid "This action will create a page in your admin."
+msgstr ""
+
+msgid "This action will create a menu in your admin."
+msgstr ""
+
+msgid "This action will integrate video block widgets in your admin."
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid ""
+"Select a Niche image to import options from a niche. Then click on the "
+"Import button."
+msgstr ""
+
+msgid ""
+"Theme options will be imported in order to change the appearance of your "
+"site."
+msgstr ""
+
+msgid ""
+"Select \"From file\" to import options from a json backup file. Then click "
+"on the Import button."
+msgstr ""
+
+msgid ""
+"You can export a json backup file in the Export section of this theme "
+"options."
+msgstr ""
+
+msgid "Theme Options"
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Logs"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Show logo on both JWPlayer and embedded iframe player"
+msgstr ""
+
+msgid "Custom Ads Position"
+msgstr ""
+
+msgid "Ads Configuration"
+msgstr ""
+
+msgid "You can add ads code for desktop and mobile devices"
+msgstr ""
+
+msgid "ADS Desktop"
+msgstr ""
+
+msgid "Popup Ads Code Desktop"
+msgstr ""
+
+msgid "Header Ads Code Desktop"
+msgstr ""
+
+msgid "Footer Ads Code Desktop"
+msgstr ""
+
+msgid "Top Player Ads Code Desktop"
+msgstr ""
+
+msgid "Under Player Ads Desktop"
+msgstr ""
+
+msgid "ADS Mobile"
+msgstr ""
+
+msgid "Header Ads Code Mobile"
+msgstr ""
+
+msgid "Footer Ads Code Mobile"
+msgstr ""
+
+msgid "Top Player Ads Code Mobile"
+msgstr ""
+
+msgid "Under Player Ads Mobile"
+msgstr ""
+
+msgid "Custom JWPlayer"
+msgstr ""
+
+msgid "JWPlayer Configuration"
+msgstr ""
+
+msgid "Show Ads & Banner"
+msgstr ""
+
+msgid ""
+"This setting only applies to JWPlayer: Auto hide the logo when the mouse is "
+"not over the player."
+msgstr ""
+
+msgid "Logo Player Configuration"
+msgstr ""
+
+msgid "Show Logo Player"
+msgstr ""
+
+msgid "Player & ADS"
+msgstr ""
+
+msgid "Search Slug"
+msgstr ""
+
+msgid "The slug of the https://domain.com/search/quentin-tarantino page"
+msgstr ""
+
+msgid "The slug of the %s page"
+msgstr ""
+
+msgid "Tags Slug"
+msgstr ""
+
+msgid "Director Slug"
+msgstr ""
+
+msgid "Actor Slug"
+msgstr ""
+
+msgid "Category Slug"
+msgstr ""
+
+msgid "Custom Slug"
+msgstr ""
+
+msgid "Select Type Watch Page"
+msgstr ""
+
+msgid "Using Watch and Info Pages"
+msgstr ""
+
+msgid "Use Single Original"
+msgstr ""
+
+msgid "Default No Image"
+msgstr ""
+
+msgid "Add Image"
+msgstr ""
+
+msgid "Remove Image"
+msgstr ""
+
+msgid "Import Demo"
+msgstr ""
+
+msgid "Logo Image"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Use an image instead of text for the logo"
+msgstr ""
+
+msgid "Use Logo Image"
+msgstr ""
+
+msgid "Themes Options"
+msgstr ""
+
+msgid "Enable to show or hide the admin bar."
+msgstr ""
+
+msgid "Display All PHP Errors"
+msgstr ""
+
+msgid "Disable XML-RPC"
+msgstr ""
+
+msgid "Disable XML-RPC to prevent brute force attacks"
+msgstr ""
+
+msgid "Block Bad Query"
+msgstr ""
+
+msgid "Block bad query to prevent SQL injection"
+msgstr ""
+
+msgid "Disable Emoji"
+msgstr ""
+
+msgid "Disable Emoji to prevent loading extra files"
+msgstr ""
+
+msgid "Disable REST API"
+msgstr ""
+
+msgid "Disable REST API to prevent unauthorized access"
+msgstr ""
+
+msgid "Disable WP Cron"
+msgstr ""
+
+msgid "Disable WP Cron to prevent loading extra files"
+msgstr ""
+
+msgid "Disable WP Embed"
+msgstr ""
+
+msgid "Disable WP Embed to prevent loading extra files"
+msgstr ""
+
+msgid "Disable Application Passwords"
+msgstr ""
+
+msgid "Disable Application Passwords to prevent unauthorized access"
+msgstr ""
+
+msgid "Disable F12 Key, Debug tools in Browser"
+msgstr ""
+
+msgid "URL to redirect if debug tool is opened"
+msgstr ""
+
+msgid ""
+"URL will redirect to after pressing F12 (Default is: https://haunytb.com)"
+msgstr ""
+
+msgid "Disable RSS Feed"
+msgstr ""
+
+msgid "Disable RSS Feed to prevent loading extra files"
+msgstr ""
+
+msgid "Disable Block Inline CSS"
+msgstr ""
+
+msgid "Disable Block Inline CSS to prevent loading extra files"
+msgstr ""
+
+msgid "Disable Global Styles"
+msgstr ""
+
+msgid "Disable Global Styles to prevent loading extra files"
+msgstr ""
+
+msgid "Disable Classic Theme Styles"
+msgstr ""
+
+msgid "Disable Classic Theme Styles to prevent loading extra files"
+msgstr ""
+
+msgid "Apple touch icon"
+msgstr ""
+
+msgid ""
+"Upload a 152 x 152 px image that will represent your website's touch icon "
+"for iOS 2.0+ and Android 2.1+ devices."
+msgstr ""
+
+msgid "Removing the redirect after changing a post or page's slug"
+msgstr ""
+
+msgid "Enable to remove the redirect after changing a post or page's slug."
+msgstr ""
+
+msgid "No feed available, please visit our homepage!"
+msgstr ""
+
+msgid "Only authenticated users can access the REST API."
+msgstr ""
+
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Hide the notice for required plugins in the admin area."
+msgstr ""
+
+msgid "Select the comment system you want to use."
+msgstr ""
+
+msgid "Enable to allow users to comment on your site."
+msgstr ""
+
+msgid "Facebook Apps ID"
+msgstr ""
+
+msgid ""
+"The shortname for your Disqus account. This is used to identify your Disqus "
+"account and is required for the Disqus comment system to work."
+msgstr ""
+
+msgid "Disqus Shortname"
+msgstr ""
+
+msgid ""
+"You can add your own emojis by typing in the box above with the format emoji "
+"1|emoji 2..."
+msgstr ""
+
+msgid "Emojis Comments"
+msgstr ""
+
+msgid "Custom Comment"
+msgstr ""

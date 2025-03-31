@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-06 02:39+0700\n"
+"POT-Creation-Date: 2025-04-01 02:39+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 msgid "Label"
 msgstr ""
@@ -141,13 +141,7 @@ msgstr ""
 msgid "Single movie"
 msgstr ""
 
-msgid "TV series"
-msgstr ""
-
 msgid "TV show"
-msgstr ""
-
-msgid "Theater movie"
 msgstr ""
 
 msgid "Ongoing"
@@ -186,20 +180,13 @@ msgstr ""
 msgid "Auto config Yoast SEO"
 msgstr ""
 
-msgid ""
-"Display custom title on the info page (including episode, release, "
-"quality...)"
+msgid "Display custom title on the info page (including episode, release, quality...)"
 msgstr ""
 
 msgid "Remove the categories prefix"
 msgstr ""
 
-msgid ""
-"Category URLs in WordPress contain a prefix, usually <strong>/category/</"
-"strong>, this feature removes that prefix, for categories only."
-msgstr ""
-
-msgid "SEO title (Page movie info)"
+msgid "Category URLs in WordPress contain a prefix, usually <strong>/category/</strong>, this feature removes that prefix, for categories only."
 msgstr ""
 
 msgid "Modify your SEO title by editing it right here"
@@ -214,9 +201,6 @@ msgstr ""
 msgid "Player tabs"
 msgstr ""
 
-msgid "General"
-msgstr ""
-
 msgid "JW Player Basic Settings"
 msgstr ""
 
@@ -226,9 +210,7 @@ msgstr ""
 msgid "Resume Playback"
 msgstr ""
 
-msgid ""
-"Use localStorage to remember where the user left off and resume playback at "
-"the same time offset when revisiting the page."
+msgid "Use localStorage to remember where the user left off and resume playback at the same time offset when revisiting the page."
 msgstr ""
 
 msgid "Auto reset cache"
@@ -282,17 +264,13 @@ msgstr ""
 msgid "Logo File"
 msgstr ""
 
-msgid ""
-"The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /"
-"assets/logo.png). We recommend using 24 bit PNG images with transparency"
+msgid "The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /assets/logo.png). We recommend using 24 bit PNG images with transparency"
 msgstr ""
 
 msgid "Logo link"
 msgstr ""
 
-msgid ""
-"The URL to visit when the watermark image is clicked. Clicking a logo will "
-"have no affect unless this is configured"
+msgid "The URL to visit when the watermark image is clicked. Clicking a logo will have no affect unless this is configured"
 msgstr ""
 
 msgid "Auto hide logo (JWPlayer only)"
@@ -346,17 +324,13 @@ msgstr ""
 msgid "About text"
 msgstr ""
 
-msgid ""
-"Custom text to display in the right-click menu. Can only be set for the "
-"Premium and Ads Editions"
+msgid "Custom text to display in the right-click menu. Can only be set for the Premium and Ads Editions"
 msgstr ""
 
 msgid "About link"
 msgstr ""
 
-msgid ""
-"Custom URL to link to when clicking the right-click menu. Can only be set "
-"for the Premium and Ads Editions"
+msgid "Custom URL to link to when clicking the right-click menu. Can only be set for the Premium and Ads Editions"
 msgstr ""
 
 msgid "Show Ads Vast"
@@ -443,9 +417,6 @@ msgstr ""
 msgid "Formality"
 msgstr ""
 
-msgid "Status"
-msgstr ""
-
 msgid "Poster image URL"
 msgstr ""
 
@@ -521,11 +492,6 @@ msgstr ""
 msgid "Thumbnail URL"
 msgstr ""
 
-msgctxt "Episode type"
-msgid "Episode Types"
-msgstr ""
-
-msgctxt "Episode type"
 msgid "Episode Type"
 msgstr ""
 
@@ -625,11 +591,6 @@ msgstr ""
 msgid "Video tag"
 msgstr ""
 
-msgctxt "taxonomy general name"
-msgid "Status"
-msgstr ""
-
-msgctxt "taxonomy singular name"
 msgid "Status"
 msgstr ""
 
@@ -657,18 +618,10 @@ msgstr ""
 msgid "New Status Name"
 msgstr ""
 
-msgctxt "taxonomy general name"
-msgid "Post options"
-msgstr ""
-
-msgctxt "taxonomy singular name"
 msgid "Post options"
 msgstr ""
 
 msgid "Search option"
-msgstr ""
-
-msgid "All options"
 msgstr ""
 
 msgid "Parent"
@@ -689,9 +642,7 @@ msgstr ""
 msgid "Loading player, please wait..."
 msgstr ""
 
-msgid ""
-"We are unable to find the video you are looking for. There could be several "
-"reasons for this, for example it got removed by the owner!"
+msgid "We are unable to find the video you are looking for. There could be several reasons for this, for example it got removed by the owner!"
 msgstr ""
 
 msgid "This video file cannot be played."
@@ -826,9 +777,7 @@ msgstr ""
 msgid "Like & DisLike"
 msgstr ""
 
-msgid ""
-"For Auto Next, Next & Previous Only Works with Series. Expand and Collapse "
-"only works when there is a Sidebar."
+msgid "For Auto Next, Next & Previous Only Works with Series. Expand and Collapse only works when there is a Sidebar."
 msgstr ""
 
 msgid "Enable Find Episodes"
@@ -924,9 +873,6 @@ msgstr ""
 msgid "Sort By"
 msgstr ""
 
-msgid "Background Button color"
-msgstr ""
-
 msgid "Text Button color"
 msgstr ""
 
@@ -954,8 +900,7 @@ msgstr ""
 msgid "Issues"
 msgstr ""
 
-msgid ""
-"Add one entry per line. These issues will appear in the form of a checkbox."
+msgid "Add one entry per line. These issues will appear in the form of a checkbox."
 msgstr ""
 
 msgid "Reporter"
@@ -982,8 +927,7 @@ msgstr ""
 msgid "Auto Report"
 msgstr ""
 
-msgid ""
-"If using Ajax, when clicking on the episode list, the page will not reload"
+msgid "If using Ajax, when clicking on the episode list, the page will not reload"
 msgstr ""
 
 msgid "For the last option it only applies to using the XXX theme"
@@ -1070,12 +1014,7 @@ msgstr ""
 msgid "Facebook settings"
 msgstr ""
 
-msgid "Facebook Apps ID"
-msgstr ""
-
-msgid ""
-"If This Value Does Not Exist . Facebook Comments and Like and Share Buttons "
-"Will Not Work"
+msgid "If This Value Does Not Exist . Facebook Comments and Like and Share Buttons Will Not Work"
 msgstr ""
 
 msgid "Number of comment to show"
@@ -1093,13 +1032,7 @@ msgstr ""
 msgid "Social"
 msgstr ""
 
-msgid ""
-"The order to use when displaying comments. Can be \"social\", "
-"\"reverse_time\", or \"time\". The different order types are explained in "
-"the FAQ"
-msgstr ""
-
-msgid "Disqus Shortname"
+msgid "The order to use when displaying comments. Can be \"social\", \"reverse_time\", or \"time\". The different order types are explained in the FAQ"
 msgstr ""
 
 msgid "a few seconds ago"
@@ -1138,12 +1071,7 @@ msgstr ""
 msgid "Background Button Color"
 msgstr ""
 
-msgid "Text Button Color"
-msgstr ""
-
-msgid ""
-"If you do not use a background color, you can enter the value: "
-"<b>transparent</b>"
+msgid "If you do not use a background color, you can enter the value: <b>transparent</b>"
 msgstr ""
 
 msgid "Button Border Radius"
@@ -1191,18 +1119,10 @@ msgstr ""
 msgid "Backgroud Color Comments"
 msgstr ""
 
-msgid ""
-"You can add your own emojis by typing in the box above with the format emoji "
-"1|emoji 2..."
-msgstr ""
-
 msgid "Import Episode To"
 msgstr ""
 
 msgid "Notification/Note"
-msgstr ""
-
-msgid "Showtime Movies"
 msgstr ""
 
 msgid "Add to One Slide (Slider one by one)"
@@ -1295,9 +1215,7 @@ msgstr ""
 msgid "Your message"
 msgstr ""
 
-msgid ""
-"Thank you for sending error messages. We will fix the problem in the "
-"shortest time possible."
+msgid "Thank you for sending error messages. We will fix the problem in the shortest time possible."
 msgstr ""
 
 msgid "Name or Email"
@@ -1333,9 +1251,7 @@ msgstr ""
 msgid "An error occurred while removing all items."
 msgstr ""
 
-msgid ""
-"Invalid structure. Each line must have exactly 3 parts separated by the \"|"
-"\" character."
+msgid "Invalid structure. Each line must have exactly 3 parts separated by the \"|\" character."
 msgstr ""
 
 msgid "There are no new episodes yet or this is the last episode!"
@@ -1356,12 +1272,7 @@ msgstr ""
 msgid "Please publish post before you can edit episodes"
 msgstr ""
 
-msgid "Displays the old episodes manager in the post editor"
-msgstr ""
-
-msgid ""
-"You Must Provide Full Parameters: TITLE, SV, EP, Otherwise There Will Be An "
-"Error"
+msgid "You Must Provide Full Parameters: TITLE, SV, EP, Otherwise There Will Be An Error"
 msgstr ""
 
 msgid "Submit Report"
@@ -1413,9 +1324,6 @@ msgid "Hover Backup Server"
 msgstr ""
 
 msgid "Adult Content"
-msgstr ""
-
-msgid "Close"
 msgstr ""
 
 msgid "Forward 10 Seconds"
@@ -1541,13 +1449,10 @@ msgstr ""
 msgid "Site is inactive."
 msgstr ""
 
-msgid "License status is unknown."
-msgstr ""
-
 msgid "Updating this theme will lose any customizations you have made. \"Cancel\" to stop, \"OK\" to update."
 msgstr ""
 
-msgid "<strong>%1\$s %2\$s</strong> is available. <a href=\"%3\$s\" class=\"thickbox\" title=\"%4s\">Check out what's new</a> or <a href=\"%5\$s\"%6\$s>update now</a>."
+msgid "<strong>%1\\$s %2\\$s</strong> is available. <a href=\"%3\\$s\" class=\"thickbox\" title=\"%4s\">Check out what's new</a> or <a href=\"%5\\$s\"%6\\$s>update now</a>."
 msgstr ""
 
 msgid "License Details"
@@ -1575,9 +1480,6 @@ msgid "You have %s/%s sites activated"
 msgstr ""
 
 msgid "Update License"
-msgstr ""
-
-msgid "Deactivate License"
 msgstr ""
 
 msgid "If you wish to use this license on a different server, deactivate it first."
@@ -1640,9 +1542,6 @@ msgstr ""
 msgid "Show/Hide Admin Bar"
 msgstr ""
 
-msgid "Background Color"
-msgstr ""
-
 msgid "Add your own CSS code here to customize the appearance and layout of your site."
 msgstr ""
 
@@ -1673,46 +1572,10 @@ msgstr ""
 msgid "Paste here your meta codes (for example to verify your domain from a third party like Google Suite, etc.)"
 msgstr ""
 
-msgid "Disable XML-RPC"
-msgstr ""
-
-msgid "Disable REST API"
-msgstr ""
-
-msgid "Disable RSS"
-msgstr ""
-
-msgid "Disable Block Inline CSS"
-msgstr ""
-
-msgid "Disable Global Styles"
-msgstr ""
-
-msgid "Disable Oembed"
-msgstr ""
-
-msgid "Disable Emojis"
-msgstr ""
-
-msgid "Block Bad Query"
-msgstr ""
-
-msgid "Disable Application Passwords"
-msgstr ""
-
 msgid "Hide required plugins notice"
 msgstr ""
 
 msgid "This Option Will Hide Notifications About Required Plugin Installation"
-msgstr ""
-
-msgid "Disable F12 Key, Debug tools in Browser"
-msgstr ""
-
-msgid "URL to redirect if debug tool is opened"
-msgstr ""
-
-msgid "URL will redirect to after pressing F12 (Default is: https://haunytb.com)"
 msgstr ""
 
 msgid "Footer Scripts"
@@ -1850,9 +1713,6 @@ msgstr ""
 msgid "This setting only applies to JWPlayer: Auto hide the logo when the mouse is not over the player."
 msgstr ""
 
-msgid "Show logo on both JWPlayer and embedded iframe player"
-msgstr ""
-
 msgid "Logo Player Configuration"
 msgstr ""
 
@@ -1869,9 +1729,6 @@ msgid "The slug of the https://domain.com/search/quentin-tarantino page"
 msgstr ""
 
 msgid "The slug of the %s page"
-msgstr ""
-
-msgid "Search Slug"
 msgstr ""
 
 msgid "Tags Slug"
@@ -1928,3 +1785,131 @@ msgstr ""
 msgid "Enable to show or hide the admin bar."
 msgstr ""
 
+msgid "Display All PHP Errors"
+msgstr ""
+
+msgid "Disable XML-RPC"
+msgstr ""
+
+msgid "Disable XML-RPC to prevent brute force attacks"
+msgstr ""
+
+msgid "Block Bad Query"
+msgstr ""
+
+msgid "Block bad query to prevent SQL injection"
+msgstr ""
+
+msgid "Disable Emoji"
+msgstr ""
+
+msgid "Disable Emoji to prevent loading extra files"
+msgstr ""
+
+msgid "Disable REST API"
+msgstr ""
+
+msgid "Disable REST API to prevent unauthorized access"
+msgstr ""
+
+msgid "Disable WP Cron"
+msgstr ""
+
+msgid "Disable WP Cron to prevent loading extra files"
+msgstr ""
+
+msgid "Disable WP Embed"
+msgstr ""
+
+msgid "Disable WP Embed to prevent loading extra files"
+msgstr ""
+
+msgid "Disable Application Passwords"
+msgstr ""
+
+msgid "Disable Application Passwords to prevent unauthorized access"
+msgstr ""
+
+msgid "Disable F12 Key, Debug tools in Browser"
+msgstr ""
+
+msgid "URL to redirect if debug tool is opened"
+msgstr ""
+
+msgid "URL will redirect to after pressing F12 (Default is: https://haunytb.com)"
+msgstr ""
+
+msgid "Disable RSS Feed"
+msgstr ""
+
+msgid "Disable RSS Feed to prevent loading extra files"
+msgstr ""
+
+msgid "Disable Block Inline CSS"
+msgstr ""
+
+msgid "Disable Block Inline CSS to prevent loading extra files"
+msgstr ""
+
+msgid "Disable Global Styles"
+msgstr ""
+
+msgid "Disable Global Styles to prevent loading extra files"
+msgstr ""
+
+msgid "Disable Classic Theme Styles"
+msgstr ""
+
+msgid "Disable Classic Theme Styles to prevent loading extra files"
+msgstr ""
+
+msgid "Apple touch icon"
+msgstr ""
+
+msgid "Upload a 152 x 152 px image that will represent your website's touch icon for iOS 2.0+ and Android 2.1+ devices."
+msgstr ""
+
+msgid "Removing the redirect after changing a post or page's slug"
+msgstr ""
+
+msgid "Enable to remove the redirect after changing a post or page's slug."
+msgstr ""
+
+msgid "No feed available, please visit our homepage!"
+msgstr ""
+
+msgid "Only authenticated users can access the REST API."
+msgstr ""
+
+msgid "This content is password protected. To view it please enter your password below:"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Hide the notice for required plugins in the admin area."
+msgstr ""
+
+msgid "Select the comment system you want to use."
+msgstr ""
+
+msgid "Enable to allow users to comment on your site."
+msgstr ""
+
+msgid "Facebook Apps ID"
+msgstr ""
+
+msgid "The shortname for your Disqus account. This is used to identify your Disqus account and is required for the Disqus comment system to work."
+msgstr ""
+
+msgid "Disqus Shortname"
+msgstr ""
+
+msgid "You can add your own emojis by typing in the box above with the format emoji 1|emoji 2..."
+msgstr ""
+
+msgid "Emojis Comments"
+msgstr ""
+
+msgid "Custom Comment"
+msgstr ""

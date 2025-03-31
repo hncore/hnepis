@@ -1,16 +1,17 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-29T11:35:11+00:00\n"
-"PO-Revision-Date: 2024-12-09 20:55+0700\n"
+"POT-Creation-Date: 2025-04-01 00:10+0700\n"
+"PO-Revision-Date: 2025-04-01 02:16+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 msgid "Label"
 msgstr "ป้ายกำกับ"
@@ -22,7 +23,7 @@ msgid "Choose Type"
 msgstr "เลือกประเภท"
 
 msgid "Subtitle has been updated!"
-msgstr "คำบรรยายได้รับการอัปเดตแล้ว!"
+msgstr "อัปเดตคำบรรยายเรียบร้อยแล้ว!"
 
 msgid "URL"
 msgstr "URL"
@@ -43,13 +44,13 @@ msgid "Please enter the episode list in the form!"
 msgstr "กรุณาใส่รายการตอนในแบบฟอร์ม!"
 
 msgid "Please wait..."
-msgstr "กรุณารอ..."
+msgstr "กรุณารอสักครู่..."
 
 msgid "Import successfully!"
-msgstr "นำเข้าเรียบร้อยแล้ว!"
+msgstr "นำเข้าสำเร็จ!"
 
 msgid "Error!"
-msgstr "ข้อผิดพลาด!"
+msgstr "ผิดพลาด!"
 
 msgid "Saving..."
 msgstr "กำลังบันทึก..."
@@ -73,7 +74,7 @@ msgid "Type"
 msgstr "ประเภท"
 
 msgid "Action"
-msgstr "การดำเนินการ"
+msgstr "การกระทำ"
 
 msgid "Link"
 msgstr "ลิงก์"
@@ -94,7 +95,7 @@ msgid "Update Post Info"
 msgstr "อัปเดตข้อมูลโพสต์"
 
 msgid "Backup link server update successful"
-msgstr "อัปเดตลิงก์สำรองของเซิร์ฟเวอร์สำเร็จ"
+msgstr "อัปเดตลิงก์สำรองเซิร์ฟเวอร์สำเร็จ"
 
 msgid "Please enter link list!"
 msgstr "กรุณาใส่รายการลิงก์!"
@@ -136,19 +137,13 @@ msgid "Choose Episode"
 msgstr "เลือกตอน"
 
 msgid "Episode Manager"
-msgstr "ผู้จัดการตอน"
+msgstr "ตัวจัดการตอน"
 
 msgid "Single movie"
 msgstr "ภาพยนตร์เดี่ยว"
 
-msgid "TV series"
-msgstr "ซีรีส์ทีวี"
-
 msgid "TV show"
 msgstr "รายการทีวี"
-
-msgid "Theater movie"
-msgstr "ภาพยนตร์โรงภาพยนตร์"
 
 msgid "Ongoing"
 msgstr "กำลังดำเนินการ"
@@ -172,13 +167,13 @@ msgid "Theater Movie"
 msgstr "ภาพยนตร์โรงภาพยนตร์"
 
 msgid "Movies Coming"
-msgstr "ภาพยนตร์ที่กำลังจะมา"
+msgstr "ภาพยนตร์ที่กำลังมา"
 
 msgid "Hide"
 msgstr "ซ่อน"
 
 msgid "Player Options"
-msgstr "ตัวเลือกเครื่องเล่น"
+msgstr "ตัวเลือกผู้เล่น"
 
 msgid "SEO Optimization"
 msgstr "การปรับแต่ง SEO"
@@ -187,63 +182,55 @@ msgid "Auto config Yoast SEO"
 msgstr "ตั้งค่า Yoast SEO อัตโนมัติ"
 
 msgid "Display custom title on the info page (including episode, release, quality...)"
-msgstr "แสดงชื่อที่กำหนดเองในหน้าข้อมูล (รวมถึงตอน วันที่ออก คุณภาพ...)"
+msgstr "แสดงชื่อที่กำหนดเองในหน้าข้อมูล (รวมถึงตอน, การเผยแพร่, คุณภาพ...)"
 
 msgid "Remove the categories prefix"
 msgstr "ลบคำนำหน้าหมวดหมู่"
 
-msgid ""
-"Category URLs in WordPress contain a prefix, usually <strong>/category/</strong>, this feature removes that prefix, for categories "
-"only."
-msgstr "URL หมวดหมู่ใน WordPress มีคำนำหน้า โดยทั่วไปคือ <strong>/category/</strong> ฟีเจอร์นี้จะลบคำนำหน้านั้น เฉพาะหมวดหมู่"
-
-msgid "SEO title (Page movie info)"
-msgstr "ชื่อ SEO (หน้าข้อมูลภาพยนตร์)"
+msgid "Category URLs in WordPress contain a prefix, usually <strong>/category/</strong>, this feature removes that prefix, for categories only."
+msgstr "URL หมวดหมู่ใน WordPress มีคำนำหน้า โดยปกติคือ <strong>/category/</strong> ฟีเจอร์นี้จะลบคำนำหน้านั้นสำหรับหมวดหมู่เท่านั้น"
 
 msgid "Modify your SEO title by editing it right here"
-msgstr "แก้ไขชื่อ SEO ของคุณได้ที่นี่"
+msgstr "แก้ไขชื่อ SEO ของคุณโดยแก้ไขที่นี่"
 
 msgid "SEO title (Page watch movie)"
-msgstr "ชื่อ SEO (หน้าชมภาพยนตร์)"
+msgstr "ชื่อ SEO (หน้าดูภาพยนตร์)"
 
 msgid "URL Type"
 msgstr "ประเภท URL"
 
 msgid "Player tabs"
-msgstr "แท็บเครื่องเล่น"
-
-msgid "General"
-msgstr "ทั่วไป"
+msgstr "แท็บผู้เล่น"
 
 msgid "JW Player Basic Settings"
-msgstr "การตั้งค่าพื้นฐาน JW Player"
+msgstr "การตั้งค่าพื้นฐานของ JW Player"
 
 msgid "ADS Vast Settings"
 msgstr "การตั้งค่า ADS Vast"
 
 msgid "Resume Playback"
-msgstr "เล่นต่อจากเดิม"
+msgstr "เล่นต่อจากที่ค้างไว้"
 
 msgid "Use localStorage to remember where the user left off and resume playback at the same time offset when revisiting the page."
-msgstr "ใช้ localStorage เพื่อจดจำตำแหน่งที่ผู้ใช้หยุดไว้และเล่นต่อในตำแหน่งเดียวกันเมื่อกลับมายังหน้า"
+msgstr "ใช้ localStorage เพื่อจำตำแหน่งที่ผู้ใช้หยุดเล่นและเล่นต่อในตำแหน่งเดียวกันเมื่อกลับมาที่หน้า"
 
 msgid "Auto reset cache"
 msgstr "รีเซ็ตแคชอัตโนมัติ"
 
 msgid "Automatically clear the cache if the player error"
-msgstr "ล้างแคชโดยอัตโนมัติหากเครื่องเล่นมีข้อผิดพลาด"
+msgstr "ล้างแคชอัตโนมัติหากเกิดข้อผิดพลาดในผู้เล่น"
 
 msgid "JWPlayer Error Detect"
 msgstr "ตรวจจับข้อผิดพลาดของ JWPlayer"
 
 msgid "Show Modal Popup"
-msgstr "แสดงป๊อปอัพโมดอล"
+msgstr "แสดงป๊อปอัพแบบโมดอล"
 
 msgid "Auto Play Alternative Server"
 msgstr "เล่นเซิร์ฟเวอร์สำรองอัตโนมัติ"
 
 msgid "Autostart"
-msgstr "เริ่มเล่นอัตโนมัติ"
+msgstr "เริ่มต้นอัตโนมัติ"
 
 msgid "Auto Pause Player"
 msgstr "หยุดเล่นอัตโนมัติ"
@@ -255,65 +242,63 @@ msgid "Share Button"
 msgstr "ปุ่มแชร์"
 
 msgid "Cache Player"
-msgstr "แคชเครื่องเล่น"
+msgstr "แคชผู้เล่น"
 
 msgid "Enable cache link"
-msgstr "เปิดใช้งานแคชลิงก์"
+msgstr "เปิดใช้งานลิงก์แคช"
 
 msgid "Cache time"
 msgstr "เวลาแคช"
 
 msgid "Cache expired time. (seconds)"
-msgstr "เวลาหมดอายุของแคช (วินาที)"
+msgstr "เวลาแคชหมดอายุ (วินาที)"
 
 msgid "License Version"
 msgstr "เวอร์ชันใบอนุญาต"
 
 msgid "Jwplayer License key"
-msgstr "รหัสใบอนุญาตของ Jwplayer"
+msgstr "คีย์ใบอนุญาต Jwplayer"
 
 msgid "A license key is required for the Pro, Premium and Ads edition."
-msgstr "ต้องใช้รหัสใบอนุญาตสำหรับรุ่น Pro, Premium และ Ads"
+msgstr "ต้องใช้คีย์ใบอนุญาตสำหรับรุ่น Pro, Premium และ Ads"
 
 msgid "Logo File"
 msgstr "ไฟล์โลโก้"
 
-msgid ""
-"The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /assets/logo.png). We recommend using 24 bit PNG images "
-"with transparency"
-msgstr "URL ของภาพ JPG, PNG หรือ GIF ที่ใช้เป็นลายน้ำ (เช่น /assets/logo.png) แนะนำให้ใช้ภาพ PNG 24 บิตพร้อมความโปร่งใส"
+msgid "The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /assets/logo.png). We recommend using 24 bit PNG images with transparency"
+msgstr "URL ของภาพ JPG, PNG หรือ GIF ภายนอกที่จะใช้เป็นลายน้ำ (เช่น /assets/logo.png) เราแนะนำให้ใช้ภาพ PNG 24 บิตที่มีความโปร่งใส"
 
 msgid "Logo link"
 msgstr "ลิงก์โลโก้"
 
 msgid "The URL to visit when the watermark image is clicked. Clicking a logo will have no affect unless this is configured"
-msgstr "URL ที่จะเปิดเมื่อคลิกที่ภาพลายน้ำ โลโก้จะไม่มีผลจนกว่าจะกำหนดค่าตัวเลือกนี้"
+msgstr "URL ที่จะเยี่ยมชมเมื่อคลิกที่ภาพลายน้ำ การคลิกโลโก้จะไม่มีผลเว้นแต่จะมีการตั้งค่านี้"
 
-msgid "Auto hide logo"
-msgstr "ซ่อนโลโก้อัตโนมัติ"
+msgid "Auto hide logo (JWPlayer only)"
+msgstr "ซ่อนโลโก้อัตโนมัติ (เฉพาะ JWPlayer)"
 
 msgid "Logo Position"
 msgstr "ตำแหน่งโลโก้"
 
 msgid "Top left"
-msgstr "บนซ้าย"
+msgstr "ด้านซ้ายบน"
 
 msgid "Top right"
-msgstr "บนขวา"
+msgstr "ด้านขวาบน"
 
 msgid "Bottom left"
-msgstr "ล่างซ้าย"
+msgstr "ด้านซ้ายล่าง"
 
 msgid "Bottom right"
-msgstr "ล่างขวา"
+msgstr "ด้านขวาล่าง"
 
-msgid "Control bar"
-msgstr "แถบควบคุม"
+msgid "Control bar (JWPlayer only)"
+msgstr "แถบควบคุม (เฉพาะ JWPlayer)"
 
 msgid ""
-"This sets the corner in which to display the watermark. \"control-bar\" adds the logo as the leftmost icon in the right grouping of "
-"buttons in the control bar."
-msgstr "ตั้งค่ามุมที่จะแสดงลายน้ำ \"control-bar\" จะเพิ่มโลโก้เป็นไอคอนซ้ายสุดในกลุ่มปุ่มทางขวาของแถบควบคุม"
+"This sets the corner in which to display the watermark. The \"control-bar\" option is only supported in JWPlayer and adds the logo as the leftmost icon in the right "
+"grouping of buttons in the control bar."
+msgstr "ตั้งค่ามุมที่จะแสดงลายน้ำ ตัวเลือก \"control-bar\" รองรับเฉพาะใน JWPlayer และเพิ่มโลโก้เป็นไอคอนซ้ายสุดในกลุ่มปุ่มด้านขวาในแถบควบคุม"
 
 msgid "Default poster image"
 msgstr "ภาพโปสเตอร์เริ่มต้น"
@@ -340,34 +325,34 @@ msgid "Subtitle font size"
 msgstr "ขนาดตัวอักษรคำบรรยาย"
 
 msgid "About text"
-msgstr "ข้อความเกี่ยวกับ"
+msgstr "เกี่ยวกับข้อความ"
 
 msgid "Custom text to display in the right-click menu. Can only be set for the Premium and Ads Editions"
-msgstr "ข้อความที่กำหนดเองสำหรับแสดงในเมนูคลิกขวา ใช้ได้เฉพาะรุ่น Premium และ Ads"
+msgstr "ข้อความที่กำหนดเองเพื่อแสดงในเมนูคลิกขวา สามารถตั้งค่าได้เฉพาะรุ่น Premium และ Ads"
 
 msgid "About link"
-msgstr "ลิงก์เกี่ยวกับ"
+msgstr "เกี่ยวกับลิงก์"
 
 msgid "Custom URL to link to when clicking the right-click menu. Can only be set for the Premium and Ads Editions"
-msgstr "URL ที่กำหนดเองสำหรับคลิกในเมนูคลิกขวา ใช้ได้เฉพาะรุ่น Premium และ Ads"
+msgstr "URL ที่กำหนดเองเพื่อเชื่อมโยงเมื่อคลิกเมนูคลิกขวา สามารถตั้งค่าได้เฉพาะรุ่น Premium และ Ads"
 
 msgid "Show Ads Vast"
 msgstr "แสดงโฆษณา Vast"
 
 msgid "Enable Ads For Embed"
-msgstr "เปิดใช้งานโฆษณาสำหรับ Embed"
+msgstr "เปิดใช้งานโฆษณาสำหรับการฝัง"
 
 msgid "If This Option is Enabled, Ads Will Display in Embed Links"
-msgstr "หากเปิดใช้งานตัวเลือกนี้ โฆษณาจะแสดงในลิงก์ Embed"
+msgstr "หากเปิดใช้งานตัวเลือกนี้ โฆษณาจะแสดงในลิงก์ฝัง"
 
 msgid "Ads code"
-msgstr "โค้ดโฆษณา"
+msgstr "รหัสโฆษณา"
 
 msgid "Title"
 msgstr "ชื่อเรื่อง"
 
 msgid "Thumbs"
-msgstr "รูปภาพ"
+msgstr "ภาพย่อ"
 
 msgid "Details"
 msgstr "รายละเอียด"
@@ -382,7 +367,7 @@ msgid "Directors"
 msgstr "ผู้กำกับ"
 
 msgid "Release"
-msgstr "วันฉาย"
+msgstr "การเผยแพร่"
 
 msgid "Country"
 msgstr "ประเทศ"
@@ -421,7 +406,7 @@ msgid "Search"
 msgstr "ค้นหา"
 
 msgid "No result"
-msgstr "ไม่พบผลลัพธ์"
+msgstr "ไม่มีผลลัพธ์"
 
 msgid "All Movies"
 msgstr "ภาพยนตร์ทั้งหมด"
@@ -435,32 +420,29 @@ msgstr "เพิ่มภาพยนตร์"
 msgid "Formality"
 msgstr "ความเป็นทางการ"
 
-msgid "Status"
-msgstr "สถานะ"
-
 msgid "Poster image URL"
 msgstr "URL ภาพโปสเตอร์"
 
 msgid "Input image url or use Upload button."
-msgstr "ใส่ URL ของภาพหรือใช้ปุ่มอัปโหลด"
+msgstr "ป้อน URL ภาพหรือใช้ปุ่มอัปโหลด"
 
 msgid "Upload Poster image"
 msgstr "อัปโหลดภาพโปสเตอร์"
 
 msgid "Remote upload the poster image to server"
-msgstr "อัปโหลดภาพโปสเตอร์ไปยังเซิร์ฟเวอร์ระยะไกล"
+msgstr "อัปโหลดภาพโปสเตอร์ไปยังเซิร์ฟเวอร์จากระยะไกล"
 
 msgid "Featured image URL"
 msgstr "URL ภาพเด่น"
 
 msgid "Post thumbnail URL"
-msgstr "URL รูปย่อของโพสต์"
+msgstr "URL ภาพย่อโพสต์"
 
 msgid "Set as featured image"
 msgstr "ตั้งเป็นภาพเด่น"
 
 msgid "Set as featured image and save image to server"
-msgstr "ตั้งเป็นภาพเด่นและบันทึกภาพลงเซิร์ฟเวอร์"
+msgstr "ตั้งเป็นภาพเด่นและบันทึกภาพไปยังเซิร์ฟเวอร์"
 
 msgid "Auto save images"
 msgstr "บันทึกภาพอัตโนมัติ"
@@ -478,19 +460,19 @@ msgid "Original Title"
 msgstr "ชื่อเรื่องดั้งเดิม"
 
 msgid "Runtime"
-msgstr "ระยะเวลา"
+msgstr "เวลารันไทม์"
 
 msgid "Runtime (90 min)"
-msgstr "ระยะเวลา (90 นาที)"
+msgstr "เวลารันไทม์ (90 นาที)"
 
 msgid "Episode"
 msgstr "ตอน"
 
 msgid "Episode 20, Tập 20"
-msgstr "ตอนที่ 20, Tập 20"
+msgstr "ตอน 20, Tập 20"
 
 msgid "Total Episode"
-msgstr "จำนวนตอนทั้งหมด"
+msgstr "ตอนทั้งหมด"
 
 msgid "Quality"
 msgstr "คุณภาพ"
@@ -499,7 +481,7 @@ msgid "Notification / Note"
 msgstr "การแจ้งเตือน / หมายเหตุ"
 
 msgid "Showtime movies"
-msgstr "ภาพยนตร์ตามเวลาฉาย"
+msgstr "ภาพยนตร์โชว์ไทม์"
 
 msgid "Video URL"
 msgstr "URL วิดีโอ"
@@ -511,13 +493,8 @@ msgid "Embed / iframe"
 msgstr "ฝัง / iframe"
 
 msgid "Thumbnail URL"
-msgstr "URL รูปย่อ"
+msgstr "URL ภาพย่อ"
 
-msgctxt "Episode type"
-msgid "Episode Types"
-msgstr "ประเภทตอน"
-
-msgctxt "Episode type"
 msgid "Episode Type"
 msgstr "ประเภทตอน"
 
@@ -528,10 +505,10 @@ msgid "All Items"
 msgstr "รายการทั้งหมด"
 
 msgid "Parent Item"
-msgstr "รายการแม่"
+msgstr "รายการหลัก"
 
 msgid "Parent Item:"
-msgstr "รายการแม่:"
+msgstr "รายการหลัก:"
 
 msgid "New Item Name"
 msgstr "ชื่อรายการใหม่"
@@ -570,10 +547,10 @@ msgid "No items"
 msgstr "ไม่มีรายการ"
 
 msgid "Items list"
-msgstr "รายการของรายการ"
+msgstr "รายการรายการ"
 
 msgid "Items list navigation"
-msgstr "นำทางรายการของรายการ"
+msgstr "การนำทางรายการรายการ"
 
 msgid "News categories"
 msgstr "หมวดหมู่ข่าว"
@@ -617,11 +594,6 @@ msgstr "แท็กวิดีโอ"
 msgid "Video tag"
 msgstr "แท็กวิดีโอ"
 
-msgctxt "taxonomy general name"
-msgid "Status"
-msgstr "สถานะ"
-
-msgctxt "taxonomy singular name"
 msgid "Status"
 msgstr "สถานะ"
 
@@ -632,10 +604,10 @@ msgid "All Status"
 msgstr "สถานะทั้งหมด"
 
 msgid "Parent Status"
-msgstr "สถานะแม่"
+msgstr "สถานะหลัก"
 
 msgid "Parent Status:"
-msgstr "สถานะแม่:"
+msgstr "สถานะหลัก:"
 
 msgid "Edit Status"
 msgstr "แก้ไขสถานะ"
@@ -649,22 +621,14 @@ msgstr "เพิ่มสถานะใหม่"
 msgid "New Status Name"
 msgstr "ชื่อสถานะใหม่"
 
-msgctxt "taxonomy general name"
-msgid "Post options"
-msgstr "ตัวเลือกโพสต์"
-
-msgctxt "taxonomy singular name"
 msgid "Post options"
 msgstr "ตัวเลือกโพสต์"
 
 msgid "Search option"
-msgstr "ค้นหาตัวเลือก"
-
-msgid "All options"
-msgstr "ตัวเลือกทั้งหมด"
+msgstr "ตัวเลือกการค้นหา"
 
 msgid "Parent"
-msgstr "แม่"
+msgstr "หลัก"
 
 msgid "Update"
 msgstr "อัปเดต"
@@ -679,38 +643,37 @@ msgid "Options"
 msgstr "ตัวเลือก"
 
 msgid "Loading player, please wait..."
-msgstr "กำลังโหลดเครื่องเล่น กรุณารอสักครู่..."
+msgstr "กำลังโหลดผู้เล่น กรุณารอสักครู่..."
 
-msgid ""
-"We are unable to find the video you are looking for. There could be several reasons for this, for example it got removed by the owner!"
-msgstr "เราไม่พบวิดีโอที่คุณกำลังค้นหา อาจมีหลายสาเหตุ เช่น วิดีโอนี้ถูกลบโดยเจ้าของ!"
+msgid "We are unable to find the video you are looking for. There could be several reasons for this, for example it got removed by the owner!"
+msgstr "เราไม่สามารถค้นหาวิดีโอที่คุณกำลังมองหาได้ อาจมีหลายเหตุผลสำหรับเรื่องนี้ เช่น วิดีโอถูกลบโดยเจ้าของ!"
 
 msgid "This video file cannot be played."
-msgstr "ไม่สามารถเล่นไฟล์วิดีโอนี้ได้"
+msgstr "ไฟล์วิดีโอนี้ไม่สามารถเล่นได้"
 
 msgid "To continue watching, please click on the \"Reload Player\" button"
-msgstr "หากต้องการดูต่อ กรุณาคลิกที่ปุ่ม \"โหลดเครื่องเล่นใหม่\""
+msgstr "เพื่อดูต่อ กรุณาคลิกที่ปุ่ม \"โหลดผู้เล่นใหม่\""
 
 msgid "or click on the buttons below"
 msgstr "หรือคลิกที่ปุ่มด้านล่าง"
 
 msgid "Reload Player"
-msgstr "โหลดเครื่องเล่นใหม่"
+msgstr "โหลดผู้เล่นใหม่"
 
 msgid "Redirect to Server"
 msgstr "เปลี่ยนเส้นทางไปยังเซิร์ฟเวอร์"
 
 msgid "Redirect to Edit"
-msgstr "เปลี่ยนเส้นทางไปยังการแก้ไข"
+msgstr "เปลี่ยนเส้นทางไปยังแก้ไข"
 
 msgid "Episode Name"
 msgstr "ชื่อตอน"
 
 msgid "Episode Slug"
-msgstr "Slug ของตอน"
+msgstr "Slug ตอน"
 
 msgid "Episode Link"
-msgstr "ลิงก์ของตอน"
+msgstr "ลิงก์ตอน"
 
 msgid "Add Server"
 msgstr "เพิ่มเซิร์ฟเวอร์"
@@ -719,7 +682,7 @@ msgid "IMBD Rating"
 msgstr "คะแนน IMBD"
 
 msgid "IMBD Vote"
-msgstr "การโหวต IMBD"
+msgstr "โหวต IMBD"
 
 msgid "Trailer URL"
 msgstr "URL ตัวอย่าง"
@@ -743,7 +706,7 @@ msgid "Post Type"
 msgstr "ประเภทโพสต์"
 
 msgid "Actions"
-msgstr "การดำเนินการ"
+msgstr "การกระทำ"
 
 msgid "Mass Import Episode"
 msgstr "นำเข้าตอนจำนวนมาก"
@@ -755,7 +718,7 @@ msgid "Edit Movie Details"
 msgstr "แก้ไขรายละเอียดภาพยนตร์"
 
 msgid "Choose Server Hide"
-msgstr "เลือกเซิร์ฟเวอร์ที่ซ่อน"
+msgstr "เลือกเซิร์ฟเวอร์ซ่อน"
 
 msgid "Choose A Server"
 msgstr "เลือกเซิร์ฟเวอร์"
@@ -776,13 +739,13 @@ msgid "Enable/Disable Movie Filtering"
 msgstr "เปิด/ปิดการกรองภาพยนตร์"
 
 msgid "On/Off Button Player"
-msgstr "ปุ่มเปิด/ปิดเครื่องเล่น"
+msgstr "ปุ่มเปิด/ปิดผู้เล่น"
 
 msgid "Setting Button Player"
-msgstr "ตั้งค่าปุ่มเครื่องเล่น"
+msgstr "ตั้งค่าปุ่มผู้เล่น"
 
 msgid "Button Player Postion"
-msgstr "ตำแหน่งปุ่มเครื่องเล่น"
+msgstr "ตำแหน่งปุ่มผู้เล่น"
 
 msgid "Left"
 msgstr "ซ้าย"
@@ -794,7 +757,7 @@ msgid "Center"
 msgstr "กลาง"
 
 msgid "Select Button Player"
-msgstr "เลือกปุ่มเครื่องเล่น"
+msgstr "เลือกปุ่มผู้เล่น"
 
 msgid "Views"
 msgstr "การดู"
@@ -803,37 +766,37 @@ msgid "Next & Prev"
 msgstr "ถัดไป & ก่อนหน้า"
 
 msgid "Auto Next"
-msgstr "เล่นตอนถัดไปอัตโนมัติ"
+msgstr "ถัดไปอัตโนมัติ"
 
 msgid "Expand"
 msgstr "ขยาย"
 
 msgid "Light"
-msgstr "โหมดแสง"
+msgstr "แสง"
 
 msgid "Report"
 msgstr "รายงาน"
 
 msgid "Like & DisLike"
-msgstr "ถูกใจ & ไม่ถูกใจ"
+msgstr "ชอบ & ไม่ชอบ"
 
 msgid "For Auto Next, Next & Previous Only Works with Series. Expand and Collapse only works when there is a Sidebar."
-msgstr "สำหรับเล่นตอนถัดไปอัตโนมัติ, ถัดไป & ก่อนหน้า ใช้ได้เฉพาะกับซีรีส์ การขยายและยุบใช้ได้เฉพาะเมื่อมีแถบด้านข้าง"
+msgstr "สำหรับ ถัดไปอัตโนมัติ, ถัดไป & ก่อนหน้า ใช้ได้เฉพาะกับซีรีส์ ขยายและยุบใช้ได้เฉพาะเมื่อมีแถบด้านข้าง"
 
 msgid "Enable Find Episodes"
-msgstr "เปิดใช้งานการค้นหาตอน"
+msgstr "เปิดใช้งานค้นหาตอน"
 
 msgid "Only Shows With Series. Not Shows With Movies"
-msgstr "แสดงเฉพาะซีรีส์ ไม่แสดงภาพยนตร์"
+msgstr "แสดงเฉพาะกับซีรีส์ ไม่แสดงกับภาพยนตร์"
 
 msgid "Using Ajax for Episodes"
 msgstr "ใช้ Ajax สำหรับตอน"
 
 msgid "Select the style to display the episode list"
-msgstr "เลือกสไตล์การแสดงรายการตอน"
+msgstr "เลือกสไตล์เพื่อแสดงรายการตอน"
 
 msgid "Episode pages show at most"
-msgstr "จำนวนตอนที่แสดงในหน้าสูงสุด"
+msgstr "หน้าตอนแสดงได้มากที่สุด"
 
 msgid "The number of episodes displayed on the page"
 msgstr "จำนวนตอนที่แสดงในหน้า"
@@ -851,10 +814,10 @@ msgid "Episode order"
 msgstr "ลำดับตอน"
 
 msgid "ASC"
-msgstr "เรียงจากน้อยไปมาก"
+msgstr "ASC"
 
 msgid "DESC"
-msgstr "เรียงจากมากไปน้อย"
+msgstr "DESC"
 
 msgid "Episode Options"
 msgstr "ตัวเลือกตอน"
@@ -866,7 +829,7 @@ msgid "SEO Title (Page movie info)"
 msgstr "ชื่อ SEO (หน้าข้อมูลภาพยนตร์)"
 
 msgid "URL Watch Page"
-msgstr "URL หน้าชม"
+msgstr "URL หน้าดู"
 
 msgid "Accept"
 msgstr "ยอมรับ"
@@ -875,7 +838,7 @@ msgid "Film Title"
 msgstr "ชื่อภาพยนตร์"
 
 msgid "Film Released"
-msgstr "วันที่ฉายภาพยนตร์"
+msgstr "ภาพยนตร์เผยแพร่"
 
 msgid "Film Duration"
 msgstr "ระยะเวลาภาพยนตร์"
@@ -902,22 +865,19 @@ msgid "JWPlayer Settings"
 msgstr "การตั้งค่า JWPlayer"
 
 msgid "Title Adult"
-msgstr "ชื่อเนื้อหาผู้ใหญ่"
+msgstr "ชื่อผู้ใหญ่"
 
 msgid "Adult Content Info"
-msgstr "ข้อมูลเนื้อหาผู้ใหญ่"
+msgstr "ข้อมูลเนื้อหาสำหรับผู้ใหญ่"
 
 msgid "All Options"
 msgstr "ตัวเลือกทั้งหมด"
 
 msgid "Sort By"
-msgstr "จัดเรียงตาม"
-
-msgid "Background Button color"
-msgstr "สีพื้นหลังปุ่ม"
+msgstr "เรียงตาม"
 
 msgid "Text Button color"
-msgstr "สีข้อความปุ่ม"
+msgstr "สีปุ่มข้อความ"
 
 msgid "Showing old episodes manager"
 msgstr "แสดงตัวจัดการตอนเก่า"
@@ -926,7 +886,7 @@ msgid "No posts selected"
 msgstr "ไม่มีโพสต์ที่เลือก"
 
 msgid "Are you sure you want to delete the selected posts?"
-msgstr "คุณแน่ใจหรือว่าต้องการลบโพสต์ที่เลือก?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบโพสต์ที่เลือก?"
 
 msgid "Cache Manager"
 msgstr "ตัวจัดการแคช"
@@ -935,7 +895,7 @@ msgid "Total Cache"
 msgstr "แคชทั้งหมด"
 
 msgid "Cache Empty!"
-msgstr "ไม่มีแคช!"
+msgstr "แคชว่างเปล่า!"
 
 msgid "Delete All Cache"
 msgstr "ลบแคชทั้งหมด"
@@ -944,7 +904,7 @@ msgid "Issues"
 msgstr "ปัญหา"
 
 msgid "Add one entry per line. These issues will appear in the form of a checkbox."
-msgstr "เพิ่มรายการทีละบรรทัด ปัญหาเหล่านี้จะแสดงในรูปแบบช่องทำเครื่องหมาย"
+msgstr "เพิ่มหนึ่งรายการต่อบรรทัด ปัญหาเหล่านี้จะปรากฏในรูปแบบของช่องทำเครื่องหมาย"
 
 msgid "Reporter"
 msgstr "ผู้รายงาน"
@@ -974,10 +934,10 @@ msgid "If using Ajax, when clicking on the episode list, the page will not reloa
 msgstr "หากใช้ Ajax เมื่อคลิกที่รายการตอน หน้าจะไม่โหลดใหม่"
 
 msgid "For the last option it only applies to using the XXX theme"
-msgstr "ตัวเลือกสุดท้ายใช้ได้เฉพาะกับการใช้ธีม XXX"
+msgstr "สำหรับตัวเลือกสุดท้ายใช้ได้เฉพาะกับธีม XXX"
 
 msgid "Like"
-msgstr "ถูกใจ"
+msgstr "ชอบ"
 
 msgid "Reply"
 msgstr "ตอบกลับ"
@@ -1022,7 +982,7 @@ msgid "seconds ago"
 msgstr "หลายวินาทีที่แล้ว"
 
 msgid "Settings Comment"
-msgstr "การตั้งค่าความคิดเห็น"
+msgstr "ตั้งค่าความคิดเห็น"
 
 msgid "Enable Comment"
 msgstr "เปิดใช้งานความคิดเห็น"
@@ -1037,7 +997,7 @@ msgid "Your Name"
 msgstr "ชื่อของคุณ"
 
 msgid "Enter Content"
-msgstr "ใส่เนื้อหา"
+msgstr "ป้อนเนื้อหา"
 
 msgid "List Comments"
 msgstr "รายการความคิดเห็น"
@@ -1046,66 +1006,58 @@ msgid "See more"
 msgstr "ดูเพิ่มเติม"
 
 msgid "Disqus Comments"
-msgstr "ความคิดเห็นผ่าน Disqus"
+msgstr "ความคิดเห็น Disqus"
 
 msgid "Facebook Comment"
-msgstr "ความคิดเห็นผ่าน Facebook"
+msgstr "ความคิดเห็น Facebook"
 
 msgid "System Comment"
-msgstr "ความคิดเห็นในระบบ"
+msgstr "ความคิดเห็นระบบ"
 
 msgid "Facebook settings"
 msgstr "การตั้งค่า Facebook"
 
-msgid "Facebook Apps ID"
-msgstr "รหัสแอป Facebook"
-
 msgid "If This Value Does Not Exist . Facebook Comments and Like and Share Buttons Will Not Work"
-msgstr "หากไม่มีค่านี้ ฟีเจอร์ความคิดเห็น ถูกใจ และแชร์ของ Facebook จะไม่ทำงาน"
+msgstr "หากไม่มีค่านี้ ความคิดเห็น Facebook และปุ่มชอบและแชร์จะไม่ทำงาน"
 
 msgid "Number of comment to show"
 msgstr "จำนวนความคิดเห็นที่จะแสดง"
 
 msgid "The number of comments to show by default. The minimum value is 1."
-msgstr "จำนวนความคิดเห็นที่จะแสดงโดยค่าเริ่มต้น ค่าอย่างน้อยคือ 1"
+msgstr "จำนวนความคิดเห็นที่จะแสดงโดยค่าเริ่มต้น ค่าต่ำสุดคือ 1"
 
 msgid "Order by"
-msgstr "เรียงลำดับโดย"
+msgstr "เรียงตาม"
 
 msgid "Reverse time"
-msgstr "ย้อนเวลาขึ้น"
+msgstr "ย้อนเวลา"
 
 msgid "Social"
 msgstr "สังคม"
 
-msgid ""
-"The order to use when displaying comments. Can be \"social\", \"reverse_time\", or \"time\". The different order types are explained "
-"in the FAQ"
-msgstr "การเรียงลำดับเมื่อแสดงความคิดเห็น สามารถเป็น \"social\", \"reverse_time\" หรือ \"time\" โดยประเภทต่างๆ อธิบายไว้ในคำถามที่พบบ่อย"
-
-msgid "Disqus Shortname"
-msgstr "ชื่อย่อ Disqus"
+msgid "The order to use when displaying comments. Can be \"social\", \"reverse_time\", or \"time\". The different order types are explained in the FAQ"
+msgstr "ลำดับที่จะใช้เมื่อแสดงความคิดเห็น สามารถเป็น \"social\", \"reverse_time\" หรือ \"time\" ประเภทลำดับที่แตกต่างกันอธิบายไว้ใน FAQ"
 
 msgid "a few seconds ago"
 msgstr "ไม่กี่วินาทีที่แล้ว"
 
 msgid "Only Works With Themes That Have Filters"
-msgstr "ใช้ได้เฉพาะธีมที่มีตัวกรอง"
+msgstr "ใช้ได้เฉพาะกับธีมที่มีตัวกรอง"
 
 msgid "Dislikes"
-msgstr "ไม่ถูกใจ"
+msgstr "ไม่ชอบ"
 
 msgid "Likes"
-msgstr "ถูกใจ"
+msgstr "ชอบ"
 
 msgid "Percentage"
 msgstr "เปอร์เซ็นต์"
 
 msgid "You reaction this post."
-msgstr "ปฏิกิริยาของคุณกับโพสต์นี้"
+msgstr "คุณตอบสนองโพสต์นี้"
 
 msgid "Your reaction has been recorded."
-msgstr "ปฏิกิริยาของคุณได้รับการบันทึกแล้ว"
+msgstr "การตอบสนองของคุณได้รับการบันทึกแล้ว"
 
 msgid "Prev EP"
 msgstr "ตอนก่อนหน้า"
@@ -1120,19 +1072,16 @@ msgid "Light On"
 msgstr "เปิดไฟ"
 
 msgid "Background Button Color"
-msgstr "สีพื้นหลังปุ่ม"
-
-msgid "Text Button Color"
-msgstr "สีข้อความปุ่ม"
+msgstr "สีปุ่มพื้นหลัง"
 
 msgid "If you do not use a background color, you can enter the value: <b>transparent</b>"
-msgstr "หากคุณไม่ใช้สีพื้นหลัง คุณสามารถใส่ค่า: <b>transparent</b>"
+msgstr "หากคุณไม่ใช้สีพื้นหลัง คุณสามารถป้อนค่า: <b>transparent</b>"
 
 msgid "Button Border Radius"
 msgstr "รัศมีขอบปุ่ม"
 
 msgid "Use px value. If not rounded leave value 0"
-msgstr "ใช้ค่า px หากไม่ต้องการปุ่มมนให้ตั้งค่าเป็น 0"
+msgstr "ใช้ค่าพิกเซล หากไม่ปัดเศษให้ปล่อยค่าเป็น 0"
 
 msgid "Color Settings"
 msgstr "การตั้งค่าสี"
@@ -1141,7 +1090,7 @@ msgid "Backup Server Color"
 msgstr "สีเซิร์ฟเวอร์สำรอง"
 
 msgid "Background Backup Server"
-msgstr "สีพื้นหลังเซิร์ฟเวอร์สำรอง"
+msgstr "พื้นหลังเซิร์ฟเวอร์สำรอง"
 
 msgid "Text Color Backup Server"
 msgstr "สีข้อความเซิร์ฟเวอร์สำรอง"
@@ -1150,7 +1099,7 @@ msgid "Change Server"
 msgstr "เปลี่ยนเซิร์ฟเวอร์"
 
 msgid "Episode Hover Backgroud Color"
-msgstr "สีพื้นหลังเมื่อชี้เมาส์ที่ตอน"
+msgstr "สีพื้นหลังตอนเมื่อวางเมาส์"
 
 msgid "Episode Backgroud Color"
 msgstr "สีพื้นหลังตอน"
@@ -1162,7 +1111,7 @@ msgid "Hide Change Server Button"
 msgstr "ซ่อนปุ่มเปลี่ยนเซิร์ฟเวอร์"
 
 msgid "Text Active Backup Server"
-msgstr "ข้อความเซิร์ฟเวอร์สำรองที่ใช้งานอยู่"
+msgstr "ข้อความเซิร์ฟเวอร์สำรองที่ใช้งาน"
 
 msgid "List Episode Color"
 msgstr "สีรายการตอน"
@@ -1173,29 +1122,20 @@ msgstr "สีความคิดเห็น"
 msgid "Backgroud Color Comments"
 msgstr "สีพื้นหลังความคิดเห็น"
 
-msgid "You can add your own emojis by typing in the box above with the format emoji 1|emoji 2..."
-msgstr "คุณสามารถเพิ่มอิโมจิของคุณเองโดยพิมพ์ในกล่องด้านบนในรูปแบบ emoji 1|emoji 2..."
-
-msgid "EP, Episode (Show alternative if the episode name is not set, or set to integer)"
-msgstr "EP, ตอน (แสดงทางเลือกหากไม่ได้ตั้งชื่อตอน หรือตั้งเป็นจำนวนเต็ม)"
-
 msgid "Import Episode To"
 msgstr "นำเข้าตอนไปยัง"
 
 msgid "Notification/Note"
 msgstr "การแจ้งเตือน/หมายเหตุ"
 
-msgid "Showtime Movies"
-msgstr "ภาพยนตร์ตามเวลาฉาย"
-
 msgid "Add to One Slide (Slider one by one)"
-msgstr "เพิ่มในสไลด์เดี่ยว (ทีละสไลด์)"
+msgstr "เพิ่มไปยังสไลด์เดียว (สไลด์ทีละหนึ่ง)"
 
 msgid "Add to Carousel Slider"
-msgstr "เพิ่มในสไลด์หมุน"
+msgstr "เพิ่มไปยังสไลด์หมุน"
 
 msgid "Paging the episode list"
-msgstr "แบ่งหน้ารายการตอน"
+msgstr "แบ่งหน้าในรายการตอน"
 
 msgid "Edit Post Info"
 msgstr "แก้ไขข้อมูลโพสต์"
@@ -1204,7 +1144,7 @@ msgid "Add Subtitle"
 msgstr "เพิ่มคำบรรยาย"
 
 msgid "Subtitle Label"
-msgstr "ป้ายกำกับคำบรรยาย"
+msgstr "ป้ายคำบรรยาย"
 
 msgid "MP4 File"
 msgstr "ไฟล์ MP4"
@@ -1216,7 +1156,7 @@ msgid "Current Servers"
 msgstr "เซิร์ฟเวอร์ปัจจุบัน"
 
 msgid "Episode URL"
-msgstr "URL ของตอน"
+msgstr "URL ตอน"
 
 msgid "Episode Type support list:"
 msgstr "รายการประเภทตอนที่รองรับ:"
@@ -1231,16 +1171,16 @@ msgid "Example"
 msgstr "ตัวอย่าง"
 
 msgid "Only main episode link"
-msgstr "เฉพาะลิงก์ตอนหลัก"
+msgstr "ลิงก์ตอนหลักเท่านั้น"
 
 msgid "Only main episode link and subtitle, not alternate link fallback"
-msgstr "เฉพาะลิงก์ตอนหลักและคำบรรยาย ไม่รวมลิงก์สำรอง"
+msgstr "ลิงก์ตอนหลักและคำบรรยายเท่านั้น ไม่ใช่ลิงก์สำรอง"
 
 msgid "Only main episode link and alternate link fallback, not subtitles"
-msgstr "เฉพาะลิงก์ตอนหลักและลิงก์สำรอง ไม่รวมคำบรรยาย"
+msgstr "ลิงก์ตอนหลักและลิงก์สำรองเท่านั้น ไม่ใช่คำบรรยาย"
 
 msgid "Full of parameters"
-msgstr "ครบทุกพารามิเตอร์"
+msgstr "เต็มไปด้วยพารามิเตอร์"
 
 msgid "Choose Server"
 msgstr "เลือกเซิร์ฟเวอร์"
@@ -1255,13 +1195,13 @@ msgid "Autoplay next episode, please wait..."
 msgstr "เล่นตอนถัดไปอัตโนมัติ กรุณารอสักครู่..."
 
 msgid "Automatically resumes your videos from where you played them last at"
-msgstr "กลับมาเล่นวิดีโอของคุณจากตำแหน่งล่าสุดโดยอัตโนมัติ"
+msgstr "เล่นวิดีโอของคุณต่อจากที่คุณเล่นครั้งสุดท้าย"
 
 msgid "Playback from the beginning?"
-msgstr "เล่นใหม่ตั้งแต่ต้น?"
+msgstr "เล่นจากจุดเริ่มต้น?"
 
 msgid "Playback"
-msgstr "การเล่นวิดีโอ"
+msgstr "การเล่น"
 
 msgid "Continue watching"
 msgstr "ดูต่อ"
@@ -1270,16 +1210,16 @@ msgid "EXIT"
 msgstr "ออก"
 
 msgid "18+ ENTER"
-msgstr "18+ เข้าสู่ระบบ"
+msgstr "18+ เข้าสู่"
 
 msgid "Your name and message is required (*)"
-msgstr "จำเป็นต้องใส่ชื่อและข้อความของคุณ (*)"
+msgstr "ต้องระบุชื่อและข้อความของคุณ (*)"
 
 msgid "Your message"
 msgstr "ข้อความของคุณ"
 
 msgid "Thank you for sending error messages. We will fix the problem in the shortest time possible."
-msgstr "ขอบคุณที่ส่งข้อความแจ้งข้อผิดพลาด เราจะแก้ไขปัญหาโดยเร็วที่สุด"
+msgstr "ขอบคุณสำหรับการส่งข้อความข้อผิดพลาด เราจะแก้ไขปัญหาในเวลาที่สั้นที่สุด"
 
 msgid "Name or Email"
 msgstr "ชื่อหรืออีเมล"
@@ -1294,16 +1234,16 @@ msgid "Failed to remove items!"
 msgstr "ลบรายการไม่สำเร็จ!"
 
 msgid "All items removed successfully!"
-msgstr "ลบรายการทั้งหมดเรียบร้อยแล้ว!"
+msgstr "ลบรายการทั้งหมดสำเร็จ!"
 
 msgid "Marked as resolved successfully!"
-msgstr "ทำเครื่องหมายว่าแก้ไขแล้วสำเร็จ!"
+msgstr "ทำเครื่องหมายว่าแก้ไขสำเร็จ!"
 
 msgid "Failed to mark as resolved!"
-msgstr "ทำเครื่องหมายว่าแก้ไขแล้วล้มเหลว!"
+msgstr "ทำเครื่องหมายว่าแก้ไขไม่สำเร็จ!"
 
 msgid "Item removed successfully!"
-msgstr "ลบรายการเรียบร้อยแล้ว!"
+msgstr "ลบรายการสำเร็จ!"
 
 msgid "Failed to remove item!"
 msgstr "ลบรายการไม่สำเร็จ!"
@@ -1315,31 +1255,28 @@ msgid "An error occurred while removing all items."
 msgstr "เกิดข้อผิดพลาดขณะลบรายการทั้งหมด"
 
 msgid "Invalid structure. Each line must have exactly 3 parts separated by the \"|\" character."
-msgstr "โครงสร้างไม่ถูกต้อง แต่ละบรรทัดต้องมี 3 ส่วนที่คั่นด้วยตัวอักษร \"|\""
+msgstr "โครงสร้างไม่ถูกต้อง แต่ละบรรทัดต้องมี 3 ส่วนที่แยกด้วยอักขระ \"|\""
 
 msgid "There are no new episodes yet or this is the last episode!"
-msgstr "ยังไม่มีตอนใหม่หรือเป็นตอนสุดท้ายแล้ว!"
+msgstr "ยังไม่มีตอนใหม่หรือเป็นตอนสุดท้าย!"
 
 msgid "Cache Movies"
-msgstr "ภาพยนตร์แคช"
+msgstr "แคชภาพยนตร์"
 
 msgid "Empty!"
 msgstr "ว่างเปล่า!"
 
 msgid "HD, FULL HD..."
-msgstr "เอชดี ฟูลเอชดี..."
+msgstr "HD, FULL HD..."
 
 msgid "Manage Episode"
 msgstr "จัดการตอน"
 
 msgid "Please publish post before you can edit episodes"
-msgstr "กรุณาเผยแพร่บทความก่อนจึงจะสามารถแก้ไขตอนต่างๆ ได้"
-
-msgid "Displays the old episodes manager in the post editor"
-msgstr "แสดงตัวจัดการตอนเก่าในโปรแกรมแก้ไขโพสต์"
+msgstr "กรุณาเผยแพร่โพสต์ก่อนที่คุณจะสามารถแก้ไขตอน"
 
 msgid "You Must Provide Full Parameters: TITLE, SV, EP, Otherwise There Will Be An Error"
-msgstr "คุณต้องระบุพารามิเตอร์ทั้งหมด: TITLE, SV, EP มิฉะนั้นจะเกิดข้อผิดพลาด"
+msgstr "คุณต้องระบุพารามิเตอร์เต็ม: TITLE, SV, EP มิฉะนั้นจะเกิดข้อผิดพลาด"
 
 msgid "Submit Report"
 msgstr "ส่งรายงาน"
@@ -1351,49 +1288,46 @@ msgid "On Going"
 msgstr "กำลังดำเนินการ"
 
 msgid "Theater Movies"
-msgstr "ภาพยนตร์ในโรง"
+msgstr "ภาพยนตร์โรงภาพยนตร์"
 
 msgid "Background Color"
 msgstr "สีพื้นหลัง"
 
 msgid "Body Background"
-msgstr "พื้นหลังเนื้อหา"
+msgstr "พื้นหลังตัวเนื้อหา"
+
+msgid "Color Button Player"
+msgstr "สีปุ่มผู้เล่น"
 
 msgid "Find Episodes Quickly"
 msgstr "ค้นหาตอนอย่างรวดเร็ว"
 
-msgid "Color Button Player"
-msgstr "สีปุ่มเครื่องเล่น"
-
 msgid "Backgroud Color Find Episodes"
-msgstr "สีพื้นหลังการค้นหาตอน"
+msgstr "สีพื้นหลังค้นหาตอน"
 
 msgid "Text Color Find Episodes"
-msgstr "สีข้อความการค้นหาตอน"
+msgstr "สีข้อความค้นหาตอน"
 
 msgid "Border Color Find Episodes"
-msgstr "สีขอบการค้นหาตอน"
+msgstr "สีขอบค้นหาตอน"
 
 msgid "Episode Server Text Color"
 msgstr "สีข้อความเซิร์ฟเวอร์ตอน"
 
 msgid "Hover Background Color"
-msgstr "สีพื้นหลังเมื่อชี้เมาส์"
+msgstr "สีพื้นหลังเมื่อวางเมาส์"
 
 msgid "Backgroud Active Backup Server"
-msgstr "สีพื้นหลังเมื่อเปิดใช้งานเซิร์ฟเวอร์สำรอง"
+msgstr "พื้นหลังเซิร์ฟเวอร์สำรองที่ใช้งาน"
 
 msgid "Border Backup Server"
 msgstr "ขอบเซิร์ฟเวอร์สำรอง"
 
 msgid "Hover Backup Server"
-msgstr "เอฟเฟกต์เซิร์ฟเวอร์สำรองเมื่อชี้เมาส์"
+msgstr "เซิร์ฟเวอร์สำรองเมื่อวางเมาส์"
 
 msgid "Adult Content"
 msgstr "เนื้อหาสำหรับผู้ใหญ่"
-
-msgid "Close"
-msgstr "ปิด"
 
 msgid "Forward 10 Seconds"
 msgstr "เดินหน้า 10 วินาที"
@@ -1405,28 +1339,28 @@ msgid "AdBlock Detected!"
 msgstr "ตรวจพบ AdBlock!"
 
 msgid "Please disable AdBlock to continue watching."
-msgstr "กรุณาปิด AdBlock เพื่อดำเนินการรับชมต่อ"
+msgstr "กรุณาปิดใช้งาน AdBlock เพื่อดูต่อ"
 
 msgid "Detect AdBlocker"
 msgstr "ตรวจจับ AdBlocker"
 
 msgid "Auto detects ad blockers and displays a notifications to users"
-msgstr "ตรวจจับ AdBlocker โดยอัตโนมัติและแสดงการแจ้งเตือนแก่ผู้ใช้งาน"
+msgstr "ตรวจจับตัวบล็อกโฆษณาอัตโนมัติและแสดงการแจ้งเตือนแก่ผู้ใช้"
 
 msgid "Ex: \"Users please remove ad blocker!\""
-msgstr "ตัวอย่าง: \"กรุณาปิด AdBlock!\""
+msgstr "ตัวอย่าง: \"ผู้ใช้กรุณาลบตัวบล็อกโฆษณา!\""
 
 msgid "Total Likes"
-msgstr "ยอดไลค์รวม"
+msgstr "จำนวนการชอบทั้งหมด"
 
 msgid "Total Dislikes"
-msgstr "ไม่ชอบทั้งหมด"
+msgstr "จำนวนการไม่ชอบทั้งหมด"
 
 msgid "Change Label Movies"
 msgstr "เปลี่ยนป้ายภาพยนตร์"
 
 msgid "Select Label TV Series : Completed"
-msgstr "เลือกป้ายซีรีส์ทีวี: เสร็จสมบูรณ์"
+msgstr "เลือกป้ายซีรีส์ทีวี: เสร็จสิ้น"
 
 msgid "Select Label TV Series : Ongoing"
 msgstr "เลือกป้ายซีรีส์ทีวี: กำลังดำเนินการ"
@@ -1435,22 +1369,22 @@ msgid "Select Label Movies"
 msgstr "เลือกป้ายภาพยนตร์"
 
 msgid "Full {quality}"
-msgstr "เต็มรูปแบบ {quality}"
+msgstr "เต็ม {quality}"
 
 msgid "Episode {episode}/{total_episode}"
-msgstr "ตอนที่ {episode}/{total_episode}"
+msgstr "ตอน {episode}/{total_episode}"
 
 msgid "Completed ({episode}/{total_episode})"
-msgstr "เสร็จสมบูรณ์ ({episode}/{total_episode})"
+msgstr "เสร็จสิ้น ({episode}/{total_episode})"
 
 msgid "Adblock Notices"
-msgstr "การแจ้งเตือนบล็อกโฆษณา"
+msgstr "การแจ้งเตือน Adblock"
 
 msgid "Find episodes"
 msgstr "ค้นหาตอน"
 
 msgid "Color 5 Latest Episode"
-msgstr "สีสำหรับ 5 ตอนล่าสุด"
+msgstr "สี 5 ตอนล่าสุด"
 
 msgid "Text Color Button"
 msgstr "สีข้อความปุ่ม"
@@ -1459,4 +1393,527 @@ msgid "Backgroud Color Button"
 msgstr "สีพื้นหลังปุ่ม"
 
 msgid "License Manager"
-msgstr "ผู้จัดการใบอนุญาต"
+msgstr "ตัวจัดการใบอนุญาต"
+
+msgid "Theme License"
+msgstr "ใบอนุญาตธีม"
+
+msgid "Enter your theme license key."
+msgstr "ป้อนคีย์ใบอนุญาตธีมของคุณ"
+
+msgid "License Key"
+msgstr "คีย์ใบอนุญาต"
+
+msgid "License Action"
+msgstr "การดำเนินการใบอนุญาต"
+
+msgid "Deactivate License"
+msgstr "ปิดใช้งานใบอนุญาต"
+
+msgid "Activate License"
+msgstr "เปิดใช้งานใบอนุญาต"
+
+msgid "License status is unknown."
+msgstr "สถานะใบอนุญาตไม่ทราบ"
+
+msgid "Renew?"
+msgstr "ต่ออายุ?"
+
+msgid "unlimited"
+msgstr "ไม่จำกัด"
+
+msgid "License key is active."
+msgstr "คีย์ใบอนุญาตใช้งานอยู่"
+
+msgid "Expires %s."
+msgstr "หมดอายุ %s"
+
+msgid "Lifetime License."
+msgstr "ใบอนุญาตตลอดชีพ"
+
+msgid "You have %1$s / %2$s sites activated."
+msgstr "คุณมี %1$s / %2$s เว็บไซต์ที่เปิดใช้งาน"
+
+msgid "License key expired %s."
+msgstr "คีย์ใบอนุญาตหมดอายุ %s"
+
+msgid "License key has expired."
+msgstr "คีย์ใบอนุญาตหมดอายุแล้ว"
+
+msgid "License keys do not match."
+msgstr "คีย์ใบอนุญาตไม่ตรงกัน"
+
+msgid "License is inactive."
+msgstr "ใบอนุญาตไม่ใช้งาน"
+
+msgid "License key is disabled."
+msgstr "คีย์ใบอนุญาตถูกปิดใช้งาน"
+
+msgid "Site is inactive."
+msgstr "ไซต์ไม่ใช้งาน"
+
+msgid "Updating this theme will lose any customizations you have made. \"Cancel\" to stop, \"OK\" to update."
+msgstr "การอัปเดตธีมนี้จะทำให้การปรับแต่งที่คุณทำหายไป \"ยกเลิก\" เพื่อหยุด \"ตกลง\" เพื่ออัปเดต"
+
+msgid ""
+"<strong>%1\\$s %2\\$s</strong> is available. <a href=\"%3\\$s\" class=\"thickbox\" title=\"%4s\">Check out what's new</a> or <a href=\"%5\\$s\"%6\\$s>update now</a>."
+msgstr "<strong>%1\\$s %2\\$s</strong> พร้อมใช้งาน <a href=\"%3\\$s\" class=\"thickbox\" title=\"%4s\">ตรวจสอบสิ่งใหม่</a> หรือ <a href=\"%5\\$s\"%6\\$s>อัปเดตตอนนี้</a>"
+
+msgid "License Details"
+msgstr "รายละเอียดใบอนุญาต"
+
+msgid "Status:"
+msgstr "สถานะ:"
+
+msgid "License Key:"
+msgstr "คีย์ใบอนุญาต:"
+
+msgid "Email:"
+msgstr "อีเมล:"
+
+msgid "Expiration Date:"
+msgstr "วันที่หมดอายุ:"
+
+msgid "Lifetime License"
+msgstr "ใบอนุญาตตลอดชีพ"
+
+msgid "License Limit:"
+msgstr "ขีดจำกัดใบอนุญาต:"
+
+msgid "You have %s/%s sites activated"
+msgstr "คุณมี %s/%s เว็บไซต์ที่เปิดใช้งาน"
+
+msgid "Update License"
+msgstr "อัปเดตใบอนุญาต"
+
+msgid "If you wish to use this license on a different server, deactivate it first."
+msgstr "หากคุณต้องการใช้ใบอนุญาตนี้บนเซิร์ฟเวอร์อื่น ให้ปิดใช้งานก่อน"
+
+msgid "License Code"
+msgstr "รหัสใบอนุญาต"
+
+msgid "Activate"
+msgstr "เปิดใช้งาน"
+
+msgid "Import Page/Menu/Widgets Template"
+msgstr "นำเข้าเทมเพลตหน้า/เมนู/วิดเจ็ต"
+
+msgid "Header"
+msgstr "ส่วนหัว"
+
+msgid "Footer"
+msgstr "ส่วนท้าย"
+
+msgid "Security"
+msgstr "ความปลอดภัย"
+
+msgid "Import/Export Templates"
+msgstr "นำเข้า/ส่งออกเทมเพลต"
+
+msgid "General"
+msgstr "ทั่วไป"
+
+msgid "Settings imported. This is just an example. No data imported."
+msgstr "การตั้งค่าถูกนำเข้า นี่เป็นเพียงตัวอย่าง ไม่มีการนำเข้าข้อมูล"
+
+msgid "Custom description for theme options"
+msgstr "คำอธิบายที่กำหนดเองสำหรับตัวเลือกธีม"
+
+msgid "Pages"
+msgstr "หน้า"
+
+msgid "Menu"
+msgstr "เมนู"
+
+msgid "Widgets"
+msgstr "วิดเจ็ต"
+
+msgid "Classic Editor"
+msgstr "ตัวแก้ไขคลาสสิก"
+
+msgid "Classic Widgets"
+msgstr "วิดเจ็ตคลาสสิก"
+
+msgid "Additional CSS"
+msgstr "CSS เพิ่มเติม"
+
+msgid "Font size"
+msgstr "ขนาดตัวอักษร"
+
+msgid "Font Family"
+msgstr "แบบอักษร"
+
+msgid "Show/Hide Admin Bar"
+msgstr "แสดง/ซ่อนแถบผู้ดูแลระบบ"
+
+msgid "Add your own CSS code here to customize the appearance and layout of your site."
+msgstr "เพิ่มโค้ด CSS ของคุณเองที่นี่เพื่อปรับแต่งรูปลักษณ์และการจัดวางของไซต์ของคุณ"
+
+msgid "This option disables the new Gutenberg Editor (aka Block Editor) and replaces it with the Classic Editor"
+msgstr "ตัวเลือกนี้ปิดใช้งานตัวแก้ไข Gutenberg ใหม่ (หรือที่เรียกว่าตัวแก้ไขบล็อก) และแทนที่ด้วยตัวแก้ไขคลาสสิก"
+
+msgid "This Option Will Return Widgets to Classic Mode"
+msgstr "ตัวเลือกนี้จะคืนวิดเจ็ตเป็นโหมดคลาสสิก"
+
+msgid "Show Or Hide Admin Bar From Frontend Theme"
+msgstr "แสดงหรือซ่อนแถบผู้ดูแลระบบจากธีมส่วนหน้า"
+
+msgid "Displays the old episodes manager in the post editor"
+msgstr "แสดงตัวจัดการตอนเก่าในตัวแก้ไขโพสต์"
+
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+msgid "Meta verification"
+msgstr "การตรวจสอบเมตา"
+
+msgid "Other Scripts Header"
+msgstr "ส่วนหัวสคริปต์อื่นๆ"
+
+msgid "Paste here your Google Analytics following code."
+msgstr "วางโค้ด Google Analytics ของคุณที่นี่"
+
+msgid "Paste here your meta codes (for example to verify your domain from a third party like Google Suite, etc.)"
+msgstr "วางโค้ดเมตาของคุณที่นี่ (เช่น เพื่อยืนยันโดเมนของคุณจากบุคคลที่สามเช่น Google Suite เป็นต้น)"
+
+msgid "Hide required plugins notice"
+msgstr "ซ่อนการแจ้งเตือนปลั๊กอินที่จำเป็น"
+
+msgid "This Option Will Hide Notifications About Required Plugin Installation"
+msgstr "ตัวเลือกนี้จะซ่อนการแจ้งเตือนเกี่ยวกับการติดตั้งปลั๊กอินที่จำเป็น"
+
+msgid "Footer Scripts"
+msgstr "สคริปต์ส่วนท้าย"
+
+msgid "Enter the codes which you need to place in your footer. Tracking Code or any other JavaScript. (ex: Google Analytics, Clicky, Woopra, Histats, etc.)."
+msgstr "ป้อนโค้ดที่คุณต้องการวางในส่วนท้าย รหัสติดตามหรือ JavaScript อื่นๆ (เช่น Google Analytics, Clicky, Woopra, Histats เป็นต้น)"
+
+msgid "Footer About Text"
+msgstr "ข้อความเกี่ยวกับส่วนท้าย"
+
+msgid "Copyright Text"
+msgstr "ข้อความลิขสิทธิ์"
+
+msgid "You can change or remove our link from footer and use your own custom text. (Link back is always appreciated)"
+msgstr "คุณสามารถเปลี่ยนหรือลบลิงก์ของเราจากส่วนท้ายและใช้ข้อความที่กำหนดเองของคุณเอง (ลิงก์กลับได้รับการชื่นชมเสมอ)"
+
+msgid "Create Page"
+msgstr "สร้างหน้า"
+
+msgid "Create Menu"
+msgstr "สร้างเมนู"
+
+msgid "Create Widgets"
+msgstr "สร้างวิดเจ็ต"
+
+msgid "Create <a href=\"%s\" target=\"_blank\">page</a> like on <a href=\"%s\" target=\"_blank\">%s</a> demo."
+msgstr "สร้าง <a href=\"%s\" target=\"_blank\">หน้า</a> เหมือนใน <a href=\"%s\" target=\"_blank\">%s</a> เดโม"
+
+msgid "Create a <a href=\"%s\" target=\"_blank\">menu</a> like on <a href=\"%s\" target=\"_blank\">%s</a> demo."
+msgstr "สร้าง <a href=\"%s\" target=\"_blank\">เมนู</a> เหมือนใน <a href=\"%s\" target=\"_blank\">%s</a> เดโม"
+
+msgid "Create <a href=\"%s\" target=\"_blank\">widgets</a> like on <a href=\"%s\" target=\"_blank\">%s</a> demo."
+msgstr "สร้าง <a href=\"%s\" target=\"_blank\">วิดเจ็ต</a> เหมือนใน <a href=\"%s\" target=\"_blank\">%s</a> เดโม"
+
+msgid "Export"
+msgstr "ส่งออก"
+
+msgid "Download and make a backup of your options."
+msgstr "ดาวน์โหลดและสำรองตัวเลือกของคุณ"
+
+msgid "This action will create a page in your admin."
+msgstr "การดำเนินการนี้จะสร้างหน้าในผู้ดูแลระบบของคุณ"
+
+msgid "This action will create a menu in your admin."
+msgstr "การดำเนินการนี้จะสร้างเมนูในผู้ดูแลระบบของคุณ"
+
+msgid "This action will integrate video block widgets in your admin."
+msgstr "การดำเนินการนี้จะรวมวิดเจ็ตบล็อกวิดีโอในผู้ดูแลระบบของคุณ"
+
+msgid "Close"
+msgstr "ปิด"
+
+msgid "Confirm"
+msgstr "ยืนยัน"
+
+msgid "Select a Niche image to import options from a niche. Then click on the Import button."
+msgstr "เลือกภาพเฉพาะกลุ่มเพื่อนำเข้าตัวเลือกจากกลุ่มเฉพาะ จากนั้นคลิกที่ปุ่มนำเข้า"
+
+msgid "Theme options will be imported in order to change the appearance of your site."
+msgstr "ตัวเลือกธีมจะถูกนำเข้าเพื่อเปลี่ยนรูปลักษณ์ของไซต์ของคุณ"
+
+msgid "Select \"From file\" to import options from a json backup file. Then click on the Import button."
+msgstr "เลือก \"จากไฟล์\" เพื่อนำเข้าตัวเลือกจากไฟล์สำรอง json จากนั้นคลิกที่ปุ่มนำเข้า"
+
+msgid "You can export a json backup file in the Export section of this theme options."
+msgstr "คุณสามารถส่งออกไฟล์สำรอง json ในส่วนส่งออกของตัวเลือกธีมนี้"
+
+msgid "Theme Options"
+msgstr "ตัวเลือกธีม"
+
+msgid "Dashboard"
+msgstr "แดชบอร์ด"
+
+msgid "Logs"
+msgstr "บันทึก"
+
+msgid "Help"
+msgstr "ช่วยเหลือ"
+
+msgid "Show logo on both JWPlayer and embedded iframe player"
+msgstr "แสดงโลโก้ทั้งใน JWPlayer และผู้เล่น iframe ที่ฝัง"
+
+msgid "Custom Ads Position"
+msgstr "ตำแหน่งโฆษณาที่กำหนดเอง"
+
+msgid "Ads Configuration"
+msgstr "การตั้งค่าโฆษณา"
+
+msgid "You can add ads code for desktop and mobile devices"
+msgstr "คุณสามารถเพิ่มรหัสโฆษณาสำหรับอุปกรณ์เดสก์ท็อปและมือถือ"
+
+msgid "ADS Desktop"
+msgstr "โฆษณาเดสก์ท็อป"
+
+msgid "Popup Ads Code Desktop"
+msgstr "รหัสโฆษณาป๊อปอัพเดสก์ท็อป"
+
+msgid "Header Ads Code Desktop"
+msgstr "รหัสโฆษณาส่วนหัวเดสก์ท็อป"
+
+msgid "Footer Ads Code Desktop"
+msgstr "รหัสโฆษณาส่วนท้ายเดสก์ท็อป"
+
+msgid "Top Player Ads Code Desktop"
+msgstr "รหัสโฆษณาผู้เล่นด้านบนเดสก์ท็อป"
+
+msgid "Under Player Ads Desktop"
+msgstr "โฆษณาใต้ผู้เล่นเดสก์ท็อป"
+
+msgid "ADS Mobile"
+msgstr "โฆษณามือถือ"
+
+msgid "Header Ads Code Mobile"
+msgstr "รหัสโฆษณาส่วนหัวมือถือ"
+
+msgid "Footer Ads Code Mobile"
+msgstr "รหัสโฆษณาส่วนท้ายมือถือ"
+
+msgid "Top Player Ads Code Mobile"
+msgstr "รหัสโฆษณาผู้เล่นด้านบนมือถือ"
+
+msgid "Under Player Ads Mobile"
+msgstr "โฆษณาใต้ผู้เล่นมือถือ"
+
+msgid "Custom JWPlayer"
+msgstr "JWPlayer ที่กำหนดเอง"
+
+msgid "JWPlayer Configuration"
+msgstr "การตั้งค่า JWPlayer"
+
+msgid "Show Ads & Banner"
+msgstr "แสดงโฆษณาและแบนเนอร์"
+
+msgid "This setting only applies to JWPlayer: Auto hide the logo when the mouse is not over the player."
+msgstr "การตั้งค่านี้ใช้ได้เฉพาะกับ JWPlayer: ซ่อนโลโก้อัตโนมัติเมื่อเมาส์ไม่ได้อยู่เหนือผู้เล่น"
+
+msgid "Logo Player Configuration"
+msgstr "การตั้งค่าโลโก้ผู้เล่น"
+
+msgid "Show Logo Player"
+msgstr "แสดงโลโก้ผู้เล่น"
+
+msgid "Player & ADS"
+msgstr "ผู้เล่นและโฆษณา"
+
+msgid "Search Slug"
+msgstr "Slug การค้นหา"
+
+msgid "The slug of the https://domain.com/search/quentin-tarantino page"
+msgstr "Slug ของหน้า https://domain.com/search/quentin-tarantino"
+
+msgid "The slug of the %s page"
+msgstr "Slug ของหน้า %s"
+
+msgid "Tags Slug"
+msgstr "Slug แท็ก"
+
+msgid "Director Slug"
+msgstr "Slug ผู้กำกับ"
+
+msgid "Actor Slug"
+msgstr "Slug นักแสดง"
+
+msgid "Category Slug"
+msgstr "Slug หมวดหมู่"
+
+msgid "Custom Slug"
+msgstr "Slug ที่กำหนดเอง"
+
+msgid "Select Type Watch Page"
+msgstr "เลือกประเภทหน้าดู"
+
+msgid "Using Watch and Info Pages"
+msgstr "ใช้หน้าดูและข้อมูล"
+
+msgid "Use Single Original"
+msgstr "ใช้ต้นฉบับเดี่ยว"
+
+msgid "Default No Image"
+msgstr "ไม่มีภาพเริ่มต้น"
+
+msgid "Add Image"
+msgstr "เพิ่มภาพ"
+
+msgid "Remove Image"
+msgstr "ลบภาพ"
+
+msgid "Import Demo"
+msgstr "นำเข้าเดโม"
+
+msgid "Logo Image"
+msgstr "ภาพโลโก้"
+
+msgid "Text"
+msgstr "ข้อความ"
+
+msgid "Use an image instead of text for the logo"
+msgstr "ใช้ภาพแทนข้อความสำหรับโลโก้"
+
+msgid "Use Logo Image"
+msgstr "ใช้ภาพโลโก้"
+
+msgid "Themes Options"
+msgstr "ตัวเลือกธีม"
+
+msgid "Enable to show or hide the admin bar."
+msgstr "เปิดใช้งานเพื่อแสดงหรือซ่อนแถบผู้ดูแลระบบ"
+
+msgid "Display All PHP Errors"
+msgstr "แสดงข้อผิดพลาด PHP ทั้งหมด"
+
+msgid "Disable XML-RPC"
+msgstr "ปิดใช้งาน XML-RPC"
+
+msgid "Disable XML-RPC to prevent brute force attacks"
+msgstr "ปิดใช้งาน XML-RPC เพื่อป้องกันการโจมตีแบบ brute force"
+
+msgid "Block Bad Query"
+msgstr "บล็อกคำค้นหาที่ไม่ดี"
+
+msgid "Block bad query to prevent SQL injection"
+msgstr "บล็อกคำค้นหาที่ไม่ดีเพื่อป้องกันการฉีด SQL"
+
+msgid "Disable Emoji"
+msgstr "ปิดใช้งาน Emoji"
+
+msgid "Disable Emoji to prevent loading extra files"
+msgstr "ปิดใช้งาน Emoji เพื่อป้องกันการโหลดไฟล์เพิ่มเติม"
+
+msgid "Disable REST API"
+msgstr "ปิดใช้งาน REST API"
+
+msgid "Disable REST API to prevent unauthorized access"
+msgstr "ปิดใช้งาน REST API เพื่อป้องกันการเข้าถึงโดยไม่ได้รับอนุญาต"
+
+msgid "Disable WP Cron"
+msgstr "ปิดใช้งาน WP Cron"
+
+msgid "Disable WP Cron to prevent loading extra files"
+msgstr "ปิดใช้งาน WP Cron เพื่อป้องกันการโหลดไฟล์เพิ่มเติม"
+
+msgid "Disable WP Embed"
+msgstr "ปิดใช้งาน WP Embed"
+
+msgid "Disable WP Embed to prevent loading extra files"
+msgstr "ปิดใช้งาน WP Embed เพื่อป้องกันการโหลดไฟล์เพิ่มเติม"
+
+msgid "Disable Application Passwords"
+msgstr "ปิดใช้งานรหัสผ่านแอปพลิเคชัน"
+
+msgid "Disable Application Passwords to prevent unauthorized access"
+msgstr "ปิดใช้งานรหัสผ่านแอปพลิเคชันเพื่อป้องกันการเข้าถึงโดยไม่ได้รับอนุญาต"
+
+msgid "Disable F12 Key, Debug tools in Browser"
+msgstr "ปิดใช้งานคีย์ F12, เครื่องมือดีบักในเบราว์เซอร์"
+
+msgid "URL to redirect if debug tool is opened"
+msgstr "URL เพื่อเปลี่ยนเส้นทางหากเปิดเครื่องมือดีบัก"
+
+msgid "URL will redirect to after pressing F12 (Default is: https://haunytb.com)"
+msgstr "URL จะเปลี่ยนเส้นทางหลังจากกด F12 (ค่าเริ่มต้นคือ: https://haunytb.com)"
+
+msgid "Disable RSS Feed"
+msgstr "ปิดใช้งาน RSS Feed"
+
+msgid "Disable RSS Feed to prevent loading extra files"
+msgstr "ปิดใช้งาน RSS Feed เพื่อป้องกันการโหลดไฟล์เพิ่มเติม"
+
+msgid "Disable Block Inline CSS"
+msgstr "ปิดใช้งานบล็อก CSS แบบอินไลน์"
+
+msgid "Disable Block Inline CSS to prevent loading extra files"
+msgstr "ปิดใช้งานบล็อก CSS แบบอินไลน์เพื่อป้องกันการโหลดไฟล์เพิ่มเติม"
+
+msgid "Disable Global Styles"
+msgstr "ปิดใช้งานสไตล์ทั่วโลก"
+
+msgid "Disable Global Styles to prevent loading extra files"
+msgstr "ปิดใช้งานสไตล์ทั่วโลกเพื่อป้องกันการโหลดไฟล์เพิ่มเติม"
+
+msgid "Disable Classic Theme Styles"
+msgstr "ปิดใช้งานสไตล์ธีมคลาสสิก"
+
+msgid "Disable Classic Theme Styles to prevent loading extra files"
+msgstr "ปิดใช้งานสไตล์ธีมคลาสสิกเพื่อป้องกันการโหลดไฟล์เพิ่มเติม"
+
+msgid "Apple touch icon"
+msgstr "ไอคอนสัมผัส Apple"
+
+msgid "Upload a 152 x 152 px image that will represent your website's touch icon for iOS 2.0+ and Android 2.1+ devices."
+msgstr "อัปโหลดภาพขนาด 152 x 152 px ที่จะแสดงไอคอนสัมผัสของเว็บไซต์ของคุณสำหรับอุปกรณ์ iOS 2.0+ และ Android 2.1+"
+
+msgid "Removing the redirect after changing a post or page's slug"
+msgstr "ลบการเปลี่ยนเส้นทางหลังจากเปลี่ยน slug ของโพสต์หรือหน้า"
+
+msgid "Enable to remove the redirect after changing a post or page's slug."
+msgstr "เปิดใช้งานเพื่อลบการเปลี่ยนเส้นทางหลังจากเปลี่ยน slug ของโพสต์หรือหน้า"
+
+msgid "No feed available, please visit our homepage!"
+msgstr "ไม่มีฟีดที่พร้อมใช้งาน กรุณาเยี่ยมชมหน้าแรกของเรา!"
+
+msgid "Only authenticated users can access the REST API."
+msgstr "เฉพาะผู้ใช้ที่ได้รับการรับรองเท่านั้นที่สามารถเข้าถึง REST API"
+
+msgid "This content is password protected. To view it please enter your password below:"
+msgstr "เนื้อหานี้ได้รับการป้องกันด้วยรหัสผ่าน เพื่อดูกรุณาใส่รหัสผ่านของคุณด้านล่าง:"
+
+msgid "Password"
+msgstr "รหัสผ่าน"
+
+msgid "Hide the notice for required plugins in the admin area."
+msgstr "ซ่อนการแจ้งเตือนสำหรับปลั๊กอินที่จำเป็นในพื้นที่ผู้ดูแลระบบ"
+
+msgid "Select the comment system you want to use."
+msgstr "เลือกระบบความคิดเห็นที่คุณต้องการใช้"
+
+msgid "Enable to allow users to comment on your site."
+msgstr "เปิดใช้งานเพื่ออนุญาตให้ผู้ใช้แสดงความคิดเห็นในไซต์ของคุณ"
+
+msgid "Facebook Apps ID"
+msgstr "ID แอป Facebook"
+
+msgid "The shortname for your Disqus account. This is used to identify your Disqus account and is required for the Disqus comment system to work."
+msgstr "ชื่อย่อสำหรับบัญชี Disqus ของคุณ ใช้เพื่อระบุบัญชี Disqus ของคุณและจำเป็นสำหรับระบบความคิดเห็น Disqus ที่จะทำงาน"
+
+msgid "Disqus Shortname"
+msgstr "ชื่อย่อ Disqus"
+
+msgid "You can add your own emojis by typing in the box above with the format emoji 1|emoji 2..."
+msgstr "คุณสามารถเพิ่มอิโมจิของคุณเองโดยพิมพ์ในช่องด้านบนด้วยรูปแบบ emoji 1|emoji 2..."
+
+msgid "Emojis Comments"
+msgstr "ความคิดเห็นอิโมจิ"
+
+msgid "Custom Comment"
+msgstr "ความคิดเห็นที่กำหนดเอง"

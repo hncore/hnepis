@@ -2390,6 +2390,18 @@ body, .jw-text {
     display: inline-block !important;
 }
 
+.hn-aspect-16by9 {
+    aspect-ratio: 16 / 9;
+}
+
+.hn-aspect-4by3 {
+    aspect-ratio: 4 / 3;
+}
+
+.hn-aspect-21by9 {
+    aspect-ratio: 21 / 9;
+}
+
 .disabled\:active:disabled.haun-episode {
   --tw-bg-opacity: 1;
   background-color: rgb(209 74 74 / var(--tw-bg-opacity, 1));

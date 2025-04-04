@@ -416,3 +416,15 @@ body, .jw-text {
 .notice.notice-warning.inline {
     display: inline-block !important;
 }
+
+.hn-aspect-16by9 {
+    aspect-ratio: 16 / 9;
+}
+
+.hn-aspect-4by3 {
+    aspect-ratio: 4 / 3;
+}
+
+.hn-aspect-21by9 {
+    aspect-ratio: 21 / 9;
+}

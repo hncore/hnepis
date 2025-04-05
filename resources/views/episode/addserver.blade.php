@@ -17,7 +17,7 @@
 						@endphp
 						<div class="hnsvitem">
 							<a class="py-1 px-2 bg-red-700 text-white ml-2 rounded-l-sm text-xs font-bold no-underline hover:bg-sky-700 focus:outline-none active:outline-none focus:ring-0 active:ring-0 {{ $server == $key ? ' bg-sky-700' : '' }}" 
-							   href="?page=hnmg-episode&act=edit_ep&post_id={{ $postID }}&server={{ $key }}&paged={{ $paged }}&cat={{ $cat_id }}">
+							   href="?page=hnepis-episode&act=edit_ep&post_id={{ $postID }}&server={{ $key }}&paged={{ $paged }}&cat={{ $cat_id }}">
 								{{ $value['haunmovies_server_name'] }}
 							</a>
 							<span class="py-1 px-2 bg-red-500 text-white rounded-r-sm text-xs font-bold hover:cursor-pointer hnserver-{{ $key }}" @click="deleteServer('{{ $key }}', '{{ $postID }}')">

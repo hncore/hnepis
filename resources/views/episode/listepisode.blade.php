@@ -1,4 +1,4 @@
-@include('HNMG::layouts.header')
+@include('HNEPIS::layouts.header')
 	<div id="download-episode" class="w-[98%] my-8 border-2 border-sky-500 border-dashed" style="display: none"></div>
 	<div x-data="HNEpis()" x-init="loadPostsData()" class="w-full md:w-[98%] relative my-6 shadow-lg rounded-md sm:rounded-lg bg-white">
 		<table id="epis-datatable" class="w-full pp-2 text-sm text-left text-gray-500">
@@ -25,7 +25,7 @@
 		</table>
 
 		@if(!empty($_GET['act']) && $_GET['act'] == 'edit_ep')
-			@include('HNMG::episode.epi-page')
+			@include('HNEPIS::episode.epi-page')
 		@endif
 	</div>
-@include('HNMG::layouts.footer')
+@include('HNEPIS::layouts.footer')

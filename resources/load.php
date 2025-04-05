@@ -2,7 +2,7 @@
 
 namespace HNCore;
 
-use HNMG\EP_Load\EP_Player;
+use HNEPIS\EP_Load\EP_Player;
 
 header('Content-type: application/json; charset=utf-8');
 header('X-Frame-Options: SAMEORIGIN');

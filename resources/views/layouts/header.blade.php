@@ -3,22 +3,22 @@
         return isset($_GET['page']) ? sanitize_title(wp_unslash($_GET['page'])) : '';
     }
     $curpage = get_current_page_slug();
-    $tabs    = get_hnmg_tabs($curpage)
+    $tabs    = get_hnepis_tabs($curpage)
 @endphp
 
 <div class="flex justify-between items-center my-4 w-[98%]">
     <div class="hnytb__header-logo">
         <a href="{{ HNREMOTE_API_URL }}" target="_blank">
-            <img class="hnytb__logo" src="{!! HNMG_LOGO !!}" alt="Logo"/>
+            <img class="hnytb__logo" src="{!! HNEPIS_LOGO !!}" alt="Logo"/>
         </a>
     </div>
     <div class="hnytb__header-social font-bold">
-        <a href="{!! HNMG_TELE !!}" class="flex items-center text-blue-500 hover:text-blue-700 mx-1 my-2" target="_blank">
+        <a href="{!! HNEPIS_TELE !!}" class="flex items-center text-blue-500 hover:text-blue-700 mx-1 my-2" target="_blank">
             <svg class="inline mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
             </svg>
-            {{ __('Follow us', 'hnmgepis') }}
+            {{ __('Follow us', 'hnepis') }}
         </a>
     </div>
 </div>
@@ -45,4 +45,4 @@
     </ul>
 </div>
 
-<div id="tab-content" class="bg-white {{ $curpage == 'hnmg-license' ? 'py-4 rounded-tl-0' : 'p-4 rounded-tl-lg' }} rounded-br-lg shadow-lg w-[98%] rounded-bl-lg rounded-tr-lg">
+<div id="tab-content" class="bg-white {{ $curpage == 'hnepis-license' ? 'py-4 rounded-tl-0' : 'p-4 rounded-tl-lg' }} rounded-br-lg shadow-lg w-[98%] rounded-bl-lg rounded-tr-lg">

@@ -1,5 +1,5 @@
 {
-    "name": "hncore/hnmgepis",
+    "name": "hncore/hnepis",
     "type": "wordpress-package",
     "description": "Manager Episode",
     "license": "MIT",
@@ -15,18 +15,18 @@
     },
     "autoload": {
         "psr-4": {
-            "HNMG\\": "src/"
+            "HNEPIS\\": "src/"
         },
         "files": [
             "src/Compat/constant.php",
             "src/options/autoload.php",
-            "src/Compat/global-functions.php"
+            "src/Compat/global.php"
         ]
     },
     "extra": {
         "acorn": {
             "providers": [
-                "HNMG\\Providers\\EpisServiceProvider"
+                "HNEPIS\\Providers\\EpisServiceProvider"
             ]
         }
     }

@@ -5,7 +5,7 @@
     </div>
     <div class="p-4 bg-white">
         <div class="font-bold text-lg mb-4">
-            @hnepis('Latest Episode'):<b class="text-orange-500"> {!! $hnmg_last_episode($postID, $metaPost) !!} </b>
+            @hnepis('Latest Episode'):<b class="text-orange-500"> {!! $hnepis_last_episode($postID, $metaPost) !!} </b>
         </div>
         
         <div x-data="{ importepisTab: 'episode', importType: 'listepisode' }" class="w-full">

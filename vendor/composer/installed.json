@@ -1,0 +1,56 @@
+{
+    "packages": [
+        {
+            "name": "hncore/hnmanager",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hncore/hnmanager.git",
+                "reference": "ab5d447d5bc50a1f80ccba39fd05e8a0190ac71a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hncore/hnmanager/zipball/ab5d447d5bc50a1f80ccba39fd05e8a0190ac71a",
+                "reference": "ab5d447d5bc50a1f80ccba39fd05e8a0190ac71a",
+                "shasum": ""
+            },
+            "time": "2025-03-31T21:42:37+00:00",
+            "type": "wordpress-package",
+            "extra": {
+                "acorn": {
+                    "providers": [
+                        "HAUN\\HNManager"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/Options/AutoLoad.php"
+                ],
+                "psr-4": {
+                    "HAUN\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "HauN",
+                    "email": "haunytb@gmail.com"
+                }
+            ],
+            "description": "Manager",
+            "support": {
+                "issues": "https://github.com/hncore/hnmanager/issues",
+                "source": "https://github.com/hncore/hnmanager/tree/1.0.0"
+            },
+            "install-path": "../hncore/hnmanager"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

@@ -37,7 +37,7 @@
 			<div x-show="activeTab === (index + 1)" class="tab-pane server-container" :id="'server_' + (index + 1)">
 				<div class="w-full max-w-sm min-w-[200px] relative mt-4">
 					<div class="relative">
-						<input type="text" :name="'haunmovies_server_name[' + (index + 1) + ']'" x-model="server.name" placeholder="{{ __('Server Name', 'hnmgepis') }}" class="w-full rounded-none md:w-64 bg-transparent placeholder:text-slate-400 text-slate-700 text-xs md:text-sm border border-slate-200 pr-3 pl-28 mb-5" />
+						<input type="text" :name="'haunmovies_server_name[' + (index + 1) + ']'" x-model="server.name" placeholder="{{ __('Server Name', 'hnepis') }}" class="w-full rounded-none md:w-64 bg-transparent placeholder:text-slate-400 text-slate-700 text-xs md:text-sm border border-slate-200 pr-3 pl-28 mb-5" />
 						<div class="absolute left-0 top-0 bg-slate-800 py-1 px-2.5 border border-transparent text-center text-xs font-semibold py-1.5 text-white transition-all shadow-sm">
 							@hnepis('Server Name')
 						</div>
@@ -63,10 +63,10 @@
 							<div class="flex flex-wrap md:flex-nowrap gap-2 md:gap-4">
 								<div class="flex w-full md:w-1/3 gap-2 md:gap-4 auto-slug">
 									<div class="w-1/2 flex items-center md:py-2">
-										<input type="text" x-model="episode.name" @input="changetoslug($event.target)" class="hn-input w-full" :name="'haunmovies_ep_name[' + (index + 1) + '][' + epIndex + ']'" placeholder="{{ __('Episode Name', 'hnmgepis') }}">
+										<input type="text" x-model="episode.name" @input="changetoslug($event.target)" class="hn-input w-full" :name="'haunmovies_ep_name[' + (index + 1) + '][' + epIndex + ']'" placeholder="{{ __('Episode Name', 'hnepis') }}">
 									</div>
 									<div class="w-1/2 flex items-center md:py-2">
-										<input type="text" x-model="episode.slug" class="auto-ep-slug hn-input w-full" :name="'haunmovies_ep_slug[' + (index + 1) + '][' + epIndex + ']'" placeholder="{{ __('Episode Slug', 'hnmgepis') }}">
+										<input type="text" x-model="episode.slug" class="auto-ep-slug hn-input w-full" :name="'haunmovies_ep_slug[' + (index + 1) + '][' + epIndex + ']'" placeholder="{{ __('Episode Slug', 'hnepis') }}">
 									</div>
 								</div>
 								<div class="md:w-1/6 w-full flex items-center md:py-2">
@@ -78,7 +78,7 @@
 								</div>
 
 								<div class="md:w-5/6 w-full flex items-center md:py-2">
-									<input x-model="episode.link" class="hn-input w-full" :name="'haunmovies_ep_link[' + (index + 1) + '][' + epIndex + ']'" type="text" placeholder="{{ __('Episode Link', 'hnmgepis') }}">
+									<input x-model="episode.link" class="hn-input w-full" :name="'haunmovies_ep_link[' + (index + 1) + '][' + epIndex + ']'" type="text" placeholder="{{ __('Episode Link', 'hnepis') }}">
 								</div>
 								<div class="md:w-1/6 w-full flex md:items-center md:py-2">
 									<button type="button" @click="episode.svlist = !episode.svlist; if (episode.svlist) episode.cclist = false" 

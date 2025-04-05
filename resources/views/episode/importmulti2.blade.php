@@ -5,7 +5,7 @@
     </div>
 	<div class="p-4 bg-white rounded-b-lg">
 		<div class="import-multi-episode">
-			<p style="font-weight: 700;color: #ff6a00;font-size: 17px;">@hnepis('Latest Episode'): {!! $hnmg_last_episode($postID, $metaPost) !!}</p>
+			<p style="font-weight: 700;color: #ff6a00;font-size: 17px;">@hnepis('Latest Episode'): {!! $hnepis_last_episode($postID, $metaPost) !!}</p>
 			<div class="bg-slate-100 my-4 p-3">
 				<div class="mb-1">@hnepis('Only main episode link')</div>
 				<div class="bg-white text-red-600 p-2 mb-2">@hnepis('Episode') 13x|https://drive.google.com/file/d/1ATilCtX62rLXwpo7Gm7h2ba6wiGjbL3I/view?usp=sharing|link</div>

@@ -1,7 +1,7 @@
 @php
     $postID 	= isset($_GET['post_id']) ? absint($_GET['post_id']) : get_the_ID();
-	$metaPost 	= get_post_meta($postID, HNMG_META, true);
-	$loaddata 	= get_post_meta($postID, HNMG_EPS, true);
+	$metaPost 	= get_post_meta($postID, HNEPIS_META, true);
+	$loaddata 	= get_post_meta($postID, HNEPIS_EPS, true);
 	$data 		= json_decode(stripslashes($loaddata), true);
 @endphp
 
@@ -54,17 +54,17 @@
 	</div>
 	@if($data)
 		<div x-show="showImport1" x-transition>
-			@include('HNMG::episode.importmulti', compact('data', 'metaPost', 'postID'))
+			@include('HNEPIS::episode.importmulti', compact('data', 'metaPost', 'postID'))
 		</div>
 		<div x-show="showImport2" x-transition>
-			@include('HNMG::episode.importmulti2', compact('data', 'metaPost', 'postID'))
+			@include('HNEPIS::episode.importmulti2', compact('data', 'metaPost', 'postID'))
 		</div>
 	@endif
 	<div x-show="showAddServer" x-transition>
-		@include('HNMG::episode.addserver', compact('data', 'metaPost', 'postID'))
+		@include('HNEPIS::episode.addserver', compact('data', 'metaPost', 'postID'))
 	</div>
 	<div x-show="showEditDetails" x-transition>
-		@include('HNMG::episode.postedit', compact('data', 'metaPost', 'postID'))
+		@include('HNEPIS::episode.postedit', compact('data', 'metaPost', 'postID'))
 	</div>
 </div>
 
@@ -92,6 +92,6 @@
 	</div>
 	
 	<div class="p-0 md:p-4 rounded-b-lg">
-		@include('HNMG::episode.epi-list', compact('postID'))
+		@include('HNEPIS::episode.epi-list', compact('postID'))
 	</div>
 </div>

@@ -1,4 +1,4 @@
-@include('HNMG::layouts.header')
+@include('HNEPIS::layouts.header')
 <div x-data="MCache()" class="wrap haun-wrap">
     <h1 class="text-2xl font-bold mb-4">@hnepis('Cache Manager')</h1>
     <div class="haun-cache-box">
@@ -22,4 +22,4 @@
         <div id="result" class="mt-2"></div>
     </div>
 </div>
-@include('HNMG::layouts.footer')
+@include('HNEPIS::layouts.footer')

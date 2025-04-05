@@ -7,14 +7,14 @@
 		<form id="hnupdate-postmeta" data-postid="{{ $postID }}" @submit.prevent="hnpostmeta($event, {{ $postID }})">
 			@php
 				$fields = [
-					'haun_quality' 		    => __('Quality', 'hnmgepis'),
-					'haun_rating' 		    => __('IMBD Rating', 'hnmgepis'),
-					'haun_votes' 		    => __('IMBD Vote', 'hnmgepis'),
-					'haun_runtime' 		    => __('Runtime', 'hnmgepis'),
-					'haun_original_title' 	=> __('Original Title', 'hnmgepis'),
-					'haun_trailer_url' 		=> __('Trailer URL', 'hnmgepis'),
-					'haun_episode' 		    => __('Episode', 'hnmgepis'),
-					'haun_total_episode' 	=> __('Total Episode', 'hnmgepis'),
+					'haun_quality' 		    => __('Quality', 'hnepis'),
+					'haun_rating' 		    => __('IMBD Rating', 'hnepis'),
+					'haun_votes' 		    => __('IMBD Vote', 'hnepis'),
+					'haun_runtime' 		    => __('Runtime', 'hnepis'),
+					'haun_original_title' 	=> __('Original Title', 'hnepis'),
+					'haun_trailer_url' 		=> __('Trailer URL', 'hnepis'),
+					'haun_episode' 		    => __('Episode', 'hnepis'),
+					'haun_total_episode' 	=> __('Total Episode', 'hnepis'),
 				];
 			@endphp
 			<div class="grid grid-cols-3 gap-4">

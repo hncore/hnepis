@@ -1,4 +1,4 @@
-@include('HNMG::layouts.header')
+@include('HNEPIS::layouts.header')
 	<div x-data="Reporter()">
 		<h2 class="p-4 text-xl font-semibold text-gray-800">@hnepis('List Broken Movie')</h2>
 		<div class="flex items-center justify-between px-4 py-2 bg-gray-100 rounded-md mb-4 w-[98%]">
@@ -12,12 +12,12 @@
 			</div>
 			<div class="flex space-x-2">
 				@if($page > 1)
-					<a class="text-blue-600 hover:underline" href="{{ admin_url('admin.php?page=hnmg-movie-report&haun_page=' . ($page - 1)) }}">
+					<a class="text-blue-600 hover:underline" href="{{ admin_url('admin.php?page=hnepis-movie-report&haun_page=' . ($page - 1)) }}">
 						‹ @hnepis('Prev')
 					</a>
 				@endif
 				@if($count / $show > $page)
-					<a class="text-blue-600 hover:underline" href="{{ admin_url('admin.php?page=hnmg-movie-report&haun_page=' . ($page + 1)) }}">
+					<a class="text-blue-600 hover:underline" href="{{ admin_url('admin.php?page=hnepis-movie-report&haun_page=' . ($page + 1)) }}">
 						@hnepis('Next') ›
 					</a>
 				@endif
@@ -57,7 +57,7 @@
 								@endforeach
 							</td>
 							<td class="px-4 py-1" colspan="3">
-								@if(isset($details[0]) && $details[0] == __('Auto Report', 'hnmgepis'))
+								@if(isset($details[0]) && $details[0] == __('Auto Report', 'hnepis'))
 									<span class="rounded-full w-auto border border-sky-500 bg-sky-500 px-1 py-1 text-[10px] font-bold text-white my-2 mr-2">{{ $details[0] }}</span>
 								@else
 									<span class="text-sm">{{ $details[0] }}</span>
@@ -95,4 +95,4 @@
 			</form>
 		</div>
 	</div>
-@include('HNMG::layouts.footer')
+@include('HNEPIS::layouts.footer')

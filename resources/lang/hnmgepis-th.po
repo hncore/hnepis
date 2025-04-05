@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-01 00:10+0700\n"
-"PO-Revision-Date: 2025-04-01 02:16+0700\n"
+"PO-Revision-Date: 2025-04-05 09:38+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: th\n"
@@ -1917,3 +1917,12 @@ msgstr "ความคิดเห็นอิโมจิ"
 
 msgid "Custom Comment"
 msgstr "ความคิดเห็นที่กำหนดเอง"
+
+msgid "Auto Import Page"
+msgstr "หน้านำเข้าอัตโนมัติ"
+
+msgid "Enable to automatically import the page when the theme is activated."
+msgstr "เปิดใช้งานเพื่อนำเข้าหน้าอัตโนมัติเมื่อเปิดใช้งานธีม"
+
+msgid "Only applies to movies or videos with a specific code"
+msgstr "ใช้ได้เฉพาะภาพยนตร์หรือวิดีโอที่มีรหัสเฉพาะเท่านั้น"

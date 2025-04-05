@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-01 02:39+0700\n"
-"PO-Revision-Date: 2025-04-01 02:58+0700\n"
+"PO-Revision-Date: 2025-04-05 09:38+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -1919,3 +1919,12 @@ msgstr "表情符號評論"
 
 msgid "Custom Comment"
 msgstr "自定義評論"
+
+msgid "Auto Import Page"
+msgstr "自動匯入頁面"
+
+msgid "Enable to automatically import the page when the theme is activated."
+msgstr "啟用後，在佈景主題啟用時自動匯入頁面."
+
+msgid "Only applies to movies or videos with a specific code"
+msgstr "僅適用於具有特定代碼的電影或影片"

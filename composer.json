@@ -10,8 +10,17 @@
             "email": "haunytb@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../hnmanager", 
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
     "require": {
-		"hncore/hnmanager": "^1.0.0"
+        "hncore/hnmanager": "^1.0.0"
     },
     "autoload": {
         "psr-4": {

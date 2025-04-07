@@ -8,7 +8,7 @@ return array(
 	'player_loading'  	                            	=> __('Loading player, please wait...', 'hnepis'),
 	'jw_error_msg_0'  	                            	=> __('We are unable to find the video you are looking for. There could be several reasons for this, for example it got removed by the owner!', 'hnepis'),
 	'jw_error_msg_1'  	                            	=> __('This video file cannot be played.', 'hnepis'),
-	'jw_error_msg_2'  	                            	=> __('To continue watching, please click on the \"Reload Player\" button', 'hnepis'),
+	'jw_error_msg_2'  	                            	=> __('To continue watching, please click on the "Reload Player" button', 'hnepis'),
 	'jw_error_msg_3'  	                            	=> __('or click on the buttons below', 'hnepis'),
 	'player_reload'   	                            	=> __('Reload Player', 'hnepis'),
 	'player_autonext' 	                            	=> __('Autoplay next episode, please wait...', 'hnepis'),

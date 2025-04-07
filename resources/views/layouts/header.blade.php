@@ -8,7 +8,7 @@
 
 <div class="flex justify-between items-center my-4 w-[98%]">
     <div class="hnytb__header-logo">
-        <a href="{{ HNREMOTE_API_URL }}" target="_blank">
+        <a href="{{ HNMR_APIURL }}" target="_blank">
             <img class="hnytb__logo" src="{!! HNEPIS_LOGO !!}" alt="Logo"/>
         </a>
     </div>

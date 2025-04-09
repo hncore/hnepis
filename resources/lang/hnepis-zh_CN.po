@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-01 02:39+0700\n"
-"PO-Revision-Date: 2025-04-05 09:38+0700\n"
+"PO-Revision-Date: 2025-04-09 17:09+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -181,20 +181,17 @@ msgstr "SEO优化"
 msgid "Auto config Yoast SEO"
 msgstr "自动配置Yoast SEO"
 
-msgid ""
-"Display custom title on the info page (including episode, release, "
-"quality...)"
+msgid "Display custom title on the info page (including episode, release, quality...)"
 msgstr "在信息页面显示自定义标题（包括剧集、发布、质量...）"
 
 msgid "Remove the categories prefix"
 msgstr "移除分类前缀"
 
 msgid ""
-"Category URLs in WordPress contain a prefix, usually <strong>/category/</"
-"strong>, this feature removes that prefix, for categories only."
+"Category URLs in WordPress contain a prefix, usually <strong>/category/</strong>, this "
+"feature removes that prefix, for categories only."
 msgstr ""
-"WordPress中的分类URL包含前缀，通常是<strong>/category/</strong>，此功能仅移除"
-"分类的前缀。"
+"WordPress中的分类URL包含前缀，通常是<strong>/category/</strong>，此功能仅移除分类的前缀。"
 
 msgid "Modify your SEO title by editing it right here"
 msgstr "在此处编辑您的SEO标题"
@@ -218,10 +215,9 @@ msgid "Resume Playback"
 msgstr "恢复播放"
 
 msgid ""
-"Use localStorage to remember where the user left off and resume playback at "
-"the same time offset when revisiting the page."
-msgstr ""
-"使用localStorage记住用户停止的位置，并在重新访问页面时从相同时间点恢复播放。"
+"Use localStorage to remember where the user left off and resume playback at the same time "
+"offset when revisiting the page."
+msgstr "使用localStorage记住用户停止的位置，并在重新访问页面时从相同时间点恢复播放。"
 
 msgid "Auto reset cache"
 msgstr "自动重置缓存"
@@ -275,16 +271,16 @@ msgid "Logo File"
 msgstr ""
 
 msgid ""
-"The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /"
-"assets/logo.png). We recommend using 24 bit PNG images with transparency"
+"The URL of an external JPG, PNG or GIF image to be used as watermark (e.g. /assets/"
+"logo.png). We recommend using 24 bit PNG images with transparency"
 msgstr ""
 
 msgid "Logo link"
 msgstr ""
 
 msgid ""
-"The URL to visit when the watermark image is clicked. Clicking a logo will "
-"have no affect unless this is configured"
+"The URL to visit when the watermark image is clicked. Clicking a logo will have no affect "
+"unless this is configured"
 msgstr ""
 
 msgid "Auto hide logo (JWPlayer only)"
@@ -309,9 +305,9 @@ msgid "Control bar (JWPlayer only)"
 msgstr ""
 
 msgid ""
-"This sets the corner in which to display the watermark. The \"control-bar\" "
-"option is only supported in JWPlayer and adds the logo as the leftmost icon "
-"in the right grouping of buttons in the control bar."
+"This sets the corner in which to display the watermark. The \"control-bar\" option is only "
+"supported in JWPlayer and adds the logo as the leftmost icon in the right grouping of "
+"buttons in the control bar."
 msgstr ""
 
 msgid "Default poster image"
@@ -342,16 +338,16 @@ msgid "About text"
 msgstr ""
 
 msgid ""
-"Custom text to display in the right-click menu. Can only be set for the "
-"Premium and Ads Editions"
+"Custom text to display in the right-click menu. Can only be set for the Premium and Ads "
+"Editions"
 msgstr ""
 
 msgid "About link"
 msgstr ""
 
 msgid ""
-"Custom URL to link to when clicking the right-click menu. Can only be set "
-"for the Premium and Ads Editions"
+"Custom URL to link to when clicking the right-click menu. Can only be set for the Premium "
+"and Ads Editions"
 msgstr ""
 
 msgid "Show Ads Vast"
@@ -664,8 +660,8 @@ msgid "Loading player, please wait..."
 msgstr ""
 
 msgid ""
-"We are unable to find the video you are looking for. There could be several "
-"reasons for this, for example it got removed by the owner!"
+"We are unable to find the video you are looking for. There could be several reasons for "
+"this, for example it got removed by the owner!"
 msgstr ""
 
 msgid "This video file cannot be played."
@@ -801,8 +797,8 @@ msgid "Like & DisLike"
 msgstr ""
 
 msgid ""
-"For Auto Next, Next & Previous Only Works with Series. Expand and Collapse "
-"only works when there is a Sidebar."
+"For Auto Next, Next & Previous Only Works with Series. Expand and Collapse only works when "
+"there is a Sidebar."
 msgstr ""
 
 msgid "Enable Find Episodes"
@@ -925,8 +921,7 @@ msgstr ""
 msgid "Issues"
 msgstr ""
 
-msgid ""
-"Add one entry per line. These issues will appear in the form of a checkbox."
+msgid "Add one entry per line. These issues will appear in the form of a checkbox."
 msgstr ""
 
 msgid "Reporter"
@@ -953,8 +948,7 @@ msgstr ""
 msgid "Auto Report"
 msgstr ""
 
-msgid ""
-"If using Ajax, when clicking on the episode list, the page will not reload"
+msgid "If using Ajax, when clicking on the episode list, the page will not reload"
 msgstr ""
 
 msgid "For the last option it only applies to using the XXX theme"
@@ -1042,8 +1036,7 @@ msgid "Facebook settings"
 msgstr ""
 
 msgid ""
-"If This Value Does Not Exist . Facebook Comments and Like and Share Buttons "
-"Will Not Work"
+"If This Value Does Not Exist . Facebook Comments and Like and Share Buttons Will Not Work"
 msgstr ""
 
 msgid "Number of comment to show"
@@ -1062,9 +1055,8 @@ msgid "Social"
 msgstr ""
 
 msgid ""
-"The order to use when displaying comments. Can be \"social\", "
-"\"reverse_time\", or \"time\". The different order types are explained in "
-"the FAQ"
+"The order to use when displaying comments. Can be \"social\", \"reverse_time\", or "
+"\"time\". The different order types are explained in the FAQ"
 msgstr ""
 
 msgid "a few seconds ago"
@@ -1103,9 +1095,7 @@ msgstr ""
 msgid "Background Button Color"
 msgstr ""
 
-msgid ""
-"If you do not use a background color, you can enter the value: "
-"<b>transparent</b>"
+msgid "If you do not use a background color, you can enter the value: <b>transparent</b>"
 msgstr ""
 
 msgid "Button Border Radius"
@@ -1250,8 +1240,8 @@ msgid "Your message"
 msgstr ""
 
 msgid ""
-"Thank you for sending error messages. We will fix the problem in the "
-"shortest time possible."
+"Thank you for sending error messages. We will fix the problem in the shortest time "
+"possible."
 msgstr ""
 
 msgid "Name or Email"
@@ -1288,8 +1278,7 @@ msgid "An error occurred while removing all items."
 msgstr ""
 
 msgid ""
-"Invalid structure. Each line must have exactly 3 parts separated by the \"|"
-"\" character."
+"Invalid structure. Each line must have exactly 3 parts separated by the \"|\" character."
 msgstr ""
 
 msgid "There are no new episodes yet or this is the last episode!"
@@ -1310,9 +1299,7 @@ msgstr ""
 msgid "Please publish post before you can edit episodes"
 msgstr ""
 
-msgid ""
-"You Must Provide Full Parameters: TITLE, SV, EP, Otherwise There Will Be An "
-"Error"
+msgid "You Must Provide Full Parameters: TITLE, SV, EP, Otherwise There Will Be An Error"
 msgstr ""
 
 msgid "Submit Report"
@@ -1490,14 +1477,13 @@ msgid "Site is inactive."
 msgstr ""
 
 msgid ""
-"Updating this theme will lose any customizations you have made. \"Cancel\" "
-"to stop, \"OK\" to update."
+"Updating this theme will lose any customizations you have made. \"Cancel\" to stop, \"OK\" "
+"to update."
 msgstr ""
 
 msgid ""
-"<strong>%1\\$s %2\\$s</strong> is available. <a href=\"%3\\$s\" "
-"class=\"thickbox\" title=\"%4s\">Check out what's new</a> or <a href=\"%5\\"
-"$s\"%6\\$s>update now</a>."
+"<strong>%1\\$s %2\\$s</strong> is available. <a href=\"%3\\$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5\\$s\"%6\\$s>update now</a>."
 msgstr ""
 
 msgid "License Details"
@@ -1527,8 +1513,7 @@ msgstr ""
 msgid "Update License"
 msgstr ""
 
-msgid ""
-"If you wish to use this license on a different server, deactivate it first."
+msgid "If you wish to use this license on a different server, deactivate it first."
 msgstr ""
 
 msgid "License Code"
@@ -1588,14 +1573,12 @@ msgstr ""
 msgid "Show/Hide Admin Bar"
 msgstr ""
 
-msgid ""
-"Add your own CSS code here to customize the appearance and layout of your "
-"site."
+msgid "Add your own CSS code here to customize the appearance and layout of your site."
 msgstr ""
 
 msgid ""
-"This option disables the new Gutenberg Editor (aka Block Editor) and "
-"replaces it with the Classic Editor"
+"This option disables the new Gutenberg Editor (aka Block Editor) and replaces it with the "
+"Classic Editor"
 msgstr ""
 
 msgid "This Option Will Return Widgets to Classic Mode"
@@ -1620,8 +1603,8 @@ msgid "Paste here your Google Analytics following code."
 msgstr ""
 
 msgid ""
-"Paste here your meta codes (for example to verify your domain from a third "
-"party like Google Suite, etc.)"
+"Paste here your meta codes (for example to verify your domain from a third party like "
+"Google Suite, etc.)"
 msgstr ""
 
 msgid "Hide required plugins notice"
@@ -1634,8 +1617,8 @@ msgid "Footer Scripts"
 msgstr ""
 
 msgid ""
-"Enter the codes which you need to place in your footer. Tracking Code or any "
-"other JavaScript. (ex: Google Analytics, Clicky, Woopra, Histats, etc.)."
+"Enter the codes which you need to place in your footer. Tracking Code or any other "
+"JavaScript. (ex: Google Analytics, Clicky, Woopra, Histats, etc.)."
 msgstr ""
 
 msgid "Footer About Text"
@@ -1645,8 +1628,8 @@ msgid "Copyright Text"
 msgstr ""
 
 msgid ""
-"You can change or remove our link from footer and use your own custom text. "
-"(Link back is always appreciated)"
+"You can change or remove our link from footer and use your own custom text. (Link back is "
+"always appreciated)"
 msgstr ""
 
 msgid "Create Page"
@@ -1694,24 +1677,18 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-msgid ""
-"Select a Niche image to import options from a niche. Then click on the "
-"Import button."
+msgid "Select a Niche image to import options from a niche. Then click on the Import button."
+msgstr ""
+
+msgid "Theme options will be imported in order to change the appearance of your site."
 msgstr ""
 
 msgid ""
-"Theme options will be imported in order to change the appearance of your "
-"site."
+"Select \"From file\" to import options from a json backup file. Then click on the Import "
+"button."
 msgstr ""
 
-msgid ""
-"Select \"From file\" to import options from a json backup file. Then click "
-"on the Import button."
-msgstr ""
-
-msgid ""
-"You can export a json backup file in the Export section of this theme "
-"options."
+msgid "You can export a json backup file in the Export section of this theme options."
 msgstr ""
 
 msgid "Theme Options"
@@ -1781,8 +1758,8 @@ msgid "Show Ads & Banner"
 msgstr ""
 
 msgid ""
-"This setting only applies to JWPlayer: Auto hide the logo when the mouse is "
-"not over the player."
+"This setting only applies to JWPlayer: Auto hide the logo when the mouse is not over the "
+"player."
 msgstr ""
 
 msgid "Logo Player Configuration"
@@ -1908,8 +1885,7 @@ msgstr ""
 msgid "URL to redirect if debug tool is opened"
 msgstr ""
 
-msgid ""
-"URL will redirect to after pressing F12 (Default is: https://haunytb.com)"
+msgid "URL will redirect to after pressing F12 (Default is: https://haunytb.com)"
 msgstr ""
 
 msgid "Disable RSS Feed"
@@ -1940,8 +1916,8 @@ msgid "Apple touch icon"
 msgstr ""
 
 msgid ""
-"Upload a 152 x 152 px image that will represent your website's touch icon "
-"for iOS 2.0+ and Android 2.1+ devices."
+"Upload a 152 x 152 px image that will represent your website's touch icon for iOS 2.0+ and "
+"Android 2.1+ devices."
 msgstr ""
 
 msgid "Removing the redirect after changing a post or page's slug"
@@ -1956,9 +1932,7 @@ msgstr ""
 msgid "Only authenticated users can access the REST API."
 msgstr ""
 
-msgid ""
-"This content is password protected. To view it please enter your password "
-"below:"
+msgid "This content is password protected. To view it please enter your password below:"
 msgstr ""
 
 msgid "Password"
@@ -1977,16 +1951,15 @@ msgid "Facebook Apps ID"
 msgstr ""
 
 msgid ""
-"The shortname for your Disqus account. This is used to identify your Disqus "
-"account and is required for the Disqus comment system to work."
+"The shortname for your Disqus account. This is used to identify your Disqus account and is "
+"required for the Disqus comment system to work."
 msgstr ""
 
 msgid "Disqus Shortname"
 msgstr ""
 
 msgid ""
-"You can add your own emojis by typing in the box above with the format emoji "
-"1|emoji 2..."
+"You can add your own emojis by typing in the box above with the format emoji 1|emoji 2..."
 msgstr ""
 
 msgid "Emojis Comments"
@@ -2003,3 +1976,63 @@ msgstr "启用后将在启用主题时自动导入页面."
 
 msgid "Only applies to movies or videos with a specific code"
 msgstr "仅适用于具有特定代码的电影或视频"
+
+msgid "Enable Auto Report"
+msgstr "启用自动报告"
+
+msgid "Enable to automatically report the episode when the user clicks on the report button."
+msgstr "启用后，当用户点击报告按钮时将自动报告该剧集。"
+
+msgid "JWPlayer error detect"
+msgstr "检测JWPlayer错误"
+
+msgid "If the player cannot play the video, it will automatically switch to another server."
+msgstr "如果播放器无法播放视频，它将自动切换到另一个服务器。"
+
+msgid "Auto Play Custom Server"
+msgstr "自动播放自定义服务器"
+
+msgid "The first option is the original, while the others are custom display styles."
+msgstr "第一个选项是原始样式，而其他选项是自定义显示样式。"
+
+msgid "Enable or disable bypass m3u8"
+msgstr "启用或禁用绕过m3u8"
+
+msgid "Bypass Source"
+msgstr "绕过来源"
+
+msgid "Select the source you want to enable or disable"
+msgstr "选择您想要启用或禁用的来源"
+
+msgid "Aspect ratio of the player"
+msgstr "播放器的宽高比"
+
+msgid "Player Size"
+msgstr "播放器大小"
+
+msgid "Auto detects ad blockers and displays a notification to users"
+msgstr "自动检测广告拦截器并向用户显示通知"
+
+msgid "Enable to use the old Classic Editor instead of Gutenberg."
+msgstr "启用以使用旧版经典编辑器替代Gutenberg。"
+
+msgid "Use Classic Editor"
+msgstr "使用经典编辑器"
+
+msgid "Use Classic Widget"
+msgstr "使用经典小工具"
+
+msgid "Enable to use the old Classic Widgets instead of the new block-based widget editor."
+msgstr "启用以使用旧版经典小工具替代新的基于区块的小工具编辑器。"
+
+msgid "Text Logo"
+msgstr "文本标志"
+
+msgid "Show/Hide Metabox"
+msgstr "显示/隐藏元框"
+
+msgid "Show Metabox"
+msgstr "显示元框"
+
+msgid "Hide Metabox"
+msgstr "隐藏元框"

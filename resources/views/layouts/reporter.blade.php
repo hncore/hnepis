@@ -56,14 +56,14 @@
 									<div class="text-sm text-gray-600">{!! preg_replace('/(.*?)\s*(\(.*?)\)/is', '$1', $val) !!}</div>
 								@endforeach
 							</td>
-							<td class="px-4 py-1" colspan="3">
+							<td class="px-4 py-1 max-w-72" colspan="3">
 								@if(isset($details[0]) && $details[0] == __('Auto Report', 'hnepis'))
 									<span class="rounded-full w-auto border border-sky-500 bg-sky-500 px-1 py-1 text-[10px] font-bold text-white my-2 mr-2">{{ $details[0] }}</span>
 								@else
 									<span class="text-sm">{{ $details[0] }}</span>
 								@endif
 								<strong class="text-red-500 my-1">{{ $item->post_name }}</strong>
-								<div><a href="{{ $item->url }}" target="_blank" class="text-blue-500 hover:underline my-2 text-xs">{{ $item->url }}</a></div>
+								<div class="max-w-72 truncate"><a href="{{ $item->url }}" target="_blank" class="text-blue-500 hover:underline my-2 text-xs">{{ $item->url }}</a></div>
 							</td>
 							<td class="px-4 py-1">{{ date("g:i m/d/Y", strtotime($item->date_time)) }}</td>
 							<td class="px-4 py-1 text-center">

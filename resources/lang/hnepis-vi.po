@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-01 00:10+0700\n"
-"PO-Revision-Date: 2025-04-08 01:39+0700\n"
+"PO-Revision-Date: 2025-04-09 17:07+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -1925,3 +1925,63 @@ msgstr "Bật để tự động nhập trang khi giao diện được kích ho�
 
 msgid "Only applies to movies or videos with a specific code"
 msgstr "Chỉ áp dụng cho phim hoặc video có mã cụ thể"
+
+msgid "Enable Auto Report"
+msgstr "Bật báo cáo tự động"
+
+msgid "Enable to automatically report the episode when the user clicks on the report button."
+msgstr "Bật để tự động báo cáo tập phim khi người dùng nhấn vào nút báo cáo."
+
+msgid "JWPlayer error detect"
+msgstr "Phát hiện lỗi JWPlayer"
+
+msgid "If the player cannot play the video, it will automatically switch to another server."
+msgstr "Nếu trình phát không thể phát video, nó sẽ tự động chuyển sang máy chủ khác."
+
+msgid "Auto Play Custom Server"
+msgstr "Tự động phát máy chủ tùy chỉnh"
+
+msgid "The first option is the original, while the others are custom display styles."
+msgstr "Tùy chọn đầu tiên là bản gốc, trong khi các tùy chọn khác là kiểu hiển thị tùy chỉnh."
+
+msgid "Enable or disable bypass m3u8"
+msgstr "Bật hoặc tắt bỏ qua m3u8"
+
+msgid "Bypass Source"
+msgstr "Bỏ qua nguồn"
+
+msgid "Select the source you want to enable or disable"
+msgstr "Chọn nguồn mà bạn muốn bật hoặc tắt"
+
+msgid "Aspect ratio of the player"
+msgstr "Tỷ lệ khung hình của trình phát"
+
+msgid "Player Size"
+msgstr "Kích thước trình phát"
+
+msgid "Auto detects ad blockers and displays a notification to users"
+msgstr "Tự động phát hiện trình chặn quảng cáo và hiển thị thông báo cho người dùng"
+
+msgid "Enable to use the old Classic Editor instead of Gutenberg."
+msgstr "Bật để sử dụng trình chỉnh sửa cổ điển thay vì Gutenberg."
+
+msgid "Use Classic Editor"
+msgstr "Sử dụng trình chỉnh sửa cổ điển"
+
+msgid "Use Classic Widget"
+msgstr "Sử dụng widget cổ điển"
+
+msgid "Enable to use the old Classic Widgets instead of the new block-based widget editor."
+msgstr "Bật để sử dụng widget cổ điển thay vì trình chỉnh sửa widget dựa trên khối mới."
+
+msgid "Text Logo"
+msgstr "Logo văn bản"
+
+msgid "Show/Hide Metabox"
+msgstr "Hiển thị/Ẩn Metabox"
+
+msgid "Show Metabox"
+msgstr "Hiển thị Metabox"
+
+msgid "Hide Metabox"
+msgstr "Ẩn Metabox"

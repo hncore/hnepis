@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-01 02:39+0700\n"
-"PO-Revision-Date: 2025-04-05 09:38+0700\n"
+"PO-Revision-Date: 2025-04-09 17:11+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -1928,3 +1928,63 @@ msgstr "啟用後，在佈景主題啟用時自動匯入頁面."
 
 msgid "Only applies to movies or videos with a specific code"
 msgstr "僅適用於具有特定代碼的電影或影片"
+
+msgid "Enable Auto Report"
+msgstr "啟用自動報告"
+
+msgid "Enable to automatically report the episode when the user clicks on the report button."
+msgstr "啟用後，當用戶點擊報告按鈕時將自動報告該劇集。"
+
+msgid "JWPlayer error detect"
+msgstr "檢測JWPlayer錯誤"
+
+msgid "If the player cannot play the video, it will automatically switch to another server."
+msgstr "如果播放器無法播放影片，它將自動切換到另一個伺服器。"
+
+msgid "Auto Play Custom Server"
+msgstr "自動播放自定義伺服器"
+
+msgid "The first option is the original, while the others are custom display styles."
+msgstr "第一個選項是原始樣式，而其他選項是自定義顯示樣式。"
+
+msgid "Enable or disable bypass m3u8"
+msgstr "啟用或禁用繞過m3u8"
+
+msgid "Bypass Source"
+msgstr "繞過來源"
+
+msgid "Select the source you want to enable or disable"
+msgstr "選擇您想要啟用或禁用的來源"
+
+msgid "Aspect ratio of the player"
+msgstr "播放器的寬高比"
+
+msgid "Player Size"
+msgstr "播放器大小"
+
+msgid "Auto detects ad blockers and displays a notification to users"
+msgstr "自動檢測廣告攔截器並向用戶顯示通知"
+
+msgid "Enable to use the old Classic Editor instead of Gutenberg."
+msgstr "啟用以使用舊版經典編輯器替代Gutenberg。"
+
+msgid "Use Classic Editor"
+msgstr "使用經典編輯器"
+
+msgid "Use Classic Widget"
+msgstr "使用經典小工具"
+
+msgid "Enable to use the old Classic Widgets instead of the new block-based widget editor."
+msgstr "啟用以使用舊版經典小工具替代新的基於區塊的小工具編輯器。"
+
+msgid "Text Logo"
+msgstr "文字標誌"
+
+msgid "Show/Hide Metabox"
+msgstr "顯示/隱藏元框"
+
+msgid "Show Metabox"
+msgstr "顯示元框"
+
+msgid "Hide Metabox"
+msgstr "隱藏元框"

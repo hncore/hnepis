@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-01 00:10+0700\n"
-"PO-Revision-Date: 2025-04-05 09:38+0700\n"
+"PO-Revision-Date: 2025-04-09 17:05+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: th\n"
@@ -222,12 +222,6 @@ msgstr "ล้างแคชอัตโนมัติหากเกิดข
 
 msgid "JWPlayer Error Detect"
 msgstr "ตรวจจับข้อผิดพลาดของ JWPlayer"
-
-msgid "Show Modal Popup"
-msgstr "แสดงป๊อปอัพแบบโมดอล"
-
-msgid "Auto Play Alternative Server"
-msgstr "เล่นเซิร์ฟเวอร์สำรองอัตโนมัติ"
 
 msgid "Autostart"
 msgstr "เริ่มต้นอัตโนมัติ"
@@ -1926,3 +1920,69 @@ msgstr "เปิดใช้งานเพื่อนำเข้าหน้
 
 msgid "Only applies to movies or videos with a specific code"
 msgstr "ใช้ได้เฉพาะภาพยนตร์หรือวิดีโอที่มีรหัสเฉพาะเท่านั้น"
+
+msgid "Enable Auto Report"
+msgstr "เปิดใช้งานการรายงานอัตโนมัติ"
+
+msgid "Enable to automatically report the episode when the user clicks on the report button."
+msgstr "เปิดใช้งานเพื่อรายงานตอนโดยอัตโนมัติเมื่อผู้ใช้คลิกที่ปุ่มรายงาน"
+
+msgid "JWPlayer error detect"
+msgstr "ตรวจจับข้อผิดพลาดของ JWPlayer"
+
+msgid "If the player cannot play the video, it will automatically switch to another server."
+msgstr "หากผู้เล่นไม่สามารถเล่นวิดีโอได้ จะเปลี่ยนไปยังเซิร์ฟเวอร์อื่นโดยอัตโนมัติ"
+
+msgid "Show Modal Popup"
+msgstr "แสดงป๊อปอัพแบบโมดอล"
+
+msgid "Auto Play Alternative Server"
+msgstr "เล่นเซิร์ฟเวอร์สำรองอัตโนมัติ"
+
+msgid "Auto Play Custom Server"
+msgstr "เล่นเซิร์ฟเวอร์ที่กำหนดเองอัตโนมัติ"
+
+msgid "The first option is the original, while the others are custom display styles."
+msgstr "ตัวเลือกแรกเป็นต้นฉบับ ในขณะที่ตัวเลือกอื่นๆ เป็นสไตล์การแสดงผลที่กำหนดเอง"
+
+msgid "Enable or disable bypass m3u8"
+msgstr "เปิดหรือปิดการข้าม m3u8"
+
+msgid "Bypass Source"
+msgstr "ข้ามแหล่งที่มา"
+
+msgid "Select the source you want to enable or disable"
+msgstr "เลือกแหล่งที่คุณต้องการเปิดหรือปิดใช้งาน"
+
+msgid "Aspect ratio of the player"
+msgstr "อัตราส่วนภาพของผู้เล่น"
+
+msgid "Player Size"
+msgstr "ขนาดผู้เล่น"
+
+msgid "Auto detects ad blockers and displays a notification to users"
+msgstr "ตรวจจับตัวบล็อกโฆษณาอัตโนมัติและแสดงการแจ้งเตือนแก่ผู้ใช้"
+
+msgid "Enable to use the old Classic Editor instead of Gutenberg."
+msgstr "เปิดใช้งานเพื่อใช้ตัวแก้ไขคลาสสิกเก่าแทน Gutenberg"
+
+msgid "Use Classic Editor"
+msgstr "ใช้ตัวแก้ไขคลาสสิก"
+
+msgid "Use Classic Widget"
+msgstr "ใช้วิดเจ็ตคลาสสิก"
+
+msgid "Enable to use the old Classic Widgets instead of the new block-based widget editor."
+msgstr "เปิดใช้งานเพื่อใช้วิดเจ็ตคลาสสิกเก่าแทนตัวแก้ไขวิดเจ็ตแบบบล็อกใหม่"
+
+msgid "Text Logo"
+msgstr "โลโก้ข้อความ"
+
+msgid "Show/Hide Metabox"
+msgstr "แสดง/ซ่อน Metabox"
+
+msgid "Show Metabox"
+msgstr "แสดง Metabox"
+
+msgid "Hide Metabox"
+msgstr "ซ่อน Metabox"

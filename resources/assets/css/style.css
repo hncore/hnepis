@@ -1276,6 +1276,9 @@ video {
 .max-w-3xl {
   max-width: 48rem !important;
 }
+.max-w-72 {
+  max-width: 18rem !important;
+}
 .max-w-lg {
   max-width: 32rem !important;
 }
@@ -1432,6 +1435,11 @@ video {
 }
 .overflow-x-hidden {
   overflow-x: hidden !important;
+}
+.truncate {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
 }
 .whitespace-nowrap {
   white-space: nowrap !important;

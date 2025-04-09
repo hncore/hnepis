@@ -1913,3 +1913,69 @@ msgstr ""
 
 msgid "Custom Comment"
 msgstr ""
+
+msgid "Enable Auto Report"
+msgstr ""
+
+msgid "Enable to automatically report the episode when the user clicks on the report button."
+msgstr ""
+
+msgid "JWPlayer error detect"
+msgstr ""
+
+msgid "If the player cannot play the video, it will automatically switch to another server."
+msgstr ""
+
+msgid "Show Modal Popup"
+msgstr ""
+
+msgid "Auto Play Alternative Server"
+msgstr ""
+
+msgid "Auto Play Custom Server"
+msgstr ""
+
+msgid "The first option is the original, while the others are custom display styles."
+msgstr ""
+
+msgid "Enable or disable bypass m3u8"
+msgstr ""
+
+msgid "Bypass Source"
+msgstr ""
+
+msgid "Select the source you want to enable or disable"
+msgstr ""
+
+msgid "Aspect ratio of the player"
+msgstr ""
+
+msgid "Player Size"
+msgstr ""
+
+msgid "Auto detects ad blockers and displays a notification to users"
+msgstr ""
+
+msgid "Enable to use the old Classic Editor instead of Gutenberg."
+msgstr ""
+
+msgid "Use Classic Editor"
+msgstr ""
+
+msgid "Use Classic Widget"
+msgstr ""
+
+msgid "Enable to use the old Classic Widgets instead of the new block-based widget editor."
+msgstr ""
+
+msgid "Text Logo"
+msgstr ""
+
+msgid "Show/Hide Metabox"
+msgstr ""
+
+msgid "Show Metabox"
+msgstr ""
+
+msgid "Hide Metabox"
+msgstr ""

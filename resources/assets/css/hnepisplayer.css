@@ -672,6 +672,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(209 74 74 / var(--tw-bg-opacity, 1));
 }
+.haun-episode .haun-btn {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
 .haun-episode .haun-btn:hover {
   border-radius: 9999px;
   --tw-bg-opacity: 1;

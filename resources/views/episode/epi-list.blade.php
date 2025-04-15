@@ -1,5 +1,5 @@
 <div id="haunmovies-player-data">
-	<ul class="flex border-b" role="tablist">
+	<ul class="flex border-b border-slate-200" role="tablist">
 		<template x-if="servers.length > 0">
 			<template x-for="(server, index) in servers" :key="index">
 				<li @click="activeTab = index + 1" class="relative -mb-px mr-1">
@@ -37,14 +37,14 @@
 			<div x-show="activeTab === (index + 1)" class="tab-pane server-container" :id="'server_' + (index + 1)">
 				<div class="w-full max-w-sm min-w-[200px] relative mt-4">
 					<div class="relative">
-						<input type="text" :name="'haunmovies_server_name[' + (index + 1) + ']'" x-model="server.name" placeholder="{{ __('Server Name', 'hnepis') }}" class="w-full rounded-none md:w-64 bg-transparent placeholder:text-slate-400 text-slate-700 text-xs md:text-sm border border-slate-200 pr-3 pl-28 mb-5" />
+						<input type="text" :name="'haunmovies_server_name[' + (index + 1) + ']'" x-model="server.name" placeholder="{{ __('Server Name', 'hnepis') }}" class="w-full rounded-none md:w-64 bg-transparent placeholder:text-slate-400 text-slate-700 text-xs md:text-sm border border-slate-200 pr-3 pl-[90px]! mb-5" />
 						<div class="absolute left-0 top-0 bg-slate-800 py-1 px-2.5 border border-transparent text-center text-xs font-semibold py-1.5 text-white transition-all shadow-sm">
 							@hnepis('Server Name')
 						</div>
 					</div>
 				</div>
-				<ul class="w-full text-sm text-left text-gray-500 border border-solid border-slate-100 rounded-md">
-					<li class="flex w-full border-b p-2 uppercase text-gray-500 bg-gray-50 font-bold">
+				<ul class="w-full text-sm mt-2 text-left text-gray-500 border border-solid border-slate-100 rounded-md">
+					<li class="flex w-full border-b border-slate-100 p-2 uppercase text-gray-500 bg-gray-50 font-bold">
 						<div class="w-1/6 flex items-center">@hnepis('Name')
 							<button @click="addEpisode(index)" type="button" class="relative inline text-blue-500 ml-2 hover:text-blue-600 font-semibold rounded-full">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
@@ -59,7 +59,7 @@
 					</li>
 
 					<template x-for="(episode, epIndex) in paginatedEpisodes(index)" :key="epIndex">
-						<li class="w-full bg-white border-b last:border-b-0 px-2 episode-list">
+						<li class="w-full bg-white border-b border-slate-100 last:border-b-0 px-2 episode-list">
 							<div class="flex flex-wrap md:flex-nowrap gap-2 md:gap-4">
 								<div class="flex w-full md:w-1/3 gap-2 md:gap-4 auto-slug">
 									<div class="w-1/2 flex items-center md:py-2">

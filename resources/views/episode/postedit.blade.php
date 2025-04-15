@@ -11,10 +11,10 @@
 					'haun_rating' 		    => __('IMBD Rating', 'hnepis'),
 					'haun_votes' 		    => __('IMBD Vote', 'hnepis'),
 					'haun_runtime' 		    => __('Runtime', 'hnepis'),
-					'haun_original_title' 	=> __('Original Title', 'hnepis'),
-					'haun_trailer_url' 		=> __('Trailer URL', 'hnepis'),
+					'haun_orgtitle' 		=> __('Original Title', 'hnepis'),
+					'haun_trailer' 			=> __('Trailer URL', 'hnepis'),
 					'haun_episode' 		    => __('Episode', 'hnepis'),
-					'haun_total_episode' 	=> __('Total Episode', 'hnepis'),
+					'haun_totalepi' 		=> __('Total Episode', 'hnepis'),
 				];
 			@endphp
 			<div class="grid grid-cols-3 gap-4">
@@ -32,13 +32,13 @@
 
 			<div class="grid grid-cols-2 gap-4">
 				<div class="flex flex-col m-2">
-					<label class="mb-2 font-semibold" for="haun_movie_notice">@hnepis('Notification/Note')</label>
-					<textarea name="haun_movie_notice" rows="5" class="rounded-none border-slate-200 border border-solid p-2" id="haun_movie_notice" placeholder="@hnepis('Notification/Note')">{{ isset($metaPost['haun_movie_notice']) ? $metaPost['haun_movie_notice'] : '' }}</textarea>
+					<label class="mb-2 font-semibold" for="haun_notice">@hnepis('Notification/Note')</label>
+					<textarea name="haun_notice" rows="5" class="rounded-none border-slate-200 border border-solid p-2" id="haun_notice" placeholder="@hnepis('Notification/Note')">{{ isset($metaPost['haun_notice']) ? $metaPost['haun_notice'] : '' }}</textarea>
 				</div>
 				
 				<div class="flex flex-col m-2">
-					<label class="mb-2 font-semibold" for="haun_showtime_movies">@hnepis('Showtime Movies')</label>
-					<textarea name="haun_showtime_movies" rows="5" class="rounded-none border-slate-200 border border-solid p-2" id="haun_showtime_movies" placeholder="@hnepis('Showtime Movies')">{{ isset($metaPost['haun_showtime_movies']) ? $metaPost['haun_showtime_movies'] : '' }}</textarea>
+					<label class="mb-2 font-semibold" for="haun_showtime">@hnepis('Showtime Movies')</label>
+					<textarea name="haun_showtime" rows="5" class="rounded-none border-slate-200 border border-solid p-2" id="haun_showtime" placeholder="@hnepis('Showtime Movies')">{{ isset($metaPost['haun_showtime']) ? $metaPost['haun_showtime'] : '' }}</textarea>
 				</div>
 			</div>
 			
@@ -48,15 +48,15 @@
 					<span class="font-semibold">@hnepis('Status'):</span>
 				</div>
 				<div class="flex items-center me-4">
-					<input id="ongoing" type="radio" value="ongoing" name="haun_movie_status" class="w-4 h-4 mt-0.5 text-green-600 bg-gray-100 border-gray-300 focus:ring-green-500 focus:ring-2" {{ isset($metaPost['haun_movie_status']) ? checked($metaPost['haun_movie_status'], 'ongoing', false) : '' }}>
+					<input id="ongoing" type="radio" value="ongoing" name="haun_status" class="w-4 h-4 mt-0.5 text-green-600 bg-gray-100 border-gray-300 focus:ring-green-500 focus:ring-2" {{ isset($metaPost['haun_status']) ? checked($metaPost['haun_status'], 'ongoing', false) : '' }}>
 					<label for="ongoing" class="mr-2 text-sm font-medium text-gray-900">@hnepis('Ongoing')</label>
 				</div>
 				<div class="flex items-center me-4">
-					<input id="completed" type="radio" value="completed" name="haun_movie_status" class="w-4 h-4 mt-0.5 text-red-600 bg-gray-100 border-gray-300 focus:ring-red-500 focus:ring-2" {{ isset($metaPost['haun_movie_status']) ? checked($metaPost['haun_movie_status'], 'completed', false) : '' }}>
+					<input id="completed" type="radio" value="completed" name="haun_status" class="w-4 h-4 mt-0.5 text-red-600 bg-gray-100 border-gray-300 focus:ring-red-500 focus:ring-2" {{ isset($metaPost['haun_status']) ? checked($metaPost['haun_status'], 'completed', false) : '' }}>
 					<label for="completed" class="mr-2 text-sm font-medium text-gray-900">@hnepis('Completed')</label>
 				</div>
 				<div class="flex items-center me-4">
-					<input id="is_trailer" type="radio" value="is_trailer" name="haun_movie_status" class="w-4 h-4 mt-0.5 text-purple-600 bg-gray-100 border-gray-300 focus:ring-purple-500 focus:ring-2" {{ isset($metaPost['haun_movie_status']) ? checked($metaPost['haun_movie_status'], 'is_trailer', false) : '' }}>
+					<input id="is_trailer" type="radio" value="is_trailer" name="haun_status" class="w-4 h-4 mt-0.5 text-purple-600 bg-gray-100 border-gray-300 focus:ring-purple-500 focus:ring-2" {{ isset($metaPost['haun_status']) ? checked($metaPost['haun_status'], 'is_trailer', false) : '' }}>
 					<label for="is_trailer" class="mr-2 text-sm font-medium text-gray-900">@hnepis('Trailer')</label>
 				</div>
 			</div>
@@ -66,19 +66,19 @@
 					<span class="font-semibold">@hnepis('Formality'):</span>
 				</div>
 				<div class="flex items-center me-4">
-					<input id="single_movies" type="radio" value="single_movies" name="haun_movie_formality" class="w-4 h-4 mt-0.5 text-green-600 bg-gray-100 border-gray-300 focus:ring-green-500 focus:ring-2" {{ isset($metaPost['haun_movie_formality']) ? checked($metaPost['haun_movie_formality'], 'single_movies', false) : '' }}>
+					<input id="single_movies" type="radio" value="single_movies" name="haun_formality" class="w-4 h-4 mt-0.5 text-green-600 bg-gray-100 border-gray-300 focus:ring-green-500 focus:ring-2" {{ isset($metaPost['haun_formality']) ? checked($metaPost['haun_formality'], 'single_movies', false) : '' }}>
 					<label for="single_movies" class="mr-2 text-sm font-medium text-gray-900">@hnepis('Movies')</label>
 				</div>
 				<div class="flex items-center me-4">
-					<input id="tv_series" type="radio" value="tv_series" name="haun_movie_formality" class="w-4 h-4 mt-0.5 text-red-600 bg-gray-100 border-gray-300 focus:ring-red-500 focus:ring-2" {{ isset($metaPost['haun_movie_formality']) ? checked($metaPost['haun_movie_formality'], 'tv_series', false) : '' }}>
+					<input id="tv_series" type="radio" value="tv_series" name="haun_formality" class="w-4 h-4 mt-0.5 text-red-600 bg-gray-100 border-gray-300 focus:ring-red-500 focus:ring-2" {{ isset($metaPost['haun_formality']) ? checked($metaPost['haun_formality'], 'tv_series', false) : '' }}>
 					<label for="tv_series" class="mr-2 text-sm font-medium text-gray-900">@hnepis('TV Series')</label>
 				</div>
 				<div class="flex items-center me-4">
-					<input id="tv_shows" type="radio" value="tv_shows" name="haun_movie_formality" class="w-4 h-4 mt-0.5 text-purple-600 bg-gray-100 border-gray-300 focus:ring-purple-500 focus:ring-2" {{ isset($metaPost['haun_movie_formality']) ? checked($metaPost['haun_movie_formality'], 'tv_shows', false) : '' }}>
+					<input id="tv_shows" type="radio" value="tv_shows" name="haun_formality" class="w-4 h-4 mt-0.5 text-purple-600 bg-gray-100 border-gray-300 focus:ring-purple-500 focus:ring-2" {{ isset($metaPost['haun_formality']) ? checked($metaPost['haun_formality'], 'tv_shows', false) : '' }}>
 					<label for="tv_shows" class="mr-2 text-sm font-medium text-gray-900">@hnepis('Trailer')</label>
 				</div>
 				<div class="flex items-center me-4">
-					<input id="theater_movie" type="radio" value="theater_movie" name="haun_movie_formality" class="w-4 h-4 mt-0.5 text-yellow-400 bg-gray-100 border-gray-300 focus:ring-yellow-500 focus:ring-2" {{ isset($metaPost['haun_movie_formality']) ? checked($metaPost['haun_movie_formality'], 'theater_movie', false) : '' }}>
+					<input id="theater_movie" type="radio" value="theater_movie" name="haun_formality" class="w-4 h-4 mt-0.5 text-yellow-400 bg-gray-100 border-gray-300 focus:ring-yellow-500 focus:ring-2" {{ isset($metaPost['haun_formality']) ? checked($metaPost['haun_formality'], 'theater_movie', false) : '' }}>
 					<label for="theater_movie" class="mr-2 text-sm font-medium text-gray-900">@hnepis('Theater Movie')</label>
 				</div>
 			</div>

@@ -7,7 +7,7 @@
                 @hnepis('Total Cache'): {{ $cache_count->total_cache }}
             </span>
         @endif
-        <ul class="list-cache max-h-[200px] overflow-x-hidden border border-gray-300 p-4 rounded-md">
+        <ul class="list-cache max-h-[200px] overflow-x-hidden border border-gray-300 p-4! rounded-md">
             @if($get_cache)
                 @foreach($get_cache as $key => $value)
                     <li class="text-sm text-gray-700">{{ $value->file }}</li>

@@ -2,7 +2,7 @@
 	<div id="download-episode" class="w-[98%] my-8 border-2 border-sky-500 border-dashed" style="display: none"></div>
 	<div x-data="HNEpis()" x-init="loadPostsData()" class="w-full md:w-[98%] relative my-6 shadow-lg rounded-md sm:rounded-lg bg-white">
 		<table id="epis-datatable" class="w-full pp-2 text-sm text-left text-gray-500">
-			<thead class="text-xs text-gray-700 border-slate-200 uppercase bg-gray-50">
+			<thead class="text-xs text-gray-700 border-slate-100 uppercase bg-gray-50">
 				<tr>
 					<th scope="col" class="p-4 border-none">
 						<label for="checkAll" class="flex items-center cursor-pointer text-neutral-600 dark:text-neutral-300 ">

@@ -12,12 +12,12 @@
 			</div>
 			<div class="flex space-x-2">
 				@if($page > 1)
-					<a class="text-blue-600 hover:underline" href="{{ admin_url('admin.php?page=hnepis-movie-report&haun_page=' . ($page - 1)) }}">
+					<a class="text-blue-600 hover:underline text-md font-semibold" href="{{ admin_url('admin.php?page=hnepis-report&haun_page=' . ($page - 1)) }}">
 						‹ @hnepis('Prev')
 					</a>
 				@endif
 				@if($count / $show > $page)
-					<a class="text-blue-600 hover:underline" href="{{ admin_url('admin.php?page=hnepis-movie-report&haun_page=' . ($page + 1)) }}">
+					<a class="text-blue-600 hover:underline text-md font-semibold" href="{{ admin_url('admin.php?page=hnepis-report&haun_page=' . ($page + 1)) }}">
 						@hnepis('Next') ›
 					</a>
 				@endif
@@ -27,11 +27,11 @@
 		<table class="w-[98%] bg-white shadow-md rounded-lg overflow-hidden mb-4">
 			<thead>
 				<tr class="bg-gray-200 text-gray-700 text-left text-md uppercase tracking-wider">
-					<th class="px-4 py-2 text-center">@hnepis('Status')</th>
-					<th class="px-4 py-2">@hnepis('Reporter')</th>
+					<th class="px-px py-2 text-center text-[10px] font-semibold">@hnepis('Status')</th>
+					<th class="px-px py-2 text-center text-[10px] font-semibold">@hnepis('Reporter')</th>
 					<th class="px-4 py-2">@hnepis('Issues')</th>
 					<th class="px-4 py-2" colspan="3">@hnepis('Details')</th>
-					<th class="px-4 py-2">@hnepis('Time')</th>
+					<th class="px-2 py-2 text-center text-[10px] font-semibold">@hnepis('Time')</th>
 					<th class="px-4 py-2 text-center">@hnepis('Action')</th>
 				</tr>
 			</thead>
@@ -42,11 +42,11 @@
 					</tr>
 				@else
 					@foreach($data as $item)
-						<tr class="border-b last:border-b-0 item_{{ $item->id }}">
-							<td class="px-4 py-1 text-center">
+						<tr class="border-b border-slate-100 last:border-b-0 item_{{ $item->id }}">
+							<td class="px-px py-1 text-center">
 								<span class="{{ $item->seen == 0 ? 'text-red-500' : 'text-green-500' }}">●</span>
 							</td>
-							<td class="px-4 py-1 font-bold">{!! ($item->name == 'BOT') ? '<span class="text-red-600">'.$item->name.'</span>' : '<span class="text-blue-600">'.$item->name.'</span>' !!}</td>
+							<td class="px-px py-1 text-center">{!! ($item->name == 'BOT') ? '<span class="text-red-600 font-semibold">' . $item->name . '</span>' : '<span class="text-blue-600 font-semibold">' . $item->name . '</span>' !!}</td>
 							<td class="px-4 py-1">
 								@php
 									$details = explode('|', $item->content);
@@ -56,22 +56,22 @@
 									<div class="text-sm text-gray-600">{!! preg_replace('/(.*?)\s*(\(.*?)\)/is', '$1', $val) !!}</div>
 								@endforeach
 							</td>
-							<td class="px-4 py-1 max-w-72" colspan="3">
+							<td class="px-2 py-1 max-w-96" colspan="3">
 								@if(isset($details[0]) && $details[0] == __('Auto Report', 'hnepis'))
-									<span class="rounded-full w-auto border border-sky-500 bg-sky-500 px-1 py-1 text-[10px] font-bold text-white my-2 mr-2">{{ $details[0] }}</span>
+									<span class="rounded-full w-auto border border-sky-500 bg-sky-500 px-1.5 py-1 text-[8px] font-bold text-white my-2 mr-1">{{ $details[0] }}</span>
 								@else
-									<span class="text-sm">{{ $details[0] }}</span>
+									<span class="text-[8px]">{{ $details[0] }}</span>
 								@endif
-								<strong class="text-red-500 my-1">{{ $item->post_name }}</strong>
-								<div class="max-w-72 truncate"><a href="{{ $item->url }}" target="_blank" class="text-blue-500 hover:underline my-2 text-xs">{{ $item->url }}</a></div>
+								<strong class="text-red-500 text-[11px] my-1">{{ $item->post_name }}</strong>
+								<div class="max-w-96 my-2 truncate"><a href="{{ $item->url }}" target="_blank" class="text-blue-500 hover:underline my-2 text-[11px]">{{ $item->url }}</a></div>
 							</td>
-							<td class="px-4 py-1">{{ date("g:i m/d/Y", strtotime($item->date_time)) }}</td>
+							<td class="px-4 py-1 text-center text-[10px]">{{ date("g:i m/d/Y", strtotime($item->date_time)) }}</td>
 							<td class="px-4 py-1 text-center">
 								@if($item->seen == 0)
-									<span class="bg-sky-500 hover:bg-sky-700 px-4 py-1 text-xs leading-5 rounded-full font-semibold text-white cursor-pointer" @click="Markas_Resolved({{ $item->id }})">@hnepis('Mark As Resolved')</span>
+									<span class="bg-sky-500 hover:bg-sky-700 px-4 py-1 text-[11px] leading-5 rounded-full font-semibold text-white! cursor-pointer" @click="Markas_Resolved({{ $item->id }})">@hnepis('Mark As Resolved')</span>
 								@endif
-								<a href="{{ admin_url('admin.php?page=hncore-episode&act=edit_ep&post_id='.$item->post.'&server='.$item->server.'&episode='.$item->episode) }}" target="_blank" class="bg-blue-500 hover:bg-sky-700 px-4 py-1 text-xs leading-5 rounded-full font-semibold text-white cursor-pointer">@hnepis('Edit')</a>
-								<span class="bg-red-500 hover:bg-red-700 px-4 py-1 text-xs leading-5 rounded-full font-semibold text-white cursor-pointer" @click="Remove_Item({{ $item->id }})">@hnepis('Remove')</span>
+								<a href="{{ admin_url('admin.php?page=hncore-episode&act=edit_ep&post_id='.$item->post.'&server='.$item->server.'&episode='.$item->episode) }}" target="_blank" class="bg-blue-500 hover:bg-sky-700 px-4 py-1 text-[11px] leading-5 rounded-full font-semibold text-white! cursor-pointer">@hnepis('Edit')</a>
+								<span class="bg-red-500 hover:bg-red-700 px-4 py-1 text-[11px] leading-5 rounded-full font-semibold text-white! cursor-pointer" @click="Remove_Item({{ $item->id }})">@hnepis('Remove')</span>
 							</td>
 						</tr>
 					@endforeach

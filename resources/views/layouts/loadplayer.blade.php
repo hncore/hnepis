@@ -24,7 +24,7 @@
 	<div x-data="Load_Player()" x-init="loadPlayer()" id="hn-player-wrapper" class="ajax-player-loading relative {{ $aspectratio }} bg-black overflow-hidden" data-adult-content="{{ $is_adult }}">
 		@if(!post_password_required($post))
 			<div id="hn-player-loader" class="flex items-center justify-center absolute inset-0"></div>
-			<div class="absolute top-0 left-0 w-full h-full">
+			<div class="absolute top-0 left-0 w-full h-auto">
 				<div id="ajax-player"></div>
 			</div>
 			@if($check == 'is_trailer')

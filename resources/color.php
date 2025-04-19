@@ -21,7 +21,5 @@ return array(
 	'fivebg' 			=> csoptionepis('five_bgcolor') ?? '#282828',
 	'fivetext' 			=> csoptionepis('five_textcolor') ?? '#fdfdfd',
 	'fivebutton' 		=> csoptionepis('five_buttonbgcolor') ?? '#3a3a3a',
-	'hnlogosize' 		=> esc_attr(csoptionepis('logo_font_size')).'px' ?? '36px',
-	'hnlogowidth' 		=> esc_attr(csoptionepis('logo_width')).'px' ?? '160px',
-	'hnlogoheight' 		=> esc_attr(csoptionepis('logo_height')).'px' ?? '30px',
+	'hnfamily' 			=> csoptionepis('hn_fonts')['font-family'] ?? 'hncore',
 );

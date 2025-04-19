@@ -20,23 +20,26 @@
         }
     ],
     "require": {
-        "hncore/hnmanager": "^1.0.0"
+        "hncore/hnmanager": "^1.0.0",
+        "illuminate/pagination": "^9.0|^10.0|^11.0|^12.0"
     },
     "autoload": {
         "psr-4": {
             "HNEPIS\\": "src/"
         },
         "files": [
-            "src/Compat/constant.php",
-            "src/options/autoload.php",
-            "src/Compat/global.php"
+            "src/EP_Compat/autoload.php"
         ]
     },
     "extra": {
         "acorn": {
             "providers": [
                 "HNEPIS\\Providers\\EpisServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "EP_Navi": "HNEPIS\\EP_Facades\\EP_Navi",
+                "EP_Pagi": "HNEPIS\\EP_Facades\\EP_Pagi"
+            }
         }
     }
 }

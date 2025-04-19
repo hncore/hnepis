@@ -2842,7 +2842,6 @@
   }
 }
 :root {
-  --hnlogosize: 24px;
   --btnradius: 4px;
   --btnbg: #007bff;
   --btntext: #ffffff;
@@ -2864,8 +2863,6 @@
   --fivebg: #f8f9fa;
   --fivetext: #212529;
   --fivebutton: #007bff;
-  --hnlogowidth: 100px;
-  --hnlogoheight: 50px;
   --bordersv: 1px;
 }
 @font-face {

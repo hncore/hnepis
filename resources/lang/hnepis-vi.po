@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-01 00:10+0700\n"
-"PO-Revision-Date: 2025-04-09 17:07+0700\n"
+"PO-Revision-Date: 2025-04-21 04:42+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -1985,3 +1985,12 @@ msgstr "Hiển thị Metabox"
 
 msgid "Hide Metabox"
 msgstr "Ẩn Metabox"
+
+msgid "Data Structure Migration Required"
+msgstr "Cấu trúc dữ liệu cần di chuyển"
+
+msgid "We detected that your site is using an old data structure for movies. There are %s records that need to be converted to the new structure for improved performance."
+msgstr "Chúng tôi phát hiện trang web của bạn đang sử dụng cấu trúc dữ liệu cũ cho phim. Có %s bản ghi cần được chuyển đổi sang cấu trúc mới để cải thiện hiệu suất."
+
+msgid "Convert Data Now"
+msgstr "Chuyển Ngay"

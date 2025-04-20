@@ -1979,3 +1979,13 @@ msgstr ""
 
 msgid "Hide Metabox"
 msgstr ""
+
+msgid "Data Structure Migration Required"
+msgstr ""
+
+msgid "We detected that your site is using an old data structure for movies. There are %s records that need to be converted to the new structure for improved performance."
+msgstr ""
+
+msgid "Convert Data Now"
+msgstr ""
+
